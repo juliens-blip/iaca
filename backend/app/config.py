@@ -20,9 +20,17 @@ class Settings(BaseSettings):
     rate_limit_enabled: bool = False
     rate_limit_requests: int = 60
     rate_limit_window_seconds: int = 60
+    cors_origins: str = "http://localhost:3000,http://127.0.0.1:3000"
 
     class Config:
         env_file = str(PROJECT_ROOT / ".env")
+
+    def get_cors_origins(self) -> list[str]:
+        return [
+            origin.strip()
+            for origin in self.cors_origins.split(",")
+            if origin.strip()
+        ]
 
 
 settings = Settings()
