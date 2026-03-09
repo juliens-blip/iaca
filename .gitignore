@@ -1,0 +1,36 @@
+# Secrets - NE PAS COMMITTER
+.env
+*.env
+
+# Auto-generated
+.auto-skills/
+__pycache__/
+*.pyc
+venv/
+.venv/
+
+# Node
+node_modules/
+.next/
+*.tsbuildinfo
+
+# Data (large files)
+data/
+*.db
+*.sqlite
+docs/
+uploads/
+
+# Logs
+logs/
+*.log
+
+# Claude Code
+.claude/
+
+# OS
+.DS_Store
+
+# Embedded repositories
+awesome-mcp-servers/
+mcp/Figma-Context-MCP/

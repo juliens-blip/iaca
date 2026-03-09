@@ -1,0 +1,115 @@
+{
+  "mappings": [
+    {
+      "path": "Droit public ",
+      "matiere": "Droit public",
+      "description": "Droit constitutionnel, administratif, fonction publique, police administrative, service public",
+      "couleur": "#2563eb"
+    },
+    {
+      "path": "Economie",
+      "matiere": "Economie",
+      "description": "Politique economique, macro et microeconomie",
+      "couleur": "#f59e0b"
+    },
+    {
+      "path": "Finances Publiques",
+      "matiere": "Finances publiques",
+      "description": "Budget, comptabilite publique, fiscalite",
+      "couleur": "#10b981"
+    },
+    {
+      "path": "Question contemporaine",
+      "matiere": "Questions contemporaines",
+      "description": "Enjeux de societe, debats actuels, recueil INSP 2025",
+      "couleur": "#8b5cf6"
+    },
+    {
+      "path": "Questions sociales ",
+      "matiere": "Questions sociales",
+      "description": "Protection sociale, droit du travail, negociation collective",
+      "couleur": "#ec4899"
+    },
+    {
+      "path": "Relations internationales ",
+      "matiere": "Relations internationales",
+      "description": "Droit international public, institutions internationales",
+      "couleur": "#06b6d4"
+    },
+    {
+      "path": "Espagnol",
+      "matiere": "Espagnol",
+      "description": "Preparation oraux d'espagnol, fiches thematiques",
+      "couleur": "#ef4444"
+    },
+    {
+      "path": "Licence 2 Assas/DROIT L2 Semestre 3",
+      "matiere": "Licence 2 - Semestre 3",
+      "description": "Cours de droit L2 Assas, semestre 3",
+      "couleur": "#3b82f6"
+    },
+    {
+      "path": "Licence 2 Assas/DROIT L2 Semestre 4",
+      "matiere": "Licence 2 - Semestre 4",
+      "description": "Cours de droit L2 Assas, semestre 4",
+      "couleur": "#6366f1"
+    },
+    {
+      "path": "Licence 2 Assas/Fiche de révision 2025 - 2026 ",
+      "matiere": "Licence 2 - Fiches revision",
+      "description": "Fiches de revision L2 2025-2026",
+      "couleur": "#a855f7"
+    },
+    {
+      "path": "Licence 3 assas/Semestre 5",
+      "matiere": "Licence 3 - Semestre 5",
+      "description": "Cours de droit L3 Assas, semestre 5",
+      "couleur": "#14b8a6"
+    },
+    {
+      "path": "Licence 3 assas/Semestre 6",
+      "matiere": "Licence 3 - Semestre 6",
+      "description": "Cours de droit L3 Assas, semestre 6",
+      "couleur": "#0ea5e9"
+    },
+    {
+      "path": "Licence 3 assas/TEDS",
+      "matiere": "TEDS (L3)",
+      "description": "Travaux diriges et exercices L3",
+      "couleur": "#84cc16"
+    },
+    {
+      "path": "Licence 3 assas/Scolarité",
+      "matiere": "Scolarite L3",
+      "description": "Documents administratifs et scolarite L3 Assas",
+      "couleur": "#78716c"
+    },
+    {
+      "path": "Livres et manuels",
+      "matiere": "Livres et manuels",
+      "description": "Manuels de reference, ouvrages juridiques, GAJA, Truchet, Auzero",
+      "couleur": "#b45309"
+    },
+    {
+      "path": "S1_M1_Droit et légistique",
+      "matiere": "M1 Droit et legistique",
+      "description": "Master 1 - Droit et legistique, semestre 1",
+      "couleur": "#dc2626"
+    },
+    {
+      "path": "S1_M1_Politique économique",
+      "matiere": "M1 Politique economique",
+      "description": "Master 1 - Politique economique, semestre 1",
+      "couleur": "#ca8a04"
+    },
+    {
+      "path": "S1_Management et égalités pro _( ",
+      "matiere": "M1 Management et egalites",
+      "description": "Master 1 - Management et egalites professionnelles, semestre 1",
+      "couleur": "#e11d48"
+    }
+  ],
+  "root_files_matiere": "Documents divers",
+  "root_files_description": "Documents racine non classes",
+  "root_files_couleur": "#64748b"
+}
