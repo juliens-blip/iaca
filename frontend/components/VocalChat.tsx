@@ -2,6 +2,7 @@
 
 import { useState, useRef, useEffect, useCallback } from "react";
 import { withAuthQuery } from "@/lib/auth";
+import { getApiWebSocketUrl } from "@/lib/api";
 
 interface Message {
   role: "user" | "assistant" | "system";
@@ -163,8 +164,7 @@ export default function VocalChat({ onClose }: VocalChatProps) {
     if (!mountedRef.current) return;
     if (wsRef.current?.readyState === WebSocket.OPEN || wsRef.current?.readyState === WebSocket.CONNECTING) return;
 
-    const wsProtocol = window.location.protocol === "https:" ? "wss" : "ws";
-    const base = withAuthQuery(`${wsProtocol}://${window.location.hostname}:8000/api/vocal/ws`);
+    const base = withAuthQuery(getApiWebSocketUrl("/api/vocal/ws"));
     const wsUrl = new URL(base);
     const model = modelOverride || selectedModel;
     if (model) {
