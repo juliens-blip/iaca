@@ -6,7 +6,7 @@ setuptools<81
 python-multipart==0.0.6
 pymupdf==1.23.8
 python-pptx==0.6.23
-google-generativeai==0.3.2
+google-genai>=1.0.0
 httpx==0.26.0
 python-docx==1.1.0
 pydantic-settings==2.1.0
