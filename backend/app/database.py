@@ -3,7 +3,18 @@ from sqlalchemy.orm import DeclarativeBase
 
 from app.config import settings
 
-DATABASE_URL = settings.database_url.replace("sqlite:///", "sqlite+aiosqlite:///")
+
+def _build_async_url(url: str) -> str:
+    """Convert a DATABASE_URL to its async driver variant."""
+    if url.startswith("sqlite:///"):
+        return url.replace("sqlite:///", "sqlite+aiosqlite:///")
+    if url.startswith("postgresql://"):
+        return url.replace("postgresql://", "postgresql+asyncpg://", 1)
+    # Already async-ready (postgresql+asyncpg://, sqlite+aiosqlite://, etc.)
+    return url
+
+
+DATABASE_URL = _build_async_url(settings.database_url)
 
 engine = create_async_engine(DATABASE_URL, echo=settings.debug)
 
