@@ -2,6 +2,7 @@
 Service d'extraction de texte depuis des documents PDF, PPTX et DOCX.
 """
 
+import asyncio
 import os
 
 
@@ -25,17 +26,25 @@ async def parse_document(file_path: str) -> str:
     extension = os.path.splitext(file_path)[1].lower()
 
     if extension == ".pdf":
-        return _extract_pdf(file_path)
+        return await _extract_pdf_async(file_path)
     elif extension == ".pptx":
-        return _extract_pptx(file_path)
+        loop = asyncio.get_event_loop()
+        return await loop.run_in_executor(None, _extract_pptx, file_path)
     elif extension == ".docx":
-        return _extract_docx(file_path)
+        loop = asyncio.get_event_loop()
+        return await loop.run_in_executor(None, _extract_docx, file_path)
     else:
         raise ValueError(f"Type de fichier non supporte: {extension}")
 
 
+async def _extract_pdf_async(file_path: str) -> str:
+    """Extrait le contenu d'un PDF: tente marker (markdown structuré), puis fitz en fallback."""
+    from backend.app.services.marker_parser import parse_pdf_with_marker
+    return await parse_pdf_with_marker(file_path)
+
+
 def _extract_pdf(file_path: str) -> str:
-    """Extrait le texte d'un fichier PDF via pymupdf (fitz)."""
+    """Extrait le texte d'un fichier PDF via pymupdf (fitz) — conservé pour usage direct."""
     import fitz  # pymupdf
 
     text_parts: list[str] = []

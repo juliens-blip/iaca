@@ -1,8 +1,12 @@
 import asyncio
+import difflib
 import json
+import logging
 import os
 import re
 from typing import Any
+
+log = logging.getLogger(__name__)
 
 
 FICHE_MIN_SECTIONS = 6
@@ -283,17 +287,120 @@ def _sanitize_fiche_payload(payload: Any, contenu: str, titre_doc: str) -> dict[
     }
 
 
-async def generer_flashcards(contenu: str, matiere: str, nb: int = 10) -> list[dict]:
-    """Generate flashcards from document content using Claude."""
-    source = _ensure_generation_source(contenu)
-    prompt = f"""Tu es un expert en {matiere} pour la préparation aux concours administratifs français.
+def _validate_flashcard(card: dict) -> bool:
+    """Reject cards with trivially short or self-identical fields."""
+    question = _normalize_text(str(card.get("question", "")))
+    reponse = _normalize_text(str(card.get("reponse", "")))
+    if len(question) < 20:
+        log.warning("[validate_flashcard] rejetee — question trop courte (%d chars): %r", len(question), question[:60])
+        return False
+    if len(reponse) < 30:
+        log.warning("[validate_flashcard] rejetee — reponse trop courte (%d chars): %r", len(reponse), reponse[:60])
+        return False
+    if question.lower() == reponse.lower():
+        log.warning("[validate_flashcard] rejetee — question == reponse: %r", question[:60])
+        return False
+    return True
 
-À partir du contenu suivant, génère exactement {nb} flashcards de révision.
+
+def _validate_fiche_section(section: dict, source_chunk: str = "") -> bool:
+    """Reject sections with generic titles, short content, or near-verbatim copy of source."""
+    titre = _normalize_text(str(section.get("titre", "")))
+    contenu = _normalize_text(str(section.get("contenu", "")))
+    if _is_generic_section_title(titre):
+        log.warning("[validate_section] rejetee — titre generique: %r", titre)
+        return False
+    if len(contenu) < 150:
+        log.warning("[validate_section] rejetee — contenu trop court (%d chars): titre=%r", len(contenu), titre)
+        return False
+    if source_chunk:
+        ratio = difflib.SequenceMatcher(None, contenu[:500], source_chunk[:500]).ratio()
+        if ratio > 0.85:
+            log.warning("[validate_section] rejetee — trop proche du source (ratio=%.2f): titre=%r", ratio, titre)
+            return False
+    return True
+
+
+def chunk_content(markdown_text: str, max_chars: int = 4000) -> list[str]:
+    """Split markdown text into chunks of ~max_chars by section headers (##, ###).
+
+    If a section exceeds max_chars it is further split at paragraph boundaries.
+    """
+    if not markdown_text:
+        return []
+
+    section_pattern = re.compile(r"^#{1,3} .+", re.MULTILINE)
+    matches = list(section_pattern.finditer(markdown_text))
+
+    if not matches:
+        raw_chunks = [
+            markdown_text[i:i + max_chars]
+            for i in range(0, len(markdown_text), max_chars)
+        ]
+        return [c.strip() for c in raw_chunks if c.strip()]
+
+    boundaries = [m.start() for m in matches] + [len(markdown_text)]
+    raw_sections = [
+        markdown_text[boundaries[i]:boundaries[i + 1]].strip()
+        for i in range(len(matches))
+    ]
+
+    chunks: list[str] = []
+    current = ""
+    for section in raw_sections:
+        if len(section) > max_chars:
+            if current:
+                chunks.append(current.strip())
+                current = ""
+            paragraphs = re.split(r"\n\s*\n+", section)
+            buf = ""
+            for para in paragraphs:
+                if len(buf) + len(para) + 2 > max_chars and buf:
+                    chunks.append(buf.strip())
+                    buf = para
+                else:
+                    buf = (buf + "\n\n" + para).strip() if buf else para
+            if buf:
+                chunks.append(buf.strip())
+        elif len(current) + len(section) + 2 > max_chars:
+            if current:
+                chunks.append(current.strip())
+            current = section
+        else:
+            current = (current + "\n\n" + section).strip() if current else section
+
+    if current:
+        chunks.append(current.strip())
+
+    return [c for c in chunks if c]
+
+
+async def generer_flashcards(contenu: str, matiere: str, nb: int = 10) -> list[dict]:
+    """Generate flashcards from document content using Claude with chunking."""
+    source = _ensure_generation_source(contenu)
+    chunks = chunk_content(source, max_chars=4000)
+    if not chunks:
+        chunks = [source[:4000]]
+
+    nb_chunks = len(chunks)
+    nb_per_chunk = max(5, nb // nb_chunks)
+
+    all_cards: list[dict] = []
+    for chunk in chunks:
+        prompt = f"""Tu es un expert en {matiere} pour la preparation aux concours administratifs francais.
+
+A partir du contenu suivant, genere exactement {nb_per_chunk} flashcards de revision.
+
+REGLES IMPERATIVES:
+- REFORMULE et ADAPTE: ne copie pas le texte source mot pour mot.
+- Chaque question doit tester la COMPREHENSION (application, raisonnement, distinction de notions).
+- La reponse doit etre une synthese reformulee, pas un extrait brut.
+- L'explication doit apporter un eclairage complementaire (exemple concret, jurisprudence, methode).
 
 CONTENU:
-{source[:8000]}
+{chunk}
 
-Réponds UNIQUEMENT en JSON valide, sans texte avant ou après:
+Reponds UNIQUEMENT en JSON valide, sans texte avant ou apres:
 [
   {{
     "question": "...",
@@ -303,24 +410,53 @@ Réponds UNIQUEMENT en JSON valide, sans texte avant ou après:
   }}
 ]
 
-Difficulté de 1 (basique) à 5 (expert). Les questions doivent tester la compréhension, pas juste la mémorisation."""
+Difficulte de 1 (basique) a 5 (expert)."""
 
-    result = await run_claude_cli(prompt)
-    parsed = _extract_json_array(result)
-    return [item for item in parsed if isinstance(item, dict)]
+        result = await run_claude_cli(prompt)
+        parsed = _extract_json_array(result)
+        raw_cards = [item for item in parsed if isinstance(item, dict)]
+        valid_cards = [c for c in raw_cards if _validate_flashcard(c)]
+        if raw_cards and len(valid_cards) < len(raw_cards) * 0.5:
+            log.warning(
+                "[generer_flashcards] chunk %d/%d: seulement %d/%d cartes valides — regeneration",
+                chunks.index(chunk) + 1, nb_chunks, len(valid_cards), len(raw_cards),
+            )
+            result2 = await run_claude_cli(prompt)
+            parsed2 = _extract_json_array(result2)
+            valid_cards2 = [c for c in parsed2 if isinstance(c, dict) and _validate_flashcard(c)]
+            if len(valid_cards2) > len(valid_cards):
+                valid_cards = valid_cards2
+        all_cards.extend(valid_cards)
+
+    return all_cards[:nb] if len(all_cards) > nb else all_cards
 
 
 async def generer_qcm(contenu: str, matiere: str, nb: int = 5) -> list[dict]:
-    """Generate QCM questions from document content using Claude."""
+    """Generate QCM questions from document content using Claude with chunking."""
     source = _ensure_generation_source(contenu)
-    prompt = f"""Tu es un expert en {matiere} pour la préparation aux concours administratifs français.
+    chunks = chunk_content(source, max_chars=4000)
+    if not chunks:
+        chunks = [source[:4000]]
 
-À partir du contenu suivant, génère exactement {nb} questions à choix multiples.
+    nb_chunks = len(chunks)
+    nb_per_chunk = max(2, nb // nb_chunks)
+
+    all_qcm: list[dict] = []
+    for chunk in chunks:
+        prompt = f"""Tu es un expert en {matiere} pour la preparation aux concours administratifs francais.
+
+A partir du contenu suivant, genere exactement {nb_per_chunk} questions a choix multiples.
+
+REGLES IMPERATIVES:
+- REFORMULE et ADAPTE: ne copie pas le texte source mot pour mot.
+- Chaque question doit tester la COMPREHENSION (application, distinction de notions, cas pratique).
+- Les choix incorrects doivent etre plausibles (erreurs classiques, confusions courantes).
+- L'explication doit justifier le bon choix avec un eclairage pedagogique (exemple, jurisprudence, methode).
 
 CONTENU:
-{source[:8000]}
+{chunk}
 
-Réponds UNIQUEMENT en JSON valide, sans texte avant ou après:
+Reponds UNIQUEMENT en JSON valide, sans texte avant ou apres:
 [
   {{
     "question": "...",
@@ -331,48 +467,82 @@ Réponds UNIQUEMENT en JSON valide, sans texte avant ou après:
   }}
 ]
 
-reponse_correcte = index (0-3) du bon choix. Difficulté de 1 à 5.
-Inclus des cas pratiques juridiques quand pertinent."""
+reponse_correcte = index (0-3) du bon choix. Difficulte de 1 a 5."""
 
-    result = await run_claude_cli(prompt)
-    parsed = _extract_json_array(result)
-    return [item for item in parsed if isinstance(item, dict)]
+        result = await run_claude_cli(prompt)
+        parsed = _extract_json_array(result)
+        all_qcm.extend(item for item in parsed if isinstance(item, dict))
+
+    return all_qcm[:nb] if len(all_qcm) > nb else all_qcm
 
 
 async def generer_fiche(contenu: str, matiere: str, titre_doc: str) -> dict:
-    """Generate a structured revision sheet from document content using Claude."""
+    """Generate a structured revision sheet from document content using Claude with chunking."""
     source = _ensure_generation_source(contenu)
-    prompt = f"""Tu es un redacteur pedagogique expert en {matiere} pour les concours administratifs francais.
+    chunks = chunk_content(source, max_chars=4000)
+    if not chunks:
+        chunks = [source[:4000]]
 
-Objectif: generer une fiche de revision de haute precision, exploitable sans ambiguite.
+    all_sections: list[dict] = []
+    resume_parts: list[str] = []
+
+    for idx, chunk in enumerate(chunks):
+        chunk_label = f"partie {idx + 1}/{len(chunks)}"
+        prompt = f"""Tu es un redacteur pedagogique expert en {matiere} pour les concours administratifs francais.
+
+Objectif: generer des sections de fiche de revision pedagogique a partir d'une {chunk_label} du document.
 
 DOCUMENT: {titre_doc}
 
-CONTENU SOURCE:
-{source[:8000]}
+CONTENU SOURCE ({chunk_label}):
+{chunk}
+
+REGLES IMPERATIVES:
+- REFORMULE completement: ne copie pas le texte source mot pour mot.
+- Chaque section doit REFORMULER et SYNTHETISER les notions en langage pedagogique clair.
+- Inclure obligatoirement pour chaque section: definition reformulee, conditions/exceptions, exemple concret ou jurisprudence, methode d'application.
+- PAS d'extraction brute, PAS de copier-coller du source.
 
 Reponds UNIQUEMENT en JSON valide, sans markdown, sans texte avant/apres:
 {{
-  "titre": "Titre explicite de la fiche",
-  "resume": "Resume operationnel en 140 a 240 mots",
+  "resume_partiel": "Synthese pedagogique de cette partie en 60-100 mots (pas un extrait brut)",
   "sections": [
     {{
-      "titre": "Titre specifique (pas generique)",
-      "contenu": "120 a 260 mots incluant definitions, conditions, exceptions, methode, exemple ou point d'application"
+      "titre": "Titre specifique et explicite (pas: Introduction, Divers, Section 1)",
+      "contenu": "150 a 280 mots: definition reformulee + conditions/exceptions + exemple ou jurisprudence + point d'application"
     }}
   ]
 }}
 
-Contraintes obligatoires:
-- 8 a 10 sections distinctes.
-- Couvrir les grands themes du document (pas uniquement un angle).
-- Interdits: sections vides, titres vagues (ex: Introduction, Divers, Section 1), phrases creuses.
-- Chaque section doit contenir au moins un element actionnable (exemple, methode, point d'application, erreur frequente).
-- Style clair, concret, pedagogique."""
+Contraintes: 2 a 4 sections pour cette partie. Titres distincts et precis. Aucune section vide."""
 
-    result = await run_claude_cli(prompt)
-    payload = _extract_json_object(result)
-    return _sanitize_fiche_payload(payload, source, titre_doc)
+        result = await run_claude_cli(prompt)
+        payload = _extract_json_object(result)
+        raw_sections = [s for s in (payload.get("sections") or []) if isinstance(s, dict)]
+        valid_sections = [s for s in raw_sections if _validate_fiche_section(s, chunk)]
+        if raw_sections and not valid_sections:
+            log.warning(
+                "[generer_fiche] chunk %d/%d: 0 sections valides sur %d — regeneration",
+                idx + 1, len(chunks), len(raw_sections),
+            )
+            result2 = await run_claude_cli(prompt)
+            payload2 = _extract_json_object(result2)
+            raw_sections2 = [s for s in (payload2.get("sections") or []) if isinstance(s, dict)]
+            valid_sections2 = [s for s in raw_sections2 if _validate_fiche_section(s, chunk)]
+            if valid_sections2:
+                valid_sections = valid_sections2
+                payload = payload2
+        all_sections.extend(valid_sections)
+        if payload.get("resume_partiel"):
+            resume_parts.append(str(payload["resume_partiel"]).strip())
+
+    assembled_resume = " ".join(resume_parts)
+    assembled_payload = {
+        "titre": f"Fiche - {titre_doc}",
+        "resume": assembled_resume,
+        "sections": all_sections,
+    }
+    return _sanitize_fiche_payload(assembled_payload, source, titre_doc)
 
 
 async def analyser_document(contenu: str) -> dict:

@@ -1,0 +1,64 @@
+ID    Titre                                           Matière                         Score  FC  Fi  Raisons
+------------------------------------------------------------------------------------------------------------
+16    Test Upload                                     Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+17    Compo laïcité Elno                              Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+22    Note DF Elno                                    Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+23    Note Opérationnelle Gabriel Faudou 4A-CA 29.11  Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+46    CE 1903 Terrier                                 Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+47    CE 1968 Semoules                                Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+48    CE 1989 Nicolo                                  Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+49    TC 1873 Blanco                                  Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+202   QCM-2 économie                                  Économie et finances publiques     18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+224   B. Manin - Principes gvt représentatif          Questions contemporaines           18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+238   LEMAIRE                                         Questions contemporaines           18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+259   Etat                                            Questions contemporaines           18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+266   Nation                                          Questions contemporaines           18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+295   Mngmt S4                                        Questions sociales                 18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+301   Mngt S3                                         Questions sociales                 18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+462   B. Manin - Principes gvt représentatif          Questions contemporaines           18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+471   LEMAIRE                                         Questions contemporaines           18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+480   Etat                                            Questions contemporaines           18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+485   Nation                                          Questions contemporaines           18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+486   République                                      Questions contemporaines           18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+487   Compo laïcité Elno                              Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+492   Note DF Elno                                    Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+493   Note Opérationnelle Gabriel Faudou 4A-CA 29.11  Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+516   CE 1903 Terrier                                 Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+517   CE 1968 Semoules                                Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+518   CE 1989 Nicolo                                  Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+519   TC 1873 Blanco                                  Droit public                       18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+702   QCM DAF recap                                   Licence 2 - Semestre 3             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+715   Actu Covid19                                    Licence 2 - Semestre 3             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+720   Exemples denseignes                             Licence 2 - Semestre 3             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+721   Extrait Infogreffe société Dalloz               Licence 2 - Semestre 3             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+724   Schémas EI 1                                    Licence 2 - Semestre 3             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+769   DCO1_2024-2025_Méthodologie dissertation        Licence 2 - Semestre 3             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+806   QCM PGDE 2023                                   Licence 2 - Semestre 3             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+807   QCM PGDE MAI 2024                               Licence 2 - Semestre 3             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+808   Sujet PGDE mai 2025                             Licence 2 - Semestre 3             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+809   plan_cours_PGDE                                 Licence 2 - Semestre 3             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+816   Sujet anglais mai 2025                          Licence 2 - Semestre 4             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+834   QCM FP MAI 2022                                 Licence 2 - Semestre 4             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+836   QCM FP MAI 2024                                 Licence 2 - Semestre 4             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+886   Partiel                                         Licence 2 - Semestre 4             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+887   QCM DAF2 MAI 2024                               Licence 2 - Semestre 4             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+893   Casino franchise                                Licence 2 - Semestre 4             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+915   Les actes administratifs unilatéraux            Licence 2 - Semestre 4             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+975   DCO2_2024-2025_Méthodologie commentaire darrêt  Licence 2 - Semestre 4             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+979   Sujet Mai 2025                                  Licence 2 - Semestre 4             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+1046  5 PP                                            Licence 3 - Semestre 5             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+1226  DFA Juin 2025                                   Licence 3 - Semestre 6             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+1228  DFA Partiel 2024                                Licence 3 - Semestre 6             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+1229  DFA Partiel 2025                                Licence 3 - Semestre 6             18   0   0  contenu vide/court (<200 chars), aucune fiche, aucune flashcard
+
+============================================================
+STATS GLOBALES (1614 documents au total)
+============================================================
+  Contenu vide/court (<200 chars) :   346
+  Sans fiche                      :   641
+  Sans flashcard                  :   418
+  Fiche à titre générique         :   860
+  Score zéro (rien à faire)       :   104
+  Docs avec score > 0             :  1510
+  Score moyen (docs > 0)          :      6.4
+  Score max                       :    18

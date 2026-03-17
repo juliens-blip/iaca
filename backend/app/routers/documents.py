@@ -17,6 +17,7 @@ from app.models.document import Document
 from app.schemas.document import DocumentResponse, DocumentListItem
 from app.config import settings
 from app.services.document_parser import parse_document
+from app.services.marker_parser import parse_pdf_with_marker
 
 router = APIRouter()
 
@@ -131,6 +132,43 @@ async def get_document(
         raise HTTPException(status_code=404, detail="Document non trouve")
 
     return document
+
+
+@router.post("/{document_id}/reextract")
+async def reextract_document(
+    document_id: int,
+    db: AsyncSession = Depends(get_db),
+):
+    """Re-extrait le contenu d'un document via marker (PDF) ou document_parser (autres formats)."""
+    result = await db.execute(select(Document).where(Document.id == document_id))
+    document = result.scalar_one_or_none()
+
+    if document is None:
+        raise HTTPException(status_code=404, detail="Document non trouve")
+
+    if not os.path.exists(document.fichier_path):
+        raise HTTPException(status_code=404, detail="Fichier source introuvable sur le disque")
+
+    chars_avant = len(document.contenu_extrait or "")
+
+    extension = os.path.splitext(document.fichier_path)[1].lower()
+    try:
+        if extension == ".pdf":
+            nouveau_contenu = await parse_pdf_with_marker(document.fichier_path)
+        else:
+            nouveau_contenu = (await parse_document(document.fichier_path)).strip()
+    except Exception as exc:
+        raise HTTPException(status_code=500, detail=f"Erreur d'extraction: {str(exc)}")
+
+    document.contenu_extrait = nouveau_contenu
+    await db.commit()
+
+    return {
+        "id": document.id,
+        "titre": document.titre,
+        "chars_avant": chars_avant,
+        "chars_apres": len(nouveau_contenu),
+    }
 
 
 @router.delete("/{document_id}")
