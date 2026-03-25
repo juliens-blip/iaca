@@ -1,0 +1,17 @@
+17:22:47 INFO    Fournisseur IA: gemini
+17:23:37 INFO    Phase 2 — génération fiches: 1 documents sans fiche
+17:23:37 INFO    [fiche] [481] Fiche notion _ La démocratie [Questions contemporaines] [gemini] …
+17:23:45 INFO    AFC is enabled with max remote calls: 10.
+17:23:46 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+17:23:46 WARNING Gemini 429 (attempt 1/3) — retry in 30s
+17:24:16 INFO    AFC is enabled with max remote calls: 10.
+17:24:30 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:24:30 INFO    AFC is enabled with max remote calls: 10.
+17:24:46 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:24:46 INFO    AFC is enabled with max remote calls: 10.
+17:25:00 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:25:00 INFO    [fiche] [481] OK — fiche_id=2573 sections=10
+17:25:05 INFO    Phase 2 terminée — ok=1 skipped=0 error=0
+17:25:57 INFO    Phase 3 — génération flashcards: 0 documents avec < 5 flashcards
+17:25:57 INFO    Phase 3 — flashcards suffisantes partout
+17:25:57 INFO    Terminé.

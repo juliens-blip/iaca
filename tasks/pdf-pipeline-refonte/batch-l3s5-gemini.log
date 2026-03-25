@@ -98,3 +98,37 @@
 08:38:42 INFO    AFC is enabled with max remote calls: 10.
 08:38:44 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
 08:38:44 ERROR   [fiche] [1092] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:38:54 INFO    [fiche] [1093] DTR S7 [Licence 3 - Semestre 5] [gemini] …
+08:38:55 INFO    AFC is enabled with max remote calls: 10.
+08:39:06 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:39:06 INFO    AFC is enabled with max remote calls: 10.
+08:39:24 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:39:24 INFO    AFC is enabled with max remote calls: 10.
+08:39:28 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:39:28 ERROR   [fiche] [1093] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:39:38 INFO    [fiche] [1094] DTR S8 [Licence 3 - Semestre 5] [gemini] …
+08:39:38 INFO    AFC is enabled with max remote calls: 10.
+08:39:53 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:39:54 INFO    AFC is enabled with max remote calls: 10.
+08:40:06 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:40:06 INFO    AFC is enabled with max remote calls: 10.
+08:40:18 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:40:18 INFO    AFC is enabled with max remote calls: 10.
+08:40:30 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:40:30 INFO    [fiche] [1094] OK — fiche_id=2552 sections=10
+08:40:35 INFO    [fiche] [1095] DTR S9 [Licence 3 - Semestre 5] [gemini] …
+08:40:35 INFO    AFC is enabled with max remote calls: 10.
+08:40:48 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:40:48 INFO    AFC is enabled with max remote calls: 10.
+08:41:01 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:41:01 INFO    AFC is enabled with max remote calls: 10.
+08:41:16 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:41:16 ERROR   [fiche] [1095] ERREUR: Claude n'a pas retourné un JSON object valide
+08:41:26 INFO    [fiche] [1105] 2307817_BEILOUNY EMMA L3 numérique en droit Janvier 2025 Dro [Licence 3 - Semestre 5] [gemini] …
+08:41:26 INFO    AFC is enabled with max remote calls: 10.
+08:41:34 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:41:34 INFO    [fiche] [1105] OK — fiche_id=2554 sections=3
+08:41:39 INFO    Phase 2 terminée — ok=2 skipped=0 error=18
+08:41:39 INFO    Phase 3 — génération flashcards: 0 documents avec < 5 flashcards
+08:41:39 INFO    Phase 3 — flashcards suffisantes partout
+08:41:39 INFO    Terminé.

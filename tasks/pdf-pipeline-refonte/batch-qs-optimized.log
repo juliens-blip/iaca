@@ -1,0 +1,6 @@
+17:26:03 INFO    Fournisseur IA: gemini
+17:26:51 INFO    Phase 2 — génération fiches: 0 documents sans fiche
+17:26:51 INFO    Phase 2 — toutes les fiches sont présentes
+17:27:36 INFO    Phase 3 — génération flashcards: 0 documents avec < 5 flashcards
+17:27:36 INFO    Phase 3 — flashcards suffisantes partout
+17:27:36 INFO    Terminé.

@@ -1,0 +1,22 @@
+17:26:27 INFO    Fournisseur IA: gemini
+17:27:17 INFO    Phase 2 — génération fiches: 4 documents sans fiche
+17:27:17 INFO    [fiche] [1299] 2105484_PORRET RAPHAEL L3 numérique en droit mai 2024 Droit  [Licence 3 - Semestre 6] [gemini] …
+17:27:22 INFO    AFC is enabled with max remote calls: 10.
+17:27:36 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:27:37 INFO    [fiche] [1299] OK — fiche_id=2578 sections=4
+17:27:42 INFO    [fiche] [1300] 2105484_PORRET RAPHAEL L3 numérique en droit mai 2024 Droit  [Licence 3 - Semestre 6] [gemini] …
+17:27:42 INFO    AFC is enabled with max remote calls: 10.
+17:27:55 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:27:55 INFO    [fiche] [1300] OK — fiche_id=2580 sections=4
+17:28:00 INFO    [fiche] [1301] 2307817_BEILOUNY EMMA L3 numérique en droit Mai 2025 Droit a [Licence 3 - Semestre 6] [gemini] …
+17:28:01 INFO    AFC is enabled with max remote calls: 10.
+17:28:11 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:28:11 INFO    [fiche] [1301] OK — fiche_id=2582 sections=4
+17:28:16 INFO    [fiche] [1302] 2309532_DEQUET CHRISTELLE L3 numérique en droit mai 2024 Dro [Licence 3 - Semestre 6] [gemini] …
+17:28:16 INFO    AFC is enabled with max remote calls: 10.
+17:28:28 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:28:28 INFO    [fiche] [1302] OK — fiche_id=2584 sections=4
+17:28:33 INFO    Phase 2 terminée — ok=4 skipped=0 error=0
+17:29:17 INFO    Phase 3 — génération flashcards: 0 documents avec < 5 flashcards
+17:29:17 INFO    Phase 3 — flashcards suffisantes partout
+17:29:17 INFO    Terminé.

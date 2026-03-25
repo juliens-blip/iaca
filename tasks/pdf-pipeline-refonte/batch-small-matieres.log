@@ -1,0 +1,42 @@
+=== Espagnol ===
+17:27:53 INFO    Fournisseur IA: gemini
+17:28:36 INFO    Phase 2 — génération fiches: 3 documents sans fiche
+17:28:36 INFO    [fiche] [1427] Retos en América Latina 2025 [Espagnol] [gemini] …
+17:28:42 INFO    AFC is enabled with max remote calls: 10.
+17:28:53 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:28:53 INFO    [fiche] [1427] OK — fiche_id=2586 sections=3
+17:28:58 INFO    [fiche] [1428] Résumés espagnol [Espagnol] [gemini] …
+17:28:58 INFO    AFC is enabled with max remote calls: 10.
+17:29:07 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:29:08 INFO    [fiche] [1428] OK — fiche_id=2588 sections=3
+17:29:13 INFO    [fiche] [1429] Résumés révision exam espagnol [Espagnol] [gemini] …
+17:29:13 INFO    AFC is enabled with max remote calls: 10.
+17:29:24 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:29:24 INFO    [fiche] [1429] OK — fiche_id=2590 sections=3
+17:29:29 INFO    Phase 2 terminée — ok=3 skipped=0 error=0
+17:30:09 INFO    Phase 3 — génération flashcards: 5 documents avec < 5 flashcards
+17:30:09 INFO    [flashcard] [1423] Exposé Colombia [Espagnol] [gemini] — existantes: 0 …
+17:30:09 INFO    AFC is enabled with max remote calls: 10.
+17:30:19 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:30:19 INFO    [flashcard] [1423] OK — 10 cartes insérées
+17:30:24 INFO    [flashcard] [1424] Exposé Venezuela (ES_FR) [Espagnol] [gemini] — existantes: 0 …
+17:30:24 INFO    AFC is enabled with max remote calls: 10.
+17:30:34 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:30:34 INFO    [flashcard] [1424] OK — 10 cartes insérées
+17:30:39 INFO    [flashcard] [1425] exposé Salvador [Espagnol] [gemini] — existantes: 0 …
+17:30:40 INFO    AFC is enabled with max remote calls: 10.
+17:30:49 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:30:49 INFO    [flashcard] [1425] OK — 10 cartes insérées
+17:30:54 INFO    [flashcard] [1426] México narco 2025 [Espagnol] [gemini] — existantes: 0 …
+17:30:54 INFO    AFC is enabled with max remote calls: 10.
+17:31:05 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:31:05 INFO    [flashcard] [1426] OK — 10 cartes insérées
+17:31:10 INFO    [flashcard] [1427] Retos en América Latina 2025 [Espagnol] [gemini] — existantes: 0 …
+17:31:11 INFO    AFC is enabled with max remote calls: 10.
+17:31:22 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:31:22 INFO    [flashcard] [1427] OK — 10 cartes insérées
+17:31:27 INFO    Phase 3 terminée — ok=5 skipped=0 error=0
+17:31:27 INFO    Terminé.
+
+=== Relations internationales ===
+17:31:28 INFO    Fournisseur IA: gemini
