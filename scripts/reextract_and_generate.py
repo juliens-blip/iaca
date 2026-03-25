@@ -13,10 +13,13 @@ Options:
   --skip-fiches      Saute la phase de génération de fiches
   --skip-flashcards  Saute la phase de génération de flashcards
   --min-flashcards N Seuil de flashcards en dessous duquel on régénère (défaut: 5)
+  --provider         Fournisseur IA : claude | gemini | auto (défaut: auto)
+                     auto = essaie claude, repasse sur gemini si rate-limit
 """
 
 import argparse
 import asyncio
+import contextlib
 import logging
 import os
 import sqlite3
@@ -178,6 +181,62 @@ def save_flashcards(conn: sqlite3.Connection, doc_id: int, matiere_id: int | Non
 
 
 # ---------------------------------------------------------------------------
+# Provider routing
+# ---------------------------------------------------------------------------
+
+@contextlib.asynccontextmanager
+async def _gemini_backend():
+    """Temporarily replace claude_service.run_claude_cli with gemini_service._generate.
+
+    Both share the same signature: async (prompt: str) -> str.
+    This lets generer_fiche / generer_flashcards run unchanged while using Gemini.
+    """
+    from app.services import claude_service, gemini_service  # type: ignore
+    original = claude_service.run_claude_cli
+    claude_service.run_claude_cli = gemini_service._generate
+    try:
+        yield
+    finally:
+        claude_service.run_claude_cli = original
+
+
+async def _generer_fiche_provider(contenu: str, matiere: str, titre: str, provider: str) -> dict:
+    from app.services import claude_service  # type: ignore
+    if provider == "gemini":
+        async with _gemini_backend():
+            return await claude_service.generer_fiche(contenu, matiere, titre)
+    if provider == "auto":
+        try:
+            return await claude_service.generer_fiche(contenu, matiere, titre)
+        except RuntimeError as exc:
+            if "limit" in str(exc).lower() or "rate" in str(exc).lower():
+                log.warning("Claude rate-limit — bascule Gemini pour cette fiche")
+                async with _gemini_backend():
+                    return await claude_service.generer_fiche(contenu, matiere, titre)
+            raise
+    # provider == "claude"
+    return await claude_service.generer_fiche(contenu, matiere, titre)
+
+
+async def _generer_flashcards_provider(contenu: str, matiere: str, nb: int, provider: str) -> list[dict]:
+    from app.services import claude_service  # type: ignore
+    if provider == "gemini":
+        async with _gemini_backend():
+            return await claude_service.generer_flashcards(contenu, matiere, nb=nb)
+    if provider == "auto":
+        try:
+            return await claude_service.generer_flashcards(contenu, matiere, nb=nb)
+        except RuntimeError as exc:
+            if "limit" in str(exc).lower() or "rate" in str(exc).lower():
+                log.warning("Claude rate-limit — bascule Gemini pour ces flashcards")
+                async with _gemini_backend():
+                    return await claude_service.generer_flashcards(contenu, matiere, nb=nb)
+            raise
+    # provider == "claude"
+    return await claude_service.generer_flashcards(contenu, matiere, nb=nb)
+
+
+# ---------------------------------------------------------------------------
 # Phases async
 # ---------------------------------------------------------------------------
 
@@ -215,9 +274,7 @@ async def phase_reextract(conn: sqlite3.Connection, docs: list, dry_run: bool) -
     return stats
 
 
-async def phase_fiches(conn: sqlite3.Connection, docs: list, dry_run: bool) -> dict:
-    from app.services import claude_service  # type: ignore
-
+async def phase_fiches(conn: sqlite3.Connection, docs: list, dry_run: bool, provider: str = "auto") -> dict:
     stats = {"attempted": 0, "ok": 0, "skipped": 0, "error": 0}
     for doc in docs:
         stats["attempted"] += 1
@@ -228,7 +285,7 @@ async def phase_fiches(conn: sqlite3.Connection, docs: list, dry_run: bool) -> d
             continue
 
         matiere_nom = doc["matiere_nom"] or "droit public"
-        log.info("[fiche] [%d] %s [%s] …", doc["id"], doc["titre"][:60], matiere_nom)
+        log.info("[fiche] [%d] %s [%s] [%s] …", doc["id"], doc["titre"][:60], matiere_nom, provider)
 
         if dry_run:
             log.info("[fiche] [%d] DRY-RUN — ignoré", doc["id"])
@@ -236,7 +293,7 @@ async def phase_fiches(conn: sqlite3.Connection, docs: list, dry_run: bool) -> d
             continue
 
         try:
-            fiche_data = await claude_service.generer_fiche(contenu, matiere_nom, doc["titre"])
+            fiche_data = await _generer_fiche_provider(contenu, matiere_nom, doc["titre"], provider)
             fiche_id = save_fiche(conn, doc["id"], doc["matiere_id"], fiche_data)
             nb_sec = len(fiche_data.get("sections", []))
             log.info("[fiche] [%d] OK — fiche_id=%d sections=%d", doc["id"], fiche_id, nb_sec)
@@ -250,9 +307,7 @@ async def phase_fiches(conn: sqlite3.Connection, docs: list, dry_run: bool) -> d
     return stats
 
 
-async def phase_flashcards(conn: sqlite3.Connection, docs: list, dry_run: bool) -> dict:
-    from app.services import claude_service  # type: ignore
-
+async def phase_flashcards(conn: sqlite3.Connection, docs: list, dry_run: bool, provider: str = "auto") -> dict:
     stats = {"attempted": 0, "ok": 0, "skipped": 0, "error": 0}
     for doc in docs:
         stats["attempted"] += 1
@@ -265,8 +320,8 @@ async def phase_flashcards(conn: sqlite3.Connection, docs: list, dry_run: bool) 
         matiere_nom = doc["matiere_nom"] or "droit public"
         nb_existing = doc["nb_flashcards"] if "nb_flashcards" in doc.keys() else 0
         log.info(
-            "[flashcard] [%d] %s [%s] — existantes: %d …",
-            doc["id"], doc["titre"][:60], matiere_nom, nb_existing,
+            "[flashcard] [%d] %s [%s] [%s] — existantes: %d …",
+            doc["id"], doc["titre"][:60], matiere_nom, provider, nb_existing,
         )
 
         if dry_run:
@@ -275,7 +330,7 @@ async def phase_flashcards(conn: sqlite3.Connection, docs: list, dry_run: bool) 
             continue
 
         try:
-            cards = await claude_service.generer_flashcards(contenu, matiere_nom, nb=10)
+            cards = await _generer_flashcards_provider(contenu, matiere_nom, nb=10, provider=provider)
             saved = save_flashcards(conn, doc["id"], doc["matiere_id"], cards)
             log.info("[flashcard] [%d] OK — %d cartes insérées", doc["id"], saved)
             stats["ok"] += 1
@@ -302,6 +357,8 @@ async def main(args: argparse.Namespace) -> None:
     limit = args.limit
     matiere = args.matiere
     min_fc = args.min_flashcards
+    provider = args.provider
+    log.info("Fournisseur IA: %s", provider)
 
     if dry_run:
         log.info("=== MODE DRY-RUN — aucune écriture en DB ===")
@@ -324,7 +381,7 @@ async def main(args: argparse.Namespace) -> None:
         docs_fiches = fetch_docs_without_fiche(conn, matiere, limit)
         log.info("Phase 2 — génération fiches: %d documents sans fiche", len(docs_fiches))
         if docs_fiches:
-            stats = await phase_fiches(conn, docs_fiches, dry_run)
+            stats = await phase_fiches(conn, docs_fiches, dry_run, provider)
             log.info(
                 "Phase 2 terminée — ok=%d skipped=%d error=%d",
                 stats["ok"], stats["skipped"], stats["error"],
