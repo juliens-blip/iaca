@@ -43,24 +43,41 @@ EXTRACTION_ERROR_PREFIX = "[Erreur d'extraction:"
 MIN_SOURCE_CONTENT_CHARS = 120
 
 
-async def run_claude_cli(prompt: str, max_tokens: int = 4096) -> str:
-    """Execute Claude via CLI (uses the user's Claude subscription)."""
+async def run_claude_cli(prompt: str, max_retries: int = 3) -> str:
+    """Execute Claude via CLI with retry on rate-limit."""
     env = os.environ.copy()
     for key in list(env.keys()):
-        if key.startswith("CLAUDE"):
+        if key.startswith("CLAUDE") or "anthropic" in key.lower() or "mcp" in key.lower():
             del env[key]
     cmd = ["claude", "--print", "--output-format", "text"]
-    process = await asyncio.create_subprocess_exec(
-        *cmd,
-        stdin=asyncio.subprocess.PIPE,
-        stdout=asyncio.subprocess.PIPE,
-        stderr=asyncio.subprocess.PIPE,
-        env=env,
-    )
-    stdout, stderr = await process.communicate(input=prompt.encode())
-    if process.returncode != 0:
-        raise RuntimeError(f"Claude CLI error: {stderr.decode()}")
-    return stdout.decode().strip()
+
+    for attempt in range(1, max_retries + 1):
+        process = await asyncio.create_subprocess_exec(
+            *cmd,
+            stdin=asyncio.subprocess.PIPE,
+            stdout=asyncio.subprocess.PIPE,
+            stderr=asyncio.subprocess.PIPE,
+            env=env,
+        )
+        stdout, stderr = await process.communicate(input=prompt.encode())
+
+        if process.returncode == 0:
+            return stdout.decode().strip()
+
+        stderr_text = stderr.decode().strip()
+        stdout_text = stdout.decode().strip()
+        error_detail = stderr_text or stdout_text or "(empty)"
+
+        if attempt < max_retries:
+            wait = 30 * attempt  # 30s, 60s, 90s
+            log.warning(
+                "Claude CLI error (attempt %d/%d, rc=%d): %s — retry in %ds",
+                attempt, max_retries, process.returncode,
+                error_detail[:200], wait,
+            )
+            await asyncio.sleep(wait)
+        else:
+            raise RuntimeError(f"Claude CLI error (rc={process.returncode}): {error_detail}")
 
 
 def _normalize_text(value: str) -> str:
@@ -387,20 +404,41 @@ async def generer_flashcards(contenu: str, matiere: str, nb: int = 10) -> list[d
 
     all_cards: list[dict] = []
     for chunk in chunks:
-        prompt = f"""Tu es un expert en {matiere} pour la preparation aux concours administratifs francais.
+        prompt = f"""Tu es un professeur expert en {matiere} qui prepare des etudiants aux concours administratifs francais (IRA, ENA, concours de categorie A).
 
-A partir du contenu suivant, genere exactement {nb_per_chunk} flashcards de revision.
+Tu dois creer {nb_per_chunk} flashcards de revision a partir du contenu ci-dessous. Chaque flashcard doit etre un outil d'apprentissage autonome — un etudiant doit pouvoir apprendre uniquement avec la flashcard, sans avoir lu le document source.
 
-REGLES IMPERATIVES:
-- REFORMULE et ADAPTE: ne copie pas le texte source mot pour mot.
-- Chaque question doit tester la COMPREHENSION (application, raisonnement, distinction de notions).
-- La reponse doit etre une synthese reformulee, pas un extrait brut.
-- L'explication doit apporter un eclairage complementaire (exemple concret, jurisprudence, methode).
+COMMENT FORMULER CHAQUE FLASHCARD:
 
-CONTENU:
+1. QUESTION: Pose une question precise qui teste la comprehension, pas la memorisation brute.
+   - BON: "Quel mecanisme juridique permet au juge administratif de controler les actes reglementaires depuis l'arret Terrier de 1903?"
+   - BON: "En quoi la jurisprudence Nicolo (1989) modifie-t-elle la hierarchie des normes en droit francais?"
+   - MAUVAIS: "Qu'est-ce que l'arret Terrier?" (trop vague)
+   - MAUVAIS: "Citez l'article 55 de la Constitution" (memorisation pure)
+
+2. REPONSE: Redige une reponse claire et complete en 2-4 phrases.
+   - Commence par la reponse directe a la question.
+   - Ajoute le contexte necessaire (date, juridiction, portee).
+   - Utilise un vocabulaire precis mais accessible.
+   - INTERDIT: copier des phrases du document source. Reformule avec tes propres mots.
+
+3. EXPLICATION: Apporte une valeur ajoutee pedagogique en 2-3 phrases.
+   - Donne un exemple concret d'application.
+   - OU explique pourquoi c'est important pour le concours.
+   - OU fais un lien avec une autre notion du programme.
+   - OU signale un piege classique d'examen.
+
+4. DIFFICULTE: Note de 1 a 5.
+   - 1 = definition de base, tout etudiant doit savoir
+   - 2 = mecanisme a comprendre, pas juste connaitre
+   - 3 = distinction entre notions proches, cas d'application
+   - 4 = raisonnement juridique complexe, exceptions
+   - 5 = problematique de dissertation, debat doctrinal
+
+CONTENU SOURCE:
 {chunk}
 
-Reponds UNIQUEMENT en JSON valide, sans texte avant ou apres:
+Reponds UNIQUEMENT en JSON valide (pas de markdown, pas de texte autour):
 [
   {{
     "question": "...",
@@ -408,9 +446,7 @@ Reponds UNIQUEMENT en JSON valide, sans texte avant ou apres:
     "explication": "...",
     "difficulte": 1
   }}
-]
-
-Difficulte de 1 (basique) a 5 (expert)."""
+]"""
 
         result = await run_claude_cli(prompt)
         parsed = _extract_json_array(result)
@@ -443,20 +479,34 @@ async def generer_qcm(contenu: str, matiere: str, nb: int = 5) -> list[dict]:
 
     all_qcm: list[dict] = []
     for chunk in chunks:
-        prompt = f"""Tu es un expert en {matiere} pour la preparation aux concours administratifs francais.
+        prompt = f"""Tu es un professeur expert en {matiere} qui cree des QCM pour des etudiants preparant les concours administratifs francais (IRA, ENA, categorie A).
 
-A partir du contenu suivant, genere exactement {nb_per_chunk} questions a choix multiples.
+Cree {nb_per_chunk} questions a choix multiples a partir du contenu ci-dessous. Chaque QCM doit etre un vrai exercice de reflexion, pas une question de memorisation.
 
-REGLES IMPERATIVES:
-- REFORMULE et ADAPTE: ne copie pas le texte source mot pour mot.
-- Chaque question doit tester la COMPREHENSION (application, distinction de notions, cas pratique).
-- Les choix incorrects doivent etre plausibles (erreurs classiques, confusions courantes).
-- L'explication doit justifier le bon choix avec un eclairage pedagogique (exemple, jurisprudence, methode).
+COMMENT FORMULER CHAQUE QCM:
 
-CONTENU:
+1. QUESTION: Pose une question qui necessite de COMPRENDRE, pas juste de se souvenir.
+   - BON: "Un etablissement public local decide de deleguer la gestion de sa cantine. Quel regime juridique s'applique au contrat?"
+   - BON: "Parmi ces situations, laquelle releve de la competence du juge administratif?"
+   - MAUVAIS: "En quelle annee a ete rendu l'arret Blanco?" (memorisation pure)
+   - Privilegier les mises en situation, les cas pratiques, les distinctions entre notions proches.
+
+2. CHOIX (exactement 4): Les mauvaises reponses doivent etre PLAUSIBLES.
+   - Utiliser des confusions classiques que font les etudiants.
+   - Eviter les choix absurdes ou trop evidents.
+   - Chaque choix doit etre de longueur comparable.
+
+3. EXPLICATION: Justifie la bonne reponse ET explique pourquoi les autres sont fausses.
+   - "La reponse A est correcte car... La reponse B est fausse car elle confond X et Y."
+   - Cite la jurisprudence ou le texte pertinent.
+   - Donne un moyen mnemotechnique si possible.
+
+4. DIFFICULTE: 1 (definition), 2 (comprehension), 3 (application), 4 (analyse), 5 (synthese/debat).
+
+CONTENU SOURCE:
 {chunk}
 
-Reponds UNIQUEMENT en JSON valide, sans texte avant ou apres:
+Reponds UNIQUEMENT en JSON valide (pas de markdown, pas de texte autour):
 [
   {{
     "question": "...",
@@ -467,7 +517,7 @@ Reponds UNIQUEMENT en JSON valide, sans texte avant ou apres:
   }}
 ]
 
-reponse_correcte = index (0-3) du bon choix. Difficulte de 1 a 5."""
+reponse_correcte = index (0-3) du bon choix."""
 
         result = await run_claude_cli(prompt)
         parsed = _extract_json_array(result)
@@ -485,36 +535,65 @@ async def generer_fiche(contenu: str, matiere: str, titre_doc: str) -> dict:
 
     all_sections: list[dict] = []
     resume_parts: list[str] = []
+    fiche_titre: str | None = None
 
     for idx, chunk in enumerate(chunks):
         chunk_label = f"partie {idx + 1}/{len(chunks)}"
-        prompt = f"""Tu es un redacteur pedagogique expert en {matiere} pour les concours administratifs francais.
+        prompt = f"""Tu es un professeur expert en {matiere} qui redige des fiches de revision pour des etudiants preparant les concours administratifs francais (IRA, ENA, categorie A).
 
-Objectif: generer des sections de fiche de revision pedagogique a partir d'une {chunk_label} du document.
+Tu dois transformer le contenu source ci-dessous en sections de fiche de revision pedagogique. Imagine que tu expliques le cours a un etudiant intelligent mais qui decouvre le sujet — sois clair, precis et structure.
 
-DOCUMENT: {titre_doc}
+DOCUMENT: {titre_doc} ({chunk_label})
 
-CONTENU SOURCE ({chunk_label}):
+CONTENU SOURCE:
 {chunk}
 
-REGLES IMPERATIVES:
-- REFORMULE completement: ne copie pas le texte source mot pour mot.
-- Chaque section doit REFORMULER et SYNTHETISER les notions en langage pedagogique clair.
-- Inclure obligatoirement pour chaque section: definition reformulee, conditions/exceptions, exemple concret ou jurisprudence, methode d'application.
-- PAS d'extraction brute, PAS de copier-coller du source.
+COMMENT REDIGER CHAQUE SECTION:
 
-Reponds UNIQUEMENT en JSON valide, sans markdown, sans texte avant/apres:
+1. TITRE: Formule un titre qui resume le contenu de la section de facon explicite.
+   - BON: "Le controle de conventionnalite depuis l'arret Nicolo (1989)"
+   - BON: "Distinction entre service public administratif et service public industriel"
+   - MAUVAIS: "Section 1", "Introduction", "Suite", "Le droit", "Article 55"
+
+2. CONTENU (200-350 mots par section): Redige comme si tu ecrivais un cours structure.
+   Chaque section DOIT contenir ces 4 elements:
+
+   a) DEFINITION ou PRINCIPE: Commence par expliquer clairement la notion centrale.
+      Ecris comme si l'etudiant n'avait jamais entendu parler du sujet.
+
+   b) MECANISME ou CONDITIONS: Explique comment ca fonctionne en pratique.
+      Quelles sont les conditions? Les etapes? Les criteres?
+
+   c) ILLUSTRATION: Donne un exemple concret, une jurisprudence cle, ou un cas pratique.
+      "Par exemple, dans l'arret Blanco (1873), le TC a..."
+
+   d) ENJEU POUR LE CONCOURS: Termine par ce que l'etudiant doit retenir pour l'examen.
+      "En dissertation, ce point permet d'articuler..." ou "Attention, ne pas confondre avec..."
+
+3. RESUME PARTIEL: Synthetise cette partie du document en 60-100 mots.
+   Ce resume doit donner envie de lire les sections et situer le contenu dans le programme.
+
+REGLES ABSOLUES:
+- JAMAIS de copier-coller du texte source. Reformule TOUT avec tes propres mots.
+- JAMAIS de titres generiques (Section 1, Introduction, Divers, Conclusion).
+- JAMAIS de contenu telegraphique ou de listes de mots-cles sans phrases.
+- Chaque section doit etre comprehensible SEULE, sans avoir lu le document source.
+- Si le source est des notes de cours desorganisees, REORGANISE et REFORMULE.
+- Si le source est une transcription orale, REDIGE en style ecrit structure.
+
+Reponds UNIQUEMENT en JSON valide (pas de markdown, pas de texte autour):
 {{
-  "resume_partiel": "Synthese pedagogique de cette partie en 60-100 mots (pas un extrait brut)",
+  "titre_fiche": "Titre pedagogique global pour cette fiche (ex: 'Le controle de constitutionnalite en droit francais')",
+  "resume_partiel": "...",
   "sections": [
     {{
-      "titre": "Titre specifique et explicite (pas: Introduction, Divers, Section 1)",
-      "contenu": "150 a 280 mots: definition reformulee + conditions/exceptions + exemple ou jurisprudence + point d'application"
+      "titre": "...",
+      "contenu": "..."
     }}
   ]
 }}
 
-Contraintes: 2 a 4 sections pour cette partie. Titres distincts et precis. Aucune section vide."""
+Genere 2 a 4 sections pour cette partie."""
 
         result = await run_claude_cli(prompt)
         payload = _extract_json_object(result)
@@ -535,10 +614,14 @@ Contraintes: 2 a 4 sections pour cette partie. Titres distincts et precis. Aucun
         all_sections.extend(valid_sections)
         if payload.get("resume_partiel"):
             resume_parts.append(str(payload["resume_partiel"]).strip())
+        if not fiche_titre and payload.get("titre_fiche"):
+            candidate = str(payload["titre_fiche"]).strip().strip('"').strip("'")
+            if len(candidate) > 5 and not candidate.lower().startswith("section"):
+                fiche_titre = candidate
 
     assembled_resume = " ".join(resume_parts)
     assembled_payload = {
-        "titre": f"Fiche - {titre_doc}",
+        "titre": fiche_titre or f"Fiche - {titre_doc}",
         "resume": assembled_resume,
         "sections": all_sections,
     }

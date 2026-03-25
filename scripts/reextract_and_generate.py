@@ -241,9 +241,11 @@ async def phase_fiches(conn: sqlite3.Connection, docs: list, dry_run: bool) -> d
             nb_sec = len(fiche_data.get("sections", []))
             log.info("[fiche] [%d] OK — fiche_id=%d sections=%d", doc["id"], fiche_id, nb_sec)
             stats["ok"] += 1
+            await asyncio.sleep(5)  # Rate-limit spacing
         except Exception as exc:
             log.error("[fiche] [%d] ERREUR: %s", doc["id"], exc)
             stats["error"] += 1
+            await asyncio.sleep(10)  # Longer pause after error
 
     return stats
 
@@ -277,9 +279,11 @@ async def phase_flashcards(conn: sqlite3.Connection, docs: list, dry_run: bool) 
             saved = save_flashcards(conn, doc["id"], doc["matiere_id"], cards)
             log.info("[flashcard] [%d] OK — %d cartes insérées", doc["id"], saved)
             stats["ok"] += 1
+            await asyncio.sleep(5)  # Rate-limit spacing
         except Exception as exc:
             log.error("[flashcard] [%d] ERREUR: %s", doc["id"], exc)
             stats["error"] += 1
+            await asyncio.sleep(10)  # Longer pause after error
 
     return stats
 
