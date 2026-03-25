@@ -1,0 +1,27 @@
+03:53:42 INFO    Phase 2 — génération fiches: 3 documents sans fiche
+03:53:42 INFO    [fiche] [631] ADM 7(2) [Licence 2 - Semestre 3] …
+04:06:23 INFO    [fiche] [631] OK — fiche_id=2525 sections=10
+04:06:28 INFO    [fiche] [632] ADM 7 [Licence 2 - Semestre 3] …
+04:18:02 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:18:39 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:19:46 ERROR   [fiche] [632] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:19:56 INFO    [fiche] [633] ADM 8(1) [Licence 2 - Semestre 3] …
+04:20:04 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:20:40 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:21:48 ERROR   [fiche] [633] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:21:58 INFO    Phase 2 terminée — ok=1 skipped=0 error=2
+04:21:59 INFO    Phase 3 — génération flashcards: 3 documents avec < 5 flashcards
+04:21:59 INFO    [flashcard] [1433] ADM 11 - Les normes internationales et européennes [Licence 2 - Semestre 3] — existantes: 0 …
+04:22:07 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:22:44 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:23:51 ERROR   [flashcard] [1433] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:24:01 INFO    [flashcard] [1434] ADM 12 - Les normes législatives et réglementaires [Licence 2 - Semestre 3] — existantes: 0 …
+04:24:08 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:24:45 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:25:52 ERROR   [flashcard] [1434] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:26:02 INFO    [flashcard] [1435] Corrigé-Catarina Cotic Belloube_TD_principe_légalité [Licence 2 - Semestre 3] — existantes: 0 …
+04:26:09 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:26:46 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:27:53 ERROR   [flashcard] [1435] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:28:03 INFO    Phase 3 terminée — ok=0 skipped=0 error=3
+04:28:03 INFO    Terminé.

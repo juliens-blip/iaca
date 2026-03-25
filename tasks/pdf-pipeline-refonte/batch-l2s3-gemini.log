@@ -1,0 +1,14 @@
+08:37:11 INFO    Fournisseur IA: gemini
+08:37:11 INFO    Phase 2 — génération fiches: 15 documents sans fiche
+08:37:11 INFO    [fiche] [632] ADM 7 [Licence 2 - Semestre 3] [gemini] …
+08:37:15 INFO    AFC is enabled with max remote calls: 10.
+08:37:17 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:37:17 WARNING Gemini 429 (attempt 1/3) — retry in 30s
+08:37:47 INFO    AFC is enabled with max remote calls: 10.
+08:38:04 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:38:04 INFO    AFC is enabled with max remote calls: 10.
+08:38:05 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:38:05 WARNING Gemini 429 (attempt 1/3) — retry in 30s
+08:38:35 INFO    AFC is enabled with max remote calls: 10.
+08:38:37 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:38:37 WARNING Gemini 429 (attempt 2/3) — retry in 60s

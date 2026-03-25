@@ -1,0 +1,82 @@
+08:28:43 INFO    Fournisseur IA: gemini
+08:28:44 INFO    Phase 2 — génération fiches: 15 documents sans fiche
+08:28:44 INFO    [fiche] [490] Les arrêts [Droit public] [gemini] …
+08:28:47 INFO    AFC is enabled with max remote calls: 10.
+08:29:07 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:29:07 INFO    AFC is enabled with max remote calls: 10.
+08:29:24 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:29:24 INFO    AFC is enabled with max remote calls: 10.
+08:29:41 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:29:41 INFO    AFC is enabled with max remote calls: 10.
+08:30:01 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:30:01 INFO    AFC is enabled with max remote calls: 10.
+08:30:16 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:30:16 INFO    AFC is enabled with max remote calls: 10.
+08:30:30 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:30:30 INFO    AFC is enabled with max remote calls: 10.
+08:30:32 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:30:32 ERROR   [fiche] [490] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:30:42 INFO    [fiche] [491] Lien quizzlet _inversé_ tout chapitres [Droit public] [gemini] …
+08:30:43 INFO    AFC is enabled with max remote calls: 10.
+08:30:56 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:30:56 INFO    [fiche] [491] OK — fiche_id=2542 sections=4
+08:31:01 INFO    [fiche] [494] Fiche hierarchie des normes [Droit public] [gemini] …
+08:31:01 INFO    AFC is enabled with max remote calls: 10.
+08:31:18 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:31:18 INFO    [fiche] [494] OK — fiche_id=2544 sections=2
+08:31:23 INFO    [fiche] [495] Fiche sur les acteurs qui contrôlent le respect de la hiérar [Droit public] [gemini] …
+08:31:23 INFO    AFC is enabled with max remote calls: 10.
+08:31:38 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:31:38 INFO    [fiche] [495] OK — fiche_id=2546 sections=5
+08:31:43 INFO    [fiche] [496] Fiche technique _ Les sources du droit public et la hiérarch [Droit public] [gemini] …
+08:31:43 INFO    AFC is enabled with max remote calls: 10.
+08:31:46 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:31:46 ERROR   [fiche] [496] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:31:56 INFO    [fiche] [497] Introduction - Le contrôle du respect de la hiérarchie des n [Droit public] [gemini] …
+08:31:56 INFO    AFC is enabled with max remote calls: 10.
+08:32:07 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:32:07 INFO    [fiche] [497] OK — fiche_id=2547 sections=3
+08:32:12 INFO    [fiche] [498] L_exigence de qualité des normes_ [Droit public] [gemini] …
+08:32:12 INFO    AFC is enabled with max remote calls: 10.
+08:32:25 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:32:25 INFO    [fiche] [498] OK — fiche_id=2548 sections=5
+08:32:30 INFO    [fiche] [499] La hiérarchie des normes de droit de l’UE [Droit public] [gemini] …
+08:32:30 INFO    AFC is enabled with max remote calls: 10.
+08:32:47 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:32:47 ERROR   [fiche] [499] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:32:57 INFO    [fiche] [500] Le contrôle de légalité de l’acte administratif [Droit public] [gemini] …
+08:32:58 INFO    AFC is enabled with max remote calls: 10.
+08:32:59 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:32:59 ERROR   [fiche] [500] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:33:09 INFO    [fiche] [502] Liens Quizlet [Droit public] [gemini] …
+08:33:09 INFO    AFC is enabled with max remote calls: 10.
+08:33:11 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:33:11 ERROR   [fiche] [502] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:33:21 INFO    [fiche] [505] II- La dualité des ordres de juridictions [Droit public] [gemini] …
+08:33:21 INFO    AFC is enabled with max remote calls: 10.
+08:33:34 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:33:34 INFO    AFC is enabled with max remote calls: 10.
+08:33:36 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:33:36 ERROR   [fiche] [505] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:33:46 INFO    [fiche] [506] La répartition des compétences juridictionnelles entre jurid [Droit public] [gemini] …
+08:33:46 INFO    AFC is enabled with max remote calls: 10.
+08:33:59 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:33:59 INFO    AFC is enabled with max remote calls: 10.
+08:34:01 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:34:01 ERROR   [fiche] [506] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:34:11 INFO    [fiche] [507] Lien quizlet_ [Droit public] [gemini] …
+08:34:11 INFO    AFC is enabled with max remote calls: 10.
+08:34:12 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:34:12 ERROR   [fiche] [507] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:34:22 INFO    [fiche] [508] Code général de la fonction publique, livre 1 _ résumé [Droit public] [gemini] …
+08:34:22 INFO    AFC is enabled with max remote calls: 10.
+08:34:37 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:34:37 ERROR   [fiche] [508] ERREUR: Claude n'a pas retourné un JSON object valide
+08:34:47 INFO    [fiche] [509] Fiche Fonction publique [Droit public] [gemini] …
+08:34:47 INFO    AFC is enabled with max remote calls: 10.
+08:35:01 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:35:01 INFO    AFC is enabled with max remote calls: 10.
+08:35:14 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:35:15 INFO    [fiche] [509] OK — fiche_id=2550 sections=8
+08:35:20 INFO    Phase 2 terminée — ok=6 skipped=0 error=9
+08:35:20 INFO    Terminé.

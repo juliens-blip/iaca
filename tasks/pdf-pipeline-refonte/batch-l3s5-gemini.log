@@ -1,0 +1,100 @@
+08:31:57 INFO    Fournisseur IA: gemini
+08:31:57 INFO    Phase 2 — génération fiches: 20 documents sans fiche
+08:31:57 INFO    [fiche] [1076] Titre IIII [Licence 3 - Semestre 5] [gemini] …
+08:32:01 INFO    AFC is enabled with max remote calls: 10.
+08:32:13 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:32:13 INFO    AFC is enabled with max remote calls: 10.
+08:32:14 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:32:14 ERROR   [fiche] [1076] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:32:24 INFO    [fiche] [1077] Titre IV [Licence 3 - Semestre 5] [gemini] …
+08:32:24 INFO    AFC is enabled with max remote calls: 10.
+08:32:26 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:32:26 ERROR   [fiche] [1077] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:32:36 INFO    [fiche] [1078] titre II [Licence 3 - Semestre 5] [gemini] …
+08:32:36 INFO    AFC is enabled with max remote calls: 10.
+08:32:48 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:32:49 INFO    AFC is enabled with max remote calls: 10.
+08:33:04 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:33:04 INFO    AFC is enabled with max remote calls: 10.
+08:33:05 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:33:05 ERROR   [fiche] [1078] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:33:15 INFO    [fiche] [1079] 2307817_BEILOUNY EMMA L3 numérique en droit Janvier 2025 Dro [Licence 3 - Semestre 5] [gemini] …
+08:33:16 INFO    AFC is enabled with max remote calls: 10.
+08:33:17 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:33:17 ERROR   [fiche] [1079] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:33:27 INFO    [fiche] [1080] Cours magistral DTR [Licence 3 - Semestre 5] [gemini] …
+08:33:27 INFO    AFC is enabled with max remote calls: 10.
+08:33:28 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:33:28 ERROR   [fiche] [1080] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:33:38 INFO    [fiche] [1082] DTR S1 - Introduction (I) [Licence 3 - Semestre 5] [gemini] …
+08:33:38 INFO    AFC is enabled with max remote calls: 10.
+08:33:50 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:33:50 INFO    AFC is enabled with max remote calls: 10.
+08:33:51 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:33:51 ERROR   [fiche] [1082] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:34:01 INFO    [fiche] [1083] DTR S1 [Licence 3 - Semestre 5] [gemini] …
+08:34:01 INFO    AFC is enabled with max remote calls: 10.
+08:34:11 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:34:11 INFO    AFC is enabled with max remote calls: 10.
+08:34:24 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:34:24 INFO    AFC is enabled with max remote calls: 10.
+08:34:37 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:34:37 INFO    AFC is enabled with max remote calls: 10.
+08:34:38 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:34:38 ERROR   [fiche] [1083] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:34:48 INFO    [fiche] [1084] DTR S10 [Licence 3 - Semestre 5] [gemini] …
+08:34:48 INFO    AFC is enabled with max remote calls: 10.
+08:34:49 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:34:49 ERROR   [fiche] [1084] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:34:59 INFO    [fiche] [1085] DTR S11 [Licence 3 - Semestre 5] [gemini] …
+08:35:00 INFO    AFC is enabled with max remote calls: 10.
+08:35:06 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:35:06 ERROR   [fiche] [1085] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:35:16 INFO    [fiche] [1086] DTR S2 - Introduction (II) [Licence 3 - Semestre 5] [gemini] …
+08:35:16 INFO    AFC is enabled with max remote calls: 10.
+08:35:18 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:35:18 ERROR   [fiche] [1086] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:35:28 INFO    [fiche] [1087] DTR S2 [Licence 3 - Semestre 5] [gemini] …
+08:35:29 INFO    AFC is enabled with max remote calls: 10.
+08:35:30 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:35:30 ERROR   [fiche] [1087] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:35:40 INFO    [fiche] [1088] DTR S3 [Licence 3 - Semestre 5] [gemini] …
+08:35:41 INFO    AFC is enabled with max remote calls: 10.
+08:35:52 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:35:53 INFO    AFC is enabled with max remote calls: 10.
+08:36:04 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:36:04 INFO    AFC is enabled with max remote calls: 10.
+08:36:16 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:36:16 INFO    AFC is enabled with max remote calls: 10.
+08:36:18 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:36:18 ERROR   [fiche] [1088] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:36:28 INFO    [fiche] [1089] DTR S4 - Le choix du contrat de travail [Licence 3 - Semestre 5] [gemini] …
+08:36:29 INFO    AFC is enabled with max remote calls: 10.
+08:36:31 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:36:31 ERROR   [fiche] [1089] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:36:41 INFO    [fiche] [1090] DTR S4 [Licence 3 - Semestre 5] [gemini] …
+08:36:41 INFO    AFC is enabled with max remote calls: 10.
+08:36:57 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:36:57 INFO    AFC is enabled with max remote calls: 10.
+08:37:12 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:37:12 INFO    AFC is enabled with max remote calls: 10.
+08:37:27 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:37:27 INFO    AFC is enabled with max remote calls: 10.
+08:37:28 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:37:28 ERROR   [fiche] [1090] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:37:38 INFO    [fiche] [1091] DTR S5 [Licence 3 - Semestre 5] [gemini] …
+08:37:38 INFO    AFC is enabled with max remote calls: 10.
+08:37:51 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:37:51 INFO    AFC is enabled with max remote calls: 10.
+08:38:02 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:38:02 INFO    AFC is enabled with max remote calls: 10.
+08:38:16 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:38:16 INFO    AFC is enabled with max remote calls: 10.
+08:38:17 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:38:17 ERROR   [fiche] [1091] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:38:27 INFO    [fiche] [1092] DTR S6 [Licence 3 - Semestre 5] [gemini] …
+08:38:27 INFO    AFC is enabled with max remote calls: 10.
+08:38:42 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:38:42 INFO    AFC is enabled with max remote calls: 10.
+08:38:44 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:38:44 ERROR   [fiche] [1092] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}

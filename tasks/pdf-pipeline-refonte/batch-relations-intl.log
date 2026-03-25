@@ -1,0 +1,13 @@
+05:53:01 INFO    Phase 2 — génération fiches: 4 documents sans fiche
+05:53:01 INFO    [fiche] [420] 2207021_COTIC BELLOUBE CATARINA L3 numérique en droit Mai 20 [Relations internationales] …
+05:54:03 INFO    [fiche] [420] OK — fiche_id=2473 sections=4
+05:54:03 INFO    [fiche] [592] Séance 3 _ Un multilatéralisme en crise(s) [Relations internationales] …
+06:03:51 INFO    [fiche] [592] OK — fiche_id=2488 sections=10
+06:03:51 INFO    [fiche] [593] Séance 4 _  [Relations internationales] …
+06:13:32 INFO    [fiche] [593] OK — fiche_id=2494 sections=10
+06:13:32 INFO    [fiche] [594] Séance 5 _ Les transformations de la diplomatie _ [Relations internationales] …
+06:15:47 ERROR   [fiche] [594] ERREUR: Claude CLI error: 
+06:15:47 INFO    Phase 2 terminée — ok=3 skipped=0 error=1
+06:15:50 INFO    Phase 3 — génération flashcards: 0 documents avec < 5 flashcards
+06:15:50 INFO    Phase 3 — flashcards suffisantes partout
+06:15:50 INFO    Terminé.

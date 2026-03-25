@@ -1,0 +1,13 @@
+09:28:08 INFO    Phase 2 — génération fiches: 2 documents sans fiche
+09:28:08 INFO    [fiche] [1431] CT et développement éco [Finances publiques] …
+09:29:09 INFO    [fiche] [1431] OK — fiche_id=2513 sections=4
+09:29:09 INFO    [fiche] [1432] Fiche Gabriel _ La mise en cause de la responsabilité des ge [Finances publiques] …
+09:30:05 INFO    [fiche] [1432] OK — fiche_id=2515 sections=4
+09:30:05 INFO    Phase 2 terminée — ok=2 skipped=0 error=0
+09:30:06 INFO    Phase 3 — génération flashcards: 2 documents avec < 5 flashcards
+09:30:06 INFO    [flashcard] [1431] CT et développement éco [Finances publiques] — existantes: 0 …
+09:31:29 INFO    [flashcard] [1431] OK — 10 cartes insérées
+09:31:29 INFO    [flashcard] [1432] Fiche Gabriel _ La mise en cause de la responsabilité des ge [Finances publiques] — existantes: 0 …
+09:32:46 INFO    [flashcard] [1432] OK — 10 cartes insérées
+09:32:46 INFO    Phase 3 terminée — ok=2 skipped=0 error=0
+09:32:46 INFO    Terminé.

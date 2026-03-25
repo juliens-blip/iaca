@@ -1,0 +1,44 @@
+08:26:04 INFO    Fournisseur IA: gemini
+08:26:04 INFO    Phase 2 — génération fiches: 10 documents sans fiche
+08:26:04 INFO    [fiche] [810] 2307817_BEILOUNY EMMA L2 numérique en droit mai 2024 Anglais [Licence 2 - Semestre 4] [gemini] …
+08:26:08 INFO    AFC is enabled with max remote calls: 10.
+08:26:18 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:26:18 INFO    [fiche] [810] OK — fiche_id=2531 sections=4
+08:26:23 INFO    [fiche] [863] 2207021_COTIC BELLOUBE CATARINA L2 numérique en droit Janvie [Licence 2 - Semestre 4] [gemini] …
+08:26:23 INFO    AFC is enabled with max remote calls: 10.
+08:26:37 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:26:37 INFO    [fiche] [863] OK — fiche_id=2532 sections=4
+08:26:42 INFO    [fiche] [864] 2209053_CHOMBART RAPHAEL L2 numérique en droit Janvier 2024  [Licence 2 - Semestre 4] [gemini] …
+08:26:42 INFO    AFC is enabled with max remote calls: 10.
+08:26:55 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:26:55 INFO    [fiche] [864] OK — fiche_id=2533 sections=4
+08:27:00 INFO    [fiche] [865] 2307817_BEILOUNY EMMA L2 numérique en droit Janvier 2024 Dro [Licence 2 - Semestre 4] [gemini] …
+08:27:00 INFO    AFC is enabled with max remote calls: 10.
+08:27:12 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:27:12 INFO    [fiche] [865] OK — fiche_id=2534 sections=4
+08:27:17 INFO    [fiche] [942] 2105036_BARAZNA MAXIME L2 numérique en droit mai 2024 Droit  [Licence 2 - Semestre 4] [gemini] …
+08:27:17 INFO    AFC is enabled with max remote calls: 10.
+08:27:31 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:27:31 INFO    [fiche] [942] OK — fiche_id=2535 sections=4
+08:27:36 INFO    [fiche] [943] 2306463_NAIT-BOUDA SOFIAN L2 numérique en droit Mai 2025 Dro [Licence 2 - Semestre 4] [gemini] …
+08:27:36 INFO    AFC is enabled with max remote calls: 10.
+08:27:48 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:27:48 INFO    [fiche] [943] OK — fiche_id=2536 sections=4
+08:27:53 INFO    [fiche] [944] 2307817_BEILOUNY EMMA L2 numérique en droit mai 2024 Droit a [Licence 2 - Semestre 4] [gemini] …
+08:27:53 INFO    AFC is enabled with max remote calls: 10.
+08:27:55 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:27:55 ERROR   [fiche] [944] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:28:05 INFO    [fiche] [945] 2407000_FAHLOUN NELIA L2 numérique en droit Mai 2025 Droit a [Licence 2 - Semestre 4] [gemini] …
+08:28:05 INFO    AFC is enabled with max remote calls: 10.
+08:28:18 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:28:18 INFO    [fiche] [945] OK — fiche_id=2537 sections=4
+08:28:23 INFO    [fiche] [946] 2410384_ Mai 2025 Droit administratif 2 [Licence 2 - Semestre 4] [gemini] …
+08:28:23 INFO    AFC is enabled with max remote calls: 10.
+08:28:32 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:28:32 INFO    [fiche] [946] OK — fiche_id=2538 sections=4
+08:28:37 INFO    [fiche] [1013] 2302854_GAZEAU LUCIE L2 numérique en droit Mai 2025 Droit ci [Licence 2 - Semestre 4] [gemini] …
+08:28:38 INFO    AFC is enabled with max remote calls: 10.
+08:28:48 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:28:48 INFO    [fiche] [1013] OK — fiche_id=2539 sections=4
+08:28:53 INFO    Phase 2 terminée — ok=9 skipped=0 error=1
+08:28:53 INFO    Terminé.

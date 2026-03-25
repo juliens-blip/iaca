@@ -1,0 +1,22 @@
+08:30:19 INFO    Fournisseur IA: gemini
+08:30:20 INFO    Phase 2 — génération fiches: 4 documents sans fiche
+08:30:20 INFO    [fiche] [944] 2307817_BEILOUNY EMMA L2 numérique en droit mai 2024 Droit a [Licence 2 - Semestre 4] [gemini] …
+08:30:24 INFO    AFC is enabled with max remote calls: 10.
+08:30:38 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:30:38 INFO    [fiche] [944] OK — fiche_id=2541 sections=4
+08:30:43 INFO    [fiche] [1014] 2306827_POULIQUEN INES L2 numérique en droit Mai 2025 Droit  [Licence 2 - Semestre 4] [gemini] …
+08:30:43 INFO    AFC is enabled with max remote calls: 10.
+08:30:56 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:30:56 INFO    [fiche] [1014] OK — fiche_id=2543 sections=4
+08:31:01 INFO    [fiche] [1015] 2407000_FAHLOUN NELIA L2 numérique en droit Mai 2025 Droit c [Licence 2 - Semestre 4] [gemini] …
+08:31:01 INFO    AFC is enabled with max remote calls: 10.
+08:31:11 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 429 Too Many Requests"
+08:31:11 ERROR   [fiche] [1015] ERREUR: 429 RESOURCE_EXHAUSTED. {'error': {'code': 429, 'message': 'Resource exhausted. Please try again later. Please refer to https://cloud.google.com/vertex-ai/generative-ai/docs/error-code-429 for more details.', 'status': 'RESOURCE_EXHAUSTED'}}
+08:31:21 INFO    [fiche] [1021] OUAHNON AVA MARINE  L2 numérique en droit Mai 2025 Droit civ [Licence 2 - Semestre 4] [gemini] …
+08:31:21 INFO    AFC is enabled with max remote calls: 10.
+08:31:33 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+08:31:33 INFO    [fiche] [1021] OK — fiche_id=2545 sections=4
+08:31:38 INFO    Phase 2 terminée — ok=3 skipped=0 error=1
+08:31:39 INFO    Phase 3 — génération flashcards: 0 documents avec < 5 flashcards
+08:31:39 INFO    Phase 3 — flashcards suffisantes partout
+08:31:39 INFO    Terminé.

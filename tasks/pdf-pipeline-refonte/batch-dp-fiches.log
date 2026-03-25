@@ -1,0 +1,43 @@
+03:57:26 INFO    Phase 2 — génération fiches: 10 documents sans fiche
+03:57:26 INFO    [fiche] [490] Les arrêts [Droit public] …
+04:17:48 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:18:26 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:19:33 ERROR   [fiche] [490] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:19:43 INFO    [fiche] [491] Lien quizzlet _inversé_ tout chapitres [Droit public] …
+04:19:50 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:20:26 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:21:36 ERROR   [fiche] [491] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:21:46 INFO    [fiche] [494] Fiche hierarchie des normes [Droit public] …
+04:21:54 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:22:31 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:23:38 ERROR   [fiche] [494] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:23:48 INFO    [fiche] [495] Fiche sur les acteurs qui contrôlent le respect de la hiérar [Droit public] …
+04:23:55 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:24:32 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:25:39 ERROR   [fiche] [495] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:25:49 INFO    [fiche] [496] Fiche technique _ Les sources du droit public et la hiérarch [Droit public] …
+04:25:56 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:26:33 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:27:40 ERROR   [fiche] [496] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:27:50 INFO    [fiche] [497] Introduction - Le contrôle du respect de la hiérarchie des n [Droit public] …
+04:27:57 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:28:35 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:29:42 ERROR   [fiche] [497] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:29:52 INFO    [fiche] [498] L_exigence de qualité des normes_ [Droit public] …
+04:29:58 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:30:35 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:31:42 ERROR   [fiche] [498] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:31:52 INFO    [fiche] [499] La hiérarchie des normes de droit de l’UE [Droit public] …
+04:31:58 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:32:35 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:33:42 ERROR   [fiche] [499] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:33:52 INFO    [fiche] [500] Le contrôle de légalité de l’acte administratif [Droit public] …
+04:33:58 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:34:35 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:35:42 ERROR   [fiche] [500] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:35:52 INFO    [fiche] [502] Liens Quizlet [Droit public] …
+04:35:58 WARNING Claude CLI error (attempt 1/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 30s
+04:36:35 WARNING Claude CLI error (attempt 2/3, rc=1): You've hit your limit · resets 8am (Europe/Paris) — retry in 60s
+04:37:42 ERROR   [fiche] [502] ERREUR: Claude CLI error (rc=1): You've hit your limit · resets 8am (Europe/Paris)
+04:37:52 INFO    Phase 2 terminée — ok=0 skipped=0 error=10
+04:37:52 INFO    Terminé.

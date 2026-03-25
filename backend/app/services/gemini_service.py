@@ -1,10 +1,14 @@
 import asyncio
 import json
+import logging
 import re
+import time
 
 from google import genai
 
 from app.config import settings
+
+log = logging.getLogger(__name__)
 
 
 def _get_client():
@@ -12,13 +16,25 @@ def _get_client():
 
 
 def _generate_sync(prompt: str) -> str:
-    """Synchronous Gemini call, to be run in a thread."""
+    """Synchronous Gemini call with retry on 429, to be run in a thread."""
     client = _get_client()
-    response = client.models.generate_content(
-        model="gemini-2.0-flash",
-        contents=prompt,
-    )
-    return response.text
+    for attempt in range(1, 4):
+        try:
+            response = client.models.generate_content(
+                model="gemini-2.0-flash",
+                contents=prompt,
+            )
+            return response.text
+        except Exception as exc:
+            if "429" in str(exc) or "RESOURCE_EXHAUSTED" in str(exc):
+                wait = 30 * attempt
+                log.warning("Gemini 429 (attempt %d/3) — retry in %ds", attempt, wait)
+                if attempt == 3:
+                    raise
+                time.sleep(wait)
+            else:
+                raise
+    raise RuntimeError("Gemini: max retries exceeded")
 
 
 async def _generate(prompt: str) -> str:
