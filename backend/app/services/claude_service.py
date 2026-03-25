@@ -395,9 +395,9 @@ def chunk_content(markdown_text: str, max_chars: int = 4000) -> list[str]:
 async def generer_flashcards(contenu: str, matiere: str, nb: int = 10) -> list[dict]:
     """Generate flashcards from document content using Claude with chunking."""
     source = _ensure_generation_source(contenu)
-    chunks = chunk_content(source, max_chars=4000)
+    chunks = chunk_content(source, max_chars=8000)
     if not chunks:
-        chunks = [source[:4000]]
+        chunks = [source[:8000]]
 
     nb_chunks = len(chunks)
     nb_per_chunk = max(5, nb // nb_chunks)
@@ -470,9 +470,9 @@ Reponds UNIQUEMENT en JSON valide (pas de markdown, pas de texte autour):
 async def generer_qcm(contenu: str, matiere: str, nb: int = 5) -> list[dict]:
     """Generate QCM questions from document content using Claude with chunking."""
     source = _ensure_generation_source(contenu)
-    chunks = chunk_content(source, max_chars=4000)
+    chunks = chunk_content(source, max_chars=8000)
     if not chunks:
-        chunks = [source[:4000]]
+        chunks = [source[:8000]]
 
     nb_chunks = len(chunks)
     nb_per_chunk = max(2, nb // nb_chunks)
@@ -529,9 +529,9 @@ reponse_correcte = index (0-3) du bon choix."""
 async def generer_fiche(contenu: str, matiere: str, titre_doc: str) -> dict:
     """Generate a structured revision sheet from document content using Claude with chunking."""
     source = _ensure_generation_source(contenu)
-    chunks = chunk_content(source, max_chars=4000)
+    chunks = chunk_content(source, max_chars=8000)
     if not chunks:
-        chunks = [source[:4000]]
+        chunks = [source[:8000]]
 
     all_sections: list[dict] = []
     resume_parts: list[str] = []
