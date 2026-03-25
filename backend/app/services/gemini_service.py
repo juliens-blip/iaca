@@ -26,6 +26,14 @@ async def _generate(prompt: str) -> str:
     return await asyncio.to_thread(_generate_sync, prompt)
 
 
+async def generate_text(prompt: str) -> str:
+    """Generate plain text with Gemini for generic LLM fallback flows."""
+    text = await _generate(prompt)
+    if text is None:
+        raise ValueError("Gemini n'a pas retourne de texte exploitable")
+    return str(text).strip()
+
+
 async def rechercher_ressources(sujet: str, matiere: str) -> dict:
     """Search for external learning resources related to a topic."""
     prompt = f"""Tu es un conseiller pédagogique spécialisé en {matiere} pour la préparation aux concours administratifs français.
@@ -50,7 +58,7 @@ Réponds UNIQUEMENT en JSON valide:
 
 Donne 2-3 ressources par catégorie. Privilégie les sources françaises et académiques."""
 
-    text = await _generate(prompt)
+    text = await generate_text(prompt)
     match = re.search(r'\{.*\}', text, re.DOTALL)
     if not match:
         raise ValueError("Gemini n'a pas retourné un JSON valide")
@@ -78,7 +86,7 @@ Réponds UNIQUEMENT en JSON valide:
 
 Maximum 6 branches principales, chacune avec 2-4 sous-branches."""
 
-    text = await _generate(prompt)
+    text = await generate_text(prompt)
     match = re.search(r'\{.*\}', text, re.DOTALL)
     if not match:
         raise ValueError("Gemini n'a pas retourné un JSON valide")
@@ -99,7 +107,7 @@ Réponds UNIQUEMENT en JSON valide:
 
 Ordonne chronologiquement."""
 
-    text = await _generate(prompt)
+    text = await generate_text(prompt)
     match = re.search(r'\[.*\]', text, re.DOTALL)
     if not match:
         raise ValueError("Gemini n'a pas retourné un JSON valide")

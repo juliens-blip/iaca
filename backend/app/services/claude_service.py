@@ -41,6 +41,22 @@ ACTIONABLE_MARKERS = (
 )
 EXTRACTION_ERROR_PREFIX = "[Erreur d'extraction:"
 MIN_SOURCE_CONTENT_CHARS = 120
+CLAUDE_RATE_LIMIT_MARKERS = (
+    "hit your limit",
+    "rate limit",
+    "too many requests",
+    "quota",
+    "429",
+)
+
+
+class ClaudeRateLimitError(RuntimeError):
+    """Raised when Claude CLI exhausts retries because of rate limiting."""
+
+
+def _is_claude_rate_limit_error(error_detail: str) -> bool:
+    lowered = (error_detail or "").lower()
+    return any(marker in lowered for marker in CLAUDE_RATE_LIMIT_MARKERS)
 
 
 async def run_claude_cli(prompt: str, max_retries: int = 3) -> str:
@@ -77,7 +93,20 @@ async def run_claude_cli(prompt: str, max_retries: int = 3) -> str:
             )
             await asyncio.sleep(wait)
         else:
+            if _is_claude_rate_limit_error(error_detail):
+                raise ClaudeRateLimitError(f"Claude CLI error (rc={process.returncode}): {error_detail}")
             raise RuntimeError(f"Claude CLI error (rc={process.returncode}): {error_detail}")
+
+
+async def run_llm_with_fallback(prompt: str) -> str:
+    """Use Claude first, then Gemini only if Claude exhausts retries on rate-limit."""
+    try:
+        return await run_claude_cli(prompt)
+    except ClaudeRateLimitError as exc:
+        log.warning("Claude rate-limit after retries, fallback vers Gemini: %s", str(exc)[:200])
+        from app.services import gemini_service  # type: ignore
+
+        return await gemini_service.generate_text(prompt)
 
 
 def _normalize_text(value: str) -> str:
@@ -448,7 +477,7 @@ Reponds UNIQUEMENT en JSON valide (pas de markdown, pas de texte autour):
   }}
 ]"""
 
-        result = await run_claude_cli(prompt)
+        result = await run_llm_with_fallback(prompt)
         parsed = _extract_json_array(result)
         raw_cards = [item for item in parsed if isinstance(item, dict)]
         valid_cards = [c for c in raw_cards if _validate_flashcard(c)]
@@ -457,7 +486,7 @@ Reponds UNIQUEMENT en JSON valide (pas de markdown, pas de texte autour):
                 "[generer_flashcards] chunk %d/%d: seulement %d/%d cartes valides — regeneration",
                 chunks.index(chunk) + 1, nb_chunks, len(valid_cards), len(raw_cards),
             )
-            result2 = await run_claude_cli(prompt)
+            result2 = await run_llm_with_fallback(prompt)
             parsed2 = _extract_json_array(result2)
             valid_cards2 = [c for c in parsed2 if isinstance(c, dict) and _validate_flashcard(c)]
             if len(valid_cards2) > len(valid_cards):
@@ -595,7 +624,7 @@ Reponds UNIQUEMENT en JSON valide (pas de markdown, pas de texte autour):
 
 Genere 2 a 4 sections pour cette partie."""
 
-        result = await run_claude_cli(prompt)
+        result = await run_llm_with_fallback(prompt)
         payload = _extract_json_object(result)
         raw_sections = [s for s in (payload.get("sections") or []) if isinstance(s, dict)]
         valid_sections = [s for s in raw_sections if _validate_fiche_section(s, chunk)]
@@ -604,7 +633,7 @@ Genere 2 a 4 sections pour cette partie."""
                 "[generer_fiche] chunk %d/%d: 0 sections valides sur %d — regeneration",
                 idx + 1, len(chunks), len(raw_sections),
             )
-            result2 = await run_claude_cli(prompt)
+            result2 = await run_llm_with_fallback(prompt)
             payload2 = _extract_json_object(result2)
             raw_sections2 = [s for s in (payload2.get("sections") or []) if isinstance(s, dict)]
             valid_sections2 = [s for s in raw_sections2 if _validate_fiche_section(s, chunk)]

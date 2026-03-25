@@ -397,7 +397,7 @@ async def main(args: argparse.Namespace) -> None:
             len(docs_fc), min_fc,
         )
         if docs_fc:
-            stats = await phase_flashcards(conn, docs_fc, dry_run)
+            stats = await phase_flashcards(conn, docs_fc, dry_run, provider)
             log.info(
                 "Phase 3 terminée — ok=%d skipped=%d error=%d",
                 stats["ok"], stats["skipped"], stats["error"],
@@ -420,6 +420,12 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--skip-fiches", action="store_true", help="Sauter la génération de fiches")
     parser.add_argument("--skip-flashcards", action="store_true", help="Sauter la génération de flashcards")
     parser.add_argument("--min-flashcards", type=int, default=5, metavar="N", help="Seuil min flashcards (défaut: 5)")
+    parser.add_argument(
+        "--provider",
+        choices=["claude", "gemini", "auto"],
+        default="auto",
+        help="Fournisseur IA : claude | gemini | auto (défaut: auto = claude puis fallback gemini)",
+    )
     return parser.parse_args()
 
 
