@@ -87,7 +87,15 @@ def fetch_docs_without_fiche(conn: sqlite3.Connection, matiere_filter: str | Non
         LEFT JOIN matieres m ON m.id = d.matiere_id
         WHERE d.contenu_extrait IS NOT NULL
           AND length(trim(d.contenu_extrait)) >= 120
+          AND length(trim(d.contenu_extrait)) <= 200000
           AND NOT EXISTS (SELECT 1 FROM fiches f WHERE f.document_id = d.id)
+          AND d.id NOT IN (
+              SELECT d2.id FROM documents d2
+              WHERE EXISTS (
+                  SELECT 1 FROM documents d3
+                  WHERE d3.contenu_extrait = d2.contenu_extrait AND d3.id < d2.id
+              )
+          )
     """
     params: list = []
     if matiere_filter:
@@ -112,6 +120,14 @@ def fetch_docs_with_few_flashcards(
         LEFT JOIN flashcards fc ON fc.document_id = d.id
         WHERE d.contenu_extrait IS NOT NULL
           AND length(trim(d.contenu_extrait)) >= 120
+          AND length(trim(d.contenu_extrait)) <= 200000
+          AND d.id NOT IN (
+              SELECT d2.id FROM documents d2
+              WHERE EXISTS (
+                  SELECT 1 FROM documents d3
+                  WHERE d3.contenu_extrait = d2.contenu_extrait AND d3.id < d2.id
+              )
+          )
         GROUP BY d.id
         HAVING nb_flashcards < ?
     """

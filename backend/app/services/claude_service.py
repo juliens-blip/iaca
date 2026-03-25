@@ -427,6 +427,10 @@ async def generer_flashcards(contenu: str, matiere: str, nb: int = 10) -> list[d
     chunks = chunk_content(source, max_chars=8000)
     if not chunks:
         chunks = [source[:8000]]
+    MAX_CHUNKS = 6
+    if len(chunks) > MAX_CHUNKS:
+        log.info("Flashcards: %d chunks tronqués à %d", len(chunks), MAX_CHUNKS)
+        chunks = chunks[:MAX_CHUNKS]
 
     nb_chunks = len(chunks)
     nb_per_chunk = max(5, nb // nb_chunks)
@@ -502,6 +506,10 @@ async def generer_qcm(contenu: str, matiere: str, nb: int = 5) -> list[dict]:
     chunks = chunk_content(source, max_chars=8000)
     if not chunks:
         chunks = [source[:8000]]
+    MAX_CHUNKS = 6
+    if len(chunks) > MAX_CHUNKS:
+        log.info("QCM: %d chunks tronqués à %d", len(chunks), MAX_CHUNKS)
+        chunks = chunks[:MAX_CHUNKS]
 
     nb_chunks = len(chunks)
     nb_per_chunk = max(2, nb // nb_chunks)
@@ -561,6 +569,10 @@ async def generer_fiche(contenu: str, matiere: str, titre_doc: str) -> dict:
     chunks = chunk_content(source, max_chars=8000)
     if not chunks:
         chunks = [source[:8000]]
+    MAX_CHUNKS = 6
+    if len(chunks) > MAX_CHUNKS:
+        log.info("Fiche: %d chunks tronqués à %d", len(chunks), MAX_CHUNKS)
+        chunks = chunks[:MAX_CHUNKS]
 
     all_sections: list[dict] = []
     resume_parts: list[str] = []
