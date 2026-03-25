@@ -8,7 +8,7 @@
 cp -r .claude/agents_library /votre-projet/.claude/agents/
 ```
 
-## Contenu (26 agents)
+## Contenu (27 agents)
 
 ### Fichiers Speciaux
 | Fichier | Description |
@@ -66,6 +66,11 @@ cp -r .claude/agents_library /votre-projet/.claude/agents/
 | `moana-epct.md` | opus | Variante EPCT |
 | `agent_controle.md` | opus | Selection et orchestration |
 
+### Memory & Context (1)
+| Agent | Modele | Usage |
+|-------|--------|-------|
+| `memory-agent.md` | opus | CLAUDE.md compaction, layered memory, hooks, low-token project context |
+
 ## Utilisation Rapide
 
 ### Via Claude Code CLI
@@ -91,5 +96,5 @@ Task(
 ---
 
 *Collection maintenue par Claude Opus 4.5*
-*Version: 1.1 - 2026-01-02*
-*Total: 26 agents (dont apex-workflow) + 2 fichiers speciaux*
+*Version: 1.2 - 2026-03-17*
+*Total: 27 agents (dont apex-workflow et memory-agent) + 2 fichiers speciaux*

@@ -1,0 +1,11 @@
+# Track shared Claude memory, keep local settings private
+.claude/*
+!.claude/settings.json
+!.claude/commands/
+!.claude/commands/*.md
+!.claude/rules/
+!.claude/rules/*.md
+!.claude/memory/
+.claude/memory/*
+!.claude/memory/recent-learnings.md
+.claude/settings.local.json

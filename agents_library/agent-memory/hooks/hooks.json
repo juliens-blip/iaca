@@ -1,0 +1,55 @@
+{
+  "description": "Memory hygiene hooks for CLAUDE.md compaction and scoped project memory",
+  "hooks": {
+    "Setup": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PROJECT_DIR}/agents_library/agent-memory/hooks/scripts/memory_hook.py --event Setup",
+            "timeout": 30000
+          }
+        ]
+      }
+    ],
+    "InstructionsLoaded": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PROJECT_DIR}/agents_library/agent-memory/hooks/scripts/memory_hook.py --event InstructionsLoaded",
+            "timeout": 10000,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "PreCompact": [
+      {
+        "matcher": "*",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PROJECT_DIR}/agents_library/agent-memory/hooks/scripts/memory_hook.py --event PreCompact",
+            "timeout": 15000,
+            "async": true
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "python3 ${CLAUDE_PROJECT_DIR}/agents_library/agent-memory/hooks/scripts/memory_hook.py --event Stop",
+            "timeout": 20000,
+            "async": true
+          }
+        ]
+      }
+    ]
+  }
+}

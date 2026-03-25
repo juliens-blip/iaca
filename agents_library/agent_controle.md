@@ -63,6 +63,7 @@ Vous etes un meta-agent specialise dans la selection et l'orchestration des agen
 |-------|--------|------------|------------------|
 | **`apex-workflow`** | sonnet | **PRINCIPAL** - 3 etapes | Taches complexes: /analyze, /plan, /implement |
 | `context-manager` | opus | Gestion contexte | Projets longs, multi-agents |
+| `memory-agent` | opus | Hygiene CLAUDE.md + hooks | Initialiser ou nettoyer la memoire projet, compacter le contexte |
 | `epct` | opus | Chain-of-thought | Taches complexes multi-etapes |
 | `moana-epct` | opus | Variante EPCT | Alternative a epct |
 | `agent_controle` | opus | Meta-orchestration | Selection agents, planning |
@@ -153,10 +154,19 @@ WORKFLOW (si complexe):
 
 ```
 1. context-manager -> Setup contexte initial
-2. epct -> Planification detaillee
-3. [agents specialises] -> Execution
-4. context-manager -> Checkpoint reguliers
-5. code-reviewer -> Validation finale
+2. memory-agent -> Structure memoire propre, hooks et split CLAUDE.md
+3. epct -> Planification detaillee
+4. [agents specialises] -> Execution
+5. context-manager -> Checkpoint reguliers
+6. code-reviewer -> Validation finale
+```
+
+### Pattern: Hygiene Memoire Claude
+
+```
+1. memory-agent -> Audit du CLAUDE.md et split stable/volatile
+2. prompt-engineer -> Durcir les prompts/agents critiques si necessaire
+3. context-manager -> Resumer les invariants et le contexte longue duree
 ```
 
 ---
@@ -229,6 +239,20 @@ RECOMMANDATION:
 1. prompt-engineer (opus) -> Design du prompt agent
 2. mcp-expert -> Si integrations necessaires
 3. test-engineer -> Tests du comportement agent
+```
+
+### Exemple 4: "Mon CLAUDE.md devient trop gros et trop flou"
+
+```
+ANALYSE:
+- Type: Memoire projet / hygiene contexte
+- Complexite: Moyenne
+- Precision: Critique, car charge a chaque session
+
+RECOMMANDATION:
+1. memory-agent -> Audit, split root/quick-ref/rules/scopes, hooks
+2. prompt-engineer -> Si un prompt agent doit etre reformule proprement
+3. context-manager -> Si la memoire longue doit etre reindexee
 ```
 
 ---

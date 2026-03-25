@@ -1,0 +1,54 @@
+{
+  "hooks": {
+    "InstructionsLoaded": [
+      {
+        "hooks": [
+          {
+            "async": true,
+            "command": "python3 ${CLAUDE_PROJECT_DIR}/agents_library/agent-memory/hooks/scripts/memory_hook.py --event InstructionsLoaded",
+            "timeout": 10000,
+            "type": "command"
+          }
+        ],
+        "matcher": "*"
+      }
+    ],
+    "PreCompact": [
+      {
+        "hooks": [
+          {
+            "async": true,
+            "command": "python3 ${CLAUDE_PROJECT_DIR}/agents_library/agent-memory/hooks/scripts/memory_hook.py --event PreCompact",
+            "timeout": 15000,
+            "type": "command"
+          }
+        ],
+        "matcher": "*"
+      }
+    ],
+    "Setup": [
+      {
+        "hooks": [
+          {
+            "command": "python3 ${CLAUDE_PROJECT_DIR}/agents_library/agent-memory/hooks/scripts/memory_hook.py --event Setup",
+            "timeout": 30000,
+            "type": "command"
+          }
+        ],
+        "matcher": "*"
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "async": true,
+            "command": "python3 ${CLAUDE_PROJECT_DIR}/agents_library/agent-memory/hooks/scripts/memory_hook.py --event Stop",
+            "timeout": 20000,
+            "type": "command"
+          }
+        ]
+      }
+    ]
+  }
+}

@@ -1,7 +1,7 @@
 # AGENTS SUPREME - Catalogue Complet des Agents
 
 > Fichier de reference pour tous les agents disponibles. Reutilisable dans d'autres projets.
-> Derniere mise a jour: 2026-01-02
+> Derniere mise a jour: 2026-03-17
 
 ---
 
@@ -14,7 +14,7 @@
 | **Design & UX** | ui-ux-designer, video-editor |
 | **Marketing & SEO** | content-marketer, seo-analyzer, seo-podcast-optimizer |
 | **Legal & Compliance** | legal-advisor |
-| **Workflow & Orchestration** | **apex-workflow**, context-manager, epct, moana-epct, agent_controle |
+| **Workflow & Orchestration** | **apex-workflow**, context-manager, memory-agent, epct, moana-epct, agent_controle |
 
 ---
 
@@ -275,6 +275,38 @@ usage: Diagnostic et fix problemes MCP
 - Erreurs de connexion
 - Problemes de configuration
 - Debug integrations
+
+---
+
+### 2.5 MEMORY & CONTEXT
+
+#### memory-agent
+```yaml
+name: memory-agent
+model: opus
+tools: Read, Write, Edit, Bash, Grep, Glob
+usage: Compacter CLAUDE.md, creer QUICK_REF, splitter memoire par scope, installer hooks
+```
+**Description:** Specialiste de l'hygiene memoire Claude Code pour garder un contexte faible en tokens et fort en pertinence.
+
+**Focus:**
+- structure `CLAUDE.md` racine + `QUICK_REF.md`
+- separation stable / volatile / reference / externe
+- rules `.claude/rules/*.md`
+- memoire courte `.claude/memory/recent-learnings.md`
+- hooks de compaction, audit et checkpoints
+
+**Quand l'utiliser:**
+- des le debut d'un projet
+- quand `CLAUDE.md` grossit trop
+- quand un monorepo a besoin de memoires par surface
+- quand il faut installer des garde-fous de contexte partages
+
+**Output:**
+- layout memoire propre
+- audit deterministe
+- hooks optionnels installables
+- templates et exemples reutilisables
 
 ---
 
