@@ -470,7 +470,7 @@ COMMENT FORMULER CHAQUE FLASHCARD:
 
    REGLE ABSOLUE: Sur {nb_per_chunk} flashcards, le niveau 2 ne doit jamais depasser {max(1, nb_per_chunk // 4)} cartes. Utilise les niveaux 3, 4 et 5 en priorite des que le contenu le permet.
 
-   REPARTITION OBLIGATOIRE: 10% diff1, 25% diff2, 35% diff3, 20% diff4, 10% diff5.
+   REPARTITION: sur {nb_per_chunk} cartes, vise 10% diff1, 25% diff2, 35% diff3, 20% diff4, 10% diff5.
 
 CONTENU SOURCE:
 {chunk}
