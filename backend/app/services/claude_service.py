@@ -475,6 +475,8 @@ BARÈME DE DIFFICULTE (pour adapter la question au niveau impose) :
 - 4 : raisonnement complexe, exception, conditions cumulatives — "A quelles conditions X peut-il etre ecarte ?"
 - 5 : argumentation, controverse, evolution jurisprudentielle — "En quoi X remet-il en cause Y ?"
 
+REPARTITION CIBLE : sur un batch de N cartes, vise 10% diff1, 25% diff2, 35% diff3, 20% diff4, 10% diff5.
+
 REGLES DE REDACTION :
 - QUESTION : precise, teste la comprehension, pas la memorisation brute
 - REPONSE : 2-4 phrases, commence par la reponse directe, contexte (date, juridiction, portee)
