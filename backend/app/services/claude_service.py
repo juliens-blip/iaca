@@ -435,53 +435,63 @@ async def generer_flashcards(contenu: str, matiere: str, nb: int = 10) -> list[d
     nb_chunks = len(chunks)
     nb_per_chunk = max(5, nb // nb_chunks)
 
+    # Pre-assign difficulty levels to force distribution: 10/25/35/20/10
+    def _difficulty_sequence(n: int) -> list[int]:
+        weights = [(1, 0.10), (2, 0.25), (3, 0.35), (4, 0.20), (5, 0.10)]
+        seq: list[int] = []
+        for level, pct in weights:
+            seq.extend([level] * max(1, round(n * pct)))
+        # Trim or pad to exactly n by adjusting level 3 (most common)
+        while len(seq) > n:
+            for lvl in [2, 1, 4, 5, 3]:
+                if lvl in seq:
+                    seq.remove(lvl)
+                    break
+        while len(seq) < n:
+            seq.append(3)
+        import random as _random
+        _random.shuffle(seq)
+        return seq
+
     all_cards: list[dict] = []
     for chunk in chunks:
+        levels = _difficulty_sequence(nb_per_chunk)
+        slots = "\n".join(
+            f"  Carte {i+1} (difficulte IMPOSEE = {lvl}) : {{question, reponse, explication}}"
+            for i, lvl in enumerate(levels)
+        )
         prompt = f"""Tu es un professeur expert en {matiere} qui prepare des etudiants aux concours administratifs francais (IRA, ENA, concours de categorie A).
 
-Tu dois creer {nb_per_chunk} flashcards de revision a partir du contenu ci-dessous. Chaque flashcard doit etre un outil d'apprentissage autonome — un etudiant doit pouvoir apprendre uniquement avec la flashcard, sans avoir lu le document source.
+Tu dois creer exactement {nb_per_chunk} flashcards a partir du contenu ci-dessous.
+Le niveau de difficulte de chaque carte est FIXE et ne peut pas etre modifie.
 
-COMMENT FORMULER CHAQUE FLASHCARD:
+NIVEAUX IMPOSES (tu dois produire exactement ces niveaux, dans cet ordre) :
+{slots}
 
-1. QUESTION: Pose une question precise qui teste la comprehension, pas la memorisation brute.
-   - BON: "Quel mecanisme juridique permet au juge administratif de controler les actes reglementaires depuis l'arret Terrier de 1903?"
-   - BON: "En quoi la jurisprudence Nicolo (1989) modifie-t-elle la hierarchie des normes en droit francais?"
-   - MAUVAIS: "Qu'est-ce que l'arret Terrier?" (trop vague)
-   - MAUVAIS: "Citez l'article 55 de la Constitution" (memorisation pure)
+BARÈME DE DIFFICULTE (pour adapter la question au niveau impose) :
+- 1 : definition pure — "Qu'est-ce que X ?"
+- 2 : mecanisme simple — "Comment fonctionne X ?" / "Quel est le role de X ?"
+- 3 : distinction ou cas d'application — "Quelle difference entre X et Y ?" / "Dans quel cas X s'applique ?"
+- 4 : raisonnement complexe, exception, conditions cumulatives — "A quelles conditions X peut-il etre ecarte ?"
+- 5 : argumentation, controverse, evolution jurisprudentielle — "En quoi X remet-il en cause Y ?"
 
-2. REPONSE: Redige une reponse claire et complete en 2-4 phrases.
-   - Commence par la reponse directe a la question.
-   - Ajoute le contexte necessaire (date, juridiction, portee).
-   - Utilise un vocabulaire precis mais accessible.
-   - INTERDIT: copier des phrases du document source. Reformule avec tes propres mots.
+REGLES DE REDACTION :
+- QUESTION : precise, teste la comprehension, pas la memorisation brute
+- REPONSE : 2-4 phrases, commence par la reponse directe, contexte (date, juridiction, portee)
+- EXPLICATION : valeur ajoutee pedagogique — exemple concret, lien avec le concours, piege classique
+- INTERDIT : copier des phrases du document source, champ "difficulte" different du niveau impose
 
-3. EXPLICATION: Apporte une valeur ajoutee pedagogique en 2-3 phrases.
-   - Donne un exemple concret d'application.
-   - OU explique pourquoi c'est important pour le concours.
-   - OU fais un lien avec une autre notion du programme.
-   - OU signale un piege classique d'examen.
-
-4. DIFFICULTE: Note de 1 a 5. Tu DOIS respecter exactement la distribution suivante sur tes {nb_per_chunk} flashcards. Compte-les avant de repondre et ajuste si necessaire :
-   - 1 (~10%) : definition pure, vocabulaire de base — ex: "Qu'est-ce que X ?"
-   - 2 (~25%) : mecanisme simple — ex: "Comment fonctionne X ?" / "Quel est le role de X ?"
-   - 3 (~35%) : distinction ou application — ex: "Quelle difference entre X et Y ?" / "Dans quel cas X s'applique ?"
-   - 4 (~20%) : raisonnement complexe, condition cumulative, exception — ex: "A quelles conditions X peut-il etre ecarte ?"
-   - 5 (~10%) : argumentation, evolution jurisprudentielle, controverse — ex: "En quoi X remet-il en cause le principe Y ?"
-
-   REGLE ABSOLUE: Sur {nb_per_chunk} flashcards, le niveau 2 ne doit jamais depasser {max(1, nb_per_chunk // 4)} cartes. Utilise les niveaux 3, 4 et 5 en priorite des que le contenu le permet.
-
-   REPARTITION: sur {nb_per_chunk} cartes, vise 10% diff1, 25% diff2, 35% diff3, 20% diff4, 10% diff5.
-
-CONTENU SOURCE:
+CONTENU SOURCE :
 {chunk}
 
-Reponds UNIQUEMENT en JSON valide (pas de markdown, pas de texte autour):
+Reponds UNIQUEMENT en JSON valide (pas de markdown, pas de texte autour).
+Produis exactement {nb_per_chunk} objets avec les niveaux de difficulte exactement tels qu'imposes :
 [
   {{
     "question": "...",
     "reponse": "...",
     "explication": "...",
-    "difficulte": 3
+    "difficulte": {levels[0]}
   }}
 ]"""
 

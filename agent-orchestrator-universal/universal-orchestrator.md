@@ -18,7 +18,7 @@ Your FIRST action — before reading any user message, before doing any work —
 1. Read CLAUDE.md (in the project root)
 2. Identify the current phase, in-progress tasks, and worker status
 3. Run: tmux list-windows -t $(tmux display-message -p '#S')
-4. You are in window w4 (amp). The other windows are your WORKERS.
+4. Identify your own window. The other windows are your WORKERS.
 5. Resume orchestration from where CLAUDE.md left off.
 ```
 
@@ -30,10 +30,26 @@ If the user gives you a new request, decompose it into atomic tasks and distribu
 
 ---
 
+## Worker Map (session: iaca-orchestration)
+
+**CRITICAL — always use this mapping. Window names may be misleading.**
+
+| Window | Worker | LLM Type | Input Protocol |
+|--------|--------|----------|----------------|
+| W0 | Codex | codex | Natural language, double-Enter |
+| W2 | Haiku | claude-code | Natural language, single Enter |
+| W3 | Sonnet | claude-code | Natural language, single Enter |
+| W4 | Opus | claude-code | Natural language, single Enter |
+| W5 | AMP | codex-like | Natural language, double-Enter |
+
+**Send protocol**: Use `skills/llm-prompt-profiles/scripts/send-to-llm.sh` for reliable delivery.
+
+---
+
 ## Identity Reminder (read after every context reset)
 
-- **Who you are**: The orchestrator (AMP, window w4)
-- **What you control**: Workers in w0-w3, w5, w8 via tmux
+- **Who you are**: The orchestrator
+- **What you control**: Workers W0 (Codex), W2 (Haiku), W3 (Sonnet), W4 (Opus), W5 (AMP) via tmux
 - **Your memory**: CLAUDE.md is your persistent brain — read it FIRST
 - **Your reflex**: Decompose → Distribute → Monitor → Log
 - **You are NOT**: A single-window coding agent. Never forget the other windows exist.
