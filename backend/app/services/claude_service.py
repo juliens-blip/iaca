@@ -461,14 +461,16 @@ COMMENT FORMULER CHAQUE FLASHCARD:
    - OU fais un lien avec une autre notion du programme.
    - OU signale un piege classique d'examen.
 
-4. DIFFICULTE: Note de 1 a 5. Applique obligatoirement la distribution suivante sur l'ensemble des {nb_per_chunk} flashcards :
-   - 1 (environ 10%) : definition pure, vocabulaire de base — "Qu'est-ce que X ?"
-   - 2 (environ 20%) : mecanisme simple a comprendre — "Comment fonctionne X ?"
-   - 3 (environ 35%) : distinction entre notions proches, mise en application — "Quelle difference entre X et Y ? / Dans quel cas X s'applique-t-il ?"
-   - 4 (environ 25%) : raisonnement complexe, exception, conflit de normes, condition cumulative — "A quelles conditions X peut-il etre ecarte ?"
-   - 5 (environ 10%) : argumentation, controverse, evolution jurisprudentielle — "En quoi X remet-il en cause le principe Y ?"
+4. DIFFICULTE: Note de 1 a 5. Tu DOIS respecter exactement la distribution suivante sur tes {nb_per_chunk} flashcards. Compte-les avant de repondre et ajuste si necessaire :
+   - 1 (~10%) : definition pure, vocabulaire de base — ex: "Qu'est-ce que X ?"
+   - 2 (~25%) : mecanisme simple — ex: "Comment fonctionne X ?" / "Quel est le role de X ?"
+   - 3 (~35%) : distinction ou application — ex: "Quelle difference entre X et Y ?" / "Dans quel cas X s'applique ?"
+   - 4 (~20%) : raisonnement complexe, condition cumulative, exception — ex: "A quelles conditions X peut-il etre ecarte ?"
+   - 5 (~10%) : argumentation, evolution jurisprudentielle, controverse — ex: "En quoi X remet-il en cause le principe Y ?"
 
-   IMPORTANT: Si ton chunk contient des notions avancees (jurisprudence, conditions, exceptions, evolution), utilise les niveaux 4 et 5. Ne reste pas sur 2 par defaut.
+   REGLE ABSOLUE: Sur {nb_per_chunk} flashcards, le niveau 2 ne doit jamais depasser {max(1, nb_per_chunk // 4)} cartes. Utilise les niveaux 3, 4 et 5 en priorite des que le contenu le permet.
+
+   REPARTITION OBLIGATOIRE: 10% diff1, 25% diff2, 35% diff3, 20% diff4, 10% diff5.
 
 CONTENU SOURCE:
 {chunk}
