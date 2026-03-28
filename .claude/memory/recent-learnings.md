@@ -2,6 +2,14 @@
 
 Fichier volontairement volatile. Ajouter les entrées récentes en haut, garder des notes courtes et purger agressivement.
 
+## 2026-03-28 08:00 UTC - PreCompact
+
+- Root CLAUDE.md still contains dated log markers.
+
+## 2026-03-28 08:00 UTC - PreCompact
+
+- Root CLAUDE.md still contains dated log markers.
+
 ## 2026-03-28 07:39 UTC - PreCompact
 
 - Root CLAUDE.md still contains dated log markers.

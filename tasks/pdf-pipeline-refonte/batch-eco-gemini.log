@@ -1,1 +1,22 @@
 17:31:24 INFO    Fournisseur IA: gemini
+17:32:01 INFO    Phase 2 — génération fiches: 0 documents sans fiche
+17:32:01 INFO    Phase 2 — toutes les fiches sont présentes
+17:32:41 INFO    Phase 3 — génération flashcards: 4 documents avec < 5 flashcards
+17:32:41 INFO    [flashcard] [1417] Inflation et déflation_ [Economie] [gemini] — existantes: 0 …
+17:32:45 INFO    AFC is enabled with max remote calls: 10.
+17:32:59 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:32:59 INFO    [flashcard] [1417] OK — 10 cartes insérées
+17:33:04 INFO    [flashcard] [1418] Les politiques structurelles et interventions de l’Etat face [Economie] [gemini] — existantes: 0 …
+17:33:04 INFO    AFC is enabled with max remote calls: 10.
+17:33:18 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:33:18 INFO    [flashcard] [1418] OK — 10 cartes insérées
+17:33:23 INFO    [flashcard] [1421] L’intégration régional européenne_ [Economie] [gemini] — existantes: 0 …
+17:33:24 INFO    AFC is enabled with max remote calls: 10.
+17:33:36 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:33:36 INFO    [flashcard] [1421] OK — 10 cartes insérées
+17:33:41 INFO    [flashcard] [1422] Macroéconomie _ Théories et Politiques 1A [Economie] [gemini] — existantes: 0 …
+17:33:41 INFO    AFC is enabled with max remote calls: 10.
+17:33:54 INFO    HTTP Request: POST https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent "HTTP/1.1 200 OK"
+17:33:54 INFO    [flashcard] [1422] OK — 10 cartes insérées
+17:33:59 INFO    Phase 3 terminée — ok=4 skipped=0 error=0
+17:33:59 INFO    Terminé.

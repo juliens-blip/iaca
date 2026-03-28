@@ -64,3 +64,6 @@ tmux send-keys -t $SESSION:1 "Status update?" Enter
 - `references/tmux-cheatsheet.md`: discovery, signals, and troubleshooting.
 - `assets/prompt-template.md`: consistent prompt structure.
 
+## Related Skill
+- **`llm-prompt-profiles`**: LLM-specific submission protocols (Claude Code vs Codex vs AMP vs bash). Use `llm-prompt-profiles/scripts/send-to-llm.sh` instead of `send-verified.sh` when workers use different LLM types — it auto-handles double-Enter for Codex, activity detection per LLM, and natural-language-only enforcement.
+

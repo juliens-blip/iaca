@@ -321,6 +321,60 @@ tmux capture-pane -t $SESSION:2 -p -S -1000
 
 ---
 
+## Profils LLM — Protocoles d'envoi différenciés
+
+**IMPORTANT** : Chaque LLM a un protocole d'input différent. Utiliser le mauvais = prompt jamais soumis.
+
+### Profils résumés
+
+| LLM | Prompt | Submit | Input | Activity Patterns |
+|-----|--------|--------|-------|-------------------|
+| **Claude Code** | `❯` | 1x Enter | Naturel + bash OK | `Working`, `Thinking`, `Baked` |
+| **Codex** | `›` | **2x Enter** (2s delay) | **Naturel UNIQUEMENT** | `• Working`, `Ran ` |
+| **AMP** | `❯` | 1x Enter + safety Enter | Naturel | `Discombobulating`, `Simmering` |
+| **Bash** | `$` | 1x Enter | Commandes shell | Pas de prompt retourné |
+
+### Envoi correct par type
+
+```bash
+# Claude Code (Haiku/Sonnet/Opus) — simple
+tmux send-keys -t $SESSION:N "Prompt court en langage naturel" Enter
+
+# Codex — TOUJOURS double-Enter + langage naturel
+tmux send-keys -t $SESSION:N C-u  # clear buffer
+sleep 0.5
+tmux send-keys -t $SESSION:N "Run dedup then git push" Enter
+sleep 2
+tmux send-keys -t $SESSION:N Enter  # OBLIGATOIRE
+
+# AMP — Enter + safety Enter
+tmux send-keys -t $SESSION:N "Audit flashcards quality" Enter
+sleep 1
+tmux send-keys -t $SESSION:N Enter
+```
+
+### Erreurs fréquentes
+
+| Erreur | Cause | Solution |
+|--------|-------|----------|
+| Codex: prompt visible mais pas soumis | Un seul Enter envoyé | Toujours double-Enter avec 2s delay |
+| Codex: commande bash traitée comme texte | Envoi de commandes raw | Reformuler en langage naturel |
+| Claude Code: prompt avalé par compaction | Compaction en cours | Attendre 3s après `Compacting...` |
+| AMP: pas de réponse | Enter manquant | Ajouter safety Enter |
+
+### Script unifié (recommandé)
+
+```bash
+# Utiliser send-to-llm.sh qui gère tout automatiquement
+bash skills/llm-prompt-profiles/scripts/send-to-llm.sh $SESSION <window> auto "Mon prompt"
+
+# Ou avec type explicite
+bash skills/llm-prompt-profiles/scripts/send-to-llm.sh $SESSION 5 codex "Run dedup then push"
+bash skills/llm-prompt-profiles/scripts/send-to-llm.sh $SESSION 2 claude-code "Génère fiches Droit public"
+```
+
+**Skill complète** : voir `skills/llm-prompt-profiles/SKILL.md` pour tous les détails, patterns et guidelines.
+
 ## Double Enter (Codex & Antigravity)
 
 Certains LLMs (notamment Codex et Antigravity) nécessitent souvent un Enter supplémentaire pour soumettre le prompt. Le texte s'affiche dans le buffer mais le LLM ne commence pas à travailler.
@@ -375,7 +429,8 @@ fi
 ### Pattern recommandé (intégré à l'envoi)
 
 ```bash
-# Envoyer prompt + auto-vérifier
+# OBSOLÈTE — préférer send-to-llm.sh qui gère les profils automatiquement
+# Gardé pour référence :
 tmux send-keys -t $SESSION:N "Mon prompt" Enter
 sleep 3
 output=$(tmux capture-pane -t $SESSION:N -p | tail -5)

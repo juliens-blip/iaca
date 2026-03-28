@@ -176,6 +176,60 @@ def save_fiche(conn: sqlite3.Connection, doc_id: int, matiere_id: int | None, fi
     return fiche_id
 
 
+def fetch_docs_without_qcm(conn: sqlite3.Connection, matiere_filter: str | None, limit: int | None) -> list[sqlite3.Row]:
+    """Documents sans quiz ET avec contenu_extrait suffisant."""
+    sql = """
+        SELECT d.id, d.titre, d.fichier_path, d.type_fichier, d.contenu_extrait, d.matiere_id,
+               m.nom AS matiere_nom
+        FROM documents d
+        LEFT JOIN matieres m ON m.id = d.matiere_id
+        WHERE d.contenu_extrait IS NOT NULL
+          AND length(trim(d.contenu_extrait)) >= 120
+          AND length(trim(d.contenu_extrait)) <= 200000
+          AND NOT EXISTS (SELECT 1 FROM quizzes q WHERE q.document_id = d.id)
+          AND d.id NOT IN (
+              SELECT d2.id FROM documents d2
+              WHERE EXISTS (
+                  SELECT 1 FROM documents d3
+                  WHERE d3.contenu_extrait = d2.contenu_extrait AND d3.id < d2.id
+              )
+          )
+    """
+    params: list = []
+    if matiere_filter:
+        sql += " AND lower(m.nom) LIKE ?"
+        params.append(f"%{matiere_filter.lower()}%")
+    sql += " ORDER BY d.id"
+    if limit:
+        sql += f" LIMIT {limit}"
+    return conn.execute(sql, params).fetchall()
+
+
+def save_quiz(conn: sqlite3.Connection, doc_id: int, matiere_id: int | None, questions: list[dict]) -> int:
+    import json as _json
+    cur = conn.execute(
+        "INSERT INTO quizzes (titre, matiere_id, document_id) VALUES (?, ?, ?)",
+        (f"Quiz — doc {doc_id}", matiere_id, doc_id),
+    )
+    quiz_id = cur.lastrowid
+    for q in questions:
+        choix = q.get("choix", [])
+        conn.execute(
+            "INSERT INTO quiz_questions (quiz_id, question, choix, reponse_correcte, explication, difficulte)"
+            " VALUES (?, ?, ?, ?, ?, ?)",
+            (
+                quiz_id,
+                q.get("question", ""),
+                _json.dumps(choix, ensure_ascii=False),
+                int(q.get("reponse_correcte", 0)),
+                q.get("explication", ""),
+                int(q.get("difficulte", 1)),
+            ),
+        )
+    conn.commit()
+    return quiz_id
+
+
 def save_flashcards(conn: sqlite3.Connection, doc_id: int, matiere_id: int | None, cards: list[dict]) -> int:
     count = 0
     for fc in cards:
@@ -250,6 +304,24 @@ async def _generer_flashcards_provider(contenu: str, matiere: str, nb: int, prov
             raise
     # provider == "claude"
     return await claude_service.generer_flashcards(contenu, matiere, nb=nb)
+
+
+async def _generer_qcm_provider(contenu: str, matiere: str, nb: int, provider: str) -> list[dict]:
+    from app.services import claude_service  # type: ignore
+    if provider == "gemini":
+        async with _gemini_backend():
+            return await claude_service.generer_qcm(contenu, matiere, nb=nb)
+    if provider == "auto":
+        try:
+            return await claude_service.generer_qcm(contenu, matiere, nb=nb)
+        except RuntimeError as exc:
+            if "limit" in str(exc).lower() or "rate" in str(exc).lower():
+                log.warning("Claude rate-limit — bascule Gemini pour ce QCM")
+                async with _gemini_backend():
+                    return await claude_service.generer_qcm(contenu, matiere, nb=nb)
+            raise
+    # provider == "claude"
+    return await claude_service.generer_qcm(contenu, matiere, nb=nb)
 
 
 # ---------------------------------------------------------------------------
@@ -359,6 +431,38 @@ async def phase_flashcards(conn: sqlite3.Connection, docs: list, dry_run: bool, 
     return stats
 
 
+async def phase_qcm(conn: sqlite3.Connection, docs: list, dry_run: bool, provider: str = "auto") -> dict:
+    stats = {"attempted": 0, "ok": 0, "skipped": 0, "error": 0}
+    for doc in docs:
+        stats["attempted"] += 1
+        contenu = (doc["contenu_extrait"] or "").strip()
+        if len(contenu) < 120:
+            log.warning("[qcm] [%d] contenu insuffisant (%d chars) — sauté", doc["id"], len(contenu))
+            stats["skipped"] += 1
+            continue
+
+        matiere_nom = doc["matiere_nom"] or "droit public"
+        log.info("[qcm] [%d] %s [%s] [%s] …", doc["id"], doc["titre"][:60], matiere_nom, provider)
+
+        if dry_run:
+            log.info("[qcm] [%d] DRY-RUN — ignoré", doc["id"])
+            stats["ok"] += 1
+            continue
+
+        try:
+            questions = await _generer_qcm_provider(contenu, matiere_nom, nb=5, provider=provider)
+            quiz_id = save_quiz(conn, doc["id"], doc["matiere_id"], questions)
+            log.info("[qcm] [%d] OK — quiz_id=%d questions=%d", doc["id"], quiz_id, len(questions))
+            stats["ok"] += 1
+            await asyncio.sleep(5)  # Rate-limit spacing
+        except Exception as exc:
+            log.error("[qcm] [%d] ERREUR: %s", doc["id"], exc)
+            stats["error"] += 1
+            await asyncio.sleep(10)  # Longer pause after error
+
+    return stats
+
+
 # ---------------------------------------------------------------------------
 # Main
 # ---------------------------------------------------------------------------
@@ -421,6 +525,19 @@ async def main(args: argparse.Namespace) -> None:
         else:
             log.info("Phase 3 — flashcards suffisantes partout")
 
+    # --- Phase 4: génération QCM ---
+    if not args.skip_qcm:
+        docs_qcm = fetch_docs_without_qcm(conn, matiere, limit)
+        log.info("Phase 4 — génération QCM: %d documents sans quiz", len(docs_qcm))
+        if docs_qcm:
+            stats = await phase_qcm(conn, docs_qcm, dry_run, provider)
+            log.info(
+                "Phase 4 terminée — ok=%d skipped=%d error=%d",
+                stats["ok"], stats["skipped"], stats["error"],
+            )
+        else:
+            log.info("Phase 4 — tous les documents ont déjà un quiz")
+
     conn.close()
     log.info("Terminé.")
 
@@ -435,6 +552,7 @@ def parse_args() -> argparse.Namespace:
     parser.add_argument("--skip-extract", action="store_true", help="Sauter la phase de ré-extraction")
     parser.add_argument("--skip-fiches", action="store_true", help="Sauter la génération de fiches")
     parser.add_argument("--skip-flashcards", action="store_true", help="Sauter la génération de flashcards")
+    parser.add_argument("--skip-qcm", action="store_true", help="Sauter la génération de QCM")
     parser.add_argument("--min-flashcards", type=int, default=5, metavar="N", help="Seuil min flashcards (défaut: 5)")
     parser.add_argument(
         "--provider",

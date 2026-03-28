@@ -79,7 +79,7 @@ def build_duplicate_map(conn: sqlite3.Connection, min_content_length: int) -> li
             SELECT contenu_extrait, MIN(id) AS keeper_id
             FROM documents
             WHERE contenu_extrait IS NOT NULL
-              AND length(trim(contenu_extrait)) >= ?
+              AND (length(trim(contenu_extrait)) >= ? OR length(trim(contenu_extrait)) = 0)
             GROUP BY contenu_extrait
             HAVING COUNT(*) > 1
         )
@@ -105,7 +105,7 @@ def preview_groups(
             SELECT contenu_extrait, MIN(id) AS keeper_id, COUNT(*) AS doc_count
             FROM documents
             WHERE contenu_extrait IS NOT NULL
-              AND length(trim(contenu_extrait)) >= ?
+              AND (length(trim(contenu_extrait)) >= ? OR length(trim(contenu_extrait)) = 0)
             GROUP BY contenu_extrait
             HAVING COUNT(*) > 1
         )
