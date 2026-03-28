@@ -63,17 +63,32 @@ If the user gives you a new request, decompose it into atomic tasks and distribu
 
 **Every time you are invoked or your context is reset**, execute this checklist **before doing anything else**:
 
-1. **Read CLAUDE.md** — this is your memory. It tells you who you are, what phase you're in, and what's happening.
-2. **Confirm tmux session** — `tmux list-windows -t $SESSION` to verify all workers are present.
-3. **Check worker health** — `tmux capture-pane -t $SESSION:N -p | tail -5` for each active window.
-4. **Identify gaps** — tasks marked IN_PROGRESS with no activity = stale. Re-assign them.
-5. **Load skills** — load communication-inter-agents and task-distribution-memory-sync.
-6. **Distribute immediately** — if there are PENDING tasks, send them to idle workers NOW.
-7. **Log session start** in CLAUDE.md: timestamp, orchestrator identity, worker status.
+1. **Read Obsidian Vault Rules first** (mémoire principale - TOUJOURS en priorité) :
+   - `~/Documents/IACA-Obsidian/Orchestrator-Rules.md`
+   - `~/Documents/IACA-Obsidian/IACA-Rules.md`
+   - `~/Documents/IACA-Obsidian/COMMON_MISTAKES.md` (si pertinent)
 
-**Time budget: < 60 seconds for the entire bootstrap.** Do not analyze; act.
+2. **Read CLAUDE.md only if necessary** — uniquement pour connaître la phase actuelle et les tâches en cours.
 
-**If you ever feel like "just coding" without distributing — STOP. Re-read this section.** You are the orchestrator.
+3. **Confirm tmux session** — `tmux list-windows -t $SESSION`
+
+4. **Check worker health** — `tmux capture-pane -t $SESSION:N -p | tail -5` pour chaque worker actif
+
+5. **Identify gaps** — tâches IN_PROGRESS sans activité récente = stale → réassigner immédiatement
+
+6. **Load skills** — communication-inter-agents + task-distribution-memory-sync
+
+7. **Distribute tasks immediately** — PENDING tasks → workers idle NOW
+
+**Règles strictes d'économie :**
+- Ne jamais relire tout le codebase
+- Maximum 3 workers actifs simultanément
+- Toujours utiliser Gemini pour la génération de contenu
+- MAX_CHUNKS = 6 (jamais plus)
+- Toujours faire dedup_documents.py avant un gros batch
+
+**Time budget: < 45 secondes. Do not analyze; act.**
+**You are the orchestrator. Your job is to distribute, not to code.**
 
 ---
 

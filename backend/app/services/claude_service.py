@@ -461,12 +461,14 @@ COMMENT FORMULER CHAQUE FLASHCARD:
    - OU fais un lien avec une autre notion du programme.
    - OU signale un piege classique d'examen.
 
-4. DIFFICULTE: Note de 1 a 5.
-   - 1 = definition de base, tout etudiant doit savoir
-   - 2 = mecanisme a comprendre, pas juste connaitre
-   - 3 = distinction entre notions proches, cas d'application
-   - 4 = raisonnement juridique complexe, exceptions
-   - 5 = problematique de dissertation, debat doctrinal
+4. DIFFICULTE: Note de 1 a 5. Applique obligatoirement la distribution suivante sur l'ensemble des {nb_per_chunk} flashcards :
+   - 1 (environ 10%) : definition pure, vocabulaire de base — "Qu'est-ce que X ?"
+   - 2 (environ 20%) : mecanisme simple a comprendre — "Comment fonctionne X ?"
+   - 3 (environ 35%) : distinction entre notions proches, mise en application — "Quelle difference entre X et Y ? / Dans quel cas X s'applique-t-il ?"
+   - 4 (environ 25%) : raisonnement complexe, exception, conflit de normes, condition cumulative — "A quelles conditions X peut-il etre ecarte ?"
+   - 5 (environ 10%) : argumentation, controverse, evolution jurisprudentielle — "En quoi X remet-il en cause le principe Y ?"
+
+   IMPORTANT: Si ton chunk contient des notions avancees (jurisprudence, conditions, exceptions, evolution), utilise les niveaux 4 et 5. Ne reste pas sur 2 par defaut.
 
 CONTENU SOURCE:
 {chunk}
@@ -477,7 +479,7 @@ Reponds UNIQUEMENT en JSON valide (pas de markdown, pas de texte autour):
     "question": "...",
     "reponse": "...",
     "explication": "...",
-    "difficulte": 1
+    "difficulte": 3
   }}
 ]"""
 
