@@ -134,7 +134,8 @@ def _fallback_fitz(file_path: str) -> str:
                         else:
                             # Preserve bullet lists and numbered lists
                             if re.match(r"^[\•\-\*]\s+", line_text):
-                                all_blocks.append(f"- {re.sub(r'^[\•\-\*]\s+', '', line_text)}")
+                                cleaned = re.sub(r'^[\•\-\*]\s+', '', line_text)
+                                all_blocks.append(f"- {cleaned}")
                             elif re.match(r"^\d+[\.\)]\s+", line_text):
                                 num = re.match(r"^(\d+)[\.\)]\s+", line_text)
                                 if num:
