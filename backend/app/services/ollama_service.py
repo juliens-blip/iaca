@@ -8,11 +8,17 @@ import httpx
 
 from app.config import settings
 
-_DB_PATH = Path(settings.database_url.replace("sqlite:///", ""))
+_DB_PATH = (
+    Path(settings.database_url.replace("sqlite:///", "", 1))
+    if settings.database_url.startswith("sqlite:///")
+    else None
+)
 
 
 def _rag_context(question: str, max_results: int = 3) -> str:
     """Fetch the most relevant flashcard Q/A pairs from the local DB as context."""
+    if _DB_PATH is None or not _DB_PATH.exists():
+        return ""
     try:
         words = [w.lower() for w in question.split() if len(w) > 4]
         if not words:

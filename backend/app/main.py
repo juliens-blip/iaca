@@ -15,7 +15,9 @@ from app.security import BearerAuthMiddleware
 async def lifespan(app: FastAPI):
     # Startup: create directories and DB tables
     os.makedirs(settings.upload_path, exist_ok=True)
-    os.makedirs(os.path.dirname(settings.database_url.replace("sqlite:///", "")), exist_ok=True)
+    if settings.database_url.startswith("sqlite:///"):
+        sqlite_path = settings.database_url.replace("sqlite:///", "", 1)
+        os.makedirs(os.path.dirname(sqlite_path), exist_ok=True)
     async with engine.begin() as conn:
         await conn.run_sync(Base.metadata.create_all)
     yield
