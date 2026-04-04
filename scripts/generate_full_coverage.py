@@ -89,11 +89,26 @@ STOPWORDS = {
     "etre", "avoir", "sont", "ete", "sur", "par", "des", "les", "une", "que", "qui", "est",
     "aux", "ces", "ses", "son", "nos", "vos", "car", "pas", "mais", "dans", "deux", "trois",
     "cours", "partie", "premiere", "deuxieme", "mise", "jour", "document", "quelques", "arrêt",
+    "focus", "numerique", "janvier", "fevrier", "mars", "avril", "mai", "juin", "juillet",
+    "aout", "septembre", "octobre", "novembre", "decembre", "semestre", "licence", "droit",
+    "correction", "appreciation", "deliberation", "correcteur", "critere", "devoir", "bien",
+    "vous", "votre", "passez", "cote", "precisez", "demontrez", "note",
 }
 STRUCTURED_KEYWORDS = (
     "condition", "conditions", "principe", "sanction", "effet", "exception", "article",
     "jurisprudence", "arrêt", "delai", "délai", "validité", "nullité", "caducité",
     "obligation", "responsabilité", "compétence", "contrat", "procédure", "preuve", "recours",
+)
+EVALUATION_TEXT_MARKERS = (
+    "note de deliberation",
+    "note de correction",
+    "correction 1",
+    "correction 2",
+    "correction 3",
+    "critere corr",
+    "appreciation",
+    "correcteur",
+    "numerique en droit",
 )
 
 
@@ -237,15 +252,71 @@ def classify_doc(titre: str) -> str:
     return "manuel" if _is_manuel(titre) else "standard"
 
 
+def _normalized_lower(text: str) -> str:
+    normalized = unicodedata.normalize("NFKD", text or "")
+    ascii_text = normalized.encode("ascii", "ignore").decode("ascii")
+    return re.sub(r"\s+", " ", ascii_text).strip().lower()
+
+
+def _looks_like_evaluation_noise(text: str) -> bool:
+    lowered = _normalized_lower(text)
+    if not lowered:
+        return False
+    if any(marker in lowered for marker in EVALUATION_TEXT_MARKERS):
+        return True
+    if re.search(r"\b\d+(?:[.,]\d+)?\s*/\s*(?:10|20)\b", lowered):
+        return True
+    return False
+
+
+def _filter_generation_noise(text: str) -> str:
+    kept_lines: list[str] = []
+    for raw_line in (text or "").splitlines():
+        line = raw_line.strip()
+        if not line:
+            kept_lines.append("")
+            continue
+        if _looks_like_evaluation_noise(line):
+            continue
+        kept_lines.append(raw_line)
+    return "\n".join(kept_lines).strip()
+
+
+def _should_skip_document_for_generation(titre: str, contenu: str) -> bool:
+    if _is_garbage_title(titre):
+        return True
+    lowered_content = _normalized_lower(contenu[:6000])
+    if any(marker in lowered_content for marker in EVALUATION_TEXT_MARKERS):
+        return True
+    return False
+
+
+def _is_bad_structured_title(title: str) -> bool:
+    lowered = _normalized_lower(title)
+    if not lowered or len(lowered) < 8:
+        return True
+    if _looks_like_evaluation_noise(title):
+        return True
+    if lowered.startswith("focus :"):
+        return True
+    generic_tokens = ("numerique", "janvier", "mai", "semestre", "licence", "devoir", "vous", "bien")
+    return sum(token in lowered for token in generic_tokens) >= 2
+
+
 def _is_garbage_title(titre: str) -> bool:
     lowered = (titre or "").lower()
-    normalized = lowered.replace("é", "e")
+    normalized = _normalized_lower(titre)
     obvious_noise_markers = (
         "quizlet",
         "quizzlet",
         "drive",
         "calendrier",
         "bibliographie",
+        "bareme",
+        "barème",
+        "astuce",
+        "astuces",
+        "atuces",
         "copy of",
         "bonne copie",
         "bonne_copie",
@@ -481,7 +552,7 @@ def _build_sentence_group_sections(contenu: str, limit: int, offset: int = 0) ->
 
 
 def _extract_structured_sections(contenu: str, limit: int = 6) -> list[dict[str, str]]:
-    source = _prepare_generation_source(contenu)
+    source = _filter_generation_noise(_prepare_generation_source(contenu))
     if not source:
         return []
 
@@ -498,7 +569,8 @@ def _extract_structured_sections(contenu: str, limit: int = 6) -> list[dict[str,
             body = " ".join(current_lines).strip()
             if body and len(body) >= 180:
                 title = current_title or _derive_section_title_from_body(body, len(sections) + 1)
-                sections.append({"titre": title, "contenu": body})
+                if not _is_bad_structured_title(title):
+                    sections.append({"titre": title, "contenu": body})
                 if len(sections) >= limit:
                     return sections[:limit]
             current_title = re.sub(r"^#+\s*", "", line).strip(" :-")
@@ -510,7 +582,8 @@ def _extract_structured_sections(contenu: str, limit: int = 6) -> list[dict[str,
     body = " ".join(current_lines).strip()
     if body and len(body) >= 180 and len(sections) < limit:
         title = current_title or _derive_section_title_from_body(body, len(sections) + 1)
-        sections.append({"titre": title, "contenu": body})
+        if not _is_bad_structured_title(title):
+            sections.append({"titre": title, "contenu": body})
 
     if len(sections) >= 3:
         if len(sections) < limit:
@@ -528,8 +601,11 @@ def _extract_structured_sections(contenu: str, limit: int = 6) -> list[dict[str,
     blocks = [block.strip() for block in re.split(r"\n\s*\n+", source) if len(block.strip()) >= 180]
     fallback_sections: list[dict[str, str]] = []
     for index, block in enumerate(blocks[:limit], start=1):
+        title = _derive_section_title_from_body(block, index)
+        if _is_bad_structured_title(title):
+            continue
         fallback_sections.append({
-            "titre": _derive_section_title_from_body(block, index),
+            "titre": title,
             "contenu": re.sub(r"\s+", " ", block).strip(),
         })
     if len(fallback_sections) < limit:
@@ -549,12 +625,14 @@ def _select_key_sentences(text: str, limit: int = 3) -> list[str]:
     sentences = _split_sentences(text)
     if not sentences:
         excerpt = _clean_excerpt(text, 220)
-        return [excerpt] if excerpt else []
+        return [excerpt] if excerpt and not _looks_like_evaluation_noise(excerpt) else []
 
     scored: list[tuple[int, int, str]] = []
     for index, sentence in enumerate(sentences):
         alpha_words = re.findall(r"[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'-]{2,}", sentence)
         if len(alpha_words) < 6:
+            continue
+        if _looks_like_evaluation_noise(sentence):
             continue
         lowered = sentence.lower()
         score = 0
@@ -604,6 +682,8 @@ def _build_structured_answer(title: str, body: str) -> tuple[str, str]:
     key_sentences = _select_key_sentences(body, limit=3)
     if not key_sentences:
         fallback = _clean_excerpt(body, 240)
+        if not fallback or _looks_like_evaluation_noise(fallback):
+            return "", ""
         return fallback, f"Synthèse structurée de la partie « {title} » du document."
 
     answer_parts = []
@@ -617,6 +697,8 @@ def _build_structured_answer(title: str, body: str) -> tuple[str, str]:
 
 def _build_structured_section_content(title: str, body: str) -> str:
     key_sentences = _select_key_sentences(body, limit=3)
+    if not key_sentences:
+        return ""
     title_label = _clean_excerpt(title, 90) or "ce thème"
     lines = [f"Cette partie porte sur {title_label.lower()}."]
     labels = ["Principe", "Mécanisme", "Point d'attention"]
@@ -667,50 +749,57 @@ def _generate_flashcards_heuristic(
     for index, section in enumerate(sections, start=1):
         if len(cards) >= nb:
             break
+        if _is_bad_structured_title(section["titre"]):
+            continue
         question = _build_structured_question_variant(section["titre"], matiere, start_index + index)
         if question in used:
             continue
-        used.add(question)
         answer, explanation = _build_structured_answer(section["titre"], section["contenu"])
-        cards.append(
-            {
-                "question": question[:280],
-                "reponse": answer,
-                "explication": explanation,
-                "difficulte": 3,
-            }
-        )
+        card = {
+            "question": question[:280],
+            "reponse": answer,
+            "explication": explanation,
+            "difficulte": 3,
+        }
+        if not _validate_flashcard(card):
+            continue
+        used.add(question)
+        cards.append(card)
     sentences = _split_sentences(contenu)
     while len(cards) < nb and (sections or sentences):
         idx = start_index + len(cards) + 1
         if sections:
             section = sections[len(cards) % len(sections)]
+            if _is_bad_structured_title(section["titre"]):
+                break
             question = _build_structured_question_variant(section["titre"], matiere, idx + len(sections))
             if question in used:
                 idx += len(cards) + 7
                 question = _build_structured_question_variant(section["titre"], matiere, idx + len(sections))
-            used.add(question)
             answer, explanation = _build_structured_answer(section["titre"], section["contenu"])
-            cards.append(
-                {
-                    "question": question[:280],
-                    "reponse": answer,
-                    "explication": explanation,
-                    "difficulte": 3,
-                }
-            )
-            continue
-
-        seed = sentences[len(cards) % len(sentences)]
-        answer, explanation = _build_structured_answer(f"Point {idx}", seed)
-        cards.append(
-            {
-                "question": _build_notion_question(matiere, seed, idx)[:280],
+            card = {
+                "question": question[:280],
                 "reponse": answer,
                 "explication": explanation,
                 "difficulte": 3,
             }
-        )
+            if not _validate_flashcard(card):
+                break
+            used.add(question)
+            cards.append(card)
+            continue
+
+        seed = sentences[len(cards) % len(sentences)]
+        answer, explanation = _build_structured_answer(f"Point {idx}", seed)
+        card = {
+            "question": _build_notion_question(matiere, seed, idx)[:280],
+            "reponse": answer,
+            "explication": explanation,
+            "difficulte": 3,
+        }
+        if not _validate_flashcard(card):
+            break
+        cards.append(card)
     return cards[:nb]
 
 
@@ -998,7 +1087,8 @@ async def generate_flashcards_with_provider(
 ) -> list[dict]:
     last_exc: Exception | None = None
     if provider == "structured":
-        return _generate_flashcards_heuristic(contenu, matiere, nb)
+        log.warning("[generate_flashcards] structured provider disabled for flashcards — low-context output")
+        return []
     if provider == "gemini":
         async with _gemini_backend():
             return await generer_flashcards(contenu, matiere, nb=nb)
@@ -1104,6 +1194,8 @@ def insert_flashcards(
     now = datetime.now(timezone.utc).isoformat()
     inserted = 0
     for c in cards:
+        if not _validate_flashcard(c):
+            continue
         question = str(c.get("question", "")).strip()
         reponse = str(c.get("reponse", "")).strip()
         if not question or not reponse:
@@ -1248,6 +1340,11 @@ async def process_document(
         result["skipped"] = True
         return result
 
+    if _should_skip_document_for_generation(titre, contenu):
+        logger.info(f"[doc={doc_id}] Skip qualité — contenu de copie/correction ou bruit pédagogique")
+        result["skipped"] = True
+        return result
+
     if dry_run:
         logger.info(f"[doc={doc_id}] DRY-RUN — génération simulée: fc={need_fc}, qq={need_qq}, fi={need_fi}")
         result.update({"flashcards": need_fc, "quiz_questions": need_qq, "fiches": need_fi})
@@ -1321,20 +1418,7 @@ async def process_document(
                 logger.error(f"[doc={doc_id}] Fiche {i} ÉCHEC: {e}")
 
     if provider == "structured":
-        current = count_existing(conn, doc_id)
-        rem_fc = max(0, targets["flashcards"] - current["flashcards"])
-        if rem_fc > 0:
-            topoff_cards = _generate_flashcards_heuristic(
-                contenu,
-                matiere_nom,
-                rem_fc,
-                start_index=current["flashcards"],
-            )
-            inserted = insert_flashcards(conn, topoff_cards, doc_id, matiere_id, seen_questions)
-            result["flashcards"] += inserted
-            logger.info(
-                f"[doc={doc_id}] Structured top-off flashcards: +{inserted} (reste={max(0, rem_fc - inserted)})"
-            )
+        logger.info(f"[doc={doc_id}] Structured flashcard top-off désactivé pour préserver la qualité")
 
     if allow_fill_pass:
         current = count_existing(conn, doc_id)

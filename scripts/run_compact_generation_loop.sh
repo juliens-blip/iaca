@@ -37,7 +37,7 @@ PY
 main() {
   local max_passes="${1:-30}"
   local min_delta="${2:-1}"
-  local provider="${3:-${GEN_PROVIDER:-structured}}"
+  local provider="${3:-${GEN_PROVIDER:-ollama}}"
   local ollama_url="${OLLAMA_URL:-http://localhost:11434}"
   local ollama_model="${4:-${OLLAMA_MODEL:-phi3:mini}}"
   local reset_first_pass="${RESET_STATE:-1}"

@@ -337,6 +337,21 @@ def _validate_flashcard(card: dict) -> bool:
     """Reject cards with trivially short or self-identical fields."""
     question = _normalize_text(str(card.get("question", "")))
     reponse = _normalize_text(str(card.get("reponse", "")))
+    lowered_question = question.lower()
+    lowered_reponse = reponse.lower()
+    bad_markers = (
+        "note de délibération",
+        "note de deliberation",
+        "note de correction",
+        "correction 1",
+        "correction 2",
+        "correction 3",
+        "critère corr",
+        "critere corr",
+        "appréciation",
+        "appreciation",
+        "correcteur",
+    )
     if len(question) < 20:
         log.warning("[validate_flashcard] rejetee — question trop courte (%d chars): %r", len(question), question[:60])
         return False
@@ -346,6 +361,25 @@ def _validate_flashcard(card: dict) -> bool:
     if question.lower() == reponse.lower():
         log.warning("[validate_flashcard] rejetee — question == reponse: %r", question[:60])
         return False
+    if "focus :" in lowered_question:
+        log.warning("[validate_flashcard] rejetee — question low-context scaffold: %r", question[:80])
+        return False
+    if lowered_question.startswith("reformulez le principe suivant"):
+        log.warning("[validate_flashcard] rejetee — consigne brute au lieu d'une question: %r", question[:80])
+        return False
+    if any(marker in lowered_question or marker in lowered_reponse for marker in bad_markers):
+        log.warning("[validate_flashcard] rejetee — texte de correction/copie: %r", question[:80])
+        return False
+    if lowered_reponse.startswith("[") or lowered_reponse.startswith("{"):
+        log.warning("[validate_flashcard] rejetee — reponse JSON/liste brute: %r", question[:80])
+        return False
+    if re.search(r"\b\d+(?:[.,]\d+)?\s*/\s*(?:10|20)\b", lowered_reponse):
+        log.warning("[validate_flashcard] rejetee — reponse de notation brute: %r", question[:80])
+        return False
+    if "quelle notion explique le passage" in lowered_question:
+        if len(reponse) < 80 or re.match(r"^\d+[).]?\s", lowered_reponse):
+            log.warning("[validate_flashcard] rejetee — fragment brut sans contexte: %r", question[:80])
+            return False
     return True
 
 

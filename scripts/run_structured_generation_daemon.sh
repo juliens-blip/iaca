@@ -7,7 +7,7 @@ LOOP_LOG="${LOOP_LOG:-${ROOT_DIR}/logs/full_coverage_compact_1200_5x1_structured
 MAX_CYCLES="${1:-12}"
 MAX_PASSES_PER_CYCLE="${2:-30}"
 MIN_DELTA="${3:-1}"
-PROVIDER="${4:-structured}"
+PROVIDER="${4:-ollama}"
 
 count_items() {
   python3 - <<'PY'
