@@ -2,7 +2,6 @@
 Router pour la gestion des fiches de revision structurees.
 """
 
-import math
 from typing import Optional
 
 from fastapi import APIRouter, Depends, HTTPException
@@ -11,9 +10,11 @@ from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import selectinload
 
 from app.database import get_db
+from app.models.document import Document
 from app.models.fiche import Fiche, FicheSection
 from app.models.flashcard import Flashcard
 from app.models.quiz import Quiz
+from app.query_ordering import fiche_progression_order
 from app.schemas.fiche import FicheCreate, FicheResponse, FicheListItem
 
 router = APIRouter()
@@ -88,57 +89,25 @@ async def list_fiches(
     db: AsyncSession = Depends(get_db),
 ):
     """Liste les fiches avec filtres optionnels.
-    Sans filtre de matiere, applique un interleaving equilivre multi-matieres.
+    Les resultats suivent un ordre pedagogique stable base sur le document source.
     """
     error_filter = ~func.coalesce(Fiche.resume, "").like("%[Erreur d'extraction:%")
-
-    if matiere_id is not None or document_id is not None:
-        query = (
-            select(Fiche)
-            .where(error_filter)
-            .order_by(Fiche.created_at.desc())
-        )
-        if matiere_id is not None:
-            query = query.where(Fiche.matiere_id == matiere_id)
-        if document_id is not None:
-            query = query.where(Fiche.document_id == document_id)
-        if offset > 0:
-            query = query.offset(offset)
-        if limit > 0:
-            query = query.limit(limit)
-        result = await db.execute(query)
-        fiches = result.scalars().all()
-    else:
-        # Mode equilivre : interleaving par matiere
-        matieres_result = await db.execute(
-            select(Fiche.matiere_id).where(error_filter).distinct()
-        )
-        matiere_ids = [row[0] for row in matieres_result.all()]
-
-        effective_limit = limit if limit > 0 else 200
-        fiches_list: list[Fiche] = []
-
-        if matiere_ids:
-            per_matiere = max(1, math.ceil(effective_limit / len(matiere_ids)))
-            buckets: list[list[Fiche]] = []
-            for mid in matiere_ids:
-                q = (
-                    select(Fiche)
-                    .where(error_filter, Fiche.matiere_id == mid)
-                    .order_by(func.random())
-                    .limit(per_matiere)
-                )
-                res = await db.execute(q)
-                buckets.append(list(res.scalars().all()))
-
-            max_len = max(len(b) for b in buckets)
-            for i in range(max_len):
-                for bucket in buckets:
-                    if i < len(bucket):
-                        fiches_list.append(bucket[i])
-
-        start = offset if offset > 0 else 0
-        fiches = fiches_list[start: start + effective_limit]
+    query = (
+        select(Fiche)
+        .outerjoin(Document, Fiche.document_id == Document.id)
+        .where(error_filter)
+        .order_by(*fiche_progression_order())
+    )
+    if matiere_id is not None:
+        query = query.where(Fiche.matiere_id == matiere_id)
+    if document_id is not None:
+        query = query.where(Fiche.document_id == document_id)
+    if offset > 0:
+        query = query.offset(offset)
+    if limit > 0:
+        query = query.limit(limit)
+    result = await db.execute(query)
+    fiches = result.scalars().all()
 
     # Count sections in one query (avoid N+1).
     section_counts: dict[int, int] = {}

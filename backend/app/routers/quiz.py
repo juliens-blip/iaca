@@ -2,16 +2,17 @@
 Router pour la gestion des quiz et la soumission de reponses.
 """
 
-import math
 from typing import Optional
 
 from fastapi import APIRouter, Depends, HTTPException
-from sqlalchemy import select, func
+from sqlalchemy import select
 from sqlalchemy.ext.asyncio import AsyncSession
 from sqlalchemy.orm import selectinload
 
 from app.database import get_db
+from app.models.document import Document
 from app.models.quiz import Quiz, QuizQuestion
+from app.query_ordering import quiz_progression_order
 from app.schemas.quiz import (
     QuizCreate,
     QuizResponse,
@@ -69,63 +70,24 @@ async def list_quizzes(
     db: AsyncSession = Depends(get_db),
 ):
     """Liste tous les quiz avec filtres optionnels.
-    Quand aucune matiere_id n'est specifiee, applique un interleaving
-    equilbre multi-matieres pour eviter le biais vers une seule matiere.
+    Les resultats suivent un ordre pedagogique stable base sur le document source.
     """
-    if matiere_id is not None or document_id is not None:
-        # Filtre explicite : comportement normal
-        query = (
-            select(Quiz)
-            .options(selectinload(Quiz.questions))
-            .order_by(Quiz.created_at.desc())
-        )
-        if matiere_id is not None:
-            query = query.where(Quiz.matiere_id == matiere_id)
-        if document_id is not None:
-            query = query.where(Quiz.document_id == document_id)
-        if offset > 0:
-            query = query.offset(offset)
-        if limit > 0:
-            query = query.limit(limit)
-        result = await db.execute(query)
-        return result.scalars().unique().all()
-
-    # Mode equilbre : interleaving par matiere
-    # Recuperer les matieres distinctes presentes
-    matieres_result = await db.execute(
-        select(Quiz.matiere_id).distinct()
+    query = (
+        select(Quiz)
+        .options(selectinload(Quiz.questions))
+        .outerjoin(Document, Quiz.document_id == Document.id)
+        .order_by(*quiz_progression_order())
     )
-    matiere_ids = [row[0] for row in matieres_result.all()]
-
-    if not matiere_ids:
-        return []
-
-    effective_limit = limit if limit > 0 else 200
-    per_matiere = max(1, math.ceil(effective_limit / len(matiere_ids)))
-
-    buckets: list[list[Quiz]] = []
-    for mid in matiere_ids:
-        q = (
-            select(Quiz)
-            .options(selectinload(Quiz.questions))
-            .where(Quiz.matiere_id == mid)
-            .order_by(func.random())
-            .limit(per_matiere)
-        )
-        res = await db.execute(q)
-        buckets.append(list(res.scalars().unique().all()))
-
-    # Interleave : round-robin sur les buckets
-    interleaved: list[Quiz] = []
-    max_len = max(len(b) for b in buckets)
-    for i in range(max_len):
-        for bucket in buckets:
-            if i < len(bucket):
-                interleaved.append(bucket[i])
-
-    # Appliquer offset + limit finaux
-    start = offset if offset > 0 else 0
-    return interleaved[start: start + effective_limit]
+    if matiere_id is not None:
+        query = query.where(Quiz.matiere_id == matiere_id)
+    if document_id is not None:
+        query = query.where(Quiz.document_id == document_id)
+    if offset > 0:
+        query = query.offset(offset)
+    if limit > 0:
+        query = query.limit(limit)
+    result = await db.execute(query)
+    return result.scalars().unique().all()
 
 
 @router.get("/{quiz_id}", response_model=QuizResponse)

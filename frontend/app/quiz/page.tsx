@@ -99,7 +99,7 @@ export default function QuizPage() {
   const fetchQuizzes = useCallback(async (matiereId: number | null) => {
     setLoadingQuizzes(true);
     try {
-      const base = `${API_BASE}/quiz?limit=250`;
+      const base = `${API_BASE}/quiz?limit=5000`;
       const url =
         matiereId === null
           ? base

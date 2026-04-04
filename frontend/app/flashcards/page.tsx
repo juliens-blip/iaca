@@ -5,7 +5,7 @@ import FlashCard from "@/components/FlashCard";
 import { withAuthHeaders } from "@/lib/auth";
 
 const API_BASE = "/api";
-const FETCH_LIMIT = 200;
+const FETCH_LIMIT = 5000;
 
 interface FlashcardData {
   id: number;
@@ -443,7 +443,7 @@ export default function FlashcardsPage() {
             }
           `}
         >
-          Toutes les cartes (max {FETCH_LIMIT})
+          Toutes les cartes
         </button>
         <button
           onClick={() => setContentMode("revision")}

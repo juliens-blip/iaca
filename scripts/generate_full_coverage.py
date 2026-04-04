@@ -21,6 +21,7 @@ Usage:
 
 import argparse
 import asyncio
+import contextlib
 import json
 import logging
 import re
@@ -43,7 +44,16 @@ BACKEND_DIR = REPO_ROOT / "backend"
 # ── Add backend to sys.path so we can import claude_service ──────────────────
 sys.path.insert(0, str(BACKEND_DIR))
 
-from app.services.claude_service import generer_flashcards, generer_qcm, generer_fiche  # noqa: E402
+from app.services.claude_service import (  # noqa: E402
+    _extract_json_array as extract_json_array_safe,
+    _extract_json_object as extract_json_object_safe,
+    _sanitize_fiche_payload,
+    _sanitize_source_content,
+    _validate_flashcard,
+    generer_fiche,
+    generer_flashcards,
+    generer_qcm,
+)
 
 # ── Coverage targets ──────────────────────────────────────────────────────────
 MANUEL_KEYWORDS = [
@@ -64,10 +74,13 @@ MAX_RETRIES = 3
 BACKOFF_BASE = 5         # seconds
 
 # ── LLM provider defaults ─────────────────────────────────────────────────────
-DEFAULT_PROVIDER = "auto"
+DEFAULT_PROVIDER = "ollama"
 DEFAULT_OLLAMA_URL = "http://localhost:11434"
 DEFAULT_OLLAMA_MODEL = "phi3:mini"
 OLLAMA_TIMEOUT = 300
+OLLAMA_FLASHCARD_SOURCE_CHARS = 4500
+OLLAMA_QCM_SOURCE_CHARS = 5000
+OLLAMA_FICHE_SOURCE_CHARS = 5200
 
 # Basic French stopwords for heuristic generation.
 STOPWORDS = {
@@ -75,7 +88,13 @@ STOPWORDS = {
     "leur", "leurs", "elles", "entre", "apres", "avant", "tres", "tout", "tous", "toutes",
     "etre", "avoir", "sont", "ete", "sur", "par", "des", "les", "une", "que", "qui", "est",
     "aux", "ces", "ses", "son", "nos", "vos", "car", "pas", "mais", "dans", "deux", "trois",
+    "cours", "partie", "premiere", "deuxieme", "mise", "jour", "document", "quelques", "arrêt",
 }
+STRUCTURED_KEYWORDS = (
+    "condition", "conditions", "principe", "sanction", "effet", "exception", "article",
+    "jurisprudence", "arrêt", "delai", "délai", "validité", "nullité", "caducité",
+    "obligation", "responsabilité", "compétence", "contrat", "procédure", "preuve", "recours",
+)
 
 
 # ── Logging setup ─────────────────────────────────────────────────────────────
@@ -157,20 +176,28 @@ def fetch_existing_flashcard_questions(conn: sqlite3.Connection, doc_id: int) ->
 def fetch_documents(
     conn: sqlite3.Connection,
     matiere_id: int | None,
+    exclude_matiere_ids: list[int],
     only_manuals: bool,
     limit: int | None,
     done_ids: list[int],
+    min_content_len: int,
     max_content_len: int | None,
+    shortest_first: bool,
+    skip_garbage_titles: bool,
 ) -> list[sqlite3.Row]:
     where_parts = [
-        "LENGTH(d.contenu_extrait) > 100",
+        "LENGTH(d.contenu_extrait) >= ?",
         "d.contenu_extrait NOT LIKE ?",
     ]
-    params: list = ["%[Erreur d'extraction:%"]
+    params: list = [min_content_len, "%[Erreur d'extraction:%"]
 
     if matiere_id is not None:
         where_parts.append("d.matiere_id = ?")
         params.append(matiere_id)
+    if exclude_matiere_ids:
+        placeholders = ",".join("?" * len(exclude_matiere_ids))
+        where_parts.append(f"COALESCE(d.matiere_id, 0) NOT IN ({placeholders})")
+        params.extend(exclude_matiere_ids)
     if max_content_len is not None:
         where_parts.append("LENGTH(d.contenu_extrait) <= ?")
         params.append(max_content_len)
@@ -180,17 +207,20 @@ def fetch_documents(
         params.extend(done_ids)
 
     where = " AND ".join(where_parts)
+    order_direction = "ASC" if shortest_first else "DESC"
     sql = f"""
         SELECT d.id, d.titre, d.contenu_extrait, d.matiere_id, m.nom AS matiere_nom
         FROM documents d
         LEFT JOIN matieres m ON m.id = d.matiere_id
         WHERE {where}
-        ORDER BY LENGTH(d.contenu_extrait) DESC
+        ORDER BY LENGTH(d.contenu_extrait) {order_direction}
     """
     rows = conn.execute(sql, params).fetchall()
 
     if only_manuals:
         rows = [r for r in rows if _is_manuel(r["titre"])]
+    if skip_garbage_titles:
+        rows = [r for r in rows if not _is_garbage_title(r["titre"])]
 
     if limit:
         rows = rows[:limit]
@@ -205,6 +235,33 @@ def _is_manuel(titre: str) -> bool:
 
 def classify_doc(titre: str) -> str:
     return "manuel" if _is_manuel(titre) else "standard"
+
+
+def _is_garbage_title(titre: str) -> bool:
+    lowered = (titre or "").lower()
+    normalized = lowered.replace("é", "e")
+    obvious_noise_markers = (
+        "quizlet",
+        "quizzlet",
+        "drive",
+        "calendrier",
+        "bibliographie",
+        "copy of",
+        "bonne copie",
+        "bonne_copie",
+        "partiel",
+        "sujet",
+        "galop",
+    )
+    administrative_rulesheet_patterns = (
+        r"\br[eè]glement[_\s.-]*(?:20\d{2}|interieur|int[eé]rieur|epreuves|[eé]preuves|controle|contr[oô]le|etudes|[eé]tudes|lnd)\b",
+    )
+    return (
+        any(marker in lowered for marker in obvious_noise_markers)
+        or any(re.search(pattern, lowered) for pattern in administrative_rulesheet_patterns)
+        or bool(re.search(r"\d{7,}_", titre or ""))
+        or "numerique en droit" in normalized
+    )
 
 
 def build_gap_report(
@@ -320,17 +377,40 @@ async def with_retry(coro_fn, logger: logging.Logger, label: str):
 
 # ── LLM generation helpers (Claude + Ollama fallback) ────────────────────────
 def _extract_json_array(text: str) -> list[dict]:
-    match = re.search(r"\[.*\]", text, re.DOTALL)
-    if not match:
-        raise ValueError("JSON array introuvable dans la réponse LLM")
-    return json.loads(match.group())
+    payload = extract_json_array_safe(text)
+    return [item for item in payload if isinstance(item, dict)]
 
 
 def _extract_json_object(text: str) -> dict:
-    match = re.search(r"\{.*\}", text, re.DOTALL)
-    if not match:
-        raise ValueError("JSON object introuvable dans la réponse LLM")
-    return json.loads(match.group())
+    return extract_json_object_safe(text)
+
+
+def _prepare_generation_source(contenu: str) -> str:
+    return _sanitize_source_content(contenu or "").strip()
+
+
+def _sanitize_ollama_flashcards(raw_cards: list[dict], limit: int) -> list[dict]:
+    cards: list[dict] = []
+    seen_questions: set[str] = set()
+    for raw_card in raw_cards:
+        if not isinstance(raw_card, dict):
+            continue
+        card = {
+            "question": str(raw_card.get("question", "")).strip(),
+            "reponse": str(raw_card.get("reponse", "")).strip(),
+            "explication": str(raw_card.get("explication", "")).strip(),
+            "difficulte": raw_card.get("difficulte", 2),
+        }
+        if not _validate_flashcard(card):
+            continue
+        normalized_question = _normalize_question(card["question"])
+        if normalized_question in seen_questions:
+            continue
+        seen_questions.add(normalized_question)
+        cards.append(card)
+        if len(cards) >= limit:
+            break
+    return cards
 
 
 def _split_sentences(text: str) -> list[str]:
@@ -339,6 +419,213 @@ def _split_sentences(text: str) -> list[str]:
         return []
     candidates = re.split(r"(?<=[.!?])\s+", text)
     return [c.strip() for c in candidates if 35 <= len(c.strip()) <= 260]
+
+
+def _clean_excerpt(text: str, limit: int = 220) -> str:
+    cleaned = (text or "").replace("➜", ": ")
+    cleaned = re.sub(r"\bsur\s+\d+\s+\d+\b", "", cleaned, flags=re.IGNORECASE)
+    cleaned = re.sub(r"\s+", " ", cleaned).strip(" -•\t\n\r")
+    cleaned = cleaned.strip("'\"“”‘’")
+    if len(cleaned) <= limit:
+        return cleaned.rstrip(" .")
+    shortened = cleaned[:limit].rsplit(" ", 1)[0].rstrip(" .")
+    return f"{shortened}…"
+
+
+def _looks_like_heading(line: str) -> bool:
+    candidate = re.sub(r"^#+\s*", "", line or "").strip(" :-\t")
+    if len(candidate) < 4 or len(candidate) > 110:
+        return False
+    if re.fullmatch(r"[\d\s./-]+", candidate):
+        return False
+    alpha = [char for char in candidate if char.isalpha()]
+    if not alpha:
+        return False
+    uppercase_ratio = sum(1 for char in alpha if char.isupper()) / max(1, len(alpha))
+    return uppercase_ratio >= 0.55 or (candidate.endswith(":") and len(candidate.split()) <= 12)
+
+
+def _derive_section_title_from_body(body: str, index: int) -> str:
+    topics = _extract_topics(body, limit=3)
+    if len(topics) >= 2:
+        return f"Focus : {' / '.join(topic.capitalize() for topic in topics)}"
+    if topics:
+        return f"Repère : {topics[0].capitalize()}"
+
+    sentences = _split_sentences(body)
+    if sentences:
+        first = _clean_excerpt(sentences[0], 90)
+        if 10 <= len(first) <= 90:
+            return first
+    return f"Axe clé {index}"
+
+
+def _build_sentence_group_sections(contenu: str, limit: int, offset: int = 0) -> list[dict[str, str]]:
+    sentences = _split_sentences(contenu)
+    groups: list[dict[str, str]] = []
+    cursor = 0
+    while cursor < len(sentences) and len(groups) < limit:
+        group = [sentences[cursor]]
+        cursor += 1
+        while cursor < len(sentences) and len(" ".join(group)) < 280 and len(group) < 4:
+            group.append(sentences[cursor])
+            cursor += 1
+        body = " ".join(group).strip()
+        if len(body) < 180:
+            continue
+        groups.append({
+            "titre": _derive_section_title_from_body(body, offset + len(groups) + 1),
+            "contenu": body,
+        })
+    return groups
+
+
+def _extract_structured_sections(contenu: str, limit: int = 6) -> list[dict[str, str]]:
+    source = _prepare_generation_source(contenu)
+    if not source:
+        return []
+
+    sections: list[dict[str, str]] = []
+    current_title = ""
+    current_lines: list[str] = []
+
+    for raw_line in source.splitlines():
+        line = raw_line.strip()
+        if not line or re.fullmatch(r"-?\d+-?", line):
+            continue
+
+        if line.startswith("##") or line.startswith("###") or _looks_like_heading(line):
+            body = " ".join(current_lines).strip()
+            if body and len(body) >= 180:
+                title = current_title or _derive_section_title_from_body(body, len(sections) + 1)
+                sections.append({"titre": title, "contenu": body})
+                if len(sections) >= limit:
+                    return sections[:limit]
+            current_title = re.sub(r"^#+\s*", "", line).strip(" :-")
+            current_lines = []
+            continue
+
+        current_lines.append(line)
+
+    body = " ".join(current_lines).strip()
+    if body and len(body) >= 180 and len(sections) < limit:
+        title = current_title or _derive_section_title_from_body(body, len(sections) + 1)
+        sections.append({"titre": title, "contenu": body})
+
+    if len(sections) >= 3:
+        if len(sections) < limit:
+            existing_titles = {_normalize_question(section["titre"]) for section in sections}
+            for extra in _build_sentence_group_sections(source, limit - len(sections), len(sections)):
+                normalized_title = _normalize_question(extra["titre"])
+                if normalized_title in existing_titles:
+                    continue
+                sections.append(extra)
+                existing_titles.add(normalized_title)
+                if len(sections) >= limit:
+                    break
+        return sections[:limit]
+
+    blocks = [block.strip() for block in re.split(r"\n\s*\n+", source) if len(block.strip()) >= 180]
+    fallback_sections: list[dict[str, str]] = []
+    for index, block in enumerate(blocks[:limit], start=1):
+        fallback_sections.append({
+            "titre": _derive_section_title_from_body(block, index),
+            "contenu": re.sub(r"\s+", " ", block).strip(),
+        })
+    if len(fallback_sections) < limit:
+        existing_titles = {_normalize_question(section["titre"]) for section in fallback_sections}
+        for extra in _build_sentence_group_sections(source, limit - len(fallback_sections), len(fallback_sections)):
+            normalized_title = _normalize_question(extra["titre"])
+            if normalized_title in existing_titles:
+                continue
+            fallback_sections.append(extra)
+            existing_titles.add(normalized_title)
+            if len(fallback_sections) >= limit:
+                break
+    return fallback_sections[:limit]
+
+
+def _select_key_sentences(text: str, limit: int = 3) -> list[str]:
+    sentences = _split_sentences(text)
+    if not sentences:
+        excerpt = _clean_excerpt(text, 220)
+        return [excerpt] if excerpt else []
+
+    scored: list[tuple[int, int, str]] = []
+    for index, sentence in enumerate(sentences):
+        alpha_words = re.findall(r"[A-Za-zÀ-ÿ][A-Za-zÀ-ÿ'-]{2,}", sentence)
+        if len(alpha_words) < 6:
+            continue
+        lowered = sentence.lower()
+        score = 0
+        if any(keyword in lowered for keyword in STRUCTURED_KEYWORDS):
+            score += 3
+        if any(char.isdigit() for char in sentence):
+            score += 1
+        if sentence.count("➜") > 1:
+            score -= 2
+        if 70 <= len(sentence) <= 220:
+            score += 2
+        scored.append((score, -index, sentence))
+
+    top = sorted(scored, reverse=True)[:limit]
+    selected = {sentence for _, _, sentence in top}
+    ordered = [sentence for sentence in sentences if sentence in selected]
+    return [_clean_excerpt(sentence, 220) for sentence in ordered[:limit]]
+
+
+def _build_structured_question(title: str, matiere: str, index: int) -> str:
+    label = _clean_excerpt(title, 90) or f"le point {index}"
+    lowered = label.lower()
+    if "condition" in lowered or "validité" in lowered or "validite" in lowered:
+        return f"Quelles conditions faut-il retenir sur {label} en {matiere} ?"
+    if any(token in lowered for token in ("sanction", "nullité", "nullite", "caducité", "caducite", "effet")):
+        return f"Quelle sanction ou quel effet faut-il retenir sur {label} en {matiere} ?"
+    if any(token in lowered for token in ("obligation", "principe", "régime", "regime", "responsabilité", "responsabilite")):
+        return f"Que faut-il retenir sur {label} en {matiere} ?"
+    return f"Quel est l'essentiel à connaître sur {label} en {matiere} ?"
+
+
+def _build_structured_question_variant(title: str, matiere: str, index: int) -> str:
+    label = _clean_excerpt(title, 90) or f"le point {index}"
+    variant = index % 5
+    if variant == 0:
+        return f"Quel est l'essentiel à connaître sur {label} en {matiere} ?"
+    if variant == 1:
+        return f"Quelle règle faut-il retenir sur {label} en {matiere} ?"
+    if variant == 2:
+        return f"Quel mécanisme faut-il comprendre à propos de {label} en {matiere} ?"
+    if variant == 3:
+        return f"Quelle distinction utile faut-il faire sur {label} en {matiere} ?"
+    return f"Pourquoi {label} est-il important en {matiere} ?"
+
+
+def _build_structured_answer(title: str, body: str) -> tuple[str, str]:
+    key_sentences = _select_key_sentences(body, limit=3)
+    if not key_sentences:
+        fallback = _clean_excerpt(body, 240)
+        return fallback, f"Synthèse structurée de la partie « {title} » du document."
+
+    answer_parts = []
+    labels = ["Point clé", "En pratique", "À retenir"]
+    for label, sentence in zip(labels, key_sentences):
+        answer_parts.append(f"{label} : {sentence}.")
+    answer = " ".join(answer_parts[:2])
+    explanation = f"Cette carte synthétise la partie « {title} » et aide à repérer la règle utile pour le concours."
+    return answer[:900], explanation[:600]
+
+
+def _build_structured_section_content(title: str, body: str) -> str:
+    key_sentences = _select_key_sentences(body, limit=3)
+    title_label = _clean_excerpt(title, 90) or "ce thème"
+    lines = [f"Cette partie porte sur {title_label.lower()}."]
+    labels = ["Principe", "Mécanisme", "Point d'attention"]
+    for label, sentence in zip(labels, key_sentences):
+        lines.append(f"{label} : {sentence}.")
+    topics = _extract_topics(f"{title} {body}", limit=3)
+    if topics:
+        lines.append(f"Repères utiles : {', '.join(topics)}.")
+    return " ".join(lines)[:2400]
 
 
 def _extract_topics(sentence: str, limit: int = 3) -> list[str]:
@@ -374,37 +661,54 @@ def _generate_flashcards_heuristic(
     nb: int,
     start_index: int = 0,
 ) -> list[dict]:
-    sentences = _split_sentences(contenu)
-    if not sentences:
-        sentences = [contenu[:220]] if contenu else []
+    sections = _extract_structured_sections(contenu, limit=max(nb, 6))
     cards: list[dict] = []
     used: set[str] = set()
-    for sentence in sentences:
+    for index, section in enumerate(sections, start=1):
         if len(cards) >= nb:
             break
-        topics = _extract_topics(sentence, limit=2)
-        topic_label = " / ".join(topics) if topics else matiere
-        question = f"Que faut-il retenir en {matiere} sur '{topic_label}' ?"
+        question = _build_structured_question_variant(section["titre"], matiere, start_index + index)
         if question in used:
             continue
         used.add(question)
+        answer, explanation = _build_structured_answer(section["titre"], section["contenu"])
         cards.append(
             {
                 "question": question[:280],
-                "reponse": sentence[:900],
-                "explication": f"Point extrait du document de {matiere}.",
-                "difficulte": 2 if len(sentence) < 130 else 3,
+                "reponse": answer,
+                "explication": explanation,
+                "difficulte": 3,
             }
         )
-    while len(cards) < nb and sentences:
-        seed = sentences[len(cards) % len(sentences)]
+    sentences = _split_sentences(contenu)
+    while len(cards) < nb and (sections or sentences):
         idx = start_index + len(cards) + 1
+        if sections:
+            section = sections[len(cards) % len(sections)]
+            question = _build_structured_question_variant(section["titre"], matiere, idx + len(sections))
+            if question in used:
+                idx += len(cards) + 7
+                question = _build_structured_question_variant(section["titre"], matiere, idx + len(sections))
+            used.add(question)
+            answer, explanation = _build_structured_answer(section["titre"], section["contenu"])
+            cards.append(
+                {
+                    "question": question[:280],
+                    "reponse": answer,
+                    "explication": explanation,
+                    "difficulte": 3,
+                }
+            )
+            continue
+
+        seed = sentences[len(cards) % len(sentences)]
+        answer, explanation = _build_structured_answer(f"Point {idx}", seed)
         cards.append(
             {
                 "question": _build_notion_question(matiere, seed, idx)[:280],
-                "reponse": seed[:900],
-                "explication": f"Carte de consolidation heuristique #{idx}.",
-                "difficulte": 2,
+                "reponse": answer,
+                "explication": explanation,
+                "difficulte": 3,
             }
         )
     return cards[:nb]
@@ -445,25 +749,29 @@ def _generate_qcm_heuristic(contenu: str, matiere: str, nb: int) -> list[dict]:
 
 
 def _generate_fiche_heuristic(contenu: str, matiere: str, titre_doc: str) -> dict:
-    raw_sections = [s.strip() for s in re.split(r"\n\s*\n+", contenu) if len(s.strip()) > 80]
-    if not raw_sections:
-        raw_sections = [contenu[:2400]] if contenu else []
-    selected = raw_sections[:6]
+    selected = _extract_structured_sections(contenu, limit=6)
     sections: list[dict] = []
-    for i, section_text in enumerate(selected, start=1):
-        sentences = _split_sentences(section_text)
-        if not sentences:
-            continue
-        section_title = f"Section {i} - {(_extract_topics(sentences[0], 1) or [f'axe {i}'])[0]}"
-        section_body = " ".join(sentences[:4])
-        sections.append({"titre": section_title[:180], "contenu": section_body[:2500]})
-    summary_sentences = _split_sentences(contenu)[:4]
-    resume = " ".join(summary_sentences)[:1200] if summary_sentences else (contenu[:500] if contenu else "")
-    return {
-        "titre": f"Fiche - {titre_doc[:140]}",
+    for index, section in enumerate(selected, start=1):
+        section_title = _clean_excerpt(section["titre"], 180) or f"Axe clé {index}"
+        section_body = _build_structured_section_content(section_title, section["contenu"])
+        if len(section_body) >= 220:
+            sections.append({"titre": section_title, "contenu": section_body})
+
+    top_titles = [section["titre"] for section in sections[:3]]
+    if top_titles:
+        resume = (
+            f"Cette fiche de {matiere} synthétise {', '.join(top_titles)}. "
+            f"Elle met l'accent sur les règles, mécanismes et points d'attention utiles pour la révision du document."
+        )
+    else:
+        resume = _clean_excerpt(contenu, 600)
+
+    payload = {
+        "titre": f"Fiche synthèse — {titre_doc[:120]}",
         "resume": resume,
-        "sections": sections[:8] if sections else [{"titre": "Synthèse", "contenu": resume}],
+        "sections": sections,
     }
+    return _sanitize_fiche_payload(payload, _prepare_generation_source(contenu), titre_doc)
 
 
 def _build_fill_flashcards(
@@ -535,18 +843,26 @@ def _build_fill_qcm(
     return questions
 
 
-def _ollama_chat(prompt: str, ollama_url: str, ollama_model: str, num_predict: int = 1600) -> str:
-    payload = json.dumps(
-        {
-            "model": ollama_model,
-            "messages": [{"role": "user", "content": prompt}],
-            "stream": False,
-            "options": {
-                "temperature": 0.2,
-                "num_predict": num_predict,
-            },
-        }
-    ).encode("utf-8")
+def _ollama_chat(
+    prompt: str,
+    ollama_url: str,
+    ollama_model: str,
+    num_predict: int = 1600,
+    json_mode: bool = False,
+) -> str:
+    body = {
+        "model": ollama_model,
+        "messages": [{"role": "user", "content": prompt}],
+        "stream": False,
+        "options": {
+            "temperature": 0.2,
+            "num_predict": num_predict,
+        },
+    }
+    if json_mode:
+        body["format"] = "json"
+
+    payload = json.dumps(body).encode("utf-8")
     req = urllib.request.Request(
         f"{ollama_url.rstrip('/')}/api/chat",
         data=payload,
@@ -566,25 +882,34 @@ async def _generate_flashcards_ollama(
     ollama_url: str,
     ollama_model: str,
 ) -> list[dict]:
-    prompt = f"""Tu es un expert en {matiere} pour la preparation aux concours administratifs francais.
-Genere exactement {nb} flashcards de revision basees uniquement sur le contenu ci-dessous.
+    source = _prepare_generation_source(contenu)
+    prompt = f"""Tu es un professeur de {matiere} specialise dans la preparation aux concours administratifs.
 
-CONTENU:
-{contenu[:7000]}
+Fabrique exactement {nb} flashcards de revision utiles, pedagogiques et reformulees a partir du contenu ci-dessous.
 
-Reponds UNIQUEMENT en JSON valide:
+REGLES:
+- N'utilise que les informations du contenu source.
+- Ne copie pas de phrases du document: reformule avec des mots simples et precis.
+- Chaque question doit tester une notion, une distinction, une condition, un mecanisme ou un enjeu.
+- Chaque reponse doit etre concise mais complete (1 a 3 phrases).
+- Chaque explication doit apporter un vrai plus pedagogique, pas une repetition.
+
+CONTENU SOURCE:
+{source[:OLLAMA_FLASHCARD_SOURCE_CHARS]}
+
+Reponds uniquement en JSON valide:
 [
   {{
-    "question": "...",
-    "reponse": "...",
-    "explication": "...",
+    "question": "Question claire et specifique",
+    "reponse": "Reponse reformulee et utile",
+    "explication": "Precision ou point d'attention pour le concours",
     "difficulte": 2
   }}
 ]
 
-difficulte doit etre un entier de 1 a 5."""
-    text = await asyncio.to_thread(_ollama_chat, prompt, ollama_url, ollama_model, 1800)
-    return _extract_json_array(text)
+`difficulte` doit etre un entier de 1 a 5."""
+    text = await asyncio.to_thread(_ollama_chat, prompt, ollama_url, ollama_model, 1000, True)
+    return _sanitize_ollama_flashcards(_extract_json_array(text), nb)
 
 
 async def _generate_qcm_ollama(
@@ -594,13 +919,19 @@ async def _generate_qcm_ollama(
     ollama_url: str,
     ollama_model: str,
 ) -> list[dict]:
-    prompt = f"""Tu es un expert en {matiere} pour la preparation aux concours administratifs francais.
-Genere exactement {nb} questions QCM basees uniquement sur le contenu ci-dessous.
+    source = _prepare_generation_source(contenu)
+    prompt = f"""Tu es un professeur de {matiere} specialise dans les concours administratifs.
+Genere exactement {nb} QCM de comprehension a partir du contenu ci-dessous.
 
-CONTENU:
-{contenu[:7000]}
+REGLES:
+- N'utilise que les informations du contenu source.
+- Reformule: ne copie pas des phrases entieres du document.
+- Les mauvais choix doivent etre plausibles.
 
-Reponds UNIQUEMENT en JSON valide:
+CONTENU SOURCE:
+{source[:OLLAMA_QCM_SOURCE_CHARS]}
+
+Reponds uniquement en JSON valide:
 [
   {{
     "question": "...",
@@ -611,8 +942,8 @@ Reponds UNIQUEMENT en JSON valide:
   }}
 ]
 
-reponse_correcte doit etre un index entre 0 et 3."""
-    text = await asyncio.to_thread(_ollama_chat, prompt, ollama_url, ollama_model, 1800)
+`reponse_correcte` doit etre un index entre 0 et 3."""
+    text = await asyncio.to_thread(_ollama_chat, prompt, ollama_url, ollama_model, 1100, True)
     return _extract_json_array(text)
 
 
@@ -623,28 +954,38 @@ async def _generate_fiche_ollama(
     ollama_url: str,
     ollama_model: str,
 ) -> dict:
-    prompt = f"""Tu es un expert en {matiere} pour la preparation aux concours administratifs francais.
-Genere une fiche de revision structuree pour le document ci-dessous.
+    source = _prepare_generation_source(contenu)
+    prompt = f"""Tu es un professeur de {matiere} qui redige des fiches de revision de qualite pour des candidats aux concours administratifs.
+
+Construis UNE fiche pedagogique, claire et reformulee a partir du document ci-dessous.
+
+REGLES OBLIGATOIRES:
+- N'utilise que les informations du contenu source.
+- Reformule completement: aucun copier-coller.
+- Ecris une fiche directement exploitable en revision.
+- Donne exactement 6 sections.
+- Chaque section doit avoir un vrai titre explicite et un contenu redige en phrases completes.
+- Chaque section doit expliquer une notion, une condition, un mecanisme, un exemple ou un enjeu.
+- Evite les titres generiques du type "Introduction", "Section 1" ou "Divers".
 
 DOCUMENT: {titre_doc}
-CONTENU:
-{contenu[:7000]}
 
-Reponds UNIQUEMENT en JSON valide:
+CONTENU SOURCE:
+{source[:OLLAMA_FICHE_SOURCE_CHARS]}
+
+Reponds uniquement en JSON valide:
 {{
-  "titre": "Titre de la fiche",
-  "resume": "Resume en 3-5 phrases",
+  "titre": "Titre pedagogique de la fiche",
+  "resume": "Resume synthetique en 4 a 6 phrases",
   "sections": [
     {{
-      "titre": "Section 1",
-      "contenu": "Contenu detaille et pedagogique"
+      "titre": "Titre explicite",
+      "contenu": "Contenu pedagogique reformule en 110 a 180 mots"
     }}
   ]
-}}
-
-Genere entre 4 et 8 sections."""
-    text = await asyncio.to_thread(_ollama_chat, prompt, ollama_url, ollama_model, 2200)
-    return _extract_json_object(text)
+}}"""
+    text = await asyncio.to_thread(_ollama_chat, prompt, ollama_url, ollama_model, 1300, True)
+    return _sanitize_fiche_payload(_extract_json_object(text), source, titre_doc)
 
 
 async def generate_flashcards_with_provider(
@@ -656,6 +997,11 @@ async def generate_flashcards_with_provider(
     ollama_model: str,
 ) -> list[dict]:
     last_exc: Exception | None = None
+    if provider == "structured":
+        return _generate_flashcards_heuristic(contenu, matiere, nb)
+    if provider == "gemini":
+        async with _gemini_backend():
+            return await generer_flashcards(contenu, matiere, nb=nb)
     if provider in ("auto", "claude"):
         try:
             return await generer_flashcards(contenu, matiere, nb=nb)
@@ -664,7 +1010,8 @@ async def generate_flashcards_with_provider(
             if provider == "claude":
                 raise
     if provider == "heuristic":
-        return _generate_flashcards_heuristic(contenu, matiere, nb)
+        log.warning("[generate_flashcards] heuristic provider disabled — produces low-quality content")
+        return []
     if provider in ("auto", "ollama"):
         try:
             return await _generate_flashcards_ollama(contenu, matiere, nb, ollama_url, ollama_model)
@@ -672,7 +1019,8 @@ async def generate_flashcards_with_provider(
             last_exc = exc
             if provider == "ollama":
                 raise
-    return _generate_flashcards_heuristic(contenu, matiere, nb)
+    log.warning("[generate_flashcards] all providers failed for %s — skipping (no heuristic fallback)", matiere)
+    return []
 
 
 async def generate_qcm_with_provider(
@@ -684,6 +1032,11 @@ async def generate_qcm_with_provider(
     ollama_model: str,
 ) -> list[dict]:
     last_exc: Exception | None = None
+    if provider == "structured":
+        return _generate_qcm_heuristic(contenu, matiere, nb)
+    if provider == "gemini":
+        async with _gemini_backend():
+            return await generer_qcm(contenu, matiere, nb=nb)
     if provider in ("auto", "claude"):
         try:
             return await generer_qcm(contenu, matiere, nb=nb)
@@ -692,7 +1045,8 @@ async def generate_qcm_with_provider(
             if provider == "claude":
                 raise
     if provider == "heuristic":
-        return _generate_qcm_heuristic(contenu, matiere, nb)
+        log.warning("[generate_qcm] heuristic provider disabled — produces low-quality content")
+        return []
     if provider in ("auto", "ollama"):
         try:
             return await _generate_qcm_ollama(contenu, matiere, nb, ollama_url, ollama_model)
@@ -700,7 +1054,8 @@ async def generate_qcm_with_provider(
             last_exc = exc
             if provider == "ollama":
                 raise
-    return _generate_qcm_heuristic(contenu, matiere, nb)
+    log.warning("[generate_qcm] all providers failed for %s — skipping (no heuristic fallback)", matiere)
+    return []
 
 
 async def generate_fiche_with_provider(
@@ -712,6 +1067,11 @@ async def generate_fiche_with_provider(
     ollama_model: str,
 ) -> dict:
     last_exc: Exception | None = None
+    if provider == "structured":
+        return _generate_fiche_heuristic(contenu, matiere, titre_doc)
+    if provider == "gemini":
+        async with _gemini_backend():
+            return await generer_fiche(contenu, matiere, titre_doc)
     if provider in ("auto", "claude"):
         try:
             return await generer_fiche(contenu, matiere, titre_doc)
@@ -720,7 +1080,8 @@ async def generate_fiche_with_provider(
             if provider == "claude":
                 raise
     if provider == "heuristic":
-        return _generate_fiche_heuristic(contenu, matiere, titre_doc)
+        log.warning("[generate_fiche] heuristic provider disabled — produces low-quality content")
+        return {"titre": f"Fiche - {titre_doc}", "resume": "", "sections": []}
     if provider in ("auto", "ollama"):
         try:
             return await _generate_fiche_ollama(contenu, matiere, titre_doc, ollama_url, ollama_model)
@@ -728,7 +1089,8 @@ async def generate_fiche_with_provider(
             last_exc = exc
             if provider == "ollama":
                 raise
-    return _generate_fiche_heuristic(contenu, matiere, titre_doc)
+    log.warning("[generate_fiche] all providers failed for %s — skipping (no heuristic fallback)", matiere)
+    return {"titre": f"Fiche - {titre_doc}", "resume": "", "sections": []}
 
 
 # ── DB insert helpers (raw sqlite3, no ORM needed) ────────────────────────────
@@ -774,6 +1136,18 @@ def insert_flashcards(
             pass
     conn.commit()
     return inserted
+
+
+@contextlib.asynccontextmanager
+async def _gemini_backend():
+    from app.services import claude_service, gemini_service  # type: ignore
+
+    original = claude_service.run_claude_cli
+    claude_service.run_claude_cli = gemini_service._generate
+    try:
+        yield
+    finally:
+        claude_service.run_claude_cli = original
 
 
 def insert_quiz(conn: sqlite3.Connection, questions: list[dict], doc_id: int, matiere_id: int, titre: str) -> int:
@@ -847,10 +1221,11 @@ async def process_document(
     provider: str,
     ollama_url: str,
     ollama_model: str,
+    allow_fill_pass: bool,
 ) -> dict:
     doc_id = doc["id"]
     titre = doc["titre"]
-    contenu = doc["contenu_extrait"] or ""
+    contenu = _prepare_generation_source(doc["contenu_extrait"] or "")
     matiere_id = doc["matiere_id"] or 1
     matiere_nom = doc["matiere_nom"] or "Général"
     kind = classify_doc(titre)
@@ -945,36 +1320,52 @@ async def process_document(
             except Exception as e:
                 logger.error(f"[doc={doc_id}] Fiche {i} ÉCHEC: {e}")
 
-    # Fill pass to reduce residual gaps on short/noisy docs.
-    current = count_existing(conn, doc_id)
-    rem_fc = max(0, targets["flashcards"] - current["flashcards"])
-    if rem_fc > 0:
-        fill_cards = _build_fill_flashcards(
-            contenu,
-            matiere_nom,
-            rem_fc,
-            start_index=current["flashcards"],
-        )
-        inserted = insert_flashcards(conn, fill_cards, doc_id, matiere_id, seen_questions)
-        result["flashcards"] += inserted
-        logger.info(
-            f"[doc={doc_id}] Fill-pass flashcards: +{inserted} (reste={max(0, rem_fc - inserted)})"
-        )
+    if provider == "structured":
+        current = count_existing(conn, doc_id)
+        rem_fc = max(0, targets["flashcards"] - current["flashcards"])
+        if rem_fc > 0:
+            topoff_cards = _generate_flashcards_heuristic(
+                contenu,
+                matiere_nom,
+                rem_fc,
+                start_index=current["flashcards"],
+            )
+            inserted = insert_flashcards(conn, topoff_cards, doc_id, matiere_id, seen_questions)
+            result["flashcards"] += inserted
+            logger.info(
+                f"[doc={doc_id}] Structured top-off flashcards: +{inserted} (reste={max(0, rem_fc - inserted)})"
+            )
 
-    current = count_existing(conn, doc_id)
-    rem_qq = max(0, targets["quiz_questions"] - current["quiz_questions"])
-    if rem_qq > 0:
-        fill_questions = _build_fill_qcm(
-            contenu,
-            matiere_nom,
-            rem_qq,
-            start_index=current["quiz_questions"],
-        )
-        inserted = insert_quiz(conn, fill_questions, doc_id, matiere_id, f"Quiz — {titre[:80]} (fill-pass)")
-        result["quiz_questions"] += inserted
-        logger.info(
-            f"[doc={doc_id}] Fill-pass quiz: +{inserted} (reste={max(0, rem_qq - inserted)})"
-        )
+    if allow_fill_pass:
+        current = count_existing(conn, doc_id)
+        rem_fc = max(0, targets["flashcards"] - current["flashcards"])
+        if rem_fc > 0:
+            fill_cards = _build_fill_flashcards(
+                contenu,
+                matiere_nom,
+                rem_fc,
+                start_index=current["flashcards"],
+            )
+            inserted = insert_flashcards(conn, fill_cards, doc_id, matiere_id, seen_questions)
+            result["flashcards"] += inserted
+            logger.info(
+                f"[doc={doc_id}] Fill-pass flashcards: +{inserted} (reste={max(0, rem_fc - inserted)})"
+            )
+
+        current = count_existing(conn, doc_id)
+        rem_qq = max(0, targets["quiz_questions"] - current["quiz_questions"])
+        if rem_qq > 0:
+            fill_questions = _build_fill_qcm(
+                contenu,
+                matiere_nom,
+                rem_qq,
+                start_index=current["quiz_questions"],
+            )
+            inserted = insert_quiz(conn, fill_questions, doc_id, matiere_id, f"Quiz — {titre[:80]} (fill-pass)")
+            result["quiz_questions"] += inserted
+            logger.info(
+                f"[doc={doc_id}] Fill-pass quiz: +{inserted} (reste={max(0, rem_qq - inserted)})"
+            )
 
     return result
 
@@ -988,17 +1379,45 @@ async def main() -> int:
     )
     parser.add_argument("--limit", type=int, default=None, help="Nombre max de documents à traiter")
     parser.add_argument("--matiere", type=int, default=None, help="Filtrer par matiere_id")
+    parser.add_argument(
+        "--exclude-matiere",
+        type=int,
+        action="append",
+        default=[],
+        help="Exclure un ou plusieurs matiere_id (répéter l'option si besoin)",
+    )
     parser.add_argument("--only-manuals", action="store_true", help="Traiter uniquement les manuels")
+    parser.add_argument(
+        "--shortest-first",
+        action="store_true",
+        help="Traiter d'abord les documents les plus courts pour maximiser le débit",
+    )
+    parser.add_argument(
+        "--skip-garbage-titles",
+        action="store_true",
+        help="Ignorer les titres manifestement inutiles (Quizlet, copies numerique en droit, etc.)",
+    )
     parser.add_argument("--dry-run", action="store_true", help="Simulation sans écriture en DB")
     parser.add_argument("--reset-state", action="store_true", help="Ignorer le checkpoint existant")
     parser.add_argument(
+        "--min-content-len",
+        type=int,
+        default=100,
+        help="Exclure les documents dont le contenu est trop court (défaut: 100)",
+    )
+    parser.add_argument(
         "--provider",
-        choices=["auto", "claude", "ollama", "heuristic"],
+        choices=["auto", "claude", "gemini", "ollama", "structured", "heuristic"],
         default=DEFAULT_PROVIDER,
-        help="Fournisseur: auto=Claude->Ollama->heuristic",
+        help="Fournisseur: ollama par defaut pour les batches autonomes; structured pour une synthese deterministe basee sur le markdown extrait; gemini pour qualite reseau sans Claude; auto=Claude->Ollama, claude=explicite, heuristic=desactive qualitativement",
     )
     parser.add_argument("--ollama-url", default=DEFAULT_OLLAMA_URL, help="Base URL Ollama")
     parser.add_argument("--ollama-model", default=DEFAULT_OLLAMA_MODEL, help="Modele Ollama")
+    parser.add_argument(
+        "--allow-fill-pass",
+        action="store_true",
+        help="Autoriser le fill-pass heuristique de secours (désactivé par défaut pour privilégier la qualité)",
+    )
     parser.add_argument(
         "--target-standard-fc",
         type=int,
@@ -1071,9 +1490,11 @@ async def main() -> int:
     logger = setup_logging(args.dry_run)
     logger.info(
         f"Démarrage generate_full_coverage | limit={args.limit} matiere={args.matiere} "
-        f"only_manuals={args.only_manuals} dry_run={args.dry_run} "
+        f"exclude_matiere={args.exclude_matiere} only_manuals={args.only_manuals} "
+        f"shortest_first={args.shortest_first} skip_garbage_titles={args.skip_garbage_titles} "
+        f"dry_run={args.dry_run} min_content_len={args.min_content_len} "
         f"provider={args.provider} ollama_model={args.ollama_model} "
-        f"max_content_len={args.max_content_len}"
+        f"max_content_len={args.max_content_len} allow_fill_pass={args.allow_fill_pass}"
     )
     logger.info(
         "Cibles actives | standard: fc>=%s qq>=%s fi>=%s | manuel: fc>=%s qq>=%s fi>=%s",
@@ -1093,10 +1514,14 @@ async def main() -> int:
     docs = fetch_documents(
         conn,
         args.matiere,
+        args.exclude_matiere,
         args.only_manuals,
         args.limit,
         done_ids,
+        args.min_content_len,
         args.max_content_len,
+        args.shortest_first,
+        args.skip_garbage_titles,
     )
 
     logger.info(f"{len(docs)} documents à traiter (déjà complétés: {len(done_ids)})")
@@ -1126,14 +1551,24 @@ async def main() -> int:
                 args.provider,
                 args.ollama_url,
                 args.ollama_model,
+                args.allow_fill_pass,
             )
             stats["flashcards"] += result["flashcards"]
             stats["quiz_questions"] += result["quiz_questions"]
             stats["fiches"] += result["fiches"]
             processed += 1
 
-            if not args.dry_run and doc_id not in done_ids:
-                done_ids.append(doc_id)
+            if not args.dry_run:
+                final_existing = count_existing(conn, doc_id)
+                kind = classify_doc(doc["titre"])
+                final_targets = active_targets[kind]
+                reached_targets = (
+                    final_existing["flashcards"] >= final_targets["flashcards"]
+                    and final_existing["quiz_questions"] >= final_targets["quiz_questions"]
+                    and final_existing["fiches"] >= final_targets["fiches"]
+                )
+                if reached_targets and doc_id not in done_ids:
+                    done_ids.append(doc_id)
                 save_state({"completed_doc_ids": done_ids, "stats": stats})
 
         except Exception as e:

@@ -167,7 +167,7 @@ export default function FichesPage() {
 
   const fetchFiches = useCallback(async () => {
     try {
-      const base = `${API_BASE}/fiches?limit=250`;
+      const base = `${API_BASE}/fiches?limit=5000`;
       const url = selectedMatiere
         ? `${base}&matiere_id=${selectedMatiere}`
         : base;

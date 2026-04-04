@@ -34,6 +34,12 @@ Utiliser `universal-orchestrator.md` pour coordonner les LLMs.
 ### 4. Agents obligatoires
 Utiliser les agents et skills de `agents_library/` pour TOUTE tache.
 
+### 5. Pas de Claude caché en fond
+- Ne jamais lancer de batch autonome détaché qui appelle le CLI `claude` par défaut.
+- Tout job long en arrière-plan doit utiliser un provider local explicite, en pratique `--provider ollama`.
+- Réserver `claude` aux sessions visibles, interactives, ou à une demande explicite de l'utilisateur.
+- Si un batch de génération est lancé en fond, noter le provider choisi dans `CLAUDE.md` et le log associé.
+
 ---
 
 ## ORCHESTRATION
