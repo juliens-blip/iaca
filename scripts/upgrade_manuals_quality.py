@@ -176,10 +176,18 @@ def _normalize(s: str) -> str:
 def validate_flashcard(card: dict, seen_questions: set[str]) -> tuple[bool, str]:
     q = str(card.get("question", "")).strip()
     r = str(card.get("reponse", "")).strip()
+    e = str(card.get("explication", "")).strip().lower()
     if len(q) < 25:
         return False, f"question trop courte ({len(q)}c)"
     if len(r) < 25:
         return False, f"réponse trop courte ({len(r)}c)"
+    qn = _normalize(q)
+    if " que retenir sur " in qn:
+        return False, "question heuristique trop vague"
+    if "quelle notion explique le passage sur" in qn or "quelle notion est illustree par" in qn:
+        return False, "question de passage brute"
+    if e.startswith("carte de rattrapage qualitative") or "migration p19-3" in e:
+        return False, "carte de rattrapage de faible qualite"
     norm_q = _normalize(q)
     if norm_q in seen_questions:
         return False, "doublon question"
@@ -306,35 +314,7 @@ def _build_notion_question(matiere: str, sentence: str, idx: int) -> str:
 
 
 def _heuristic_flashcards(contenu: str, matiere: str, nb: int) -> list[dict]:
-    sentences = _split_sentences(contenu)
-    if not sentences:
-        sentences = [contenu[:300]] if contenu else []
-    cards: list[dict] = []
-    used: set[str] = set()
-    cycle = list(sentences)
-    while len(cards) < nb and cycle:
-        sentence = cycle.pop(0)
-        topics = _extract_topics(sentence, 2)
-        label = " / ".join(topics) if topics else matiere
-        question = f"En {matiere}, que retenir sur '{label}' ?"
-        norm_q = _normalize(question)
-        if norm_q in used:
-            # Vary the question slightly
-            question = f"Quel est le principe juridique de '{label}' selon le cours de {matiere} ?"
-            norm_q = _normalize(question)
-        if norm_q in used:
-            continue
-        used.add(norm_q)
-        diff = 2 if len(sentence) < 150 else 3
-        cards.append({
-            "question": question[:280],
-            "reponse": sentence[:900],
-            "explication": f"Extrait du manuel de {matiere}.",
-            "difficulte": diff,
-        })
-        if not cycle:
-            cycle = list(sentences)
-    return cards[:nb]
+    return []
 
 
 def _heuristic_qcm(contenu: str, matiere: str, nb: int) -> list[dict]:
@@ -392,24 +372,8 @@ def _build_fill_flashcards(
     nb: int,
     start_index: int = 0,
 ) -> list[dict]:
-    """Build deterministic fallback cards to hit targets when strict filtering rejects too much."""
-    sentences = _split_sentences(contenu)
-    if not sentences:
-        fallback = (contenu or "").strip()
-        if len(fallback) < 80:
-            fallback = (fallback + " " + f"Contenu de consolidation en {matiere}.").strip()
-        sentences = [fallback[:300]]
-    cards: list[dict] = []
-    for i in range(nb):
-        sentence = sentences[i % len(sentences)]
-        idx = start_index + i + 1
-        cards.append({
-            "question": _build_notion_question(matiere, sentence, idx)[:280],
-            "reponse": sentence[:900],
-            "explication": f"Carte de rattrapage qualitative #{idx}.",
-            "difficulte": 2 if len(sentence) < 140 else 3,
-        })
-    return cards
+    """Disabled: deterministic fill cards degrade question/answer quality."""
+    return []
 
 
 def _build_fill_qcm(

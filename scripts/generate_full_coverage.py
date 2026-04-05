@@ -885,26 +885,7 @@ def _build_fill_flashcards(
     nb: int,
     start_index: int = 0,
 ) -> list[dict]:
-    sentences = _split_sentences(contenu)
-    if not sentences:
-        fallback = (contenu or "").strip()
-        if len(fallback) < 80:
-            fallback = (fallback + " " + f"Point de consolidation en {matiere}.").strip()
-        sentences = [fallback[:300]]
-
-    cards: list[dict] = []
-    for i in range(nb):
-        sentence = sentences[i % len(sentences)]
-        idx = start_index + i + 1
-        cards.append(
-            {
-                "question": _build_notion_question(matiere, sentence, idx)[:280],
-                "reponse": sentence[:900],
-                "explication": f"Carte de rattrapage qualitative #{idx}.",
-                "difficulte": 2 if len(sentence) < 140 else 3,
-            }
-        )
-    return cards
+    return []
 
 
 def _build_fill_qcm(

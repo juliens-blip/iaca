@@ -379,8 +379,10 @@ def _validate_flashcard(card: dict) -> bool:
     """Reject cards with trivially short or self-identical fields."""
     question = _normalize_text(str(card.get("question", "")))
     reponse = _normalize_text(str(card.get("reponse", "")))
+    explication = _normalize_text(str(card.get("explication", "")))
     lowered_question = question.lower()
     lowered_reponse = reponse.lower()
+    lowered_explication = explication.lower()
     bad_markers = (
         "note de délibération",
         "note de deliberation",
@@ -410,11 +412,20 @@ def _validate_flashcard(card: dict) -> bool:
         if " sur '" in lowered_question or ' sur "' in lowered_question:
             log.warning("[validate_flashcard] rejetee — question fragmentaire sans contexte: %r", question[:80])
             return False
+    if lowered_question.startswith("en ") and " que retenir sur " in lowered_question:
+        log.warning("[validate_flashcard] rejetee — question heuristique de manuel trop vague: %r", question[:80])
+        return False
+    if "comment definir la notion de" in lowered_question or "comment définir la notion de" in lowered_question:
+        log.warning("[validate_flashcard] rejetee — question de normalisation trop abstraite: %r", question[:80])
+        return False
     if "quelle notion explique le passage sur" in lowered_question:
         log.warning("[validate_flashcard] rejetee — question de passage brute: %r", question[:80])
         return False
     if "quelle notion est illustree par" in lowered_question or "quelle notion est illustrée par" in lowered_question:
         log.warning("[validate_flashcard] rejetee — question d'illustration brute: %r", question[:80])
+        return False
+    if lowered_explication.startswith("carte de rattrapage qualitative") or "migration p19-3" in lowered_explication:
+        log.warning("[validate_flashcard] rejetee — carte de migration/fill-pass: %r", question[:80])
         return False
     if lowered_question.startswith("reformulez le principe suivant"):
         log.warning("[validate_flashcard] rejetee — consigne brute au lieu d'une question: %r", question[:80])

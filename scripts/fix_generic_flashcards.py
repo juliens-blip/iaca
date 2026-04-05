@@ -235,10 +235,6 @@ def extract_label_from_response(clean_response: str) -> str | None:
         if is_plausible_label(candidate):
             return candidate
 
-    topics = extract_topics(clean_response, limit=3)
-    if len(topics) >= 2:
-        return " / ".join(topics)
-
     return None
 
 
@@ -284,7 +280,7 @@ def build_notion_question(matiere_nom: str, label: str) -> str:
     notion = sanitize_label(label)
     if len(notion) > 92:
         notion = notion[:92].rstrip(" ,;:-")
-    return f"En {subject}, comment definir la notion de '{notion}' ?"
+    return f"En {subject}, quelle définition faut-il retenir à propos de {notion} ?"
 
 
 def fix_generic_flashcards(
