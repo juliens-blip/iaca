@@ -9,6 +9,7 @@ class Settings(BaseSettings):
     app_name: str = "IACA API"
     debug: bool = True
     database_url: str = f"sqlite:///{PROJECT_ROOT / 'data' / 'iaca.db'}"
+    database_use_null_pool: bool = True
     anthropic_api_key: str = ""
     google_api_key: str = ""
     ollama_host: str = "http://localhost:11434"

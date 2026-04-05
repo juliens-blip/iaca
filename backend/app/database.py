@@ -1,5 +1,6 @@
 from sqlalchemy.ext.asyncio import create_async_engine, AsyncSession, async_sessionmaker
 from sqlalchemy.orm import DeclarativeBase
+from sqlalchemy.pool import NullPool
 
 from app.config import settings
 
@@ -16,7 +17,14 @@ def _build_async_url(url: str) -> str:
 
 DATABASE_URL = _build_async_url(settings.database_url)
 
-engine = create_async_engine(DATABASE_URL, echo=settings.debug)
+engine_kwargs = {"echo": settings.debug}
+
+if DATABASE_URL.startswith("postgresql+asyncpg://"):
+    engine_kwargs["pool_pre_ping"] = True
+    if settings.database_use_null_pool:
+        engine_kwargs["poolclass"] = NullPool
+
+engine = create_async_engine(DATABASE_URL, **engine_kwargs)
 
 async_session = async_sessionmaker(engine, class_=AsyncSession, expire_on_commit=False)
 
