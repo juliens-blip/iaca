@@ -118,6 +118,8 @@ async def run_llm_with_fallback(prompt: str) -> str:
     try:
         return await run_claude_cli(prompt)
     except ClaudeRateLimitError as exc:
+        if os.getenv("DISABLE_GEMINI_FALLBACK") == "1":
+            raise
         log.warning("Claude rate-limit after retries, fallback vers Gemini: %s", str(exc)[:200])
         from app.services import gemini_service  # type: ignore
 

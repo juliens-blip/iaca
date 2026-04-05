@@ -19,11 +19,15 @@ import argparse
 import asyncio
 import json
 import logging
+import os
+import re
 import ssl
 import sys
 import unicodedata
 from datetime import UTC, datetime
 from pathlib import Path
+from typing import Any
+from zoneinfo import ZoneInfo
 
 import asyncpg
 
@@ -35,7 +39,10 @@ DEFAULT_PREVIEW_DIR = REPO_ROOT / "data" / "supabase_quality_previews"
 sys.path.insert(0, str(REPO_ROOT))
 sys.path.insert(0, str(BACKEND_DIR))
 
+os.environ.setdefault("DISABLE_GEMINI_FALLBACK", "1")
+
 from app.services.claude_service import (  # noqa: E402
+    ClaudeRateLimitError,
     _validate_fiche_payload,
     generer_fiche,
     generer_flashcards,
@@ -52,6 +59,20 @@ PORT = 5432
 USER = "postgres.hssjsvsvenfawegmhecx"
 PASSWORD = "a:aZbZDjfa8xN4D"
 DATABASE = "postgres"
+MONTHS = {
+    "jan": 1,
+    "feb": 2,
+    "mar": 3,
+    "apr": 4,
+    "may": 5,
+    "jun": 6,
+    "jul": 7,
+    "aug": 8,
+    "sep": 9,
+    "oct": 10,
+    "nov": 11,
+    "dec": 12,
+}
 
 
 def setup_logging() -> logging.Logger:
@@ -94,6 +115,51 @@ def target_flashcards(content_len: int) -> int:
     return 4
 
 
+def wait_seconds_until_claude_reset(error_text: str) -> int | None:
+    match = re.search(
+        r"resets?\s+([A-Za-z]{3})\s+(\d{1,2}),\s+(\d{1,2})(?::(\d{2}))?\s*(am|pm)\s*\(([^)]+)\)",
+        error_text,
+        flags=re.IGNORECASE,
+    )
+    if not match:
+        return None
+
+    month_key, day, hour, minute, am_pm, tz_name = match.groups()
+    month = MONTHS.get(month_key.lower())
+    if month is None:
+        return None
+
+    hour_value = int(hour) % 12
+    if am_pm.lower() == "pm":
+        hour_value += 12
+    minute_value = int(minute or 0)
+
+    try:
+        tz = ZoneInfo(tz_name)
+    except Exception:
+        tz = ZoneInfo("Europe/Paris")
+
+    now = datetime.now(tz)
+    reset_at = datetime(
+        year=now.year,
+        month=month,
+        day=int(day),
+        hour=hour_value,
+        minute=minute_value,
+        tzinfo=tz,
+    )
+    if reset_at <= now:
+        reset_at = datetime(
+            year=now.year + 1,
+            month=month,
+            day=int(day),
+            hour=hour_value,
+            minute=minute_value,
+            tzinfo=tz,
+        )
+    return max(int((reset_at - now).total_seconds()) + 60, 60)
+
+
 def should_skip_doc(title: str, contenu: str, matiere: str, include_espagnol: bool) -> bool:
     if not include_espagnol and "espagnol" in normalized(matiere):
         return True
@@ -117,8 +183,11 @@ async def fetch_docs(
     if only_missing_both:
         where_clause = "where coalesce(fc.cnt,0)=0 and coalesce(fi.cnt,0)=0"
     order_direction = "asc" if smallest_first else "desc"
+    sql_limit = ""
+    if limit:
+        sql_limit = f"limit {max(limit * 200, limit)}"
     sql = f"""
-        select d.id, d.titre, d.contenu_extrait, d.matiere_id, d.chapitre, coalesce(m.nom, 'Documents divers') as matiere,
+        select d.id, d.titre, d.matiere_id, d.chapitre, coalesce(m.nom, 'Documents divers') as matiere,
                length(coalesce(d.contenu_extrait,'')) as content_len,
                coalesce(fc.cnt,0) as flashcards,
                coalesce(fi.cnt,0) as fiches
@@ -128,12 +197,16 @@ async def fetch_docs(
         left join (select document_id, count(*) cnt from public.fiches group by document_id) fi on fi.document_id=d.id
         {where_clause}
         order by length(coalesce(d.contenu_extrait,'')) {order_direction}, d.id asc
+        {sql_limit}
     """
     rows = await conn.fetch(sql)
-    docs = []
+    docs: list[dict[str, Any]] = []
     for row in rows:
         title = row["titre"] or ""
-        contenu = row["contenu_extrait"] or ""
+        contenu = await conn.fetchval(
+            "select contenu_extrait from public.documents where id=$1",
+            row["id"],
+        ) or ""
         matiere = row["matiere"] or ""
         if len(contenu) < min_content_len:
             continue
@@ -141,7 +214,9 @@ async def fetch_docs(
             continue
         if should_skip_doc(title, contenu, matiere, include_espagnol):
             continue
-        docs.append(row)
+        doc = dict(row)
+        doc["contenu_extrait"] = contenu
+        docs.append(doc)
         if limit and len(docs) >= limit:
             break
     return docs
@@ -305,6 +380,52 @@ async def process_doc(
     return flashcards_inserted, fiches_inserted
 
 
+async def process_doc_with_retries(
+    conn: asyncpg.Connection,
+    doc: asyncpg.Record,
+    logger: logging.Logger,
+    preview_dir: Path | None,
+    dry_run: bool,
+    flashcards_timeout: int,
+    fiche_timeout: int,
+    max_attempts: int = 3,
+) -> tuple[int, int]:
+    for attempt in range(1, max_attempts + 1):
+        try:
+            return await process_doc(
+                conn,
+                doc,
+                logger,
+                preview_dir,
+                dry_run,
+                flashcards_timeout,
+                fiche_timeout,
+            )
+        except ClaudeRateLimitError as exc:
+            reset_wait = wait_seconds_until_claude_reset(str(exc))
+            if reset_wait is not None:
+                logger.warning(
+                    "doc=%s limite dure Claude detectee, sommeil %ss jusqu'au reset: %s",
+                    doc["id"],
+                    reset_wait,
+                    str(exc)[:180],
+                )
+                await asyncio.sleep(reset_wait)
+                continue
+            if attempt >= max_attempts:
+                raise
+            wait_seconds = 180 * attempt
+            logger.warning(
+                "doc=%s rate-limit Claude (attempt %s/%s), pause %ss puis reprise: %s",
+                doc["id"],
+                attempt,
+                max_attempts,
+                wait_seconds,
+                str(exc)[:180],
+            )
+            await asyncio.sleep(wait_seconds)
+
+
 async def main() -> int:
     parser = argparse.ArgumentParser()
     parser.add_argument("--limit", type=int, default=None)
@@ -378,7 +499,7 @@ async def main() -> int:
                     "doc=%s matiere=%s len=%s flashcards=%s fiches=%s titre=%r",
                     doc["id"], doc["matiere"], doc["content_len"], doc["flashcards"], doc["fiches"], doc["titre"][:120],
                 )
-                fc, fi = await process_doc(
+                fc, fi = await process_doc_with_retries(
                     conn,
                     doc,
                     logger,
