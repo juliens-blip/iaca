@@ -9,7 +9,7 @@ from typing import Any
 log = logging.getLogger(__name__)
 
 
-FICHE_MIN_SECTIONS = 6
+FICHE_MIN_SECTIONS = 4
 FICHE_MAX_SECTIONS = 10
 FICHE_MIN_SECTION_CHARS = 220
 FICHE_MAX_SECTION_CHARS = 2400
@@ -260,39 +260,6 @@ def _split_source_blocks(contenu: str) -> list[str]:
     return [fallback_text[i:i + chunk_size] for i in range(0, len(fallback_text), chunk_size)]
 
 
-def _build_fallback_sections(
-    contenu: str,
-    needed: int,
-    used_titles: set[str],
-    start_index: int,
-) -> list[dict[str, str]]:
-    sections: list[dict[str, str]] = []
-    for block in _split_source_blocks(contenu):
-        if len(sections) >= needed:
-            break
-
-        content = _normalize_text(block)[:FICHE_MAX_SECTION_CHARS]
-        if len(content) < FICHE_MIN_SECTION_CHARS:
-            continue
-
-        section_index = start_index + len(sections)
-        title = _derive_title_from_content(content, section_index)
-        if _is_generic_section_title(title) or title.lower() in used_titles:
-            title = f"Axe clé {section_index + 1}"
-
-        if not _contains_actionable_marker(content):
-            content = (
-                f"{content}\n\n"
-                "Point d'application: identifiez la règle utile, ses conditions de mise en oeuvre "
-                "et un cas pratique où l'appliquer."
-            )
-
-        used_titles.add(title.lower())
-        sections.append({"titre": title, "contenu": content})
-
-    return sections
-
-
 def _sanitize_sections(raw_sections: Any, contenu: str) -> list[dict[str, str]]:
     sanitized: list[dict[str, str]] = []
     used_titles: set[str] = set()
@@ -332,10 +299,6 @@ def _sanitize_sections(raw_sections: Any, contenu: str) -> list[dict[str, str]]:
         if len(sanitized) >= FICHE_MAX_SECTIONS:
             break
 
-    if len(sanitized) < FICHE_MIN_SECTIONS:
-        needed = FICHE_MIN_SECTIONS - len(sanitized)
-        sanitized.extend(_build_fallback_sections(contenu, needed, used_titles, len(sanitized)))
-
     return sanitized[:FICHE_MAX_SECTIONS]
 
 
@@ -348,8 +311,8 @@ def _build_resume(raw_resume: Any, sections: list[dict[str, str]], contenu: str)
         merged = " ".join(section["contenu"] for section in sections[:2])
         resume = _normalize_text(merged)
 
-    if len(resume) < FICHE_MIN_RESUME_CHARS or _has_low_quality_fiche_marker(resume):
-        resume = _normalize_text(contenu)[:1400]
+    if _has_low_quality_fiche_marker(resume):
+        return ""
 
     return resume[:1400]
 
@@ -363,9 +326,6 @@ def _sanitize_fiche_payload(payload: Any, contenu: str, titre_doc: str) -> dict[
         title = f"Fiche - {titre_doc}"
 
     sections = _sanitize_sections(payload.get("sections", []), contenu)
-    if not sections:
-        sections = _build_fallback_sections(contenu, FICHE_MIN_SECTIONS, set(), 0)
-
     resume = _build_resume(payload.get("resume", ""), sections, contenu)
 
     return {
@@ -402,8 +362,17 @@ def _validate_flashcard(card: dict) -> bool:
     if len(reponse) < 30:
         log.warning("[validate_flashcard] rejetee — reponse trop courte (%d chars): %r", len(reponse), reponse[:60])
         return False
+    if reponse.lstrip().startswith(">>>"):
+        log.warning("[validate_flashcard] rejetee — reponse polluee par un marqueur brut: %r", question[:80])
+        return False
     if question.lower() == reponse.lower():
         log.warning("[validate_flashcard] rejetee — question == reponse: %r", question[:60])
+        return False
+    if question.count("/") >= 2:
+        log.warning("[validate_flashcard] rejetee — question slashée/OCR: %r", question[:80])
+        return False
+    if re.search(r"""['"]\s*[A-Za-zÀ-ÿ0-9][^'"]{0,40}(?:\s*/\s*[^'"]{1,40})+['"]""", question):
+        log.warning("[validate_flashcard] rejetee — fragment cite slashé sans contexte: %r", question[:80])
         return False
     if "focus :" in lowered_question:
         log.warning("[validate_flashcard] rejetee — question low-context scaffold: %r", question[:80])
@@ -593,9 +562,11 @@ REPARTITION CIBLE : sur un batch de N cartes, vise 10% diff1, 25% diff2, 35% dif
 
 REGLES DE REDACTION :
 - QUESTION : precise, teste la comprehension, pas la memorisation brute
+- QUESTION : doit etre autonome et comprehensible seule, meme sans avoir lu le document
 - REPONSE : 2-4 phrases, commence par la reponse directe, contexte (date, juridiction, portee)
 - EXPLICATION : valeur ajoutee pedagogique — exemple concret, lien avec le concours, piege classique
 - INTERDIT : copier des phrases du document source, champ "difficulte" different du niveau impose
+- INTERDIT : "Que faut-il retenir...", "Comment definir la notion de...", fragments entre guillemets, listes de mots relies par "/", labels OCR ou mots-clés bruts
 
 CONTENU SOURCE :
 {chunk}
