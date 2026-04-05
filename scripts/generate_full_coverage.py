@@ -304,7 +304,7 @@ def _is_bad_structured_title(title: str) -> bool:
         return True
     if re.match(r"^axe\s+cle\b", lowered):
         return True
-    if re.match(r"^section\s+\d+\s*-", lowered):
+    if re.match(r"^section\s+\d+\s*[—–-]", lowered):
         return True
     generic_tokens = ("numerique", "janvier", "mai", "semestre", "licence", "devoir", "vous", "bien")
     return sum(token in lowered for token in generic_tokens) >= 2

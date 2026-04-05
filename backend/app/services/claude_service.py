@@ -22,7 +22,7 @@ GENERIC_SECTION_PATTERNS = (
     r"^introduction$",
     r"^conclusion$",
     r"^divers$",
-    r"^synthese$",
+    r"^synth[eè]se$",
 )
 
 ACTIONABLE_MARKERS = (
@@ -218,7 +218,7 @@ def _is_low_quality_fiche_title(title: str) -> bool:
         re.match(r"^focus\s*:", lowered)
         or re.match(r"^rep[eè]re\s*:", lowered)
         or re.match(r"^axe\s+cl[ée]\b", lowered)
-        or re.match(r"^section\s+\d+\s*-", lowered)
+        or re.match(r"^section\s+\d+\s*[—–-]", lowered)
     )
 
 
@@ -405,6 +405,16 @@ def _validate_flashcard(card: dict) -> bool:
         return False
     if "focus :" in lowered_question:
         log.warning("[validate_flashcard] rejetee — question low-context scaffold: %r", question[:80])
+        return False
+    if lowered_question.startswith("que faut-il retenir"):
+        if " sur '" in lowered_question or ' sur "' in lowered_question:
+            log.warning("[validate_flashcard] rejetee — question fragmentaire sans contexte: %r", question[:80])
+            return False
+    if "quelle notion explique le passage sur" in lowered_question:
+        log.warning("[validate_flashcard] rejetee — question de passage brute: %r", question[:80])
+        return False
+    if "quelle notion est illustree par" in lowered_question or "quelle notion est illustrée par" in lowered_question:
+        log.warning("[validate_flashcard] rejetee — question d'illustration brute: %r", question[:80])
         return False
     if lowered_question.startswith("reformulez le principe suivant"):
         log.warning("[validate_flashcard] rejetee — consigne brute au lieu d'une question: %r", question[:80])
