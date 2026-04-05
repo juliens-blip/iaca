@@ -49,6 +49,7 @@ from app.services.claude_service import (  # noqa: E402
     _extract_json_object as extract_json_object_safe,
     _sanitize_fiche_payload,
     _sanitize_source_content,
+    _validate_fiche_payload,
     _validate_flashcard,
     generer_fiche,
     generer_flashcards,
@@ -297,7 +298,13 @@ def _is_bad_structured_title(title: str) -> bool:
         return True
     if _looks_like_evaluation_noise(title):
         return True
-    if lowered.startswith("focus :"):
+    if re.match(r"^focus\s*:", lowered):
+        return True
+    if re.match(r"^repere\s*:", lowered):
+        return True
+    if re.match(r"^axe\s+cle\b", lowered):
+        return True
+    if re.match(r"^section\s+\d+\s*-", lowered):
         return True
     generic_tokens = ("numerique", "janvier", "mai", "semestre", "licence", "devoir", "vous", "bien")
     return sum(token in lowered for token in generic_tokens) >= 2
@@ -517,18 +524,18 @@ def _looks_like_heading(line: str) -> bool:
 
 
 def _derive_section_title_from_body(body: str, index: int) -> str:
-    topics = _extract_topics(body, limit=3)
-    if len(topics) >= 2:
-        return f"Focus : {' / '.join(topic.capitalize() for topic in topics)}"
-    if topics:
-        return f"Repère : {topics[0].capitalize()}"
-
     sentences = _split_sentences(body)
     if sentences:
         first = _clean_excerpt(sentences[0], 90)
-        if 10 <= len(first) <= 90:
+        if 18 <= len(first) <= 90 and not _looks_like_evaluation_noise(first):
             return first
-    return f"Axe clé {index}"
+
+    topics = _extract_topics(body, limit=3)
+    if len(topics) >= 2:
+        return f"{topics[0].capitalize()} et {topics[1]}"
+    if topics:
+        return f"{topics[0].capitalize()} en pratique"
+    return f"Notion essentielle {index}"
 
 
 def _build_sentence_group_sections(contenu: str, limit: int, offset: int = 0) -> list[dict[str, str]]:
@@ -699,15 +706,26 @@ def _build_structured_section_content(title: str, body: str) -> str:
     key_sentences = _select_key_sentences(body, limit=3)
     if not key_sentences:
         return ""
-    title_label = _clean_excerpt(title, 90) or "ce thème"
-    lines = [f"Cette partie porte sur {title_label.lower()}."]
-    labels = ["Principe", "Mécanisme", "Point d'attention"]
-    for label, sentence in zip(labels, key_sentences):
-        lines.append(f"{label} : {sentence}.")
-    topics = _extract_topics(f"{title} {body}", limit=3)
-    if topics:
-        lines.append(f"Repères utiles : {', '.join(topics)}.")
+    lines: list[str] = []
+    for idx, sentence in enumerate(key_sentences):
+        cleaned_sentence = _clean_excerpt(sentence, 320).rstrip(" .")
+        if not cleaned_sentence:
+            continue
+        if idx < 2:
+            lines.append(f"{cleaned_sentence}.")
+        else:
+            lines.append(f"Point d'attention : {cleaned_sentence}.")
     return " ".join(lines)[:2400]
+
+
+def _build_structured_fiche_resume(matiere: str, sections: list[dict[str, str]], contenu: str) -> str:
+    source_text = " ".join(section["contenu"] for section in sections[:3]) or contenu
+    key_sentences = _select_key_sentences(source_text, limit=3)
+    if not key_sentences:
+        return _clean_excerpt(source_text, 600)
+    intro = f"Pour réviser {matiere}, les points les plus utiles du document sont les suivants. "
+    summary = " ".join(f"{_clean_excerpt(sentence, 220).rstrip(' .')}." for sentence in key_sentences[:3] if sentence)
+    return _clean_excerpt(f"{intro}{summary}", 600)
 
 
 def _extract_topics(sentence: str, limit: int = 3) -> list[str]:
@@ -842,16 +860,14 @@ def _generate_fiche_heuristic(contenu: str, matiere: str, titre_doc: str) -> dic
     sections: list[dict] = []
     for index, section in enumerate(selected, start=1):
         section_title = _clean_excerpt(section["titre"], 180) or f"Axe clé {index}"
+        if _is_bad_structured_title(section_title):
+            continue
         section_body = _build_structured_section_content(section_title, section["contenu"])
         if len(section_body) >= 220:
             sections.append({"titre": section_title, "contenu": section_body})
 
-    top_titles = [section["titre"] for section in sections[:3]]
-    if top_titles:
-        resume = (
-            f"Cette fiche de {matiere} synthétise {', '.join(top_titles)}. "
-            f"Elle met l'accent sur les règles, mécanismes et points d'attention utiles pour la révision du document."
-        )
+    if sections:
+        resume = _build_structured_fiche_resume(matiere, sections, contenu)
     else:
         resume = _clean_excerpt(contenu, 600)
 
@@ -1158,7 +1174,8 @@ async def generate_fiche_with_provider(
 ) -> dict:
     last_exc: Exception | None = None
     if provider == "structured":
-        return _generate_fiche_heuristic(contenu, matiere, titre_doc)
+        log.warning("[generate_fiche] structured provider disabled for fiches — under-reformulated output")
+        return {"titre": f"Fiche - {titre_doc}", "resume": "", "sections": []}
     if provider == "gemini":
         async with _gemini_backend():
             return await generer_fiche(contenu, matiere, titre_doc)
@@ -1278,6 +1295,8 @@ def insert_quiz(conn: sqlite3.Connection, questions: list[dict], doc_id: int, ma
 def insert_fiche(conn: sqlite3.Connection, fiche_data: dict, doc_id: int, matiere_id: int) -> bool:
     now = datetime.now(timezone.utc).isoformat()
     try:
+        if not _validate_fiche_payload(fiche_data):
+            return False
         cur = conn.execute(
             """INSERT INTO fiches (titre, resume, matiere_id, document_id, chapitre, tags, ordre, created_at)
                VALUES (?,?,?,?,?,?,0,?)""",

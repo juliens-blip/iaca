@@ -39,6 +39,21 @@ ACTIONABLE_MARKERS = (
     "procedure",
     "procédure",
 )
+LOW_QUALITY_FICHE_MARKERS = (
+    "note de délibération",
+    "note de deliberation",
+    "note de correction",
+    "correction 1",
+    "correction 2",
+    "correction 3",
+    "appréciation",
+    "appreciation",
+    "correcteur",
+    "synthétise focus :",
+    "cette partie porte sur focus :",
+    "cette partie porte sur repère :",
+    "cette partie porte sur repere :",
+)
 EXTRACTION_ERROR_PREFIX = "[Erreur d'extraction:"
 MIN_SOURCE_CONTENT_CHARS = 120
 CLAUDE_RATE_LIMIT_MARKERS = (
@@ -195,6 +210,29 @@ def _contains_actionable_marker(content: str) -> bool:
     return any(marker in lowered for marker in ACTIONABLE_MARKERS)
 
 
+def _is_low_quality_fiche_title(title: str) -> bool:
+    lowered = _normalize_text(title).lower()
+    if not lowered:
+        return True
+    return bool(
+        re.match(r"^focus\s*:", lowered)
+        or re.match(r"^rep[eè]re\s*:", lowered)
+        or re.match(r"^axe\s+cl[ée]\b", lowered)
+        or re.match(r"^section\s+\d+\s*-", lowered)
+    )
+
+
+def _has_low_quality_fiche_marker(text: str) -> bool:
+    lowered = _normalize_text(text).lower()
+    if not lowered:
+        return False
+    if any(marker in lowered for marker in LOW_QUALITY_FICHE_MARKERS):
+        return True
+    if lowered.startswith("[") or lowered.startswith("{"):
+        return True
+    return bool(re.search(r"\b\d+(?:[.,]\d+)?\s*/\s*(?:10|20)\b", lowered))
+
+
 def _derive_title_from_content(content: str, index: int) -> str:
     words = re.findall(r"[A-Za-zÀ-ÿ0-9][A-Za-zÀ-ÿ0-9'’\-]+", content)
     phrase = " ".join(words[:8]).strip()
@@ -273,8 +311,12 @@ def _sanitize_sections(raw_sections: Any, contenu: str) -> list[dict[str, str]]:
 
         if not content:
             continue
-        if _is_generic_section_title(title):
+        if _has_low_quality_fiche_marker(content):
+            continue
+        if _is_generic_section_title(title) or _is_low_quality_fiche_title(title):
             title = _derive_title_from_content(content, len(sanitized))
+        if _is_generic_section_title(title) or _is_low_quality_fiche_title(title):
+            continue
 
         content = content[:FICHE_MAX_SECTION_CHARS]
         if len(content) < FICHE_MIN_SECTION_CHARS:
@@ -299,14 +341,14 @@ def _sanitize_sections(raw_sections: Any, contenu: str) -> list[dict[str, str]]:
 
 def _build_resume(raw_resume: Any, sections: list[dict[str, str]], contenu: str) -> str:
     resume = _normalize_text(str(raw_resume or ""))
-    if len(resume) >= FICHE_MIN_RESUME_CHARS:
+    if len(resume) >= FICHE_MIN_RESUME_CHARS and not _has_low_quality_fiche_marker(resume):
         return resume[:1400]
 
     if sections:
         merged = " ".join(section["contenu"] for section in sections[:2])
         resume = _normalize_text(merged)
 
-    if len(resume) < FICHE_MIN_RESUME_CHARS:
+    if len(resume) < FICHE_MIN_RESUME_CHARS or _has_low_quality_fiche_marker(resume):
         resume = _normalize_text(contenu)[:1400]
 
     return resume[:1400]
@@ -387,8 +429,11 @@ def _validate_fiche_section(section: dict, source_chunk: str = "") -> bool:
     """Reject sections with generic titles, short content, or near-verbatim copy of source."""
     titre = _normalize_text(str(section.get("titre", "")))
     contenu = _normalize_text(str(section.get("contenu", "")))
-    if _is_generic_section_title(titre):
+    if _is_generic_section_title(titre) or _is_low_quality_fiche_title(titre):
         log.warning("[validate_section] rejetee — titre generique: %r", titre)
+        return False
+    if _has_low_quality_fiche_marker(contenu):
+        log.warning("[validate_section] rejetee — contenu brut ou de correction: %r", titre)
         return False
     if len(contenu) < 150:
         log.warning("[validate_section] rejetee — contenu trop court (%d chars): titre=%r", len(contenu), titre)
@@ -399,6 +444,20 @@ def _validate_fiche_section(section: dict, source_chunk: str = "") -> bool:
             log.warning("[validate_section] rejetee — trop proche du source (ratio=%.2f): titre=%r", ratio, titre)
             return False
     return True
+
+
+def _validate_fiche_payload(payload: dict[str, Any]) -> bool:
+    resume = _normalize_text(str(payload.get("resume", "")))
+    sections = payload.get("sections") or []
+    if _has_low_quality_fiche_marker(resume):
+        return False
+    if not isinstance(sections, list) or len(sections) < FICHE_MIN_SECTIONS:
+        return False
+    valid_sections = 0
+    for section in sections:
+        if isinstance(section, dict) and _validate_fiche_section(section):
+            valid_sections += 1
+    return valid_sections >= FICHE_MIN_SECTIONS
 
 
 def chunk_content(markdown_text: str, max_chars: int = 4000) -> list[str]:
