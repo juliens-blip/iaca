@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 1044,
+      "fiche": {
+        "titre": "Autorite judiciaire, droit au juge et independance : pourquoi le parquet ne suffit pas toujours a proteger les libertes",
+        "resume": "Ce document prolonge l'etude des garanties d'acces a la justice penale. La fiche en retient une idee directrice : l'expression d'autorite judiciaire ne suffit pas a garantir, a elle seule, un controle adequat des atteintes aux libertes. Tout depend de l'independance reelle de l'organe qui intervient, du poids de la contrainte exercee et de la place laissee a un juge veritablement distinct de la logique de poursuite. C'est ce qui explique a la fois la critique europeenne du parquet, la gradation des controles et la place croissante du JLD.",
+        "sections": [
+          {
+            "titre": "La qualite d'autorite judiciaire ne se reduit pas a une etiquette institutionnelle",
+            "contenu": "Le document rappelle que le debat ne porte pas seulement sur les mots employes par le droit interne. Pour les juges europeens, il faut regarder de pres la maniere dont l'organe est nomme, la marge d'influence du pouvoir executif et la distance gardee face a l'interet de poursuivre. La fiche retient ainsi que la qualite revendiquee par le parquet en droit francais ne vaut pas, a elle seule, reconnaissance d'une garantie suffisante."
+          },
+          {
+            "titre": "La critique du parquet se noue autour d'un double lien, statutaire et hierarchique",
+            "contenu": "Le texte distingue deux foyers de fragilite. D'un cote, le statut des membres du parquet n'offre pas la meme protection que celui des juges du siege. De l'autre, le lien avec le garde des Sceaux nourrit le doute sur l'autonomie effective de l'institution. La fiche souligne que cette double dependance explique pourquoi le parquet est regarde avec reserve lorsqu'il s'agit de controler une atteinte serieuse a la liberte."
+          },
+          {
+            "titre": "Le niveau de garantie requis augmente avec la gravite de l'atteinte subie",
+            "contenu": "L'une des idees les plus nettes du document tient a cette gradation. Certains actes peuvent etre accomplis par les policiers seuls. D'autres exigent l'intervention du procureur. Lorsque l'atteinte devient plus lourde, notamment sur la liberte individuelle ou la vie privee, il faut alors un juge du siege, en particulier le JLD. La fiche retient que le systeme est construit comme une echelle de controle et non comme un bloc uniforme."
+          },
+          {
+            "titre": "Le droit au juge doit rester concret, effectif et ouvert a toute personne concernee",
+            "contenu": "Le document ne vise pas seulement la personne poursuivie. Il rappelle aussi que la partie civile doit pouvoir agir sans obstacle excessif et que l'exercice d'un recours ne peut etre vide de sa substance par des exigences disproportionnees. La fiche insiste sur ce point : une garantie d'acces n'est veritable que si elle peut etre mobilisee dans la pratique, y compris par ceux qui ont peu de moyens ou qui subissent une contrainte procedurale lourde."
+          },
+          {
+            "titre": "Le droit compare montre enfin qu'un parquet enqueteur ne peut etre pense isolement du reste du systeme",
+            "contenu": "Le texte met en garde contre les comparaisons trop rapides avec l'Allemagne ou l'Italie. Dans ces pays, le binome parquet enqueteur et juge controleur fonctionne dans des environnements institutionnels differents, notamment quant a la culture de l'independance ou a la place de la legalite des poursuites. La fiche en tire une lecon de methode : on ne peut pas importer un modele en oubliant les contrepoids qui lui donnent ailleurs sa coherence."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la qualite d'autorite judiciaire ne suffit-elle pas a elle seule ?",
+          "reponse": "Parce qu'il faut encore verifier l'independance reelle de l'organe et sa distance face a la logique de poursuite.",
+          "explication": "Le document montre que l'analyse europeenne depasse la seule qualification donnee par le droit interne.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le premier foyer de fragilite du parquet releve dans le document ?",
+          "reponse": "Son statut, qui n'offre pas les memes garanties que celui des juges du siege.",
+          "explication": "La fiche distingue un volet statutaire et un volet hierarchique dans la critique du parquet.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le second foyer de fragilite du parquet ?",
+          "reponse": "Le lien hierarchique avec le garde des Sceaux, qui alimente le doute sur son autonomie.",
+          "explication": "Le document insiste sur le risque d'influence du pouvoir executif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le JLD occupe-t-il une place centrale dans ce schema ?",
+          "reponse": "Parce qu'il intervient lorsque l'atteinte a la liberte ou a la vie privee exige un niveau de garantie plus eleve.",
+          "explication": "La fiche presente le JLD comme le juge du siege appele dans les situations les plus sensibles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie la gradation des controles decrite dans le document ?",
+          "reponse": "Que l'intensite du controle augmente en fonction de la gravite de la mesure mise en oeuvre.",
+          "explication": "Le texte oppose ainsi les actes accomplis seuls par les policiers, ceux controles par le parquet et ceux reserves au juge.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le droit au juge doit-il etre concret et effectif ?",
+          "reponse": "Parce qu'une garantie purement theorique ne protege pas reellement les personnes frappees par la procedure.",
+          "explication": "La fiche rappelle que l'acces a la justice vaut pour le prevenu comme pour la partie civile.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi des exigences financieres trop lourdes peuvent-elles poser probleme ?",
+          "reponse": "Parce qu'elles peuvent transformer un recours ouvert en droit en recours inaccessible en fait.",
+          "explication": "Le document relie cette idee a la notion d'acces effectif au juge.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel enseignement general le document tire-t-il du droit compare ?",
+          "reponse": "Qu'un modele de parquet enqueteur ne se comprend qu'avec ses contrepoids institutionnels et culturels.",
+          "explication": "La fiche invite a comparer des ensembles complets et non des morceaux isoles.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la legalite des poursuites est-elle importante dans la comparaison etrangere ?",
+          "reponse": "Parce qu'elle limite la marge du parquet et change l'equilibre du systeme par rapport au modele francais.",
+          "explication": "Le document oppose ici les systemes de legalite et d'opportunite des poursuites.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "La protection des libertes depend moins d'un titre formel que de l'independance de l'organe qui controle la contrainte.",
+          "explication": "La fiche relie ainsi critique du parquet, droit au juge et centralite du JLD.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Autorite judiciaire et droit au juge",
+        "questions": [
+          {
+            "question": "Quel est le point central du debat autour de l'autorite judiciaire ?",
+            "choix": [
+              "A. Le seul nom donne a l'institution.",
+              "B. La question de savoir si l'organe qui controle est reellement independant et suffisamment distant de la poursuite.",
+              "C. Le nombre de magistrats presents.",
+              "D. Le lieu geographique de l'enquete."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document insiste sur l'ecart entre qualification interne et exigence europeenne d'independance reelle.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le parquet est-il regarde avec reserve pour le controle des atteintes graves aux libertes ?",
+            "choix": [
+              "A. Parce qu'il n'est jamais magistrat.",
+              "B. Parce qu'il cumule des fragilites statutaires et un lien hierarchique avec l'executif.",
+              "C. Parce qu'il ne connait pas les dossiers.",
+              "D. Parce qu'il n'exerce aucune poursuite."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche distingue nettement ces deux sources de fragilite.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que signifie la gradation des garanties dans ce document ?",
+            "choix": [
+              "A. Que toutes les mesures sont traitees de facon identique.",
+              "B. Que seules les mesures mineures sont controlees par un juge.",
+              "C. Que plus l'atteinte est grave, plus l'intervention doit venir d'un organe fort en independance.",
+              "D. Que le procureur est toujours suffisant."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document fait du JLD le point haut de cette echelle de controle.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quelle precaution de methode le droit compare impose-t-il ?",
+            "choix": [
+              "A. Copier un modele etranger en oubliant son contexte.",
+              "B. Comparer des systemes complets avec leurs contrepoids et leur culture propre.",
+              "C. Ignorer la legalite des poursuites.",
+              "D. Reduire toute comparaison au seul statut du juge."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche met en garde contre les transpositions trop rapides de solutions etrangeres.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1045,
+      "fiche": {
+        "titre": "Publicite du proces penal : audience publique, huis clos et captation moderne des debats",
+        "resume": "Ce document montre que la publicite du proces penal est une garantie democratique ancienne qui change aujourd'hui d'echelle avec la captation des audiences. La fiche en retient une idee directrice : la publicite sert a proteger les justiciables contre une justice cachee, mais elle ne vaut jamais sans nuance. Elle doit se combiner avec la dignite des debats, la protection de certaines victimes et la maitrise des risques de spectacle. D'ou le double mouvement du texte : rappeler le principe de l'audience publique et organiser une forme moderne de diffusion sous garde-fous.",
+        "sections": [
+          {
+            "titre": "La publicite du proces penal sert d'abord a soumettre la justice au regard collectif",
+            "contenu": "Le document rattache cette garantie a l'idee qu'une justice penale legitime ne doit pas se rendre a l'abri de tout controle social. Audience publique et lecture publique de la decision ne sont pas de simples rites. Elles prot egent la juridiction elle-meme, les parties et le public contre l'opacite. La fiche retient que la publicite est l'une des formes concretes de la responsabilite democratique de la justice."
+          },
+          {
+            "titre": "Le huis clos n'abolit pas ce principe mais en constitue une limitation orientee vers des interets plus fragiles",
+            "contenu": "Le texte rappelle que la publicite peut ceder lorsque l'ordre public, les mineurs, la vie privee ou la protection de certaines victimes l'exigent. Le huis clos n'est donc pas l'envers arbitraire de la transparence. Il represente une technique de protection lorsque la pleine exposition des debats ferait peser un cout humain ou institutionnel excessif. La fiche insiste sur ce point : la publicite est la regle, mais elle n'est jamais une regle aveugle."
+          },
+          {
+            "titre": "Les affaires de violences sexuelles montrent avec une force particuliere la tension entre voir, prouver et proteger",
+            "contenu": "Le document mobilise l'affaire des viols de Mazan pour montrer que la publicite peut prendre une dimension symbolique et politique. Donner a voir peut servir la reconnaissance des violences et le deplacement du regard social. Mais l'exposition de certaines pieces peut aussi heurter la dignite des debats ou transformer l'audience en theatre d'images plus qu'en espace de jugement. La fiche retient ainsi un equilibre instable entre pedagogie, respect des personnes et recherche de verite."
+          },
+          {
+            "titre": "La captation des audiences prolonge le principe de publicite en cherchant a mieux faire comprendre la justice",
+            "contenu": "Le texte montre qu'une nouvelle etape a ete franchie avec la possibilite d'enregistrer et de diffuser certaines audiences pour des motifs pedagogiques, informatifs, culturels ou scientifiques. L'objectif affiche est clair : rapprocher la societe de la justice et reprendre la main sur des recits mediat iques souvent deforme s. La fiche y voit une extension moderne du principe de publicite plutot qu'une rupture avec lui."
+          },
+          {
+            "titre": "Cette ouverture audiovisuelle n'est acceptable qu'avec des garde-fous contre la justice spectacle",
+            "contenu": "Le document souligne que la diffusion ne peut ni troubler le deroulement du proces, ni exposer sans retenue les personnes en cause, ni porter atteinte a la presomption d'innocence. D'ou le role du president, la temporalite differee de certaines diffusions et les limites posees a l'identification des personnes. La fiche retient que filmer la justice n'a de sens qu'a la condition de ne pas dissoudre la justice dans la logique pure de l'image."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la publicite du proces penal est-elle une garantie democratique ?",
+          "reponse": "Parce qu'elle soumet la justice penale au regard collectif et la protege contre l'opacite.",
+          "explication": "Le document rattache cette publicite a la protection des justiciables comme de la juridiction.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que protege en priorite le huis clos ?",
+          "reponse": "Des interets fragiles comme la vie privee, certains mineurs, certaines victimes ou la dignite des debats.",
+          "explication": "La fiche rappelle que le huis clos n'est pas la regle mais une limitation orientee par des interets specifiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le document mobilise-t-il l'affaire des viols de Mazan ?",
+          "reponse": "Pour montrer de facon concrete la tension entre publicite des debats, diffusion des preuves et protection des personnes.",
+          "explication": "La fiche en fait un cas-limite ou la publicite devient aussi un enjeu symbolique et social.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel risque apparait lorsque des images fortes sont diffusees pendant un proces ?",
+          "reponse": "Le risque de faire glisser l'audience d'un espace de jugement vers un espace de spectacle ou de choc visuel.",
+          "explication": "Le document oppose l'information utile a la simple surexposition des images.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la captation des audiences a-t-elle ete ouverte par le droit recent ?",
+          "reponse": "Pour mieux faire comprendre la justice et corriger les recits mediat iques approximatifs ou deformants.",
+          "explication": "La fiche relie cette ouverture a une ambition pedagogique et informative.",
+          "difficulte": 2
+        },
+        {
+          "question": "En quoi la captation prolonge-t-elle le principe de publicite ?",
+          "reponse": "Elle etend l'acces au proces au-dela de la salle d'audience tout en conservant l'idee de regard public sur la justice.",
+          "explication": "Le document la presente comme une version moderne de la transparence judiciaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le president de l'audience reste-t-il central dans ce dispositif ?",
+          "reponse": "Parce qu'il doit proteger le bon deroulement des debats et peut suspendre une captation devenue inappropriee.",
+          "explication": "La fiche souligne le lien entre police de l'audience et maitrise des risques lies a l'image.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la diffusion n'est-elle pas librement immediate dans tous les cas ?",
+          "reponse": "Parce qu'il faut proteger la presomption d'innocence, la vie privee et l'equilibre meme du proces.",
+          "explication": "Le document insiste sur la temporalite et sur les restrictions d'identification comme garde-fous.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que signifie dire que la publicite traditionnelle et la publicite moderne ne s'opposent pas ?",
+          "reponse": "Cela signifie que la diffusion audiovisuelle prolonge l'audience publique sans remplacer ses regles de protection.",
+          "explication": "La fiche relie ainsi principe ancien et outils contemporains.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "La publicite du proces penal est une garantie de transparence qui doit toujours rester maitrisee pour ne pas devenir une machine a spectacle.",
+          "explication": "La fiche articule audience publique, huis clos et captation sous controle.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Publicite du proces penal",
+        "questions": [
+          {
+            "question": "Pourquoi la publicite du proces penal est-elle regardee comme une garantie de base ?",
+            "choix": [
+              "A. Parce qu'elle remplace toute motivation des decisions.",
+              "B. Parce qu'elle soumet la justice au regard du public et lutte contre une justice cachee.",
+              "C. Parce qu'elle supprime tout huis clos.",
+              "D. Parce qu'elle impose de tout filmer sans reserve."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rattache la publicite a la protection du public comme des justiciables.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel est le sens du huis clos dans le raisonnement du document ?",
+            "choix": [
+              "A. Une negation totale de la transparence.",
+              "B. Une mesure de protection qui limite la publicite lorsqu'elle ferait trop de dommage.",
+              "C. Une simple habitude locale.",
+              "D. Une sanction contre la presse."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche montre que le huis clos protege des interets particuliers sans abolir le principe general.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la captation des audiences a-t-elle ete admise par le droit recent ?",
+            "choix": [
+              "A. Pour transformer tout proces en emission de divertissement.",
+              "B. Pour prolonger la publicite par une diffusion a vis ee pedagogique, informative et culturelle.",
+              "C. Pour remplacer les juges par des journalistes.",
+              "D. Pour supprimer l'audience physique."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document la presente comme une extension moderne et encadree du principe de publicite.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel danger explique les nombreux garde-fous poses autour de la captation ?",
+            "choix": [
+              "A. Le risque de justice spectacle et d'atteinte aux personnes en cause.",
+              "B. Le manque de sieges dans la salle.",
+              "C. La disparition du contradictoire en appel.",
+              "D. La nullite automatique de toute audience publique."
+            ],
+            "reponse_correcte": 0,
+            "explication": "La fiche insiste sur la necessite de filmer sans dissoudre la justice dans la logique de l'image.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1047,
+      "fiche": {
+        "titre": "Secret de l'enquete et de l'instruction face aux journalistes : sources protegees, information du public et equilibre precaire",
+        "resume": "Ce document etudie les defis contemporains du secret de l'enquete et de l'instruction. La fiche en retient une idee directrice : le secret n'est plus seul en scene. Il doit composer avec la mission d'information du public et avec la protection des sources journalistiques, reconnues comme essentielles a une societe democratique. Le droit cherche donc moins a choisir un vainqueur unique qu'a organiser une balance delicate entre verite judiciaire, liberte de la presse et prevention des abus.",
+        "sections": [
+          {
+            "titre": "Le secret de l'enquete rencontre aujourd'hui de plein fouet la logique mediatique",
+            "contenu": "Le document montre que la phase preparatoire ne vit plus dans l'ombre qu'on lui pretait autrefois. Fuites, mediatisation des affaires et diffusion rapide des informations fragilisent le secret et multiplient les collisions entre les acteurs de la justice et ceux de l'information. La fiche retient que ce secret n'est pas devenu inutile, mais qu'il est constamment mis a l'epreuve par un espace public beaucoup plus reactif."
+          },
+          {
+            "titre": "La protection des sources journalistiques est regardee comme une piece majeure de la liberte de la presse",
+            "contenu": "Le texte souligne que le journaliste ne defend pas seulement un avantage corporatif lorsqu'il tait sa source. Il protege la possibilite meme de recevoir des informations d'interet general. Sans cette confiance, les informateurs potentiels se taisent et la presse perd une partie de sa fonction critique. La fiche insiste sur cette idee : proteger la source, c'est aussi proteger la circulation d'une information utile au public."
+          },
+          {
+            "titre": "Le droit positif recent cherche a durcir les garanties sans rendre la recherche de preuve impossible",
+            "contenu": "Le document met en avant un renforcement progressif de la protection autour des journalistes, notamment dans les perquisitions, la saisie de documents ou la transcription de certaines correspondances. L'objectif n'est pas de sanctuariser toute activite mediatique, mais d'imposer a l'enquete un niveau de retenue et de justification plus eleve lorsqu'elle risque de devoiler une source. La fiche y voit une montee du controle plutot qu'une immunite generale."
+          },
+          {
+            "titre": "L'equilibre reste precaire car le secret de l'enquete et la liberte d'informer peuvent se neutraliser mutuellement",
+            "contenu": "Le cours montre en effet qu'un journaliste peut devenir la cible indirecte d'une recherche visant d'abord la fuite initiale. Il rappelle aussi que certaines poursuites pour recel de pieces obtenues a la faveur d'une violation du secret placent les journalistes dans une position delicate. La fiche retient ainsi que le droit de taire ses sources et le maintien du secret de l'enquete sont moins deux blocs separ es qu'un champ de tensions permanentes."
+          },
+          {
+            "titre": "La question centrale est finalement celle de la juste mesure entre information du public et protection de la procedure",
+            "contenu": "Le document se garde bien de presenter une solution simple. Une protection trop faible des sources appauvrit l'information et affaiblit le role de contre-pouvoir de la presse. Une protection trop large peut, a l'inverse, favoriser des usages opportunistes, des fuites strategiques ou une confiance aveugle dans des informations impossibles a verifier. La fiche souligne donc un equilibre mobile, ou l'exigence d'interet public et de proportion joue un role determinant."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le secret de l'enquete est-il plus fragilise qu'autrefois ?",
+          "reponse": "Parce que la mediatisation rapide des affaires et les fuites multiplient les collisions avec l'espace public.",
+          "explication": "Le document montre que la phase preparatoire ne reste plus durablement a l'abri du regard exterieur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la protection des sources journalistiques est-elle importante dans une societe democratique ?",
+          "reponse": "Parce qu'elle permet a des informateurs de parler et a la presse de jouer pleinement sa fonction d'information critique.",
+          "explication": "La fiche rattache la source protegee a la circulation d'informations d'interet general.",
+          "difficulte": 2
+        },
+        {
+          "question": "Le droit protege-t-il les journalistes pour leur seul confort professionnel ?",
+          "reponse": "Non, il protege surtout la possibilite de recueillir et diffuser une information utile au public.",
+          "explication": "Le document deplace la question du privilege vers celle de la fonction democratique de la presse.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les actes d'enquete visant les journalistes sont-ils encadres plus strictement ?",
+          "reponse": "Parce qu'ils risquent de reveler indirectement une source et d'affaiblir durablement la liberte d'informer.",
+          "explication": "La fiche insiste sur la necessite d'une justification plus forte lorsque la source est menacee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la protection des sources n'equivaut-elle pas a une immunite totale ?",
+          "reponse": "Parce que le droit cherche encore a permettre une recherche de preuve lorsque des interets publics majeurs le justifient.",
+          "explication": "Le document oppose ainsi protection renforcee et sanctuarisation absolue.",
+          "difficulte": 3
+        },
+        {
+          "question": "En quoi le journaliste peut-il devenir une cible indirecte de l'enquete ?",
+          "reponse": "Parce qu'en cherchant la fuite initiale, l'enquete peut se tourner vers celui qui detient ou diffuse l'information.",
+          "explication": "La fiche souligne ici la porosite entre recherche de la source et pression sur la presse.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le recel de pieces issues d'une violation du secret reste-t-il problematique pour la presse ?",
+          "reponse": "Parce qu'il expose le journaliste a un risque penal alors meme qu'il poursuit une activite d'information du public.",
+          "explication": "Le document montre que cette tension rend l'equilibre normatif particulierement delicat.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel risque ferait courir une protection trop faible des sources ?",
+          "reponse": "Elle dissuaderait les informateurs et appauvrirait la capacite critique de la presse.",
+          "explication": "La fiche relie la protection des sources a la vitalite de l'information publique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel risque ferait courir une protection trop large des sources ?",
+          "reponse": "Elle pourrait favoriser des fuites opportunistes ou des informations insuffisamment verifiables.",
+          "explication": "Le document invite a penser le secret des sources comme une garantie exigeante, pas comme un absolu sans controle.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Le secret de l'enquete et la protection des sources ne s'annulent pas, mais doivent etre ajustes par une balance exigeante entre information du public et sauvegarde de la procedure.",
+          "explication": "La fiche relie ainsi presse, fuite, preuve et interet public.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Secret de l'enquete et sources journalistiques",
+        "questions": [
+          {
+            "question": "Pourquoi la protection des sources journalistiques est-elle regardee comme fondamentale ?",
+            "choix": [
+              "A. Parce qu'elle n'interesse que les redacteurs en chef.",
+              "B. Parce qu'elle assure la circulation d'informations d'interet general en securisant ceux qui les transmettent.",
+              "C. Parce qu'elle interdit toute investigation sur la presse.",
+              "D. Parce qu'elle remplace le secret de l'enquete."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document relie la source protegee a la fonction democratique d'information du public.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le secret de l'enquete entre-t-il aujourd'hui en tension plus frequente avec la presse ?",
+            "choix": [
+              "A. Parce que les affaires sont plus mediatisees et les informations circulent plus vite.",
+              "B. Parce que les journalistes ne couvrent plus les proces.",
+              "C. Parce que les sources ont disparu.",
+              "D. Parce que le secret n'existe plus en droit."
+            ],
+            "reponse_correcte": 0,
+            "explication": "La fiche souligne l'effet des fuites et de l'espace public contemporain sur la phase preparatoire.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi les actes d'enquete visant les journalistes appellent-ils des garanties renforcees ?",
+            "choix": [
+              "A. Parce qu'ils menacent indirectement la source et donc la liberte d'informer.",
+              "B. Parce qu'ils sont toujours inutiles.",
+              "C. Parce que les journalistes sont inaccessibles au droit penal.",
+              "D. Parce qu'ils ne concernent jamais le public."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document fait de la protection indirecte des sources un point central des garanties.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle est la bonne lecture de l'equilibre recherche par le droit ?",
+            "choix": [
+              "A. Choisir une fois pour toutes le secret contre la presse.",
+              "B. Choisir une fois pour toutes la presse contre l'enquete.",
+              "C. Organiser une balance entre information du public, protection de la source et necessites de la procedure.",
+              "D. Supprimer toute fuite sans controle judiciaire."
+            ],
+            "reponse_correcte": 2,
+            "explication": "La fiche insiste sur un equilibre mobile, domine par l'idee d'interet public et de proportion.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1048,
+      "fiche": {
+        "titre": "Equite de la procedure penale : egalite des armes, droit au silence et exigence croissante de motivation",
+        "resume": "Ce document regroupe plusieurs manifestations majeures du proces equitable. La fiche en retient une idee directrice : l'equite ne se reduit pas a une formule generale. Elle se deploie dans des garanties concretes qui corrigent les desequilibres de la procedure, empechent l'auto-incrimination forcee et obligent le juge a rendre compte de son raisonnement. L'ensemble traduit un mouvement de fond : faire de la procedure penale un espace de debat loyal, intelligible et defendable par les parties.",
+        "sections": [
+          {
+            "titre": "L'equite de la procedure vise d'abord a empecher qu'une partie soit desarmee face a l'autre",
+            "contenu": "Le document ouvre la reflexion par l'egalite des armes. L'idee est simple : nul ne doit se trouver place sans raison valable dans une situation de faiblesse excessive face a son adversaire. Cela suppose des moyens raisonnablement comparables, un acces symetrique aux recours et une circulation des elements du litige qui ne privilege pas l'une des parties. La fiche retient ici l'equite comme art de corriger les desequilibres proceduraux les plus dangereux."
+          },
+          {
+            "titre": "Le contradictoire fait de la procedure un espace de discussion et non de surprise",
+            "contenu": "Le texte insiste sur le fait que les pieces, arguments et analyses qui nourrissent la decision doivent pouvoir etre debattus. Une justice equitable n'est pas celle qui cache son dossier ou reserve certaines informations a quelques acteurs privilegies. La fiche souligne donc que le contradictoire ne complete pas l'equite de facon secondaire : il en est l'une des formes les plus pratiques et les plus immediates."
+          },
+          {
+            "titre": "Le droit de se taire et de ne pas s'auto-incriminer corrige une culture ancienne orientee vers l'aveu",
+            "contenu": "Le document rappelle que ce droit a longtemps ete mal accueilli en France avant d'etre raffermi sous influence europeenne. Il protege la personne contre l'idee selon laquelle elle devrait contribuer elle-meme a sa propre mise en cause. La fiche retient qu'il ne s'agit pas seulement d'un droit au silence passif. C'est aussi une limite posee aux techniques qui chercheraient a contourner la volonte de la personne pour lui faire produire elle-meme la preuve contre elle."
+          },
+          {
+            "titre": "Le lien entre silence, assistance de l'avocat et loy a ute est au coeur du proces equitable contemporain",
+            "contenu": "Le cours montre que le droit au silence n'est pas isol e. Il se comprend avec l'intervention de l'avocat et avec le refus des montages deloyaux destines a provoquer des confidences ou des aveux. La fiche insiste sur cette articulation : une procedure equitable n'est pas seulement celle qui recite des droits, mais celle qui se garde d'organiser elle-meme les moyens de les vider de leur portee."
+          },
+          {
+            "titre": "L'exigence de motivation acheve ce mouvement en obligeant la justice a s'expliquer",
+            "contenu": "Le document rappelle que la motivation protege contre l'arbitraire, permet le recours, facilite le controle de legalite et participe aujourd'hui a une meilleure comprehension de la justice. Plus une mesure est grave ou intrusive, plus l'effort de justification devient exigeant. La fiche retient que motiver n'est pas seulement formaliser une decision deja prise : c'est exposer publiquement la logique qui la rend acceptable, discutable et controlable."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi l'egalite des armes est-elle une composante du proces equitable ?",
+          "reponse": "Parce qu'elle empeche qu'une partie soit placee sans raison dans une inferiorite excessive face a l'autre.",
+          "explication": "Le document y voit une garantie structurelle contre les desequilibres proceduraux.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le sens le plus concret du contradictoire ?",
+          "reponse": "Les elements utilises pour juger doivent pouvoir etre connus et discutes par les parties.",
+          "explication": "La fiche montre que le contradictoire transforme la procedure en espace de debat plutot qu'en suite de surprises.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le droit de se taire a-t-il mis du temps a s'imposer en France ?",
+          "reponse": "Parce qu'il heurtait une culture ancienne de recherche de la verite souvent centre e sur l'aveu.",
+          "explication": "Le document relie son essor a l'influence europeenne et aux reformes successives.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que protege au fond le droit de ne pas s'auto-incriminer ?",
+          "reponse": "Il protege la personne contre l'idee qu'elle devrait fournir elle-meme la preuve de sa propre mise en cause.",
+          "explication": "La fiche souligne que ce droit depasse la simple possibilite de garder le silence.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le droit au silence est-il etroitement lie a l'assistance de l'avocat ?",
+          "reponse": "Parce que l'avocat aide la personne a comprendre, exercer et defendre effectivement ce droit.",
+          "explication": "Le document montre que silence et defense effective progressent ensemble.",
+          "difficulte": 2
+        },
+        {
+          "question": "En quoi la loy a ute de la procedure rejoint-elle le droit au silence ?",
+          "reponse": "Elle interdit de contourner ce droit par des dispositifs artificiels destines a provoquer des paroles auto-accusatrices.",
+          "explication": "La fiche rattache ce point au refus des stratagemes deloyaux.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la motivation des decisions est-elle importante pour les parties ?",
+          "reponse": "Parce qu'elle leur permet de comprendre la decision et, si besoin, de la contester utilement.",
+          "explication": "Le document relie la motivation aux droits de la defense et a l'exercice des recours.",
+          "difficulte": 2
+        },
+        {
+          "question": "En quoi la motivation protege-t-elle aussi contre l'arbitraire ?",
+          "reponse": "Elle oblige le juge a exposer son raisonnement au lieu de trancher sans justification controleable.",
+          "explication": "La fiche insiste sur la dimension disciplinaire et publique de cette exigence.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'exigence de motivation s'est-elle renforcee en procedure penale ?",
+          "reponse": "Parce que des mesures toujours plus graves ou intrusives exigent une justification plus nette et plus individualisee.",
+          "explication": "Le document fait de la motivation un instrument de garantie autant qu'un outil de politique penale.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Le proces equitable se construit par des garanties concretes qui equilibrent le debat, protegent contre l'auto-incrimination et imposent a la justice d'expliquer ses choix.",
+          "explication": "La fiche articule ainsi egalite des armes, silence et motivation.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Equite de la procedure",
+        "questions": [
+          {
+            "question": "Quel est l'objectif de l'egalite des armes dans le proces penal ?",
+            "choix": [
+              "A. Donner automatiquement raison a la defense.",
+              "B. Eviter qu'une partie soit injustement desavantagee dans la conduite du debat.",
+              "C. Supprimer tout role du juge.",
+              "D. Remplacer le contradictoire."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rattache l'egalite des armes a la correction des desequilibres proceduraux.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que protege au premier chef le droit de se taire ?",
+            "choix": [
+              "A. Le droit de refuser toute presence d'avocat.",
+              "B. Le droit de ne pas contribuer soi-meme a sa propre mise en cause.",
+              "C. Le droit de mentir librement.",
+              "D. Le droit de se soustraire a toute decision de justice."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche souligne que le silence est lie au refus de l'auto-incrimination forcee.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le contradictoire est-il essentiel a l'equite ?",
+            "choix": [
+              "A. Parce qu'il permet a chaque partie de discuter les elements du litige utilises pour juger.",
+              "B. Parce qu'il reserve certaines pieces au juge seul.",
+              "C. Parce qu'il interdit toute expertise.",
+              "D. Parce qu'il remplace les recours."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document fait du contradictoire une forme pratique de l'equite.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel est l'un des effets principaux de l'exigence de motivation ?",
+            "choix": [
+              "A. Rendre les recours inutiles.",
+              "B. Permettre de comprendre, discuter et controler la decision rendue.",
+              "C. Supprimer l'individualisation des peines.",
+              "D. Eviter tout raisonnement ecrit."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche relie la motivation a la lutte contre l'arbitraire et a l'exercice effectif des recours.",
+            "difficulte": 2
+          }
+        ]
+      }
+    }
+  ]
+}
