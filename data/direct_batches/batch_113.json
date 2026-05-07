@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 1040,
+      "fiche": {
+        "titre": "Perquisitions chez les professionnels : secret professionnel, role du magistrat, du batonnier et controle du JLD",
+        "resume": "Ce document montre que les perquisitions chez certains professionnels ne se raisonnent jamais comme de simples perquisitions ordinaires. La fiche en retient une idee directrice : l'enquete peut penetrer dans des espaces proteges, y compris chez l'avocat, mais seulement au prix d'un encadrement serre qui cherche a concilier recherche de la verite, droits de la defense et secret professionnel. La cle du regime tient dans la combinaison entre magistrat operateur, batonnier protecteur et JLD gardien du filtrage des saisies.",
+        "sections": [
+          {
+            "titre": "Les perquisitions chez les professionnels naissent d'une tension forte entre enquete penale et secrets legalement proteges",
+            "contenu": "Le document ouvre sur une idee simple : certains lieux de travail concentrent des informations dont la protection depasse l'interet d'une seule personne. Le cabinet d'avocat en est l'exemple le plus sensible, parce qu'il met en jeu la confiance du client et l'exercice des droits de la defense. La fiche retient donc que l'enjeu n'est pas d'interdire toute intrusion, mais d'empecher qu'une mesure de recherche ne detruise la substance meme du secret protege."
+          },
+          {
+            "titre": "Le regime reserve a l'avocat impose une direction par un magistrat et une presence active du batonnier",
+            "contenu": "La perquisition ne peut pas etre conduite comme une operation policiere ordinaire. Elle doit etre dirigee par un magistrat, et le batonnier ou son delegue intervient comme acteur de sauvegarde au moment meme ou les pieces sont examinees. Le document montre que cette presence n'est pas symbolique : elle sert a filtrer immediatement ce qui peut ou non rejoindre le dossier, afin de proteger le libre exercice de la profession et la confidentialite des echanges utiles a la defense."
+          },
+          {
+            "titre": "Depuis le renforcement recent du droit positif, le JLD joue un role de verrou prealable et pas seulement de controle apres coup",
+            "contenu": "Le texte insiste sur l'evolution recente qui ajoute une autorisation ecrite et motivee du JLD avant meme l'operation dans les lieux de l'avocat. Lorsque l'avocat est personnellement vise, ce filtre suppose en outre des raisons plausibles de soupcon le visant comme auteur ou complice. La fiche y voit un tournant important : le secret n'est plus seulement defendu une fois la saisie contestee, il est aussi pris en compte avant l'entree dans les locaux."
+          },
+          {
+            "titre": "Le contentieux des saisies fait ensuite du JLD un juge de tri au coeur meme de la phase d'enquete",
+            "contenu": "Si le batonnier estime qu'une piece ne doit pas etre saisie, il peut s'y opposer et provoquer un debat devant le JLD. Celui-ci entend les acteurs utiles, puis choisit soit la restitution et l'effacement de la trace de saisie, soit l'integration de la piece au dossier. Le document souligne egalement l'existence d'un recours rapide devant le president de la chambre de l'instruction. La fiche retient de cet ensemble une progression nette du contradictoire a l'interieur meme de l'enquete."
+          },
+          {
+            "titre": "La protection du secret n'est pourtant pas absolue et laisse subsister des breches strictement ciblees",
+            "contenu": "Le document termine sur une nuance essentielle. Pour certaines infractions graves touchant notamment a la fraude fiscale, a la corruption ou au blanchiment, le secret du conseil peut ceder si les pieces reve lent qu'elles ont servi a commettre ou faciliter l'infraction. Il montre aussi que le debat vaut desormais au-dela du seul cabinet d'avocat, lorsque des documents couverts sont trouves ailleurs. La fiche souligne donc un point d'equilibre : la protection est elevee, mais elle n'a jamais ete pensee comme un refuge pour l'instrumentalisation du secret."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi les perquisitions chez les professionnels posent-elles un probleme particulier ?",
+          "reponse": "Parce qu'elles exposent des secrets proteges dont la sauvegarde participe elle-meme a l'Etat de droit.",
+          "explication": "Le document insiste sur la tension entre recherche de la verite et preservation du secret professionnel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le cabinet d'avocat occupe-t-il une place speciale dans ce regime ?",
+          "reponse": "Parce qu'il concentre des echanges couverts par le secret et touches de pres aux droits de la defense.",
+          "explication": "La fiche fait du lien entre secret professionnel et defense effective le coeur du regime protecteur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi un OPJ ne suffit-il pas pour conduire une telle perquisition chez l'avocat ?",
+          "reponse": "Parce que le droit exige la direction de l'operation par un magistrat pour hausser le niveau de garantie.",
+          "explication": "Le document montre que la gravite de l'atteinte justifie l'intervention d'une autorite judiciaire plus qualifiee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role concret joue le batonnier pendant la perquisition ?",
+          "reponse": "Il participe au filtrage des pieces et peut s'opposer a la saisie de ce qui lui parait couvert par le secret protege.",
+          "explication": "La fiche souligne que sa presence sert a proteger activement les droits en jeu.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'intervention du JLD a-t-elle gagne en importance depuis la reforme recente ?",
+          "reponse": "Parce qu'il autorise desormais en amont certaines perquisitions visant l'avocat et ne se contente plus d'un controle ulterieur.",
+          "explication": "Le document y voit un renforcement majeur du filtre juridictionnel.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que se passe-t-il si le batonnier conteste une saisie pendant l'operation ?",
+          "reponse": "Le litige est porte devant le JLD, qui decide soit la restitution, soit le versement de la piece au dossier.",
+          "explication": "La fiche montre ainsi comment le contentieux de la saisie est integre a la phase d'enquete.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi parle-t-on d'une montee du contradictoire dans ce regime ?",
+          "reponse": "Parce que la contestation des saisies donne lieu a un debat juridictionnel rapide avec possibilite de recours.",
+          "explication": "Le document rapproche ce mecanisme d'une juridictionnalisation croissante de l'enquete.",
+          "difficulte": 3
+        },
+        {
+          "question": "Le secret professionnel de l'avocat est-il intangible en toute hypothese ?",
+          "reponse": "Non, il peut ceder de facon ciblee lorsque le secret du conseil sert lui-meme a la commission de certaines infractions graves.",
+          "explication": "La fiche insiste sur le caractere strictement encadre de cette inopposabilite.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le regime ne s'arrete-t-il plus au seul cabinet d'avocat ?",
+          "reponse": "Parce que des documents couverts peuvent etre decouverts ailleurs et appeler le meme debat de protection.",
+          "explication": "Le document etend ainsi la logique du secret au-dela du lieu professionnel initial.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "La perquisition chez les professionnels est admise, mais seulement dans un dispositif ou magistrat, batonnier et JLD se partagent la garde du secret protege.",
+          "explication": "La fiche relie ainsi recherche de la preuve, contradictoire et protection du secret.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Perquisitions chez les professionnels",
+        "questions": [
+          {
+            "question": "Quel est le probleme central des perquisitions chez les professionnels ?",
+            "choix": [
+              "A. Elles sont toujours interdites.",
+              "B. Elles doivent concilier recherche de la verite et protection de secrets legalement proteges.",
+              "C. Elles ne concernent jamais l'enquete penale.",
+              "D. Elles ne peuvent viser que des entreprises de presse."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document ouvre sur cette tension fondamentale entre efficacite de l'enquete et protection du secret.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel duo structure principalement la protection dans le cabinet d'avocat au moment de l'operation ?",
+            "choix": [
+              "A. L'OPJ et le maire.",
+              "B. Le procureur et le temoin.",
+              "C. Le magistrat qui conduit l'operation et le batonnier qui veille au secret.",
+              "D. Le greffier et la victime."
+            ],
+            "reponse_correcte": 2,
+            "explication": "La fiche insiste sur la direction par un magistrat et sur le role actif du batonnier.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le JLD occupe-t-il une place nouvelle dans ce regime ?",
+            "choix": [
+              "A. Parce qu'il autorise en amont certaines perquisitions et arbitre ensuite les contestations de saisie.",
+              "B. Parce qu'il remplace le batonnier.",
+              "C. Parce qu'il devient seul maitre de l'enquete policiere.",
+              "D. Parce qu'il interdit tout recours."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document souligne l'ajout d'un filtre prealable puis d'un contentieux rapide devant ce juge.",
+            "difficulte": 3
+          },
+          {
+            "question": "Dans quel esprit le secret professionnel peut-il ceder ?",
+            "choix": [
+              "A. Des qu'un avocat est present.",
+              "B. Jamais, meme si le secret sert l'infraction.",
+              "C. Seulement dans des cas limites ou le secret du conseil est instrumentalise pour certaines infractions graves.",
+              "D. Des qu'une piece est utile au dossier."
+            ],
+            "reponse_correcte": 2,
+            "explication": "La fiche rappelle que l'inopposabilite reste ciblee et non generale.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1041,
+      "fiche": {
+        "titre": "Garde a vue et assistance de l'avocat : renforcement europeen, droits actuels, reports encadres et sanction des irregularites",
+        "resume": "Ce document retrace la transformation du droit a l'assistance de l'avocat en garde a vue. La fiche en retient une idee directrice : ce droit est devenu un pivot de l'equilibre entre enquete et defense sous l'effet combine de la pression europeenne, du controle constitutionnel et des revirements internes. Le regime actuel offre une presence bien plus reelle de l'avocat, mais il reste marque par un acces limite au dossier, par des possibilites de report en cas grave et par une logique de nullites substantielles pour sanctionner les manquements.",
+        "sections": [
+          {
+            "titre": "Le droit a l'assistance de l'avocat s'est construit tardivement sous une triple pression europeenne, constitutionnelle et judiciaire",
+            "contenu": "Le document rappelle qu'avant 2011 l'avocat n'occupait qu'une place tres reduite dans la garde a vue. La rupture est venue lorsque les standards europeens, le controle du Conseil constitutionnel et les positions de la Cour de cassation ont converge pour denoncer une assistance trop faible. La fiche retient de cette histoire qu'un droit essentiel de la defense n'a pas ete donne spontanement par le systeme, mais impose par une accumulation de rappels externes et internes."
+          },
+          {
+            "titre": "Le regime ordinaire vise aujourd'hui une assistance effective des le debut de la mesure",
+            "contenu": "L'avocat intervient des l'ouverture de la garde a vue pour un entretien, puis il peut accompagner les auditions et confrontations sur demande de son client. Il peut aussi prendre connaissance d'un noyau de pieces utile a la defense et formuler des observations ecrites. Le document montre ainsi que le role de l'avocat ne se limite plus a une presence symbolique : il devient un acteur de contrepoids, meme si son acces au dossier demeure volontairement restreint."
+          },
+          {
+            "titre": "Le droit d'etre assiste implique en principe que les auditions attendent l'avocat ou une renonciation claire de la personne",
+            "contenu": "La fiche souligne que la personne qui demande l'assistance de son avocat ne doit pas etre entendue sur les faits sans lui, sauf renonciation explicite. Le texte organise aussi les diligences necessaires pour joindre l'avocat choisi ou en faire designer un d'office par le batonnier. Le document fait ici ressortir une idee simple : la garantie ne vaut pas seulement dans l'abstrait, elle oblige les acteurs de l'enquete a tout mettre en oeuvre pour rendre la presence du defenseur concrete."
+          },
+          {
+            "titre": "Les reports d'assistance ne sont admis qu'a titre strictement deroge et sous controle d'autorites identifiees",
+            "contenu": "Le droit positif admet que, dans certaines affaires graves ou sensibles, la presence de l'avocat puisse etre differee pendant une duree limitee. Le document distingue alors un cadre general et un cadre encore plus dur pour la criminalite organisee, avec une repartition des pouvoirs entre procureur, JLD et parfois juge d'instruction. La fiche retient que ces reports ne sont pas un simple confort d'enquete : ils supposent une motivation precise tiree d'un risque serieux pour l'enquete ou pour la protection des personnes."
+          },
+          {
+            "titre": "La fin de la garde a vue et la sanction des manquements prolongent la logique de garantie",
+            "contenu": "Le document ne s'arrete pas a la presence de l'avocat pendant les auditions. Il rappelle aussi les regles gouvernant la remise en liberte, le deferement et le maintien tres bref avant presentation au magistrat, ainsi que le contenu du proces-verbal final. La fiche insiste enfin sur la sanction : faute de nullites textuelles partout, les juges ont degage des nullites substantielles lorsque la violation d'une garantie fait grief par elle-meme a la personne gardee a vue."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi l'annee 2011 marque-t-elle un tournant pour l'avocat en garde a vue ?",
+          "reponse": "Parce qu'elle transforme une assistance jusque-la reduite en une presence beaucoup plus reelle des le debut de la mesure.",
+          "explication": "Le document relie ce basculement aux exigences europeennes, au Conseil constitutionnel et a la Cour de cassation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel etait le principal reproche adresse a l'ancien regime francais ?",
+          "reponse": "Il n'offrait pas une assistance effective de l'avocat aux premiers stades de la garde a vue.",
+          "explication": "La fiche rappelle que l'ancien modele se limitait longtemps a un simple entretien tardif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que comprend aujourd'hui le regime ordinaire de l'assistance ?",
+          "reponse": "Un entretien initial, la presence aux auditions et confrontations sur demande, un nouvel entretien en cas de prolongation et l'acces a certaines pieces.",
+          "explication": "Le document decrit un droit bien plus concret qu'auparavant, meme s'il reste partiel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'acces de l'avocat au dossier est-il dit limite ?",
+          "reponse": "Parce qu'il ne porte que sur un noyau restreint de pieces et non sur l'integralite du dossier d'enquete.",
+          "explication": "La fiche montre que l'equilibre demeure favorable a la preservation de l'enquete.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que se passe-t-il si la personne demande un avocat pour ses auditions ?",
+          "reponse": "En principe, elle ne peut pas etre entendue sur les faits sans lui, sauf renonciation expresse.",
+          "explication": "Le document fait de cette attente la traduction concrete du droit a l'assistance.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le batonnier reste-t-il important dans ce dispositif ?",
+          "reponse": "Parce qu'il permet la designation rapide d'un avocat commis d'office si l'avocat choisi ne peut etre joint ou venir.",
+          "explication": "La fiche souligne ici la dimension organisationnelle de la garantie.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans quel esprit les reports d'assistance sont-ils admis ?",
+          "reponse": "Uniquement pour des raisons imp erieuses liees a l'enquete ou a la protection des personnes dans des cas graves.",
+          "explication": "Le document insiste sur le caractere deroge et motive de tels reports.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi existe-t-il un regime encore plus dur en matiere de criminalite organisee ?",
+          "reponse": "Parce que le droit accepte des reports plus longs lorsque les necessites de l'enquete sont regardees comme plus pressantes.",
+          "explication": "La fiche distingue ainsi le cadre general du cadre specialise.",
+          "difficulte": 3
+        },
+        {
+          "question": "Comment les juges sanctionnent-ils les violations importantes de ces garanties ?",
+          "reponse": "Par des nullites substantielles lorsqu'ils estiment que l'atteinte fait grief par elle-meme a la personne gardee a vue.",
+          "explication": "Le document montre que la protection ne depend pas toujours d'une nullite ecrite dans le texte.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "L'assistance de l'avocat en garde a vue est devenue une garantie structurante, mais encore modulee par les besoins de l'enquete et par des acces partiels au dossier.",
+          "explication": "La fiche relie ainsi progression des droits, reports possibles et logique de sanction.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Assistance de l'avocat en garde a vue",
+        "questions": [
+          {
+            "question": "Pourquoi le regime francais a-t-il ete remanie en profondeur en 2011 ?",
+            "choix": [
+              "A. Parce que l'avocat avait deja acces a tout le dossier et qu'il fallait le restreindre.",
+              "B. Parce que l'assistance proposee jusque-la etait jugee insuffisante au regard des exigences europeennes et constitutionnelles.",
+              "C. Parce que la garde a vue avait disparu.",
+              "D. Parce que seul le batonnier pouvait auditionner la personne."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document relie la reforme a la convergence des censures europeennes, constitutionnelles et internes.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que signifie aujourd'hui une assistance effective de l'avocat ?",
+            "choix": [
+              "A. Une simple presence apres la fin des auditions.",
+              "B. Un entretien initial, une presence possible aux auditions et un acces limite a certaines pieces.",
+              "C. Une intervention reservee aux crimes.",
+              "D. L'interdiction de toute observation ecrite."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche oppose ce regime a l'ancien modele beaucoup plus pauvre.",
+            "difficulte": 2
+          },
+          {
+            "question": "Dans quel esprit le droit admet-il le report de la presence de l'avocat ?",
+            "choix": [
+              "A. Comme une simple facilite de gestion du service.",
+              "B. Comme un outil librement maniable par l'OPJ.",
+              "C. Comme une derogation motivee reservee a des risques serieux pour l'enquete ou pour la protection des personnes.",
+              "D. Comme une sanction automatique de toute demande d'avocat."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document insiste sur le caractere exceptionnel et encadre de ces reports.",
+            "difficulte": 3
+          },
+          {
+            "question": "Comment les irregularites importantes de la garde a vue sont-elles souvent sanctionnees ?",
+            "choix": [
+              "A. Par une simple remarque au dossier.",
+              "B. Par des nullites substantielles lorsque la violation fait grief par elle-meme.",
+              "C. Par une validation automatique du parquet.",
+              "D. Par une prescription immediate."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche rappelle que la Cour de cassation a construit ce terrain en l'absence de nullites textuelles partout.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1042,
+      "fiche": {
+        "titre": "Classement sans suite sous conditions, poursuite et saisine des juridictions : comment le parquet module l'action publique",
+        "resume": "Ce document combine deux questions qui se suivent logiquement : la facon dont le parquet peut clore provisoirement une affaire sous reserve d'une execution utile, puis la facon dont il met en mouvement l'action publique lorsqu'il choisit de poursuivre. La fiche en retient une idee directrice : le parquet dispose d'une marge d'orientation importante en amont, mais cette souplesse cesse des que l'action publique est engagee. A partir de la, il faut distinguer les voies de saisine selon la gravite des faits, la complexite du dossier et le degre d'urgence recherche.",
+        "sections": [
+          {
+            "titre": "Le classement sans suite sous conditions n'est pas une abstention pure mais une cloture subordonnee a une execution utile",
+            "contenu": "Le document oppose cette figure au classement simple. Ici, l'affaire n'est fermee qu'a la condition qu'une mesure proposee realise effectivement l'un des trois objectifs suivants : reparer le dommage, mettre fin au trouble ou favoriser le reclassement de l'auteur. La fiche y voit une logique pragmatique : le parquet suspend l'affrontement judiciaire classique si une reponse ciblee peut traiter utilement les suites de l'infraction."
+          },
+          {
+            "titre": "Les mesures offertes au parquet se sont elargies et traduisent une penalite probatoire plus riche qu'autrefois",
+            "contenu": "Le texte montre que la liste des mesures s'est progressivement allongee. L'avertissement penal probatoire a remplace l'ancien rappel a la loi et s'ajoute a des orientations vers des stages, des prises en charge, des regularisations ou des restrictions de contact et de lieu. La fiche retient de cette evolution une idee forte : avant meme la poursuite, le droit penal sait desormais moduler sa reponse par des instruments gradu es et finalises."
+          },
+          {
+            "titre": "L'execution ou l'inexecution de ces mesures decide de la suite donnee a l'affaire",
+            "contenu": "Lorsque la personne execute ce qui lui est demande, le parquet peut clore l'affaire et la prescription se trouve entre-temps suspendue. En revanche, si l'engagement n'est pas respecte, le procureur doit reprendre la main en choisissant une autre voie, comme une composition ou la poursuite. Le document fait ainsi apparaitre que le classement sous conditions n'est jamais un abandon pur et simple, mais un pari sur l'efficacite d'une reponse acceptee."
+          },
+          {
+            "titre": "Des que l'action publique est mise en mouvement, le ministere public agit mais ne dispose plus librement de ce qu'il a lance",
+            "contenu": "Le cours rappelle une distinction fondamentale entre l'opportunite initiale et la situation ulterieure. Le parquet choisit d'abord s'il poursuit et par quel chemin, mais une fois l'action engagee au nom de la societe, il ne peut plus simplement se retracter ou transiger a sa guise. La fiche retient ici un changement de statut de l'affaire : on passe d'une phase d'orientation a une phase institutionnelle plus contrainte."
+          },
+          {
+            "titre": "La saisine varie alors selon la gravite, l'etat du dossier et la rapidite recherchee",
+            "contenu": "Le document distingue d'abord la voie d'instruction, obligatoire pour le crime et utile quand l'affaire est complexe ou l'auteur inconnu, puis la saisine directe de la juridiction de jugement lorsque le dossier peut etre porte sans ce detour. A l'interieur de cette seconde branche, il deploie une gamme allant des modes ordinaires aux voies accelerees. La fiche en retient un reflexe de lecture : la technique de saisine dit beaucoup du type d'affaire et de l'equilibre cherche entre temps de preparation et rapidite de reponse."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le classement sans suite sous conditions ne se confond-il pas avec un simple abandon ?",
+          "reponse": "Parce qu'il subordonne la cloture de l'affaire a l'execution d'une mesure utile par la personne mise en cause.",
+          "explication": "Le document insiste sur le lien entre execution de la mesure et fermeture effective du dossier.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels sont les trois objectifs possibles de ce classement sous conditions ?",
+          "reponse": "Reparer le dommage, faire cesser le trouble ou favoriser le reclassement de l'auteur.",
+          "explication": "La fiche relie ces objectifs a une logique pratique de traitement de l'infraction.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'avertissement penal probatoire est-il important dans ce document ?",
+          "reponse": "Parce qu'il symbolise le remplacement de l'ancien rappel a la loi par une reponse plus formalisee et plus probatoire.",
+          "explication": "Le texte le presente comme l'une des evolutions marquantes du droit recent.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que montre l'allongement de la liste des mesures proposees par le parquet ?",
+          "reponse": "Que le droit penal sait gradu er sa reponse en amont de la poursuite par des outils de plus en plus divers.",
+          "explication": "La fiche y voit une penalite plus souple et plus finalisee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que se passe-t-il si la mesure acceptee n'est pas executee ?",
+          "reponse": "Le procureur doit reprendre le dossier en choisissant une autre reponse, comme une composition ou une poursuite.",
+          "explication": "Le document montre que le classement sous conditions reste un mecanisme reversible en cas d'echec.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi dit-on que le parquet agit mais ne dispose plus de l'action publique une fois celle-ci engagee ?",
+          "reponse": "Parce que l'affaire est alors portee au nom de la societe et n'est plus librement retractable par lui.",
+          "explication": "La fiche oppose ainsi la phase d'opportunite initiale et la phase institutionnelle ulterieure.",
+          "difficulte": 3
+        },
+        {
+          "question": "Dans quel cas la saisine d'un juge d'instruction est-elle indispensable ?",
+          "reponse": "Lorsque la loi l'impose, en particulier en matiere criminelle.",
+          "explication": "Le document ajoute que cette voie peut aussi etre choisie pour des affaires complexes ou a auteur inconnu.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi toutes les affaires ne passent-elles pas par l'instruction ?",
+          "reponse": "Parce que certaines peuvent etre portees directement devant une juridiction de jugement lorsque le dossier est assez pret.",
+          "explication": "La fiche relie ce choix a l'etat du dossier et au besoin de rapidite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que revele le choix d'un mode accelere de saisine ?",
+          "reponse": "Qu'on recherche une reponse plus rapide dans un dossier juge suffisamment pret pour etre porte vite devant le tribunal.",
+          "explication": "Le document oppose ainsi les voies ordinaires aux circuits plus resserres.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Le parquet dispose d'une large palette pour orienter l'affaire avant la poursuite, mais cette souplesse se resserre des que l'action publique est effectivement lancee.",
+          "explication": "La fiche articule classement sous conditions, opportunite des poursuites et choix des voies de saisine.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Classement sous conditions et poursuite",
+        "questions": [
+          {
+            "question": "Quel est le trait propre du classement sans suite sous conditions ?",
+            "choix": [
+              "A. Il ferme l'affaire sans rien demander a personne.",
+              "B. Il lie la cloture a l'execution d'une mesure utile tenant a la reparation, au trouble ou au reclassement.",
+              "C. Il vaut condamnation penale immediate.",
+              "D. Il remplace toute poursuite future de facon definitive."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document oppose ce mecanisme au classement simple.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que montre le remplacement du rappel a la loi par l'avertissement penal probatoire ?",
+            "choix": [
+              "A. Une disparition de toute reponse en amont.",
+              "B. Une formalisation plus riche des reponses proposes avant la poursuite.",
+              "C. Une interdiction de toute orientation vers des stages.",
+              "D. Une suppression du role du parquet."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche y voit l'un des signes d'une palette plus etendue de mesures penal es.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que devient la marge du parquet une fois l'action publique mise en mouvement ?",
+            "choix": [
+              "A. Elle reste totalement libre.",
+              "B. Elle disparait en faveur de la victime seule.",
+              "C. Elle se resserre, car le parquet agit alors au nom de la societe sans pouvoir se desister a sa guise.",
+              "D. Elle se transforme automatiquement en mediation."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document insiste sur le passage d'une phase d'opportunite a une phase plus contrainte.",
+            "difficulte": 3
+          },
+          {
+            "question": "Qu'est-ce qui commande principalement le choix entre instruction et saisine directe du tribunal ?",
+            "choix": [
+              "A. Le seul lieu des faits.",
+              "B. La gravite legale, la complexite du dossier et son etat de preparation.",
+              "C. La fortune du prevenu.",
+              "D. Le souhait du greffier."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche relie ce choix a la structure de l'affaire et au besoin de rapidite.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1043,
+      "fiche": {
+        "titre": "Garanties juridictionnelles en procedure penale : recours effectif, autorite judiciaire, juge et place du JLD",
+        "resume": "Ce document ouvre l'etude des garanties juridictionnelles en montrant qu'en matiere penale le droit a un juge ne se confond pas toujours avec la seule intervention d'une autorite judiciaire. La fiche en retient une idee directrice : plus l'atteinte a la liberte est forte, plus le controle doit emaner d'une autorite independante et impartiale. C'est ce qui explique la distinction entre magistrat et juge, la fragilite du statut du parquet sur ce terrain, et le role de plus en plus central du JLD comme juge de protection dans la phase preparatoire.",
+        "sections": [
+          {
+            "titre": "Les garanties juridictionnelles s'ancrent d'abord dans l'idee d'un recours effectif devant une juridiction",
+            "contenu": "Le document part du droit d'acceder a la justice penale comme garantie constitutionnelle de base. Il ne s'agit pas seulement d'ouvrir un dossier ou d'etre entendu par l'Etat, mais de pouvoir soumettre l'atteinte subie ou contestee a un veritable controle juridictionnel. La fiche retient de ce point de depart que la justice penale n'est legitime que si elle laisse place a une verification reelle par un organe capable de dire le droit."
+          },
+          {
+            "titre": "La notion d'autorite judiciaire ne doit pas etre confondue avec celle de juge",
+            "contenu": "Le cours prend soin de distinguer le magistrat du siege, qui juge, du procureur, qui est magistrat sans etre juge. Cette difference n'est pas purement organique. Elle commande le niveau de confiance que l'on peut accorder a l'auteur du controle lorsqu'une liberte fondamentale est en jeu. La fiche en tire une consequence nette : toute intervention d'une autorite judiciaire n'offre pas automatiquement la meme garantie qu'un controle par un juge du siege."
+          },
+          {
+            "titre": "Le niveau de controle requis augmente a mesure que la mesure porte plus gravement atteinte a la liberte",
+            "contenu": "Le document explique que toutes les atteintes ne se valent pas. Plus la mesure est intrusive ou privative de liberte, plus il devient necessaire de la placer sous le regard d'un organe fort en independance et en impartialite. La fiche souligne ainsi une logique de gradation : le contenu de la garantie juridictionnelle se mesure au poids de l'atteinte supportee par la personne visee."
+          },
+          {
+            "titre": "Le droit europeen fait de l'independance et de l'impartialite le coeur du controle exige en debut d'affaire",
+            "contenu": "A propos de l'arrestation et de la detention initiale, le document montre que le controle ne peut pas etre abandonne a une autorite trop engagee dans la logique de poursuite. Le point sensible devient alors le parquet, dont la position suscite un doute durable lorsqu'il s'agit d'offrir la distance requise. La fiche retient que le debat ne porte pas seulement sur des titres institutionnels, mais sur la capacite concrete de l'organe a proteger la personne contre un usage excessif du pouvoir de contrainte."
+          },
+          {
+            "titre": "La creation du JLD a justement servi a separer enquete et pouvoir de priver de liberte, sans epuiser toutes les questions",
+            "contenu": "Le texte rappelle que le juge d'instruction cumulait autrefois une fonction d'investigation et la maitrise de la detention provisoire, ce qui exposait le systeme a un doute structurel. L'apparition du JLD a corrige ce point en confiant le verrou le plus grave a un autre juge. La fiche ajoute cependant que des interrogations demeurent, qu'il s'agisse du statut du parquet ou du regard porte par le juge d'instruction sur l'issue de son propre dossier."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le recours effectif devant une juridiction est-il une garantie cardinale ?",
+          "reponse": "Parce qu'il assure qu'une atteinte penale peut etre soumise a un veritable controle juridictionnel et pas seulement administratif ou accusatoire.",
+          "explication": "Le document en fait le point de depart des garanties d'acces a la justice penale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi faut-il distinguer autorite judiciaire et juge ?",
+          "reponse": "Parce que tout magistrat n'est pas un juge du siege et n'offre pas le meme niveau de garantie quand une liberte fondamentale est en cause.",
+          "explication": "La fiche oppose ainsi le procureur et le juge sans nier qu'ils appartiennent tous deux a l'autorite judiciaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel magistrat le document presente-t-il comme n'etant pas un juge ?",
+          "reponse": "Le procureur de la Republique.",
+          "explication": "Le cours le range dans l'autorite judiciaire tout en soulignant qu'il n'est pas un juge du siege.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le niveau de controle varie-t-il selon la mesure ?",
+          "reponse": "Parce que plus la mesure porte gravement atteinte a la liberte, plus la garantie juridictionnelle doit etre forte.",
+          "explication": "La fiche met en avant cette logique de proportion entre atteinte et intensite du controle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel critere le droit europeen place-t-il au coeur du magistrat controleur ?",
+          "reponse": "Son independance et son impartialite.",
+          "explication": "Le document montre que le simple rattachement institutionnel ne suffit pas.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le parquet suscite-t-il une difficulte particuliere sur ce terrain ?",
+          "reponse": "Parce qu'il participe a la logique de poursuite et apparait donc moins distancie pour proteger la personne privee de liberte.",
+          "explication": "La fiche relie ce point au doute europeen sur sa capacite a jouer le role de controleur impartial.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel probleme structurel le systeme ancien du juge d'instruction soulevait-il ?",
+          "reponse": "Il concentrait l'investigation et le pouvoir de decider de la detention provisoire.",
+          "explication": "Le document presente ce cumul comme une source de malaise sur l'impartialite du controle.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la creation du JLD a-t-elle ete importante ?",
+          "reponse": "Parce qu'elle a confie le verrou de la detention provisoire a un autre juge que celui qui mene l'enquete.",
+          "explication": "La fiche y voit une reponse institutionnelle a la confusion ancienne des roles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Le JLD a-t-il resolu toutes les difficultes de garantie juridictionnelle ?",
+          "reponse": "Non, car demeurent des questions sur le statut du parquet et sur certains choix du juge d'instruction a l'issue de son dossier.",
+          "explication": "Le document montre que la reforme a corrige un noeud important sans clore tous les debats.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette introduction aux garanties juridictionnelles ?",
+          "reponse": "En matiere penale, la valeur de la garantie depend du type d'atteinte et de la qualite de l'organe qui controle cette atteinte.",
+          "explication": "La fiche relie ainsi recours effectif, distinction des magistrats et centralite du JLD.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Garanties juridictionnelles",
+        "questions": [
+          {
+            "question": "Quel est le point de depart des garanties d'acces a la justice penale dans ce document ?",
+            "choix": [
+              "A. Le droit pour la police de clore librement une affaire.",
+              "B. Le droit a un recours effectif devant une juridiction.",
+              "C. Le droit du parquet de juger lui-meme.",
+              "D. Le droit de renoncer a tout controle."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document fait de cette idee la base de la legitimite du controle juridictionnel.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le texte distingue-t-il si fortement juge et autorite judiciaire ?",
+            "choix": [
+              "A. Parce que tout magistrat est toujours juge.",
+              "B. Parce que le niveau de garantie n'est pas le meme selon l'organe qui intervient.",
+              "C. Parce que les juges ne sont pas magistrats.",
+              "D. Parce que seule la victime peut saisir un juge."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche rappelle que le procureur, bien qu'autorite judiciaire, n'est pas un juge du siege.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel principe gouverne l'intensite du controle requis ?",
+            "choix": [
+              "A. Plus l'atteinte a la liberte est grave, plus le controle doit etre fort.",
+              "B. Toutes les atteintes se valent.",
+              "C. Le controle baisse quand la mesure devient plus intrusive.",
+              "D. Le controle depend seulement du nombre de policiers presents."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document expose une logique de gradation entre atteinte et garantie.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel a ete l'apport majeur du JLD dans cette matiere ?",
+            "choix": [
+              "A. Fusionner poursuite et jugement.",
+              "B. Retirer tout role au juge d'instruction.",
+              "C. Confier la detention provisoire a un autre juge que celui qui enquete.",
+              "D. Supprimer tout debat sur le parquet."
+            ],
+            "reponse_correcte": 2,
+            "explication": "La fiche presente cette creation comme une reponse au cumul ancien des fonctions d'enquete et de privation de liberte.",
+            "difficulte": 3
+          }
+        ]
+      }
+    }
+  ]
+}
