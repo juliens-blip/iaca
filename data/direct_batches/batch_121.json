@@ -1,0 +1,394 @@
+{
+  "documents": [
+    {
+      "document_id": 1081,
+      "flashcards": [
+        {
+          "question": "Pourquoi le droit du travail ne se confond-il pas avec toute relation impliquant une prestation de travail ?",
+          "reponse": "Parce qu'il vise seulement la relation de travail salariee relevant du Code du travail, et non toute prestation remuneree.",
+          "explication": "La fiche d'introduction insiste sur la distinction avec les prestations civiles ou avec la fonction publique, qui obeissent a d'autres logiques juridiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la delimitation du domaine du droit du travail est-elle decisive des l'introduction ?",
+          "reponse": "Parce qu'elle conditionne a la fois l'application du Code du travail et la competence du conseil de prud'hommes.",
+          "explication": "Le document montre que la qualification de relation de travail subordonnee ne sert pas seulement a nommer une matiere, mais a ouvrir un regime juridique entier.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel critere pratique permet de rattacher un litige au conseil de prud'hommes selon cette fiche ?",
+          "reponse": "L'existence d'une relation de travail subordonnee relevant strictement du droit du travail.",
+          "explication": "La fiche rappelle que la juridiction prud'homale n'est pas le juge de toute relation professionnelle, mais du contrat de travail salarie.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la diversite des sources du droit du travail justifie-t-elle un etude specifique ?",
+          "reponse": "Parce que la matiere repose sur des normes nombreuses, publiques et privees, dont l'articulation produit parfois des conflits.",
+          "explication": "Le document place d'emblee la question des sources au centre de la matiere, notamment a travers le principe de faveur.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que recouvre le bloc de constitutionnalite dans cette introduction au droit du travail ?",
+          "reponse": "L'ensemble des textes constitutionnels et para-constitutionnels qui imposent des droits et principes superieurs a la loi.",
+          "explication": "La fiche rattache au bloc de constitutionnalite la protection de libertes sociales importantes comme la liberte du travail ou la liberte syndicale.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la liberte du travail est-elle une source constitutionnelle importante en droit du travail ?",
+          "reponse": "Parce qu'elle sert de fondement a un controle des atteintes portees a l'exercice d'une activite professionnelle par le salarie.",
+          "explication": "Le document la relie notamment aux clauses qui limitent l'activite du salarie, comme la non-concurrence ou l'exclusivite.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel sens le document donne-t-il a la liberte d'entreprendre dans la matiere sociale ?",
+          "reponse": "Elle protege la faculte de creer, diriger et exploiter une entreprise, sous reserve des encadrements admis par le juge.",
+          "explication": "La fiche montre que le droit du travail n'est pas seulement protecteur du salarie, mais qu'il dialogue aussi avec les libertes economiques de l'employeur.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la jurisprudence constitutionnelle peut-elle faire tomber une regle du Code du travail ?",
+          "reponse": "Parce qu'une QPC peut conduire a censurer une disposition legislative contraire a un principe constitutionnel.",
+          "explication": "Le document prend l'exemple du droit aux conges payes en cas de faute lourde pour montrer l'effet concret du controle de constitutionnalite.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la loi ne suffit-elle pas, a elle seule, a expliquer le droit du travail ?",
+          "reponse": "Parce que la jurisprudence y joue un role essentiel d'application, mais aussi de creation et de precision des regles.",
+          "explication": "La fiche souligne que des themes entiers comme la greve ou la modification du contrat doivent beaucoup au travail du juge.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette premiere introduction au droit du travail ?",
+          "reponse": "Le droit du travail se definit par son domaine propre, par une pluralite de sources et par un equilibre entre protection du salarie et organisation du travail.",
+          "explication": "La fiche d'ouverture donne une carte d'ensemble de la matiere avant d'entrer dans les regimes plus techniques du contrat et de l'entreprise.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1082,
+      "flashcards": [
+        {
+          "question": "Pourquoi l'introduction consacre-t-elle une place speciale a l'identification des sources du droit du travail ?",
+          "reponse": "Parce que la matiere est construite par des sources tres diverses qui ne s'articulent pas toujours selon le schema classique du droit commun.",
+          "explication": "Le document montre que la comprehension du droit du travail suppose de savoir d'ou vient la norme avant meme d'en appliquer le contenu.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel paradoxe la fiche souligne-t-elle a propos de la loi en droit du travail ?",
+          "reponse": "Malgre la proliferation des textes, la jurisprudence conserve un role central pour definir et faire vivre la matiere.",
+          "explication": "Le cours insiste sur le fait que la densite legislative n'empeche pas le juge de tenir une fonction structurante.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'article L. 1 du Code du travail est-il symboliquement important dans cette presentation ?",
+          "reponse": "Parce qu'il organise l'association prealable des partenaires sociaux a l'elaboration de nombreuses normes sociales.",
+          "explication": "La fiche montre que le droit du travail fait une place institutionnelle au dialogue social en amont de la loi.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel est l'interet de la recodification de 2008 a droit constant dans le droit du travail ?",
+          "reponse": "Elle a reorganise le Code sans modifier en principe le sens des regles anterieures.",
+          "explication": "Le document rappelle que le juge veille a eviter qu'une simple recodification serve de pretexte a une lecture totalement neuve des textes.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la jurisprudence est-elle dite creatrice en droit du travail ?",
+          "reponse": "Parce qu'elle a du definir elle-meme certains regimes, comme la greve ou la modification du contrat, faute de balises suffisantes dans la loi.",
+          "explication": "La fiche insiste sur ce pouvoir completif du juge, particulierement visible dans cette branche du droit.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role peuvent jouer les conventions de l'OIT dans le droit du travail francais ?",
+          "reponse": "Elles peuvent servir de norme de controle et neutraliser certaines dispositions internes contraires a leurs exigences.",
+          "explication": "Le document rappelle que le droit du travail francais reste expose a des contraintes supra-etatiques effectives.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la Convention europeenne des droits de l'homme irrigue-t-elle le droit du travail ?",
+          "reponse": "Parce qu'elle contient des libertes generales, comme la vie privee ou la liberte d'expression, qui trouvent des applications directes en matiere sociale.",
+          "explication": "La fiche montre que le contrat de travail n'efface pas les droits fondamentaux du salarie dans l'entreprise.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi les conventions collectives ne sont-elles pas de simples contrats ordinaires ?",
+          "reponse": "Parce qu'elles produisent des effets collectifs, depassent les seuls signataires et peuvent meme etre etendues a tout un secteur.",
+          "explication": "Le document souligne ici une forte rupture avec l'effet relatif habituel du contrat civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel probleme general le principe de faveur cherche-t-il a resoudre ?",
+          "reponse": "Il cherche a arbitrer les conflits entre normes sociales concurrentes en retenant, dans le schema classique, la plus favorable au salarie.",
+          "explication": "La fiche en fait le mecanisme central d'articulation des sources, avant d'en montrer ensuite les remises en cause contemporaines.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette deuxieme fiche d'introduction ?",
+          "reponse": "Le droit du travail est une matiere plurielle ou la loi, le juge, le dialogue social et les normes internationales interagissent en permanence.",
+          "explication": "Le document apprend a lire la matiere non comme un code ferme, mais comme un systeme de sources en tension organisee.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1083,
+      "flashcards": [
+        {
+          "question": "Pourquoi les conventions et accords collectifs sont-ils presentes comme une grande originalite du droit du travail ?",
+          "reponse": "Parce qu'ils sont negocies comme des contrats mais produisent des effets normatifs de portee collective.",
+          "explication": "La fiche montre que ces actes se detachent du droit commun des contrats par leur champ d'application et par leur force reglementaire pratique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie l'extension d'une convention collective dans cette introduction ?",
+          "reponse": "Elle rend la convention applicable a tous les employeurs et salaries relevant de son champ, meme sans adhesion des parties interessees.",
+          "explication": "Le document insiste sur ce mecanisme pour montrer que la norme conventionnelle peut depasser largement ses seuls signataires.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'usage d'entreprise est-il qualifie de source unilaterale du droit du travail ?",
+          "reponse": "Parce qu'il nait d'une pratique de l'employeur et cree des droits pour les salaries sans negocier un accord collectif.",
+          "explication": "La fiche prend ici l'usage comme illustration d'une norme produite dans l'entreprise hors contrat et hors convention.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels caracteres permettent de reconnaitre un authentique usage d'entreprise ?",
+          "reponse": "Il doit etre volontaire, general, constant et fixe.",
+          "explication": "Le document rappelle que l'avantage accorde aux salaries ne devient obligatoire qu'a cette condition cumulative.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le principe de faveur n'est-il plus absolu entre convention de branche et accord d'entreprise ?",
+          "reponse": "Parce que les reformes recentes ont institue des blocs de competences permettant parfois de deroger dans un sens moins favorable.",
+          "explication": "La fiche met ici en evidence l'une des remises en cause contemporaines les plus fortes du schema protecteur classique.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que permet un accord de performance collective au regard du contrat de travail ?",
+          "reponse": "Il peut, dans certaines conditions, substituer des stipulations moins favorables a celles du contrat si le salarie accepte son application.",
+          "explication": "Le document montre que le contrat individuel n'est plus toujours le rempart ultime face a la norme collective.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi les syndicats sont-ils des acteurs majeurs du droit du travail au-dela du seul contentieux ?",
+          "reponse": "Parce qu'ils defendent les interets des salaries et participent aussi a la negociation des accords collectifs.",
+          "explication": "La fiche relie ainsi l'action syndicale a la fois a la representation, a la defense et a la production de normes sociales.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel changement institutionnel majeur le document souligne-t-il a propos de la representation elue dans l'entreprise ?",
+          "reponse": "La fusion des anciennes institutions representatives dans le comite social et economique.",
+          "explication": "Le document fait du CSE le visage unique de la representation elue depuis les reformes recentes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le droit du travail fait-il intervenir plusieurs juges differents ?",
+          "reponse": "Parce que selon l'objet du litige, la competence peut relever du prud'homme, du juge judiciaire de droit commun ou du juge administratif.",
+          "explication": "La fiche rappelle que la matiere sociale ne se laisse pas enfermer dans une seule voie juridictionnelle.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette troisieme fiche d'introduction ?",
+          "reponse": "Le droit du travail se comprend comme un systeme de normes collectives, de pratiques d'entreprise et d'acteurs multiples qui depassent largement le seul face-a-face employeur-salarie.",
+          "explication": "Le document fait le lien entre production interne de la norme, representants collectifs et pluralite des controles.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1084,
+      "flashcards": [
+        {
+          "question": "Quels sont les deux piliers qui conditionnent la cause reelle et serieuse d'un licenciement pour motif economique ?",
+          "reponse": "L'existence d'un veritable motif economique et le respect de l'obligation d'adaptation et de reclassement.",
+          "explication": "La fiche rappelle que l'employeur ne peut pas se contenter d'invoquer une difficulte economique sans avoir aussi cherche des solutions de maintien ou de reclassement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le motif economique doit-il etre non inherent a la personne du salarie ?",
+          "reponse": "Parce qu'un licenciement economique se distingue d'un licenciement personnel et ne peut reposer sur l'age, l'inaptitude ou une carence propre au salarie.",
+          "explication": "Le document fait de cette exteriorite a la personne la premiere borne conceptuelle du motif economique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels evenements peuvent servir d'origine au licenciement pour motif economique selon cette fiche ?",
+          "reponse": "Des difficultes economiques, des mutations technologiques, une reorganisation necessaire a la sauvegarde de la competitivite ou une cessation d'activite.",
+          "explication": "La fiche regroupe les principales causes admises par le Code et par la jurisprudence integree ensuite par le legislateur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la loi de 2016 est-elle importante pour l'etude des difficultes economiques ?",
+          "reponse": "Parce qu'elle a cherche a securiser leur caracterisation en citant certains indicateurs et en encadrant leur evaluation juridique.",
+          "explication": "Le document insiste sur la baisse des commandes, du chiffre d'affaires ou la degradation de la tresorerie comme reperes centraux.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que signifie la reorganisation de l'entreprise necessaire a la sauvegarde de sa competitivite ?",
+          "reponse": "Elle permet de justifier des licenciements quand l'entreprise se restructure pour preserver sa position economique avant une aggravation decisive.",
+          "explication": "La fiche montre que le motif economique peut reposer non sur une crise deja accompli mais sur une logique de preservation suffisamment objective.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelles consequences concretes l'evenement economique doit-il produire pour ouvrir la voie au licenciement ?",
+          "reponse": "Il doit entrainer une suppression d'emploi, une transformation d'emploi ou une modification refusee d'un element essentiel du contrat.",
+          "explication": "Le document rappelle que l'existence abstraite d'une difficulte ne suffit pas sans incidence directe sur l'emploi ou le contrat.",
+          "difficulte": 3
+        },
+        {
+          "question": "Comment la fiche qualifie-t-elle l'obligation de reclassement de l'employeur ?",
+          "reponse": "Comme une obligation de moyens renforcee, dont l'employeur doit prouver l'execution serieuse.",
+          "explication": "Le document souligne que l'employeur n'a pas a garantir le reclassement, mais doit etablir qu'il a reellement tout essaye dans le perimetre pertinent.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi parle-t-on de groupe de permutabilite pour le reclassement ?",
+          "reponse": "Parce que dans un groupe, le reclassement ne s'envisage utilement qu'entre entreprises permettant une permutation realiste des emplois.",
+          "explication": "La fiche insiste sur le fait que le perimetre du reclassement n'est ni arbitraire ni purement theorique.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quels criteres guident l'ordre des licenciements en cas de suppression de postes ?",
+          "reponse": "Les charges de famille, l'anciennete, les difficultes de reinsertion et les qualites professionnelles, sauf amenagements conventionnels.",
+          "explication": "Le document rappelle que l'employeur ne choisit pas librement la personne licenciee sans respecter ces balises.",
+          "difficulte": 2
+        },
+        {
+          "question": "A quoi sert principalement le plan de sauvegarde de l'emploi dans les grands licenciements economiques ?",
+          "reponse": "Il sert a structurer des mesures precises de reclassement et d'accompagnement sous controle de l'administration du travail.",
+          "explication": "La fiche rattache le PSE a la logique de prevention et de limitation des ruptures, avec validation ou homologation selon les cas.",
+          "difficulte": 3
+        }
+      ]
+    },
+    {
+      "document_id": 1085,
+      "flashcards": [
+        {
+          "question": "Quelle condition de volonte gouverne la validite d'une demission selon cette fiche ?",
+          "reponse": "La demission doit traduire une volonte claire et non equivoque du salarie de rompre son contrat.",
+          "explication": "Le document rappelle que la rupture a l'initiative du salarie ne se presume pas et qu'elle doit etre etablie sans ambiguite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'abandon du poste ne se traite-t-il plus exactement comme avant dans le droit positif presente ici ?",
+          "reponse": "Parce que le refus de reprendre le poste apres mise en demeure et ecoulement du delai legal peut desormais faire presumer une demission.",
+          "explication": "La fiche integre ici la reforme recente qui modifie l'analyse classique de l'absence injustifiee prolongee.",
+          "difficulte": 3
+        },
+        {
+          "question": "Comment se regle la question du preavis apres une demission ?",
+          "reponse": "Le salarie doit en principe l'executer, sauf dispense, et l'indemnite compensatrice depend de la personne a l'initiative de cette dispense.",
+          "explication": "Le document distingue la dispense voulue par le salarie et celle imposee par l'employeur, qui n'ont pas les memes effets financiers.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans quels cas la demission peut-elle devenir abusive ?",
+          "reponse": "Lorsqu'elle est utilisee dans l'intention de nuire ou avec une legerete blamable causant un prejudice a l'employeur.",
+          "explication": "La fiche souligne le caractere rare mais reel de cette qualification, qui peut ouvrir droit a dommages et interets.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle logique distingue la prise d'acte de la demission simple ?",
+          "reponse": "Dans la prise d'acte, le salarie rompt en reprochant a l'employeur des manquements suffisamment graves.",
+          "explication": "Le document presente cette technique comme une rupture a l'initiative du salarie, mais juridiquement construite autour d'une faute imputee a l'employeur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que se passe-t-il si le juge estime fondee la prise d'acte du salarie ?",
+          "reponse": "Elle produit les effets d'un licenciement sans cause reelle et serieuse.",
+          "explication": "La fiche montre que l'initiative prise par le salarie peut donc finalement se retourner contre l'employeur si ses manquements sont etablis.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que se passe-t-il si le juge estime que les fautes alleguees ne sont pas assez graves dans une prise d'acte ?",
+          "reponse": "La prise d'acte produit les effets d'une demission.",
+          "explication": "Le document insiste sur le risque processuel important : le salarie peut perdre le benefice d'une rupture protectrice s'il n'etablit pas la gravite des manquements.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle difference essentielle separe la resiliation judiciaire de la prise d'acte ?",
+          "reponse": "Le salarie continue le travail pendant la procedure en resiliation judiciaire, alors qu'il rompt immediatement dans la prise d'acte.",
+          "explication": "La fiche rappelle que la resiliation judiciaire laisse le juge statuer avant que le contrat ne disparaisse effectivement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la rupture conventionnelle a-t-elle supplante l'ancienne rupture negociee ?",
+          "reponse": "Parce qu'elle offre un cadre legalise, homologue et ouvrant droit a l'assurance chomage pour le salarie.",
+          "explication": "Le document en fait un mode de rupture amiable plus securise juridiquement et plus attractif pratiquement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel point rend le controle du consentement decisif dans la rupture conventionnelle ?",
+          "reponse": "La convention peut etre annulee si elle a ete obtenue sous vice du consentement, comme le dol, l'erreur ou la violence.",
+          "explication": "La fiche montre que la rupture conventionnelle reste une technique contractuelle, donc vulnerable a l'analyse classique de la liberte et de la qualite du consentement.",
+          "difficulte": 3
+        }
+      ]
+    },
+    {
+      "document_id": 1086,
+      "flashcards": [
+        {
+          "question": "Pourquoi les conventions et accords collectifs ne sont-ils pas de simples contrats au sens classique ?",
+          "reponse": "Parce qu'ils sont negocies comme des contrats mais s'appliquent collectivement et produisent des effets depassant les seuls signataires.",
+          "explication": "La fiche souligne que leur portee normative rapproche ces actes de la loi plus que du pur echange contractuel civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que change l'extension d'une convention collective dans l'ordre juridique du travail ?",
+          "reponse": "Elle rend la convention obligatoire pour tous les employeurs et salaries relevant de son champ d'application.",
+          "explication": "Le document montre qu'un texte conventionnel peut alors s'imposer a des acteurs qui ne l'ont pas eux-memes signe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi dit-on que la convention collective presente un effet immediat ?",
+          "reponse": "Parce qu'elle s'applique aux relations de travail en cours comme aux relations futures relevant de son champ.",
+          "explication": "La fiche met ici en avant l'intensite normative d'un acte qui ne se contente pas de reguler une relation deja close.",
+          "difficulte": 3
+        },
+        {
+          "question": "A quelles conditions un avantage accorde dans l'entreprise devient-il un usage obligatoire ?",
+          "reponse": "Il doit reposer sur une pratique volontaire, generale, constante et fixe.",
+          "explication": "Le document reprend la grille classique issue de la jurisprudence pour distinguer l'usage veritable d'un geste occasionnel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi une simple erreur de paie repetitive n'est-elle pas automatiquement un usage ?",
+          "reponse": "Parce qu'il manque alors le caractere volontaire exige pour qualifier la pratique d'usage d'entreprise.",
+          "explication": "La fiche oppose nettement la volonte de l'employeur d'accorder un avantage et la repetition involontaire d'une erreur technique.",
+          "difficulte": 3
+        },
+        {
+          "question": "Comment l'employeur peut-il cesser d'appliquer un usage d'entreprise ?",
+          "reponse": "En le denoncant selon une procedure stricte impliquant information, delai de prevenance et consultation des representants lorsqu'ils existent.",
+          "explication": "Le document montre que le caractere unilateral de l'usage n'autorise pas sa disparition brutale sans forme.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role general joue le principe de faveur dans l'articulation des normes sociales ?",
+          "reponse": "Il conduit, dans sa logique classique, a retenir entre deux normes concurrentes celle qui est la plus favorable au salarie.",
+          "explication": "La fiche en fait le reflexe historique d'arbitrage entre loi, convention collective et contrat de travail.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les reformes recentes ont-elles fragilise le principe de faveur entre branche et entreprise ?",
+          "reponse": "Parce qu'elles ont cree des blocs de competences dans lesquels l'accord d'entreprise peut parfois primer meme s'il est moins favorable.",
+          "explication": "Le document souligne que la hierarchie des normes sociales ne se confond plus toujours avec la recherche du meilleur avantage pour le salarie.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que permet un accord de performance collective a l'egard du contrat de travail ?",
+          "reponse": "Il peut substituer certaines stipulations collectives a des stipulations contractuelles plus favorables si le salarie accepte de les subir.",
+          "explication": "La fiche y voit l'un des exemples les plus nets de deplacement de l'equilibre entre norme collective et contrat individuel.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette fiche sur les sources privees du droit du travail ?",
+          "reponse": "Le droit du travail produit des normes dans l'entreprise par la negociation collective, par l'usage et par des mecanismes d'articulation qui ne reproduisent pas simplement le droit commun.",
+          "explication": "Le document fait apparaitre une architecture normative originale, ou le collectif et l'unilateral coexistent sous le controle du principe de faveur et de ses limites.",
+          "difficulte": 2
+        }
+      ]
+    }
+  ]
+}
