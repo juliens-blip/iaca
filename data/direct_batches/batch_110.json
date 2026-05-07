@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 1027,
+      "fiche": {
+        "titre": "Contrat d'entreprise : determination du travail, fixation du prix, responsabilite de l'entrepreneur et sous-traitance",
+        "resume": "Ce document prolonge l'etude du contrat d'entreprise en se concentrant sur sa formation et sur ses premiers effets. L'enjeu principal est de comprendre comment un contrat tres souple peut rester juridiquement structure. La fiche en retient une idee directrice : le contrat d'entreprise repose sur un travail determine et remunere, mais il admet une grande flexibilite quant au prix et quant aux modalites d'execution, flexibilite que compensent le pouvoir du juge, la distinction entre obligations de moyens et de resultat, ainsi que des regles specifiques sur la sous-traitance et l'information du client.",
+        "sections": [
+          {
+            "titre": "Le travail promis doit etre suffisamment determine, meme si le contrat d'entreprise reste en principe consensuel",
+            "contenu": "Le document rappelle que le coeur du contrat reside dans la prestation a accomplir pour le maitre de l'ouvrage. Les parties doivent donc s'accorder sur ce travail, mais sans necessairement respecter une forme solennelle. Le devis n'est pas toujours obligatoire. Il sert surtout de preuve et peut, selon l'intention des parties, n'etre qu'un support preparatoire ou devenir un veritable avant-contrat. La question centrale n'est donc pas la forme en elle-meme, mais le point de savoir si la volonte de s'engager est deja ferme."
+          },
+          {
+            "titre": "Le prix n'est pas une condition de validite du contrat d'entreprise, ce qui distingue fortement ce contrat de la vente",
+            "contenu": "Le cours souligne que la prestation peut etre convenue sans fixation initiale du prix. Cette souplesse s'explique par la difficulte frequente d'evaluer a l'avance l'etendue exacte des travaux. L'entrepreneur peut alors fixer le montant apres execution, sous reserve de le justifier en cas de contestation. Cela ne signifie pas que la remuneration disparait : le contrat d'entreprise reste par nature onereux. Sans prix en argent, on change de terrain de qualification."
+          },
+          {
+            "titre": "Le juge conserve un role d'equilibre, que le prix ait ete fixe apres coup ou que les parties aient choisi un marche a forfait",
+            "contenu": "Le document expose trois configurations. En l'absence d'accord initial, le juge peut intervenir pour apprecier la remuneration a partir des circonstances de la cause. Si l'entrepreneur a facture un prix qu'il fixe unilateralement, le juge peut encore controler l'abus. Enfin, lorsque les parties ont conclu un marche a forfait, le principe devient l'intangibilite du prix, sauf accord nouveau ou situations rares. La fiche retient que la liberte de fixation n'exclut jamais tout controle, mais que ce controle varie selon la structure de l'accord."
+          },
+          {
+            "titre": "La responsabilite de l'entrepreneur depend de l'objet precis de sa prestation et se lit a travers la distinction moyens-resultat",
+            "contenu": "Le document rappelle que le contrat d'entreprise n'a pas un regime unique de responsabilite. Tout depend de ce qui a ete promis. Pour certaines prestations, l'entrepreneur doit atteindre un resultat determine ; pour d'autres, notamment intellectuelles, il doit seulement deployer les diligences attendues d'un professionnel competent. Cette opposition reste gouvernee par les criteres classiques du droit commun, volontes des parties, participation du creancier et presence d'un alea. Le contrat d'entreprise apparait ainsi comme un terrain d'application privilegie de cette distinction."
+          },
+          {
+            "titre": "La sous-traitance et le devoir d'information montrent enfin que l'entrepreneur n'execute pas seulement un travail, il organise aussi un service professionnel responsable",
+            "contenu": "Le cours souligne que l'entrepreneur peut en principe recourir a un sous-traitant, sauf intuitu personae ou interdiction contractuelle. La loi du 31 decembre 1975 encadre cette pratique pour proteger le sous-traitant et clarifier les actions en paiement et en responsabilite. Par ailleurs, l'entrepreneur professionnel est tenu d'informer et de conseiller son client sur l'opportunite, le contenu et le cout des travaux. La fiche retient donc une double exigence : bien executer la prestation, mais aussi securiser juridiquement la relation de service."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le devis occupe-t-il une place importante dans le contrat d'entreprise ?",
+          "reponse": "Parce qu'il sert a prouver le contenu de la prestation convenue et peut parfois valoir veritable engagement selon la volonte des parties.",
+          "explication": "Le document montre que le devis n'est pas seulement un outil commercial, mais aussi un point de cristallisation du consentement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Le prix doit-il etre determine des la conclusion du contrat d'entreprise ?",
+          "reponse": "Non, sa fixation prealable n'est pas une condition de validite du contrat.",
+          "explication": "Cette solution est rattachee a la logique des prestations de service et a l'article 1165 du Code civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi cette souplesse sur le prix est-elle admise en contrat d'entreprise ?",
+          "reponse": "Parce qu'il est souvent difficile d'evaluer a l'avance l'etendue et la valeur exactes du travail a accomplir.",
+          "explication": "Le document oppose ici le contrat d'entreprise a la vente, ou le prix doit etre fixe ou determinable des l'origine.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie l'expression marche a forfait dans ce chapitre ?",
+          "reponse": "Elle designe l'hypothese ou les parties fixent a l'avance un prix global en principe intangible pour les travaux prevus.",
+          "explication": "La fiche rappelle que les travaux supplementaires ne seront pas payes sans nouvel accord.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role le juge peut-il jouer lorsqu'aucun prix initial n'a ete fixe ?",
+          "reponse": "Il peut apprecier la remuneration due compte tenu des elements de la cause et controler un eventuel abus.",
+          "explication": "Le document insiste sur ce pouvoir d'equilibre, meme si la lettre de l'article 1165 ne le formule pas de la meme facon que l'ancienne jurisprudence.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi n'existe-t-il pas un seul regime de responsabilite valable pour tous les contrats d'entreprise ?",
+          "reponse": "Parce que la responsabilite depend de l'objet concret de la prestation et du type d'obligation assume par l'entrepreneur.",
+          "explication": "Le cours montre que certaines prestations relevent du resultat, d'autres seulement des diligences attendues.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels criteres permettent de distinguer obligation de moyens et obligation de resultat ?",
+          "reponse": "La volonte des parties, la participation du creancier a l'execution et l'alea qui pese sur la prestation.",
+          "explication": "Le document reprend ici les criteres classiques du droit commun pour les appliquer au contrat d'entreprise.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la sous-traitance ne se confond-elle pas avec la simple fourniture de materiaux ?",
+          "reponse": "Parce qu'il faut que le tiers execute tout ou partie du travail meme qui incombe a l'entrepreneur principal.",
+          "explication": "Sinon, on est dans une chaine heterogene faite de vente puis de contrat d'entreprise.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel avantage majeur la loi de 1975 donne-t-elle au sous-traitant agree ?",
+          "reponse": "Elle lui ouvre une action directe en paiement contre le maitre de l'ouvrage si l'entrepreneur principal est defaillant et si le maitre ne l'a pas deja paye.",
+          "explication": "Le document en fait l'un des points les plus connus du droit de la sous-traitance.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le devoir d'information et de conseil est-il particulierement fort en contrat d'entreprise ?",
+          "reponse": "Parce que l'entrepreneur est souvent un professionnel mieux place que son client pour apprecier l'utilite, le contenu et le cout des travaux.",
+          "explication": "La fiche met en avant cette dimension de guidance professionnelle au-dela de la seule execution materielle.",
+          "difficulte": 2
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Contrat d'entreprise, prix et execution",
+        "questions": [
+          {
+            "question": "Quelle idee centrale explique que le prix n'ait pas a etre fixe des la conclusion du contrat d'entreprise ?",
+            "choix": [
+              "A. Le contrat d'entreprise est toujours gratuit.",
+              "B. L'etendue concrete des travaux est souvent difficile a evaluer avant execution, ce qui justifie une certaine flexibilite.",
+              "C. Le juge interdit toute fixation prealable du prix.",
+              "D. Le contrat d'entreprise est forcement aleatoire."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rattache cette souplesse a la nature meme des prestations de service et a la difficulte d'en mesurer l'ampleur a l'avance.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que faut-il retenir du marche a forfait dans ce chapitre ?",
+            "choix": [
+              "A. Il permet toujours a l'entrepreneur de majorer librement sa facture.",
+              "B. Il fixe a l'avance un prix en principe intangible, sauf accord nouveau ou cas exceptionnels.",
+              "C. Il supprime tout controle du juge.",
+              "D. Il rend inutile tout devis."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le marche a forfait limite la revision ulterieure du prix parce qu'il repose sur un engagement ferme des parties sur le montant global.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la sous-traitance est-elle juridiquement sensible dans le contrat d'entreprise ?",
+            "choix": [
+              "A. Parce qu'elle est toujours interdite.",
+              "B. Parce qu'elle reorganise l'execution du travail et souleve des questions specifiques de paiement et de responsabilite.",
+              "C. Parce qu'elle transforme automatiquement le contrat en mandat.",
+              "D. Parce qu'elle supprime toute obligation d'information."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La loi de 1975 intervient precisement pour encadrer ces enjeux et proteger le sous-traitant.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quelle fonction generale remplit le devoir d'information et de conseil de l'entrepreneur ?",
+            "choix": [
+              "A. Il remplace toute obligation d'executer la prestation.",
+              "B. Il sert a compenser l'asymetrie de competence entre le professionnel et le client sur l'utilite, la technique et le cout du travail.",
+              "C. Il ne joue que pour les contrats gratuits.",
+              "D. Il n'existe qu'en matiere de construction immobiliere."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document montre que l'entrepreneur ne vend pas seulement un travail : il doit aussi eclairer le maitre de l'ouvrage.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1028,
+      "fiche": {
+        "titre": "Contrat de mandat : actes juridiques, representation, pouvoirs du mandataire et extinction d'un contrat de confiance",
+        "resume": "Ce document introduit le mandat comme la grande technique de representation du droit prive, a la croisee du Code civil ancien et du nouveau droit commun de la representation issu de 2016. Il montre que le mandat n'est plus seulement le service gratuit entre amis de 1804, mais un instrument professionalise de la vie des affaires. La fiche en retient une idee directrice : le mandat se comprend avant tout comme un pouvoir d'accomplir des actes juridiques au nom d'autrui, dans un cadre marque par la confiance, la precision des pouvoirs et un regime de fin de contrat tres sensible aux circonstances personnelles.",
+        "sections": [
+          {
+            "titre": "Le mandat se distingue d'abord par sa mission principale : accomplir des actes juridiques au nom et pour le compte du mandant",
+            "contenu": "Le document insiste sur le fait que le mandataire n'est pas un simple prestataire materiel. Sa mission centrale consiste a conclure un contrat, notifier un acte ou entreprendre une demarche juridique pour son mandant. Des actes materiels peuvent exister, mais ils restent accessoires. Cette precision est importante car elle permet de distinguer le mandat du contrat d'entreprise et d'admettre, selon les cas, soit une qualification principale, soit une qualification distributive quand un professionnel exerce des missions de natures differentes."
+          },
+          {
+            "titre": "Le coeur technique du mandat tient a la representation, completee aujourd'hui par un droit commun plus large que le seul contrat special",
+            "contenu": "La fiche reprend l'idee essentielle du document : le mandataire agit au nom d'autrui et pour son compte. C'est ce mecanisme qui explique la transparence de sa personne dans les rapports avec les tiers. L'ordonnance de 2016 a generalise cette logique dans les textes relatifs a la representation, en construisant un veritable droit commun de la matiere. Le mandat devient alors le modele historique d'une technique plus large, que l'on retrouve aussi dans certaines representations legales, ordonnees par le juge ou simplement apparentes."
+          },
+          {
+            "titre": "La precision des pouvoirs reste une question centrale, surtout pour distinguer mandat general, mandat special et actes de disposition",
+            "contenu": "Le document rappelle les principaux textes qui gouvernent l'etendue des pouvoirs. Un mandat general n'embrasse que les actes d'administration ou conservatoires. Pour aliener, hypothequer ou accomplir tout autre acte de disposition, un pouvoir special et expressement determine est necessaire. La fiche retient ici une idee simple : le mandat n'est pas une carte blanche. Plus l'acte est grave pour le patrimoine du mandant, plus la loi exige une habilitation precise."
+          },
+          {
+            "titre": "Le mandat reste en principe gratuit, intuitu personae et temporaire, meme si la pratique l'a largement professionnalise",
+            "contenu": "Le cours part de l'heritage romain et du Code civil, qui pose une presomption simple de gratuite. Mais la pratique contemporaine fait du mandat salarie une figure courante. Cette evolution n'efface pas la logique de confiance qui explique le caractere intuitu personae du contrat, son ancrage originel dans la gratuite et la fragilite de sa duree. La fiche souligne ainsi une tension permanente : le mandat est devenu un instrument de marche tout en restant gouverne par une architecture tres personnelle."
+          },
+          {
+            "titre": "Les effets et la fin du mandat confirment cette logique de confiance, avec une substitution encadree et une extinction sensible aux evenements personnels",
+            "contenu": "Le document montre que le mandataire doit executer sa mission avec diligence, rendre compte et peut, dans certaines limites, se substituer un tiers. Cette substitution n'est pas libre de toute consequence, car le mandataire repond de certains choix fautifs et les juges reconnaissent des actions directes specifiques. Quant a la fin du mandat, elle peut resulter de la revocation, de la renonciation, du deces, de l'incapacite ou d'une faillite organisee. Plusieurs temperaments existent, mais l'ensemble confirme que le mandat est un contrat tres sensible a la personne des parties."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle est la mission principale du mandataire selon ce document ?",
+          "reponse": "Il accomplit principalement des actes juridiques pour le mandant, en son nom et pour son compte.",
+          "explication": "La fiche en fait le critere distinctif majeur par rapport au contrat d'entreprise ou au contrat de travail.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le mandat est-il d'abord une technique de representation ?",
+          "reponse": "Parce que le mandataire agit juridiquement a la place du mandant, de sorte que l'acte produit ses effets dans le patrimoine de ce dernier.",
+          "explication": "Le document rattache cette logique aux articles 1984 et 1154 du Code civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que permet de comprendre la theorie du mandat apparent ?",
+          "reponse": "Elle permet de proteger le tiers qui a legitimement cru a l'existence des pouvoirs du representant, meme s'ils n'existaient pas en realite.",
+          "explication": "La fiche y voit une extension protectrice de la logique de representation.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle difference faut-il faire entre mandat general et mandat special ?",
+          "reponse": "Le mandat general couvre une serie d'affaires, mais seulement les actes d'administration, tandis que le mandat special vise un ou plusieurs actes determines, notamment de disposition.",
+          "explication": "Le document articule ici les articles 1987, 1988 et 1155.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi un acte de disposition exige-t-il un pouvoir special ?",
+          "reponse": "Parce qu'il affecte plus gravement le patrimoine du mandant et ne peut pas etre englobe dans une habilitation formulee trop largement.",
+          "explication": "La fiche insiste sur la gradation des pouvoirs selon la gravite de l'acte.",
+          "difficulte": 2
+        },
+        {
+          "question": "Le mandat est-il toujours onereux ?",
+          "reponse": "Non, il est en principe gratuit sauf convention contraire, meme si le mandat remunere est aujourd'hui tres frequent.",
+          "explication": "Le document part de l'article 1986 et montre la professionalisation de la pratique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi dit-on que le mandat est intuitu personae ?",
+          "reponse": "Parce qu'il repose sur la confiance accordee a la personne du mandataire et sur l'importance de ses qualites propres.",
+          "explication": "Cette logique explique plusieurs regles sur la fin du contrat et sur la substitution.",
+          "difficulte": 2
+        },
+        {
+          "question": "La substitution du mandataire est-elle toujours interdite ?",
+          "reponse": "Non, elle est possible, mais elle est encadree et peut engager la responsabilite du mandataire selon les conditions de l'article 1994.",
+          "explication": "Le document souligne que la confiance n'exclut pas totalement la delegation de mission.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle obligation generale pese sur le mandataire pendant l'execution de sa mission ?",
+          "reponse": "Il doit executer le mandat avec diligence et rendre compte de sa gestion au mandant.",
+          "explication": "La fiche presente cette obligation comme la contrepartie de la confiance et de la transparence du mecanisme representatif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le mandat prend-il facilement fin en cas de deces, incapacite ou revocation ?",
+          "reponse": "Parce qu'il est fonde sur une relation personnelle de confiance que ces evenements viennent rompre ou bouleverser.",
+          "explication": "Le document enumere toutefois plusieurs temperaments a cette extinction de principe.",
+          "difficulte": 2
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Contrat de mandat et representation",
+        "questions": [
+          {
+            "question": "Quel element permet de distinguer le mandat du simple contrat d'entreprise dans ce document ?",
+            "choix": [
+              "A. Le mandat porte principalement sur des actes juridiques accomplis au nom d'autrui.",
+              "B. Le mandat n'a jamais d'effet patrimonial.",
+              "C. Le contrat d'entreprise est toujours gratuit.",
+              "D. Le mandataire est toujours salarie."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document fait de la representation juridique le coeur du mandat, alors que l'entreprise porte d'abord sur une prestation de travail independante.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi un mandat general ne suffit-il pas pour vendre un bien du mandant ?",
+            "choix": [
+              "A. Parce qu'un mandat general ne couvre jamais aucun acte.",
+              "B. Parce que les actes de disposition exigent un pouvoir special ou expressement determine.",
+              "C. Parce que toute vente suppose l'intervention d'un juge.",
+              "D. Parce que le mandataire doit toujours agir en son nom propre."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Les articles 1988 et 1155 reservent les mandats formules en termes generaux aux seuls actes d'administration.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle fonction remplit la theorie du mandat apparent ?",
+            "choix": [
+              "A. Elle punit toujours le tiers de bonne foi.",
+              "B. Elle valide l'acte lorsque le tiers a legitimement cru aux pouvoirs du representant, notamment en raison du comportement du represente.",
+              "C. Elle supprime toute difference entre representation legale et contractuelle.",
+              "D. Elle interdit toute ratification ulterieure."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document la presente comme un mecanisme de protection de la confiance du tiers dans les apparences de pouvoir.",
+            "difficulte": 3
+          },
+          {
+            "question": "Pourquoi le mandat est-il particulierement sensible au deces, a la revocation ou a l'incapacite d'une partie ?",
+            "choix": [
+              "A. Parce qu'il est un contrat reel.",
+              "B. Parce qu'il est structure par la confiance personnelle entre les parties.",
+              "C. Parce qu'il est toujours gratuit.",
+              "D. Parce qu'il ne peut jamais etre execute par un professionnel."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La logique intuitu personae explique que plusieurs evenements personnels puissent mettre fin aux pouvoirs confies.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1029,
+      "fiche": {
+        "titre": "Promesse unilaterale de vente : droit d'option, indemnite d'immobilisation et abandon de la jurisprudence Cruz",
+        "resume": "Ce document etudie la promesse unilaterale de vente comme contrat preparatoire autonome, dont la structure a ete clarifiee par l'ordonnance du 10 fevrier 2016. La fiche en retient une idee directrice : la PUV n'est ni une vente deja parfaite ni un engagement vide, mais un contrat unilateral par lequel le promettant immobilise son bien au profit d'un beneficiaire libre d'opter. Tout l'enjeu du regime est alors de concilier cette liberte du beneficiaire avec l'efficacite de l'engagement du promettant, ce qui explique a la fois le statut de l'indemnite d'immobilisation et l'abandon de la celebre jurisprudence Cruz.",
+        "sections": [
+          {
+            "titre": "La marque propre de la PUV tient au droit d'option du beneficiaire, dans un cadre ou les elements essentiels de la vente sont deja fixes",
+            "contenu": "Le document repart du texte nouveau du Code civil. La promesse unilaterale donne au beneficiaire le droit de choisir seul, pendant un certain delai, s'il veut conclure la vente. Ce droit d'option distingue la PUV de la promesse synallagmatique. Le promettant, lui, a deja consenti a vendre, de sorte qu'il ne manque plus que la decision du beneficiaire. La fiche retient que la PUV est un contrat preparatoire tres avance, mais qui ne devient vente qu'au moment de la levee de l'option."
+          },
+          {
+            "titre": "La promesse est un contrat unilateral qui oblige seulement le promettant a immobiliser le bien pendant le delai convenu",
+            "contenu": "Le beneficiaire n'est pas tenu d'acheter. Son acceptation porte sur la promesse, non sur la vente elle-meme. C'est pourquoi le document qualifie la PUV de contrat unilateral. Le promettant supporte seul l'obligation de ne pas vendre le bien a autrui pendant la duree de l'option. Cette structure explique ensuite plusieurs consequences : la caducite de la promesse si l'option n'est pas levee, les exigences de precision sur la chose et le prix, et la possibilite de formalismes renforces en matiere immobiliere."
+          },
+          {
+            "titre": "L'indemnite d'immobilisation ne sanctionne pas une faute du beneficiaire : elle constitue le prix de l'exclusivite qui lui est accordee",
+            "contenu": "Le document refuse d'assimiler cette indemnite a une clause penale ou a une clause de dedit. Le beneficiaire n'etant pas encore engage a acheter, il ne peut pas etre sanctionne pour inexecution. L'indemnite est donc comprise comme la contrepartie de l'exclusivite consentie par le promettant. Cette qualification explique son regime propre et le fait que son montant n'est pas normalement revisable comme un simple forfait de dommages-interets. La fiche note toutefois qu'une indemnite tres elevee peut parfois faire perdre au beneficiaire sa veritable liberte de choix."
+          },
+          {
+            "titre": "La jurisprudence Cruz affaiblissait autrefois la PUV en refusant la vente forcee en cas de retractation du promettant avant la levee de l'option",
+            "contenu": "L'arret Cruz de 1993 traitait l'engagement du promettant comme une simple obligation de faire resolue en dommages-interets s'il se retractait avant la levee de l'option. Le document expose pourquoi cette solution a ete vivement critiquee : elle contredisait l'analyse classique selon laquelle le promettant a deja consenti a la vente, traitait moins bien le beneficiaire de PUV que celui d'un pacte de preference, et rendait la violation de la promesse parfois economiquement rentable pour le promettant."
+          },
+          {
+            "titre": "L'ordonnance de 2016 puis la jurisprudence ulterieure ont restaure l'efficacite de la PUV en neutralisant la retractation du promettant",
+            "contenu": "Le texte nouveau affirme que la revocation de la promesse pendant le temps laisse au beneficiaire pour opter n'empeche pas la formation du contrat promis. La vente peut donc etre formee malgre la retractation, des lors que l'option est levee a temps. Le document rattache cette solution a l'abandon de Cruz et au retour a une lecture plus coherente de la force obligatoire de la PUV. Il rappelle egalement que la vente conclue avec un tiers qui connaissait l'existence de la promesse encourt la nullite."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel element distingue d'abord la promesse unilaterale de vente ?",
+          "reponse": "Le beneficiaire dispose d'un droit d'option pour decider seul de conclure ou non la vente pendant un certain delai.",
+          "explication": "La fiche en fait la marque distinctive de la PUV par rapport aux autres avant-contrats.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la PUV est-elle qualifiee de contrat unilateral ?",
+          "reponse": "Parce qu'elle n'oblige en principe que le promettant, le beneficiaire restant libre de lever ou non l'option.",
+          "explication": "Le document insiste sur le fait que le beneficiaire accepte la promesse sans encore consentir a la vente.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que doit contenir la PUV portant sur une vente pour etre juridiquement complete ?",
+          "reponse": "Elle doit fixer des l'origine les elements essentiels du contrat projete, notamment la chose et le prix.",
+          "explication": "Le document oppose ici la PUV au pacte de preference, qui peut laisser davantage d'elements a preciser.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'indemnite d'immobilisation n'est-elle pas une clause penale ?",
+          "reponse": "Parce qu'elle ne sanctionne pas l'inexecution d'une obligation d'acheter par le beneficiaire, qui n'a pas encore pris un tel engagement.",
+          "explication": "La fiche retient la qualification de prix de l'exclusivite consentie au beneficiaire.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel risque peut presenter une indemnite d'immobilisation tres elevee ?",
+          "reponse": "Elle peut faire perdre au beneficiaire sa liberte de choix et conduire a requalifier la PUV en promesse synallagmatique.",
+          "explication": "Le document signale ici une jurisprudence attentive a la realite economique de l'option.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que decidait la jurisprudence Cruz en cas de retractation du promettant avant la levee de l'option ?",
+          "reponse": "Elle refusait la vente forcee et limitait en principe le beneficiaire a une action en dommages-interets.",
+          "explication": "La fiche presente Cruz comme une solution longtemps critiquee pour son manque d'efficacite.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi cette solution etait-elle contestee en doctrine ?",
+          "reponse": "Parce qu'elle affaiblissait la force obligatoire de la promesse et contredisait l'idee que le promettant avait deja consenti a vendre.",
+          "explication": "Le document ajoute qu'elle pouvait encourager une violation opportuniste de la promesse.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que change le nouvel article 1124 du Code civil sur ce point ?",
+          "reponse": "Il affirme que la revocation de la promesse pendant le delai d'option n'empeche pas la formation du contrat promis.",
+          "explication": "La fiche y voit le renversement du systeme issu de Cruz.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle sanction vise la vente conclue avec un tiers qui connaissait l'existence de la PUV ?",
+          "reponse": "Cette vente encourt la nullite.",
+          "explication": "Le document rattache cette solution a la volonte de proteger efficacement le beneficiaire de la promesse.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce chapitre sur la PUV ?",
+          "reponse": "La PUV est un avant-contrat unilateral tres structure, dont l'efficacite repose sur l'option du beneficiaire et sur la protection de l'engagement deja donne par le promettant.",
+          "explication": "La fiche articule ici droit d'option, prix de l'exclusivite et neutralisation de la retractation opportuniste.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Promesse unilaterale de vente",
+        "questions": [
+          {
+            "question": "Pourquoi la PUV n'est-elle pas encore la vente elle-meme des sa signature ?",
+            "choix": [
+              "A. Parce que le prix n'est jamais fixe.",
+              "B. Parce qu'il manque encore la decision du beneficiaire de lever l'option, meme si le promettant a deja consenti a vendre.",
+              "C. Parce qu'elle est toujours nulle en matiere immobiliere.",
+              "D. Parce qu'aucun element essentiel n'est determine."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document montre que la PUV est un contrat preparatoire tres avance, mais que la vente n'est formee qu'au moment de la levee de l'option.",
+            "difficulte": 2
+          },
+          {
+            "question": "Comment faut-il comprendre l'indemnite d'immobilisation dans le regime de la PUV ?",
+            "choix": [
+              "A. Comme une peine automatiquement due pour l'inexecution de l'obligation d'acheter.",
+              "B. Comme le prix de l'exclusivite accordee au beneficiaire pendant le delai d'option.",
+              "C. Comme une clause qui transforme toujours la PUV en vente parfaite.",
+              "D. Comme un simple acompte sur une vente deja conclue."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le beneficiaire n'etant pas encore oblige d'acheter, l'indemnite ne peut pas etre lue comme une sanction d'inexecution.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel etait le point critiquable de la jurisprudence Cruz ?",
+            "choix": [
+              "A. Elle permettait trop facilement la vente forcee.",
+              "B. Elle supprimait toute sanction de la retractation du promettant.",
+              "C. Elle traitait la retractation du promettant comme une simple inexecution reparable en argent et affaiblissait l'efficacite de la promesse.",
+              "D. Elle imposait toujours la nullite de la promesse."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document souligne que cette solution pouvait rendre la violation de la promesse plus attractive que son respect.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quelle ligne du droit positif contemporain faut-il retenir apres l'ordonnance de 2016 ?",
+            "choix": [
+              "A. La retractation du promettant pendant le delai d'option empeche toujours la vente.",
+              "B. La revocation du promettant n'empeche pas la formation du contrat promis si l'option est levee a temps.",
+              "C. Le beneficiaire n'a plus aucun droit en cas de violation.",
+              "D. La promesse unilaterale est devenue un contrat gratuit et sans sanction."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le nouvel article 1124 consacre le recul de Cruz et renforce l'efficacite pratique de la PUV.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1030,
+      "fiche": {
+        "titre": "Conditions de formation de la vente : liberte de vendre et d'acheter, ventes a l'agreage, preemption et droits de retractation",
+        "resume": "Ce document traite des conditions de formation du contrat de vente a partir d'une idee simple en apparence, la liberte de vendre et d'acheter. Il montre pourtant que cette liberte est en permanence encadree par des incapacites, des ventes forcees, des restrictions speciales, des techniques d'agrement et des droits legaux de preemption ou de retractation. La fiche retient une idee directrice : la vente demeure le contrat consensuel par excellence, mais son consentement est aujourd'hui enchasse dans un ensemble dense de correctifs destines tantot a proteger les parties faibles, tantot a servir des politiques publiques plus larges.",
+        "sections": [
+          {
+            "titre": "Le point de depart reste la liberte de vendre et d'acheter, expression particuliere de la liberte contractuelle",
+            "contenu": "Le document s'ouvre sur le principe classique selon lequel chacun peut en principe acheter ou vendre. Cette formule signifie aussi le droit de ne pas vendre et de ne pas acheter. La fiche retient cependant qu'il s'agit d'un principe de base plus que d'une verite absolue. Le droit positif y apporte de multiples temperaments, soit en interdisant certaines ventes ou acquisitions, soit en imposant des transferts, soit encore en encadrant le contenu ou le temps du consentement."
+          },
+          {
+            "titre": "Les atteintes a la liberte du vendeur tiennent a la fois a sa capacite, a certaines interdictions et a quelques veritables ventes forcees",
+            "contenu": "Le document rappelle d'abord que vendre est un acte de disposition et suppose la capacite adequate. Mineurs, majeurs proteges ou personnes soumises a certains statuts particuliers ne peuvent pas librement aliener leurs biens. Il montre ensuite qu'a cote des restrictions negatives, il existe des ventes forcees prevues par la loi, comme l'expropriation pour cause d'utilite publique, certaines saisies ou des cessions organisees dans les faillites et traitements collectifs. La fiche souligne que la liberte du proprietaire reste forte, mais qu'elle n'est ni absolue ni uniforme."
+          },
+          {
+            "titre": "Du cote de l'acheteur, l'absence d'obligation d'acheter n'empeche pas l'existence d'incapacites et de conflits d'interets specifiquement sanctionnes",
+            "contenu": "Le document insiste sur une asymetrie importante. On ne force pas quelqu'un a acheter. En revanche, certaines personnes ne peuvent pas acquerir certains biens en raison de leur fonction ou de la protection du vendeur potentiel. Tuteur, mandataire, fiduciaire ou professionnels places dans des situations sensibles sont soumis a des incapacites speciales d'acheter. La fiche retient ici que le droit cherche moins a contraindre l'acheteur qu'a prevenir les abus d'influence et les conflits d'interets."
+          },
+          {
+            "titre": "La formation de la vente peut etre suspendue ou reordonnee par des mecanismes speciaux de priorite et d'appreciation",
+            "contenu": "Le document rapproche ici plusieurs techniques qui modifient la marche normale du consentement. La vente a la degustation suspend l'engagement jusqu'au jugement discretionnaire de l'acheteur dans les cas ou l'usage commande de gouter la chose. La vente a l'essai repose au contraire sur un controle plus objectif des qualites du bien et fonctionne sous reserve d'un essai concluant. A cela s'ajoutent les droits de preemption et de retrait, qui permettent a certaines personnes, locataire, preneur rural, SAFER ou autres titulaires legaux, de prendre la place d'un acquereur pressenti ou deja en place."
+          },
+          {
+            "titre": "Les droits de reflexion et de retractation achevent de transformer le modele classique du consentement en faveur de certaines protections legislatives",
+            "contenu": "Le document expose les delais de retractation du droit de la consommation, pour les ventes a distance ou hors etablissement, ainsi que le droit reconnu a l'acquereur non professionnel d'un immeuble d'habitation. La fiche en retient un point central : le contrat peut etre valablement forme puis remis en cause unilateralement pendant un temps determine. Cette entorse au consensualisme classique vise a corriger les risques d'engagement precipite, de pression commerciale ou d'information imparfaite."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel principe general gouverne d'abord la formation de la vente selon ce document ?",
+          "reponse": "La liberte de vendre et d'acheter, qui prolonge la liberte contractuelle.",
+          "explication": "Le document rattache cette idee a l'article 1594 du Code civil.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la vente est-elle etroitement liee aux regles de capacite ?",
+          "reponse": "Parce qu'elle constitue typiquement un acte de disposition et exige donc que les parties puissent valablement aliener ou engager leurs biens.",
+          "explication": "La fiche rappelle que cette exigence vaut des deux cotes du contrat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que faut-il entendre par vente forcee dans ce chapitre ?",
+          "reponse": "Une hypothese ou la loi impose ou organise le transfert du bien contre la volonte du proprietaire, comme en matiere d'expropriation ou de saisie.",
+          "explication": "Le document cite plusieurs exemples de telles entorses a la liberte du vendeur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi certaines incapacites d'acheter frappent-elles des personnes comme le tuteur ou le mandataire ?",
+          "reponse": "Pour prevenir les abus d'influence et les conflits d'interets au detriment du vendeur ou du represente.",
+          "explication": "La fiche y voit une logique de protection plus qu'une limitation abstraite de la liberte d'acquerir.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans une vente a la degustation, quelle marge de choix garde l'acheteur ?",
+          "reponse": "L'acheteur conserve un pouvoir de choix largement discretionnaire, justifie par l'usage de gouter la chose avant de s'engager.",
+          "explication": "Le document oppose cette logique a la vente a l'essai, qui repose davantage sur une verification objective des qualites du bien.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi dit-on que la vente a l'essai est presumee conclue sous condition suspensive ?",
+          "reponse": "Parce que la vente ne devient parfaite qu'apres un essai satisfaisant du bien par l'acheteur.",
+          "explication": "La fiche rappelle que le transfert de propriete attend alors l'issue positive de l'essai.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que distingue rigoureusement le document entre preemption et retrait ?",
+          "reponse": "La preemption s'exerce avant la conclusion definitive de la vente, alors que le retrait permet de reprendre le bien une fois la vente deja conclue.",
+          "explication": "Le texte note toutefois que le legislateur n'emploie pas toujours ces termes avec une parfaite rigueur.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi les droits de preemption sont-ils si nombreux et varies ?",
+          "reponse": "Parce qu'ils servent tantot des interets prives de protection, tantot des objectifs plus generaux d'organisation economique ou sociale.",
+          "explication": "Le document en donne des exemples en matiere d'habitation, de ruralite ou d'amenagement foncier.",
+          "difficulte": 3
+        },
+        {
+          "question": "En quoi le droit de retractation modifie-t-il le schema classique de formation de la vente ?",
+          "reponse": "Il permet a une partie de revenir unilateralement sur un contrat deja forme pendant un delai legal determine.",
+          "explication": "La fiche y voit une protection du consentement contre la precipitation ou la pression commerciale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce chapitre sur la formation de la vente ?",
+          "reponse": "La vente reste un contrat consensuel, mais un consensualisme de plus en plus encadre par des restrictions, priorites et droits de retractation legalement organises.",
+          "explication": "La fiche articule ainsi liberte de contracter et multiplication des correctifs protecteurs ou d'interet general.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Formation de la vente et limites au consensualisme",
+        "questions": [
+          {
+            "question": "Que signifie concretement la liberte de vendre et d'acheter au point de depart de ce chapitre ?",
+            "choix": [
+              "A. Chacun est libre de vendre ou d'acheter, mais aussi de ne pas le faire, sous reserve des exceptions posees par la loi.",
+              "B. Le vendeur peut toujours imposer la vente a l'acheteur.",
+              "C. L'acheteur peut toujours contraindre le vendeur a contracter.",
+              "D. Aucune incapacite ne peut jamais faire obstacle a la vente."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document traite cette liberte comme un principe general constamment amenage par des temperaments legaux.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi certaines personnes se voient-elles interdire l'achat de certains biens ?",
+            "choix": [
+              "A. Parce qu'elles sont toujours incapables de contracter en general.",
+              "B. Parce que le droit veut prevenir des conflits d'interets ou des abus de position contre certains vendeurs potentiels.",
+              "C. Parce que la vente est un contrat reel.",
+              "D. Parce que toute acquisition est consideree comme suspecte."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document prend l'exemple du tuteur ou du mandataire pour montrer que ces incapacites sont speciales et finalisees.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle est la bonne difference entre vente a la degustation et vente a l'essai ?",
+            "choix": [
+              "A. La premiere suppose une appreciation plus discretionnaire, la seconde un essai loyal fonde sur les qualites objectives de la chose.",
+              "B. La premiere porte sur des immeubles, la seconde sur des meubles.",
+              "C. Les deux fonctionnent exactement de la meme facon.",
+              "D. Aucune des deux ne depend des usages."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document distingue ces deux formes de vente a l'agreage a partir du type d'appreciation laissee a l'acheteur.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quel renversement theorique operent les droits legaux de retractation ?",
+            "choix": [
+              "A. Ils suppriment toute protection des consommateurs.",
+              "B. Ils permettent qu'un contrat deja forme soit defait unilateralement pendant un delai de protection.",
+              "C. Ils remplacent toutes les regles de consentement.",
+              "D. Ils valent seulement pour les ventes de vins."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche y voit l'une des principales transformations contemporaines du consensualisme classique de la vente.",
+            "difficulte": 2
+          }
+        ]
+      }
+    }
+  ]
+}
