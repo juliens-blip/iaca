@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 1017,
+      "fiche": {
+        "titre": "Pot de fleurs jete par des enfants : victime prise en l'etat, garde de la chose, responsabilite des parents et faute de la nounou",
+        "resume": "Cette correction de cas pratique organise plusieurs fondements autour d'un meme accident : Bruno est blesse par un pot de fleurs jete du balcon par deux enfants de sept ans qui ont echappe a la surveillance de leur nounou. Le document insiste sur une idee centrale : il faut d'abord securiser la reparation du dommage corporel, puis choisir les bons responsables selon la logique propre a chaque regime. La fiche retient ainsi quatre axes utiles : la victime est prise en l'etat, le pot de fleurs peut fonder une responsabilite du fait des choses, les parents repondent du fait causal de leurs enfants, et la nounou n'est pas responsable du fait d'autrui mais peut l'etre pour sa propre negligence.",
+        "sections": [
+          {
+            "titre": "La premiere etape consiste a etablir un dommage integralement reparable, y compris en presence d'une fragilite anterieure de la victime",
+            "contenu": "Le document rappelle que Bruno subit un dommage corporel auquel peuvent s'ajouter des postes patrimoniaux et extrapatrimoniaux, comme les frais medicaux, les pertes de revenus, les souffrances endurees ou le prejudice d'agrement. Surtout, la correction applique la regle selon laquelle l'auteur prend la victime en l'etat. Les troubles oculaires deja existants n'effacent donc pas le droit a reparation. Ils obligent seulement a distinguer entre la fragilite anterieure et l'aggravation directement provoquee par le nouveau traumatisme."
+          },
+          {
+            "titre": "L'action la plus naturelle contre les enfants passe par le fait des choses, car le pot en mouvement a ete l'instrument direct du dommage",
+            "contenu": "La fiche souligne que le pot de fleurs entre dans la notion large de chose au sens de l'article 1242, alinea 1. Comme il etait en mouvement et a heurte la tete de Bruno, son role actif est presume. La vraie difficulte porte sur la garde. Les parents proprietaires sont presumes gardiens, mais la correction admet qu'un transfert de garde peut etre retenu au profit des enfants des lors qu'ils disposaient de l'usage, du controle et de la direction de l'objet. Le discernement est indifferent, ce qui permet d'envisager la garde d'un mineur de sept ans."
+          },
+          {
+            "titre": "La faute personnelle des enfants reste concevable, mais elle est moins strategique que la responsabilite objective du fait des choses",
+            "contenu": "Le document n'ecarte pas l'action fondee sur les articles 1240 et 1241. Jeter intentionnellement un objet depuis un balcon constitue bien une violation du devoir general de prudence. Mais cette voie oblige a discuter la faute alors que le fait des choses offre un mecanisme plus favorable a la victime. La correction montre ainsi comment hierarchiser les fondements : utiliser la faute comme soutien ou subsidiairement, sans perdre de vue que le contentieux sera plus simple si la garde de la chose est admise."
+          },
+          {
+            "titre": "Les parents peuvent etre poursuivis sur le fondement du fait d'autrui des lors que l'autorite parentale et la cohabitation demeurent",
+            "contenu": "La fiche retient les conditions classiques de l'article 1242, alinea 4 : minorite des enfants, exercice de l'autorite parentale, cohabitation et fait causal des mineurs. Le point important tient ici a la cohabitation. Le fait d'avoir confie temporairement les enfants a une nounou ne la fait pas disparaitre, car la residence habituelle reste chez les parents. Une fois ces conditions reunies, les parents repondent de plein droit du dommage cause par leurs enfants et ne peuvent pas s'exonerer en prouvant simplement une bonne education ou une surveillance habituelle correcte."
+          },
+          {
+            "titre": "La nounou n'endosse pas la responsabilite des enfants, mais son propre manquement de surveillance peut engager sa faute personnelle",
+            "contenu": "Le document distingue nettement les regimes. La nounou n'est pas un substitut des parents au sens du fait d'autrui. En revanche, si elle a laisse echapper des enfants connus pour etre turbulents alors qu'un danger etait previsible, sa propre abstention peut etre qualifiee de negligence professionnelle. La causalite est alors pensee en termes d'equivalence des conditions : sans ce defaut de surveillance, le jet du pot aurait pu etre evite. La correction montre ainsi comment un meme accident peut ouvrir des actions paralleles contre plusieurs personnes, selon des logiques distinctes."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la fragilite anterieure de Bruno ne diminue-t-elle pas automatiquement son droit a reparation ?",
+          "reponse": "Parce que l'auteur du dommage prend la victime en l'etat et doit reparer l'aggravation directement causee par le nouvel accident.",
+          "explication": "La correction insiste sur la distinction entre predisposition anterieure et aggravation imputable au pot de fleurs.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le pot de fleurs permet-il d'envisager une responsabilite du fait des choses ?",
+          "reponse": "Parce qu'il constitue une chose au sens large et qu'il a frappe la victime en etant en mouvement.",
+          "explication": "Dans cette configuration, le role actif de la chose est presume.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel point est central pour savoir si l'action du fait des choses vise les parents ou les enfants ?",
+          "reponse": "Il faut identifier le gardien effectif du pot au moment du jet, c'est-a-dire celui qui en avait l'usage, le controle et la direction.",
+          "explication": "La correction discute ici un transfert de garde des parents vers les enfants.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'age de sept ans n'empeche-t-il pas les enfants d'etre gardiens de la chose ?",
+          "reponse": "Parce que la garde est une notion objective et que le discernement est indifferent.",
+          "explication": "Le document se place dans le prolongement de la jurisprudence qui admet la garde d'une chose par un mineur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'action pour faute contre les enfants est-elle moins avantageuse que le fait des choses ?",
+          "reponse": "Parce qu'elle oblige a caracteriser une faute alors que le fait des choses fonctionne comme une responsabilite de plein droit.",
+          "explication": "La correction traite la faute comme une voie possible mais moins confortable pour la victime.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel fait suffit a engager la responsabilite des parents du fait de leurs enfants mineurs ?",
+          "reponse": "Il suffit que les enfants aient pris part causalement au dommage, sans qu'il soit necessaire de prouver leur propre faute civile.",
+          "explication": "Le document mobilise ici la logique du fait causal de l'enfant.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la presence d'une nounou ne fait-elle pas disparaitre la cohabitation avec les parents ?",
+          "reponse": "Parce que la cohabitation s'entend juridiquement comme la residence habituelle de l'enfant chez ses parents.",
+          "explication": "Le placement temporaire chez une nounou ne modifie pas ce rattachement principal.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans ce cas, contre quoi les parents ne peuvent-ils pas s'exonerer ?",
+          "reponse": "Ils ne peuvent pas s'exonerer en montrant simplement qu'ils n'ont commis aucune faute de surveillance ou d'education.",
+          "explication": "Le document rappelle le caractere de plein droit du regime parental.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la nounou n'est-elle pas responsable du fait d'autrui dans cette affaire ?",
+          "reponse": "Parce que le regime de l'article 1242, alinea 4, vise les parents et ne se transfere pas a une simple personne chargee de garde temporaire.",
+          "explication": "La correction distingue nettement la garde materielle des enfants et la responsabilite legale du fait d'autrui.",
+          "difficulte": 3
+        },
+        {
+          "question": "Sur quel fondement la nounou peut-elle tout de meme etre poursuivie ?",
+          "reponse": "Sur le terrain de la faute personnelle, en raison d'un manquement a son devoir de surveillance.",
+          "explication": "Son abstention devient alors un element causal de l'accident.",
+          "difficulte": 2
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Pot de fleurs, enfants, parents et nounou",
+        "questions": [
+          {
+            "question": "Quel principe explique que l'etat anterieur de Bruno n'ecarte pas son droit a une indemnisation large ?",
+            "choix": [
+              "A. La victime ne peut jamais invoquer un dommage corporel ancien.",
+              "B. L'auteur du dommage prend la victime en l'etat et repond de l'aggravation directement causee.",
+              "C. Toute fragilite anterieure supprime le lien de causalite.",
+              "D. Le juge ne tient jamais compte des antecedents medicaux."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La correction rappelle que la predisposition anterieure n'efface pas la reparation du prejudice nouveau ou aggrave.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le fait des choses est-il particulierement adapte contre les enfants dans cette affaire ?",
+            "choix": [
+              "A. Parce qu'il supprime toute discussion sur la chose et la garde.",
+              "B. Parce qu'il permet d'agir sans prouver une faute, a condition d'etablir le role du pot et l'identite du gardien.",
+              "C. Parce qu'il ne s'applique qu'aux majeurs.",
+              "D. Parce qu'il exclut toute responsabilite des parents."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document met en avant l'interet strategique d'une responsabilite de plein droit lorsque la garde du pot peut etre attribuee aux enfants.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel point permet de maintenir la responsabilite des parents malgre la presence d'une nounou ?",
+            "choix": [
+              "A. Le simple fait que la nounou soit remuneree.",
+              "B. L'idee que la cohabitation suit la residence habituelle de l'enfant et ne disparait pas lors d'une garde temporaire.",
+              "C. Le fait que l'enfant ait moins de dix ans.",
+              "D. L'existence d'une faute prouvee des parents."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La correction raisonne sur la cohabitation juridique et non sur une presence materielle continue des parents.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la nounou peut-elle etre recherchee alors qu'elle ne repond pas des enfants au titre du fait d'autrui ?",
+            "choix": [
+              "A. Parce qu'elle devient automatiquement parent de substitution.",
+              "B. Parce qu'elle est toujours gardienne de tous les objets utilises par les enfants.",
+              "C. Parce que son propre manquement a la surveillance peut constituer une faute personnelle causalement utile.",
+              "D. Parce qu'elle supporte une responsabilite penale sans lien avec le dommage civil."
+            ],
+            "reponse_correcte": 2,
+            "explication": "La correction distingue la responsabilite du fait d'autrui, reservee aux parents, et la faute personnelle de la nounou.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1018,
+      "fiche": {
+        "titre": "Collision volontaire et fusil de chasse : quand le droit commun reprend la main et comment repartir les responsabilites",
+        "resume": "Ce corrige de galop d'essai juxtapose deux cas pratiques pour entrainer a choisir le bon fondement de responsabilite. Dans le premier, une collision routiere volontaire exclut la loi Badinter et renvoie vers la faute et le fait des choses. Dans le second, des enfants blessent un promeneur avec un fusil laisse charge chez leurs grands-parents, ce qui oblige a repartir les risques entre enfants, grand-pere et parents. La ligne directrice de la fiche est simple : avant de raisonner sur les responsables, il faut verifier si un regime special s'applique, puis identifier le centre de gravite causal de chaque situation.",
+        "sections": [
+          {
+            "titre": "Le premier cas montre qu'un accident de la circulation suppose un evenement involontaire, faute de quoi la loi Badinter s'efface",
+            "contenu": "La correction commence par la voie speciale la plus evidente : la loi du 5 juillet 1985. Mais elle rappelle qu'elle exige un accident de la circulation, donc un evenement soudain et aleatoire impliquant un vehicule terrestre a moteur. Or la voiture percute ici le scooter de maniere volontaire. Le cas ne releve donc pas du regime Badinter. Cette etape est importante, car elle montre que la presence de deux vehicules sur la route ne suffit pas a elle seule : l'intention de heurter fait sortir du domaine du regime special."
+          },
+          {
+            "titre": "Une fois la loi speciale ecartee, la collision volontaire peut etre reconstruite a partir de la faute et du fait des choses",
+            "contenu": "Le conducteur de la voiture a commis une faute intentionnelle au sens des articles 1240 et 1241. La causalite ne souleve pas ici de difficulte. La correction ajoute qu'un second fondement, celui du fait des choses, demeure mobilisable puisque la voiture redevient une chose de droit commun des lors que le regime special n'est plus applicable. Le document montre ainsi qu'une meme situation peut ouvrir plusieurs fondements coherents, a condition de les articuler dans le bon ordre."
+          },
+          {
+            "titre": "Les fautes des victimes ne jouent pas toutes de la meme facon, car seule la faute en lien causal avec le dommage peut reduire l'indemnisation",
+            "contenu": "Le corrige distingue soigneusement Michel et Madeleine. L'alcoolisation de Michel n'a pas contribue a l'accident : il etait arrete au feu rouge et n'aurait pas pu eviter le choc volontaire. En revanche, l'absence de casque de Madeleine a pu aggraver sa blessure a la tete. La fiche retient ici une lecon utile : une faute de la victime n'est pertinente que si elle entretient un lien avec la production du dommage ou son aggravation. A defaut, elle ne justifie aucune reduction."
+          },
+          {
+            "titre": "Le second cas fait d'abord peser le risque sur les enfants gardiens de la balle, avec une possible garde collective",
+            "contenu": "Dans l'affaire du fusil, la correction admet que les enfants peuvent etre responsables pour faute, mais surtout du fait des choses. La balle est une chose en mouvement entree en contact avec la victime, ce qui facilite la preuve du role actif. La garde est transferee des mains du grand-pere proprietaire vers les enfants qui manipulent l'arme. Si l'auteur precis du tir ne peut etre isole, la jurisprudence permet meme d'envisager une garde commune dans certains accidents de chasse. La responsabilite des enfants devient donc la premiere assise du raisonnement."
+          },
+          {
+            "titre": "Le grand-pere et les parents ne repondent pas pour la meme raison : l'un pour sa negligence, les autres du seul fait causal de leurs enfants",
+            "contenu": "La correction refuse toute responsabilite des grands-parents sur le terrain de l'article 1242, alinea 4, reserve aux pere et mere. En revanche, le grand-pere peut etre personnellement fautif pour avoir laisse une arme chargee accessible a de jeunes enfants. Les parents, eux, peuvent etre recherches du fait de leurs enfants si les conditions classiques sont reunies, notamment la minorite, l'autorite parentale et la cohabitation. Le point cle est que les vacances chez les grands-parents ne font pas cesser la cohabitation juridique avec les parents."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la collision entre la voiture et le scooter n'entre-t-elle pas dans le champ de la loi Badinter ?",
+          "reponse": "Parce que le choc est volontaire et ne constitue donc pas un accident de la circulation au sens de la loi du 5 juillet 1985.",
+          "explication": "La correction utilise ici l'absence d'aleatoire pour renvoyer au droit commun.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que devient la voiture une fois la loi Badinter ecartee ?",
+          "reponse": "Elle redevient une chose relevant du droit commun de la responsabilite du fait des choses.",
+          "explication": "Le document montre que l'exclusion du regime special ne laisse pas la victime sans autre fondement.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la faute du conducteur de la voiture est-elle particulierement facile a caracteriser dans le premier cas ?",
+          "reponse": "Parce que le heurt est volontaire et traduit un manquement intentionnel au devoir general de prudence.",
+          "explication": "La correction qualifie directement le comportement de faute intentionnelle.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'alcool de Michel n'entraine-t-il pas une reduction de son indemnisation ?",
+          "reponse": "Parce qu'il n'existe pas de lien causal entre cet etat et le choc volontaire qu'il a subi a l'arret.",
+          "explication": "La correction rappelle que seule une faute utile causalement peut produire un effet exoneratoire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la situation de Madeleine est-elle differente de celle de Michel ?",
+          "reponse": "Parce que l'absence de casque a pu aggraver sa blessure a la tete et peut donc justifier une reduction de sa reparation.",
+          "explication": "Le corrige raisonne ici sur l'aggravation du dommage plutot que sur la survenance de l'accident lui-meme.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle chose sert de support principal a la responsabilite du fait des choses dans l'affaire du fusil ?",
+          "reponse": "La balle ayant atteint le promeneur.",
+          "explication": "Le document choisit la balle comme instrument direct du dommage corporel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les enfants peuvent-ils etre gardiens de la balle ou du fusil ?",
+          "reponse": "Parce que la garde est objective et peut etre transferee a ceux qui manipulent effectivement l'arme, meme s'ils sont mineurs.",
+          "explication": "La correction s'appuie sur l'indifference du discernement en matiere de garde.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que signifie l'idee de garde collective dans le second cas ?",
+          "reponse": "Elle signifie que si l'auteur precis du tir ne peut etre identifie, plusieurs enfants peuvent etre regardes comme gardiens ensemble de la chose dommageable.",
+          "explication": "Le document renvoie a la jurisprudence admettant cette solution dans certaines situations de groupe.",
+          "difficulte": 4
+        },
+        {
+          "question": "Pourquoi les grands-parents echappent-ils au fondement du fait d'autrui ?",
+          "reponse": "Parce que l'article 1242, alinea 4, vise les parents au premier degre et non les grands-parents.",
+          "explication": "La correction distingue ici tres nettement le cercle des responsables legaux.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le point decisif pour engager les parents des enfants malgre leur absence sur le lieu du tir ?",
+          "reponse": "Les vacances chez les grands-parents ne font pas cesser la cohabitation juridique avec les parents.",
+          "explication": "La responsabilite parentale se maintient donc si les autres conditions sont remplies.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Collision volontaire et fusil laisse charge",
+        "questions": [
+          {
+            "question": "Pourquoi le premier cas ne releve-t-il pas de la loi du 5 juillet 1985 alors meme qu'il implique deux vehicules sur la route ?",
+            "choix": [
+              "A. Parce que seul un camion peut relever de cette loi.",
+              "B. Parce qu'un choc volontaire ne constitue pas l'accident involontaire exige par le regime special.",
+              "C. Parce qu'un scooter n'est jamais un vehicule terrestre a moteur.",
+              "D. Parce que les blessures corporelles sont exclues du texte."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le corrige montre que la qualification d'accident suppose un evenement aleatoire. La volonte de percuter fait basculer vers le droit commun.",
+            "difficulte": 2
+          },
+          {
+            "question": "Dans le premier cas, quelle faute de victime peut reellement avoir un effet sur l'indemnisation ?",
+            "choix": [
+              "A. L'alcoolisation de Michel, meme sans lien avec le choc.",
+              "B. L'absence de casque de Madeleine, car elle peut avoir aggrave sa blessure a la tete.",
+              "C. La simple presence de Michel sur le scooter.",
+              "D. Le fait que les victimes rentrent de soiree."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La correction distingue la faute sans utilite causale de celle qui a un lien avec l'etendue du dommage.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi les enfants peuvent-ils etre tenus du fait des choses dans le second cas ?",
+            "choix": [
+              "A. Parce qu'ils sont automatiquement responsables de toute chose appartenant a un adulte.",
+              "B. Parce qu'ils ont pu recevoir la garde de l'arme ou de la balle qu'ils manipulaient effectivement, meme sans discernement.",
+              "C. Parce que la responsabilite du fait des choses n'exige jamais de gardien.",
+              "D. Parce que la victime a choisi ce fondement arbitrairement."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document met l'accent sur l'usage, le controle et la direction au moment du dommage.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quelle articulation correcte faut-il retenir entre grand-pere et parents dans l'affaire du fusil ?",
+            "choix": [
+              "A. Les grands-parents repondent automatiquement comme les parents.",
+              "B. Le grand-pere ne peut jamais etre poursuivi.",
+              "C. Le grand-pere peut etre fautif pour avoir laisse l'arme accessible, tandis que les parents peuvent repondre du fait causal de leurs enfants si la cohabitation demeure.",
+              "D. Seuls les enfants peuvent etre poursuivis."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le corrige oppose la faute personnelle du grand-pere et la responsabilite legale des parents.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1020,
+      "fiche": {
+        "titre": "Chariot de supermarche, enfant agite et flaque d'huile : faute du pere, garde du caddie et exonerations partielles",
+        "resume": "Cette correction de cas pratique etudie un accident banal en apparence, mais juridiquement tres riche : un enfant de quatre ans percute une cliente avec un chariot dans un supermarche, sur fond de surveillance parentale defaillante, de flaque d'huile non nettoyee et de protheses auditives oubliees par la victime. Le document montre que l'affaire ne se resout pas par un responsable unique. La fiche retient donc une structure a trois etages : faute personnelle du pere, responsabilite du fait des choses de l'enfant gardien du caddie, puis partage eventuel du poids final de l'indemnisation entre victime, tiers et responsables initiaux.",
+        "sections": [
+          {
+            "titre": "La faute de Richard tient a un defaut de surveillance caracterise, apprecie selon le comportement d'un parent raisonnable",
+            "contenu": "Le document part des articles 1240 et 1241 et qualifie la conduite de Richard comme une negligence. Il sait que son fils est tres agite, lui demande de se calmer, puis finit par le laisser circuler seul avec le chariot pendant qu'il poursuit ses courses. La correction retient que cette abstention viole le devoir general de prudence. Elle n'exige pas une faute exceptionnelle : il suffit que Richard ne se comporte pas comme un parent raisonnable place dans la meme situation."
+          },
+          {
+            "titre": "La causalite contre le pere repose surtout sur l'equivalence des conditions, car sans son abandon de surveillance l'accident aurait pu etre evite",
+            "contenu": "Le document oppose les deux theories classiques de la causalite. Si l'on privilegie la causalite adequate, le chariot conduit par Lionel semble etre la cause immediate du dommage. Mais la correction souligne que, dans le contentieux de la faute, la jurisprudence admet souvent l'equivalence des conditions. Dans cette perspective, l'inaction initiale du pere entre bien dans la chaine causale. Le raisonnement permet donc de retenir Richard sans nier que d'autres evenements ont egalement concouru au resultat."
+          },
+          {
+            "titre": "Lionel peut etre tenu comme gardien du chariot, car le supermarche transfere la garde a celui qui use effectivement de la chose",
+            "contenu": "La fiche rappelle que le chariot est une chose au sens large et qu'il est entre en contact avec la victime en etant en mouvement. Son role actif est donc presume. Le point le plus instructif du document est la garde. Le supermarche reste proprietaire des caddies, mais leur mise a disposition transfere en principe la garde au client utilisateur. La correction va plus loin : l'enfant qui pousse effectivement le chariot peut lui-meme en devenir gardien, peu important son absence de discernement."
+          },
+          {
+            "titre": "Les causes d'exoneration ne suppriment pas necessairement la responsabilite, mais peuvent en redistribuer le poids",
+            "contenu": "Ni Richard ni Lionel ne peuvent invoquer utilement une force majeure. En revanche, la correction identifie deux series d'elements externes. D'un cote, Suzanne avait oublie ses protheses auditives, ce qui peut justifier une reduction de son indemnisation si cette faute a contribue au dommage. De l'autre, la flaque d'huile due a un client maladroit et non nettoyee par le magasin constitue un fait de tiers. Comme ce fait ne presente pas les caracteres de la force majeure, il ne libere pas entierement les responsables initiaux, mais ouvre plutot la voie a un partage et a des recours ulterieurs."
+          },
+          {
+            "titre": "L'interet pedagogique du document tient aussi a ce qu'il se limite volontairement aux fondements du programme revise",
+            "contenu": "La correction precise qu'elle ne developpe pas la responsabilite du fait d'autrui des parents, non parce que ce fondement serait impossible en theorie, mais parce qu'il ne faisait pas partie du programme de l'interrogation. Cette remarque est utile pour comprendre la logique du document : il ne s'agit pas seulement d'aboutir a une solution, mais de montrer comment selectionner les moyens juridiques pertinents dans le perimetre d'une epreuve. La fiche en tire une regle simple : un bon cas pratique commence par les fondements les plus directement justifies par les faits et par le programme applicable."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la conduite de Richard peut-elle etre qualifiee de faute personnelle ?",
+          "reponse": "Parce qu'il a laisse sans surveillance un enfant connu pour etre agite avec un chariot dans les rayons.",
+          "explication": "La correction y voit un manquement au devoir general de prudence.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle theorie de la causalite aide surtout a retenir la responsabilite de Richard ?",
+          "reponse": "L'equivalence des conditions, car sans son defaut de surveillance l'accident n'aurait pas pris cette forme.",
+          "explication": "Le document admet que la causalite adequate ferait ressortir plus directement le role du chariot.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le dommage de Suzanne ne pose-t-il pas de difficulte particuliere dans cette correction ?",
+          "reponse": "Parce qu'il est corporel, direct, personnel, certain et parfaitement identifiable a partir de la fracture du femur et de ses suites.",
+          "explication": "Le document traite donc le dommage plus rapidement que les questions de fait generateur et de causalite.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le chariot releve-t-il du fait des choses ?",
+          "reponse": "Parce qu'il s'agit d'une chose corporelle ordinaire qui ne releve d'aucun regime special et qui a percute la victime en mouvement.",
+          "explication": "Le role actif du caddie est alors presume.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est le point cle pour attribuer la garde du chariot a Lionel ?",
+          "reponse": "Il faut constater qu'il en avait l'usage, le controle et la direction au moment de l'accident.",
+          "explication": "La correction applique ici la conception materielle de la garde.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le supermarche n'est-il pas necessairement gardien du chariot au moment du dommage ?",
+          "reponse": "Parce que la mise a disposition du caddie aux clients emporte en principe un transfert de garde pendant son utilisation.",
+          "explication": "Le document fait reference a la jurisprudence deja admise sur les chariots de magasin.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que peut invoquer Richard pour demander une exoneration partielle ?",
+          "reponse": "La faute de Suzanne et le fait du client maladroit ainsi que celui du magasin qui n'a pas nettoye la flaque d'huile.",
+          "explication": "Aucun de ces elements n'efface entierement sa responsabilite, mais ils peuvent modifier la repartition finale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la flaque d'huile ne constitue-t-elle pas une exoneration totale pour Richard ou Lionel ?",
+          "reponse": "Parce que le fait du tiers n'a pas ici les caracteres de la force majeure.",
+          "explication": "La correction envisage donc plutot un recours ou un partage que la disparition pure et simple de leur obligation envers la victime.",
+          "difficulte": 3
+        },
+        {
+          "question": "En quoi l'oubli des protheses auditives de Suzanne peut-il compter juridiquement ?",
+          "reponse": "Il peut etre analyse comme une faute de la victime si cet oubli a contribue a l'impossibilite d'eviter l'accident.",
+          "explication": "Le document raisonne ici sur l'exoneration partielle et non sur une disparition automatique du droit a reparation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la correction ne developpe-t-elle pas la responsabilite du fait d'autrui des parents ?",
+          "reponse": "Parce que ce fondement ne faisait pas partie du programme de revision de l'interrogation, meme s'il pourrait etre pertinent dans une autre epreuve.",
+          "explication": "Le document est aussi un modele de selection methodique des moyens utiles.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Chariot, parent negligent et flaque d'huile",
+        "questions": [
+          {
+            "question": "Quel comportement permet surtout de retenir une faute contre Richard ?",
+            "choix": [
+              "A. Le simple fait de faire ses courses un samedi.",
+              "B. Le fait d'avoir oublie ses propres protheses auditives.",
+              "C. Le fait d'avoir laisse sans surveillance un enfant agite pousser seul un chariot dans le magasin.",
+              "D. Le fait d'utiliser un caddie fourni par le supermarche."
+            ],
+            "reponse_correcte": 2,
+            "explication": "La correction qualifie cette abstention de manquement au devoir general de prudence.",
+            "difficulte": 1
+          },
+          {
+            "question": "Pourquoi Lionel peut-il etre regarde comme gardien du chariot alors qu'il n'en est pas proprietaire ?",
+            "choix": [
+              "A. Parce que la garde se confond toujours avec la propriete.",
+              "B. Parce qu'il avait materiellement l'usage, le controle et la direction du caddie lors du choc.",
+              "C. Parce qu'un enfant est automatiquement gardien de tout objet a sa portee.",
+              "D. Parce que le supermarche reste toujours seul responsable."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document applique la definition materielle de la garde et l'indifference du discernement.",
+            "difficulte": 2
+          },
+          {
+            "question": "Comment la flaque d'huile est-elle prise en compte dans la correction ?",
+            "choix": [
+              "A. Comme une force majeure liberant totalement les responsables.",
+              "B. Comme un fait du tiers pouvant justifier des recours ou un partage sans effacer entierement l'obligation envers la victime.",
+              "C. Comme un element sans aucune utilite juridique.",
+              "D. Comme la preuve que seul le magasin est responsable."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La correction n'y voit pas un evenement irresistiblement exoneratoire, mais une circonstance de repartition du poids final.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quelle lecon methodologique le document donne-t-il a la fin ?",
+            "choix": [
+              "A. Il faut toujours traiter tous les fondements possibles meme hors programme.",
+              "B. Il faut commencer par les fondements les plus directement commandes par les faits et par le cadre reel de l'epreuve.",
+              "C. Il faut ignorer les causes d'exoneration dans un cas pratique.",
+              "D. Il faut preferer le dommage a toute autre question."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La correction assume de ne pas traiter le fait d'autrui pour rester conforme au programme revise et a la strategie de copie attendue.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1022,
+      "fiche": {
+        "titre": "Sujet de galop d'essai en obligations : cartographier les questions utiles avant de choisir les fondements",
+        "resume": "Ce sujet de galop d'essai ne contient pas encore la solution, mais il est deja tres formateur parce qu'il impose une cartographie precise des problemes. Le premier cas combine collision routiere, perte de chance et fautes de victimes. Le second met en scene des enfants, un fusil laisse charge, des grands-parents et des parents absents. La fiche traite donc le document comme un plan de resolution : elle reformule les vraies questions a poser avant toute majeure et montre comment transformer un sujet brut en raisonnement ordonne.",
+        "sections": [
+          {
+            "titre": "Dans le premier cas, il faut d'abord inventorier les prejudices sans confondre perte de chance certaine et avantage seulement espere",
+            "contenu": "Le sujet indique des blessures corporelles, des frais et une incapacite de travail, mais il ajoute surtout un enjeu de carriere pour Michel, danseur professionnel. La bonne lecture consiste a distinguer ce qui est deja perdu avec certitude, comme le cachet de l'emission ou la visibilite immediatement compromise, et ce qui reste trop hypothetique, comme l'eventuel recrutement ulterieur par un entrepreneur de spectacles. Le document invite donc a raisonner finement sur la perte de chance, en evitant de transformer toute perspective favorable en prejudice indemnisable."
+          },
+          {
+            "titre": "Le premier cas impose ensuite un test de qualification : regime special des accidents de la circulation ou retour au droit commun",
+            "contenu": "Le sujet mentionne un scooter, une voiture et une collision a un feu rouge, ce qui pousse spontanement vers la loi du 5 juillet 1985. Mais il precise aussi que la voiture heurte volontairement le deux-roues. La bonne methode consiste alors a verifier si l'on est encore en presence d'un accident de la circulation au sens du regime special, ou si cette volonte de heurter fait basculer vers les fondements ordinaires de la faute et du fait des choses. La question n'est pas secondaire : tout le reste du raisonnement depend de ce premier choix."
+          },
+          {
+            "titre": "Les fautes eventuelles des victimes doivent etre examinees separement car elles n'affectent pas toutes le droit a reparation de la meme maniere",
+            "contenu": "Michel est alcoolise, Madeleine ne porte pas de casque. Le sujet oblige a ne pas raisonner globalement. Il faut demander, pour chacun, si le comportement reproche a concouru a la survenance de l'accident ou a l'aggravation du dommage. Cette facon de decomposer le cas montre deja une bonne copie : au lieu d'empiler des faits, on mesure leur utilite causale propre."
+          },
+          {
+            "titre": "Le second cas appelle une repartition methodique des responsables potentiels entre enfants, grand-pere et parents",
+            "contenu": "Trois enfants utilisent une arme chargee laissee sur une table. Un promeneur est blesse. Le sujet demande donc d'identifier d'abord le ou les enfants susceptibles d'etre tenus, ensuite la place du grand-pere qui a laisse l'arme accessible, enfin celle des parents alors meme qu'ils ne sont pas sur les lieux. La cle methodologique tient a cette repartition des blocs de responsabilite : on ne traite pas tous les adultes de la meme maniere, car les grands-parents ne repondent pas legalement des enfants comme les parents peuvent le faire."
+          },
+          {
+            "titre": "La vraie competence evaluee par ce sujet est la capacite a ordonner le cas pratique avant meme d'ecrire la majeure",
+            "contenu": "Ce document illustre une realite des epreuves de responsabilite civile : la difficulte ne tient pas seulement aux regles, mais a l'ordre dans lequel on les mobilise. Un bon devoir commence par la qualification des dommages, poursuit par le tri entre regime special et droit commun, puis isole pour chaque personne le fondement juridiquement pertinent et les eventuelles causes d'exoneration. La fiche transforme ainsi le sujet en grille de lecture reutilisable pour d'autres cas voisins."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le premier cas du sujet oblige-t-il a distinguer plusieurs categories de prejudice ?",
+          "reponse": "Parce qu'il combine des atteintes corporelles et patrimoniales immediates avec une question plus delicate de perte de chance professionnelle.",
+          "explication": "Le document pousse a separer ce qui est certain de ce qui reste seulement espere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle confusion faut-il eviter a propos du recrutement espere par Michel ?",
+          "reponse": "Il ne faut pas assimiler une simple eventualite de carriere a une perte de chance automatiquement indemnisable.",
+          "explication": "La fiche insiste sur la necessite de verifier le caractere suffisamment certain de la chance perdue.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel test de qualification ouvre le premier cas avant meme le choix du fondement ?",
+          "reponse": "Il faut verifier si la collision volontaire reste un accident de la circulation ou impose un retour au droit commun.",
+          "explication": "Le sujet met volontairement en tension le reflexe Badinter et l'idee de choc intentionnel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi faut-il dissocier la situation de Michel et celle de Madeleine ?",
+          "reponse": "Parce que leurs comportements respectifs n'ont pas necessairement le meme lien causal avec l'accident ou l'etendue du dommage.",
+          "explication": "La methode consiste a examiner chaque faute de victime separement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est la premiere bonne habitude de raisonnement dans le second cas du fusil ?",
+          "reponse": "Identifier distinctement les responsables potentiels parmi les enfants, le grand-pere et les parents au lieu de les traiter comme un groupe uniforme.",
+          "explication": "Le sujet sanctionne les copies qui melangent les fondements applicables a chacun.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le grand-pere et les parents n'occupent-ils pas la meme place juridique dans le second cas ?",
+          "reponse": "Parce que le grand-pere peut etre discute pour sa propre negligence, tandis que les parents posent la question specifique du fait d'autrui.",
+          "explication": "La fiche reformule ici la bonne repartition des blocs de raisonnement.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel avantage apporte la decomposition du sujet en blocs de questions avant d'ecrire la majeure ?",
+          "reponse": "Elle permet de ne pas oublier un responsable, de ne pas inverser les fondements et d'ordonner le cas pratique de facon lisible.",
+          "explication": "Le document est traite comme une grille de lecture et non comme une simple liste de faits.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi ce sujet est-il utile meme sans corrige immediat ?",
+          "reponse": "Parce qu'il entraine d'abord a reperer les vraies difficultes de qualification et d'articulation des responsabilites.",
+          "explication": "La fiche en fait un exercice de cartographie juridique avant d'etre un exercice de restitution de cours.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le risque d'une lecture trop rapide du premier cas ?",
+          "reponse": "Partir directement sur la loi Badinter ou sur une perte de chance generale sans verifier les conditions precises de qualification.",
+          "explication": "Le sujet est justement construit pour tester ces automatismes.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce sujet de galop ?",
+          "reponse": "Un bon cas pratique de responsabilite commence par un tri methodique des questions avant la mobilisation des regimes juridiques.",
+          "explication": "La fiche transforme le document en methode transferable a d'autres dossiers proches.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Lire un sujet de responsabilite avant de le resoudre",
+        "questions": [
+          {
+            "question": "Quelle erreur de lecture faut-il eviter a propos de Michel dans le premier cas ?",
+            "choix": [
+              "A. Considerer que toute perspective de carriere manquee constitue automatiquement un prejudice indemnisable.",
+              "B. Distinguer les pertes immediates des avantages seulement esperes.",
+              "C. Examiner la perte de chance de facon nuancee.",
+              "D. Identifier aussi les prejudices corporels et patrimoniaux immediats."
+            ],
+            "reponse_correcte": 0,
+            "explication": "La fiche rappelle qu'une simple eventualite, comme un recrutement futur incertain, ne doit pas etre confondue avec une chance juridiquement indemnisable.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel est le premier carrefour de qualification dans le cas de la collision au feu rouge ?",
+            "choix": [
+              "A. Choisir tout de suite entre faute et contrat.",
+              "B. Verifier d'abord si la volonte de heurter laisse encore place au regime special des accidents de la circulation.",
+              "C. Ne raisonner que sur la gravite des blessures.",
+              "D. Supposer que la presence d'une voiture suffit a appliquer automatiquement la loi Badinter."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le sujet teste la capacite a ne pas appliquer machinalement le regime special sans verifier la condition d'accident.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le second cas doit-il etre decoupe entre enfants, grand-pere et parents ?",
+            "choix": [
+              "A. Parce qu'ils repondent tous sur un seul et meme fondement.",
+              "B. Parce que leurs positions juridiques et les fondements mobilisables ne sont pas les memes.",
+              "C. Parce que seuls les grands-parents peuvent etre poursuivis.",
+              "D. Parce que les enfants ne peuvent jamais etre responsables."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche montre qu'une copie solide se construit par blocs de responsabilite et non par commentaire lineaire des faits.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle competence profonde ce sujet cherche-t-il surtout a evaluer ?",
+            "choix": [
+              "A. La memoire brute des articles du Code civil sans application.",
+              "B. La capacite a ordonner les questions, hierarchiser les fondements et isoler pour chaque personne le regime pertinent.",
+              "C. La redaction la plus longue possible.",
+              "D. La seule qualification des dommages corporels."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document sert ici de support methodologique : avant la majeure, il faut deja savoir trier et structurer le cas pratique.",
+            "difficulte": 3
+          }
+        ]
+      }
+    }
+  ]
+}

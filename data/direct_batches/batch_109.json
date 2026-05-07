@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 1023,
+      "fiche": {
+        "titre": "Introduction au droit des affaires : logique commerciale, actes de commerce et place des societes",
+        "resume": "Ce document de synthese dresse une carte d'ensemble du droit des affaires avant d'entrer dans les regimes techniques. Il rappelle que ce droit ne se confond ni avec le seul droit commercial historique ni avec la seule personne du commercant. La fiche retient une idee directrice : le droit des affaires se comprend comme un droit de l'activite economique organise autour de trois noyaux, les sources et l'histoire de la matiere, la qualification des commercants et des actes de commerce, puis l'usage de la forme societaire pour structurer l'entreprise.",
+        "sections": [
+          {
+            "titre": "Le droit des affaires depasse le vieux droit commercial car il suit l'activite economique autant que la personne du commercant",
+            "contenu": "Le document part de la tension classique entre theorie subjective et theorie objective. La premiere rattache la matiere aux commercants, la seconde aux operations commerciales. La tradition francaise combine les deux. Cette mise en perspective permet de comprendre pourquoi le droit des affaires s'est progressivement affranchi d'une vision trop etroite du commerce pour englober plus largement les entreprises, les techniques de financement, l'organisation des societes et l'encadrement public du marche."
+          },
+          {
+            "titre": "L'histoire montre une construction par couches, de la lex mercatoria aux codifications modernes",
+            "contenu": "La fiche reprend les grandes etapes du document. Le commerce ancien fait emerger des pratiques et des juridictions specialisees. Le Moyen Age puis le renouveau des foires font naitre des instruments comme la lettre de change et la commandite. L'epoque moderne ajoute les juridictions consulaires et la logique colbertiste. Enfin, la Revolution, le Code de commerce de 1807 et les grandes lois sur les societes ou la propriete industrielle transforment la matiere en droit structure de l'economie. L'interet du document est de montrer que le droit des affaires s'est toujours developpe au contact des besoins pratiques des operateurs."
+          },
+          {
+            "titre": "Les sources du droit des affaires melent intervention publique et normes professionnelles",
+            "contenu": "Le document distingue les sources venant des autorites publiques, nationales ou internationales, et celles issues de la pratique des professionnels. D'un cote, la Constitution, le droit europeen, l'OMC ou les conventions internationales organisent la liberte d'entreprendre, la circulation et certains instruments de commerce. De l'autre, les usages et contrats-types jouent un role decisif dans la vie des affaires. La fiche insiste toutefois sur une nuance importante : tous les usages n'ont pas la meme force, et les usages conventionnels doivent etre prouves lorsqu'ils sont invoques."
+          },
+          {
+            "titre": "La qualite de commercant suppose une activite habituelle exercee en son nom et pour son compte",
+            "contenu": "Le coeur du statut personnel tient dans la repetition d'actes de commerce accomplis a titre de profession. Le document souligne l'esprit de lucre, l'exercice pour son propre compte et la capacite commerciale. Il rappelle aussi que tous ceux qui participent a la vie economique ne sont pas commercants : l'artisan, l'agriculteur ou certaines professions liberales relevent d'autres logiques, meme si les frontieres se deplacent parfois. La fiche retient ici une vigilance de qualification : il faut distinguer celui qui engage son patrimoine dans l'activite de celui qui ne fait que diriger pour autrui."
+          },
+          {
+            "titre": "Les actes de commerce et la forme societaire structurent ensuite la vie des entreprises au-dela de la seule personne physique",
+            "contenu": "Le document propose plusieurs categories d'actes de commerce : par l'objet, par accessoire, par la forme ou encore en lien avec le fonds ou la societe. Il montre ensuite que la societe est un instrument d'organisation decisif. Certaines sont commerciales par la forme, d'autres par leur objet. Les apports, l'affectio societatis, la participation aux resultats et la distinction entre societes de personnes et societes de capitaux servent ici a comprendre comment l'entreprise se separe progressivement de la seule figure individuelle du commercant."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le droit des affaires ne se reduit-il pas au seul droit des commercants ?",
+          "reponse": "Parce qu'il suit aussi les operations economiques, les entreprises et les techniques juridiques qui structurent leur activite.",
+          "explication": "Le document oppose ici theorie subjective et theorie objective avant de montrer leur combinaison en droit francais.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role la lex mercatoria joue-t-elle dans l'histoire du droit des affaires ?",
+          "reponse": "Elle illustre l'emergence de regles communes issues des pratiques marchandes avant meme les grandes codifications etatiques.",
+          "explication": "La fiche la relie au developpement des foires, des echanges et des juridictions specialisees.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la lettre de change est-elle importante dans ce chapitre historique ?",
+          "reponse": "Parce qu'elle montre comment le commerce a engendre ses propres instruments de circulation des fonds et de securisation des echanges.",
+          "explication": "Le document la presente comme une innovation liee au renouveau des foires et des trajets marchands.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles sont les deux grandes familles de sources du droit des affaires relevees dans le document ?",
+          "reponse": "Les sources publiques, nationales ou internationales, et les sources issues de la pratique professionnelle comme les usages.",
+          "explication": "La fiche insiste sur le fait que tous les usages n'ont pas la meme valeur normative.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les usages conventionnels doivent-ils etre prouves ?",
+          "reponse": "Parce qu'ils valent par renvoi implicite des parties et non comme regles de droit automatiquement connues du juge.",
+          "explication": "Le document oppose ici usages de droit et usages conventionnels.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelles conditions permettent d'etre qualifie de commercant ?",
+          "reponse": "Il faut exercer de facon habituelle des actes de commerce, en son nom et pour son compte, avec la capacite commerciale necessaire.",
+          "explication": "La fiche montre que l'habitude et l'engagement du patrimoine sont essentiels.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi un dirigeant de societe n'est-il pas toujours commercant personnellement ?",
+          "reponse": "Parce qu'il peut agir pour la societe sans exercer l'activite en son nom propre ni engager directement son patrimoine comme commercant.",
+          "explication": "Le document distingue ainsi statut de la personne et activite de l'entite qu'elle dirige.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que veut montrer la classification des actes de commerce dans le document ?",
+          "reponse": "Elle montre que la commercialite peut provenir de l'objet de l'acte, de sa forme, de son rattachement a une activite ou a une societe.",
+          "explication": "La fiche y voit un outil de qualification souple mais technique.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi certaines societes sont-elles commerciales par la forme ?",
+          "reponse": "Parce que la loi attache la commercialite au type societaire lui-meme, independamment de l'activite effectivement exercee.",
+          "explication": "Le document cite notamment des formes comme la SARL, la SA ou la SAS.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette fiche d'introduction ?",
+          "reponse": "Le droit des affaires est un droit pratique de l'activite economique, construit par l'histoire, alimente par des sources multiples et organise autour des acteurs, des actes et des societes.",
+          "explication": "La fiche rassemble ici les trois grands noyaux du document : histoire, qualification commerciale et structure societaire.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Introduction au droit des affaires",
+        "questions": [
+          {
+            "question": "Que montre la combinaison des theories subjective et objective en droit des affaires ?",
+            "choix": [
+              "A. Que seule la personne du commercant compte.",
+              "B. Que seules les operations comptent sans consideration des acteurs.",
+              "C. Que le droit francais articule a la fois la qualite des personnes et la nature des operations economiques.",
+              "D. Que le droit des affaires est identique au droit fiscal."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document insiste sur cette combinaison pour montrer que la matiere depasse le simple droit commercial traditionnel.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi les usages professionnels ne doivent-ils pas etre traites comme un bloc uniforme ?",
+            "choix": [
+              "A. Parce qu'ils sont tous automatiquement illegaux.",
+              "B. Parce que certains valent comme usages de droit alors que d'autres ne jouent qu'en tant qu'usages conventionnels a prouver.",
+              "C. Parce qu'ils ne concernent jamais les commercants.",
+              "D. Parce qu'ils remplacent toujours la loi ecrite."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche distingue leur force normative et leurs conditions de preuve.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quel element est decisif pour qualifier une personne de commercant ?",
+            "choix": [
+              "A. Le fait de posseder une societe cotee.",
+              "B. L'exercice habituel d'actes de commerce en son nom et pour son compte.",
+              "C. Le seul objectif de realiser un benefice un jour.",
+              "D. La possession d'un fonds immobilier."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rattache cette qualite a l'habitude professionnelle et a l'engagement personnel dans l'activite.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la forme societaire occupe-t-elle une place centrale dans cette introduction ?",
+            "choix": [
+              "A. Parce qu'elle permet d'organiser l'activite economique au-dela de la seule personne physique du commercant.",
+              "B. Parce qu'elle supprime toute difference entre societes civiles et commerciales.",
+              "C. Parce qu'elle rend inutile la notion d'apport.",
+              "D. Parce qu'elle remplace integralement les actes de commerce."
+            ],
+            "reponse_correcte": 0,
+            "explication": "La fiche montre que les societes structurent l'entreprise, la repartition des risques et la personnalisation de l'activite.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1024,
+      "fiche": {
+        "titre": "Origines romaines de l'obligation : du lien contraignant aux sources du consentement",
+        "resume": "Ce document retrace la formation de la notion d'obligation dans le droit romain et montre que nos categories contemporaines ont une histoire longue. Il part des transformations des sources et des procedures romaines, puis suit la naissance de l'obligation comme lien de droit, la diversification de ses sources et l'apparition des exigences relatives au consentement. La fiche retient une idee directrice : l'obligation n'est pas nee d'un seul bloc, elle s'est construite a partir des formes d'action, des techniques de contrainte et d'une lente abstraction doctrinale qui culmine chez Justinien.",
+        "sections": [
+          {
+            "titre": "Le droit romain se comprend d'abord comme un droit des actions avant d'etre un droit des concepts",
+            "contenu": "Le document rappelle qu'a l'epoque archaique, un droit sans action n'existe pas reellement. La Loi des Douze Tables fixe des procedures et des sanctions plus qu'elle ne livre une theorie abstraite des droits subjectifs. Cette perspective est essentielle pour lire la suite : l'obligation se construit progressivement a partir des moyens de poursuite et d'execution, avant de devenir une categorie conceptuelle generalisee."
+          },
+          {
+            "titre": "La periode classique enrichit la matiere grace au preteur et a la jurisprudence, qui font passer des situations de fait au statut de situations juridiques",
+            "contenu": "Le document insiste sur le role createur du preteur. En ouvrant des actions nouvelles, il permet de reconnaitre des rapports juridiques que le vieux droit civil ne captait pas encore. La procedure formulaire illustre ce mouvement : elle canalise le conflit en deux temps, devant le preteur puis devant le juge. La fiche retient que l'obligation romaine devient ici plus souple et plus rationnelle, parce qu'elle est travaillee par la pratique, le commerce et la science des juristes."
+          },
+          {
+            "titre": "Chez Justinien, l'obligation apparait comme un lien de droit associant contrainte et prestation",
+            "contenu": "La definition classique de l'obligation comme lien de droit astreignant a payer ou fournir quelque chose marque un tournant. Le document la decompose autour de trois termes : le vinculum juris, c'est-a-dire le lien juridique entre personnes ; la necessitas, qui exprime la possibilite de contraindre le debiteur ; et la prestation, qu'elle consiste a donner, faire ou fournir. Cette decomposition permet de comprendre pourquoi l'obligation n'est pas seulement une relation morale, mais une structure juridique appuyee sur la sanction."
+          },
+          {
+            "titre": "Les sources de l'obligation se stabilisent peu a peu autour du contrat, du delit et de categories voisines",
+            "contenu": "La fiche suit la progression du document depuis Gaius jusqu'a Justinien. Gaius oppose d'abord contrat et delit. Justinien affine ensuite en ajoutant les situations comme un contrat et comme un delit. L'interet de cette evolution est de montrer que le droit romain cherche a classer les raisons pour lesquelles une personne peut etre juridiquement tenue envers une autre. Cette classification servira de socle a la pensee civiliste posterieure."
+          },
+          {
+            "titre": "Le chapitre sur le consentement revele enfin une exigence de volonte exprimee, serieuse et exempte de certains vices",
+            "contenu": "Le document insiste sur le fait qu'une simple promesse ne suffit pas toujours a faire naitre une obligation en droit prive romain. Le consentement doit etre manifeste, serieux et non simule. Les erreurs ne sont pas toutes pertinentes, seules certaines erreurs essentielles pouvant vicier l'engagement. Le dol et la violence n'occupent pas d'emblee la place qu'ils auront plus tard, mais leur construction progressive montre comment la theorie de la volonte se complexifie avec le temps."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi dit-on que le droit romain ancien est un droit des actions ?",
+          "reponse": "Parce qu'un droit n'y est vraiment reconnu que s'il existe une action pour le faire valoir ou le sanctionner.",
+          "explication": "Le document place cette idee au point de depart de la construction de l'obligation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role le preteur joue-t-il dans la transformation du droit romain classique ?",
+          "reponse": "Il cree ou adapte des actions qui permettent de faire entrer de nouvelles situations dans le champ du droit.",
+          "explication": "La fiche le presente comme un moteur de souplesse et d'innovation juridique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie l'expression vinculum juris dans la theorie justinienne ?",
+          "reponse": "Elle designe le lien de droit qui unit debiteur et creancier.",
+          "explication": "Le document la combine avec la contrainte et la prestation pour definir l'obligation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la notion de necessitas est-elle inseparable de l'obligation ?",
+          "reponse": "Parce qu'elle exprime la possibilite de contraindre le debiteur a executer ou a supporter la sanction.",
+          "explication": "La fiche rappelle que l'obligation n'est pas un simple devoir moral.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles sont les trois grandes formes de prestation evoquees dans le document ?",
+          "reponse": "Donner, faire et fournir ou garantir selon la tripartition dare, facere, praestare.",
+          "explication": "Cette decomposition aide a comprendre le contenu variable des obligations.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle evolution des sources de l'obligation le passage de Gaius a Justinien met-il en lumiere ?",
+          "reponse": "On passe d'une opposition simple entre contrat et delit a une classification plus fine incluant les quasi-contrats et quasi-delits.",
+          "explication": "Le document montre ainsi un effort croissant de systematisation.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la simple pollicitation n'engendre-t-elle pas toujours une obligation en droit prive romain ?",
+          "reponse": "Parce qu'une promesse unilaterale ne suffit pas necessairement sans les formes ou le contexte que le droit exige.",
+          "explication": "La fiche met en avant la place de l'accord et de la manifestation valable de volonte.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelles qualites du consentement le document retient-il en priorite ?",
+          "reponse": "Il doit etre exprime, serieux et non simule.",
+          "explication": "Cette triade permet de comprendre les premiers filtres de validite de l'engagement.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi toutes les erreurs ne vicient-elles pas le consentement ?",
+          "reponse": "Parce que seules certaines erreurs essentielles affectent reellement la rencontre des volontes.",
+          "explication": "Le document distingue notamment l'erreur sur la nature de l'acte, la personne ou l'objet.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette histoire romaine de l'obligation ?",
+          "reponse": "L'obligation s'est formee par une longue evolution allant des actions et de la contrainte vers une theorie structuree des sources, de la prestation et du consentement.",
+          "explication": "La fiche relie ainsi procedure, sanction et abstraction doctrinale.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Genese romaine de l'obligation",
+        "questions": [
+          {
+            "question": "Pourquoi la place des actions est-elle si importante dans le droit romain ancien ?",
+            "choix": [
+              "A. Parce que les juristes romains refusaient toute idee de sanction.",
+              "B. Parce qu'un droit n'existe vraiment que s'il peut etre porte et sanctionne par une action reconnue.",
+              "C. Parce que la loi des Douze Tables supprimait toute procedure.",
+              "D. Parce que le droit romain ne connaissait que les delits."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document part de ce primat procedural pour montrer comment les concepts obligataires se sont peu a peu formes.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que permet de comprendre la definition justinienne de l'obligation ?",
+            "choix": [
+              "A. Que l'obligation est seulement un devoir moral sans contrainte.",
+              "B. Qu'elle combine un lien juridique, une possibilite de contrainte et une prestation a fournir.",
+              "C. Qu'elle se limite aux transferts de propriete.",
+              "D. Qu'elle exclut toute idee de creancier."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche decompos e l'obligation autour du vinculum juris, de la necessitas et de la prestation.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel apport majeur la comparaison entre Gaius et Justinien fait-elle ressortir ?",
+            "choix": [
+              "A. Une disparition complete du contrat.",
+              "B. Une simplification absolue des sources de l'obligation.",
+              "C. Un effort de classification plus fin qui ajoute aux contrats et delits des categories voisines.",
+              "D. Le refus de toute theorie generale."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document montre que la pensee romaine a progressivement systematise les causes de l'obligation.",
+            "difficulte": 3
+          },
+          {
+            "question": "Que veut surtout montrer le chapitre sur le consentement dans ce document ?",
+            "choix": [
+              "A. Que toute promesse suffit toujours a creer une obligation.",
+              "B. Que la validite de l'engagement suppose une volonte suffisamment exprimee, serieuse et non entachee d'erreurs decisives.",
+              "C. Que le dol et la violence ont toujours ete les seuls vices connus.",
+              "D. Que le silence vaut toujours acceptation en droit romain ancien."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche insiste sur la construction progressive d'une theorie plus exigeante du consentement.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1025,
+      "fiche": {
+        "titre": "Le proces comme rituel judiciaire : espace, temps, symboles et refondation de l'ordre social",
+        "resume": "Ce document rassemble des auteurs et notions pour penser le proces non seulement comme une technique de jugement, mais comme un rituel charge de symboles et de pouvoir. Il fait dialoguer philosophie, sociologie, anthropologie et histoire du droit pour montrer comment l'audience discipline les corps, organise la parole et transforme la violence en ordre juridique. La fiche retient une idee directrice : le rituel judiciaire n'est pas un decor accessoire, il est une forme de mise en scene du pouvoir qui protege certaines garanties tout en exposant le justiciable a une experience de forte asymetrie.",
+        "sections": [
+          {
+            "titre": "Le proces apparait d'abord comme un espace ritualise ou les acteurs cessent d'etre de simples individus pour occuper des roles institues",
+            "contenu": "Le document s'appuie sur des auteurs comme Garapon, Goffman ou Ricoeur pour montrer que la robe, la place dans la salle et la choregraphie de l'audience construisent une distance. Cette distance ne sert pas seulement a impressionner. Elle permet de separer le conflit prive de sa resolution publique, d'englober magistrats et auxiliaires dans un corps institutionnel et de rappeler que la justice parle au nom d'un ordre depassant les personnes."
+          },
+          {
+            "titre": "L'enceinte judiciaire est un lieu symbolique, construit pour mettre en scene hauteur, separation et autorite",
+            "contenu": "Le document decrit le palais de justice comme un espace hierarchise, parfois rapproche du temple. Marches, portes, colonnes, barre et disposition des corps ont une fonction. Les symboles classiques, balance, glaive, bandeau, serpent ou lion, ne sont pas seulement decoratifs. Ils condensent des idees de mesure, de decision, d'impartialite, de prudence ou de puissance. La fiche retient que le decor judiciaire parle avant meme que les acteurs ne prennent la parole."
+          },
+          {
+            "titre": "Le temps du proces est lui aussi ritualise, car le juge gouverne l'ouverture, les suspensions et la cloture de la parole",
+            "contenu": "La maitrise du temps est presentee comme un attribut de l'autorite juridictionnelle. Coup de sonnette, entree des magistrats, ordre des prises de parole et derniere parole de l'accuse composent un temps propre au proces. Le document insiste sur le fait que cette temporalite n'est pas celle de la vie ordinaire. Elle discipline l'attente, suspend les comportements profanes et inscrit le jugement dans une sequence solennelle qui contribue a son autorite."
+          },
+          {
+            "titre": "La fonction du rituel est ambivalente : il canalise la violence mais peut aussi ecraser celui qui n'en maitrise pas les codes",
+            "contenu": "Le document insiste sur cette tension. D'un cote, le proces remplace la vengeance privee, joue une fonction cathartique et contribue a la paix sociale, a la maniere dont Eschyle ou Girard pensent la sortie de la violence. De l'autre, Garapon releve l'amateurisme du justiciable et la surdite de l'audience : celui qui comparait ne comprend pas toujours la langue, le rythme ni les attentes du rituel. La fiche en conclut que la ritualisation est a la fois une protection et une epreuve de domination symbolique."
+          },
+          {
+            "titre": "Les attentes democratiques contemporaines obligent enfin a repenser le rituel sans le dissoudre",
+            "contenu": "Le document termine sur la transparence, la motivation des decisions, l'horizontalite des positions et l'efficience manageriale. Les architectures contemporaines en verre ou les palais plus ouverts traduisent ce mouvement. Mais la fiche retient une prudence : supprimer le rituel ne garantit pas une justice plus juste. L'enjeu est plutot de conserver ce qui protege l'impartialite et la publicite tout en reduisant l'opacite et la violence symbolique inutile."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la robe judiciaire occupe-t-elle une place centrale dans le document ?",
+          "reponse": "Parce qu'elle protege, unifie les acteurs institutionnels et signale la transformation de personnes ordinaires en porteurs d'une fonction publique.",
+          "explication": "La fiche relie cet habit a la distance necessaire entre le conflit et sa resolution judiciaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie l'idee d'un palais de justice comme espace sacralise ?",
+          "reponse": "Cela signifie que l'architecture, les seuils et la disposition des lieux construisent une separation avec l'espace ordinaire et affirment l'autorite du jugement.",
+          "explication": "Le document rapproche cet espace du temple ou de l'arbre de justice.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle fonction symbolique la balance remplit-elle dans l'imaginaire judiciaire ?",
+          "reponse": "Elle renvoie a la mesure, a l'equilibre, a l'egalite des armes et au jugement impartial.",
+          "explication": "La fiche rappelle qu'elle porte une charge religieuse et juridique ancienne.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le glaive ne symbolise-t-il pas seulement la violence ?",
+          "reponse": "Parce qu'il represente aussi le pouvoir de trancher le litige et d'assurer l'execution de la decision.",
+          "explication": "Le document lie le glaive a la dimension decisionnelle et repressive du jugement.",
+          "difficulte": 2
+        },
+        {
+          "question": "En quoi le temps du proces est-il un instrument de pouvoir ?",
+          "reponse": "Parce que le juge en maitrise l'ouverture, le rythme, les suspensions et la fin, ce qui discipline les comportements et la parole.",
+          "explication": "La fiche y voit un volet central du rituel judiciaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le proces est-il rapproche de la tragedie dans le document ?",
+          "reponse": "Parce qu'il met en scene la violence, la terreur et la pitie pour les transformer symboliquement en ordre et en decision.",
+          "explication": "Le document convoque ici notamment Eschyle et Aristote.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle critique Garapon adresse-t-il au rituel judiciaire ?",
+          "reponse": "Il souligne qu'il peut ecraser le justiciable qui ne maitrise ni les codes ni la langue de l'audience.",
+          "explication": "La fiche retient l'image d'une surdite de l'audience pour celui qui comparait.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le rituel judiciaire n'est-il pas purement decoratif selon ce document ?",
+          "reponse": "Parce qu'il contribue a interdire la vengeance privee, a refonder le lien social et a rendre visible l'autorite de la justice.",
+          "explication": "Le document traite le rituel comme une technique de pouvoir autant que comme un dispositif symbolique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles attentes contemporaines poussent a transformer les palais et les pratiques judiciaires ?",
+          "reponse": "La transparence, la motivation, l'accessibilite, l'egalite et l'efficience procedurale.",
+          "explication": "La fiche montre que ces attentes ne suppriment pas le besoin de rituel mais le reconfigurent.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur le proces ?",
+          "reponse": "Le rituel judiciaire est un dispositif ambivalent qui protege certaines garanties tout en manifestant fortement l'asymetrie du pouvoir de juger.",
+          "explication": "La fiche articule ainsi symboles, autorite, catharsis et critique democratique.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Proces et rituel judiciaire",
+        "questions": [
+          {
+            "question": "Pourquoi le rituel judiciaire ne doit-il pas etre traite comme un simple decor ?",
+            "choix": [
+              "A. Parce qu'il ne sert qu'a embellir les palais.",
+              "B. Parce qu'il organise la distance, la parole, la discipline des corps et la legitimite du jugement.",
+              "C. Parce qu'il remplace toutes les regles de procedure.",
+              "D. Parce qu'il supprime toute asymetrie entre juge et justiciable."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document montre que le rituel structure l'exercice meme du pouvoir de juger.",
+            "difficulte": 2
+          },
+          {
+            "question": "Comment faut-il comprendre la symbolique du palais de justice dans ce document ?",
+            "choix": [
+              "A. Comme une pure fantaisie esthetique sans message.",
+              "B. Comme une mise en scene de la hauteur, de la separation et de l'autorite de l'institution.",
+              "C. Comme la preuve que la justice doit rester cachee.",
+              "D. Comme une negation de toute valeur democratique."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche relie l'architecture, les symbols et la disposition des lieux a la force institutionnelle du jugement.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle tension centrale le document souligne-t-il a propos du rituel ?",
+            "choix": [
+              "A. Il est a la fois instrument de pacification et experience potentiellement ecrasante pour le justiciable.",
+              "B. Il est toujours inutile et arbitraire.",
+              "C. Il ne concerne que les proces politiques.",
+              "D. Il empeche toute fonction cathartique du proces."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le texte insiste sur cette ambivalence entre protection de l'ordre et violence symbolique.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quelle orientation la fin du document propose-t-elle pour la justice contemporaine ?",
+            "choix": [
+              "A. Supprimer tout rituel pour gagner du temps.",
+              "B. Fermer davantage les palais au public.",
+              "C. Repenser le rituel a la lumiere des exigences democratiques sans abolir ce qu'il garantit.",
+              "D. Remplacer le juge par l'architecture."
+            ],
+            "reponse_correcte": 2,
+            "explication": "La fiche retient une ligne d'equilibre entre transparence, accessibilite et preservation des garanties du proces.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1026,
+      "fiche": {
+        "titre": "Contrat d'entreprise : notion generale, conflits de qualification et importance d'un droit commun malgre la specialisation",
+        "resume": "Ce cours de contrats speciaux introduit le contrat d'entreprise a partir de l'ancien louage d'ouvrage du Code civil. Le document montre d'emblee que la notion est utile malgre son extraordinaire heterogeneite : on y range aussi bien des prestations materielles que des services intellectuels, alors meme qu'une multitude de sous-regimes speciaux se sont autonomises. La fiche en retient une idee directrice : le contrat d'entreprise reste une categorie charniere, a la fois definie par une prestation independante contre remuneration et continuellement retravaillee par les conflits de qualification avec la vente, le mandat ou le contrat de travail.",
+        "sections": [
+          {
+            "titre": "Le contrat d'entreprise est le droit commun des prestations de services accomplies de maniere independante contre remuneration",
+            "contenu": "Le document repart des articles 1708, 1710 et 1779 du Code civil. Derriere l'ancien vocabulaire du louage d'ouvrage, il faut comprendre un contrat dans lequel une personne s'engage a accomplir un travail pour une autre, moyennant un prix. La fiche insiste sur le mot independance : il ne s'agit ni d'un salarie subordonne ni d'un simple representant juridique. Ce noyau permet d'englober des prestations extremement diverses, depuis la reparation d'un bien jusqu'au conseil intellectuel."
+          },
+          {
+            "titre": "La notion parait eclatee, mais elle conserve un interet parce que des traits communs subsistent malgre la proliferation des regimes speciaux",
+            "contenu": "Le cours reconna it lui-meme la diversite du contrat d'entreprise et la multiplication de sous-legislations autonomes, par exemple pour la construction, le transport, la sante ou certaines prestations reglementees. Pourtant, il defend le maintien d'une qualification generale. Le Code civil contient encore des regles applicables a l'ensemble du louage d'ouvrage, et certains themes comme le prix, la responsabilite ou l'execution du service presentent des lignes communes. La fiche retient donc que la theorie generale du contrat d'entreprise fonctionne comme un point d'appui, non comme un regime complet autosuffisant."
+          },
+          {
+            "titre": "Le premier conflit de qualification oppose entreprise et vente, surtout lorsque la prestation cree ou transmet une chose",
+            "contenu": "Le document rappelle l'abandon de l'ancien critere economique fonde sur la valeur comparee du travail et des materiaux. Le critere pertinent devient celui de la specificite technique de l'ouvrage. Si la chose est faite sur mesure pour le client, on s'oriente vers le contrat d'entreprise ; si elle est standardisee ou fabriquee en serie, la vente reprend ses droits. La fiche souligne que ce test permet de mieux saisir la logique juridique reelle de l'operation que ne le faisait le simple calcul de valeur."
+          },
+          {
+            "titre": "Le deuxieme conflit de qualification oppose entreprise et mandat selon la nature exacte du service promis",
+            "contenu": "Comme le contrat d'entreprise, le mandat porte sur une activite accomplie pour autrui. Ce qui les distingue n'est pas seulement l'opposition entre acte materiel et acte juridique, aujourd'hui trop simple, mais surtout le pouvoir de representation. Le mandataire agit au nom et pour le compte d'un autre a l'egard des tiers ; l'entrepreneur execute une prestation sans disposer par principe d'un tel pouvoir. Le document montre que certains professionnels, comme les agents immobiliers ou les agences de voyage, peuvent basculer d'une qualification a l'autre selon la mission precise qui leur est confiee."
+          },
+          {
+            "titre": "Le troisieme conflit de qualification, avec le contrat de travail, se resolvait classiquement par l'independance, meme si cette frontiere se brouille",
+            "contenu": "Le document oppose l'entrepreneur independant au salarie place sous le pouvoir de direction et de controle de l'employeur. Cette distinction demeure structurelle car elle commande des regimes juridiques tres differents. Mais le cours note aussi que certaines formes contemporaines de travail rendent le lien de subordination moins visible. La fiche en tire une prudence de methode : l'independance ne se deduit pas de l'apparence liberale de la prestation, elle se verifie concretement a travers la facon dont le travail est organise et commande."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle definition generale du contrat d'entreprise faut-il retenir de ce document ?",
+          "reponse": "C'est le contrat par lequel une personne accomplit, de maniere independante, un travail pour une autre contre remuneration.",
+          "explication": "La fiche reformule ici la logique des articles 1710 et 1779 du Code civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le contrat d'entreprise est-il presente comme une categorie tres heterogene ?",
+          "reponse": "Parce qu'il couvre des prestations materielles comme intellectuelles et qu'il a donne naissance a de nombreux sous-regimes speciaux.",
+          "explication": "Le document y voit a la fois une richesse et une source de difficultes de qualification.",
+          "difficulte": 2
+        },
+        {
+          "question": "Malgre cette diversite, pourquoi conserver une theorie generale du contrat d'entreprise ?",
+          "reponse": "Parce qu'il subsiste des regles communes et des themes transversaux utiles, notamment sur le prix, l'execution et certains conflits de qualification.",
+          "explication": "La fiche souligne que cette theorie generale n'est pas complete, mais qu'elle reste structurante.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel ancien critere de distinction entre vente et entreprise a ete abandonne ?",
+          "reponse": "Le critere economique fonde sur la valeur respective du travail fourni et des materiaux.",
+          "explication": "Le document jugeait ce critere seduisant en theorie mais incertain et parfois absurde en pratique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel critere le document privilegie-t-il desormais pour distinguer vente et contrat d'entreprise ?",
+          "reponse": "La specificite technique de l'ouvrage realise pour le client.",
+          "explication": "Une chose faite sur mesure incline vers le contrat d'entreprise, une chose standardisee vers la vente.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le pouvoir de representation est-il decisif pour distinguer mandat et entreprise ?",
+          "reponse": "Parce que le mandataire agit au nom et pour le compte du mandant vis-a-vis des tiers, ce qui n'est pas la logique normale de l'entrepreneur.",
+          "explication": "Le document prend l'exemple des agents immobiliers pour illustrer cette difference.",
+          "difficulte": 3
+        },
+        {
+          "question": "Comment un agent immobilier peut-il relever tantot du mandat, tantot du contrat d'entreprise ?",
+          "reponse": "S'il conclut l'acte au nom du client, il agit comme mandataire ; s'il se contente de rechercher un cocontractant sans pouvoir de representation, il ressemble davantage a un entrepreneur.",
+          "explication": "La qualification depend donc de la mission exacte et non de l'etiquette professionnelle seule.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel est le critere classique de distinction entre contrat d'entreprise et contrat de travail ?",
+          "reponse": "L'entrepreneur travaille de maniere independante alors que le salarie est place sous un lien de subordination.",
+          "explication": "La fiche rappelle que cette opposition commande des regimes juridiques tres differents.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le document invite-t-il a la prudence a propos de l'independance dans les relations de travail modernes ?",
+          "reponse": "Parce que certaines prestations paraissent libres en apparence alors qu'elles restent encadrees ou controlees dans leur organisation concrete.",
+          "explication": "Le brouillage contemporain des formes de travail complique le raisonnement de qualification.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette introduction au contrat d'entreprise ?",
+          "reponse": "Le contrat d'entreprise reste une categorie pivot des prestations de services, utile surtout pour ordonner les conflits de qualification et articuler droit commun et regimes speciaux.",
+          "explication": "La fiche fait de cette categorie une charniere plus qu'un bloc uniforme.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Contrat d'entreprise et conflits de qualification",
+        "questions": [
+          {
+            "question": "Quelle caracteristique donne son noyau propre au contrat d'entreprise dans ce document ?",
+            "choix": [
+              "A. L'existence d'un pouvoir general de representation.",
+              "B. L'accomplissement independant d'un travail contre remuneration.",
+              "C. Le transfert automatique de propriete de tout bien utilise.",
+              "D. La soumission a un lien permanent de subordination."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche fait de l'independance et de la prestation remuneree le centre de gravite de la qualification.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi l'ancien critere economique travail versus materiaux a-t-il ete delaisse pour distinguer vente et entreprise ?",
+            "choix": [
+              "A. Parce qu'il n'etait jamais utilise par les juges.",
+              "B. Parce qu'il etait trop simple et conduisait a des solutions instables ou artificielles.",
+              "C. Parce qu'il favorisait toujours le consommateur.",
+              "D. Parce qu'il etait reserve au droit immobilier."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document lui prefere la specificite technique de l'ouvrage realise.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quel element permet surtout de basculer du contrat d'entreprise vers le mandat ?",
+            "choix": [
+              "A. La valeur elevee du service.",
+              "B. Le pouvoir confie au professionnel d'agir au nom et pour le compte du client a l'egard des tiers.",
+              "C. L'absence de prix.",
+              "D. Le caractere intellectuel de la prestation, a lui seul."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche souligne que l'opposition entre travail materiel et acte juridique n'est plus suffisante seule.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle prudence faut-il garder face aux formes contemporaines de travail ?",
+            "choix": [
+              "A. Presumer la qualite de salarie des qu'il existe une remuneration.",
+              "B. Presumer l'independance des qu'une personne choisit ses horaires.",
+              "C. Verifier concretement si l'organisation du travail revele ou non une subordination malgre l'apparence de liberte.",
+              "D. Ecarter toute distinction entre entreprise et travail."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document note que la frontiere classique demeure utile mais devient parfois moins visible dans la pratique.",
+            "difficulte": 3
+          }
+        ]
+      }
+    }
+  ]
+}
