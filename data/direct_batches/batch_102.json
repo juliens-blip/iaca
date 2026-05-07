@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 983,
+      "fiche": {
+        "titre": "Le dommage reparable : legitimite, lien direct et diversification des chefs de prejudice",
+        "resume": "Ce document sur le dommage montre que la question du prejudice reparable ne se reduit pas a constater une souffrance ou une perte. Le droit civil trie. Il ecarte les avantages illicites, il exige un rattachement suffisamment direct au fait dommageable et il affine progressivement les categories indemnisables. La logique d'ensemble est donc double : ouverture a des atteintes de plus en plus fines, mais maintien d'un controle strict contre les demandes speculatives, redondantes ou moralement irrecevables.",
+        "sections": [
+          {
+            "titre": "Le premier filtre du dommage reparable reste sa legitimite, ce qui exclut les gains attendus d'une activite illicite",
+            "contenu": "Le document rappelle qu'un prejudice ne devient pas reparable du seul fait qu'une perte economique est constatable. Lorsqu'un joueur contourne son interdiction de jeux et reclame le versement d'un gain obtenu dans des conditions incompatibles avec cette interdiction, le droit de la responsabilite refuse de transformer l'illicite en avantage protege. La reparation civile ne sert donc pas a garantir la valeur patrimoniale d'une situation que l'ordre juridique desavoue deja."
+          },
+          {
+            "titre": "Le caractere direct du dommage n'interdit pas la reparation des victimes par ricochet, mais impose de penser precisement le lien avec la victime immediate",
+            "contenu": "Le cours montre qu'un proche peut subir un prejudice propre a raison de l'atteinte portee a la victime directe. L'arret relatif a la petite-fille concue avant le deces de son grand-pere illustre cette extension. La Cour admet ici que l'enfant prive d'une presence a laquelle elle avait vocation peut demander reparation, meme si la naissance est posterieure au fait dommageable. Le dommage n'est donc pas absorbe par l'idee de simple proximite affective ; il est rattache a une privation personnelle juridiquement prise en compte."
+          },
+          {
+            "titre": "La jurisprudence affine ensuite la qualification du prejudice moral en distinguant la peine d'affection des atteintes plus structurelles a une vie relationnelle",
+            "contenu": "L'interet du document tient a ce qu'il ne traite pas tous les prejudices moraux comme des synonymes. La disparition d'un proche peut produire autre chose qu'un chagrin immediat. Elle peut aussi faire disparaitre la possibilite meme de construire une relation, de grandir avec une figure familiale ou de se projeter dans un cadre affectif qui n'existera jamais. Cette precision evite de plaquer une categorie unique sur des experiences juridiques differentes."
+          },
+          {
+            "titre": "Le document presente egalement la montee en puissance de chefs de prejudice plus specifiques, comme l'anxiete, le prejudice sexuel ou la devalorisation sociale",
+            "contenu": "Le document montre que la reparation moderne du dommage corporel se fragmente davantage. Le prejudice d'anxiete suppose une peur durable et objectivement nourrie par un risque de maladie ou d'aggravation. Le prejudice sexuel est traite comme un poste distinct lorsqu'il recouvre une atteinte propre a la vie intime. Quant a la devalorisation sociale, elle vise le retentissement de l'atteinte corporelle sur l'image de soi et sur la place tenue dans les rapports sociaux. Cette decomposition permet d'indemniser plus justement sans indemniser deux fois la meme chose."
+          },
+          {
+            "titre": "L'incidence professionnelle illustre enfin la vigilance du juge face au cumul entre pertes de revenus et atteintes a la trajectoire de vie au travail",
+            "contenu": "Le cours insiste sur le fait que la perte de gains et l'incidence professionnelle ne se confondent pas. La premiere compense un manque a gagner. La seconde peut viser une degradation de carriere, une dequalification, une penibilite accrue ou une fermeture durable d'horizons professionnels. Encore faut-il etablir un prejudice distinct. L'ensemble du document defend ainsi une reparation integrale, mais une reparation integrale ordonnee et non inflationniste."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le droit de la responsabilite refuse-t-il de reparer les gains attendus d'une situation illicite ?",
+          "reponse": "Parce qu'il ne protege pas patrimonialement un avantage que l'ordre juridique tient deja pour illegitime.",
+          "explication": "Le document illustre cette idee avec le joueur qui contourne son interdiction de jeux et ne peut transformer cette transgression en creance indemnitaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale se cache derriere l'exigence d'un dommage legitime ?",
+          "reponse": "Elle consiste a trier les pertes reellement dignes de protection de celles qui reposent sur une situation illicite ou juridiquement desavouvee.",
+          "explication": "Le dommage reparable n'est pas seulement un fait, c'est aussi une valeur reconnue par le droit.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la petite-fille concue avant le deces de son grand-pere peut-elle etre regardee comme une victime par ricochet ?",
+          "reponse": "Parce qu'elle subit personnellement la privation definitive d'une presence familiale a laquelle elle avait vocation.",
+          "explication": "Le document montre que la naissance posterieure au deces n'empeche pas necessairement l'existence d'un prejudice propre.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que change l'idee de victime par ricochet dans l'analyse du caractere direct du dommage ?",
+          "reponse": "Elle montre qu'un prejudice peut rester direct pour un proche des lors qu'il constitue pour lui une atteinte personnelle distincte.",
+          "explication": "Le lien avec la victime immediate n'efface pas l'autonomie du prejudice subi par le proche.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le document distingue-t-il le prejudice d'affection de l'impossibilite de construire une relation familiale ?",
+          "reponse": "Parce que la simple peine liee a la perte d'un etre cher n'epuise pas toutes les formes de privation relationnelle reconnues par le juge.",
+          "explication": "La disparition d'un proche peut faire perdre une presence future et non seulement provoquer un chagrin present.",
+          "difficulte": 3
+        },
+        {
+          "question": "A quelle condition le prejudice d'anxiete prend-il une place autonome dans la reparation ?",
+          "reponse": "Lorsqu'il repose sur une peur durable et objectivement nourrie par un risque suffisamment etabli.",
+          "explication": "Le document rattache ce poste a la prise en compte des risques medicaux ou sanitaires sans se contenter d'une inquietude abstraite.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le prejudice sexuel n'est-il pas absorbe automatiquement par les autres atteintes corporelles ?",
+          "reponse": "Parce qu'il peut correspondre a une atteinte propre a la vie intime qui merite une evaluation distincte.",
+          "explication": "Le cours montre que la specialisation des postes sert a mieux decrire la realite du dommage corporel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que vise le prejudice de devalorisation sociale dans le document ?",
+          "reponse": "Il vise l'atteinte a l'image de soi et au regard social provoquee par les sequelles ou la situation de dependance de la victime.",
+          "explication": "Ce poste ne se confond ni avec la seule perte de revenus ni avec le seul deficit fonctionnel permanent.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'incidence professionnelle ne se confond-elle pas avec la perte de gains professionnels ?",
+          "reponse": "Parce qu'elle recompose les effets du dommage sur la trajectoire de travail, la carriere et la place professionnelle, au-dela du simple manque a gagner.",
+          "explication": "Le document rappelle qu'il faut prouver un prejudice distinct pour eviter les doublons indemnitaires.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee centrale faut-il retenir de ce document sur le dommage reparable ?",
+          "reponse": "Le droit civil ouvre largement la reparation des atteintes reelles, mais il le fait en triant les prejudices selon leur legitimite, leur autonomie et leur lien direct avec le fait dommageable.",
+          "explication": "La dynamique generale du document est a la fois inclusive et rigoureuse.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Le dommage reparable",
+        "questions": [
+          {
+            "question": "Pourquoi un gain attendu dans une situation illicite n'est-il pas traite comme un prejudice reparable ?",
+            "choix": [
+              "A. Parce que le juge civil n'indemnise jamais les pertes d'argent.",
+              "B. Parce que la responsabilite civile refuse de proteger un avantage ne d'une situation deja desavouvee par le droit.",
+              "C. Parce que seules les victimes corporelles peuvent agir.",
+              "D. Parce que l'illicite transforme automatiquement la demande en sanction penale."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rappelle que la legitimite du dommage est une condition de la reparation. Une perte economique ne suffit donc pas si elle se rattache a une activite que l'ordre juridique n'entend pas proteger.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel raisonnement permet d'indemniser la petite-fille concue avant le deces de son grand-pere ?",
+            "choix": [
+              "A. Le droit considere que tout membre eloigne de la famille est toujours indemnise.",
+              "B. La reparation est admise parce qu'elle subit personnellement la privation definitive d'une presence familiale a laquelle elle avait vocation.",
+              "C. L'action est possible uniquement parce que le dommage moral n'exige jamais de lien direct.",
+              "D. Le juge remplace ici completement l'exigence de causalite par l'equite pure."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document presente cette hypothese comme une extension de la sphere des victimes par ricochet, sans abandonner l'idee d'un prejudice personnel et propre.",
+            "difficulte": 3
+          },
+          {
+            "question": "Pourquoi le document individualise le prejudice de devalorisation sociale ?",
+            "choix": [
+              "A. Parce qu'il n'existe aucun autre poste de prejudice corporel.",
+              "B. Parce qu'il sert a remplacer toutes les pertes de revenus futures.",
+              "C. Parce qu'il vise le retentissement social et symbolique des sequelles, distinct d'autres postes deja indemnises.",
+              "D. Parce qu'il ne peut etre invoque qu'en droit du travail."
+            ],
+            "reponse_correcte": 2,
+            "explication": "La fiche souligne la fragmentation contemporaine du dommage corporel. Cette precision sert a mieux decrire l'atteinte subie sans confondre les chefs de prejudice.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle idee d'ensemble se degage de cette seance sur le dommage ?",
+            "choix": [
+              "A. Tout prejudice allegue doit etre indemnise sans tri.",
+              "B. Le droit de la responsabilite ne repond qu'aux pertes patrimoniales.",
+              "C. La reparation s'ouvre a des atteintes plus fines, mais sous controle de legitimite, d'autonomie et de lien direct.",
+              "D. Les prejudices moraux ont tous vocation a etre fusionnes dans une categorie unique."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document combine ouverture a de nouveaux postes et discipline conceptuelle. C'est ce double mouvement qui donne sa coherence a la matiere.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 985,
+      "fiche": {
+        "titre": "Le lien de causalite : outils d'analyse, presumptions et role exact de la faute de la victime",
+        "resume": "Ce document sur le lien de causalite insiste sur une difficulte classique du droit de la responsabilite: beaucoup d'evenements concourent a un dommage, mais tous ne deviennent pas pour autant des causes juridiques. Le document montre que la jurisprudence n'utilise pas une formule unique. Elle navigue entre equivalence des conditions, causalite adequate, presumptions de causalite et examen du role de la faute de la victime. L'enjeu n'est donc pas d'apprendre un dogme, mais de comprendre un art du tri judiciaire.",
+        "sections": [
+          {
+            "titre": "Le document commence par rappeler que la causalite doit rester certaine et directe, meme lorsque plusieurs evenements se succedent",
+            "contenu": "Le lien causal ne se deduit pas mecaniquement de la chronologie des faits. Le cours rappelle qu'il faut identifier un rattachement suffisamment solide entre le fait imputable et le prejudice. Cette exigence demeure, mais elle n'interdit pas des raisonnements souples. Elle oblige surtout a distinguer les hypotheses ou plusieurs faits concourent reellement au dommage de celles ou l'un d'eux ne joue qu'un role lointain, hypothetique ou simplement aggravant."
+          },
+          {
+            "titre": "La jurisprudence alterne entre equivalence des conditions et causalite adequate selon la physionomie concrete du dossier",
+            "contenu": "Le document oppose utilement les deux grands outils doctrinaux. L'equivalence des conditions retient comme cause tout antecedent necessaire du dommage. La causalite adequate trie davantage et ne conserve que l'evenement qui portait normalement en lui la probabilite du prejudice. Le document insiste sur un point decisif: la Cour de cassation ne se lie pas abstraitement a l'une de ces theories. Elle choisit l'outil le plus apte a rendre compte de la chaine causale dans l'affaire jugee."
+          },
+          {
+            "titre": "L'accident therapeutique consecutif a un accident initial illustre la force de l'equivalence des conditions",
+            "contenu": "Lorsque l'operation rendue necessaire par un accident provoque un dommage nouveau, comme la perte d'un oeil au cours d'une intervention, le cours montre que l'accident premier peut demeurer la cause juridique du prejudice final. Le raisonnement est simple: sans l'accident initial, l'intervention n'aurait pas eu lieu. La causalite n'est donc pas rompue par le seul fait qu'un evenement medical intermediaire soit intervenu dans la chaine."
+          },
+          {
+            "titre": "A l'inverse, certaines decisions reveillent une logique de causalite adequate en refusant d'imputer au defendeur un geste personnel trop singulier",
+            "contenu": "Le suicide d'un commercant apres reception d'une interdiction bancaire sert ici de contrepoint. Le document montre que la faute de la banque n'a pas ete tenue pour cause certaine du dommage final, notamment en raison du caractere excessif et personnel du geste et de l'ignorance par la banque d'une fragilite particuliere de son client. La causalite adequate permet alors de ne pas faire peser sur l'auteur initial tous les effets d'une reaction exceptionnelle qui ne lui etait pas normalement imputable."
+          },
+          {
+            "titre": "Le cours consacre enfin un bloc important aux presumptions et a la faute de la victime, deux mecanismes qui corrigent ou limitent la preuve causale",
+            "contenu": "En matiere de contamination transfusionnelle, la jurisprudence allege la charge probatoire de la victime par des presumptions de causalite et etend meme leur effet aux recours entre coobliges. A l'autre bout du spectre, la faute de la victime n'exonere pas toujours. Le document rappelle avec nettete qu'en droit des produits defectueux, une faute seulement aggravante ne suffit pas. Pour reduire l'indemnisation, il faut que la faute de la victime ait effectivement concouru a la production meme du dommage."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le document refuse-t-il de reduire la causalite a un simple enchainement chronologique des faits ?",
+          "reponse": "Parce qu'il faut encore verifier si les evenements en cause ont juridiquement concouru de facon certaine et directe au dommage.",
+          "explication": "Le cours montre qu'un antecedent temporel n'est pas toujours une cause juridique pertinente.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle difference pratique le document met-il en avant entre equivalence des conditions et causalite adequate ?",
+          "reponse": "La premiere retient tout antecedent necessaire, tandis que la seconde opere un tri en ne conservant que l'evenement normalement generateur du prejudice.",
+          "explication": "Le document presente ces theories comme deux outils de lecture des chaines causales complexes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la Cour de cassation ne s'enferme-t-elle pas dans une theorie unique du lien de causalite ?",
+          "reponse": "Parce qu'elle adapte son raisonnement a la structure concrete du dossier plutot que d'appliquer une formule abstraite de facon rigide.",
+          "explication": "La fiche insiste sur ce pragmatisme jurisprudentiel.",
+          "difficulte": 3
+        },
+        {
+          "question": "Comment l'accident therapeutique intervenu apres un accident de la circulation est-il traite dans le document ?",
+          "reponse": "Il est integre a la chaine causale lorsque l'intervention medicale etait rendue necessaire par l'accident initial.",
+          "explication": "Le cours illustre ici l'equivalence des conditions: sans le premier accident, le dommage medical ulterieur n'aurait pas eu lieu.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le suicide du commercant n'est-il pas impute a coup sur a la faute de la banque dans l'exemple du document ?",
+          "reponse": "Parce que le geste a ete regarde comme une reaction personnelle excessive, non suffisamment imputable a la faute bancaire dans les circonstances de l'affaire.",
+          "explication": "La banque ignorait en outre une eventuelle fragilite particuliere du client.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que permettent les presumptions de causalite en matiere de contamination transfusionnelle ?",
+          "reponse": "Elles allegeent la charge de la preuve en faveur de la victime lorsque la transfusion apparait comme une source plausible de contamination.",
+          "explication": "Le document montre que le doute n'est pas ici laisse entierement a la charge de la victime.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'extension de la presomption aux recours entre coobliges est-elle notable ?",
+          "reponse": "Parce qu'elle evite qu'une causalite admise au profit de la victime disparaisse ensuite au stade de la repartition finale entre debiteurs.",
+          "explication": "Le cours relie ainsi protection de la victime et coherence des recours internes.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle est la difference entre une faute de la victime causale et une faute seulement aggravante ?",
+          "reponse": "La premiere contribue a la production du dommage lui-meme, alors que la seconde ne fait qu'en alourdir les consequences.",
+          "explication": "Cette distinction est decisive dans le document, notamment en droit des produits defectueux.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi une faute seulement aggravante de la victime ne suffit-elle pas a reduire l'indemnisation dans l'exemple final ?",
+          "reponse": "Parce qu'elle ne rompt pas ni ne partage reellement la causalite du dommage initialement produit par le defaut du produit.",
+          "explication": "Le cours adopte ici une lecture stricte des causes d'exoneration du producteur.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur le lien de causalite ?",
+          "reponse": "Le lien causal se construit comme un raisonnement de selection et de preuve, dans lequel le juge combine theories doctrinales, presumptions et analyse precise du role de chaque fait.",
+          "explication": "Le document decrit moins une formule unique qu'une methode de qualification.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Le lien de causalite",
+        "questions": [
+          {
+            "question": "Quelle idee resume le mieux l'equivalence des conditions dans le document ?",
+            "choix": [
+              "A. Seuls les evenements normalement previsibles sont retenus comme causes.",
+              "B. Tout antecedent necessaire sans lequel le dommage ne se serait pas produit peut etre retenu comme cause.",
+              "C. Le juge doit toujours choisir la cause la plus recente.",
+              "D. La causalite disparait des qu'un tiers intervient."
+            ],
+            "reponse_correcte": 1,
+          "explication": "Le document prend l'exemple de l'accident suivi d'une intervention chirurgicale dommageable pour montrer que le premier evenement peut rester une cause juridique du prejudice final.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le dommage neanmoins subi lors d'une operation necessitee par un accident peut-il etre rattache a l'accident initial ?",
+            "choix": [
+              "A. Parce que l'acte medical supprime toujours toute cause anterieure.",
+              "B. Parce que la loi prescrit automatiquement l'indemnisation integrale des actes medicaux.",
+              "C. Parce que sans l'accident premier, l'intervention n'aurait pas eu lieu et la chaine causale demeure juridiquement continue.",
+              "D. Parce que le chirurgien remplace necessairement le responsable initial."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document illustre ici un raisonnement d'equivalence des conditions, dans lequel l'evenement initial conserve son role causal malgre l'interposition de l'acte therapeutique.",
+            "difficulte": 3
+          },
+          {
+            "question": "Que montrent les decisions relatives a l'hepatite C dans cette seance ?",
+            "choix": [
+              "A. Que la victime supporte toujours seule l'incertitude scientifique.",
+              "B. Que la causalite peut etre etablie par un regime de presomptions favorable a la victime lorsque la transfusion apparait comme une source plausible de contamination.",
+              "C. Que la contamination transfusionnelle releve exclusivement du droit penal.",
+              "D. Que la preuve du lien causal est inutile en matiere medicale."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document insiste sur la fonction correctrice des presumptions: elles n'abolissent pas la causalite, mais allegeent la charge probatoire de la victime dans des dossiers structurellement difficiles.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la faute de la victime n'exonere-t-elle pas automatiquement le producteur dans l'exemple final ?",
+            "choix": [
+              "A. Parce que toute faute de la victime est juridiquement indifferente.",
+              "B. Parce que seule une faute ayant reellement cause le dommage, et non seulement aggrave ses effets, peut jouer un role exoneratoire.",
+              "C. Parce que le producteur est toujours assure.",
+              "D. Parce que les produits defectueux n'exigent jamais de causalite."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document distingue rigoureusement entre cause du dommage et simple facteur d'aggravation. Cette difference commande le partage ou non de la charge finale.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 987,
+      "fiche": {
+        "titre": "Responsabilite du fait personnel : faute objective, qualification judiciaire et faits justificatifs",
+        "resume": "Ce document sur la responsabilite du fait personnel montre que la faute civile reste le point d'entree du droit commun de la responsabilite, mais qu'elle ne se laisse plus lire comme une simple faute morale. La jurisprudence l'objective, la qualifie au cas par cas et la fait coexister avec des espaces normatifs specifiques comme le sport, la presse ou la legitime defense. La ligne directrice est donc la suivante : l'article 1240 demeure central, mais sa mise en oeuvre depend d'un travail fin de qualification et de delimitation.",
+        "sections": [
+          {
+            "titre": "Le document rappelle d'abord que la faute civile n'est pas definie une fois pour toutes par le Code civil",
+            "contenu": "L'article 1240 donne le principe, non le detail des situations fautives. Le document insiste donc sur le role de la jurisprudence, qui construit la faute par une serie d'applications concretes. Cette souplesse explique que la Cour de cassation laisse aux juges du fond le soin de constater les faits, tout en controlant leur qualification juridique. La faute civile apparait ainsi comme une categorie ouverte, guidee par les circonstances et par des standards de conduite."
+          },
+          {
+            "titre": "L'un des mouvements majeurs du document est l'objectivation de la faute, visible avec l'abandon du discernement pour l'enfant et avec la responsabilite du majeur protege",
+            "contenu": "L'arret Lemaire marque ici un point de bascule. La faute de l'enfant victime peut etre retenue sans preuve d'une capacite de discernement, ce qui permet de reduire son indemnisation. De meme, le trouble mental ou la tutelle ne suppriment pas en eux-memes l'obligation de reparer. Le document montre ainsi que la faute civile sert moins a mesurer une culpabilite morale qu'a organiser l'imputation du dommage dans une logique avant tout indemnitaire."
+          },
+          {
+            "titre": "La faute s'apprecie dans des cadres normatifs specifiques et non par simple deduction du dommage",
+            "contenu": "Dans l'affaire du fusil au theatre, la Cour de cassation refuse de qualifier trop vite la faute du preteur de l'arme. Dans l'affaire du polo, elle rappelle que l'appreciation du jeu et des infractions sportives ne peut pas etre reconstruite librement par le juge civil contre l'economie propre de la discipline. Le dommage ne suffit donc pas. Encore faut-il identifier une veritable transgression d'un devoir de prudence ou d'une regle pertinente dans le contexte considere."
+          },
+          {
+            "titre": "Le document ouvre aussi la responsabilite pour faute aux atteintes reputees delicates, tout en la faisant dialoguer avec des libertes comme la liberte d'expression",
+            "contenu": "Le cours montre que l'article 1240 peut etre mobilise face a des publications ou a des propos ecrits lorsqu'un comportement fautif portant une atteinte juridiquement caracterisee est etabli. Mais cette action ne doit pas servir a contourner les exigences propres a la protection de la liberte d'expression. La faute n'est donc pas une arme de censure diffuse ; elle suppose un depassement precis des bornes admises, comme un denigrement ou une presentation objectivement fautive de faits sensibles."
+          },
+          {
+            "titre": "Enfin, la legitime defense rappelle qu'un comportement dommageable peut rester justifie et sortir du champ de la faute civile",
+            "contenu": "Le document insiste sur l'autorite du fait justificatif. Lorsqu'une personne agit en etat de legitime defense, la faute disparait et l'action indemnitaire de l'agresseur ne peut prosperer. Le point est fort, car l'exclusion joue meme lorsque la situation pourrait etre aussi analysee sous l'angle de la garde d'une chose, comme dans l'affaire du pistolet d'alarme. Le droit de la responsabilite du fait personnel n'est donc pas aveugle au contexte de l'acte."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le document dit-il que l'article 1240 fournit un principe plutot qu'une definition exhaustive de la faute ?",
+          "reponse": "Parce que la faute civile est largement construite par la jurisprudence a partir de situations concretes et non par une liste legale fermee.",
+          "explication": "Le cours insiste sur le role de qualification du juge dans la mise en oeuvre du droit commun de la responsabilite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel enseignement essentiel le document tire-t-il de l'arret Lemaire ?",
+          "reponse": "La faute d'un enfant peut etre retenue sans qu'il soit necessaire de prouver son discernement.",
+          "explication": "Le document y voit une etape decisive de l'objectivation de la faute civile.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'abandon du discernement transforme-t-il le sens de la faute civile ?",
+          "reponse": "Parce qu'il montre que la responsabilite civile vise d'abord l'imputation et la reparation du dommage plus qu'une evaluation morale de l'auteur.",
+          "explication": "Le document relie cette evolution au poids des assurances et a la logique indemnitaire.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel effet le trouble mental ou la tutelle ont-ils sur la responsabilite civile selon le document ?",
+          "reponse": "Ils n'empechent pas, a eux seuls, de retenir l'obligation de reparer lorsque le comportement dommageable est juridiquement qualifiable.",
+          "explication": "Le cours rapproche ici l'objectivation de la faute du regime de l'article 414-3 du Code civil.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'affaire du theatre est-elle utile pour comprendre la faute civile ?",
+          "reponse": "Parce qu'elle montre que la Cour de cassation controle si les faits releves par les juges du fond suffisent reellement a caracteriser une negligence fautive.",
+          "explication": "Le dommage dramatique ne dispense pas d'un examen rigoureux de la qualification juridique du comportement reproche.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que montre l'affaire du polo sur la faute dans les activites sportives ?",
+          "reponse": "Elle montre que la faute ne peut pas etre detachee du cadre normatif du jeu et de la maniere dont ses regles sont appreciees.",
+          "explication": "Le juge civil ne peut pas inventer abstraitement une transgression sans tenir compte de l'economie propre de la discipline sportive.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le document reste-t-il prudent lorsqu'il aborde les atteintes liees a des propos ecrits ou publies ?",
+          "reponse": "Parce que la responsabilite pour faute doit composer avec la liberte d'expression et ne peut pas fonctionner comme un instrument general de censure.",
+          "explication": "Le cours exige un depassement precis des limites juridiquement admises.",
+          "difficulte": 3
+        },
+        {
+          "question": "Dans quelle hypothese la liberte d'expression cesse-t-elle d'etre un ecran contre l'action en responsabilite ?",
+          "reponse": "Lorsqu'un comportement fautif concret est etabli, par exemple un denigrement ou une presentation objectivement trompeuse portant une atteinte caracterisee.",
+          "explication": "Le document maintient donc l'action sur le terrain de la faute, mais sous condition d'un cadrage strict.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel effet la legitime defense produit-elle sur la faute civile ?",
+          "reponse": "Elle fait disparaitre le caractere fautif du comportement dommageable et ferme l'action indemnitaire de l'agresseur.",
+          "explication": "Le document rappelle que le fait justificatif joue meme si le dommage a ete cause au moyen d'une chose.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur la responsabilite du fait personnel ?",
+          "reponse": "La faute civile reste le coeur du droit commun, mais elle est aujourd'hui objectivee, contextuelle et delimitee par des cadres specifiques comme le sport, la liberte d'expression ou la legitime defense.",
+          "explication": "Le document decrit une notion souple dont la coherence tient au travail de qualification du juge.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Responsabilite du fait personnel",
+        "questions": [
+          {
+            "question": "Que signifie l'arret Lemaire dans la logique du document ?",
+            "choix": [
+              "A. Que la faute d'un enfant suppose toujours la preuve de son discernement.",
+              "B. Que la faute d'un enfant peut etre retenue sans verifier sa capacite de discerner les consequences de son acte.",
+              "C. Que l'enfant victime ne peut jamais voir sa propre faute opposee.",
+              "D. Que la responsabilite civile des mineurs a disparu."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document presente Lemaire comme un moment cle de l'objectivation de la faute civile. Le juge n'a plus a rechercher le discernement pour retenir la faute du mineur.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi l'affaire du theatre est-elle importante dans cette seance ?",
+            "choix": [
+              "A. Parce qu'elle montre que toute presence d'une arme impose automatiquement une responsabilite.",
+              "B. Parce qu'elle montre que le juge doit qualifier juridiquement avec rigueur la negligence alleguee et ne pas deduire la faute du seul dommage.",
+              "C. Parce qu'elle supprime tout controle de la Cour de cassation sur la faute.",
+              "D. Parce qu'elle reserve la faute civile aux seuls professionnels de la chasse."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document insiste sur le controle de qualification exerce par la Cour de cassation. Des faits graves ne suffisent pas si les motifs ne caracterisent pas juridiquement la faute reprochee.",
+            "difficulte": 3
+          },
+          {
+            "question": "Que montre l'affaire du polo sur la faute civile en contexte sportif ?",
+            "choix": [
+              "A. Que tout contact ayant cause un dommage est fautif en soi.",
+              "B. Que les regles du jeu et leur mode d'appreciation restent decisifs pour savoir si une faute civile peut etre retenue.",
+              "C. Que les arbitres remplacent totalement le juge civil.",
+              "D. Que la responsabilite sportive releve seulement du droit penal."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rattache la faute sportive au cadre normatif propre a la discipline. Le juge civil ne raisonne donc pas comme si le dommage suffisait a lui seul.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel est l'effet de la legitime defense dans la logique de cette fiche ?",
+            "choix": [
+              "A. Elle reduit seulement le montant des dommages et interets.",
+              "B. Elle transforme toujours la responsabilite en responsabilite du fait des choses.",
+              "C. Elle exclut la faute civile et empeche l'agresseur d'obtenir reparation du dommage ne de cette defense.",
+              "D. Elle n'a d'effet qu'en matiere penale."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document insiste sur la force du fait justificatif: l'acte de defense demeure juridiquement licite et ne peut fonder une action en responsabilite de l'agresseur.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 989,
+      "fiche": {
+        "titre": "Responsabilite du fait des choses : role causal de la chose, identification du gardien et recul de la garde collective",
+        "resume": "Ce document sur la responsabilite du fait des choses reprend les grandes lignes du regime issu de Jand'heur tout en montrant comment la jurisprudence contemporaine en precise les conditions. Deux questions dominent: comment prouver que la chose a ete l'instrument du dommage, et qui doit etre regarde comme son gardien au moment utile. La fiche en retient une idee directrice : la responsabilite du fait des choses fonctionne largement par presumptions, mais ces presumptions restent orientees vers la recherche du responsable concret.",
+        "sections": [
+          {
+            "titre": "Le regime prend appui sur le principe general issu de Jand'heur, complete par Franck pour la garde et par Gabillet pour son objectivation",
+            "contenu": "Le document replace utilement les solutions recentes dans leur profondeur historique. Jand'heur a fait du texte anciennement introductif un principe general de responsabilite du fait des choses. Franck a substitue a la garde purement juridique une garde materielle fondee sur l'usage, la direction et le controle. Gabillet a ensuite admis que l'absence de discernement ne fait pas obstacle a la qualite de gardien. Le regime est donc general, objectif et centre sur la maitrise concrete de la chose."
+          },
+          {
+            "titre": "La victime doit encore etablir que la chose a joue un role causal, ce qui varie selon qu'elle etait inerte ou en mouvement",
+            "contenu": "Le document montre que l'idee d'instrument du dommage reste la cle d'entree du regime. Lorsque la chose est en mouvement ou entre en contact anormal avec la victime, le role causal est plus facilement admis. Pour une chose inerte, la preuve est plus exigeante et suppose de mettre en avant une position anormale, une structure dangereuse ou des conditions particulieres d'utilisation. Le document montre ainsi que la presomption ne dispense pas totalement d'une demonstration sur le comportement de la chose."
+          },
+          {
+            "titre": "La presomption de garde pese d'abord sur le proprietaire, mais elle peut etre renversee par la preuve d'un transfert reel de maitrise",
+            "contenu": "Le cours insiste sur le fait que le proprietaire n'est qu'un gardien presume. Si un tiers exerce seul au moment du dommage les pouvoirs d'usage, de direction et de controle, la garde peut lui etre transferee. L'arret relatif a l'abattage d'un arbre est revelateur: le professionnel charge de l'operation peut devenir gardien de l'arbre parce qu'il conduit concretement l'action dangereuse. Le transfert ne s'analyse donc pas abstraitement, mais a partir de la maitrise effective de la chose."
+          },
+          {
+            "titre": "Le document affine aussi la notion de gardien en cherchant le responsable reel plutot qu'une addition automatique de co-gardiens",
+            "contenu": "L'affaire du side-car illustre cette recherche d'un role preponderant. Meme lorsqu'une autre personne participe au fonctionnement materiel de la chose, la jurisprudence tend a retenir comme gardien celui qui garde la direction decisive de son usage. Cette methode limite les hypotheses de garde commune et evite de faire de la pluralite de participants un simple mecanisme de diffusion de responsabilite sans analyse de leurs pouvoirs respectifs."
+          },
+          {
+            "titre": "La garde collective demeure admise a titre exceptionnel, mais le document montre clairement qu'elle recule",
+            "contenu": "Le cours recense des cas classiques de garde commune, notamment lorsque plusieurs personnes exercent exactement les memes pouvoirs sur une chose ou lorsqu'il est impossible d'identifier le gardien unique, comme dans certains accidents de chasse ou jeux d'enfants. Mais la tendance recente est inverse. Des que le juge peut identifier le dernier utilisateur, le detenteur successif du ballon ou l'auteur au role determinant, il prefere une garde individuelle. La logique du regime est donc moins de collectiviser que de localiser precisement la maitrise utile."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi Jand'heur occupe-t-il une place fondatrice dans le document ?",
+          "reponse": "Parce qu'il a permis de degager un principe general de responsabilite du fait des choses a partir d'un texte qui n'etait pas initialement concu comme tel.",
+          "explication": "Le cours part de cet arret pour donner sa base historique au regime contemporain.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel apport essentiel l'arret Franck fournit-il a la notion de garde ?",
+          "reponse": "Il definit la garde par l'usage, la direction et le controle materiels de la chose plutot que par la seule titularite juridique.",
+          "explication": "Le document insiste sur ce passage d'une logique abstraite de propriete a une logique de maitrise concrete.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi Gabillet est-il mobilise dans cette seance ?",
+          "reponse": "Parce qu'il montre que l'absence de discernement n'empeche pas, en elle-meme, d'etre gardien d'une chose.",
+          "explication": "Le regime de la garde suit ici une evolution proche de celle de la faute devenue objective.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que doit encore prouver la victime meme dans un regime de responsabilite objective du fait des choses ?",
+          "reponse": "Elle doit etablir que la chose a ete l'instrument du dommage, donc qu'elle a joue un role causal dans sa survenance.",
+          "explication": "Le document rappelle que l'objectivite du regime ne supprime pas toute demonstration.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la preuve du role causal est-elle plus delicate pour une chose inerte ?",
+          "reponse": "Parce qu'il faut alors mettre en avant une anormalite de position, de structure ou d'utilisation pour montrer qu'elle a activement concouru au dommage.",
+          "explication": "Le cours oppose ici les choses inertes aux choses en mouvement ou en contact plus revelateur.",
+          "difficulte": 3
+        },
+        {
+          "question": "Comment le document traite-t-il la presomption de garde du proprietaire ?",
+          "reponse": "Il la presente comme un point de depart qui peut etre renverse si un tiers exerce concretement la maitrise de la chose au moment du dommage.",
+          "explication": "La propriete n'est donc pas une condamnation automatique et definitive.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'affaire de l'abattage de l'arbre est-elle centrale pour comprendre le transfert de garde ?",
+          "reponse": "Parce qu'elle montre qu'un professionnel charge de l'operation dangereuse peut devenir gardien lorsqu'il exerce seul l'usage, la direction et le controle de la chose.",
+          "explication": "Le transfert se deduit de la maitrise effective et non d'une abstraction contractuelle.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que revele l'affaire du side-car sur la recherche du gardien ?",
+          "reponse": "Elle revele que le juge tend a privilegier celui qui conserve le role preponderant de direction plutot qu'une co-garde automatique entre tous les participants.",
+          "explication": "Le document y voit une illustration de la recherche du responsable reel.",
+          "difficulte": 3
+        },
+        {
+          "question": "Dans quelles hypotheses la garde collective subsiste-t-elle encore ?",
+          "reponse": "Elle subsiste surtout lorsque plusieurs personnes exercent exactement les memes pouvoirs ou lorsqu'il est impossible d'identifier un gardien unique.",
+          "explication": "Le cours cite notamment certaines situations de chasse, de jeux d'enfants ou de balles lorsque l'imputation individuelle est impossible.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur la responsabilite du fait des choses ?",
+          "reponse": "Le regime repose sur des presumptions fortes, mais il est oriente vers la preuve du role concret de la chose et vers l'identification la plus precise possible du gardien effectif.",
+          "explication": "Le document met moins l'accent sur une collectivisation automatique que sur la localisation de la maitrise utile.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Responsabilite du fait des choses",
+        "questions": [
+          {
+            "question": "Quel apport du triptyque Jand'heur, Franck et Gabillet structure le document ?",
+            "choix": [
+              "A. Jand'heur supprime la notion de dommage, Franck supprime la garde et Gabillet supprime la causalite.",
+              "B. Jand'heur pose le principe general, Franck definit la garde materielle et Gabillet admet qu'un infans peut etre gardien.",
+              "C. Ces trois arrets ne concernent que la responsabilite contractuelle.",
+              "D. Ils imposent tous une faute personnelle prouvee du gardien."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document presente ces trois decisions comme la charpente historique du regime. Elles construisent ensemble un systeme general, objectif et centre sur la maitrise concrete de la chose.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la victime doit-elle encore raisonner sur le role de la chose dans un regime pourtant objectif ?",
+            "choix": [
+              "A. Parce que la responsabilite du fait des choses reste reservee aux seules choses en mouvement.",
+              "B. Parce qu'il faut toujours etablir que la chose a ete l'instrument du dommage, ce qui suppose une demonstration causale minimale.",
+              "C. Parce que le proprietaire n'est jamais presume gardien.",
+              "D. Parce que toute chose inerte est automatiquement exoneree."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le cours explique que l'objectivite du regime n'abolit pas la question du role causal. La distinction entre chose inerte et chose en mouvement sert justement a organiser cette preuve.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que montre l'affaire de l'abattage de l'arbre sur la garde ?",
+            "choix": [
+              "A. Que la garde suit toujours et exclusivement la propriete.",
+              "B. Que le contrat exclut toujours la responsabilite du fait des choses.",
+              "C. Qu'un professionnel peut recevoir la garde de la chose s'il en exerce concretement l'usage, la direction et le controle.",
+              "D. Que les victimes par ricochet ne peuvent jamais agir sur ce fondement."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document s'en sert pour montrer que la presomption pesant sur le proprietaire peut etre renversee par la preuve d'une maitrise effective transferee a un tiers.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quelle tendance generale le document degage-t-il a propos de la garde collective ?",
+            "choix": [
+              "A. Elle devient la solution ordinaire des accidents impliquant plusieurs personnes.",
+              "B. Elle est supprimee dans tous les cas par la jurisprudence recente.",
+              "C. Elle subsiste a titre exceptionnel, mais la jurisprudence cherche de plus en plus a identifier un gardien individuel reel.",
+              "D. Elle ne concerne que les immeubles en ruine."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le cours decrit un recul net de la garde commune des que le juge peut localiser un role preponderant, un dernier utilisateur ou un detenteur successif clairement identifiable.",
+            "difficulte": 2
+          }
+        ]
+      }
+    }
+  ]
+}

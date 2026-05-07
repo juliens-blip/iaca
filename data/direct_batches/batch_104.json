@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 997,
+      "fiche": {
+        "titre": "Quasi-contrats : liste codifiee, gestion d'affaires, paiement de l'indu et enrichissement injustifie",
+        "resume": "Ce document de cours sur les quasi-contrats montre que cette categorie reste un espace singulier du droit des obligations. Il ne s'agit ni d'un contrat, faute d'accord de volontes createur d'obligation, ni d'une responsabilite fondee sur un dommage. Le droit intervient pour corriger une intervention utile, un paiement sans dette ou un desequilibre patrimonial sans justification. La fiche en retient une idee directrice: les quasi-contrats sont peu nombreux, mais chacun repose sur une logique precise de reequilibrage juridique.",
+        "sections": [
+          {
+            "titre": "Le document commence par rappeler que les quasi-contrats sont des faits volontaires generateurs d'obligations hors contrat",
+            "contenu": "L'article 1300 sert ici de point d'entree. Le texte montre que les quasi-contrats ne naissent pas d'un accord de volontes apte a former un contrat. Ils proviennent d'un comportement volontaire auquel la loi attache des effets obligatoires pour eviter qu'une utilite, un paiement ou un avantage ne restent sans regime. La notion conserve donc un statut intermediaire, historiquement discute, mais conceptuellement utile."
+          },
+          {
+            "titre": "La reforme de 2016 a clarifie la matiere autour d'une liste restreinte sans en bouleverser la logique de fond",
+            "contenu": "Le cours souligne que la gestion d'affaires et le paiement de l'indu etaient deja connus, tandis que l'enrichissement sans cause, devenu enrichissement injustifie, a surtout ete systematise. Cette mise en ordre montre que les quasi-contrats ne constituent pas un reservoir indefini. La codification retient un ensemble structure, tout en laissant de cote certaines constructions plus contingentes comme les loteries publicitaires fondees un temps sur l'apparence."
+          },
+          {
+            "titre": "La gestion d'affaires exige une intervention spontanee, consciente et orientee vers l'interet du maitre de l'affaire",
+            "contenu": "Le document insiste sur plusieurs conditions. Le gerant ne doit pas etre deja tenu par une obligation preexistante, car on n'est pas en gestion d'affaires lorsque l'on execute simplement un contrat ou une obligation legale. Il faut aussi agir en connaissance de cause pour autrui, avec une intention orientee vers ses interets, meme si cette intention altruiste n'exclut pas toute concomitance avec des interets personnels. La gestion d'affaires recompense donc un service veritablement assume pour un autre."
+          },
+          {
+            "titre": "L'utilite de l'acte s'apprecie au moment ou il est accompli et commande l'equilibre des effets de la gestion",
+            "contenu": "Le cours prend soin de distinguer l'utilite au moment de l'intervention et l'issue finale des evenements. Un acte peut rester utile meme si son resultat concret disparait ensuite a cause d'un evenement exterieur. Cette approche permet a la fois de recompenser les initiatives pertinentes et de decourager celles qui seraient intempestives. Elle explique aussi pourquoi le gerant est tenu d'une obligation de perseverance tant que le maitre de l'affaire ne peut pas reprendre lui-meme la main."
+          },
+          {
+            "titre": "Le paiement de l'indu et l'enrichissement injustifie completent l'ensemble comme mecanismes de restitution et de reequilibrage subsidiaire",
+            "contenu": "Le document rappelle que le paiement de l'indu vise la restitution de ce qui a ete verse sans dette. L'enrichissement injustifie, lui, corrige un enrichissement sans cause legitime lorsque aucune autre action plus adaptee n'est ouverte. La comparaison est utile: l'un regarde d'abord l'absence de dette, l'autre un desequilibre patrimonial sans justification. Les loteries publicitaires montrent enfin que toutes les situations atypiques ne deviennent pas automatiquement un nouveau quasi-contrat."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi les quasi-contrats ne sont-ils pas des contrats selon le document ?",
+          "reponse": "Parce qu'ils font naitre des obligations sans accord de volontes createur d'un lien contractuel entre les parties.",
+          "explication": "Le cours les place parmi les faits volontaires auxquels la loi attache des effets obligatoires.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle fonction generale le document attribue-t-il aux quasi-contrats ?",
+          "reponse": "Ils servent a corriger juridiquement une utilite rendue, un paiement sans dette ou un desequilibre patrimonial injustifie.",
+          "explication": "La matiere n'est ni punitive ni purement consensuelle, elle est correctrice.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que change principalement la reforme de 2016 dans la presentation des quasi-contrats ?",
+          "reponse": "Elle clarifie et ordonne une liste resserree sans transformer radicalement les logiques deja acquises.",
+          "explication": "Le document insiste sur la mise en ordre plus que sur une refondation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'existence d'une obligation preexistante exclut-elle la gestion d'affaires ?",
+          "reponse": "Parce qu'on n'agit alors plus spontanement pour autrui, mais en execution d'un engagement deja du.",
+          "explication": "Le cours oppose clairement la gestion d'affaires a l'execution d'un contrat ou d'une obligation legale.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle intention le gerant doit-il avoir pour invoquer la gestion d'affaires ?",
+          "reponse": "Il doit agir en connaissance de cause dans l'interet du maitre de l'affaire.",
+          "explication": "Le document admet que des interets personnels puissent coexister, sans que l'intervention soit exclusivement egoiste.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'utilite de l'acte s'apprecie-t-elle au moment ou il est accompli ?",
+          "reponse": "Parce que la gestion d'affaires recompense la pertinence de l'initiative au moment de l'action et non le seul resultat final.",
+          "explication": "Le cours prend l'exemple d'un acte utile dont le benefice concret disparaitrait ensuite a cause d'un evenement exterieur.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle obligation nait pour le gerant une fois la gestion commencee ?",
+          "reponse": "Il est tenu de perseverer jusqu'a ce que le maitre de l'affaire ou son successeur puisse reprendre la gestion.",
+          "explication": "Le document rattache cette exigence a la protection de la continuite des affaires d'autrui.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'objet propre du paiement de l'indu ?",
+          "reponse": "Il vise la restitution de ce qui a ete verse alors qu'aucune dette ne le justifiait.",
+          "explication": "Le cours le presente comme un mecanisme de retour a l'equilibre apres un paiement sans cause suffisante.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'enrichissement injustifie apparait-il comme subsidiaire ?",
+          "reponse": "Parce qu'il n'a vocation a jouer que lorsqu'aucune autre action plus precise ne permet de traiter utilement le desequilibre.",
+          "explication": "Le document oppose ainsi ce fondement de dernier recours aux regimes plus directement applicables.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que montrent les loteries publicitaires dans l'economie generale de ce chapitre ?",
+          "reponse": "Elles montrent que certaines constructions pretoriennes ont pu etre rapprochees des quasi-contrats sans etre consacrees comme categorie generale par la reforme.",
+          "explication": "Le cours s'en sert pour rappeler que la liste des quasi-contrats reste maitrisee.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Quasi-contrats",
+        "questions": [
+          {
+            "question": "Quelle idee de base definit le mieux les quasi-contrats dans ce document ?",
+            "choix": [
+              "A. Des obligations nees d'un contrat mal forme.",
+              "B. Des obligations nees d'un fait volontaire hors contrat auquel la loi attache des effets de reequilibrage.",
+              "C. Des responsabilites penales sans peine.",
+              "D. Des obligations qui ne concernent que les successions."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document part de l'article 1300 et insiste sur le fait que ces obligations ne viennent pas d'un accord de volontes mais d'une intervention ou d'un avantage juridiquement encadres.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi l'existence d'une obligation preexistante empeche-t-elle de parler de gestion d'affaires ?",
+            "choix": [
+              "A. Parce que la gestion d'affaires est reservee aux professionnels.",
+              "B. Parce qu'une personne deja tenue d'agir n'intervient plus spontanement pour autrui.",
+              "C. Parce que l'utilite de l'acte disparait automatiquement.",
+              "D. Parce que seul un notaire peut gerer l'affaire d'autrui."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document distingue nettement la prise en charge spontanee d'une affaire d'autrui et l'execution d'un devoir deja existant. C'est cette spontaneite qui justifie le regime quasi-contractuel.",
+            "difficulte": 2
+          },
+          {
+            "question": "A quel moment l'utilite de l'acte s'apprecie-t-elle en gestion d'affaires ?",
+            "choix": [
+              "A. Au moment du jugement seulement.",
+              "B. A la date ou le maitre de l'affaire reclame une indemnite.",
+              "C. Au moment ou l'acte est accompli.",
+              "D. A la date a laquelle survient le dernier dommage."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document souligne que l'initiative peut rester juridiquement utile meme si son benefice concret disparait ensuite. L'appreciation se fait donc au jour de l'intervention.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi l'enrichissement injustifie est-il presente comme subsidiaire ?",
+            "choix": [
+              "A. Parce qu'il s'applique avant tous les autres fondements.",
+              "B. Parce qu'il sert de correctif lorsqu'aucune autre action plus adaptee n'est ouverte pour traiter le desequilibre.",
+              "C. Parce qu'il ne concerne que les biens immobiliers.",
+              "D. Parce qu'il suppose toujours une faute intentionnelle."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document montre que ce fondement ne doit pas contourner des actions plus precises. Il est pense comme un mecanisme de dernier recours.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 998,
+      "fiche": {
+        "titre": "Fait d'autrui : responsabilite parentale, commettants et preposes, puis extension encadree par la jurisprudence",
+        "resume": "Ce document de cours sur le fait d'autrui montre que la matiere se construit autour d'une idee simple: faire peser la charge finale du dommage sur une personne plus solvable ou plus structurellement liee a l'activite dommageable que l'auteur direct. Mais cette logique n'est pas uniforme. La responsabilite des parents, celle du commettant et les extensions jurisprudentielles obeissent a des criteres differents. La fiche en retient une ligne directrice: le droit du fait d'autrui oscille entre garantie indemnitaire, pouvoir de controle et recherche d'une limite au risque d'expansion.",
+        "sections": [
+          {
+            "titre": "Le document commence par la responsabilite des parents du fait de leur enfant, devenue une responsabilite de plein droit",
+            "contenu": "Le cours rappelle l'evolution d'un modele initialement pense comme presomption de faute vers un mecanisme objectif. La faute des parents n'a plus a etre etablie et, depuis la jurisprudence moderne, leur absence de faute de surveillance ou d'education ne suffit plus a les exonerer. Cette objectivation explique que la matiere soit souvent critiquee: les parents peuvent etre tenus alors meme que l'enfant n'a commis qu'un simple fait causal."
+          },
+          {
+            "titre": "Les conditions de la responsabilite parentale se recentrent sur le lien juridique avec l'enfant plutot que sur une surveillance materielle immediate",
+            "contenu": "Le document insiste sur le lien de filiation, l'autorite parentale et la place de la cohabitation. Cette derniere a perdu une grande part de sa substance materielle, puisqu'un sejour en vacances, un internat ou certaines separations ne la font pas disparaitre automatiquement. La residence habituelle et l'autorite parentale deviennent plus decisives que l'image ancienne d'un enfant physiquement sous les yeux de ses parents."
+          },
+          {
+            "titre": "La responsabilite du commettant du fait de son prepose repose sur le lien de preposition et sur le rattachement du fait dommageable aux fonctions",
+            "contenu": "Le cours rappelle que la responsabilite du commettant n'est pas fondee sur une faute personnelle de sa part, mais sur le risque lie a l'activite qu'il organise. Encore faut-il que l'acte du prepose soit accompli a l'occasion de ses fonctions. Le document met ici l'accent sur l'abus de fonctions, defini de facon stricte par la reunion de trois criteres cumulatifs: absence d'autorisation, fins etrangeres aux attributions et depassement objectif des fonctions."
+          },
+          {
+            "titre": "L'immunite du prepose montre que le fait d'autrui ne se borne pas a ajouter un debiteur, il peut aussi redistribuer la charge de responsabilite",
+            "contenu": "Le cours commente Costedoat pour montrer que le prepose qui agit sans exceder les limites de sa mission n'engage pas sa responsabilite a l'egard des tiers. Cette immunite n'est pourtant pas absolue. Le document rappelle, a la suite de Cousin et de la jurisprudence ulterieure, qu'elle cede en presence d'une infraction penale intentionnelle et de certaines fautes qualifiees. Le prepose protege n'est donc pas un auteur juridiquement neutre, mais un agent dont la responsabilite est deplacee vers le commettant."
+          },
+          {
+            "titre": "La fin du document expose l'extension jurisprudentielle du fait d'autrui tout en montrant qu'aucun principe general illimite n'est stabilise",
+            "contenu": "L'arret Blieck et ses prolongements permettent d'engager la responsabilite d'organismes ou d'associations qui exercent sur autrui un pouvoir de direction et de controle. Le document souligne toutefois que cette extension suscite des hesitations, notamment dans les projets de reforme, qui cherchent a reintroduire des conditions plus unifiees et a contenir le caractere expansif de certains arretes. L'idee d'un fait d'autrui general n'est donc pas pleinement consacree, meme si la jurisprudence en a largement eprouve la tentation."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle logique indemnitaire generale le document associe-t-il au fait d'autrui ?",
+          "reponse": "Il consiste a faire peser la charge du dommage sur une personne plus solvable ou plus structurellement liee a l'activite dommageable que l'auteur direct.",
+          "explication": "Le cours parle d'une fonction de garantie qui ne se confond pas avec la seule faute personnelle du responsable indirect.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la responsabilite des parents du fait de leur enfant est-elle dite de plein droit dans le document ?",
+          "reponse": "Parce qu'elle ne depend plus de la preuve d'une faute de surveillance ou d'education des parents.",
+          "explication": "Le cours decrit ici une responsabilite objective fortement detach ee du modele ancien de faute presumee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role jouent le lien de filiation et l'autorite parentale dans ce regime ?",
+          "reponse": "Ils structurent le rattachement juridique de l'enfant au parent responsable et orientent la charge de l'indemnisation.",
+          "explication": "Le document montre que ces criteres ont aujourd'hui plus de poids que la seule surveillance materielle immediate.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la cohabitation a-t-elle perdu une part de sa portee materielle ?",
+          "reponse": "Parce qu'elle ne disparait pas automatiquement avec un internat, des vacances ou certaines separations et fonctionne davantage comme indice de rattachement familial.",
+          "explication": "Le cours souligne ainsi le recul d'une lecture purement factuelle de cette condition.",
+          "difficulte": 3
+        },
+        {
+          "question": "Sur quoi repose la responsabilite du commettant du fait de son prepose selon le document ?",
+          "reponse": "Elle repose sur le lien de preposition et sur le rattachement du fait dommageable aux fonctions confiees au prepose.",
+          "explication": "Le cours rattache ce mecanisme a un risque d'activite organisee plutot qu'a une faute propre du commettant.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'abus de fonctions est-il un moyen d'exoneration difficile a etablir pour le commettant ?",
+          "reponse": "Parce qu'il suppose la reunion cumulative d'une absence d'autorisation, de fins etrangeres aux attributions et d'un depassement objectif des fonctions.",
+          "explication": "Le document insiste sur le caractere strict de cette notion pour eviter une exoneration trop facile.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que change Costedoat dans le statut du prepose a l'egard des tiers ?",
+          "reponse": "Le prepose qui agit dans les limites de sa mission beneficie d'une immunite civile a l'egard des tiers victimes.",
+          "explication": "Le document y voit une redistribution de la charge de responsabilite au profit du commettant.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi cette immunite du prepose n'est-elle pas absolue ?",
+          "reponse": "Parce qu'elle cede en cas d'infraction penale intentionnelle et dans certaines hypotheses de faute qualifiee.",
+          "explication": "Le cours rappelle ainsi que l'immunite ne doit pas couvrir tous les comportements personnellement graves du prepose.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel apport du document faut-il retenir a propos de Blieck et des associations ?",
+          "reponse": "Il faut retenir que la jurisprudence a etendu le fait d'autrui aux personnes ou groupements qui exercent sur autrui un veritable pouvoir de direction et de controle.",
+          "explication": "Le document met en avant la permanence ou au moins l'intensite de ce pouvoir comme cle d'imputation.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur le fait d'autrui ?",
+          "reponse": "Le fait d'autrui est un droit de garantie et de pouvoir: il objectifise certains regimes, redistribue la charge entre auteur direct et responsable indirect, mais cherche encore ses limites generales.",
+          "explication": "Le document oppose ainsi expansion jurisprudentielle et tentatives de recadrage.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Fait d'autrui",
+        "questions": [
+          {
+            "question": "Pourquoi la responsabilite des parents du fait de leur enfant est-elle presentee comme une responsabilite de plein droit ?",
+            "choix": [
+              "A. Parce qu'elle suppose toujours la preuve d'une faute educative precise.",
+              "B. Parce qu'elle ne depend plus de la preuve d'une faute de surveillance ou d'education des parents.",
+              "C. Parce qu'elle exclut toute reference au fait de l'enfant.",
+              "D. Parce qu'elle ne vise que les enfants majeurs."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document met l'accent sur l'objectivation du regime. L'absence de faute des parents n'est plus un moyen ordinaire d'exoneration.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle combinaison resume le mieux l'abus de fonctions dans la responsabilite du commettant ?",
+            "choix": [
+              "A. Un acte simplement mal execute pendant le travail.",
+              "B. Un acte autorise mais inefficace.",
+              "C. Un acte accompli sans autorisation, a des fins etrangeres aux attributions et en depassement objectif des fonctions.",
+              "D. Toute infraction penale commise par un salarie."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document presente ces trois conditions comme cumulatives. C'est cette rigueur qui limite les cas d'exoneration du commettant.",
+            "difficulte": 3
+          },
+          {
+            "question": "Que signifie l'arret Costedoat dans l'economie generale de ce chapitre ?",
+            "choix": [
+              "A. Que le prepose devient toujours seul responsable a l'egard des tiers.",
+              "B. Que le prepose agissant dans les limites de sa mission beneficie d'une immunite civile a l'egard des tiers.",
+              "C. Que le commettant n'est jamais responsable du fait du prepose.",
+              "D. Que toute faute intentionnelle est absorbee par la mission."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document montre que l'immunite du prepose deplace la charge de la responsabilite vers le commettant lorsque la mission n'est pas excedee.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel est l'apport central de Blieck selon ce document ?",
+            "choix": [
+              "A. Il supprime toute responsabilite du fait d'autrui.",
+              "B. Il permet d'engager la responsabilite d'un organisme exercant un pouvoir de direction et de controle sur autrui.",
+              "C. Il reserve le fait d'autrui aux parents et aux employeurs.",
+              "D. Il assimile toute association a un commettant."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document voit dans Blieck une extension majeure du fait d'autrui, fondee sur la prise en charge et le controle d'une autre personne.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 999,
+      "fiche": {
+        "titre": "Accidents de la circulation : accident, implication, imputabilite et hierarchie des fautes opposables",
+        "resume": "Ce document de cours sur la loi du 5 juillet 1985 montre que le regime des accidents de la circulation repose sur une logique d'indemnisation large, mais techniquement structuree. Les notions d'accident, de vehicule terrestre a moteur, d'implication et d'imputabilite jouent comme des filtres d'entree. Une fois le texte applicable, la reparation varie selon la qualite de la victime et la nature du dommage. La fiche en retient une idee directrice: la loi Badinter est a la fois plus protectrice que le droit commun et plus precise dans la distribution des fautes opposables.",
+        "sections": [
+          {
+            "titre": "Le document rappelle d'abord que la loi de 1985 a ete concue pour rompre avec le droit commun du fait des choses",
+            "contenu": "Le cours prend appui sur Jand'heur et sur la rupture provoquee par Desmares pour montrer pourquoi la loi Badinter a ete adoptee. Elle privilegie l'indemnisation des victimes plutot que la seule recherche d'une faute a opposer. La notion d'implication remplace ici une approche plus etroite de la causalite, ce qui confirme que le regime special cherche d'abord un debiteur d'indemnites solvable."
+          },
+          {
+            "titre": "L'entree dans le regime suppose un accident de la circulation impliquant un vehicule terrestre a moteur",
+            "contenu": "Le document insiste sur le caractere fortuit de l'accident et sur le lien avec la fonction de deplacement du vehicule. Le champ du texte deborde la seule voie publique et peut viser certains lieux prives ou certaines situations de tournage, mais il ne s'etend pas a tout evenement impliquant materiellement un engin. La notion de vehicule terrestre a moteur reste donc large sans etre indifferenciee."
+          },
+          {
+            "titre": "La notion d'implication est volontairement large et facilite l'action de la victime, y compris sans contact direct",
+            "contenu": "Le cours explique que le simple heurt n'est pas la seule hypothese. Un vehicule a l'arret ou en stationnement peut etre implique, de meme qu'un vehicule qui a joue un role dans un accident complexe ou en chaine. En revanche, la simple concomitance de presence sur les lieux ne suffit pas. L'implication permet ainsi d'ouvrir le regime sans obliger la victime a prouver un role perturbateur strict."
+          },
+          {
+            "titre": "L'imputabilite du dommage a l'accident est ensuite presumee a partir de l'implication, ce qui renforce encore la protection de la victime",
+            "contenu": "Le document distingue l'implication et l'imputabilite, tout en montrant leur articulation. L'implication du vehicule dans l'accident fait presumer que le dommage en procede. Cette presomption joue au profit de la victime et allege sa charge probatoire, notamment dans les accidents complexes. Le gardien ou le responsable devra alors renverser cette imputabilite presumee s'il veut echapper a la charge finale."
+          },
+          {
+            "titre": "La reparation varie enfin selon la qualite de la victime et selon qu'il s'agit d'un dommage corporel ou d'un dommage aux biens",
+            "contenu": "Le cours expose la grande asymetrie du regime. Le conducteur victime peut voir son indemnisation reduite ou exclue par sa faute simple, a condition qu'elle ait un lien causal avec le prejudice subi. Les non-conducteurs sont bien mieux proteges et certaines victimes vulnerables ne perdent leur protection qu'en cas de faute volontaire de recherche du dommage. Pour les dommages aux biens, la faute simple redevient en revanche opposable de facon beaucoup plus large. Le document ajoute enfin les questions de victimes par ricochet, de collisions en chaine et de recours entre coobliges, qui montrent que la loi Badinter organise aussi la repartition interne de la charge d'indemnisation."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le document presente-t-il la loi Badinter comme une rupture avec le droit commun ?",
+          "reponse": "Parce qu'elle privilegie l'indemnisation des victimes et une notion large d'implication plutot que la seule recherche classique d'une faute.",
+          "explication": "Le cours relie cette rupture aux limites de l'ancien systeme du fait des choses.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role joue la notion d'implication dans l'economie generale de la loi de 1985 ?",
+          "reponse": "Elle sert de critere d'entree large dans le regime special en se substituant a une approche trop etroite du role causal du vehicule.",
+          "explication": "Le document la presente comme plus souple que la causalite au sens classique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'accident de la circulation doit-il conserver un caractere fortuit ?",
+          "reponse": "Parce que la loi vise un evenement involontaire et non un dommage recherche volontairement.",
+          "explication": "Le cours oppose ici l'accident au fait volontaire comme la voiture belier ou l'acte intentionnel equivalent.",
+          "difficulte": 3
+        },
+        {
+          "question": "Dans quels cas un vehicule a l'arret peut-il tout de meme etre implique selon le document ?",
+          "reponse": "Lorsqu'il a participe a quelques titres que ce soit a la realisation de l'accident, meme sans mouvement propre au moment du choc.",
+          "explication": "Le document insiste sur l'absence de distinction rigide entre vehicule en mouvement et vehicule stationne.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la simple presence d'un vehicule sur les lieux ne suffit-elle pas toujours ?",
+          "reponse": "Parce que l'implication ne peut pas se deduire de la seule concomitance, il faut encore un role dans la realisation de l'accident.",
+          "explication": "Le cours distingue ainsi implication large et pure coincidence spatiale.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel lien le document etablit-il entre implication et imputabilite ?",
+          "reponse": "L'implication du vehicule dans l'accident fait presumer l'imputabilite du dommage a cet accident.",
+          "explication": "Cette presomption simplifie la preuve au profit de la victime.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la faute du conducteur victime n'est-elle pas opposee de n'importe quelle facon ?",
+          "reponse": "Parce qu'elle doit avoir un lien causal avec le prejudice corporel ou son aggravation pour limiter ou exclure l'indemnisation.",
+          "explication": "Le document illustre cette exigence en distinguant la faute civile utilement causale de la simple infraction routiere sans effet sur le dommage.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel niveau de protection le document reconnait-il aux non-conducteurs vulnerables ?",
+          "reponse": "Ils beneficient d'une protection maximale, leur indemnisation n'etant ecartee qu'en cas de recherche volontaire du dommage corporel.",
+          "explication": "Le cours cite ici les mineurs, les personnes agees et certaines personnes handicapees comme super-victimes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les dommages aux biens sont-ils traites differemment des atteintes a la personne ?",
+          "reponse": "Parce que la loi admet plus largement l'opposabilite de la faute simple pour les biens que pour les dommages corporels.",
+          "explication": "Le document montre ainsi une hierarchie explicite des interets proteges.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur les accidents de la circulation ?",
+          "reponse": "La loi Badinter combine un acces large a l'indemnisation par l'implication et l'imputabilite presumee avec une distribution differenciee des fautes opposables selon la qualite de la victime et la nature du dommage.",
+          "explication": "Le document montre un regime a la fois protecteur et soigneusement architecture.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Accidents de la circulation",
+        "questions": [
+          {
+            "question": "Pourquoi la notion d'implication occupe-t-elle une place aussi centrale dans la loi de 1985 ?",
+            "choix": [
+              "A. Parce qu'elle remplace toute idee de dommage corporel.",
+              "B. Parce qu'elle permet une entree large dans le regime special sans exiger une demonstration trop etroite du role causal du vehicule.",
+              "C. Parce qu'elle reserve la loi aux seuls chocs frontaux.",
+              "D. Parce qu'elle exclut tout vehicule stationne."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document presente l'implication comme un outil de protection probatoire. Elle ouvre largement l'application de la loi tout en restant distincte d'une simple presence fortuite.",
+            "difficulte": 2
+          },
+          {
+            "question": "Dans quel cas un vehicule sans contact direct peut-il tout de meme etre implique ?",
+            "choix": [
+              "A. Jamais, car le choc est toujours indispensable.",
+              "B. S'il a joue un role dans la realisation de l'accident, meme sans heurt materiel.",
+              "C. Uniquement s'il s'agit d'un vehicule de police.",
+              "D. Seulement si le conducteur reconnait sa faute."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document explique que l'implication ne suppose pas necessairement le choc. Elle peut etre retenue dans des accidents complexes ou sans contact si le vehicule a vraiment contribue a l'evenement.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la faute du conducteur victime ne limite-t-elle pas automatiquement son indemnisation ?",
+            "choix": [
+              "A. Parce qu'aucune faute du conducteur n'est opposable.",
+              "B. Parce qu'il faut encore etablir un lien causal entre cette faute et le prejudice subi ou aggrave.",
+              "C. Parce que seule la faute penale compte.",
+              "D. Parce que l'assurance remplace toute analyse de causalite."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rappelle que la faute simple du conducteur peut jouer, mais seulement si elle a une incidence causale sur le dommage ou son aggravation.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quelle opposition structure la reparation dans ce document ?",
+            "choix": [
+              "A. L'opposition entre faute contractuelle et faute penale.",
+              "B. L'opposition entre dommages aux biens et dommages a la personne, ainsi qu'entre conducteurs et non-conducteurs.",
+              "C. L'opposition entre accidents de jour et accidents de nuit.",
+              "D. L'opposition entre proprietaires et locataires."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document montre que la loi protege bien davantage les victimes corporelles non conductrices, surtout vulnerables, que les conducteurs ou les dommages purement materiels.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1000,
+      "fiche": {
+        "titre": "Introduction a la responsabilite extracontractuelle : place parmi les faits juridiques, fonctions et axes d'evolution",
+        "resume": "Cette retranscription d'ouverture du semestre replace la responsabilite extracontractuelle dans l'ensemble du droit des obligations. Le document montre que le second semestre ne se limite pas a une liste d'articles du Code civil: il s'organise autour des faits juridiques, de la distinction entre responsabilite extracontractuelle et quasi-contrat, puis d'une ouverture vers le regime general de l'obligation. La fiche en retient une idee directrice: avant de traiter les regimes speciaux, il faut comprendre la place, les fonctions et les transformations profondes de la responsabilite civile extracontractuelle.",
+        "sections": [
+          {
+            "titre": "Le document commence par situer la responsabilite extracontractuelle dans la theorie generale des sources d'obligations",
+            "contenu": "L'introduction prend appui sur l'article 1100-2 du Code civil pour rappeler que les faits juridiques engendrent des obligations a cote des actes juridiques et donc du contrat. Le semestre s'ouvre ainsi sur une cartographie des sources: d'un cote la responsabilite extracontractuelle, de l'autre les autres sources d'obligations comme le quasi-contrat. Cette mise en place montre que le droit de la responsabilite ne se comprend bien que dans un ensemble plus vaste."
+          },
+          {
+            "titre": "La responsabilite extracontractuelle est presentee comme le coeur du semestre, mais sans pretendre epuiser tout le droit des obligations",
+            "contenu": "Le document insiste sur la structure pedagogique du cours. Huit fiches sur neuf sont consacrees a la responsabilite extracontractuelle, tandis que le quasi-contrat ferme la serie des travaux diriges. Parallelement, le regime general de l'obligation, meme hors programme d'examen, est annonce comme indispensable pour comprendre ensuite les developpements plus techniques. L'introduction relie donc les chapitres a venir a une architecture d'ensemble."
+          },
+          {
+            "titre": "La definition retenue de la responsabilite extracontractuelle est large et deja marquee par la diversification de ses fondements",
+            "contenu": "Le document presente la responsabilite extracontractuelle comme l'obligation de reparer un dommage cause par sa faute, par son activite ou par sa qualite ou fonction. Cette definition est importante car elle traduit un deplacement historique. La faute n'epuise plus la matiere. L'introduction annonce deja que le droit positif s'est transforme depuis 1804 et qu'il faut tenir compte de logiques de risque, de garantie et d'indemnisation plus larges que le seul blame moral."
+          },
+          {
+            "titre": "Le cours annonce ensuite une reflexion sur les fonctions et sur les nouveaux mecanismes de la responsabilite civile",
+            "contenu": "L'introduction ne se limite pas a la reparation d'un dommage isole. Elle annonce une etude des fonctions de la responsabilite, de ses fondements renouveles et des nouvelles orientations legislatives. Cette methode est importante: elle montre qu'avant d'etudier les regimes du fait personnel, du fait des choses ou des accidents de la circulation, il faut comprendre pourquoi et comment la responsabilite sert a la fois a reparer, a repartir les risques et a organiser la reaction juridique face au dommage."
+          },
+          {
+            "titre": "Enfin, la distinction avec la responsabilite contractuelle et avec la responsabilite penale prepare les difficultes de qualification du semestre",
+            "contenu": "Le document annonce un travail de demarcation. La responsabilite extracontractuelle se distingue de la responsabilite contractuelle deja etudiee au premier semestre, mais aussi de la responsabilite penale, qui poursuit d'autres finalites. L'introduction se termine en ouvrant sur les projets de reforme, encore attendus, ce qui souligne le paradoxe d'une matiere dont les textes de base sont anciens alors meme que ses fonctions et ses categories ont ete profondement transformees."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le document commence-t-il par l'article 1100-2 du Code civil ?",
+          "reponse": "Parce qu'il veut replacer la responsabilite extracontractuelle dans l'ensemble des obligations nees de faits juridiques.",
+          "explication": "L'introduction commence par les sources d'obligations avant d'entrer dans les regimes particuliers.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role joue la distinction entre responsabilite extracontractuelle et quasi-contrat dans l'economie du semestre ?",
+          "reponse": "Elle permet d'ordonner les faits juridiques en deux grands ensembles et de donner un plan coherent au cours.",
+          "explication": "Le document montre que la responsabilite occupe l'essentiel du semestre, sans epuiser a elle seule toutes les sources non contractuelles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le regime general de l'obligation est-il annonce alors qu'il n'est pas au programme direct de l'examen ?",
+          "reponse": "Parce qu'il fournit des outils transversaux utiles pour comprendre ensuite plusieurs branches du droit civil et du droit commercial.",
+          "explication": "Le document relie ainsi l'introduction du semestre a des besoins plus larges de formation juridique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que revele la definition large de la responsabilite extracontractuelle donnee dans le document ?",
+          "reponse": "Elle revele que la matiere ne se limite plus a la faute et integre aussi des logiques liees a l'activite, au risque ou a la qualite de la personne tenue.",
+          "explication": "Le texte annonce ainsi le deplacement historique des fondements de la responsabilite civile.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'introduction insiste-t-elle sur les fondements de la responsabilite et leur evolution depuis 1804 ?",
+          "reponse": "Parce que comprendre les regimes contemporains suppose de voir comment on est passe d'une lecture centree sur la faute a des mecanismes plus diversifies.",
+          "explication": "Le document annonce ici la mutation profonde de la matiere sans entrer encore dans le detail des regimes.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelles fonctions de la responsabilite le document suggere-t-il au-dela de la seule reparation ?",
+          "reponse": "Il suggere des fonctions de repartition des risques, d'organisation de la reaction juridique au dommage et plus largement de regulation sociale.",
+          "explication": "L'introduction prepare une lecture fonctionnelle de la responsabilite civile.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la distinction entre responsabilite extracontractuelle et contractuelle reste-t-elle centrale des l'introduction ?",
+          "reponse": "Parce qu'elle conditionne la qualification des situations juridiques et donc le regime applicable.",
+          "explication": "Le document annonce explicitement ce travail de demarcation avec le premier semestre.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pour quelle raison le document annonce-t-il egalement une distinction avec la responsabilite penale ?",
+          "reponse": "Parce que la responsabilite penale poursuit d'autres finalites et ne doit pas etre confondue avec la logique civile de reparation et d'indemnisation.",
+          "explication": "L'introduction veut eviter un melange des categories avant meme l'etude detaillee des regimes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que montre la reference finale aux projets de reforme dans cette introduction ?",
+          "reponse": "Elle montre qu'une matiere aux textes anciens reste traversee par des transformations conceptuelles et legislatives encore inachevees.",
+          "explication": "Le document souligne le decalage entre anciennete des textes et mouvement continu des idees de responsabilite.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette introduction de semestre ?",
+          "reponse": "Avant d'etudier les regimes techniques, il faut comprendre la place de la responsabilite extracontractuelle parmi les faits juridiques, la diversification de ses fondements et son articulation avec les autres branches du droit des obligations.",
+          "explication": "Le document sert de carte d'ensemble pour la suite du semestre.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Introduction a la responsabilite extracontractuelle",
+        "questions": [
+          {
+            "question": "Pourquoi l'introduction du semestre part-elle des faits juridiques plutot que d'un regime special particulier ?",
+            "choix": [
+              "A. Parce que le semestre ne traite plus du tout du contrat.",
+              "B. Parce qu'elle veut d'abord replacer la responsabilite extracontractuelle parmi les sources d'obligations nees hors accord de volontes.",
+              "C. Parce que les faits juridiques suppriment toute distinction de regimes.",
+              "D. Parce que l'article 1100-2 ne concerne que la responsabilite penale."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document construit une vue d'ensemble des sources d'obligations avant d'etudier les regimes particuliers. Cette mise en perspective permet de comprendre la place exacte de la responsabilite extracontractuelle dans le semestre.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que montre la definition large de la responsabilite extracontractuelle proposee dans ce document ?",
+            "choix": [
+              "A. Qu'elle se reduit a la faute morale traditionnelle.",
+              "B. Qu'elle a integre des fondements plus larges que la seule faute, lies aussi a l'activite ou a la qualite de la personne tenue.",
+              "C. Qu'elle a disparu au profit du contrat.",
+              "D. Qu'elle s'applique seulement aux personnes morales."
+            ],
+            "reponse_correcte": 1,
+            "explication": "L'introduction annonce deja un deplacement historique des fondements de la responsabilite civile. La faute n'est plus l'unique cle d'explication des regimes contemporains.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi l'introduction insiste-t-elle sur la distinction avec la responsabilite contractuelle et avec la responsabilite penale ?",
+            "choix": [
+              "A. Parce que ces deux categories sont strictement identiques.",
+              "B. Parce que la qualification de la situation conditionne le regime applicable et les finalites poursuivies.",
+              "C. Parce que la responsabilite penale est devenue une source d'obligations civiles generales.",
+              "D. Parce que le premier semestre n'avait traite que de la procedure penale."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document prepare un travail de demarcation. Il rappelle que la responsabilite extracontractuelle ne doit etre ni absorbee par le contrat ni confondue avec la sanction penale.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que signifie la reference finale aux projets de reforme dans cette introduction ?",
+            "choix": [
+              "A. Que la matiere est stable et fermee a toute evolution.",
+              "B. Que les textes ont deja tous ete remplaces.",
+              "C. Que la responsabilite extracontractuelle reste une matiere ancienne dans ses textes mais encore en mouvement dans ses concepts et ses orientations.",
+              "D. Que la reforme a supprime la distinction entre quasi-contrat et responsabilite."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document insiste sur ce paradoxe: les textes de base sont anciens, mais les fondements, les fonctions et les projets de transformation restent tres actifs.",
+            "difficulte": 3
+          }
+        ]
+      }
+    }
+  ]
+}
