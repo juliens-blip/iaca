@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 1009,
+      "fiche": {
+        "titre": "Fait d'autrui II : immunite du prepose, responsabilite du commettant, regimes residuels et absence de principe general",
+        "resume": "Cette retranscription poursuit l'etude du fait d'autrui en se concentrant sur le regime du commettant du fait de son prepose, puis sur les figures plus residuelles prevues par les textes. Le document met surtout en lumiere la transformation de la responsabilite du commettant : le prepose n'est plus seulement un auteur fautif garanti par un autre, mais beneficie souvent d'une immunite lorsque sa mission n'est pas depassee. La fiche en retient une idee directrice : la responsabilite du fait d'autrui reste une mosaque de cas speciaux, et non un principe general comparable au fait des choses.",
+        "sections": [
+          {
+            "titre": "Le coeur du regime moderne tient a l'immunite du prepose lorsqu'il agit dans les limites de la mission confiee",
+            "contenu": "Le document rappelle qu'a l'origine la victime pouvait agir aussi bien contre le commettant que contre le prepose, le premier jouant surtout un role de garant solvable. L'arret Costedoat du 25 fevrier 2000 a bouleverse cet equilibre en jugeant que le prepose n'engage pas sa responsabilite a l'egard des tiers lorsqu'il agit sans exceder les limites de sa mission. Le systeme cesse alors d'etre purement cumulatif : dans de nombreuses hypotheses, la responsabilite du commettant se substitue a celle du prepose."
+          },
+          {
+            "titre": "Cette immunite n'est toutefois pas absolue, car elle cede devant certaines fautes penalement qualifiees ou hors mission",
+            "contenu": "Le cours souligne que la jurisprudence a rapidement encadre l'arret Costedoat. L'arret Cousin du 14 decembre 2001 retient la responsabilite civile du prepose lorsqu'il a commis une infraction penale intentionnelle. La chambre criminelle a ensuite etendu cette limite, le 28 mars 2006, a certaines fautes penales non intentionnelles commises avec delegation de pouvoir. En outre, l'immunite disparait si le prepose agit hors des limites de sa mission ou commet un abus de fonction, ce qui redonne prise a sa responsabilite personnelle."
+          },
+          {
+            "titre": "La responsabilite du commettant demeure une responsabilite de plein droit, avec des causes d'exoneration et un jeu complexe des recours",
+            "contenu": "Le document explique que le commettant reste tenu sans qu'il puisse simplement invoquer son absence de faute. L'abus de fonction ou l'absence de conditions tenant au prepose font obstacle a l'engagement meme du regime, mais, une fois celui-ci ouvert, le commettant ne s'exonere classiquement que par des causes comme la force majeure ou la faute de la victime. Le cours insiste aussi sur la mutation de l'action reursoire : en principe, le commettant ne peut plus se retourner contre le prepose protege par son immunite, meme si les assureurs conservent entre eux des recours specifiques."
+          },
+          {
+            "titre": "La synthese jurisprudentielle oppose trois configurations : prepose seul, commettant seul, ou responsabilite simultanee des deux",
+            "contenu": "Le document met en ordre les hypotheses. Le prepose est seul responsable lorsqu'il a commis une faute accompagnee d'un abus de fonction. Le commettant est seul responsable lorsque le prepose a fautivement agi dans le cadre de sa mission sans perdre son immunite. Les deux deviennent responsables lorsque le prepose a bien commis une faute, qu'il n'y a pas d'abus de fonction, mais qu'il a depasse les limites de sa mission, ou encore lorsqu'une faute penale de la nature exigee par la jurisprudence fait tomber l'immunite sans faire disparaitre la responsabilite du commettant."
+          },
+          {
+            "titre": "Les autres cas textuels et l'affaire Blieck montrent une extension ponctuelle, sans consacrer pour autant un veritable principe general",
+            "contenu": "Le cours evoque les regimes plus marginaux de l'artisan du fait de l'apprenti et de l'enseignant du fait de l'eleve, ce dernier etant aujourd'hui largement organise autour d'une substitution de la responsabilite de l'Etat. Il revient surtout sur l'arret Blieck du 29 mars 1991, qui admet la responsabilite d'un centre charge d'organiser et de controler a titre permanent le mode de vie d'une personne handicapee. Cette extension jurisprudentielle ne debouche toutefois pas, selon le document, sur un principe general analogue a celui du fait des choses. Les projets de reforme s'orientent eux aussi vers le maintien d'une liste de cas determines plutot que vers une formule generale."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel renversement majeur l'arret Costedoat du 25 fevrier 2000 introduit-il ?",
+          "reponse": "Il consacre l'immunite du prepose a l'egard des tiers lorsqu'il agit dans les limites de la mission confiee par son commettant.",
+          "explication": "Le document y voit la transformation d'un systeme de simple garantie en un systeme de substitution frequente de responsabilite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'arret Cousin du 14 decembre 2001 limite-t-il l'immunite du prepose ?",
+          "reponse": "Parce qu'il retient sa responsabilite civile lorsqu'il a commis une infraction penale intentionnelle ayant cause un prejudice a un tiers.",
+          "explication": "Le cours presente cette date comme la premiere grande borne mise a l'immunite issue de Costedoat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel prolongement la chambre criminelle a-t-elle apporte le 28 mars 2006 ?",
+          "reponse": "Elle a admis que certaines fautes penales non intentionnelles puissent elles aussi faire tomber l'immunite, notamment en presence d'une delegation de pouvoir.",
+          "explication": "Le document montre ainsi que la protection du prepose n'est ni simple ni uniforme.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi dit-on que la responsabilite du commettant est une responsabilite de plein droit ?",
+          "reponse": "Parce qu'une fois les conditions reunies, il ne peut pas s'exonerer en demontrant seulement son absence de faute personnelle.",
+          "explication": "Le document rattache cette logique a la protection de la victime et a la structure meme du regime du fait d'autrui.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quand le prepose devient-il seul responsable d'apres la synthese du document ?",
+          "reponse": "Lorsqu'il a commis une faute accompagnee d'un abus de fonction.",
+          "explication": "Dans cette hypothese, le comportement sort suffisamment des fonctions pour faire tomber la responsabilite du commettant.",
+          "difficulte": 3
+        },
+        {
+          "question": "Dans quel cas le commettant est-il seul responsable ?",
+          "reponse": "Lorsque le prepose a fautivement agi dans sa mission sans en exceder les limites au point de perdre son immunite.",
+          "explication": "Le document relie cette configuration au coeur du systeme Costedoat.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi les recours entre commettant et prepose se sont-ils contractes apres Costedoat ?",
+          "reponse": "Parce que le commettant n'a plus, en principe, d'action reursoire contre un prepose protege par l'immunite.",
+          "explication": "Le cours ajoute toutefois que cette immunite ne supprime pas tous les recours entre assureurs.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel est aujourd'hui le mecanisme principal pour les enseignants du fait de leurs eleves ?",
+          "reponse": "La responsabilite de l'Etat se substitue largement a celle des enseignants dans l'enseignement public et le prive sous contrat.",
+          "explication": "Le document rapproche ce regime d'une logique de protection du personnel enseignant et de faute prouvee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que retient l'arret Blieck du 29 mars 1991 ?",
+          "reponse": "Il retient la responsabilite d'un organisme charge d'organiser et de controler a titre permanent le mode de vie d'une personne handicapee.",
+          "explication": "Le cours y voit une extension importante des cas de responsabilite du fait d'autrui au-dela des seules categories textuelles classiques.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le document refuse-t-il de parler d'un principe general du fait d'autrui ?",
+          "reponse": "Parce que les solutions restent attachees a des cas particuliers, a des extensions ponctuelles et a des regimes heterogenes plutot qu'a une formule unique.",
+          "explication": "Le document oppose ici le fait d'autrui au fait des choses, ou la jurisprudence a veritablement consacre un principe general.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Fait d'autrui II",
+        "questions": [
+          {
+            "question": "Que faut-il retenir de l'arret Costedoat dans l'economie generale du regime du commettant ?",
+            "choix": [
+              "A. Il supprime toute responsabilite du commettant.",
+              "B. Il consacre l'immunite du prepose lorsqu'il agit dans les limites de sa mission, ce qui deplace la charge de reparation vers le commettant.",
+              "C. Il remplace la responsabilite civile par une seule sanction penale.",
+              "D. Il consacre un principe general du fait d'autrui."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document presente Costedoat comme le point de bascule qui transforme le role du prepose dans le contentieux de la responsabilite du fait d'autrui.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi l'immunite du prepose ne peut-elle pas etre comprise comme une protection absolue ?",
+            "choix": [
+              "A. Parce qu'elle cede notamment en cas de faute penale intentionnelle et dans certaines hypothesees hors mission ou avec delegation de pouvoir.",
+              "B. Parce qu'elle ne joue que pour les mineurs.",
+              "C. Parce qu'elle disparait des qu'il existe un contrat de travail.",
+              "D. Parce qu'elle est reservee aux seuls artisans."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le cours articule ici Costedoat, Cousin et la jurisprudence penale ulterieure pour montrer les limites concretes de l'immunite.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle configuration caracterise une responsabilite simultanee du commettant et du prepose ?",
+            "choix": [
+              "A. Lorsque le prepose agit dans la mission et reste integralement protege par son immunite.",
+              "B. Lorsque le prepose depasse les limites de sa mission sans qu'il y ait pour autant abus de fonction, ou lorsqu'une faute penale qualifiee fait tomber l'immunite.",
+              "C. Lorsqu'aucun dommage n'a ete cause a un tiers.",
+              "D. Lorsque la victime renonce a toute indemnisation."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document propose une synthese en trois cas et reserve la responsabilite double a certaines hypotheses bien delimitees.",
+            "difficulte": 3
+          },
+          {
+            "question": "Pourquoi l'arret Blieck ne suffit-il pas, selon le document, a consacrer un principe general du fait d'autrui ?",
+            "choix": [
+              "A. Parce qu'il a ete immediatement annule par la loi.",
+              "B. Parce qu'il ne concerne que le droit penal.",
+              "C. Parce qu'il etend un cas de responsabilite a partir de circonstances particulieres sans unifier l'ensemble des regimes autour d'une formule generale stable.",
+              "D. Parce qu'il exclut toute idee d'organisation ou de controle permanent."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le cours voit dans Blieck une extension importante, mais pas l'equivalent structurel de ce qu'a ete Jand'heur pour le fait des choses.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1010,
+      "fiche": {
+        "titre": "Action en responsabilite civile : ordre public, parties, competence, prescription et reparation integrale",
+        "resume": "Cette retranscription expose les effets du droit commun de la responsabilite civile une fois les conditions de fond reunies. Le dommage, la causalite et le fait generateur n'ouvrent pas seulement un droit abstrait : ils permettent une action en justice regie par des regles de competence, de prescription et d'indemnisation. La fiche en retient une idee directrice : l'action en responsabilite civile est un instrument d'indemnisation gouverne par le principe de reparation integrale, tout en laissant une large place a la technique procedurale et a l'evaluation concrete du prejudice.",
+        "sections": [
+          {
+            "titre": "L'action en responsabilite s'ouvre lorsque les conditions de fond sont reunies, dans un cadre largement d'ordre public",
+            "contenu": "Le document rappelle que l'action en responsabilite suppose la reunion cumulative d'un dommage, d'un lien de causalite et d'un fait generateur. Les regles du droit commun de la responsabilite extracontractuelle sont de nature imperative : les clauses qui excluraient ou attenueraient a l'avance la responsabilite sont nulles, car elles se presenteraient comme de simples declarations unilaterales inacceptables. En revanche, une fois le dommage survenu, la victime peut toujours transiger sur son droit a reparation, ce qui explique le role pratique des accords indemnitaires negocies avec les assureurs."
+          },
+          {
+            "titre": "Les parties a l'action ne se limitent pas a la victime immediate, car le droit d'agir se transmet et se diversifie",
+            "contenu": "Le cours montre que le demandeur peut etre la victime directe, ses heritiers lorsque l'action se transmet avec le patrimoine, ou encore les proches invoquant un prejudice par ricochet. Les creanciers peuvent egalement agir par voie oblique pour proteger un interet patrimonial, mais non pour des droits exclusivement attaches a la personne comme le dommage moral. Le document ajoute que les personnes morales peuvent agir pour leur prejudice propre et, dans certains cas determines par la loi, pour un prejudice collectif touchant les membres qu'elles representent."
+          },
+          {
+            "titre": "La mise en oeuvre processuelle repose sur des regles classiques de competence et de prescription, avec plusieurs delais speciaux",
+            "contenu": "Le document rappelle que le tribunal judiciaire est en principe competent, soit au domicile du defendeur, soit au lieu du fait dommageable, soit au lieu ou le dommage a ete subi. Lorsqu'une infraction existe, la victime dispose en outre d'une option entre le juge civil et le juge penal pour l'action civile. S'agissant de la prescription, le droit commun fixe un delai de cinq ans, mais le dommage corporel releve d'un delai de dix ans et certains dommages lies aux violences les plus graves peuvent aller jusqu'a vingt ans. Le point de depart suit en principe la connaissance du dommage, avec une regle particulierement importante de consolidation en matiere corporelle."
+          },
+          {
+            "titre": "Le principe directeur de la reparation est la reparation integrale, sans perte ni profit pour la victime",
+            "contenu": "Le cours formule le principe de facon classique : tout le dommage, mais rien que le dommage. L'objectif est de replacer la victime dans la situation qui aurait ete la sienne si le fait dommageable n'avait pas eu lieu, sans enrichissement indu. La gravite de la faute ne fixe donc pas, en principe, le montant des dommages et interets. Le document rappelle aussi que le droit francais ne consacre pas traditionnellement de dommages et interets punitifs, meme si certains projets de reforme envisagent des mecanismes voisins autour de la faute lucrative."
+          },
+          {
+            "titre": "L'evaluation et les formes de la reparation combinent apprecation souveraine du juge, souplesse et refus d'imposer a la victime de se sacrifier",
+            "contenu": "Le document explique que les juges du fond evaluent souverainement le prejudice, aujourd'hui souvent poste par poste, notamment pour le dommage corporel. Certaines ameliorations exterieures a l'accident, comme un remariage, un heritage ou une indemnite etrangere au dommage, ne profitent pas au responsable. La victime n'a pas non plus, en droit francais, d'obligation generale de minimiser son prejudice dans l'interet du responsable, surtout lorsqu'un dommage corporel serait en jeu. Enfin, la reparation prend le plus souvent la forme de dommages et interets, mais peut aussi passer par une rente, une remise en etat ou une autre mesure de reparation en nature. Si un prejudice nouveau apparait ou s'aggrave apres le jugement, une nouvelle demande reste possible dans certaines limites."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi les clauses excluant par avance la responsabilite extracontractuelle sont-elles nulles ?",
+          "reponse": "Parce que le regime est d'ordre public et que de telles clauses se reduiraient a des declarations unilaterales paralysant illegitimement l'application de la loi.",
+          "explication": "Le document oppose ici la responsabilite extracontractuelle aux limitations de responsabilite eventuellement negociees dans un cadre contractuel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi une transaction reste-t-elle possible malgre le caractere d'ordre public du regime ?",
+          "reponse": "Parce que la victime peut renoncer apres coup a tout ou partie de son droit a reparation, alors que l'ordre public interdit seulement d'ecarter la responsabilite a l'avance.",
+          "explication": "Le cours distingue la nullite des clauses anticipant le dommage et la liberte de transiger une fois le prejudice survenu.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qui peut agir comme demandeur en responsabilite au-dela de la victime directe ?",
+          "reponse": "Les heritiers, certaines victimes par ricochet, et dans une mesure limitee les creanciers par voie oblique ou certains groupements habilites.",
+          "explication": "Le document montre ainsi que le cercle des demandeurs est plus large qu'une simple relation auteur-victime immediate.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'action oblique ne permet-elle pas de poursuivre la reparation d'un dommage moral ?",
+          "reponse": "Parce qu'elle ne porte pas sur les droits exclusivement attaches a la personne de la victime.",
+          "explication": "Le cours rattache cette limitation a l'article 1341-1 du Code civil.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel tribunal est en principe competent pour une action en responsabilite civile extracontractuelle ?",
+          "reponse": "Le tribunal judiciaire, notamment au domicile du defendeur, avec des options possibles liees au lieu du fait dommageable ou du dommage subi.",
+          "explication": "Le document ajoute que l'action civile peut aussi etre portee devant le juge penal lorsqu'elle accompagne une infraction.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quels sont les trois grands delais de prescription presentes dans cette seance ?",
+          "reponse": "Cinq ans en droit commun, dix ans pour le dommage corporel, et vingt ans pour certains dommages corporels lies aux violences les plus graves.",
+          "explication": "Le cours insiste aussi sur le point de depart particulier de la consolidation pour certains dommages corporels.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie la formule 'tout le dommage, mais rien que le dommage' ?",
+          "reponse": "Elle signifie que la victime doit etre integralement indemnisee sans pour autant tirer un profit du contentieux indemnitiaire.",
+          "explication": "Le document en fait la formulation synthetique du principe de reparation integrale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le droit francais reste-t-il reserve a l'egard des dommages et interets punitifs ?",
+          "reponse": "Parce qu'il comprend la responsabilite civile d'abord comme un mecanisme de reparation du prejudice et non comme un instrument autonome de sanction.",
+          "explication": "Le cours note seulement que certains projets de reforme reouvrent indirectement la discussion via la faute lucrative.",
+          "difficulte": 3
+        },
+        {
+          "question": "La victime doit-elle en principe minimiser son prejudice dans l'interet du responsable ?",
+          "reponse": "Non, surtout en matiere de dommage corporel, ou elle n'a pas a se soumettre a des mesures comme une intervention chirurgicale pour limiter la charge du responsable.",
+          "explication": "Le document rattache cette solution au respect du corps humain et au refus d'imposer un sacrifice a la victime.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quand une nouvelle demande d'indemnisation devient-elle possible apres un premier jugement ?",
+          "reponse": "Lorsqu'un prejudice nouveau apparait ou qu'une aggravation imprevisible se manifeste apres l'indemnisation initiale.",
+          "explication": "Le cours montre que la reparation integrale peut justifier une reprise du contentieux si le dommage evolue ulterieurement.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Action en responsabilite civile",
+        "questions": [
+          {
+            "question": "Pourquoi les clauses d'exoneration de responsabilite delicttuelle sont-elles nulles, alors qu'une transaction ulterieure reste possible ?",
+            "choix": [
+              "A. Parce que toute indemnisation est interdite apres un dommage corporel.",
+              "B. Parce que l'ordre public empeche d'ecarter la responsabilite avant le dommage, mais n'interdit pas a la victime de transiger ensuite sur son droit a reparation.",
+              "C. Parce que la transaction est reservee au seul droit penal.",
+              "D. Parce que les assureurs sont les seuls a pouvoir renoncer a agir."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document distingue nettement l'interdiction des clauses anticipant le dommage et la possibilite d'un accord amiable une fois le prejudice survenu.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle affirmation resume le mieux le principe de reparation integrale ?",
+            "choix": [
+              "A. La victime doit toujours recevoir plus que sa perte pour compenser l'attente du proces.",
+              "B. Le montant depend surtout de la gravite morale de l'auteur.",
+              "C. Tout le dommage doit etre repare, mais sans enrichir la victime au-dela de ce qu'elle a perdu.",
+              "D. La reparation integrale exclut toute rente ou reparation en nature."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le cours condense le principe dans la formule classique : tout le dommage, mais rien que le dommage.",
+            "difficulte": 2
+          },
+          {
+            "question": "Comment faut-il comprendre le regime de prescription presente dans cette seance ?",
+            "choix": [
+              "A. Il existe un delai unique de deux ans pour toute action.",
+              "B. Le droit commun fixe cinq ans, avec des extensions notamment a dix ans pour le dommage corporel et a vingt ans pour certaines violences tres graves.",
+              "C. Aucune prescription ne joue en responsabilite civile.",
+              "D. Le dommage corporel se prescrit toujours plus vite que le dommage materiel."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document relie aussi le point de depart a la connaissance du dommage et, pour le corporel, a la consolidation.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le droit francais refuse-t-il en principe d'imposer a la victime une obligation generale de minimiser son dommage ?",
+            "choix": [
+              "A. Parce que la victime doit toujours rester passive.",
+              "B. Parce que l'auteur d'un dommage doit en supporter toutes les consequences sans pouvoir exiger de la victime qu'elle se sacrifie pour lui, surtout en cas d'atteinte corporelle.",
+              "C. Parce que cette obligation n'existe qu'en droit penal.",
+              "D. Parce qu'elle s'oppose a toute indemnisation en argent."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le cours met ici en avant le respect du corps humain et la logique meme de la responsabilite civile indemnitiare.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1011,
+      "fiche": {
+        "titre": "Accidents de la circulation : logique indemnitaire de la loi Badinter, conditions d'application et regime des victimes",
+        "resume": "Cette retranscription ouvre l'etude des regimes speciaux de responsabilite avec la loi du 5 juillet 1985 relative aux accidents de la circulation. Le document montre que cette loi ne fonctionne pas comme un simple prolongement du droit commun du fait des choses : elle poursuit d'abord un objectif d'indemnisation rapide et efficace des victimes. La fiche en retient une idee directrice : la loi Badinter est une loi d'ordre public et d'indemnisation, qui raisonne autour de l'accident, du vehicule implique et de la qualite de la victime bien plus qu'autour d'une recherche classique du responsable fautif.",
+        "sections": [
+          {
+            "titre": "La loi du 5 juillet 1985 nait d'une critique du droit commun et d'une volonte assumee de mieux indemniser les victimes",
+            "contenu": "Le document rappelle que les accidents de la circulation avaient d'abord ete traites par le droit commun du fait des choses, avec les difficultes bien connues liees a la faute de la victime et a la lenteur des procedures. L'arret Desmares du 21 juillet 1982, qui avait quasiment neutralise cette faute sauf force majeure, a servi de choc accelerateur. Le legislateur est alors intervenu avec la loi Badinter du 5 juillet 1985. Le cours insiste sur un point decisif : il s'agit d'une loi d'indemnisation davantage que d'une loi de responsabilite, orientee vers la recherche d'un debiteur solvable et l'acceleration des offres indemnitaires."
+          },
+          {
+            "titre": "Le domaine de la loi repose sur plusieurs conditions cumulatives : accident, circulation, vehicule terrestre a moteur, implication et imputabilite",
+            "contenu": "Le document decompose l'article 1er autour d'une serie de filtres. Il faut d'abord un accident, donc un evenement involontaire, soudain et fortuit. Il faut ensuite un accident de la circulation, notion assez large qui couvre aussi certaines voies privees, mais non les situations purement etrangeres a la circulation comme la seule fonction outil d'un engin. Il faut encore un vehicule terrestre a moteur, interprete largement par la jurisprudence, meme si certaines exclusions recentes apparaissent, comme le fauteuil roulant electrique ecarte par l'arret du 6 mai 2021."
+          },
+          {
+            "titre": "L'implication est la notion clef du dispositif, distincte d'une causalite stricte et entendue de maniere tres extensive",
+            "contenu": "Le cours montre que l'implication ne se confond pas avec le role actif exige dans le fait des choses. Elle designe toute intervention du vehicule dans l'accident, et non une causalite au sens fort. En cas de choc avec la victime, l'implication est presumee. Sans choc, elle peut encore etre retenue des lors que le vehicule a joue un role quelconque, par exemple par une manoeuvre ayant provoque l'ecart ou la chute. Dans les accidents complexes, la jurisprudence adopte une lecture unitaire de l'evenement, comme l'illustrent les arretes du 2 octobre 2008 et du 15 decembre 2022."
+          },
+          {
+            "titre": "La reparation change selon la qualite de la victime, en particulier selon qu'elle est conductrice ou non conductrice",
+            "contenu": "Le document distingue nettement les victimes conductrices et non conductrices. Pour le conducteur, sa faute simple peut reduire ou supprimer son droit a indemnisation si elle entretient un lien causal avec son propre prejudice, ce que rappelle l'Assemblee pleniere du 6 avril 2007. Pour la victime non conductrice, le regime est bien plus protecteur : sa faute n'est en principe pas opposable, sauf faute volontaire ou faute inexcusable cause exclusive de l'accident. Les victimes dites super privilegiees, notamment les moins de 16 ans, les plus de 70 ans ou certaines victimes lourdement handicapees, sont encore mieux protegees."
+          },
+          {
+            "titre": "La loi Badinter reste speciale et exclusive, mais elle ne gouverne pas tout dommage lie a un vehicule",
+            "contenu": "Le cours rappelle que la loi de 1985 est d'ordre public et qu'elle ecarte le droit commun lorsqu'elle s'applique. Elle ne regit pourtant pas les dommages provenant de la mauvaise execution d'un contrat de transport, comme l'ont souligne les arretes des 31 mars et 7 avril 2022. De meme, le dommage aux biens obeit a des regles moins favorables que le dommage corporel, puisque la faute de la victime y redevient opposable. Le document montre ainsi que la loi poursuit une logique tres protectrice, mais sans se transformer en mecanisme universel de reparation de tous les accidents lies a un vehicule."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la loi du 5 juillet 1985 est-elle presentee comme une loi d'indemnisation plus que comme une loi de responsabilite ?",
+          "reponse": "Parce qu'elle vise d'abord a organiser une reparation rapide et efficace autour d'un debiteur solvable, plutot qu'a raisonner seulement en termes de faute et de responsabilite classique.",
+          "explication": "Le document insiste sur cette rupture avec le droit commun du fait des choses et sur le role central des assureurs.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role l'arret Desmares du 21 juillet 1982 a-t-il joue dans la genese de la loi Badinter ?",
+          "reponse": "Il a accentue la pression sur le legislateur en adoptant une solution tres desequilibree sur la faute de la victime, ce qui a rendu la reforme urgente.",
+          "explication": "Le cours presente Desmares comme un arret de provocation ayant prepare l'intervention legislative de 1985.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que signifie la condition d'accident dans la loi Badinter ?",
+          "reponse": "Elle suppose un evenement involontaire, soudain et fortuit.",
+          "explication": "Le document oppose ainsi l'accident a l'acte volontaire, comme une voiture-belier dirigee deliberement contre une vitrine.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi tous les dommages causes par un engin motorise ne relevent-ils pas necessairement de la loi de 1985 ?",
+          "reponse": "Parce qu'il faut que le dommage soit lie a un accident de la circulation et non a la seule fonction outil de l'engin.",
+          "explication": "Le cours prend l'exemple des machines-outils comme certaines moissonneuses ou engins en maintenance.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel enseignement tire-t-on de l'arret du 6 mai 2021 sur le fauteuil roulant electrique ?",
+          "reponse": "La Cour de cassation a refuse de le traiter comme un vehicule terrestre a moteur au sens de la loi de 1985.",
+          "explication": "Le document souligne que cette exclusion a ete justifiee par la finalite protectrice de la loi et par la prise en compte de la situation des personnes handicapees.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'implication n'est-elle pas synonyme de causalite stricte ?",
+          "reponse": "Parce qu'elle vise toute intervention du vehicule dans l'accident, meme sans demonstration d'un role causal au sens classique et serre du droit commun.",
+          "explication": "Le cours montre que la notion a ete voulue large pour faciliter l'indemnisation des victimes.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que faut-il retenir des accidents complexes en matiere d'implication ?",
+          "reponse": "Ils sont apprecies de maniere unitaire lorsque les collisions s'enchainent dans un meme laps de temps et un meme mouvement d'ensemble.",
+          "explication": "Le document illustre cette approche par la jurisprudence recente sur les collisions successives.",
+          "difficulte": 3
+        },
+        {
+          "question": "Dans quel cas la faute du conducteur lui est-elle opposable ?",
+          "reponse": "Lorsqu'elle a un lien de causalite avec son propre prejudice et peut ainsi justifier une reduction ou une suppression de son indemnisation.",
+          "explication": "Le cours distingue ici la faute abstraitement commise et la faute qui a reellement aggrave ou cause le dommage subi par le conducteur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la victime non conductrice beneficie-t-elle d'un regime beaucoup plus favorable ?",
+          "reponse": "Parce que sa faute n'est en principe pas opposable, sauf faute volontaire ou faute inexcusable cause exclusive de l'accident.",
+          "explication": "Le document fait de cette asymetrie un pilier du caractere protecteur de la loi Badinter.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie dire que la loi Badinter est exclusive sans etre universelle ?",
+          "reponse": "Cela signifie qu'elle ecarte le droit commun quand ses conditions sont reunies, mais qu'elle ne s'applique pas a tous les dommages lies de pres ou de loin a un vehicule.",
+          "explication": "Le cours cite notamment l'exclusion des dommages relevant de la mauvaise execution d'un contrat de transport.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Loi Badinter et accidents de la circulation",
+        "questions": [
+          {
+            "question": "Pourquoi la loi Badinter du 5 juillet 1985 rompt-elle avec la logique classique du droit commun du fait des choses ?",
+            "choix": [
+              "A. Parce qu'elle supprime tout contentieux indemnitaire.",
+              "B. Parce qu'elle recherche avant tout une indemnisation efficace des victimes et non la seule designation d'un responsable fautif.",
+              "C. Parce qu'elle reserve la reparation aux seuls conducteurs.",
+              "D. Parce qu'elle remplace toutes les actions civiles par des sanctions penales."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document insiste sur la logique indemnitiare de la loi et sur la place des assureurs dans le dispositif.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que faut-il entendre par 'implication' d'un vehicule dans l'accident ?",
+            "choix": [
+              "A. Une causalite stricte identique a celle du droit commun.",
+              "B. Une intervention quelconque du vehicule dans la survenance de l'accident, appreciee de maniere large par la jurisprudence.",
+              "C. La preuve obligatoire d'une faute du conducteur.",
+              "D. Uniquement un choc frontal avec la victime."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le cours montre que le choc facilite la preuve, mais n'epuise pas la notion d'implication.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la faute du conducteur n'est-elle pas systematiquement opposable a son indemnisation ?",
+            "choix": [
+              "A. Parce que toute faute de conducteur est juridiquement indifferente.",
+              "B. Parce qu'il faut encore que cette faute entretienne un lien de causalite avec le prejudice qu'il subit lui-meme.",
+              "C. Parce que seuls les passagers peuvent etre fautifs.",
+              "D. Parce que la loi Badinter interdit toute reduction d'indemnisation."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document prend l'exemple de fautes sans effet causal sur l'accident ou sur l'aggravation du dommage pour montrer cette nuance essentielle.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quel est le trait le plus protecteur du regime applicable a la victime non conductrice ?",
+            "choix": [
+              "A. Sa faute simple lui est toujours opposee comme au conducteur.",
+              "B. La force majeure lui est toujours opposee en priorite.",
+              "C. Sa faute n'est en principe pas opposee, sauf faute volontaire ou faute inexcusable cause exclusive de l'accident.",
+              "D. Elle ne peut jamais etre indemnisee pour ses dommages aux biens."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le cours oppose tres nettement le traitement protecteur des non-conducteurs a la situation plus severe reservee au conducteur.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1016,
+      "fiche": {
+        "titre": "Pouvoirs du president de SAS, action ut singuli et responsabilite de la banque dirigeant de fait",
+        "resume": "Ce document de correction met en scene un contentieux societaire centre sur trois questions : la validite d'une cession conclue par le president d'une SAS, la responsabilite civile du dirigeant et la possible mise en cause d'une banque tres intrusive dans la gestion sociale. La fiche en retient une idee directrice : en droit des societes, les limites internes de pouvoir ne paralysent pas facilement les actes a l'egard des tiers, mais elles peuvent ouvrir des actions en responsabilite contre les dirigeants de droit ou de fait.",
+        "sections": [
+          {
+            "titre": "La validite externe de l'acte conclu par le president de SAS se comprend d'abord comme une question de pouvoir opposable aux tiers",
+            "contenu": "Le document rappelle que, dans une SAS, le president dispose d'un pouvoir tres large pour agir au nom de la societe. Le depassement de l'objet social n'emporte pas automatiquement inefficacite de l'acte a l'egard du tiers acquereur. L'article L. 227-6 du Code de commerce protege en effet le tiers de bonne foi, sauf s'il savait ou ne pouvait ignorer que l'acte excedait les pouvoirs du dirigeant. Le raisonnement se deplace donc vers la preuve d'une connaissance du depassement par le cocontractant."
+          },
+          {
+            "titre": "Les limitations statutaires et meme la contrariete a l'interet social n'emportent pas necessairement nullite de l'acte",
+            "contenu": "Le cours de correction distingue nettement l'ordre interne et l'ordre externe. Le non-respect d'une clause statutaire imposant, par exemple, une consultation prealable des associes ne rend pas l'acte inopposable au tiers, car ces limitations internes ne lui sont pas opposables. De meme, la violation de l'interet social peut caracteriser une faute de gestion, mais ne constitue pas en elle-meme une cause generale de nullite de la decision sociale. Le document renvoie ici a la logique protectrice de la securite des transactions et a la jurisprudence du 12 mai 2015."
+          },
+          {
+            "titre": "La responsabilite civile du dirigeant de droit s'ouvre lorsqu'une faute de gestion cause un prejudice a la societe",
+            "contenu": "Le document retient sans difficulte l'existence d'une faute de gestion lorsqu'un dirigeant prend une decision contraire aux interets de la societe. Encore faut-il savoir qui agira, puisque le dirigeant ne se poursuivra pas lui-meme. Le support mobilise alors l'action sociale ut singuli, ouverte a un ou plusieurs associes sur le fondement de l'article 1843-5 du Code civil. Cette action permet de demander reparation du prejudice subi par la societe lorsque ses organes demeurent inertes."
+          },
+          {
+            "titre": "Une banque peut sortir du simple role de cocontractant pour devenir dirigeant de fait si son immixtion est positive, habituelle et independante",
+            "contenu": "Le document insiste sur la qualification de dirigeant de fait. Celle-ci suppose plus qu'un conseil ponctuel ou qu'une relation bancaire ferme : il faut une intervention active et repetee dans la conduite de la societe, accompagnee d'une veritable liberte de direction. Dans l'hypothese traitee, la banque est decrite comme tres presente dans les choix strategiques et comme ayant fortement pousse a la vente d'un actif social. Une telle intensite dans l'immixtion peut justifier que sa responsabilite soit discutee comme celle d'un dirigeant de fait."
+          },
+          {
+            "titre": "La procedure differencie le dirigeant de droit et le dirigeant de fait, notamment quant au vehicule d'action mobilisable",
+            "contenu": "Le support releve que l'action ut singuli vise d'abord les dirigeants de droit. Lorsqu'un dirigeant de fait est en cause, la jurisprudence admet certes une action en responsabilite, mais non par le simple prolongement automatique du meme schema. L'arret du 29 mars 2017 invite plutot a faire intervenir la societe elle-meme ou un mandataire ad hoc sollicite par un associe. Le document fait ainsi apparaitre une idee importante : la qualification de dirigeant de fait ouvre un risque de responsabilite, mais impose aussi une vigilance accrue sur le canal processuel utilise."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la cession conclue par le president d'une SAS n'est-elle pas automatiquement inefficace lorsqu'elle depasse l'objet social ?",
+          "reponse": "Parce que l'acte engage en principe la societe a l'egard du tiers, sauf si ce tiers connaissait ou ne pouvait ignorer le depassement de pouvoir.",
+          "explication": "Le document rattache cette solution a l'article L. 227-6 du Code de commerce et a la protection du tiers de bonne foi.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les limitations statutaires de pouvoir ne paralysent-elles pas facilement l'acte envers les tiers ?",
+          "reponse": "Parce qu'elles organisent surtout les rapports internes de la societe et sont en principe inopposables aux tiers.",
+          "explication": "Le cours de correction distingue nettement discipline interne des organes sociaux et validite externe des actes conclus.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel usage juridique peut-on faire d'une atteinte a l'interet social si elle ne rend pas l'acte nul ?",
+          "reponse": "Elle peut servir a caracteriser une faute de gestion ouvrant une action en responsabilite contre le dirigeant.",
+          "explication": "Le document separe ainsi le contentieux de la validite de l'acte et celui de la responsabilite du dirigeant.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel est l'objet de l'action sociale ut singuli ?",
+          "reponse": "Elle permet a un ou plusieurs associes d'agir pour obtenir reparation du prejudice subi par la societe lorsque ses dirigeants n'agissent pas eux-memes.",
+          "explication": "Le support rattache cette action a l'article 1843-5 du Code civil et a la carence des organes sociaux.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le dirigeant de droit ne peut-il pas etre le moteur ordinaire de l'action en responsabilite dirigee contre lui ?",
+          "reponse": "Parce qu'il ne va pas agir contre lui-meme pour faire reconnaitre sa propre faute de gestion.",
+          "explication": "Le document montre que cette inertie structurelle justifie l'ouverture de l'action ut singuli aux associes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qui distingue une simple influence bancaire d'une direction de fait ?",
+          "reponse": "La direction de fait suppose une immixtion positive, habituelle et libre dans la gestion sociale, et non de simples conseils ou pressions isolees.",
+          "explication": "Le document mobilise la notion de dirigeant de fait pour qualifier une ingerence persistante dans la conduite de l'entreprise.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi une banque peut-elle, dans certains cas, etre qualifiee de dirigeant de fait ?",
+          "reponse": "Parce qu'elle peut sortir de son role de financeur pour prendre une part active et independante dans les choix de gestion de la societe.",
+          "explication": "Le cours de correction illustre cette hypothese par des interventions frequentes sur la strategie et sur la cession d'un actif.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le canal processuel n'est-il pas exactement le meme contre un dirigeant de fait ?",
+          "reponse": "Parce que la jurisprudence reserve l'action ut singuli aux dirigeants de droit et exige souvent une intervention de la societe ou d'un mandataire ad hoc contre le dirigeant de fait.",
+          "explication": "Le document souligne ici la difference entre l'ouverture materielle de la responsabilite et la technique de l'action.",
+          "difficulte": 4
+        },
+        {
+          "question": "Quel interet pratique y a-t-il a distinguer validite de l'acte et responsabilite du dirigeant ?",
+          "reponse": "Cela permet de maintenir la securite des transactions avec les tiers tout en sanctionnant en interne une mauvaise gestion.",
+          "explication": "Le support oppose ainsi l'efficacite externe de l'acte a l'eventuelle faute engageant la responsabilite du dirigeant.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette correction ?",
+          "reponse": "Il faut retenir que le droit des societes protege largement les tiers contre les limites internes de pouvoir, mais ouvre des recours indemnitaires contre les dirigeants qui gerent mal ou s'immiscent illegitimement.",
+          "explication": "Le document articule ainsi pouvoir de representation, interet social et responsabilite des dirigeants de droit ou de fait.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Pouvoirs du president et dirigeant de fait",
+        "questions": [
+          {
+            "question": "Pourquoi l'acte conclu par le president d'une SAS reste-t-il souvent opposable au tiers meme s'il depasse les limites internes de pouvoir ?",
+            "choix": [
+              "A. Parce que les tiers doivent toujours verifier les statuts avant d'acheter.",
+              "B. Parce que le droit des societes protege le tiers de bonne foi et rend en principe inopposables les limitations internes de pouvoir.",
+              "C. Parce que l'objet social est sans aucune utilite juridique.",
+              "D. Parce qu'aucune action en responsabilite n'existe jamais contre le dirigeant."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document s'appuie sur l'article L. 227-6 du Code de commerce pour distinguer l'efficacite externe de l'acte et les sanctions internes eventuelles.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que permet l'action sociale ut singuli dans le contentieux de la faute de gestion ?",
+            "choix": [
+              "A. Elle permet a un associe d'obtenir pour lui seul une plus-value privee.",
+              "B. Elle permet a un ou plusieurs associes d'agir au nom de l'interet social pour obtenir reparation du prejudice subi par la societe.",
+              "C. Elle remplace automatiquement toute action penale.",
+              "D. Elle est reservee aux banques creancieres."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rattache cette action a la carence des dirigeants et au besoin de proteger le patrimoine social.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle circonstance fait basculer une banque vers la qualification de dirigeant de fait ?",
+            "choix": [
+              "A. Le seul octroi d'un pret important.",
+              "B. Le simple rappel des echeances contractuelles.",
+              "C. Une immixtion positive, habituelle et suffisamment libre dans la gestion de la societe.",
+              "D. Le refus ponctuel d'un refinancement."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document distingue l'influence contractuelle ordinaire de la veritable prise de direction economique et strategique.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le contentieux contre un dirigeant de fait impose-t-il une attention particuliere au vecteur d'action ?",
+            "choix": [
+              "A. Parce que la responsabilite du dirigeant de fait est impossible en droit.",
+              "B. Parce que la jurisprudence n'admet pas un simple prolongement automatique de l'action ut singuli et peut exiger l'intervention de la societe ou d'un mandataire ad hoc.",
+              "C. Parce que seul le ministere public peut agir.",
+              "D. Parce que le tiers acquereur doit toujours etre mis en cause a titre principal."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le support souligne que la question du fond et celle du vehicule processuel ne se confondent pas dans le contentieux du dirigeant de fait.",
+            "difficulte": 3
+          }
+        ]
+      }
+    }
+  ]
+}

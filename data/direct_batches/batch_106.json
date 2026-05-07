@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 1005,
+      "fiche": {
+        "titre": "Lien de causalite : fonctions, theories, preuve, presomptions et effets des predispositions",
+        "resume": "Cette retranscription sur le lien de causalite montre que la responsabilite civile ne se satisfait pas d'un simple enchainement materiel des faits. Il faut encore decider quelles causes seront juridiquement retenues et jusqu'ou s'etendra la reparation. La fiche en retient une idee directrice : la causalite est une notion souple, sans definition legale ferme, que la jurisprudence module selon les besoins de la preuve, de l'indemnisation et des situations particulieres comme la cause etrangere ou les predispositions de la victime.",
+        "sections": [
+          {
+            "titre": "Le lien de causalite remplit une double fonction : identifier l'origine du dommage et delimiter les suites imputables au responsable",
+            "contenu": "Le document insiste sur le fait que la causalite n'intervient pas seulement pour savoir quel fait a provoque le dommage initial. Elle sert aussi a determiner quelles consequences ulterieures devront etre prises en charge par la personne declaree responsable. Cette double fonction explique la complexite de la matiere : il faut a la fois trier parmi plusieurs antecedents possibles et fixer jusqu'ou la chaine des consequences peut juridiquement se prolonger."
+          },
+          {
+            "titre": "Les grandes theories doctrinales n'ont jamais impose une lecture unique, si bien que le juge conserve une marge de selection importante",
+            "contenu": "Le cours rappelle les deux modeles classiques. L'equivalence des conditions place sur un meme plan tous les faits sans lesquels le dommage ne se serait pas produit. La causalite adequate opere au contraire un tri pour ne retenir que les antecedents normalement aptes a produire ce type de dommage. Comme la loi ne donne aucune definition generale et que la jurisprudence ne se range pas durablement sous une theorie unique, la causalite reste une notion pratique, mobilisee de facon plus ou moins large selon le resultat que le juge estime justifie."
+          },
+          {
+            "titre": "La preuve incombe en principe a la victime, mais les presomptions de causalite allegent cette charge dans les dossiers complexes",
+            "contenu": "Le document rappelle que, selon le droit commun de la preuve, la victime doit etablir le lien entre le fait generateur et le dommage. Cette demonstration devient pourtant difficile lorsqu'il existe plusieurs auteurs possibles, plusieurs produits en circulation ou plusieurs etablissements susceptibles d'avoir cause le prejudice. La jurisprudence recourt alors a des presomptions de causalite, soit pour renverser la charge de la preuve, soit pour admettre plus facilement l'existence du lien causal. C'est le sens des raisonnements utilises dans certains contentieux sanitaires ou medicaux."
+          },
+          {
+            "titre": "La rupture de la chaine causale peut venir d'une cause etrangere, du fait d'un tiers ou de la faute de la victime",
+            "contenu": "Le cours presente la causalite comme une chaine susceptible d'etre interrompue par un evenement distinct. La force majeure, lorsqu'elle est exterieure, irresistible et imprevisible, peut faire disparaitre l'obligation de reparer. Le fait d'un tiers n'efface pas toujours la dette de reparation envers la victime, mais il peut redistribuer ensuite la charge finale entre responsables. Quant a la faute de la victime, elle peut conduire a une exoneration totale si elle a entierement cause le dommage, ou a une reduction de l'indemnisation lorsqu'elle n'en a provoque qu'une partie."
+          },
+          {
+            "titre": "Les predispositions de la victime ne jouent pas uniformement : on distingue l'aggravation d'un etat connu de la revelation d'un prejudice nouveau",
+            "contenu": "Le document explique que l'auteur du dommage doit prendre la victime dans son etat, mais que cette formule recouvre deux hypotheses. Si l'accident ne fait qu'aggraver une pathologie deja manifestee, seule cette aggravation est imputee au responsable. En revanche, si le fait dommageable revele ou declenche un prejudice qualitativement nouveau, la victime peut obtenir la reparation integrale de ce dommage distinct. Le raisonnement permet ainsi de tenir compte des fragilites anterieures sans laisser le responsable profiter d'un etat qu'il a lui-meme fait basculer."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le lien de causalite joue-t-il un double role en responsabilite civile ?",
+          "reponse": "Parce qu'il sert a la fois a identifier l'origine du dommage et a determiner quelles consequences devront etre supportees par le responsable.",
+          "explication": "Le document montre que la causalite intervient avant et apres la survenance du prejudice, au stade de la cause comme au stade de l'etendue de la reparation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que retient la theorie de l'equivalence des conditions ?",
+          "reponse": "Elle retient comme causes juridiques tous les antecedents sans lesquels le dommage ne se serait pas produit.",
+          "explication": "Cette theorie a pour avantage d'embrasser toute la chaine des faits, mais elle est critiquee parce qu'elle dilue fortement la selection des causes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel tri opere la theorie de la causalite adequate ?",
+          "reponse": "Elle ne retient que les antecedents normalement aptes a produire le type de dommage constate.",
+          "explication": "Le document oppose ainsi une causalite large a une causalite selective, plus proche d'un raisonnement de vraisemblance normative.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la jurisprudence ne se laisse-t-elle pas enfermer dans une theorie unique de la causalite ?",
+          "reponse": "Parce qu'en l'absence de definition legale stricte, elle adapte son raisonnement aux besoins de l'indemnisation et aux difficultees propres a chaque espece.",
+          "explication": "Le cours souligne ici la souplesse pratique du contentieux causal, souvent guidee par l'opportunite de reparer ou de limiter la reparation.",
+          "difficulte": 3
+        },
+        {
+          "question": "A qui incombe en principe la preuve du lien de causalite ?",
+          "reponse": "Elle incombe a la victime, qui doit relier le fait generateur au dommage subi.",
+          "explication": "Le document rappelle que la causalite suit les regles ordinaires de la preuve tant qu'aucun amenagement jurisprudentiel ne vient aider la victime.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est l'interet des presomptions de causalite ?",
+          "reponse": "Elles allegent la charge probatoire en permettant soit de renverser la charge de la preuve, soit d'admettre plus facilement l'existence du lien causal.",
+          "explication": "Le cours illustre ce mecanisme dans des affaires ou plusieurs auteurs ou plusieurs sources possibles rendent la preuve directe tres difficile.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que designe la causalite alternative dans le document ?",
+          "reponse": "Elle designe les situations ou plusieurs auteurs ou sources sont possibles, sans que la victime puisse identifier avec certitude lequel est a l'origine du dommage.",
+          "explication": "La jurisprudence utilise alors des presomptions pour eviter que l'incertitude factuelle fasse totalement obstacle a l'indemnisation.",
+          "difficulte": 3
+        },
+        {
+          "question": "Dans quel cas la force majeure rompt-elle la chaine causale ?",
+          "reponse": "Lorsqu'un evenement exterieur, irresistible et imprevisible s'interpose au point d'effacer juridiquement l'obligation de reparer.",
+          "explication": "Le document range la force majeure parmi les hypothesees classiques de rupture de la causalite.",
+          "difficulte": 3
+        },
+        {
+          "question": "Comment la faute de la victime agit-elle sur la causalite et la reparation ?",
+          "reponse": "Elle peut soit exclure totalement l'indemnisation si elle a seule cause le dommage, soit conduire a une reduction si elle n'en a cause qu'une partie.",
+          "explication": "Le cours relie ici la causalite a l'ampleur de la dette de reparation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les predispositions de la victime n'entrainent-elles pas toujours la meme solution ?",
+          "reponse": "Parce qu'il faut distinguer l'aggravation d'un etat deja manifeste de l'apparition d'un prejudice nouveau revele par l'accident.",
+          "explication": "Le document montre qu'on ne repond pas de la meme facon a un simple accroissement d'un etat anterieur et a la creation d'un dommage qualitativement distinct.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Lien de causalite, semaine 3",
+        "questions": [
+          {
+            "question": "Pourquoi la causalite est-elle presentee comme une notion centrale mais instable du droit de la responsabilite ?",
+            "choix": [
+              "A. Parce qu'elle est definie de facon detaillee et intangible par le Code civil.",
+              "B. Parce qu'elle n'a pas de definition legale complete et que le juge ajuste son usage selon les difficultes de preuve et les besoins d'indemnisation.",
+              "C. Parce qu'elle ne sert qu'a mesurer le montant des dommages et interets.",
+              "D. Parce qu'elle n'a plus aucun role depuis l'essor des responsabilites de plein droit."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document insiste sur l'absence de theorie legale unifiee et sur le role concret du juge dans la selection des causes juridiquement retenues.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle difference faut-il retenir entre equivalence des conditions et causalite adequate ?",
+            "choix": [
+              "A. La premiere ne s'applique qu'au contrat et la seconde uniquement au delit penal.",
+              "B. La premiere retient tous les antecedents necessaires, tandis que la seconde ne selectionne que les causes normalement aptes a produire le dommage.",
+              "C. La premiere elimine toute pluralite de causes, la seconde impose toujours une responsabilite collective.",
+              "D. La premiere est seule reconnue en jurisprudence, la seconde a ete abandonnee."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le cours oppose une logique extensive a une logique de tri, sans consacrer pour autant une adherence stabile de la jurisprudence a l'une ou l'autre.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel est le role principal des presomptions de causalite dans cette seance ?",
+            "choix": [
+              "A. Elles suppriment toute exigence de lien entre le fait et le dommage.",
+              "B. Elles permettent d'aider la victime lorsque la preuve directe du lien causal est difficile, notamment en cas de pluralite d'auteurs ou de sources possibles.",
+              "C. Elles ne valent qu'en matiere penale.",
+              "D. Elles servent a remplacer la preuve du dommage, mais pas celle de la causalite."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document montre que ces presomptions ont une fonction probatoire majeure dans les contentieux complexes, en particulier sanitaires ou medicaux.",
+            "difficulte": 2
+          },
+          {
+            "question": "Comment les predispositions de la victime sont-elles traitees dans le raisonnement causal ?",
+            "choix": [
+              "A. Elles excluent toujours toute indemnisation.",
+              "B. Elles n'ont jamais aucune incidence sur l'etendue de la reparation.",
+              "C. Elles imposent de distinguer entre simple aggravation d'un etat deja connu et apparition d'un prejudice nouveau provoque ou revele par l'accident.",
+              "D. Elles ne sont prises en compte qu'en droit penal."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le cours n'adopte pas une regle uniforme. Il distingue la part directement imputable a l'accident et la transformation qualitative du prejudice subi.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1006,
+      "fiche": {
+        "titre": "Fait personnel et faute civile : textes, notion, elements constitutifs, exonerations et applications contemporaines",
+        "resume": "Cette retranscription sur le fait personnel revient au noyau historique de la responsabilite civile extracontractuelle : la faute. Le document montre pourtant que cette notion, pourtant centrale dans les articles 1240 et 1241 du Code civil, demeure difficile a definir de maniere unitaire. La fiche en retient une idee directrice : la faute civile reste une categorie large et vivante, objectivisee par l'abandon du discernement, encadree par des causes d'exoneration, et toujours presente dans de nombreux secteurs du droit prive.",
+        "sections": [
+          {
+            "titre": "Le fait personnel demeure l'assise classique de la responsabilite pour faute autour des articles 1240 et 1241 du Code civil",
+            "contenu": "Le document rappelle que le fait personnel constitue le premier grand fait generateur du droit commun de la responsabilite civile. Les articles 1240 et 1241, anciens articles 1382 et 1383, organisent la responsabilite pour faute intentionnelle ou non intentionnelle. La victime doit en principe en rapporter la preuve. Le cours souligne aussi que ce terrain general cede devant les textes speciaux lorsqu'un regime particulier a vocation a s'appliquer, ce qui evite d'utiliser le droit commun comme fondement de contournement."
+          },
+          {
+            "titre": "La notion meme de faute resiste aux definitions doctrinales simples, car la loi vise tres largement tout fait quelconque de l'homme",
+            "contenu": "Le document passe en revue les grandes tentatives doctrinales pour cerner la faute : manquement a une obligation preexistante, defaillance de conduite ou comportement defectueux. Aucune ne parvient pourtant a enfermer toutes les hypothesees jurisprudentielles. Cette difficulte s'explique par la generalite du texte et par la diversite des normes, devoirs, usages ou regles deontologiques susceptibles de servir de reference. La faute est donc une notion juridique controlee par la Cour de cassation, mais reste materiellement ouverte."
+          },
+          {
+            "titre": "La faute combine un element materiel et une lecture objectivisee qui ne depend plus du discernement",
+            "contenu": "Le cours distingue d'abord l'element materiel, qui peut prendre la forme d'une action ou d'une abstention. L'omission est retenue soit lorsqu'elle s'insere dans une activite d'ensemble, soit lorsqu'une obligation legale d'agir ou une intention de nuire la rend fautive. S'agissant de l'element moral, l'evolution est majeure : le discernement n'est plus requis ni pour le mineur ni pour la personne sous trouble mental, a la suite de la loi du 3 janvier 1968 et de la jurisprudence du 9 mai 1984. La faute civile devient ainsi largement objective."
+          },
+          {
+            "titre": "Le regime de la responsabilite pour faute laisse place a des causes d'exoneration et a des faits justificatifs bien identifies",
+            "contenu": "Le document rappelle que l'auteur poursuivi peut invoquer la force majeure, le fait d'un tiers ou la faute de la victime pour contester ou reduire sa dette de reparation. Il peut aussi soutenir que son comportement n'etait pas fautif, ou se prevaloir d'un fait justificatif tel que la legitime defense, l'etat de necessite ou l'ordre de la loi. Le consentement de la victime joue plus etroitement, surtout pour les atteintes aux biens. L'acceptation des risques, notamment en matiere sportive, permet enfin d'ecarter la faute pour les risques normaux et previsibles librement acceptes."
+          },
+          {
+            "titre": "La faute demeure un outil transversal en droit prive, de l'abus de droit aux responsabilites liees au numerique",
+            "contenu": "Le cours insiste sur la persistance pratique de la faute. Elle fonde l'abus de droit, en particulier dans l'exercice de droits subjectifs qui degenerent en usage disloyal. Elle reste centrale dans les litiges sportifs, ou le juge civil n'est pas lie par la seule decision de l'arbitre. Elle apparait aussi en droit commercial, a travers la concurrence deloyale, l'abus de majorite, certaines pratiques restrictives et la faute detachable du dirigeant. Enfin, elle structure encore certains mecanismes de responsabilite des acteurs techniques de l'internet."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel est le socle textuel principal de la responsabilite du fait personnel aujourd'hui ?",
+          "reponse": "Les articles 1240 et 1241 du Code civil, anciens articles 1382 et 1383.",
+          "explication": "Le document les presente comme le siege du droit commun de la responsabilite pour faute, qu'elle soit intentionnelle ou non intentionnelle.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la notion de faute est-elle difficile a definir de facon unitaire ?",
+          "reponse": "Parce que la loi reste tres generale et que les situations dans lesquelles un comportement devient fautif sont tres variees.",
+          "explication": "Le cours souligne l'echec des definitions doctrinales trop simples a embrasser toute la diversite des fautes civiles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie dire que la qualification de faute est une question de droit ?",
+          "reponse": "Cela signifie que les juges du fond constatent les faits, mais que la qualification juridique de faute demeure controlee par la Cour de cassation.",
+          "explication": "Le document insiste sur cette articulation entre constat souverain des faits et controle normatif de la qualification.",
+          "difficulte": 3
+        },
+        {
+          "question": "Sous quelle forme l'element materiel de la faute peut-il apparaitre ?",
+          "reponse": "Il peut apparaitre soit comme une action, soit comme une abstention fautive.",
+          "explication": "Le cours montre que l'omission peut suffire lorsqu'elle s'insere dans une activite ou lorsqu'une obligation d'agir existait.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'abstention pure n'est-elle pas toujours fautive en elle-meme ?",
+          "reponse": "Parce qu'en dehors d'une obligation legale d'agir ou d'une intention de nuire, le droit hesite a transformer toute passivite en faute civile.",
+          "explication": "Le document rattache cette prudence a la protection de la liberte individuelle.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel changement majeur la loi du 3 janvier 1968 et la jurisprudence du 9 mai 1984 ont-elles provoque ?",
+          "reponse": "Elles ont fait disparaitre l'exigence de discernement pour engager la responsabilite civile du mineur ou de la personne sous trouble mental.",
+          "explication": "Le cours y voit une objectivation de la faute civile au service d'une meilleure indemnisation des victimes.",
+          "difficulte": 3
+        },
+        {
+          "question": "Comment la faute s'apprecie-t-elle en principe en droit civil ?",
+          "reponse": "Elle s'apprecie in abstracto, par comparaison avec le comportement qu'aurait eu une personne raisonnable.",
+          "explication": "Le document ajoute toutefois que certaines circonstances, comme l'urgence ou la qualite de professionnel, peuvent etre prises en compte.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels faits justificatifs peuvent effacer la responsabilite civile malgre un dommage cause ?",
+          "reponse": "La legitime defense, l'etat de necessite et l'ordre de la loi peuvent neutraliser la faute et donc la responsabilite.",
+          "explication": "Le cours rapproche ici le droit civil des categories connues du droit penal.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que permet l'acceptation des risques dans les activites sportives ?",
+          "reponse": "Elle permet d'ecarter la faute pour les risques normaux et previsibles librement acceptes par le participant.",
+          "explication": "Le document la presente comme une circonstance frequente de discussion dans les sports de combat ou les sports dangereux.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le document parle-t-il de la 'verdeur' de la faute ?",
+          "reponse": "Parce que la faute n'a pas disparu avec les responsabilites de plein droit et continue d'irriguer de nombreux secteurs du droit prive.",
+          "explication": "Le cours cite a ce titre l'abus de droit, le sport, le droit commercial et certaines responsabilites liees a l'internet.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Fait personnel et faute civile",
+        "questions": [
+          {
+            "question": "Pourquoi la responsabilite du fait personnel conserve-t-elle une place majeure malgre l'essor des responsabilites sans faute ?",
+            "choix": [
+              "A. Parce qu'elle a disparu des textes mais continue seulement comme coutume.",
+              "B. Parce qu'elle reste le droit commun de la faute civile et continue d'etre appliquee dans de nombreux contentieux contemporains.",
+              "C. Parce qu'elle s'applique uniquement aux infractions penales.",
+              "D. Parce qu'elle dispense toujours la victime de prouver tout fait generateur."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document insiste sur la permanence des articles 1240 et 1241 et sur les nombreuses applications actuelles de la faute civile.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel changement conceptuel majeur affecte aujourd'hui l'element moral de la faute civile ?",
+            "choix": [
+              "A. Il faut toujours prouver l'intention de nuire.",
+              "B. Le discernement n'est plus requis pour engager la responsabilite du mineur ou de la personne sous trouble mental.",
+              "C. La faute civile est devenue identique a la faute penale.",
+              "D. L'element moral a ete remplace par la seule notion de profit."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La loi du 3 janvier 1968 et les arrets du 9 mai 1984 ont objectivise la faute civile au profit d'une logique plus indemnitaire.",
+            "difficulte": 2
+          },
+          {
+            "question": "Dans quelle hypothese une abstention peut-elle constituer une faute civile ?",
+            "choix": [
+              "A. Dans toutes les situations de simple passivite, sans distinction.",
+              "B. Seulement si un juge penal a deja condamne l'auteur.",
+              "C. Lorsqu'elle s'insere dans une activite d'ensemble, ou lorsqu'une obligation legale d'agir ou une intention de nuire la rend fautive.",
+              "D. Uniquement dans les relations contractuelles."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le cours distingue soigneusement l'omission ordinaire de l'abstention juridiquement fautive.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quel enseignement faut-il retenir de l'acceptation des risques dans cette seance ?",
+            "choix": [
+              "A. Elle supprime toujours tout droit a reparation, meme pour des risques anormaux.",
+              "B. Elle joue surtout pour les risques normaux et previsibles librement acceptes, en particulier en matiere sportive.",
+              "C. Elle ne peut jamais etre invoquee en droit civil.",
+              "D. Elle remplace la force majeure dans tous les regimes de responsabilite."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rattache cette notion au contentieux sportif et a l'idee qu'un participant accepte certains risques ordinaires de l'activite.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1007,
+      "fiche": {
+        "titre": "Fait des choses : formation du principe general, conditions, garde et regime de la responsabilite",
+        "resume": "Cette retranscription sur le fait des choses montre comment la jurisprudence a fait naitre, a partir de l'ancien article 1384, un principe general de responsabilite detache de la faute. L'enjeu n'est plus de demontrer un comportement blamable, mais d'identifier une chose, son role dans le dommage et la personne qui en avait la garde. La fiche en retient une idee directrice : la responsabilite du fait des choses est un regime objectivise, probatoirement favorable a la victime, structure autour du role actif de la chose et de la notion materielle de garde.",
+        "sections": [
+          {
+            "titre": "Le principe general de responsabilite du fait des choses est une creation jurisprudentielle nee des accidents modernes",
+            "contenu": "Le document retrace le passage d'un simple texte d'annonce, initialement accompagne des seuls regimes des animaux et des batiments en ruine, a un veritable principe general. L'arret Teffaine du 16 juin 1896 ouvre la voie dans le contexte des accidents du travail. L'arret Jand'heur du 13 fevrier 1930 consacre ensuite une responsabilite de plein droit du gardien de la chose. Le cours souligne que ce mouvement repondait a l'impuissance des victimes face aux difficultes de prouver une faute dans une societe industrialisee et mecanisee."
+          },
+          {
+            "titre": "La premiere condition est tres large : presque toute chose peut entrer dans le champ du regime",
+            "contenu": "Le document insiste sur l'ampleur de la notion de chose. La jurisprudence refuse les distinctions entre choses dangereuses et non dangereuses, choses meuble ou immeuble, chose animee d'un dynamisme propre ou non, voire chose materielle ou immaterielle. Les principales exclusions tiennent surtout a l'existence d'un regime special deja applicable, comme les accidents de la circulation, les produits defectueux, les animaux ou les batiments en ruine. Le corps humain n'est pas traite comme une chose en lui-meme, sauf lorsqu'il forme pratiquement un tout avec un objet comme un velo ou des skis."
+          },
+          {
+            "titre": "La victime doit montrer le fait de la chose, c'est-a-dire son intervention materielle et son role actif dans le dommage",
+            "contenu": "Le cours decompose ici la seconde condition. Il faut d'abord etablir que la chose a bien ete l'instrument du dommage. Il faut ensuite montrer qu'elle a joue un role actif. Lorsque la chose etait en mouvement et en contact avec la victime, ce role actif est presume. Dans les autres hypothesees, notamment si la chose est inerte ou s'il n'y a pas eu contact, la victime doit demontrer une position anormale ou un comportement anormal de la chose. Le regime reste donc favorable, mais il n'abolit pas toute exigence probatoire."
+          },
+          {
+            "titre": "Le responsable n'est pas forcement le proprietaire : est gardien celui qui a l'usage, la direction et le controle de la chose",
+            "contenu": "Le document prend appui sur l'arret Franck du 2 decembre 1941 pour montrer que la garde est une notion materielle et non purement juridique. Le proprietaire est presume gardien, mais cette presomption peut etre renversee si la garde a ete transferee, volontairement ou non, a une autre personne. Ce transfert suppose toutefois un pouvoir reel de prevenir le dommage. Le cours ajoute que le prepose n'est en principe pas gardien faute d'autonomie suffisante, meme si des exceptions existent lorsqu'il retrouve une independance effective."
+          },
+          {
+            "titre": "Le regime est un regime de plein droit, tempere par la cause etrangere et par quelques ajustements comme l'acceptation des risques",
+            "contenu": "Le document montre que le gardien peut etre tenu sans faute prouvee, ce qui rend l'action de la victime plus efficace. L'exoneration repose surtout sur la cause etrangere, sur la demonstration d'un role passif de la chose ou sur l'absence de garde au moment du dommage. Le cours rappelle aussi les debats autour de l'acceptation des risques, surtout en matiere sportive, ainsi que le maintien de regimes speciaux a cote du principe general. L'ensemble compose un droit tres pratique, construit pour faciliter la reparation sans supprimer toute logique de tri."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi l'arret Teffaine du 16 juin 1896 est-il important dans l'histoire du fait des choses ?",
+          "reponse": "Parce qu'il marque l'une des premieres grandes ouvertures vers une responsabilite liee a la chose sans preuve directe d'une faute du proprietaire.",
+          "explication": "Le document le replace dans le contexte des accidents du travail et de la difficultte de proteger les victimes dans une societe mecanisee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que consacre l'arret Jand'heur du 13 fevrier 1930 ?",
+          "reponse": "Il consacre un principe general de responsabilite du fait des choses fonde sur la garde et non sur la preuve d'une faute.",
+          "explication": "Le cours en fait le point de bascule decisif du regime contemporain.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la jurisprudence refuse-t-elle d'exiger la preuve d'un vice propre de la chose ?",
+          "reponse": "Parce que cela reviendrait a reintroduire une difficulte probatoire proche de la faute, contraire a la logique du regime.",
+          "explication": "Le document souligne que la responsabilite est attachee a la garde de la chose, pas a la demonstration prealable de son vice interne.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelles sont les principales exclusions du principe general du fait des choses ?",
+          "reponse": "Ce sont surtout les hypotheses deja couvertes par un regime special, comme les animaux, les batiments en ruine, les accidents de la circulation ou les produits defectueux.",
+          "explication": "Le cours montre que les vraies exclusions tiennent moins a la nature materielle de la chose qu'a la concurrence d'un texte special.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le corps humain n'entre-t-il pas normalement dans la categorie des choses ?",
+          "reponse": "Parce qu'il n'est pas juridiquement traite comme une chose, sauf lorsqu'il forme pratiquement un tout avec un objet determine.",
+          "explication": "Le document cite implicitement les cas de collision a velo ou a ski pour montrer cette articulation.",
+          "difficulte": 3
+        },
+        {
+          "question": "Dans quel cas le role actif de la chose est-il presume ?",
+          "reponse": "Lorsqu'il y a mouvement de la chose et contact avec la victime.",
+          "explication": "Le cours rappelle qu'en dehors de cette hypothese, la victime doit souvent etablir elle-meme l'anormalite de la position ou du comportement de la chose.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que doit prouver la victime lorsqu'une chose est inerte ou qu'il n'y a pas eu contact ?",
+          "reponse": "Elle doit prouver une position anormale ou un comportement anormal de la chose dans la realisation du dommage.",
+          "explication": "Le document rattache cette preuve au role actif exige pour faire jouer le regime.",
+          "difficulte": 3
+        },
+        {
+          "question": "Comment l'arret Franck du 2 decembre 1941 redefinit-il la garde ?",
+          "reponse": "Il la definit comme le pouvoir d'usage, de direction et de controle sur la chose, ce qui fait de la garde une notion materielle.",
+          "explication": "Le cours oppose ainsi la garde materielle a la vieille conception purement juridique centree sur le proprietaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le prepose n'est-il en principe pas gardien de la chose qu'il manipule ?",
+          "reponse": "Parce qu'il agit sous l'autorite d'autrui et ne dispose pas normalement d'une autonomie suffisante sur l'usage de la chose.",
+          "explication": "Le document reserve toutefois des exceptions lorsque le prepose retrouve une independance reelle dans son activite.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle logique generale faut-il retenir du regime du fait des choses ?",
+          "reponse": "Il faut retenir qu'il s'agit d'une responsabilite de plein droit, centree sur la garde et le role actif de la chose, qui facilite la reparation sans supprimer toute preuve.",
+          "explication": "Le cours articule ainsi objectivation de la responsabilite et maintien de quelques filtres probatoires.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Fait des choses, semaine 5",
+        "questions": [
+          {
+            "question": "Pourquoi la jurisprudence a-t-elle fait emerger un principe general de responsabilite du fait des choses ?",
+            "choix": [
+              "A. Pour remplacer tout le droit des obligations par un droit administratif.",
+              "B. Pour repondre aux dommages causes par les accidents modernes dans des situations ou la faute etait difficile a prouver.",
+              "C. Pour supprimer toute distinction entre chose et personne.",
+              "D. Pour limiter l'indemnisation aux seuls proprietaires assures."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rattache cette evolution a l'industrialisation, aux accidents du travail puis au developpement de la circulation, qui rendaient la preuve de la faute tres difficile.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle proposition traduit le mieux la largeur de la notion de chose dans ce regime ?",
+            "choix": [
+              "A. Seules les choses dangereuses par nature peuvent etre visees.",
+              "B. Seules les choses meubles et en mouvement sont concernees.",
+              "C. Presque toute chose peut entrer dans le regime, sauf lorsque la loi lui reserve deja un regime special ou lorsque sa qualification meme l'exclut.",
+              "D. Les choses immaterielles sont toujours exclues."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le cours insiste sur la generalite du champ et sur le caractere tres limite des exclusions veritables.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quand le role actif de la chose est-il presume en faveur de la victime ?",
+            "choix": [
+              "A. Dans tous les cas, meme sans intervention materielle.",
+              "B. Uniquement lorsque la chose est dangereuse par nature.",
+              "C. Lorsqu'il y a mouvement de la chose et contact avec la victime.",
+              "D. Seulement pour les choses appartenant a des professionnels."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document rappelle qu'en dehors de cette hypothese, la victime doit rapporter plus directement la preuve du role actif joue par la chose.",
+            "difficulte": 2
+          },
+          {
+            "question": "Comment faut-il identifier le gardien dans le droit commun du fait des choses ?",
+            "choix": [
+              "A. Comme le seul proprietaire de droit, sans aucune exception.",
+              "B. Comme celui qui a, au moment utile, l'usage, la direction et le controle de la chose.",
+              "C. Comme la personne qui subit le dommage.",
+              "D. Comme le dernier vendeur de la chose, quelle que soit la situation."
+            ],
+            "reponse_correcte": 1,
+            "explication": "L'arret Franck a fait de la garde une notion materielle. Le proprietaire reste presume gardien, mais la preuve d'un transfert peut renverser cette presomption.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1008,
+      "fiche": {
+        "titre": "Fait d'autrui et responsabilite des parents : autorite parentale, abandon de la cohabitation et responsabilite de plein droit",
+        "resume": "Cette retranscription ouvre le chapitre du fait d'autrui en montrant que le droit civil admet qu'une personne reponde du dommage cause par une autre, principalement pour mieux proteger la victime et parce qu'elle exerce une autorite utilement assurable. Le document se concentre ensuite sur la responsabilite des parents du fait de leur enfant mineur. La fiche en retient une idee directrice : ce regime s'est progressivement objectivise autour de l'autorite parentale, en abandonnant la cohabitation comme critere autonome et en admettant qu'un simple fait causal de l'enfant puisse suffire a engager la responsabilite parentale.",
+        "sections": [
+          {
+            "titre": "La responsabilite du fait d'autrui repose sur une logique de garantie et d'autorite plutot que sur la seule faute personnelle du responsable designe",
+            "contenu": "Le document commence par souligner l'originalite du mecanisme : la personne tenue de reparer n'est pas necessairement l'auteur direct du fait dommageable. Cette construction sert d'abord la protection de la victime, en ajoutant un patrimoine plus solvable a celui de l'auteur du dommage. Elle s'explique aussi par l'idee de risque autorite ou de risque profit : celui qui dirige, eduque ou encadre autrui supporte aussi le risque attache a cette relation."
+          },
+          {
+            "titre": "Le texte vise les pere et mere qui exercent l'autorite parentale a l'egard de leur enfant mineur",
+            "contenu": "Le document rappelle que l'actuel article 1242, alinea 4, rattache cette responsabilite a la qualite de parent exercant l'autorite parentale. Il faut donc etablir la filiation, verifier que l'enfant est mineur au jour du fait dommageable et determiner qui exerce effectivement cette autorite. En principe, celle-ci est conjointe, y compris lorsque les parents sont separes, sauf situations particulieres de retrait, deces, incapacite ou exercice unilateral legalement organise."
+          },
+          {
+            "titre": "La cohabitation a longtemps structure le regime, avant de perdre progressivement sa justification puis d'etre abandonnee",
+            "contenu": "Le cours explique qu'a l'epoque ou la responsabilite parentale etait pensee comme une faute presumee de surveillance ou d'education, la cohabitation paraissait logique. Mais l'evolution vers un regime objectif a vide cette condition de sa substance. La jurisprudence a d'abord transforme la cohabitation materielle en cohabitation juridique, centree sur la residence habituelle. Puis l'Assemblee pleniere, le 28 juin 2024, a franchi une nouvelle etape en jugeant que, lorsque les parents exercent conjointement l'autorite parentale, ils sont solidairement responsables tant que l'enfant n'a pas ete confie a un tiers par decision administrative ou judiciaire."
+          },
+          {
+            "titre": "Le fait de l'enfant n'a plus besoin d'etre fautif : un simple acte causal peut aujourd'hui suffire a engager la responsabilite des parents",
+            "contenu": "Le document revient sur plusieurs etapes de la jurisprudence. Alors qu'on attendait traditionnellement un acte de nature a engager la responsabilite propre de l'enfant, la Cour de cassation a progressivement admis qu'un simple fait causal suffisait. Les decisions des 10 mai 2001 et 13 decembre 2002 le confirment clairement : meme un acte licite de l'enfant peut provoquer la responsabilite de ses parents. Le cours releve ici une forte tension theorique, car la victime peut agir contre les parents alors qu'elle ne pourrait pas toujours agir utilement contre l'enfant lui-meme."
+          },
+          {
+            "titre": "Le regime est devenu un regime de plein droit depuis l'arret Bertrand du 19 fevrier 1997",
+            "contenu": "Le document souligne que la responsabilite des parents n'est plus une simple presomption de faute. Depuis l'arret Bertrand du 19 fevrier 1997, elle fonctionne comme une responsabilite de plein droit. Les parents ne s'exonerent plus en prouvant une bonne surveillance ou une bonne education, mais seulement par la cause etrangere ou la faute de la victime. La force majeure s'apprecie d'ailleurs par rapport aux parents eux-memes, et non par rapport a l'enfant, ce qui confirme que le regime est centre sur leur position juridique propre."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la responsabilite du fait d'autrui est-elle presentee comme une faveur pour la victime ?",
+          "reponse": "Parce qu'elle lui permet d'obtenir reparation aupres d'une personne souvent plus solvable que l'auteur direct du dommage.",
+          "explication": "Le document met en avant l'idee de garantie patrimoniale supplementaire, notamment dans les relations parents-enfant ou employeur-salarie.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel texte fonde la responsabilite des parents du fait de leur enfant mineur ?",
+          "reponse": "L'article 1242, alinea 4, du Code civil.",
+          "explication": "Le cours rappelle que ce texte vise les parents en tant qu'ils exercent l'autorite parentale sur l'enfant mineur.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la minorite de l'enfant constitue-t-elle une condition decisive du regime ?",
+          "reponse": "Parce qu'un enfant majeur ou emancipe n'est plus place sous l'autorite parentale au sens necessaire pour faire jouer ce texte.",
+          "explication": "Le document rattache cette condition a la logique meme du regime, qui repose sur le lien parental juridiquement organise.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que change l'exercice conjoint de l'autorite parentale pour la responsabilite ?",
+          "reponse": "Il entraine en principe une responsabilite solidaire des deux parents.",
+          "explication": "Le cours precise que cette regle vaut en principe meme en cas de separation, sauf hypothese particuliere modifiant l'exercice de l'autorite parentale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la cohabitation a-t-elle perdu sa justification initiale ?",
+          "reponse": "Parce qu'elle etait liee a une logique de faute presumee de surveillance, devenue moins pertinente une fois le regime converti en responsabilite de plein droit.",
+          "explication": "Le document montre que l'objectivation du regime a fragilise la necessite d'un critere distinct de cohabitation.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel revirement l'Assemblee pleniere a-t-elle opere le 28 juin 2024 ?",
+          "reponse": "Elle a fait prevaloir l'autorite parentale conjointe sur la cohabitation, en retenant la responsabilite solidaire des deux parents tant que l'enfant n'est pas confie a un tiers par decision officielle.",
+          "explication": "Le cours presente cette date comme une etape majeure de simplification et d'objectivation du regime.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi les decisions de 2001 et 2002 ont-elles suscite des critiques doctrinales ?",
+          "reponse": "Parce qu'elles admettent qu'un simple fait causal, meme licite, de l'enfant suffise a engager la responsabilite des parents.",
+          "explication": "Le document y voit une distorsion par rapport aux autres responsabilites du fait d'autrui, qui supposent en principe un fait illicite d'autrui.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que transforme l'arret Bertrand du 19 fevrier 1997 dans le regime des parents ?",
+          "reponse": "Il transforme la responsabilite des parents en responsabilite de plein droit.",
+          "explication": "Le cours oppose cet arret a l'ancien systeme de faute presumee de surveillance ou d'education.",
+          "difficulte": 2
+        },
+        {
+          "question": "Comment les parents peuvent-ils aujourd'hui s'exonerer de leur responsabilite ?",
+          "reponse": "Ils ne peuvent s'exonerer que par la cause etrangere ou la faute de la victime.",
+          "explication": "Le document insiste sur le fait qu'ils ne peuvent plus se liberer en demontrant seulement l'absence de faute de surveillance.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la force majeure s'apprecie-t-elle par rapport aux parents et non par rapport a l'enfant ?",
+          "reponse": "Parce que c'est la responsabilite propre des parents qui est en cause dans ce regime, meme si elle nait du fait de l'enfant.",
+          "explication": "Le cours y voit une consequence directe de la nature objective et autonome de la responsabilite parentale.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Fait d'autrui et responsabilite des parents",
+        "questions": [
+          {
+            "question": "Quelle logique generale justifie la responsabilite du fait d'autrui dans cette introduction ?",
+            "choix": [
+              "A. L'idee qu'il faut toujours punir penalement la personne la plus riche.",
+              "B. L'idee qu'une personne plus solvable ou investie d'une autorite utile doit pouvoir garantir la victime du dommage cause par autrui.",
+              "C. L'idee que toute responsabilite doit reposer sur l'intention de nuire.",
+              "D. L'idee que le responsable legal est toujours l'auteur materiel du dommage."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document met en avant la protection de la victime et les notions de risque autorite ou de risque profit pour expliquer le mecanisme.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que faut-il retenir de la place de la cohabitation dans le regime des parents apres les evolutions recentes ?",
+            "choix": [
+              "A. Elle demeure la condition centrale et autonome de tout le regime.",
+              "B. Elle a ete progressivement videe de sa fonction puis largement absorbee par le critere de l'autorite parentale, notamment depuis l'arret du 28 juin 2024.",
+              "C. Elle n'a jamais joue aucun role dans la jurisprudence.",
+              "D. Elle a ete remplacee par la seule notion de domicile fiscal."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le cours retrace le passage de la cohabitation materielle a la cohabitation juridique, puis l'abandon de cette derniere comme critere autonome.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le simple fait causal de l'enfant suffit-il aujourd'hui a faire debat ?",
+            "choix": [
+              "A. Parce qu'il renforce la coherence de tous les regimes du fait d'autrui.",
+              "B. Parce qu'il permet d'engager la responsabilite des parents meme lorsque l'enfant n'a pas accompli un acte illicite de nature a engager sa propre responsabilite.",
+              "C. Parce qu'il reserve l'indemnisation aux seules victimes majeures.",
+              "D. Parce qu'il transforme automatiquement l'enfant en gardien d'une chose."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document souligne la critique doctrinale visant cette dissociation entre la responsabilite des parents et la responsabilite propre de l'enfant.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quel effet principal faut-il attribuer a l'arret Bertrand du 19 fevrier 1997 ?",
+            "choix": [
+              "A. Il reintroduit une faute lourde de surveillance.",
+              "B. Il transforme la responsabilite des parents en responsabilite de plein droit, avec exoneration limitee a la cause etrangere ou a la faute de la victime.",
+              "C. Il supprime toute responsabilite parentale en cas de separation.",
+              "D. Il impose a la victime d'agir d'abord contre l'enfant."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document en fait le point de bascule majeur du regime moderne, en abandonnant la simple presomption de faute.",
+            "difficulte": 2
+          }
+        ]
+      }
+    }
+  ]
+}

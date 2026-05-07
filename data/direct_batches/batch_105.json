@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 1001,
+      "fiche": {
+        "titre": "Produits defectueux : regime special europeen, articulation avec le droit commun, defaut, exonerations et delais",
+        "resume": "Cette retranscription sur la responsabilite du fait des produits defectueux presente le deuxieme grand regime special de responsabilite apres la loi de 1985 sur les accidents de la circulation. Le point central est le suivant : la victime dispose d'un mecanisme de responsabilite sans faute dirige contre le producteur d'un produit defectueux, mais ce regime special n'efface ni les difficultes de qualification ni les questions d'articulation avec d'autres actions. La fiche en retient une idee simple : la protection de la victime est forte, mais elle est encadree par des conditions techniques precises sur le produit, le defaut, la mise en circulation, les causes d'exoneration et les delais.",
+        "sections": [
+          {
+            "titre": "Le regime des produits defectueux nait d'une directive de 1985 qui a impose un modele europeen de responsabilite sans faute du producteur",
+            "contenu": "Le document rappelle que ce regime special repose sur une directive du 25 juillet 1985, transposee tardivement en droit francais par la loi du 19 mai 1998. Son objectif n'est pas seulement de corriger un cas particulier, mais d'harmoniser la protection des utilisateurs face aux risques causes par les produits dans les differents Etats membres. Le coeur du dispositif tient dans une responsabilite de plein droit qui fait peser la charge de l'indemnisation sur le producteur lorsque le produit n'offre pas la securite attendue."
+          },
+          {
+            "titre": "L'articulation avec les autres actions reste possible, mais pas comme un simple libre choix indifferent des fondements",
+            "contenu": "Le document insiste sur l'article 1245-17 du Code civil, qui semble laisser subsister les actions contractuelles, extracontractuelles et speciales. Mais la jurisprudence europeenne en donne une lecture plus nuancee. Les autres actions ne disparaissent pas, mais elles ne peuvent pas simplement servir a reproduire le meme grief sur le meme terrain si les conditions du regime special sont remplies. L'enjeu n'est donc pas de multiplier abstraitement les voies de droit, mais de distinguer les fondements veritablement differents."
+          },
+          {
+            "titre": "La mise en circulation est une condition structurante car elle suppose un dessaisissement volontaire dans le processus de commercialisation",
+            "contenu": "Le cours montre que la mise en circulation ne se confond ni avec l'autorisation de mise sur le marche, ni avec la simple existence materielle du produit. Elle suppose que le producteur se soit volontairement dessaisi du bien pour le faire entrer dans le circuit de commercialisation. Cette exigence exclut notamment les produits conserves par le producteur, les objets voles, les prototypes transmis pour des essais ou encore les dechets destines a la destruction. Pour les produits fabriques en serie, la date utile est celle de la commercialisation du lot auquel appartient le produit litigieux."
+          },
+          {
+            "titre": "Le defaut ne se reduit pas a une anomalie materielle, il se mesure a la securite legitimement attendue",
+            "contenu": "Le document prend pour point d'appui l'article 1245-3 du Code civil. Un produit est defectueux lorsqu'il n'offre pas la securite a laquelle on peut legitimement s'attendre, compte tenu notamment de sa presentation, de l'usage raisonnablement attendu et du moment de sa mise en circulation. Cette definition est importante car elle montre que l'on n'exige pas une perfection absolue. En revanche, le producteur ne peut pas se retrancher derriere le seul progres technique ulterieur pour soutenir qu'un produit ancien serait defectueux uniquement parce qu'un autre plus performant est apparu ensuite."
+          },
+          {
+            "titre": "Le regime special est enfin borne par des exonerations strictes et par deux delais distincts de forclusion et de prescription",
+            "contenu": "Le cours insiste sur la rigueur des causes d'exoneration, en particulier pour le risque de developpement, apprecie objectivement au regard du niveau le plus avance des connaissances accessibles au moment de la mise en circulation. Une simple voix scientifique isolee alertant sur un danger potentiel peut suffire a rendre cette exoneration plus difficile. Le document rappelle aussi que les clauses limitatives de responsabilite sont en principe interdites, sauf entre professionnels pour certains dommages aux biens. Enfin, deux delais structurent la mise en oeuvre : dix ans a compter de la mise en circulation comme delai de forclusion, et trois ans a compter de la connaissance du dommage, du defaut et de l'identite du producteur comme delai de prescription."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le regime des produits defectueux est-il qualifie de responsabilite sans faute dans le document ?",
+          "reponse": "Parce que la victime n'a pas a prouver une faute du producteur, mais seulement les conditions d'application du regime special lie au produit defectueux.",
+          "explication": "Le cours rattache ce choix a la directive europeenne de 1985 et a l'objectif d'harmonisation de la protection des victimes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que montre l'article 1245-17 sur l'articulation entre le regime special et les autres actions ?",
+          "reponse": "Il montre que d'autres actions peuvent subsister, mais seulement si elles reposent sur un fondement juridiquement distinct de celui du regime special.",
+          "explication": "Le document souligne ici l'influence de l'interpretation donnee par la jurisprudence europeenne.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la mise en circulation ne se confond-elle pas avec l'autorisation de mise sur le marche ?",
+          "reponse": "Parce qu'il faut un dessaisissement volontaire du produit dans le processus de commercialisation, et non une simple validation administrative.",
+          "explication": "Le document prend l'exemple des medicaments pour montrer cette difference.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quels objets le document exclut-il de la notion de mise en circulation ?",
+          "reponse": "Il exclut notamment les produits conserves par le producteur, les objets voles, les prototypes d'etude et les biens destines a la destruction.",
+          "explication": "Tous manquent le critere du dessaisissement volontaire en vue de la commercialisation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Comment le document definit-il le defaut du produit ?",
+          "reponse": "Il le definit comme une insuffisance de securite par rapport a ce que l'on peut legitimement attendre du produit.",
+          "explication": "Cette securite s'apprecie a partir de la presentation du produit, de l'usage raisonnable attendu et du moment de sa mise en circulation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi un produit n'est-il pas defectueux du seul fait qu'un autre plus perfectionne est apparu ensuite ?",
+          "reponse": "Parce que le regime special n'impose pas une perfection technique absolue et n'assimile pas automatiquement progres ulterieur et defaut initial.",
+          "explication": "Le document rappelle que l'appreciation du defaut doit se faire dans le contexte de la mise en circulation du produit.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le risque de developpement constitue-t-il une cause d'exoneration etroitement comprise ?",
+          "reponse": "Parce qu'il est apprecie au regard des connaissances scientifiques les plus avancees accessibles au moment de la mise en circulation.",
+          "explication": "Le cours souligne qu'une alerte scientifique isolee peut deja rendre cette exoneration plus difficile a invoquer.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel est le sens du delai de forclusion de dix ans dans ce regime ?",
+          "reponse": "Il borne dans le temps la garantie de securite du produit et marque le moment ou le producteur n'a plus vocation a repondre du bien au meme titre.",
+          "explication": "Le document distingue ce delai de la prescription de l'action de la victime.",
+          "difficulte": 3
+        },
+        {
+          "question": "A partir de quand court la prescription de trois ans dans la responsabilite du fait des produits defectueux ?",
+          "reponse": "A partir du moment ou la victime a eu ou aurait du avoir connaissance du dommage, du defaut et de l'identite du producteur.",
+          "explication": "Le cours ajoute que la jurisprudence tend a fixer favorablement ce point de depart, notamment apres l'expertise.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur les produits defectueux ?",
+          "reponse": "Il faut retenir qu'il s'agit d'un regime special protecteur, mais fortement technique, qui combine responsabilite sans faute, conditions strictes de qualification et bornes temporelles precises.",
+          "explication": "Le document relie ainsi protection des victimes et discipline du contentieux.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Produits defectueux, regime special",
+        "questions": [
+          {
+            "question": "Quelle idee centrale gouverne le regime special des produits defectueux ?",
+            "choix": [
+              "A. La victime doit prouver une faute morale du producteur.",
+              "B. Le regime fait peser une responsabilite de plein droit sur le producteur lorsque le produit n'offre pas la securite legitimement attendue.",
+              "C. Le regime ne concerne que les biens vendus entre particuliers.",
+              "D. Le regime est reserve aux seuls medicaments."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rattache ce regime a la directive europeenne de 1985. La faute personnelle du producteur n'est pas le coeur du mecanisme.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la mise en circulation joue-t-elle un role si important ?",
+            "choix": [
+              "A. Parce qu'elle remplace toute preuve du dommage.",
+              "B. Parce qu'elle marque le dessaisissement volontaire du produit dans le processus de commercialisation et conditionne l'application du regime.",
+              "C. Parce qu'elle equivaut toujours a une autorisation de mise sur le marche.",
+              "D. Parce qu'elle exclut tout produit fabrique en serie."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document montre que la mise en circulation n'est pas un simple acte administratif. Elle suppose l'entree volontaire du produit dans le circuit de commercialisation.",
+            "difficulte": 2
+          },
+          {
+            "question": "Comment le defaut du produit est-il apprecie dans ce regime ?",
+            "choix": [
+              "A. Par comparaison avec le produit le plus moderne du marche.",
+              "B. A partir de la securite legitimement attendue, compte tenu de la presentation du produit, de son usage raisonnable et du moment de sa mise en circulation.",
+              "C. Seulement selon l'intention du producteur.",
+              "D. Uniquement a partir de la composition chimique du produit."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document insiste sur une approche contextuelle du defaut. Il ne suffit pas qu'un produit plus perfectionne ait ete cree plus tard pour conclure au defaut du premier.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle difference faut-il retenir entre forclusion et prescription dans ce chapitre ?",
+            "choix": [
+              "A. Il s'agit de deux mots strictement synonymes.",
+              "B. La forclusion de dix ans borne dans le temps la garantie du produit, tandis que la prescription de trois ans encadre l'action de la victime a compter de certaines connaissances.",
+              "C. La prescription est plus longue que la forclusion en toute hypothese.",
+              "D. Seule la forclusion existe dans ce regime special."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document distingue clairement les deux delais : l'un tient a la vie juridique du produit, l'autre au moment ou la victime est en mesure d'agir utilement.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1002,
+      "fiche": {
+        "titre": "Responsabilite medicale, accidents du travail et troubles du voisinage : trois regimes particuliers et leurs logiques propres",
+        "resume": "Cette retranscription rassemble trois blocs de regimes particuliers de responsabilite qui n'obeissent pas a une seule logique. La responsabilite medicale combine responsabilite civile et solidarite nationale. Les accidents du travail privilegient une prise en charge automatique mais limitee, issue du droit de la securite sociale. Les troubles anormaux du voisinage reposent sur une responsabilite sans faute orientee vers la cessation de la gene. La fiche en retient une idee directrice : ces regimes particuliers montrent que le droit de la responsabilite ne se contente plus d'un modele unique fonde sur la faute, mais varie selon le type de risque et l'objectif de politique juridique poursuivi.",
+        "sections": [
+          {
+            "titre": "La responsabilite medicale organise la coexistence de deux voies : la responsabilite civile et l'indemnisation subsidiaire par solidarite nationale",
+            "contenu": "Le document prend pour point de depart la loi du 4 mars 2002, dite loi Kouchner. Celle-ci ne supprime pas l'idee de responsabilite civile du professionnel de sante, mais elle ajoute un second mecanisme, subsidiaire, destine notamment a la prise en charge de certains accidents medicaux et de l'alea therapeutique. Le cours montre ainsi que le droit de la sante ne se contente pas de demander s'il y a faute : il cherche aussi a eviter que certains risques propres au fonctionnement du systeme de soins restent sans indemnisation."
+          },
+          {
+            "titre": "L'evolution de la responsabilite du medecin ne supprime pas l'heritage de l'arret Mercier, mais deplace son fondement",
+            "contenu": "Le document rappelle qu'avant 2002, la jurisprudence Mercier construisait une responsabilite contractuelle du medecin, fondee sur une obligation de moyens et sur la preuve d'une faute. Les evolutions jurisprudentielles de 2010 abandonnent cette qualification contractuelle pour rattacher plus directement la responsabilite aux textes du Code de la sante publique. Cela ne signifie pas que toute logique de prudence disparait, mais plutot que le fondement devient legal et specialise."
+          },
+          {
+            "titre": "Les accidents du travail privilegient une prise en charge automatique rattachee au travail, au trajet ou a certaines maladies professionnelles",
+            "contenu": "Le cours montre que ce regime est construit autour d'une forte presomption d'imputabilite et d'une prise en charge sociale rapide. Il vise l'accident survenu par le fait ou a l'occasion du travail, mais aussi l'accident de mission, l'accident de trajet et certaines maladies professionnelles, la liste legale n'etant pas fermee de facon absolue. Cette protection a un prix : l'indemnisation est souvent plus limitee que celle du droit commun, ce qui explique les critiques doctrinales et les debats sur une refonte du systeme."
+          },
+          {
+            "titre": "Le trouble anormal du voisinage repose quant a lui sur une logique de responsabilite sans faute centree sur l'exces de la gene",
+            "contenu": "Le document insiste sur le fait que ce regime ne cherche pas d'abord une faute du voisin auteur du trouble, mais un depassement de ce que les inconvenients normaux du voisinage permettent d'imposer a autrui. La gene doit etre appreciee concretement. Le cours ajoute la question de la pre-occupation, c'est-a-dire l'arrivee d'un nouvel occupant dans un environnement deja affecte par une activite anterieure, ainsi que les adaptations specifiques du Code rural pour certaines activites agricoles."
+          },
+          {
+            "titre": "La reparation du trouble de voisinage illustre une preference pour la cessation de la gene plutot que pour la seule compensation monetaire",
+            "contenu": "Le cours explique que, dans ce type de contentieux, la reparation en nature est souvent privilegiee : travaux, cessation ou limitation de l'activite, voire destruction de ce qui constitue la source de la gene. Les dommages et interets restent possibles pour le prejudice deja subi, mais l'objectif principal est de faire cesser le trouble. Ce contraste est instructif : selon les regimes, le droit de la responsabilite peut viser tantot l'indemnisation rapide, tantot la solidarite nationale, tantot la suppression de la nuisance."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle double logique la loi Kouchner de 2002 introduit-elle en responsabilite medicale ?",
+          "reponse": "Elle combine un regime de responsabilite civile avec un mecanisme subsidiaire d'indemnisation par solidarite nationale.",
+          "explication": "Le document souligne que cette seconde voie sert notamment a prendre en charge certains accidents medicaux et l'alea therapeutique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'alea therapeutique occupe-t-il une place particuliere dans cette seance ?",
+          "reponse": "Parce qu'il correspond a un risque du systeme de soins qui n'entre pas necessairement dans le champ classique de la faute civile du medecin.",
+          "explication": "Le cours montre que la solidarite nationale vient justement couvrir ce type d'hypothese.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que representait l'arret Mercier dans l'ancien droit de la responsabilite medicale ?",
+          "reponse": "Il consacrait une responsabilite contractuelle du medecin, fondee sur une obligation de moyens et sur la preuve d'une faute.",
+          "explication": "Le document le mobilise comme point de comparaison avec les evolutions ulterieures.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que changent les evolutions jurisprudentielles de 2010 en responsabilite medicale ?",
+          "reponse": "Elles deplacent le fondement vers les textes du Code de la sante publique plutot que vers le contrat medical classique.",
+          "explication": "Le cours souligne ainsi le passage d'une construction contractuelle a un ancrage legal specialise.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le regime des accidents du travail est-il qualifie d'automatique dans le document ?",
+          "reponse": "Parce qu'il repose sur une prise en charge sociale rapide, soutenue par des presomptions d'imputabilite au travail ou au trajet.",
+          "explication": "Le cours rattache cette automaticite au droit de la securite sociale plutot qu'au seul droit civil commun.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel paradoxe le document souligne-t-il a propos des accidents du travail ?",
+          "reponse": "Le systeme protege rapidement le salarie, mais il limite aussi son indemnisation par rapport au droit commun.",
+          "explication": "Cette tension explique les critiques doctrinales et les appels a une refonte du regime.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que vise avant tout le regime des troubles anormaux du voisinage ?",
+          "reponse": "Il vise a sanctionner l'exces de la gene imposee a autrui, sans exiger la preuve d'une faute du voisin.",
+          "explication": "Le document en fait un exemple net de responsabilite sans faute centree sur l'anormalite du trouble.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la pre-occupation joue-t-elle un role en matiere de voisinage ?",
+          "reponse": "Parce qu'elle permet de tenir compte de l'anteriorite d'une activite ou d'une nuisance face a un nouvel arrivant.",
+          "explication": "Le cours montre toutefois que cette cause d'exoneration est encadree et nuancee, notamment en matiere agricole.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel mode de reparation le juge privilegie-t-il souvent pour un trouble anormal du voisinage ?",
+          "reponse": "La reparation en nature, afin de faire cesser ou reduire effectivement la gene.",
+          "explication": "Les dommages et interets peuvent s'y ajouter, mais ils ne remplacent pas toujours la necessite d'arreter le trouble.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur les regimes particuliers ?",
+          "reponse": "Il faut retenir que responsabilite medicale, accidents du travail et troubles du voisinage poursuivent des objectifs differents et montrent la grande diversification contemporaine des techniques d'indemnisation et de regulation.",
+          "explication": "Le document oppose ainsi faute, solidarite nationale, automaticite sociale et cessation des nuisances.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Regimes particuliers : medecine, travail, voisinage",
+        "questions": [
+          {
+            "question": "Quelle innovation centrale la loi Kouchner de 2002 apporte-t-elle en responsabilite medicale ?",
+            "choix": [
+              "A. Elle supprime toute responsabilite civile du medecin.",
+              "B. Elle ajoute a la responsabilite civile un mecanisme subsidiaire d'indemnisation par solidarite nationale.",
+              "C. Elle transforme automatiquement toute obligation de moyens en obligation de resultat.",
+              "D. Elle reserve l'indemnisation aux seuls medecins liberaux."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document met en avant la coexistence de deux voies. La seconde intervient notamment pour des accidents medicaux que la faute civile ne permet pas toujours de prendre en charge.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le regime des accidents du travail est-il souvent critique selon le document ?",
+            "choix": [
+              "A. Parce qu'il repose sur une faute intentionnelle du salarie.",
+              "B. Parce qu'il offre une protection rapide mais parfois une indemnisation plus limitee que celle du droit commun.",
+              "C. Parce qu'il n'inclut jamais les accidents de trajet.",
+              "D. Parce qu'il exclut toute maladie professionnelle."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le cours souligne ce compromis propre au droit de la securite sociale : automaticite et efficacite d'un cote, limitation de la reparation de l'autre.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel critere fonde la responsabilite pour trouble anormal du voisinage dans cette seance ?",
+            "choix": [
+              "A. Une faute lourde du voisin.",
+              "B. Un depassement des inconvenients normaux du voisinage, apprecie concretement.",
+              "C. La seule anciennete de l'activite.",
+              "D. L'intention de nuire exclusivement."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document insiste sur le caractere sans faute du regime. C'est l'anormalite de la gene qui compte, non une faute morale du voisin auteur du trouble.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la reparation en nature tient-elle une place importante en matiere de voisinage ?",
+            "choix": [
+              "A. Parce qu'aucune somme d'argent n'est jamais due.",
+              "B. Parce que l'objectif principal est souvent de faire cesser la nuisance elle-meme, et non seulement d'en compenser les effets passes.",
+              "C. Parce que le juge ne peut jamais ordonner des dommages et interets.",
+              "D. Parce que le voisinage releve du seul droit penal."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document explique que le juge tend a privilegier les mesures aptes a supprimer ou reduire la gene, quitte a y ajouter une indemnisation pour le prejudice deja subi.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1003,
+      "fiche": {
+        "titre": "Quasi-contrats : fait licite, loteries publicitaires, paiement de l'indu et enrichissement injustifie",
+        "resume": "Cette retranscription sur les quasi-contrats reprend la derniere grande source d'obligations relevant des faits juridiques. Le document insiste sur une distinction fondamentale : a la difference de la responsabilite extracontractuelle, les quasi-contrats naissent d'un fait licite. Le Code civil n'en consacre aujourd'hui que trois, mais la jurisprudence a longtemps explore d'autres pistes, notamment avec les loteries publicitaires. La fiche en retient une idee directrice : les quasi-contrats sont des mecanismes de reequilibrage licite, mais chacun obeit a des conditions techniques distinctes.",
+        "sections": [
+          {
+            "titre": "Le document rappelle d'abord que les quasi-contrats sont des faits licites generateurs d'obligations",
+            "contenu": "L'article 1300 du Code civil sert ici de cle de lecture. Les quasi-contrats se distinguent de la responsabilite extracontractuelle en ce qu'ils ne sanctionnent pas un fait illicite. Ils prennent appui sur un comportement volontaire ou sur une situation juridiquement acceptable dont la loi tire un engagement pour retablir un equilibre. Cette base licite explique a la fois leur originalite et leur relative fermeture dans le Code civil."
+          },
+          {
+            "titre": "La reforme de 2016 a retenu trois quasi-contrats nommes, sans consacrer toutes les constructions jurisprudentielles anterieures",
+            "contenu": "Le document montre que le Code civil vise aujourd'hui la gestion d'affaires, le paiement de l'indu et l'enrichissement injustifie. Les loteries publicitaires, pourtant rapprochees un temps d'un fondement quasi-contractuel, n'ont pas ete integrees dans cette liste. Cela ne signifie pas que la jurisprudence precedente soit sans interet, mais plutot que le legislateur a prefere une categorie maitrisee plutot qu'un ensemble indefini d'obligations atypiques."
+          },
+          {
+            "titre": "Les loteries publicitaires illustrent justement les hesitations sur le bon fondement lorsque l'espoir de gain est artificiellement suscite",
+            "contenu": "Le cours rappelle que la jurisprudence a successivement envisage des fondements contractuels, un engagement unilateral, la faute, puis une construction quasi-contractuelle fondee sur l'apparence. Cette hesitation montre bien que toutes les obligations non contractuelles ne sont pas spontanement des quasi-contrats au sens du Code. Le document s'en sert pour souligner les limites de la categorie legale actuelle."
+          },
+          {
+            "titre": "Le paiement de l'indu distingue des hypotheses objectives et subjectives autour d'une idee commune : tout paiement suppose une dette",
+            "contenu": "Le document commente l'article 1302 et montre qu'il y a paiement indu lorsqu'une somme ou une prestation a ete fournie sans dette correspondante. L'indu objectif vise l'absence pure et simple de dette ou l'exces de paiement. L'indu subjectif vise au contraire l'hypothese ou la dette existe, mais pas entre le bon payeur et le bon creancier. Cette distinction structure finement le raisonnement restitutoire."
+          },
+          {
+            "titre": "L'enrichissement injustifie demeure subsidiaire et strictement regle dans ses effets",
+            "contenu": "Le document insiste sur le fait que l'enrichissement injustifie corrige un desequilibre patrimonial lorsque aucune autre action plus adaptee ne peut utilement jouer. L'indemnite est encadree : on compare enrichissement et appauvrissement, l'appauvrissement est apprecie au jour de la depense, l'enrichissement au jour de la demande, et l'on retient en principe la plus faible des deux sommes. La faute de l'appauvri peut conduire a une moderation, tandis que la mauvaise foi de l'enrichi peut au contraire aggraver ce qu'il devra restituer."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le document insiste-t-il sur le caractere licite du fait generateur des quasi-contrats ?",
+          "reponse": "Parce que c'est ce qui les distingue fondamentalement de la responsabilite extracontractuelle, fondee sur un fait illicite.",
+          "explication": "Le cours construit ainsi une ligne de partage claire entre les deux grandes sources d'obligations relevant des faits juridiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels sont les trois quasi-contrats aujourd'hui nommes par le Code civil ?",
+          "reponse": "La gestion d'affaires, le paiement de l'indu et l'enrichissement injustifie.",
+          "explication": "Le document rappelle que cette liste n'integre pas toutes les constructions jurisprudentielles anterieures.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que montrent les loteries publicitaires sur le plan theorique ?",
+          "reponse": "Elles montrent que le choix du fondement peut hesiter entre plusieurs categories et que toute situation atypique n'est pas automatiquement un quasi-contrat legal.",
+          "explication": "Le cours evoque successivement le contrat, l'engagement unilateral, la faute et l'apparence.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale gouverne le paiement de l'indu ?",
+          "reponse": "Tout paiement suppose une dette, de sorte que ce qui a ete verse sans etre du doit en principe etre restitue.",
+          "explication": "Le document fait de cette formule la base de tout le raisonnement restitutoire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Comment l'indu objectif se distingue-t-il de l'indu subjectif ?",
+          "reponse": "L'indu objectif vise l'absence de dette ou l'exces de paiement, tandis que l'indu subjectif suppose une dette existante mais payee par la mauvaise personne ou a la mauvaise personne.",
+          "explication": "Le cours utilise cette distinction pour affiner les differents cas de restitution.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le paiement volontaire d'une obligation naturelle n'ouvre-t-il pas droit a restitution ?",
+          "reponse": "Parce que le droit reconnait a son execution volontaire une force suffisante pour exclure ensuite l'action en repetition.",
+          "explication": "Le document rattache cette solution au regime plus general des obligations naturelles.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role joue la subsidiarite dans l'enrichissement injustifie ?",
+          "reponse": "Elle reserve ce fondement aux hypotheses ou aucune autre action plus precise n'est utilement disponible.",
+          "explication": "Le cours presente ainsi l'enrichissement injustifie comme une voie de dernier recours.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'indemnite d'enrichissement injustifie est-elle calculee a partir de la plus faible des deux sommes ?",
+          "reponse": "Parce qu'il faut reequilibrer les patrimoines sans appauvrir l'enrichi au-dela de son gain ni enrichir l'appauvri au-dela de sa perte.",
+          "explication": "Le document montre ici la logique d'equilibre interne du mecanisme.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel effet la faute de l'appauvri produit-elle en matiere d'enrichissement injustifie ?",
+          "reponse": "Elle ne supprime pas automatiquement l'action, mais peut conduire le juge a moderer l'indemnisation.",
+          "explication": "Le cours distingue ainsi la recevabilite du fondement et l'evaluation de ses effets.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur les quasi-contrats ?",
+          "reponse": "Il faut retenir que les quasi-contrats organisent des reequilibrages issus de faits licites, mais que chacun des trois mecanismes se construit autour de conditions et d'effets propres.",
+          "explication": "Le document oppose ici une unite de finalite a une diversite technique tres marquee.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Quasi-contrats, semaine 12",
+        "questions": [
+          {
+            "question": "Quelle distinction fondamentale le document etablit-il entre responsabilite extracontractuelle et quasi-contrats ?",
+            "choix": [
+              "A. La responsabilite extracontractuelle nait d'un fait licite, les quasi-contrats d'un fait illicite.",
+              "B. Les quasi-contrats naissent de faits licites, alors que la responsabilite extracontractuelle repose sur un fait illicite.",
+              "C. Les deux reposent toujours sur un contrat prealable.",
+              "D. Aucune distinction n'est maintenue par le Code civil."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document fait de cette opposition un critere majeur de classification des sources d'obligations relevant des faits juridiques.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi les loteries publicitaires n'ont-elles pas ete consacrees comme quasi-contrat par la reforme ?",
+            "choix": [
+              "A. Parce qu'elles n'ont jamais donne lieu a aucune jurisprudence.",
+              "B. Parce que le legislateur a prefere limiter la categorie legale des quasi-contrats aux trois figures nommees par le Code civil.",
+              "C. Parce qu'elles relevent uniquement du droit penal.",
+              "D. Parce qu'elles supposent toujours un contrat formel signe."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document explique que la jurisprudence avait cherche differents fondements, mais que le Code civil de 2016 n'a pas elargi pour autant la liste legale des quasi-contrats.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que signifie la distinction entre indu objectif et indu subjectif ?",
+            "choix": [
+              "A. L'indu objectif suppose une faute, l'indu subjectif non.",
+              "B. L'indu objectif vise l'absence de dette ou l'exces de paiement, l'indu subjectif vise une dette existante mais payee dans le mauvais rapport de personnes.",
+              "C. L'indu objectif concerne les contrats, l'indu subjectif les delits.",
+              "D. Il n'existe aucune difference utile entre les deux."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document s'appuie sur cette distinction pour montrer que toutes les hypotheses de paiement indu ne sont pas construites de la meme facon.",
+            "difficulte": 3
+          },
+          {
+            "question": "Pourquoi l'enrichissement injustifie est-il dit subsidiaire ?",
+            "choix": [
+              "A. Parce qu'il s'applique automatiquement avant tous les autres fondements.",
+              "B. Parce qu'il ne sert qu'en l'absence d'une action plus directe et plus adaptee.",
+              "C. Parce qu'il ne concerne que les appauvrissements volontaires.",
+              "D. Parce qu'il est reserve aux personnes morales."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document presente l'enrichissement injustifie comme une voie de secours destinee a corriger un desequilibre patrimonial lorsque les autres fondements ne peuvent pas utilement jouer.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1004,
+      "fiche": {
+        "titre": "Le dommage en droit de la responsabilite : distinction prejudice/dommage, categories reparables et caracteres du prejudice",
+        "resume": "Cette retranscription sur le dommage ouvre l'etude des conditions du droit commun de la responsabilite. Le document insiste sur un point essentiel : sans dommage il n'y a pas de responsabilite, mais tous les prejudices n'ouvrent pas automatiquement droit a indemnisation. Le dommage est a la fois une condition generale de la responsabilite et un terrain de forte sophistication doctrinale et jurisprudentielle. La fiche en retient une idee directrice : le droit francais multiplie les categories de prejudices reparables, tout en maintenant des filtres severes tenant a leur certitude, leur directivite, leur legitimite et leur caractere personnel.",
+        "sections": [
+          {
+            "titre": "Le document commence par faire du dommage la condition sine qua non de toute responsabilite",
+            "contenu": "Le cours rappelle que, dans le droit positif actuel, aucune action en responsabilite ne peut prosperer sans dommage. Cette exigence vaut bien au-dela du seul droit commun du Code civil et touche l'ensemble des regimes de responsabilite. Le document ajoute toutefois que cette centralite du dommage n'interdit pas les discussions doctrinales, notamment autour du principe de precaution, mais il souligne que ce principe n'a pas encore bouleverse l'etat du droit francais."
+          },
+          {
+            "titre": "Une precision terminologique importante distingue le dommage comme fait materiel et le prejudice comme consequence juridique",
+            "contenu": "Le document rappelle qu'une partie importante de la doctrine distingue le dommage, entendu comme l'atteinte materielle, et le prejudice, entendu comme les consequences juridiquement reparables de cette atteinte. Cette distinction n'est pas encore stablement imposee par la jurisprudence, mais elle apparait dans les projets de reforme et permet de mieux structurer le raisonnement. Elle montre surtout qu'un meme evenement materiel peut engendrer plusieurs prejudices distincts."
+          },
+          {
+            "titre": "Le droit francais developpe de tres nombreuses categories de prejudices, en particulier autour du dommage corporel",
+            "contenu": "Le document insiste sur la multiplication des postes indemnisables, notamment dans la nomenclature Dintilhac. On y retrouve des prejudices patrimoniaux et extrapatrimoniaux, mais aussi une fragmentation plus fine du dommage corporel : prejudice moral, prejudice esthetique, prejudice sexuel, prejudice d'etablissement, prejudice de mort imminente ou encore prejudice d'impreparation. Cette diversification repond a une recherche de reparation integrale, mais elle nourrit aussi les critiques visant une hypertrophie du droit de la responsabilite."
+          },
+          {
+            "titre": "Tous les prejudices ne sont pourtant reparables que s'ils presentent certains caracteres au premier rang desquels la certitude",
+            "contenu": "Le cours retient plusieurs caracteres du prejudice reparable. Le premier est la certitude, qui n'exclut pas le prejudice futur des lors qu'il apparait comme la prolongation certaine d'un etat actuel. Le document evoque egalement le prejudice direct, le prejudice legitime et le prejudice personnel. Ces caracteres servent de filtres pour eviter qu'une simple eventualite, une situation juridiquement desavouee ou une atteinte trop indirecte ne donne lieu a indemnisation."
+          },
+          {
+            "titre": "Le caractere personnel n'empeche pas l'ouverture du droit a des victimes par ricochet, a certains groupements et meme au prejudice ecologique pur",
+            "contenu": "Le document montre que le prejudice personnel n'est pas synonyme de prejudice strictement individuel et isole. Les victimes par ricochet peuvent obtenir reparation de leur propre atteinte, comme l'illustre l'enfant simplement concu au moment du deces du pere. Certains groupements peuvent aussi agir pour la defense d'un interet collectif, et le droit francais reconnait desormais le prejudice ecologique pur. L'extension des titulaires du droit a agir s'accompagne donc d'un elargissement des objets de la reparation."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le dommage est-il presente comme une condition sine qua non de la responsabilite ?",
+          "reponse": "Parce qu'en l'absence de dommage il n'existe, en droit positif, aucun fondement suffisant pour obtenir reparation.",
+          "explication": "Le document rappelle que cette exigence vaut bien au-dela du seul droit commun du Code civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle distinction doctrinale le document met-il en avant entre dommage et prejudice ?",
+          "reponse": "Le dommage designe l'atteinte materielle, tandis que le prejudice renvoie aux consequences juridiques reparables de cette atteinte.",
+          "explication": "Cette distinction aide a comprendre comment un seul fait materiel peut engendrer plusieurs postes indemnitaires.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le dommage corporel fait-il l'objet d'une telle diversification des prejudices reparables ?",
+          "reponse": "Parce que le droit cherche a saisir plus finement toutes les dimensions de l'atteinte subie par la victime pour tendre vers une reparation integrale.",
+          "explication": "Le document rattache cette tendance a la nomenclature Dintilhac et aux evolutions jurisprudentielles recentes.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que montre la reconnaissance du prejudice sexuel ou du prejudice d'etablissement ?",
+          "reponse": "Elle montre que le droit de la responsabilite ne se contente plus de categories tres larges et cherche a individualiser des atteintes plus specifiques.",
+          "explication": "Le cours y voit a la fois un raffinement de la reparation et une source de critiques sur l'expansion du contentieux.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi un prejudice futur peut-il tout de meme etre certain ?",
+          "reponse": "Parce qu'il est reparable des lors qu'il apparait comme la prolongation certaine et directe d'un etat deja constate.",
+          "explication": "Le document oppose cette certitude a la simple eventualite ou au dommage purement hypoth etique.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel est le role du caractere legitime du prejudice ?",
+          "reponse": "Il sert a exclure de la reparation les situations juridiquement desavouees ou les avantages que l'ordre juridique n'entend pas proteger.",
+          "explication": "Le document le presente comme l'un des filtres structurants du prejudice reparable.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le caractere personnel du prejudice n'exclut-il pas les victimes par ricochet ?",
+          "reponse": "Parce qu'elles subissent elles-memes une atteinte propre, meme si elle derive du dommage cause a la victime principale.",
+          "explication": "Le cours prend l'exemple de l'enfant concu au moment du deces du pere pour illustrer cette autonomie du prejudice par ricochet.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que montre l'ouverture de l'action a certains groupements ou au prejudice ecologique pur ?",
+          "reponse": "Elle montre que le droit de la responsabilite depasse progressivement la seule atteinte individuelle immediate pour proteger aussi des interets collectifs ou environnementaux.",
+          "explication": "Le document relie cette extension a l'evolution moderne des objets de la reparation.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le document parle-t-il d'hypertrophie possible du droit de la responsabilite ?",
+          "reponse": "Parce que la multiplication des prejudices reconnus peut conduire a rechercher une indemnisation pour un nombre croissant de coups du sort ou d'atteintes autrefois supportes autrement.",
+          "explication": "Le cours rapporte ici une critique doctrinale de l'expansion du champ indemnisable.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur le dommage ?",
+          "reponse": "Le dommage reste la condition essentielle de la responsabilite, mais son traitement est devenu tres sophistique : le droit elargit les prejudices reconnus tout en maintenant des caracteres stricts pour admettre leur reparation.",
+          "explication": "Le document combine ainsi inflation des categories et rigueur des filtres.",
+          "difficulte": 4
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Le dommage en droit de la responsabilite",
+        "questions": [
+          {
+            "question": "Pourquoi le dommage est-il qualifie de condition sine qua non de la responsabilite ?",
+            "choix": [
+              "A. Parce que toute faute suffit a elle seule.",
+              "B. Parce qu'en droit positif il n'y a pas de responsabilite sans atteinte ouvrant droit a reparation.",
+              "C. Parce que seul le dommage materiel compte.",
+              "D. Parce que le principe de precaution a deja remplace cette exigence."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rappelle que le dommage reste la condition centrale de tout regime de responsabilite. Les discussions doctrinales sur la prevention n'ont pas encore supprime cette exigence.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle utilite presente la distinction entre dommage et prejudice ?",
+            "choix": [
+              "A. Elle supprime toute action en responsabilite.",
+              "B. Elle permet de distinguer l'atteinte materielle de ses consequences juridiques reparables, et donc de comprendre la pluralite des postes indemnitaires.",
+              "C. Elle reserve la reparation aux seules personnes morales.",
+              "D. Elle interdit tout prejudice futur."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document montre qu'un meme evenement materiel peut produire plusieurs prejudices juridiquement distincts. Cette distinction structure donc le raisonnement sur la reparation.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi un prejudice futur peut-il etre reparable sans contradiction avec l'exigence de certitude ?",
+            "choix": [
+              "A. Parce que tout evenement futur est certain.",
+              "B. Parce qu'il suffit qu'il soit imagine par la victime.",
+              "C. Parce qu'il est admis lorsqu'il apparait comme la prolongation certaine et directe d'un etat deja etabli.",
+              "D. Parce qu'il remplace le prejudice present."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document oppose le prejudice futur certain a la simple eventualite. Ce n'est pas l'absence d'actualite qui empeche la reparation, mais l'absence de certitude.",
+            "difficulte": 3
+          },
+          {
+            "question": "Que montre l'ouverture du prejudice personnel aux victimes par ricochet, aux groupements et au prejudice ecologique pur ?",
+            "choix": [
+              "A. Que toute personne dans la societe peut agir sans condition.",
+              "B. Que le droit de la responsabilite etend progressivement les titulaires et les objets de la reparation au-dela de la seule victime individuelle immediate.",
+              "C. Que le prejudice personnel a disparu.",
+              "D. Que seules les atteintes a l'environnement sont desormais reparables."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document montre que la personalite du prejudice ne se reduit pas a un isolement absolu de la victime. Le droit reconnait aussi des atteintes propres derivant d'un dommage principal ou touchant des interets collectifs.",
+            "difficulte": 3
+          }
+        ]
+      }
+    }
+  ]
+}
