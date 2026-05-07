@@ -1,0 +1,357 @@
+{
+  "documents": [
+    {
+      "document_id": 1076,
+      "fiche": {
+        "titre": "Contrat de travail, subordination juridique et contrats precaires : les lignes de force du salariat contemporain",
+        "resume": "Ce cours sur le contrat de travail montre que la question centrale n'est pas seulement de choisir entre CDI, CDD ou travail independant, mais d'identifier le noyau juridique du salariat. La fiche en retient une idee directrice : le contrat de travail se reconnait d'abord a la subordination juridique, selon une logique de requalification qui deplace le regard des mots du contrat vers les conditions reelles d'execution. A partir de ce socle, le droit organise la validite du contrat, encadre certaines clauses sensibles et maintient une discipline stricte sur les contrats precaires, presentes comme des exceptions au CDI a temps plein.",
+        "sections": [
+          {
+            "titre": "Le vrai point d'entree reste l'identification du lien de subordination juridique",
+            "contenu": "Le document rappelle que le travail et la remuneration ne suffisent pas a eux seuls a distinguer salariat et independance. La fiche retient que le critere decisif est l'execution du travail sous l'autorite d'un employeur disposant d'un pouvoir de direction, de controle et de sanction. La formule de 1996 sert ici de matrice a l'ensemble du droit du contrat de travail."
+          },
+          {
+            "titre": "La qualification depend des faits reels et non de l'etiquette choisie par les parties",
+            "contenu": "Le cours revient sur des zones grises comme la tele-realite, certaines professions liberees ou les travailleurs de plateformes. La fiche en conclut que le juge conserve un pouvoir de requalification des lors qu'il retrouve une dependance juridique suffisante. La volonte affichee des parties ou le nom donne au document ne bloque pas l'analyse."
+          },
+          {
+            "titre": "Le contrat de travail obeit au droit commun des contrats, mais il developpe ses propres points de vigilance",
+            "contenu": "Le document expose la capacite, le consentement et l'objet licite, tout en rappelant que le CDI n'est pas necessairement ecrit. La fiche retient surtout que certaines stipulations, comme la remuneration, la duree du travail ou la qualification, prennent une densite particuliere parce qu'elles ne peuvent pas etre modifiees unilateralement."
+          },
+          {
+            "titre": "Les clauses facultatives sont admises, mais sous controle de finalite et de proportionnalite",
+            "contenu": "Le cours detaille les clauses d'objectifs, de mobilite, de dedid-formation ou de non-concurrence. La fiche en retient une logique commune : l'entreprise peut organiser la relation de travail, mais sans vider la liberte du salarie de sa substance ni imposer des restrictions floues ou excessives. Les juges s'attachent donc autant a la validite de la clause qu'a ses conditions concretes de mise en oeuvre."
+          },
+          {
+            "titre": "Les contrats precaires demeurent des instruments utiles mais strictement subordonnes a leur caractere exceptionnel",
+            "contenu": "Le document rappelle que le CDD et le travail temporaire ne peuvent pas pourvoir durablement l'activite normale et permanente de l'entreprise. La fiche retient que leur recours est enferme dans des cas legaux, que l'ecrit est obligatoire et que l'absence de forme bascule vers la requalification en CDI. Le droit du travail maintient ainsi le CDI a temps plein comme modele central de la relation salariee."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel critere permet de distinguer le contrat de travail du travail independant dans ce cours ?",
+          "reponse": "Le critere determinant est la subordination juridique, c'est-a-dire le travail execute sous l'autorite d'un employeur qui dirige, controle et sanctionne.",
+          "explication": "La fiche reprend ici la definition unificatrice qui structure la qualification du salariat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le travail et la remuneration ne suffisent-ils pas a identifier un contrat de travail ?",
+          "reponse": "Parce qu'on peut aussi trouver une prestation remuneree hors salariat ; il faut encore l'autorite juridique de l'employeur.",
+          "explication": "Le document montre que la vraie rupture entre salarie et independant se joue sur la subordination et non sur la seule onerosite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la denomination du contrat ne lie-t-elle pas le juge ?",
+          "reponse": "Parce que le juge qualifie la relation a partir des conditions reelles d'execution et peut donc requalifier un montage seulement apparent.",
+          "explication": "La fiche insiste sur la primaut des faits sur les apparences contractuelles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel enseignement le contentieux des plateformes apporte-t-il a la notion de subordination ?",
+          "reponse": "Il montre qu'un travailleur presente comme independant peut etre salarie si la plateforme exerce en pratique un pouvoir de controle et de sanction.",
+          "explication": "Le document utilise les coursiers et chauffeurs pour illustrer l'elasticite du critere de subordination.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi certaines clauses contractuelles font-elles l'objet d'un controle plus serre ?",
+          "reponse": "Parce qu'elles peuvent restreindre la liberte du salarie ou deplacer fortement l'equilibre de la relation de travail.",
+          "explication": "La fiche regroupe ici mobilite, objectifs, dedid-formation et non-concurrence sous une meme logique de surveillance judiciaire.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que verifie le juge a propos d'une clause de mobilite ?",
+          "reponse": "Il verifie notamment la precision de la zone geographique et l'absence d'atteinte disproportionnee a la vie personnelle et familiale du salarie.",
+          "explication": "Le document montre que la clause n'est ni librement indefinie ni librement mobilisable en toute circonstance.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la clause de non-concurrence exige-t-elle une contrepartie pecuniaire ?",
+          "reponse": "Parce qu'elle limite la liberte de travailler apres la rupture et doit donc etre compensee de maniere reelle.",
+          "explication": "La fiche souligne ici la restauration d'un equilibre synallagmatique dans l'apres-contrat.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le CDI a temps plein est-il qualifie de contrat de droit commun ?",
+          "reponse": "Parce que les autres formes, surtout les contrats precaires, ne peuvent etre utilisees qu'a titre derogatoire dans des cas determines.",
+          "explication": "Le document construit toute la regulation des CDD et du travail temporaire a partir de cette centralite du CDI.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que sanctionne principalement le formalisme impose aux contrats precaires ?",
+          "reponse": "Il sanctionne l'usage flou ou durable de contrats temporaires en favorisant la requalification en CDI quand les exigences legales ne sont pas respectees.",
+          "explication": "La fiche montre que l'ecrit et le motif precis ne sont pas de simples formalites administratives.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce cours sur le contrat de travail ?",
+          "reponse": "Le salariat repose d'abord sur la subordination juridique, puis sur un encadrement des clauses et des formes contractuelles destine a proteger l'equilibre de la relation de travail.",
+          "explication": "La fiche relie ainsi qualification, validite du contrat et exceptionnalite des contrats precaires.",
+          "difficulte": 2
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Contrat de travail",
+        "questions": [
+          {
+            "question": "Quel est le critere central du contrat de travail selon ce cours ?",
+            "choix": [
+              "A. La seule existence d'une remuneration.",
+              "B. La subordination juridique, c'est-a-dire le travail execute sous l'autorite d'un employeur.",
+              "C. La redaction obligatoire d'un ecrit en toute hypothese.",
+              "D. L'exercice d'une activite economique quelconque."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document fait de la subordination le point de partage entre salariat et independance.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi les travailleurs de plateformes nourrissent-ils autant le contentieux de qualification ?",
+            "choix": [
+              "A. Parce qu'ils sont toujours salaries par principe.",
+              "B. Parce que leur presentation comme independants peut etre contredite par des mecanismes concrets de controle et de sanction.",
+              "C. Parce qu'ils n'ont jamais de remuneration.",
+              "D. Parce qu'ils sont exclus de toute intervention du juge."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche relie ce contentieux aux zones grises du pouvoir exerce par la plateforme sur l'activite quotidienne.",
+            "difficulte": 3
+          },
+          {
+            "question": "Pourquoi les contrats precaires sont-ils strictement encadres ?",
+            "choix": [
+              "A. Parce qu'ils ne peuvent pas servir a pourvoir durablement l'activite normale et permanente de l'entreprise.",
+              "B. Parce qu'ils remplacent librement le CDI.",
+              "C. Parce qu'ils sont interdits en toutes matieres.",
+              "D. Parce qu'ils ne necessitent jamais d'ecrit."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document maintient le CDI a temps plein comme modele et traite le travail precaire comme une exception legale.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel controle commun pese sur beaucoup de clauses facultatives du contrat de travail ?",
+            "choix": [
+              "A. Un controle de finalite et de proportionnalite tenant compte des libertes du salarie.",
+              "B. Une validation automatique par la seule signature du contrat.",
+              "C. Une dispense generale de toute contrepartie.",
+              "D. Une interdiction de principe de toute clause specifique."
+            ],
+            "reponse_correcte": 0,
+            "explication": "La fiche montre que la signature ne suffit pas quand la clause risque de porter trop fortement sur la vie ou la liberte du salarie.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1078,
+      "fiche": {
+        "titre": "Pouvoir patronal, reglement interieur et licenciement : encadrement des prerogatives de l'employeur par les libertes du salarie",
+        "resume": "Ce cours sur le pouvoir patronal montre que l'autorite de l'employeur ne se comprend plus comme une domination brute, mais comme un ensemble de prerogatives juridiquement encadrees. La fiche en retient une idee directrice : depuis les lois Auroux, le pouvoir de direction et le pouvoir disciplinaire sont acceptes parce qu'ils sont limites par des controles de legalite, de proportionnalite et de procedure. Le reglement interieur devient l'instrument typique de ce pouvoir normatif, tandis que le licenciement, la surveillance et l'usage de la vie personnelle du salarie sont soumis a une verification croissante des juges.",
+        "sections": [
+          {
+            "titre": "Le pouvoir patronal est reconnu, mais il n'est plus pense comme un pouvoir sans contrepoids",
+            "contenu": "Le document part du lien de subordination pour expliquer la double face de l'autorite de l'employeur : direction de l'entreprise d'un cote, discipline de l'autre. La fiche retient que la grande mutation est venue de l'integration des libertes du travailleur dans l'entreprise. Le salarie n'entre plus dans l'espace professionnel depouille de ses droits fondamentaux."
+          },
+          {
+            "titre": "Le reglement interieur concentre le pouvoir normatif de l'employeur sous controle multiple",
+            "contenu": "Le cours rappelle que le reglement interieur est obligatoire dans certaines entreprises, qu'il doit etre soumis au CSE, publicise et controle par l'inspection du travail. La fiche en conclut que l'employeur peut edicter des normes internes, mais seulement dans des domaines limites comme l'hygiene, la securite et la discipline, avec un contentieux possible devant le juge administratif."
+          },
+          {
+            "titre": "Les restrictions aux libertes doivent toujours etre justifiees et proportionnees",
+            "contenu": "Le document met en avant l'article L1321-3 et, plus largement, l'article L1121-1, pour encadrer les atteintes aux droits des personnes. La fiche retient que la validite d'une clause ou d'une mesure depend moins de la seule utilite alleguee pour l'entreprise que d'un controle concret de sa finalite et de sa proportion. Fouilles, tenue vestimentaire, surveillance ou usage du domicile ne sont donc jamais neutres juridiquement."
+          },
+          {
+            "titre": "Le harcelement et la surveillance illustrent la densite croissante des obligations patronales",
+            "contenu": "Le cours montre que le reglement interieur rappelle les regles relatives au harcelement, tandis que l'employeur doit prevenir, former et reagir. Il insiste aussi sur l'encadrement des moyens de surveillance, de la messagerie professionnelle a la videosurveillance. La fiche en conclut que le pouvoir de l'employeur est inseparable d'un devoir de methode et de transparence dans la facon de recueillir la preuve ou de proteger les salaries."
+          },
+          {
+            "titre": "Le licenciement oblige a distinguer cause reelle et serieuse, faute et droits fondamentaux",
+            "contenu": "Le document rappelle la construction du licenciement autour d'un motif reel et serieux, de la procedure et de l'indemnisation, tout en montrant que la vie privee, la vie personnelle, la liberte d'expression ou le secret des correspondances peuvent limiter la marge patronale. La fiche retient que la rupture du contrat reste possible, mais qu'elle est desormais traverse par un controle plus intense des juges sur les preuves, les libertes et la proportion de la sanction."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi dit-on dans ce cours que le pouvoir patronal est double ?",
+          "reponse": "Parce qu'il combine un pouvoir de direction sur l'organisation du travail et un pouvoir disciplinaire sur les manquements du salarie.",
+          "explication": "La fiche distingue ainsi l'encadrement des regles de l'entreprise et l'application des sanctions individuelles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role les lois Auroux jouent-elles dans cette presentation ?",
+          "reponse": "Elles marquent le moment ou les prerogatives de l'employeur sont fortement encadrees par les libertes des travailleurs dans l'entreprise.",
+          "explication": "Le document les presente comme le point de bascule entre autorite brute et pouvoir juridiquement borne.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le reglement interieur est-il un instrument central du pouvoir patronal ?",
+          "reponse": "Parce qu'il permet a l'employeur d'edicter des regles generales dans l'entreprise, notamment en hygiene, securite et discipline.",
+          "explication": "La fiche souligne toutefois que ce pouvoir normatif reste soumis a plusieurs controles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel double controle pese sur le reglement interieur selon le cours ?",
+          "reponse": "Un controle interne via le CSE et l'information des salaries, puis un controle externe via l'administration et le juge.",
+          "explication": "Le document montre que le reglement interieur ne vaut pas par la seule volonte de l'employeur.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi les principes de finalite et de proportionnalite sont-ils si importants ici ?",
+          "reponse": "Parce qu'ils permettent de mesurer si une restriction aux droits du salarie est reellement necessaire et pas excessivement intrusive.",
+          "explication": "La fiche fait de ces principes la cle du controle des fouilles, de la surveillance, des clauses et du pouvoir disciplinaire.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que montre l'integration des regles sur le harcelement dans le reglement interieur ?",
+          "reponse": "Que l'employeur n'est pas seulement autorise a commander, mais aussi tenu de prevenir des atteintes graves aux droits et a la dignite.",
+          "explication": "Le document relie ainsi pouvoir de direction et obligation de securite dans l'entreprise.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la preuve recueillie par surveillance n'est-elle pas librement utilisable par l'employeur ?",
+          "reponse": "Parce qu'elle doit etre obtenue par des moyens portes a la connaissance des salaries et conformes a un usage loyal et proportionne.",
+          "explication": "La fiche rappelle ici l'exigence de transparence et les limites a l'intrusion dans la vie privee.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la vie privee et la vie personnelle occupent-elles une place importante dans le droit du licenciement ?",
+          "reponse": "Parce que l'employeur ne peut pas librement sanctionner des faits extra-professionnels sans trouble objectif ou sans lien suffisant avec les obligations contractuelles.",
+          "explication": "Le document montre comment les juges filtrent l'usage patronal de faits exterieurs au travail.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que signifie l'exigence d'une cause reelle et serieuse dans ce cours ?",
+          "reponse": "Elle exige un motif existant, objectif et suffisamment important pour justifier la rupture du contrat.",
+          "explication": "La fiche distingue cette exigence de la simple faute et du pur arbitraire patronal.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce cours sur le pouvoir patronal ?",
+          "reponse": "L'employeur conserve de vraies prerogatives de direction et de sanction, mais leur exercice est aujourd'hui insere dans un systeme de procedure, de proportion et de protection des libertes du salarie.",
+          "explication": "La fiche relie ainsi reglement interieur, preuve, harcelement et licenciement a une meme logique d'encadrement.",
+          "difficulte": 2
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Pouvoir patronal",
+        "questions": [
+          {
+            "question": "Quel est l'apport general des lois Auroux dans cette presentation du pouvoir patronal ?",
+            "choix": [
+              "A. Elles ont supprime toute autorite de l'employeur.",
+              "B. Elles ont encadre le pouvoir de direction et le pouvoir disciplinaire par des garanties et des libertes du salarie.",
+              "C. Elles ont remplace le licenciement par l'arbitrage prive.",
+              "D. Elles ont rendu facultatif tout reglement interieur."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document fait des lois Auroux un moment d'equilibre nouveau entre autorite de l'entreprise et droits du travailleur.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le reglement interieur ne peut-il pas contenir n'importe quelle disposition ?",
+            "choix": [
+              "A. Parce qu'il est reserve a des domaines limites et soumis a un controle de legalite.",
+              "B. Parce qu'il ne peut jamais parler de discipline.",
+              "C. Parce qu'il n'a aucune valeur normative.",
+              "D. Parce qu'il est entierement redige par le CSE."
+            ],
+            "reponse_correcte": 0,
+            "explication": "La fiche rappelle que l'employeur ne peut normer que dans certains champs et sous supervision.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que permettent les principes de finalite et de proportionnalite dans ce cours ?",
+            "choix": [
+              "A. D'annuler automatiquement toute mesure patronale.",
+              "B. D'apprecier si une restriction aux droits du salarie est necessaire et mesuree au regard du but recherche.",
+              "C. De supprimer le role du juge.",
+              "D. De valider toute clause signee une fois pour toutes."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document s'en sert pour encadrer aussi bien la surveillance que les clauses ou les restrictions de comportement.",
+            "difficulte": 3
+          },
+          {
+            "question": "Pourquoi la vie privee et la vie personnelle limitent-elles le licenciement ?",
+            "choix": [
+              "A. Parce qu'aucun fait extra-professionnel ne peut jamais compter.",
+              "B. Parce que seuls les faits lies au travail, ou causant un trouble objectivement caracterise, peuvent plus facilement justifier une rupture.",
+              "C. Parce que la cause reelle et serieuse n'existe plus.",
+              "D. Parce que l'employeur ne peut plus jamais controler la preuve."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche montre comment les juges obligent l'entreprise a articuler plus finement vie personnelle et exigences professionnelles.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1077,
+      "flashcards": [
+        {
+          "question": "Pourquoi la demission n'est-elle pas analysee comme un simple depart de fait dans ce cours ?",
+          "reponse": "Parce qu'elle suppose une volonte libre, serieuse et non equivoque de rompre le contrat de travail.",
+          "explication": "Le document rappelle que les juges verifient concretement que le salarie a bien voulu se priver de son emploi.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi une demission peut-elle etre requalifiee en licenciement sans cause reelle et serieuse ?",
+          "reponse": "Parce qu'elle peut avoir ete provoquee par des manquements graves de l'employeur, comme le non-paiement du salaire ou le harcelement.",
+          "explication": "La fiche souligne que l'apparence d'une rupture volontaire peut masquer une contrainte patronale illicite.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel interet la prise d'acte offre-t-elle au salarie par rapport a la demission ?",
+          "reponse": "Elle lui permet de faire juger que la rupture est imputable a l'employeur si des manquements suffisamment graves sont etablis.",
+          "explication": "Le document presente la prise d'acte comme une voie contentieuse risquee mais potentiellement plus protectrice.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la prise d'acte est-elle souvent decrite comme un pari pour le salarie ?",
+          "reponse": "Parce que si le juge ne retient pas de manquement grave de l'employeur, elle produit les effets d'une demission.",
+          "explication": "La fiche rappelle le caractere biface du mecanisme : soit licenciement injustifie, soit simple depart volontaire.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle difference essentielle separe la prise d'acte de la resiliation judiciaire ?",
+          "reponse": "Dans la prise d'acte, le salarie cesse immediatement le travail ; dans la resiliation judiciaire, il continue a travailler en attendant la decision du juge.",
+          "explication": "Le document oppose ainsi deux techniques voisines mais distinctes dans leur effet immediat sur l'execution du contrat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la rupture conventionnelle a-t-elle connu un tel succes ?",
+          "reponse": "Parce qu'elle offre une sortie negociee du CDI avec controle administratif et acces a l'assurance chomage.",
+          "explication": "La fiche y voit un mode de rupture plus souple que le licenciement et plus avantageux qu'une simple demission.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel point rend la rupture conventionnelle dependante d'un vrai accord bilateral ?",
+          "reponse": "Elle ne peut pas etre imposee a l'autre partie et suppose une convention suivie de delais de retractation et d'homologation.",
+          "explication": "Le document montre qu'il ne s'agit pas d'un droit unilateral du salarie a quitter l'entreprise indemnisement.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le vice du consentement peut-il annuler une rupture conventionnelle ?",
+          "reponse": "Parce que la validite du dispositif depend d'un accord libre et eclaire, non obtenu par dol, erreur ou violence.",
+          "explication": "La fiche rappelle que la rupture amiable reste un acte contractuel pleinement controle sous cet angle.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que signifie la cause reelle et serieuse de licenciement dans ce cours ?",
+          "reponse": "Elle renvoie a un motif exact, objectif et suffisamment important pour justifier la rupture du contrat.",
+          "explication": "Le document articule ensuite cette exigence avec les fautes simples, graves ou lourdes et leurs effets indemnitaires.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le bareme Macron n'epuise-t-il pas tout le contentieux du licenciement ?",
+          "reponse": "Parce qu'il peut etre ecarte lorsque le licenciement touche a des droits ou libertes fondamentaux comme la discrimination ou le harcelement.",
+          "explication": "La fiche montre que la protection des libertes conserve une capacite de desserrer le cadre indemnitaire ordinaire.",
+          "difficulte": 3
+        }
+      ]
+    }
+  ]
+}
