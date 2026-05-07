@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 1069,
+      "fiche": {
+        "titre": "Garde a vue : controle du parquet, assistance de l'avocat, telephone et dignite de la personne",
+        "resume": "Ce corrige sur la garde a vue assemble plusieurs points de tension du regime contemporain. La fiche en retient une idee directrice : la mesure reste un instrument central d'enquete, mais sa validite depend d'un encadrement concret des garanties. Le parquet ne suffit pas a incarner l'autorite judiciaire de l'article 5 de la Convention europeenne, l'avocat doit pouvoir intervenir utilement lorsqu'un droit lui est ouvert, l'exploitation du telephone deplace le debat vers la perquisition numerique, et la dignite impose au magistrat une reaction immediate si les conditions materielles derapent.",
+        "sections": [
+          {
+            "titre": "Le controle du parquet ne transforme pas a lui seul la garde a vue en presentation devant un juge independant",
+            "contenu": "Le document rappelle la distinction classique entre la surveillance du ministere public et l'exigence europeenne d'une autorite judiciaire offrant des garanties d'independance. La fiche retient que cette insuffisance structurelle n'entraine pourtant pas automatiquement l'annulation totale de la mesure lorsque la privation de liberte est demeuree breve et suivie d'une remise en liberte rapide."
+          },
+          {
+            "titre": "Le droit a l'avocat doit pouvoir s'exercer des qu'il est demande et chaque fois qu'un nouvel enjeu procedural apparait",
+            "contenu": "Le corrige insiste sur l'assistance immediate de l'avocat lorsque la personne la sollicite, mais aussi sur la necessite d'un entretien confidentiel avant une audition portant sur des faits nouveaux. La fiche en conclut que l'effectivite de la defense ne se mesure pas seulement a la presence symbolique d'un conseil, mais a la possibilite de preparer reellement l'echange avec les enqueteurs."
+          },
+          {
+            "titre": "Le telephone introduit une frontiere instable entre audition, remise d'un code et perquisition numerique",
+            "contenu": "Le texte souligne qu'une demande de code de deblocage n'est pas automatiquement traitee comme une audition si elle ne comporte pas de questions sur les faits. La fiche retient toutefois qu'une telle operation ouvre l'acces a une sphere privee d'une densite considerable. Le contentieux se deplace alors vers la qualification de perquisition numerique et vers l'usage penal du refus de communiquer une cle de dechiffrement."
+          },
+          {
+            "titre": "La dignite de la personne gardee a vue ne releve plus d'une formule declaratoire",
+            "contenu": "Le document integre la reserve du Conseil constitutionnel de 2023 selon laquelle le magistrat competent doit faire cesser immediatement une atteinte a la dignite, ou ordonner la remise en liberte si aucune correction n'est possible. La fiche retient que les locaux, les repos, l'acces au medecin et les conditions materielles d'execution ne sont plus des questions accessoires mais des parametres de legalite et de responsabilite."
+          },
+          {
+            "titre": "Le cas pratique montre que la regularite de la garde a vue se lit avec l'ensemble des actes d'enquete voisins",
+            "contenu": "Le corrige relie la garde a vue a l'enquete de flagrance, a la pose d'une balise GPS, au retard du medecin et a la preuve recueillie par stratageme telephonique. La fiche en conclut que la mesure ne s'analyse jamais isolee. Sa securite depend aussi du contexte d'enquete, du respect des droits de la defense et de la loyaute des investigations qui l'entourent."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le parquet ne suffit-il pas a lui seul a satisfaire l'article 5 paragraphe 3 de la Convention europeenne dans ce dossier ?",
+          "reponse": "Parce qu'il n'offre pas les garanties d'independance et d'impartialite attendues d'une autorite judiciaire au sens europeen.",
+          "explication": "La fiche reprend ici la distinction entre controle du ministere public et presentation devant un juge veritablement independant.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi cette insuffisance du parquet n'entraine-t-elle pas automatiquement la nullite de toute la garde a vue ?",
+          "reponse": "Parce que la Cour raisonne aussi sur la brievete concrete de la mesure et sur ses suites immediates.",
+          "explication": "Le document montre que le grief conventionnel n'est pas converti en annulation mecanique de tous les actes subsequents.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel principe gouverne l'intervention de l'avocat quand la personne gardee a vue reclame son assistance ?",
+          "reponse": "L'assistance doit pouvoir etre effective des que la demande est formulee, et non reportee artificiellement a une etape ulterieure.",
+          "explication": "La fiche insiste sur l'idee d'un droit utile, et non d'une simple formalite differable au bon vouloir des enqueteurs.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'extension de la garde a vue a de nouveaux faits impose-t-elle souvent un nouvel entretien avec l'avocat ?",
+          "reponse": "Parce que la personne doit pouvoir preparer sa defense sur ces nouveaux faits avant toute audition.",
+          "explication": "Le document rappelle que la confidentialite de l'echange avec l'avocat fait partie de l'effectivite du droit de defense.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la demande du code d'un telephone n'est-elle pas automatiquement analysee comme une audition ?",
+          "reponse": "Parce qu'elle peut etre regardee comme une operation de recherche ou de saisie lorsqu'aucune question sur les faits n'est posee.",
+          "explication": "La fiche retient la qualification de perquisition numerique plutot qu'un simple interrogatoire de la personne.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel risque juridique apparait lorsque l'exploitation du telephone est dissociee de la presence de l'avocat ?",
+          "reponse": "Le risque est de contourner les garanties de defense tout en obtenant des elements decisifs dans la sphere privee numerique.",
+          "explication": "Le document signale ici une zone de tension forte entre efficacite d'enquete et protection procedurale.",
+          "difficulte": 4
+        },
+        {
+          "question": "Que change la reserve du Conseil constitutionnel de 2023 sur la dignite en garde a vue ?",
+          "reponse": "Elle oblige le magistrat competent a faire cesser immediatement l'atteinte ou a ordonner la liberation si aucune mesure corrective n'est possible.",
+          "explication": "La fiche montre que la dignite produit des obligations d'action et non une simple declaration de principe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le defaut de medecin ne suffit-il pas toujours a annuler la garde a vue ?",
+          "reponse": "Parce qu'il faut encore etablir, sauf hypotheses particulieres, un grief concret dans l'exercice des droits de la personne.",
+          "explication": "Le corrige rappelle ici la logique classique de nullite subordonnee a l'atteinte effective aux interets du mis en cause.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel lien le document etablit-il entre garde a vue et loyaute de la preuve ?",
+          "reponse": "Il montre que certains stratagemes telephoniques peuvent eluder les droits de la defense et contaminer les elements recueillis pendant l'enquete.",
+          "explication": "La fiche relie ainsi la mesure coercitive a la question plus large de la preuve obtenue par contournement de procedure.",
+          "difficulte": 4
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce corrige sur la garde a vue ?",
+          "reponse": "La mesure demeure valable si ses garanties sont concretement respectees, mais chacune d'elles peut devenir decisive des lors que l'enquete cherche a gagner en efficacite au prix des droits fondamentaux.",
+          "explication": "La fiche unit ainsi controle du parquet, droit a l'avocat, telephone, medecin, dignite et loyaute dans une meme logique de vigilance.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Garde a vue",
+        "questions": [
+          {
+            "question": "Quelle idee ressort du traitement du parquet dans ce corrige ?",
+            "choix": [
+              "A. Le parquet est toujours une autorite judiciaire suffisante au sens europeen.",
+              "B. Le parquet controle la mesure, mais ne remplit pas a lui seul les garanties d'independance exigees par l'article 5.",
+              "C. Le parquet est absent de toute garde a vue.",
+              "D. Le parquet annule automatiquement tous les actes ulterieurs."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document distingue le role de direction ou de surveillance du parquet et l'exigence europeenne d'une autorite judiciaire independante.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que doit permettre l'assistance de l'avocat en cas d'extension de la mesure a de nouveaux faits ?",
+            "choix": [
+              "A. Une simple presence muette a la fin de l'audition.",
+              "B. Un entretien confidentiel prealable garantissant une preparation utile de la defense.",
+              "C. Une consultation apres la levee de la garde a vue seulement.",
+              "D. Une renonciation presume du seul fait que l'avocat est present dans les locaux."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche retient que le droit a l'avocat doit rester effectif quand l'objet de l'interrogatoire change.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la demande du code d'un telephone fait-elle difficulte dans ce dossier ?",
+            "choix": [
+              "A. Parce qu'elle est toujours interdite en garde a vue.",
+              "B. Parce qu'elle peut etre traitee comme une perquisition numerique plutot que comme une audition, avec des effets importants sur les droits de la defense.",
+              "C. Parce qu'elle vaut aveu force automatiquement.",
+              "D. Parce qu'elle supprime toute possibilite de saisie ulterieure."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document souligne la frontiere instable entre simple demande technique, interrogation sur les faits et acces a une sphere privee numerique.",
+            "difficulte": 3
+          },
+          {
+            "question": "Que doit faire le magistrat competent si les conditions de garde a vue portent atteinte a la dignite et qu'aucune correction n'est possible ?",
+            "choix": [
+              "A. Attendre la fin de la mesure pour evaluer calmement la situation.",
+              "B. Ordonner la remise en liberte de la personne concernee.",
+              "C. Se contenter d'une mention au dossier.",
+              "D. Reporter l'examen au stade du jugement uniquement."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La reserve du Conseil constitutionnel impose une reaction immediate lorsque la dignite ne peut plus etre garantie.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1071,
+      "fiche": {
+        "titre": "Droit de se taire et de ne pas s'auto-incriminer : extension legislative, impulsion constitutionnelle et limites d'effectivite",
+        "resume": "Cette dissertation montre que le droit de se taire n'est plus un accessoire de la garde a vue, mais un principe directeur de la procedure penale. La fiche en retient une idee directrice : la protection a d'abord progresse par cercles successifs, d'abord autour de la garde a vue puis par diffusion vers d'autres audiences et procedures sous l'impulsion du Conseil constitutionnel. Mais cette progression reste incomplete, car le champ d'application demeure variable selon les contextes et l'effectivite depend encore de la facon dont les juges et les acteurs de procedure donnent un sens concret a la notification.",
+        "sections": [
+          {
+            "titre": "Le droit de se taire s'est d'abord forme comme une garantie longtemps hesitante",
+            "contenu": "Le document rappelle que ce droit a ete consacre par les instruments internationaux avant d'etre reellement stabilise en droit interne. La fiche retient que le legislateur francais a d'abord avance timidement, avant de retablir clairement le droit au silence lors de la refonte de la garde a vue en 2011. L'histoire du droit montre ici une conversion tardive a une garantie longtemps percue comme genante pour la recherche de la verite."
+          },
+          {
+            "titre": "L'extension initiale est passee par la notification du droit dans certaines procedures identifiees",
+            "contenu": "Le corrige detaille la diffusion du droit au silence a l'audition libre, au temoin assiste, a l'interrogatoire de premiere comparution, a la cour d'assises, au defere correctionnel et au tribunal correctionnel. La fiche en conclut que la logique est d'abord demeuree ponctuelle : le droit s'etendait par texte special, sans encore irriguer tout le parcours penal de facon continue."
+          },
+          {
+            "titre": "Le Conseil constitutionnel a force une generalisation beaucoup plus large a partir de 2021",
+            "contenu": "Le document souligne la serie de decisions qui ont censure l'absence de notification devant le juge des libertes et de la detention, la chambre de l'instruction, certaines procedures relatives aux mineurs ou au controle judiciaire. La fiche retient que la loi de 2021 a du integrer ces exigences et faire du droit de se taire un principe annonce de l'enquete jusqu'a l'audience."
+          },
+          {
+            "titre": "Le champ d'application reste pourtant a geometrie variable selon l'objet de la comparution et l'usage futur des declarations",
+            "contenu": "Le corrige montre que la jurisprudence continue a tracer des frontieres fines. Tantot elle etend la notification lorsque les declarations peuvent nourrir la decision sur la culpabilite ou la detention, tantot elle la refuse lorsqu'elle estime que la procedure ne met pas directement en jeu une auto-incrimination dans le sens retenu. La fiche en conclut que l'unite du principe n'efface pas la diversite des hypothese."
+          },
+          {
+            "titre": "L'effectivite du droit depend moins de sa proclamation abstraite que des pratiques de procedure",
+            "contenu": "Le texte insiste sur la notification, sur le moment ou elle intervient et sur l'usage concret des paroles recueillies. La fiche retient qu'un droit seulement annonce, mais mal compris, mal situe ou neutralise par des pratiques d'enquete, perd une grande part de sa force. Le contentieux actuel porte donc autant sur l'information de la personne que sur la place reelle de son silence dans la decision judiciaire."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le droit de se taire a-t-il longtemps eu une place fragile en droit francais ?",
+          "reponse": "Parce qu'il etait souvent percu comme une entrave a la manifestation de la verite avant d'etre assume comme une garantie de defense.",
+          "explication": "La fiche souligne le decalage entre la reconnaissance internationale du principe et sa stabilisation tardive en droit interne.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel tournant la reforme de 2011 sur la garde a vue represente-t-elle pour ce droit ?",
+          "reponse": "Elle transforme le silence en veritable droit notifie au stade de la garde a vue.",
+          "explication": "Le document presente 2011 comme le moment ou la garantie cesse d'etre residuelle pour devenir proceduralement identifiable.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'extension avant 2021 est-elle qualifiee de limitee ?",
+          "reponse": "Parce qu'elle reposait sur une addition de textes speciaux couvrant certaines procedures sans unifier l'ensemble du parcours penal.",
+          "explication": "La fiche montre une progression par points de contact plus que par principe general deja accompli.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role joue le Conseil constitutionnel dans l'acceleration de 2021 ?",
+          "reponse": "Il censure plusieurs dispositifs lacunaires et contraint le legislateur a etendre la notification du droit de se taire.",
+          "explication": "Le document fait du contentieux constitutionnel le moteur principal de la generalisation recente.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la mention du droit de se taire dans l'article preliminaire du Code de procedure penale est-elle importante ?",
+          "reponse": "Parce qu'elle donne au principe une vocation transversale allant de l'enquete a l'audience.",
+          "explication": "La fiche insiste sur le passage d'une logique de niches textuelles a une logique directrice de la procedure.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le champ du droit reste-t-il qualifie de geometrique variable ?",
+          "reponse": "Parce que les juridictions continuent de l'etendre ou de le limiter selon la nature de la comparution et la fonction des declarations attendues.",
+          "explication": "Le document montre que l'unite du principe n'empeche pas des solutions tres contextuelles.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel critere pratique explique souvent l'exigence de notification selon la jurisprudence recente ?",
+          "reponse": "La possibilite que les paroles de l'interesse soient ensuite utilisees contre lui dans la suite de la procedure.",
+          "explication": "La fiche relie l'obligation d'information au risque reel d'auto-incrimination et non a une abstraction pure.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la seule existence du droit ne suffit-elle pas a garantir son effectivite ?",
+          "reponse": "Parce qu'il faut encore que la personne soit correctement informee, au bon moment, et que son silence ne soit pas penalise indirectement.",
+          "explication": "Le document met l'accent sur l'usage concret du droit, bien au-dela de sa proclamation formelle.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel enseignement le corrige tire-t-il des extensions vers la diffamation, le disciplinaire ou l'environnemental ?",
+          "reponse": "Que le droit de se taire deborde le noyau penal classique des lors qu'une procedure expose la personne a des declarations potentiellement incriminantes.",
+          "explication": "La fiche montre la capacite expansive du principe lorsqu'un risque de mise en cause personnelle apparait.",
+          "difficulte": 4
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette dissertation ?",
+          "reponse": "Le droit de se taire s'est nettement etendu sous contrainte constitutionnelle, mais son regime demeure tributaire des contextes proceduraux et de l'effectivite reelle de sa notification.",
+          "explication": "La fiche relie ainsi histoire du principe, acceleration recente et persistance de zones grises.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Droit de se taire",
+        "questions": [
+          {
+            "question": "Quelle evolution generale le corrige attribue-t-il au droit de se taire ?",
+            "choix": [
+              "A. Une disparition progressive au profit de l'efficacite policiere.",
+              "B. Une extension d'abord ponctuelle puis une generalisation acceleree sous l'impulsion du Conseil constitutionnel.",
+              "C. Une protection reservee aux seules assises.",
+              "D. Un principe purement symbolique sans effet sur la procedure."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document articule une premiere phase textuelle limitee et une seconde phase constitutionnelle beaucoup plus ample.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi l'etape de 2021 est-elle centrale dans cette matiere ?",
+            "choix": [
+              "A. Parce qu'elle supprime toute notification.",
+              "B. Parce qu'elle oblige le legislateur a etendre plus largement la notification du droit de se taire dans la procedure penale.",
+              "C. Parce qu'elle reserve le principe aux mineurs.",
+              "D. Parce qu'elle remplace le droit de se taire par un droit au serment."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche insiste sur la pression exercee par les decisions d'inconstitutionnalite successives.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le champ d'application du droit reste-t-il variable selon le corrige ?",
+            "choix": [
+              "A. Parce que la jurisprudence ajuste encore son declenchement selon la nature de la procedure et l'usage possible des declarations.",
+              "B. Parce que le Code a supprime toute reference a ce droit.",
+              "C. Parce qu'il n'existe qu'en garde a vue.",
+              "D. Parce qu'il est automatiquement exclu des audiences."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document souligne la persistance de frontieres fines malgre l'affirmation d'un principe general.",
+            "difficulte": 3
+          },
+          {
+            "question": "Qu'est-ce qui conditionne surtout l'effectivite du droit de se taire ?",
+            "choix": [
+              "A. Sa seule mention theorique dans un manuel.",
+              "B. La qualite de la notification, son moment et l'absence d'usage detourne des declarations de la personne.",
+              "C. Le nombre d'enqueteurs presents.",
+              "D. La duree de l'audience exclusivement."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche insiste sur la distance entre proclamation abstraite et usage procedural reel.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1072,
+      "fiche": {
+        "titre": "Perquisitions penales et secret professionnel de l'avocat : reforme de 2021, recours renforce et precisions de 2024-2025",
+        "resume": "Ce corrige sur les perquisitions penales met au centre la protection des lieux et des pieces lies a l'activite de l'avocat. La fiche en retient une idee directrice : depuis la loi de 2021, le regime ne se contente plus d'un encadrement general de la perquisition. Il cherche a distinguer plus finement la mesure utile a l'enquete et la zone couverte par les droits de la defense et le secret professionnel. Cette architecture est ensuite precisee par la jurisprudence de 2024 et 2025 sur le droit de se taire de l'avocat mis en cause, son droit a un avocat et le niveau de motivation exige du JLD.",
+        "sections": [
+          {
+            "titre": "La perquisition reste un acte de recherche de preuve, mais sa legitimite varie selon le lieu et la personne visee",
+            "contenu": "Le document part de la definition classique de la perquisition comme recherche d'indices dans un lieu clos. La fiche retient que cette operation change de nature pratique lorsqu'elle touche un cabinet d'avocat, son domicile ou des documents pouvant relever de la defense ou du conseil. L'acte d'enquete demeure possible, mais son execution devient beaucoup plus chargee en garanties."
+          },
+          {
+            "titre": "La loi de 2021 a deplace le centre de gravite vers le JLD et vers la protection du secret professionnel",
+            "contenu": "Le corrige souligne que la perquisition du cabinet ou du domicile de l'avocat suppose desormais une decision ecrite et motivee du juge des libertes et de la detention. La fiche en conclut que le JLD devient la cle de voute de la mesure, tandis que le texte rappelle plus fermement l'interdiction de saisir ce qui releve des droits de la defense et du secret professionnel."
+          },
+          {
+            "titre": "Le batonnier conserve un role de garde-fou, mais le contentieux est structure autour de recours rapides",
+            "contenu": "Le document rappelle que le batonnier ou son delegue peut toujours s'opposer a une saisie estimee irreguliere. La fiche retient surtout la nouveaute du recours suspensif devant le president de la chambre de l'instruction apres la decision du JLD. Le regime veut donc combiner protection immediate sur place et controle juridictionnel accelere."
+          },
+          {
+            "titre": "Le secret du conseil n'est plus absolu, mais les exceptions restent etroitement construites",
+            "contenu": "Le corrige expose l'article 56-1-2 et l'inopposabilite du secret du conseil dans certaines infractions graves comme la fraude fiscale, la corruption, le trafic d'influence ou le blanchiment, a condition que les pieces etablissent leur utilisation pour commettre ou faciliter l'infraction. La fiche retient que ces deux conditions sont cumulatives, ce qui empeche de transformer l'exception en ouverture generale."
+          },
+          {
+            "titre": "Les arrets de 2024 et 2025 renforcent la densite procedurale du controle",
+            "contenu": "Le texte precise qu'en audience de contestation de saisie, l'avocat mis en cause doit etre informe de son droit de se taire et peut etre assiste d'un avocat, tandis que le batonnier agit pour la protection generale des droits de la defense et non comme conseil personnel. Il ajoute qu'en 2025, le JLD doit caracteriser de vraies raisons plausibles de soupconner l'avocat. La fiche en conclut que le contentieux de perquisition ne supporte plus les motivations approximatives."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la perquisition d'un cabinet d'avocat n'est-elle pas traitee comme une perquisition ordinaire ?",
+          "reponse": "Parce qu'elle expose directement des documents potentiellement couverts par le secret professionnel et les droits de la defense.",
+          "explication": "La fiche souligne que l'utilite d'enquete doit ici composer avec une zone de protection beaucoup plus sensible.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role central la loi de 2021 donne-t-elle au JLD dans ce regime ?",
+          "reponse": "Le JLD doit autoriser la mesure par une decision ecrite et motivee et devient le pivot du controle de sa necessite.",
+          "explication": "Le document montre que l'encadrement juridictionnel est renforce des l'amont de l'operation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la motivation du JLD est-elle particulierement importante lorsque l'avocat est lui-meme mis en cause ?",
+          "reponse": "Parce qu'il faut etablir de vraies raisons plausibles de soupconner sa participation a l'infraction ou a une infraction connexe.",
+          "explication": "La fiche retient que la suspicion ne peut plus reposer sur des rapprochements vagues ou purement contextuels.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel pouvoir concret conserve le batonnier pendant la perquisition ?",
+          "reponse": "Il peut s'opposer a la saisie d'un document ou d'un objet qu'il estime couvert par les garanties du secret ou des droits de la defense.",
+          "explication": "Le document presente le batonnier comme un garde-fou immediat au moment meme de l'acte.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle nouveaute importante la reforme apporte-t-elle apres la decision du JLD sur la contestation ?",
+          "reponse": "Un recours rapide devant le president de la chambre de l'instruction est ouvert a plusieurs acteurs de la procedure.",
+          "explication": "La fiche met en avant l'idee d'un contentieux accelere pour eviter qu'une saisie discutable produise ses effets sans controle.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le secret du conseil n'est-il pas devenu totalement inopposable apres 2021 ?",
+          "reponse": "Parce que l'exception ne joue que pour certaines infractions graves et seulement si les pieces montrent leur usage pour commettre ou faciliter l'infraction.",
+          "explication": "Le document insiste sur le caractere cumulatif des conditions du regime derogatoire.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que precise l'arret de 2024 sur l'audience de contestation de saisie concernant l'avocat mis en cause ?",
+          "reponse": "Qu'il doit etre informe de son droit de se taire et qu'il ne peut pas etre prive de l'assistance d'un avocat.",
+          "explication": "La fiche montre ici la contamination croissante du contentieux des perquisitions par les garanties classiques de defense.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le role du batonnier ne se confond-il pas avec la defense personnelle de l'avocat vise ?",
+          "reponse": "Parce qu'il agit d'abord au titre d'une mission generale de protection des droits de la defense et du secret professionnel.",
+          "explication": "Le document distingue soigneusement protection institutionnelle de la profession et defense individuelle de la personne soupconnee.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel enseignement principal l'arret de 2025 ajoute-t-il sur l'autorisation du JLD ?",
+          "reponse": "Il exige une ordonnance qui caracterise expresssement les raisons plausibles de soupconner l'avocat, et non un simple lien avec l'affaire.",
+          "explication": "La fiche retient un resserrement de la motivation comme condition de validite de l'atteinte au secret.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce corrige sur les perquisitions penales ?",
+          "reponse": "Le regime autorise l'enquete dans les lieux de l'avocat, mais seulement sous une architecture de garanties ou le secret professionnel, le controle du JLD et les recours rapides structurent la validite de l'acte.",
+          "explication": "La fiche articule ainsi utilite de la preuve, protection du secret et exigence d'une motivation dense.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Perquisitions penales",
+        "questions": [
+          {
+            "question": "Quel changement majeur la loi de 2021 apporte-t-elle aux perquisitions visant le cabinet ou le domicile d'un avocat ?",
+            "choix": [
+              "A. Elle supprime tout controle judiciaire prealable.",
+              "B. Elle subordonne la mesure a une decision ecrite et motivee du JLD et renforce la protection du secret professionnel.",
+              "C. Elle interdit toute contestation de saisie.",
+              "D. Elle rend automatiquement saisissables tous les documents de conseil."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document fait du JLD et de la protection du secret les deux pivots de la reforme.",
+            "difficulte": 2
+          },
+          {
+            "question": "Dans quel cas le secret du conseil devient-il inopposable selon le corrige ?",
+            "choix": [
+              "A. Dans toute enquete visant un avocat, sans autre condition.",
+              "B. Seulement pour certaines infractions graves et si les pieces etablissent leur usage pour commettre ou faciliter l'infraction.",
+              "C. Uniquement lorsque le batonnier est absent.",
+              "D. Des qu'un policier le demande oralement."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche insiste sur le caractere cumulatif et donc restrictif du regime derogatoire.",
+            "difficulte": 3
+          },
+          {
+            "question": "Que rappelle l'arret de 2024 sur l'audience de contestation de saisie ?",
+            "choix": [
+              "A. L'avocat mis en cause peut etre entendu sans droit de se taire.",
+              "B. Le batonnier remplace toujours l'avocat personnel.",
+              "C. L'avocat mis en cause doit etre informe de son droit de se taire et peut etre assiste d'un avocat.",
+              "D. Aucune personne ne peut former de recours."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document integre ce contentieux dans le champ des garanties de defense classiques.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle exigence l'arret de 2025 fait-il peser sur l'ordonnance du JLD ?",
+            "choix": [
+              "A. Une simple allusion au contexte general de l'affaire suffit.",
+              "B. L'ordonnance doit caracteriser des raisons plausibles de soupconner l'avocat, pas seulement constater un lien avec l'objet des plaintes.",
+              "C. Le JLD peut se dispenser d'ecrire ses motifs.",
+              "D. Il n'existe plus aucune condition liee a la mise en cause de l'avocat."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche montre que la motivation doit etre materialisee et suffisamment precise pour justifier l'atteinte au secret.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1075,
+      "fiche": {
+        "titre": "Presentation generale du droit du travail : definition, finalites et construction historique d'un droit de relation professionnelle",
+        "resume": "Ce cours introductif montre que le droit du travail ne se reduit ni a une technique contractuelle ni a un simple droit de protection. La fiche en retient une idee directrice : il organise les relations professionnelles entre employeurs prives et salaries places sous subordination, en combinant protection de la partie faible, promotion du dialogue social et adaptation aux transformations economiques. Son histoire explique sa logique actuelle : un droit jeune, construit contre les desequilibres du travail industriel, puis recompose autour de la negociation collective, de l'emploi et de la reglementation des rapports dans l'entreprise.",
+        "sections": [
+          {
+            "titre": "Le droit du travail ne concerne pas tout travail, mais le travail salarie dans un cadre prive de subordination",
+            "contenu": "Le document commence par une mise au point terminologique et materielle. La fiche retient que le droit du travail vise les relations individuelles et collectives qui naissent entre un employeur prive et un travailleur remunere sous subordination. Cette delimitation exclut notamment la fonction publique et d'autres activites relevant d'autres branches du droit."
+          },
+          {
+            "titre": "Son objet depasse le contrat individuel et embrasse aussi l'organisation collective de l'entreprise",
+            "contenu": "Le cours distingue les relations individuelles, marquees par la conclusion, l'execution et la rupture du contrat, des relations collectives, structurees autour du CSE, des syndicats et de la negociation collective. La fiche en conclut que le droit du travail n'est pas seulement le droit du salarie isole face a son employeur, mais aussi celui de la representation et de la regulation collective dans l'entreprise."
+          },
+          {
+            "titre": "Sa premiere finalite classique est protectrice, mais cette fonction doit etre lue avec nuance",
+            "contenu": "Le document rappelle le principe de faveur et la logique historique de protection du salarie comme partie faible. La fiche retient toutefois que cette lecture ne suffit plus a decrire toutes les reformes recentes. Le droit du travail cherche aussi a proteger l'emploi, a organiser la competition economique et a maintenir un equilibre praticable entre securite du salarie et contraintes de l'entreprise."
+          },
+          {
+            "titre": "Sa seconde finalite consiste a promouvoir le dialogue social et la production negociee de normes",
+            "contenu": "Le cours insiste sur le role des partenaires sociaux, des conventions collectives et de la consultation prealable avant certaines reformes. La fiche retient que le droit du travail produit moins un ordre fige qu'un cadre de negociations successives. Il est ainsi traverse par une idee de souplesse organisee, ou la norme etatique coexiste avec la norme conventionnelle."
+          },
+          {
+            "titre": "Son histoire explique l'epaisseur politique et sociale de la matiere",
+            "contenu": "Le document remonte a la Revolution, a la suppression des corporations, a la misere ouvriere, aux premieres lois sociales, a la reconnaissance du droit de greve, des syndicats, des conventions collectives, des conges payes et du salaire minimum. La fiche en conclut que le droit du travail s'est construit moins par pur dessin theorique que par reponse progressive aux crises sociales et aux formes changeantes de l'organisation du travail."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel critere central permet de distinguer le droit du travail d'autres branches du droit social ?",
+          "reponse": "Le critere central est la relation salariale de droit prive fondee sur la subordination et la remuneration.",
+          "explication": "La fiche montre que tout travail n'entre pas dans le champ du droit du travail, notamment hors salariat ou hors secteur prive.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le droit du travail ne se confond-il pas avec le seul contrat individuel ?",
+          "reponse": "Parce qu'il organise aussi les relations collectives, la representation du personnel et la negociation sociale dans l'entreprise.",
+          "explication": "Le document fait coexister les dimensions contractuelle, disciplinaire et institutionnelle de la matiere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie la finalite protectrice du droit du travail dans sa presentation classique ?",
+          "reponse": "Elle signifie que le droit cherche a corriger l'inegalite structurelle entre employeur et salarie.",
+          "explication": "La fiche rattache cette idee a la situation de subordination et a l'histoire sociale de la matiere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le principe de faveur est-il important dans ce cadre ?",
+          "reponse": "Parce qu'il permet, dans certaines configurations, de faire primer la norme inferieure la plus favorable au salarie.",
+          "explication": "Le document utilise ce principe pour illustrer la logique protectrice du droit du travail.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le cours nuance-t-il aujourd'hui l'idee d'un droit toujours pro-salarial ?",
+          "reponse": "Parce que les reformes recentes cherchent aussi a proteger l'emploi, la flexibilite de l'entreprise et l'equilibre global du systeme productif.",
+          "explication": "La fiche refuse une lecture trop simple opposant automatiquement norme pro-employeur et norme pro-salarie.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role jouent le CSE et les syndicats dans cette presentation generale ?",
+          "reponse": "Ils structurent la dimension collective des relations de travail et participent au dialogue social et a la production de normes negociees.",
+          "explication": "Le document montre que la regulation de l'entreprise passe aussi par des corps intermediaires.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la negociation collective occupe-t-elle une place croissante dans le droit du travail ?",
+          "reponse": "Parce qu'elle permet d'adapter la norme aux situations professionnelles concretes et de faire intervenir directement les partenaires sociaux.",
+          "explication": "La fiche souligne la coexistence entre loi et convention collective dans la construction de la regle sociale.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel contraste historique le cours met-il en avant entre la Revolution et l'essor du droit du travail ?",
+          "reponse": "La Revolution proclame la liberte du travail et dissout les anciens cadres collectifs, mais cette liberation ouvre aussi la voie a une misere sociale qui appellera ensuite des protections nouvelles.",
+          "explication": "Le document relie ainsi suppression des corporations, industrialisation et naissance des premieres lois sociales.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi les grandes dates comme 1841, 1884, 1936 ou 1950 comptent-elles dans cette matiere ?",
+          "reponse": "Parce qu'elles marquent des paliers de construction du droit du travail autour du temps de travail, des syndicats, des conges payes et du salaire minimum.",
+          "explication": "La fiche presente l'histoire de la matiere comme une sedimentation de conquetes juridiques et sociales.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette introduction au droit du travail ?",
+          "reponse": "Le droit du travail est un droit jeune et evolutif qui organise la relation salariale en combinant protection, dialogue social et adaptation aux transformations economiques et sociales.",
+          "explication": "La fiche relie ainsi definition du champ, finalites normatives et profondeur historique.",
+          "difficulte": 2
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Introduction au droit du travail",
+        "questions": [
+          {
+            "question": "Quel est le noyau de definition du droit du travail retenu par ce cours ?",
+            "choix": [
+              "A. Tout travail humain, quelle que soit sa forme juridique.",
+              "B. Les relations de travail salarie de droit prive, individuelles et collectives, fondees sur la subordination et la remuneration.",
+              "C. Les seules relations entre administrations et agents publics.",
+              "D. Les seules conventions collectives sans contrat de travail."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document borne clairement la matiere autour du salariat de droit prive et de ses dimensions individuelles et collectives.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le droit du travail ne peut-il pas etre ramene au seul contrat individuel ?",
+            "choix": [
+              "A. Parce qu'il exclut toute relation collective.",
+              "B. Parce qu'il comprend aussi la representation du personnel, les syndicats et la negociation collective.",
+              "C. Parce qu'il ne concerne jamais l'entreprise.",
+              "D. Parce qu'il se limite a l'histoire sociale."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche souligne l'importance du versant collectif dans la structuration des relations professionnelles.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que traduit le principe de faveur dans la presentation du cours ?",
+            "choix": [
+              "A. L'application automatique de la norme la plus severe pour le salarie.",
+              "B. La possibilite de privilegier, dans certaines hypotheses, la norme inferieure la plus favorable au salarie.",
+              "C. La suppression de toute hierarchie des normes.",
+              "D. L'interdiction de toute convention collective."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document utilise ce principe pour illustrer la logique traditionnelle de protection du salarie.",
+            "difficulte": 3
+          },
+          {
+            "question": "Pourquoi l'histoire est-elle indispensable pour comprendre le droit du travail selon ce cours ?",
+            "choix": [
+              "A. Parce qu'elle montre comment la matiere s'est construite par reponses successives aux desequilibres sociaux et aux transformations du travail.",
+              "B. Parce qu'elle remplace toutes les regles actuelles.",
+              "C. Parce qu'elle rend inutile la negociation collective.",
+              "D. Parce qu'elle exclut toute adaptation economique moderne."
+            ],
+            "reponse_correcte": 0,
+            "explication": "La fiche relie emergence du droit du travail, industrialisation, conquetes sociales et recompositions plus recentes.",
+            "difficulte": 2
+          }
+        ]
+      }
+    }
+  ]
+}
