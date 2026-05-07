@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 1035,
+      "fiche": {
+        "titre": "Le contrat de pret : dualite entre pret de consommation et pret a usage, nature variable et protection de l'emprunteur",
+        "resume": "Ce document montre comment le pret est passe d'un petit contrat du Code civil a un instrument majeur de la vie economique. La fiche en retient une idee directrice : il faut toujours repartir de la distinction entre pret de consommation et pret a usage, car l'un transfere la propriete de choses fongibles alors que l'autre ne transmet qu'une jouissance temporaire. A cela s'ajoute une ligne de partage moderne : lorsque le preteur est un professionnel du credit, la formation et la protection de l'emprunteur ne se raisonnent plus comme dans le pret civil traditionnel.",
+        "sections": [
+          {
+            "titre": "Le droit du pret s'organise autour d'une opposition fondatrice entre deux families de contrats",
+            "contenu": "Le document rappelle que le Code civil ne traite pas le pret comme une categorie uniforme. Il oppose d'un cote le pret de consommation, qui porte sur des choses destinees a etre remplacees par leur equivalent, et de l'autre le pret a usage, qui suppose la restitution du bien lui-meme. Cette ligne de partage reste decisive car elle commande a la fois la nature du droit transmis, la charge des risques et la physionomie des obligations de restitution."
+          },
+          {
+            "titre": "Le pret de consommation opere un veritable transfert patrimonial au profit de l'emprunteur",
+            "contenu": "Lorsque le bien prete est consomptible et fongible, l'emprunteur en devient titulaire et peut en disposer librement. La restitution ne porte donc pas sur la meme chose, mais sur une quantite equivalente de meme espece et de meme qualite. Le document en tire une consequence nette : la perte ou la variation de valeur du bien pese sur l'emprunteur, puisque le contrat l'a fait entrer dans sa propre sphere patrimoniale."
+          },
+          {
+            "titre": "La nature du pret de consommation n'est plus fixe une fois pour toutes et varie selon la qualite du preteur",
+            "contenu": "Le cours part du schema classique d'un contrat reel, forme par la remise de la chose, puis montre son assouplissement. Pour un preteur occasionnel, la logique ancienne demeure largement pertinente et la simple promesse de preter n'equivaut pas encore au pret lui-meme. En revanche, lorsque le preteur est un professionnel du credit, le contrat est pense de facon beaucoup plus consensuelle, afin de ne pas laisser l'emprunteur sans prise utile sur un engagement economiquement organise."
+          },
+          {
+            "titre": "Le regime civil du pret de consommation reste domine par la restitution et par une garantie du preteur assez resserree",
+            "contenu": "L'obligation centrale de l'emprunteur consiste a rendre l'equivalent convenu, au terme fixe ou au moment rendu exigible. Si le pret est onereux, une remuneration peut s'y ajouter. Du cote du preteur, la responsabilite reste plus limitee que dans la vente, car elle ne se declenche vraiment que s'il a laisse ignorer un defaut connu de la chose. La fiche y voit un regime assez severe pour l'emprunteur, surtout hors droit de la consommation."
+          },
+          {
+            "titre": "Le pret a usage suit une logique inverse car il ne transmet qu'une jouissance provisoire et normalement gratuite",
+            "contenu": "Avec le pret a usage, le bien demeure dans le patrimoine du preteur et l'emprunteur n'en recoit qu'un pouvoir d'utilisation temporaire. Cette logique explique l'exigence de garde, de conservation et de restitution du meme bien. Le document souligne aussi le caractere en principe gratuit de l'operation, ce qui la distingue nettement des montages economiques voisins. L'ensemble forme un regime oriente vers la preservation de la chose plutot que vers la circulation d'une valeur."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la distinction entre pret de consommation et pret a usage est-elle centrale ?",
+          "reponse": "Parce qu'elle determine si l'emprunteur recoit la propriete du bien ou seulement sa jouissance temporaire.",
+          "explication": "Le document montre que cette distinction commande ensuite les risques, la restitution et le niveau des obligations de chaque partie.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel type de bien se prete le plus naturellement au pret de consommation ?",
+          "reponse": "Un bien consomptible et fongible, comme de l'argent ou des choses de genre.",
+          "explication": "La restitution se fait alors par equivalent et non par retour materiel du meme bien.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'emprunteur supporte-t-il les risques dans le pret de consommation ?",
+          "reponse": "Parce que le contrat le fait devenir titulaire du bien prete et l'integre a son patrimoine.",
+          "explication": "La fiche relie cette solution a la logique du transfert de propriete propre a ce contrat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que devient la promesse de pret lorsqu'on reste dans la logique civile traditionnelle ?",
+          "reponse": "Elle ne vaut pas encore pret accompli tant que la chose n'a pas ete remise.",
+          "explication": "Le document rattache cette solution a la presentation classique du pret comme contrat reel.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le pret consenti par un professionnel du credit est-il pense autrement ?",
+          "reponse": "Parce que l'activite organisee du preteur justifie une approche plus consensuelle et une prise plus ferme de l'emprunteur sur l'engagement.",
+          "explication": "La fiche montre que le droit refuse ici de raisonner comme s'il s'agissait d'un simple service rendu entre proches.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle est l'obligation fondamentale de l'emprunteur dans le pret de consommation ?",
+          "reponse": "Rendre au terme utile une quantite equivalente de meme espece et de meme qualite.",
+          "explication": "Le document en fait le coeur du regime civil du pret de consommation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la garantie du preteur est-elle plus etroite que dans la vente ?",
+          "reponse": "Parce qu'elle repose surtout sur la connaissance d'un defaut laisse dans l'ombre plutot que sur une protection large de l'utilite du bien.",
+          "explication": "La fiche souligne ici le caractere plus favorable au preteur du regime civil.",
+          "difficulte": 3
+        },
+        {
+          "question": "Qu'est-ce qui distingue le plus nettement le pret a usage du pret de consommation ?",
+          "reponse": "Dans le pret a usage, c'est le meme bien qui doit revenir, car seule la jouissance a ete transmise.",
+          "explication": "Le document oppose ainsi la conservation d'une chose individualisee a la restitution par equivalent.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le pret a usage est-il dit essentiellement gratuit ?",
+          "reponse": "Parce que sa logique est celle d'une mise a disposition temporaire et non d'une operation economique remuneree.",
+          "explication": "La fiche y voit un trait identitaire qui l'eloigne des contrats onereux voisins.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur le pret ?",
+          "reponse": "Le pret n'est pas un bloc uniforme : selon le bien prete et la qualite du preteur, il peut relever d'une logique de transfert de valeur ou d'une simple mise a disposition d'usage.",
+          "explication": "La fiche articule ainsi dualite des prets, variation de nature et protection moderne de l'emprunteur.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Le contrat de pret",
+        "questions": [
+          {
+            "question": "Quel contraste structure le droit du pret dans ce document ?",
+            "choix": [
+              "A. L'opposition entre contrat gratuit et contrat international.",
+              "B. L'opposition entre pret de consommation et pret a usage.",
+              "C. L'opposition entre contrat principal et contrat accessoire.",
+              "D. L'opposition entre vente et entreprise."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document part de cette dualite pour distribuer transfert, restitution et risques.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi l'emprunteur devient-il maitre du bien dans le pret de consommation ?",
+            "choix": [
+              "A. Parce que seule la garde lui est remise.",
+              "B. Parce que le contrat opere un transfert patrimonial sur des choses remplaceables par equivalent.",
+              "C. Parce que le preteur reste toujours titulaire en secret.",
+              "D. Parce que le bien est immobilise chez le juge."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche rattache ce point aux choses consomptibles et fongibles.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la nature du pret de consommation varie-t-elle en pratique ?",
+            "choix": [
+              "A. Parce qu'elle depend notamment de la qualite du preteur, professionnel du credit ou non.",
+              "B. Parce que tout pret est aleatoire.",
+              "C. Parce que le contrat n'existe plus en droit francais.",
+              "D. Parce que la restitution est toujours impossible."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document oppose ici le preteur occasionnel a l'activite organisee du professionnel du credit.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quel trait resume le mieux le pret a usage ?",
+            "choix": [
+              "A. Il vise surtout la circulation d'une valeur monetaire.",
+              "B. Il transmet la propriete de choses de genre.",
+              "C. Il met temporairement un bien a disposition et suppose la restitution du meme bien.",
+              "D. Il efface toute obligation de garde."
+            ],
+            "reponse_correcte": 2,
+            "explication": "La fiche insiste sur la jouissance temporaire et sur la conservation de la chose individualisee.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1036,
+      "fiche": {
+        "titre": "Introduction aux contrats speciaux : architecture du droit des contrats, pluralite des regimes et role de la qualification",
+        "resume": "Ce document d'ouverture installe la logique d'ensemble du cours. La fiche en retient une idee directrice : le droit des contrats speciaux ne remplace pas le droit commun, il le prolonge et le corrige par des regimes plus fins adaptes a des operations concretes comme la vente, le pret, l'entreprise ou le mandat. Comprendre cette matiere suppose donc de tenir ensemble trois lignes : la place des regles generales, la dispersion des regles specifiques et la necessite de qualifier correctement chaque accord.",
+        "sections": [
+          {
+            "titre": "Les contrats speciaux prolongent le droit commun sans s'y dissoudre",
+            "contenu": "Le document presente ce cours comme la suite naturelle du droit des contrats et non comme une matiere isolee. Les regles generales demeurent l'arriere-plan de tous les accords, mais elles ne suffisent pas a traiter la richesse des operations reelles. La vente, le pret ou le mandat appellent des regimes plus precis parce que les attentes, les risques et les effets n'y prennent pas la meme forme."
+          },
+          {
+            "titre": "La matiere est concrete parce qu'en pratique on ne contracte jamais dans l'abstrait",
+            "contenu": "L'un des fils directeurs du texte est que le contrat en general n'existe pas dans la vie juridique quotidienne. Les parties concluent toujours une operation determinee, avec un objet, une economie et des attentes propres. C'est cette realite qui justifie l'existence de modeles nommes et de regles plus detaillees. La fiche y voit un renversement utile : partir des pratiques plutot que d'une figure purement theorique du contrat."
+          },
+          {
+            "titre": "La diversite des contrats speciaux vient autant des textes que de l'eclatement des sources",
+            "contenu": "Le cours insiste sur le fait que la matiere ne se lit plus dans un seul ensemble compact. Des pans entiers ont ete deplaces vers d'autres codes, tandis que les decisions des juges et les grandes reformes contemporaines ont recompose l'equilibre d'origine. Cette dispersion rend la lecture moins immediate, mais elle explique aussi pourquoi les contrats speciaux restent une matiere tres vivante et tres sensible aux besoins economiques."
+          },
+          {
+            "titre": "L'architecture du droit francais repose sur un emboitement entre socle general et regimes particuliers",
+            "contenu": "Le document rappelle qu'il faut raisonner a partir d'un double niveau. D'un cote se trouvent les regles communes valables pour tous les contrats. De l'autre se trouvent les regimes propres a certains accords nommes, qui prennent le relais des qu'une qualification precise est retenue. La fiche souligne que cet emboitement n'est pas accessoire : il commande toute la lecture du contentieux contractuel."
+          },
+          {
+            "titre": "La qualification du contrat devient alors la cle d'entree de toute la matiere",
+            "contenu": "Puisque chaque regime special n'agit qu'a l'interieur de sa propre categorie, il faut toujours commencer par identifier la nature de l'accord. Le document montre que cette operation peut devenir delicate quand les parties montent des structures hybrides ou empruntent a plusieurs modeles a la fois. La fiche en tire un reflexe de travail simple : avant de discuter les effets d'un contrat, il faut savoir a quelle famille il appartient vraiment."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le droit des contrats speciaux prolonge-t-il naturellement le droit commun des contrats ?",
+          "reponse": "Parce qu'il part des regles generales deja connues puis les precise pour des operations contractuelles determinees.",
+          "explication": "Le document presente la matiere comme une suite logique du cours de deuxieme annee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le texte affirme-t-il que le contrat en general n'existe pas vraiment en pratique ?",
+          "reponse": "Parce que les parties concluent toujours des contrats identifies, avec un objet et un regime concret, comme une vente ou un pret.",
+          "explication": "La fiche souligne ici le passage d'une abstraction theorique a la variete des operations reelles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qui justifie l'existence de regimes speciaux plus precis ?",
+          "reponse": "La necessite d'encadrer plus finement des operations dont les risques et les effets ne se laissent pas gouverner par le seul socle commun.",
+          "explication": "Le document rattache cette precision a la recherche de previsibilite juridique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la matiere des contrats speciaux est-elle decrite comme eclatee ?",
+          "reponse": "Parce que ses regles sont reparties entre plusieurs codes, completees par les decisions des juges et retravaillees par des reformes recentes.",
+          "explication": "La fiche y voit a la fois une difficulte d'acces et un signe de vitalite.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role joue l'emboitement entre socle general et regimes particuliers ?",
+          "reponse": "Il permet de comprendre que les regles communes continuent d'agir, mais sous reserve des ajustements propres a chaque contrat nomme.",
+          "explication": "Le document fait de cette architecture un point central du cours.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la qualification du contrat est-elle si importante ?",
+          "reponse": "Parce qu'elle decide quel regime special pourra s'appliquer a l'accord conclu.",
+          "explication": "Sans qualification claire, on ne sait pas quelles regles propres mobiliser.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qui rend la qualification parfois difficile ?",
+          "reponse": "Le fait que certains montages contractuels melangent plusieurs logiques et ne se laissent pas ranger immediatement dans une seule categorie.",
+          "explication": "La fiche renvoie ici aux hesitations suscitees par les contrats hybrides.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le cours insiste-t-il sur quelques contrats plutot que sur tous ?",
+          "reponse": "Parce qu'il faut selectionner les figures les plus riches sur le plan economique, pratique et theorique.",
+          "explication": "Le document met notamment l'accent sur la vente, le pret, l'entreprise et le mandat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel benefice intellectuel le texte associe-t-il aux contrats speciaux ?",
+          "reponse": "Ils obligent a articuler droit commun, qualification et regimes concrets au lieu de raisonner dans l'abstraction pure.",
+          "explication": "La fiche y voit l'interet formateur de la matiere.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette introduction ?",
+          "reponse": "Le droit des contrats speciaux est une matiere de raccordement entre theorie generale et pratiques contractuelles nommees.",
+          "explication": "La fiche relie ainsi architecture du systeme, dispersion des sources et exigence de qualification.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Introduction aux contrats speciaux",
+        "questions": [
+          {
+            "question": "Pourquoi les contrats speciaux ne se comprennent-ils pas sans le droit commun ?",
+            "choix": [
+              "A. Parce qu'ils en suppriment totalement les regles.",
+              "B. Parce qu'ils reposent sur lui tout en l'ajustant pour des operations determinees.",
+              "C. Parce qu'ils ne concernent que le droit penal.",
+              "D. Parce qu'ils n'ont aucun lien avec les obligations."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document presente un systeme a deux niveaux : socle general puis regime nomme.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que signifie dire qu'en pratique le contrat en general n'existe pas ?",
+            "choix": [
+              "A. Que les parties concluent toujours des operations concretes, identifiables et regies plus finement.",
+              "B. Que tout contrat est nul sans juge.",
+              "C. Que seul le contrat administratif subsiste.",
+              "D. Que la qualification n'a aucun interet."
+            ],
+            "reponse_correcte": 0,
+            "explication": "La fiche insiste sur la realite de ventes, prets, mandats ou entreprises plutot que sur une abstraction pure.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la matiere apparait-elle eclatee ?",
+            "choix": [
+              "A. Parce qu'elle n'a jamais ete ecrite.",
+              "B. Parce que ses regles sont dispersees entre plusieurs ensembles normatifs et retravaillees par les decisions des juges.",
+              "C. Parce qu'elle ne vise que les contrats internationaux.",
+              "D. Parce qu'elle ne connait aucune reforme."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document souligne la dispersion des sources comme trait marquant de la matiere.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quel est le role premier de la qualification dans les contrats speciaux ?",
+            "choix": [
+              "A. Fixer la nationalite des parties.",
+              "B. Determiner quel regime particulier devient applicable a l'accord.",
+              "C. Remplacer toute discussion sur les effets.",
+              "D. Rendre inutile le droit commun."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche en fait la porte d'entree de toute analyse ulterieure.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1038,
+      "fiche": {
+        "titre": "Contrats speciaux : diversite des modeles, liberte contractuelle et lecture ordonnee d'une matiere fragmentee",
+        "resume": "Ce second document d'introduction reprend les fondations du cours sous un angle plus pratique. La fiche en retient une idee directrice : les contrats speciaux sont a la fois des modeles proposes par le droit et des outils adaptes par les parties. Pour bien les travailler, il faut comprendre pourquoi la matiere est multiple, comment la liberte contractuelle coexiste avec des cadres nommes, et pourquoi l'etude se concentre sur quelques figures majeures qui servent de laboratoire a la qualification et au raisonnement de regime.",
+        "sections": [
+          {
+            "titre": "La diversite des contrats speciaux vient d'abord de la diversite des besoins sociaux",
+            "contenu": "Le document montre que les pratiques contractuelles ne poursuivent pas toutes le meme but. Certaines servent a transferer un bien, d'autres a mettre une chose a disposition, a organiser une mission ou a faire realiser une prestation. Cette pluralite d'objectifs explique pourquoi le droit a produit plusieurs modeles au lieu d'un schema unique. La fiche y voit la source la plus profonde de la specialisation contractuelle."
+          },
+          {
+            "titre": "Les modeles legaux n'effacent pas la liberte contractuelle mais lui donnent un cadre lisible",
+            "contenu": "Le texte insiste sur le fait que le Code civil met a disposition des moules contractuels sans enfermer totalement les parties. Celles-ci peuvent ajuster leur accord a leurs besoins propres tant qu'elles respectent les limites imposees par l'ordre public. Le droit des contrats speciaux ne fige donc pas la pratique ; il lui offre plutot des reperes stables pour rendre l'echange plus previsible."
+          },
+          {
+            "titre": "La specialisation contemporaine a rendu la matiere plus riche mais aussi moins accessible d'un seul regard",
+            "contenu": "A mesure que certains secteurs ont pris de l'importance, les regles se sont multipliees et ont parfois quitte le Code civil pour d'autres ensembles. Le document souligne que cette evolution complique l'acces immediat a la matiere, tout en permettant une protection plus fine des acteurs et des operations. La fiche retient donc une tension permanente entre precision du regime et lisibilite de l'ensemble."
+          },
+          {
+            "titre": "Le choix pedagogique de quelques grands contrats sert a faire apparaitre les mecanismes utiles a toute la matiere",
+            "contenu": "Le cours ne pretend pas epuiser tous les contrats nommes. Il se concentre sur un petit nombre de figures a forte densite pratique et theorique, parce qu'elles permettent de faire ressortir les principaux problemes de formation, d'effets et de qualification. La fiche y voit un choix de focale : travailler a fond quelques contrats pour mieux comprendre la logique des autres."
+          },
+          {
+            "titre": "L'enjeu n'est pas seulement de memoriser des regimes mais d'apprendre a ordonner une matiere morcelee",
+            "contenu": "Le document se termine sur une idee de lecture : face a la dispersion des textes et aux contrats composites, il faut apprendre a remettre de l'ordre. Cela suppose d'identifier le bon modele, d'articuler socle commun et regles propres, puis de suivre les effets du contrat dans le temps. La fiche souligne ainsi une competence centrale : savoir construire un raisonnement net dans une matiere naturellement fragmentee."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la matiere des contrats speciaux est-elle naturellement plurielle ?",
+          "reponse": "Parce que les operations contractuelles poursuivent des buts differents et appellent des modeles juridiques distincts.",
+          "explication": "Le document rattache cette pluralite a la diversite des besoins sociaux et economiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role jouent les modeles proposes par le Code civil ?",
+          "reponse": "Ils offrent des cadres lisibles dans lesquels les parties peuvent organiser leur accord.",
+          "explication": "La fiche insiste sur le fait que ces modeles servent de reperes plus que de carcans absolus.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la liberte contractuelle reste-t-elle importante en droit des contrats speciaux ?",
+          "reponse": "Parce que les parties peuvent adapter les modeles a leurs besoins tant que l'ordre public est respecte.",
+          "explication": "Le document montre ainsi la coexistence d'un cadre nomme et d'une marge d'ajustement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qui a rendu la matiere moins accessible d'un seul regard ?",
+          "reponse": "La multiplication des regimes et leur repartition entre plusieurs ensembles normatifs.",
+          "explication": "La fiche y voit le prix d'une protection plus fine et plus specialisee.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le cours se concentre-t-il sur quelques grands contrats ?",
+          "reponse": "Parce qu'ils concentrent les principaux enjeux de formation, d'effets et de qualification.",
+          "explication": "Le document en fait des contrats laboratoires pour raisonner sur l'ensemble de la matiere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel benefice tire-t-on d'une etude approfondie de quelques figures majeures ?",
+          "reponse": "On comprend mieux la logique generale des autres regimes speciaux sans devoir tout memoriser d'un bloc.",
+          "explication": "La fiche souligne cette fonction pedagogique du choix de focale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la specialisation n'est-elle pas seulement une complication ?",
+          "reponse": "Parce qu'elle permet aussi d'ajuster plus finement les solutions aux besoins reels des acteurs et des operations.",
+          "explication": "Le document presente cette precision comme le revers utile de la dispersion.",
+          "difficulte": 3
+        },
+        {
+          "question": "Qu'est-ce qu'un bon raisonnement en contrats speciaux doit savoir faire ?",
+          "reponse": "Identifier le bon modele, articuler socle commun et regime propre, puis suivre les effets du contrat.",
+          "explication": "La fiche transforme ainsi l'introduction du cours en reflexe de travail.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi parler d'une matiere fragmentee plutot que d'une matiere incoherente ?",
+          "reponse": "Parce que les morceaux peuvent etre ordonnes des lors qu'on part de la bonne qualification et de la bonne echelle de regles.",
+          "explication": "Le document insiste moins sur le desordre que sur la necessite d'un travail d'organisation.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette introduction bis ?",
+          "reponse": "Le droit des contrats speciaux combine modeles nommes, liberte d'ajustement et besoin constant d'ordonner des regimes disperses.",
+          "explication": "La fiche relie ainsi diversite des pratiques, technique juridique et methode de lecture.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Diversite des contrats speciaux",
+        "questions": [
+          {
+            "question": "Pourquoi le droit a-t-il multiplie les contrats speciaux au lieu de s'en tenir a un schema unique ?",
+            "choix": [
+              "A. Parce que toutes les operations contractuelles poursuivent le meme but.",
+              "B. Parce que la diversite des besoins sociaux et economiques exige plusieurs modeles.",
+              "C. Parce que le droit commun a disparu.",
+              "D. Parce que les parties ne peuvent jamais adapter leur accord."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rattache cette multiplication a la pluralite des fonctions remplies par les contrats.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel rapport le document etablit-il entre modeles legaux et liberte contractuelle ?",
+            "choix": [
+              "A. Les modeles suppriment toute liberte.",
+              "B. Les modeles sont inutiles des qu'il existe une liberte de contracter.",
+              "C. Les modeles donnent des reperes stables que les parties peuvent ajuster dans les limites admises.",
+              "D. Les modeles ne concernent que les personnes publiques."
+            ],
+            "reponse_correcte": 2,
+            "explication": "La fiche insiste sur cette coexistence entre cadre et adaptation.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la specialisation contemporaine rend-elle la matiere moins lisible ?",
+            "choix": [
+              "A. Parce qu'elle a fait disparaitre tous les textes.",
+              "B. Parce que les regles se sont multipliees et dispersees entre plusieurs ensembles.",
+              "C. Parce qu'elle interdit tout raisonnement commun.",
+              "D. Parce qu'elle ne touche jamais le contentieux."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document presente cette dispersion comme le prix d'une plus grande precision des regimes.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quel reflexe final cette introduction cherche-t-elle a installer ?",
+            "choix": [
+              "A. Memoriser des listes sans qualification.",
+              "B. Eviter le droit commun.",
+              "C. Savoir remettre de l'ordre dans une matiere morcelee en partant du bon modele contractuel.",
+              "D. Remplacer tous les contrats par la vente."
+            ],
+            "reponse_correcte": 2,
+            "explication": "La fiche fait de cette capacite d'organisation l'un des apprentissages centraux du cours.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1039,
+      "fiche": {
+        "titre": "Le contrat de vente : definition technique, place centrale et pacte de preference comme premier avant-contrat",
+        "resume": "Ce document ouvre l'etude de la vente en la presentant comme le contrat modele du droit prive patrimonial. La fiche en retient une idee directrice : la vente ne doit pas etre comprise comme une simple juxtaposition entre une livraison et un paiement, mais comme une operation de transfert de propriete dont la formation est en principe simple tout en etant souvent preparee par des accords prealables. Le pacte de preference apparait alors comme une premiere figure cle pour comprendre la gradation des engagements avant la vente parfaite.",
+        "sections": [
+          {
+            "titre": "La vente occupe une place centrale parce qu'elle concentre la logique du transfert patrimonial contre prix",
+            "contenu": "Le document commence par rappeler que la vente a servi de modele intellectuel a une grande partie du droit des contrats. Meme si le Code civil la decrit d'abord a travers les obligations de livrer et de payer, le coeur technique de l'operation tient dans le passage de la propriete. La fiche retient donc que la vente vaut moins comme simple echange de prestations que comme mecanisme organise de transfert d'un bien contre une somme d'argent."
+          },
+          {
+            "titre": "Ce contrat se classe en principe parmi les accords consensuels, synallagmatiques, commutatifs et instantanes",
+            "contenu": "Le texte rattache la vente aux grandes categories du droit commun pour mieux faire ressortir sa physionomie. L'accord sur la chose et sur le prix suffit en principe a former le contrat et a declencher ses effets premiers. Le document ajoute que cet equilibre est normalement commutatif et que l'execution peut etre pensee comme instantanee, meme si les garanties du vendeur prolongent ensuite la vie juridique de l'operation."
+          },
+          {
+            "titre": "La simplicite theorique de la vente masque souvent un processus de conclusion beaucoup plus elabore",
+            "contenu": "Le cours insiste sur l'ecart entre le schema scolaire d'un accord immediat et la pratique, surtout lorsque les enjeux sont importants. Negociations, attente, verification et accords preparatoires viennent frequemment preceder la vente parfaite. La fiche y voit un enseignement de fond : pour comprendre la vente, il faut regarder tout le chemin qui y conduit et pas seulement le moment final ou le transfert se cristallise."
+          },
+          {
+            "titre": "Les avant-contrats sont deja de vrais contrats et les regles recentes leur ont donne une meilleure lisibilite",
+            "contenu": "Le document refuse l'idee selon laquelle les accords preparatoires ne seraient que des esquisses sans consistance. Ils sont pleinement obligatoires, meme s'ils ont pour fonction d'organiser une vente future seulement envisagee. Depuis la grande refonte du droit commun, leur regime est plus clairement formule et s'insere dans une logique generale qui depasse d'ailleurs la seule matiere de la vente."
+          },
+          {
+            "titre": "Le pacte de preference confere au beneficiaire une priorite personnelle sans operer encore le transfert du bien",
+            "contenu": "Dans cette premiere figure d'avant-contrat, le promettant conserve la maitrise de sa decision de vendre, mais il accepte de traiter d'abord avec un beneficiaire determine s'il choisit d'aliener le bien. Le document souligne ainsi que le droit ne porte pas encore sur la chose elle-meme, mais sur une priorite de negociation et de conclusion. La fiche insiste sur cette idee de gradation : le pacte engage reellement, tout en restant en amont de la vente accomplie."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la vente est-elle presentee comme le contrat par excellence ?",
+          "reponse": "Parce qu'elle sert de modele a la pensee contractuelle en organisant un transfert patrimonial contre prix.",
+          "explication": "Le document la place au centre des contrats relatifs aux choses.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel element technique le document place-t-il au coeur de la vente ?",
+          "reponse": "Le transfert de propriete, plus encore que la seule livraison de la chose.",
+          "explication": "La fiche corrige ainsi une lecture trop superficielle de la definition legale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la vente est-elle en principe qualifiee de contrat consensuel ?",
+          "reponse": "Parce que l'accord sur la chose et le prix suffit normalement a la former.",
+          "explication": "Le document rattache cette solution a la simplicite de principe de la formation de la vente.",
+          "difficulte": 2
+        },
+        {
+          "question": "En quoi la vente reste-t-elle synallagmatique ?",
+          "reponse": "Parce que vendeur et acheteur s'obligent reciproquement l'un envers l'autre.",
+          "explication": "La fiche relie cette reciprocite au couple livrer et payer.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la formation de la vente est-elle souvent plus complexe qu'il n'y parait ?",
+          "reponse": "Parce qu'elle est frequemment preparee par des negociations et des accords prealables avant la conclusion definitive.",
+          "explication": "Le document prend ici au serieux le temps long de certaines ventes, notamment importantes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que faut-il comprendre quand le cours parle d'avant-contrat ?",
+          "reponse": "Qu'il s'agit deja d'un vrai contrat, simplement situe en amont de la vente finale envisagee.",
+          "explication": "La fiche insiste sur le caractere obligatoire de ces accords preparatoires.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'accorde concretement un pacte de preference a son beneficiaire ?",
+          "reponse": "Une priorite pour traiter avec le promettant si celui-ci decide de vendre.",
+          "explication": "Le document montre que cette priorite est personnelle et n'opere pas encore transfert du bien.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le pacte de preference n'equivaut-il pas a une vente deja accomplie ?",
+          "reponse": "Parce que le bien ne change pas encore de titulaire et que la vente finale demeure seulement envisagee.",
+          "explication": "La fiche y voit la marque d'un engagement reel mais place en amont du transfert.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee de gradation le document met-il en avant a propos des avant-contrats ?",
+          "reponse": "Ils n'ont pas tous le meme degre d'engagement, mais ils organisent tous une progression vers la vente parfaite.",
+          "explication": "Le pacte de preference en constitue ici la premiere marche etudiee.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette entree en matiere sur la vente ?",
+          "reponse": "La vente est un transfert de propriete au coeur du droit des contrats, souvent prepare par des engagements progressifs avant l'accord final.",
+          "explication": "La fiche relie ainsi definition technique, categories du contrat et pacte de preference.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Entrer dans la vente",
+        "questions": [
+          {
+            "question": "Quel point technique le document place-t-il au coeur de la vente ?",
+            "choix": [
+              "A. Le seul transport materiel du bien.",
+              "B. Le transfert de propriete contre prix.",
+              "C. La pure gratuit e de l'operation.",
+              "D. L'absence totale d'obligations reciproques."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche corrige la lecture trop pauvre d'une simple livraison suivie d'un paiement.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la vente est-elle en principe consensuelle ?",
+            "choix": [
+              "A. Parce qu'elle ne peut jamais etre constatee par ecrit.",
+              "B. Parce qu'elle se forme normalement par le seul accord sur la chose et le prix.",
+              "C. Parce qu'elle n'engage que l'acheteur.",
+              "D. Parce qu'elle exclut tout transfert immediat."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document rattache cette solution a la simplicite de principe de la formation.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que faut-il comprendre sur les avant-contrats dans ce chapitre ?",
+            "choix": [
+              "A. Ce sont de simples brouillons sans effet.",
+              "B. Ce sont deja des contrats obligatoires qui organisent l'acces a la vente finale.",
+              "C. Ils sont reserves au droit public.",
+              "D. Ils suppriment toute negotiation."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche insiste sur leur pleine valeur contractuelle malgre leur position en amont.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle est la logique propre du pacte de preference ?",
+            "choix": [
+              "A. Il transfere immediatement le bien au beneficiaire.",
+              "B. Il interdit toute vente future.",
+              "C. Il donne au beneficiaire une priorite si le promettant choisit de vendre.",
+              "D. Il remplace systematiquement la promesse unilaterale."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document le presente comme une premiere marche dans la gradation des engagements vers la vente.",
+            "difficulte": 2
+          }
+        ]
+      }
+    }
+  ]
+}

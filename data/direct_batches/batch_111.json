@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 1031,
+      "fiche": {
+        "titre": "La chose vendue : existence, circulation juridique, vente de la chose d'autrui et transfert d'un droit patrimonial",
+        "resume": "Ce document montre que la vente ne doit pas etre reduite a la transmission materielle d'un objet. Elle opere d'abord comme transfert d'un droit patrimonial, le plus souvent la propriete, mais parfois aussi l'usufruit, la nue-propriete, un droit indivis ou meme une creance. La fiche en retient une idee directrice : pour pouvoir etre vendue, la chose doit exister ou pouvoir advenir, circuler juridiquement et appartenir au vendeur, faute de quoi le contrat bascule vers la nullite, l'alea accepte ou la logique protectrice de l'apparence.",
+        "sections": [
+          {
+            "titre": "La vente porte d'abord sur un droit patrimonial et non sur la seule materialite de la chose",
+            "contenu": "Le document invite a depasser le vocabulaire courant de la chose vendue. Ce qui change de titulaire dans la vente, c'est un droit sur un bien. La pleine propriete en est la figure la plus classique, mais d'autres droits patrimoniaux peuvent aussi circuler. La fiche retient de cette mise au point une consequence simple : definir la vente comme un pur transfert de propriete est trop etroit, car la technique sert plus largement a ceder un element du patrimoine contre un prix en argent."
+          },
+          {
+            "titre": "L'existence de la chose reste une exigence de base, avec une difference nette entre la chose deja aneantie et la chose seulement a venir",
+            "contenu": "Si la chose a deja totalement peri au moment de la vente, le contrat ne peut pas valablement se former. Lorsqu'elle n'est detruite qu'en partie, l'acheteur dispose d'un choix entre abandon du contrat et conservation de ce qui subsiste avec ajustement du prix. A l'inverse, une chose future peut parfaitement faire l'objet d'une vente si elle est suffisamment individualisable. Le document montre alors que la validite ne depend pas de la presence materielle immediate du bien, mais du point de savoir si les parties ont accepte ou non l'alea de son apparition."
+          },
+          {
+            "titre": "La circulation juridique du bien suppose qu'il soit disponible pour le commerce et non retranche par la loi",
+            "contenu": "Le texte insiste sur la difference entre circulation economique et circulation juridique. Certaines choses ne peuvent pas etre cedees, soit parce qu'elles touchent au corps humain ou a des droits extrapatrimoniaux, soit parce qu'elles sont frappees d'une interdiction legale. Le document met aussi en lumiere l'evolution des clienteles civiles : longtemps regarde es comme hors circulation, elles ont fini par etre admises sous reserve de la liberte de choix du client ou du patient. La fiche y voit le signe d'un droit mobile, sensible aux valeurs protegees autant qu'aux realites economiques."
+          },
+          {
+            "titre": "La vente de la chose d'autrui revele la logique profonde du transfert : on ne peut ceder plus de droits que l'on en detient",
+            "contenu": "Quand le vendeur n'est pas titulaire du droit qu'il pretend transmettre, la vente est frappee de nullite au profit de l'acquereur. Le document rappelle que cette nullite est relative, car elle protege d'abord l'acheteur trompe sur la maitrise du bien. Le veritable proprietaire, lui, reste tiers au contrat et agit par revendication. La fiche retient ainsi que la sanction ne nait pas d'un trouble moral abstrait, mais d'un defaut dans la chaine meme du transfert patrimonial."
+          },
+          {
+            "titre": "L'apparence et la consolidation montrent enfin que la securite des transactions peut parfois l'emporter sur la rigueur pure du principe",
+            "contenu": "Le document admet que certaines ventes conclues par un non-proprietaire peuvent etre sauvees si tout le monde croyait legitimement a la realite de son droit et si l'acheteur etait de bonne foi. De meme, la vente peut devenir pratiquement inattaquable avec le temps, par confirmation, par extinction de l'action ou parce que le vendeur acquiert ensuite le bien. La fiche souligne ce point d'equilibre : le droit protege la titularite veritable, mais il sait aussi eviter qu'une circulation deja stabilisee soit indefiniment remise en cause."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la vente ne se reduit-elle pas a la remise d'une chose materielle ?",
+          "reponse": "Parce qu'elle organise d'abord le transfert d'un droit patrimonial sur un bien, et pas seulement le deplacement physique de ce bien.",
+          "explication": "Le document montre que la vente peut porter sur la propriete, ses demembrements ou meme certains droits personnels.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que se passe-t-il si la chose a deja totalement peri au moment ou la vente est conclue ?",
+          "reponse": "Le contrat est nul, car il manque l'objet meme du transfert convenu.",
+          "explication": "La fiche rappelle que cette solution vaut pour la disparition anterieure ou concomitante a la formation du contrat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la vente d'une chose future reste-t-elle possible ?",
+          "reponse": "Parce qu'un bien a venir peut etre suffisamment individualisable et faire l'objet d'un transfert envisage a l'avance.",
+          "explication": "Le document souligne toutefois l'importance de l'alea accepte ou non par les parties si la chose n'advient jamais.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie dire qu'une chose doit etre dans le commerce pour etre vendue ?",
+          "reponse": "Cela signifie qu'aucune regle ne la retranche de la circulation juridique et qu'elle peut licitement faire l'objet d'un transfert.",
+          "explication": "La fiche distingue ainsi la disponibilite juridique du simple echange economique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les clienteles civiles ont-elles longtemps pose difficulte ?",
+          "reponse": "Parce qu'on craignait qu'en les cedant on traite les clients ou patients comme de simples marchandises au mepris de leur liberte de choix.",
+          "explication": "Le document montre l'evolution vers une cessibilite admise sous reserve de cette liberte.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel principe fondamental explique la nullite de la vente de la chose d'autrui ?",
+          "reponse": "On ne peut pas transmettre a autrui un droit que l'on ne detient pas soi-meme.",
+          "explication": "La fiche rattache cette idee a la structure meme du transfert opere par la vente.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la nullite de la vente de la chose d'autrui est-elle relative ?",
+          "reponse": "Parce qu'elle protege d'abord l'acquereur trompe sur la maitrise du bien par son vendeur.",
+          "explication": "Le veritable proprietaire ne demande pas cette nullite ; il agit en tant que tiers par revendication.",
+          "difficulte": 3
+        },
+        {
+          "question": "Dans quel esprit la theorie de l'apparence peut-elle sauver une vente conclue par un non-proprietaire ?",
+          "reponse": "Elle privilegie la securite d'une croyance legitime partagee, lorsque l'acheteur etait de bonne foi et que l'erreur etait commune.",
+          "explication": "Le document y voit un correctif rare mais important a la rigueur du principe.",
+          "difficulte": 3
+        },
+        {
+          "question": "Comment une vente de la chose d'autrui peut-elle devenir stable avec le temps ?",
+          "reponse": "Par confirmation, extinction de l'action, renonciation du veritable proprietaire ou acquisition ulterieure du bien par le vendeur.",
+          "explication": "La fiche insiste sur cette idee de consolidation progressive de la situation contractuelle.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur la chose vendue ?",
+          "reponse": "La vente porte sur un droit patrimonial dont le transfert suppose un objet existant ou admissible, juridiquement disponible et maitrise par le vendeur.",
+          "explication": "La fiche relie ainsi existence, circulation et titularite dans une meme logique de validite du contrat.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - La chose vendue",
+        "questions": [
+          {
+            "question": "Pourquoi la definition de la vente comme simple transfert de propriete est-elle trop etroite ?",
+            "choix": [
+              "A. Parce que la vente ne concerne jamais la propriete.",
+              "B. Parce qu'elle peut aussi porter sur d'autres droits patrimoniaux, comme un usufruit, une nue-propriete ou une creance.",
+              "C. Parce que seule la possession est vendue.",
+              "D. Parce que la vente est toujours aleatoire."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document propose une lecture plus large de la vente comme transfert de titularite d'un droit patrimonial contre un prix en argent.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quelle difference faut-il faire entre chose perie et chose future dans le regime de la vente ?",
+            "choix": [
+              "A. La chose perie rend la vente nulle si elle a deja disparu, alors qu'une chose future peut etre valablement vendue si elle est suffisamment identifiable.",
+              "B. La chose future est toujours nulle.",
+              "C. La chose perie est toujours vendue aux risques de l'acheteur.",
+              "D. Les deux situations relevent du meme traitement."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document oppose l'absence deja acquise de l'objet et la possibilite d'un bien a venir, parfois inseree dans une logique d'alea accepte.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi une chose doit-elle etre dans le commerce pour etre vendue ?",
+            "choix": [
+              "A. Parce qu'il faut qu'elle circule economiquement dans un magasin.",
+              "B. Parce qu'elle doit pouvoir circuler juridiquement sans etre retranchee par une interdiction legale ou par sa nature.",
+              "C. Parce qu'elle doit toujours etre meuble corporel.",
+              "D. Parce qu'elle doit deja avoir ete vendue une premiere fois."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document prend ici le mot commerce en un sens juridique de disponibilite a la cession.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel equilibre la theorie de l'apparence cherche-t-elle a atteindre dans la vente de la chose d'autrui ?",
+            "choix": [
+              "A. Elle prefere toujours la revendication du veritable proprietaire.",
+              "B. Elle supprime toute exigence de bonne foi.",
+              "C. Elle tente de proteger la securite des transactions lorsque la croyance dans le droit du vendeur etait legitime et partagee.",
+              "D. Elle annule automatiquement toute vente douteuse."
+            ],
+            "reponse_correcte": 2,
+            "explication": "La fiche retient ici l'idee d'un correctif rare qui privilegie parfois la stabilite de la circulation juridique.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1032,
+      "fiche": {
+        "titre": "Effets du contrat de vente : transfert solo consensu, risques et cartographie des obligations du vendeur",
+        "resume": "Ce document place la vente au croisement du droit des obligations et du droit des biens. Son effet principal n'est pas une prestation a accomplir par le vendeur, mais un transfert automatique de droit qui s'opere en principe par le seul accord des parties. La fiche en retient une idee directrice : il faut distinguer d'un cote la dynamique du transfert et des risques, de l'autre la pluralite des obligations du vendeur, dont l'enchevetrement moderne oblige a raisonner par frontieres plutot que par blocs etanches.",
+        "sections": [
+          {
+            "titre": "Le transfert de propriete constitue en principe un effet immediat de la vente et non une obligation supplementaire du vendeur",
+            "contenu": "Le document rappelle la force du modele francais dit solo consensu. Une fois l'accord donne sur la chose et sur le prix, la propriete passe en principe a l'acquereur sans attendre la remise materielle du bien ni le paiement. La fiche retient une consequence importante : la vente ne promet pas seulement un transfert futur, elle le produit deja. C'est ce qui explique la place singuliere de ce contrat dans notre systeme, plus souple que celui de nombreux droits qui exigent un acte distinct de tradition."
+          },
+          {
+            "titre": "Cette immediatete connait pourtant des reports lies a la nature du bien, a la volonte des parties ou a certaines configurations de vente",
+            "contenu": "Le texte expose plusieurs situations ou le passage du droit est retarde. Une chose a venir ne devient transferable qu'une fois achevee et apte a etre livree. Une chose de genre attend son individualisation. Dans les ventes de libre-service, le moment utile se deplace lui aussi. Enfin, les parties peuvent elles-memes repousser ce passage, notamment par une clause reservant la propriete. La fiche souligne que l'accord reste central, mais qu'il peut etre module sans disparaitre."
+          },
+          {
+            "titre": "Les risques suivent en principe la propriete, ce qui rattache la perte de la chose a celui qui en est deja titulaire",
+            "contenu": "Le document met en avant l'idee classique selon laquelle la charge du sort de la chose accompagne son appartenance. Lorsque le bien est perdu ou deteriore apres le transfert, c'est en principe le nouveau proprietaire qui en supporte la consequence economique. Cette logique n'est pas seulement technique. Elle traduit une coherence d'ensemble entre titularite et alea. La fiche retient toutefois que certaines mises en demeure ou amenagements particuliers peuvent venir reequilibrer ce schema."
+          },
+          {
+            "titre": "Le vendeur supporte ensuite un ensemble d'obligations dont la lecture moderne passe par une mise en ordre des frontieres",
+            "contenu": "Le document dresse une carte large : explication devenue information, delivrance devenue delivrance conforme, evic tion, vices caches, puis conformite legale du droit de la consommation. La difficulte n'est plus seulement de connaitre chaque action, mais de savoir ou l'une finit et ou l'autre commence. La fiche en retient une idee simple : le droit a progressivement renforce la protection de l'acquereur en multipliant les voies d'action, mais ce renfort s'est accompagne d'un brouillage qu'il faut patiemment clarifier."
+          },
+          {
+            "titre": "Les conflits de frontiere se concentrent surtout autour de la conformite, des vices caches et des strategies contentieuses de l'acheteur",
+            "contenu": "Le document explique que la conformite au sens civil renvoie aux stipulations du contrat, tandis que le vice cache touche l'aptitude normale du bien a remplir son usage. Ces notions ont longtemps ete melees avant que les juges ne les resserrent. Il montre aussi que l'office du juge et la possibilite de superposer certains fondements restent des questions sensibles. La fiche insiste donc sur un reflexe utile : avant d'agir, il faut identifier de quel defaut on parle exactement et quelle voie en tire le meilleur avantage."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi dit-on que le transfert de propriete est un effet de la vente plutot qu'une obligation du vendeur ?",
+          "reponse": "Parce qu'il se produit en principe automatiquement par le seul accord sur la chose et le prix.",
+          "explication": "Le document oppose ainsi le modele francais au systeme qui ferait de la vente une simple promesse de transfert futur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie la formule solo consensu dans le regime de la vente ?",
+          "reponse": "Elle signifie que le seul echange des consentements suffit en principe a faire passer la propriete.",
+          "explication": "La fiche rappelle que ni la livraison ni le paiement ne sont normalement requis pour ce passage initial.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi une chose future ne suit-elle pas toujours le principe d'immediatete ?",
+          "reponse": "Parce que le droit sur le bien ne peut veritablement basculer qu'une fois la chose suffisamment achevee et individualisee.",
+          "explication": "Le document montre ainsi que la nature du bien peut retarder le moment utile du transfert.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'effet principal d'une clause de reserve de propriete ?",
+          "reponse": "Elle reporte le passage du droit jusqu'a la realisation de l'evenement choisi par les parties, souvent le paiement complet du prix.",
+          "explication": "La fiche y voit l'une des grandes modulations conventionnelles du principe solo consensu.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi les risques suivent-ils en principe la propriete ?",
+          "reponse": "Parce que le droit rattache logiquement l'alea de la chose a celui qui en est deja titulaire.",
+          "explication": "Le document relie ainsi sort du bien et appartenance patrimoniale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel mouvement general le document observe-t-il dans les obligations du vendeur ?",
+          "reponse": "Un renforcement progressif de la protection de l'acquereur par extension de l'information, de la conformite et des garanties.",
+          "explication": "La fiche note toutefois que ce renforcement a multiplie les zones de recouvrement entre actions.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la delivrance est-elle devenue un foyer de difficultes modernes ?",
+          "reponse": "Parce qu'on en a tire l'idee de delivrance conforme, ce qui a rapproche cette obligation d'autres garanties comme les vices caches.",
+          "explication": "Le document montre que la protection accrue de l'acheteur a parfois brouille les categories.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que distingue principalement la conformite au sens civil du vice cache ?",
+          "reponse": "La conformite civile se mesure aux stipulations du contrat, alors que le vice cache touche l'aptitude normale du bien a son usage.",
+          "explication": "La fiche en fait l'une des frontieres les plus importantes du contentieux de la vente.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'office du juge a-t-il pris de l'importance dans ces conflits de fondement ?",
+          "reponse": "Parce qu'il a fallu savoir jusqu'ou le juge peut requalifier l'action engagee par l'acheteur sur un terrain plus utile.",
+          "explication": "Le document relie cette question a la complexite croissante des recours ouverts au profit de l'acquereur.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur les effets de la vente ?",
+          "reponse": "La vente produit un transfert immediat en principe, mais ce noyau simple est aujourd'hui entoure d'un ensemble complexe d'obligations et de garanties qu'il faut demeler avec precision.",
+          "explication": "La fiche articule ainsi dynamique du transfert et cartographie moderne des recours de l'acquereur.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Effets du contrat de vente",
+        "questions": [
+          {
+            "question": "Quelle idee resume le mieux le principe solo consensu dans la vente ?",
+            "choix": [
+              "A. La propriete passe en principe par le seul accord sur la chose et sur le prix.",
+              "B. La propriete passe uniquement lors de la livraison materielle.",
+              "C. La propriete passe seulement quand le juge le decide.",
+              "D. Le paiement integral du prix est toujours necessaire avant tout transfert."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document presente ce point comme la cle du systeme francais de la vente.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi ce principe ne joue-t-il pas toujours avec la meme immediatete ?",
+            "choix": [
+              "A. Parce que la vente est aleatoire par nature.",
+              "B. Parce que la nature du bien, l'individualisation, ou la volonte des parties peuvent retarder le passage du droit.",
+              "C. Parce qu'il est interdit en matiere mobiliere.",
+              "D. Parce que les risques ne suivent jamais la propriete."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document cite notamment les choses futures, les choses de genre et les amenagements conventionnels.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi les obligations du vendeur sont-elles aujourd'hui difficiles a cartographier ?",
+            "choix": [
+              "A. Parce qu'elles ont disparu du Code civil.",
+              "B. Parce qu'elles se sont enrichies et superposees, notamment autour de l'information, de la conformite et des garanties.",
+              "C. Parce que l'acheteur n'a plus aucune action.",
+              "D. Parce que seule l'eviction subsiste."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche montre que la protection accrue de l'acquereur a produit des zones de recouvrement entre actions.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quel contraste faut-il garder a l'esprit entre conformite civile et vice cache ?",
+            "choix": [
+              "A. La conformite civile se mesure a ce qui a ete convenu, tandis que le vice cache vise l'aptitude normale du bien a l'usage.",
+              "B. Les deux notions sont toujours identiques.",
+              "C. Le vice cache n'existe qu'en droit de la consommation.",
+              "D. La conformite civile n'a jamais de lien avec la delivrance."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document met cette distinction au centre des frontieres entre les differentes actions de l'acheteur.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1033,
+      "fiche": {
+        "titre": "Garanties du vendeur : vice cache, clauses de non-garantie, actions de l'acheteur et logique de l'eviction",
+        "resume": "Ce document revient sur le noyau classique des garanties du vendeur et montre qu'il reste central malgre les reformes plus recentes. La fiche en retient une idee directrice : la garantie des vices caches et la garantie d'eviction poursuivent un meme but de protection de l'acquereur, mais elles le font sur des terrains differents. L'une combat les defauts internes du bien et l'autre les troubles dans la possession. Leur mise en oeuvre depend du type de vice, de la qualite des parties, des clauses eventuelles et de choix d'action qui restent strategiques.",
+        "sections": [
+          {
+            "titre": "La garantie des vices caches vise les defauts graves et occultes qui rendent le bien impropre a son usage ou en diminuent fortement l'interet",
+            "contenu": "Le document place cette garantie au coeur du systeme ancien de 1804. Son point de depart tient dans un defaut non apparent au moment de la vente, suffisamment serieux pour changer le consentement ou l'utilite reelle du bien. La fiche souligne que cette logique ne se confond pas avec une simple inad equ ation contractuelle. Elle s'attache a la destination normale du bien et au trouble profond que le vice provoque dans son emploi attendu."
+          },
+          {
+            "titre": "Les clauses de non-garantie ne jouent pas de la meme facon selon la qualite du vendeur et sa connaissance du vice",
+            "contenu": "Le texte admet en principe qu'une vente puisse etre conclue sans cette garantie ou avec une garantie limitee. Mais cette liberte est fortement reduite lorsque le vendeur est un professionnel. Le document explique que celui-ci est tenu pour sachant, de sorte que la neutralisation de la garantie devient beaucoup plus difficile a admettre. La fiche retient un contraste net : entre profanes, la clause circule plus librement ; face a un vendeur professionnel, la protection de l'acheteur se durcit sensiblement."
+          },
+          {
+            "titre": "L'acheteur dispose de deux voies principales, l'une pour defaire la vente et l'autre pour en corriger l'equilibre economique",
+            "contenu": "Le document rappelle que l'acquereur peut rendre le bien et recuperer le prix, ou le conserver en obtenant une restitution partielle. Ces deux voies traduisent deux facons de reparer le meme trouble. Dans le premier cas, la vente est defaite retroactivement ; dans le second, elle est maintenue mais reajustee. La fiche ajoute que des dommages-interets peuvent encore s'ajouter, notamment lorsque le vendeur savait ce qu'il c edait et n'a pas averti son cocontractant."
+          },
+          {
+            "titre": "La garantie d'eviction protege, quant a elle, la possession paisible et la securite du titre transmis",
+            "contenu": "Le document deplace ensuite le regard du defaut interne du bien vers les troubles venant d'un tiers ou du vendeur lui-meme. Quand l'acquereur est prive du bien ou menace dans sa jouissance par un droit meilleur, la garantie d'eviction prend le relais. La fiche retient que le vendeur ne promet pas seulement une chose utile, mais aussi une possession pacifiee. Ce terrain se distingue du vice cache, car il vise la solidite du droit transmis plus que la qualite materielle du bien."
+          },
+          {
+            "titre": "La mise en oeuvre de l'eviction est tres protectrice pour l'acheteur, mais elle suppose une vigilance procedurale et un bon usage de l'appel en garantie",
+            "contenu": "Le document montre que l'acheteur evince peut obtenir restitution du prix, fruits, frais, plus-value et dommages selon l'etendue du trouble subi. Il souligne aussi l'importance pratique d'appeler le vendeur en garantie lorsque le tiers agit, afin d'eviter de perdre utilement certains moyens de defense. La fiche insiste donc sur une idee simple : la garantie d'eviction est large et favorable, mais elle doit etre mobilisee avec rigueur pour produire tous ses effets."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel type de defaut declenche la garantie des vices caches ?",
+          "reponse": "Un defaut cache et suffisamment grave pour rendre le bien impropre a son usage normal ou en diminuer fortement l'interet.",
+          "explication": "La fiche relie cette gravite au consentement de l'acheteur et a l'utilite objective du bien.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la garantie des vices caches ne se confond-elle pas avec une simple non-conformite contractuelle ?",
+          "reponse": "Parce qu'elle vise d'abord l'aptitude normale du bien a l'usage attendu, et non la seule fidelite aux stipulations du contrat.",
+          "explication": "Le document maintient cette distinction malgre les zones de recouvrement possibles.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que devient en pratique une clause de non-garantie lorsque le vendeur est un professionnel ?",
+          "reponse": "Elle devient beaucoup moins efficace, car le vendeur professionnel est tenu pour sachant et supporte plus difficilement l'exclusion de garantie.",
+          "explication": "La fiche souligne ici le durcissement protecteur du regime au profit de l'acheteur profane.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel choix principal l'acheteur detient-il lorsqu'un vice cache est etabli ?",
+          "reponse": "Il peut soit defaire la vente en restituant le bien, soit la maintenir en recuperant une partie du prix.",
+          "explication": "Le document renvoie ainsi aux deux actions classiques offertes par le Code civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans quel cas des dommages-interets s'ajoutent-ils plus naturellement a la garantie des vices caches ?",
+          "reponse": "Lorsqu'il apparait que le vendeur connaissait le vice ou devait etre regarde comme l'ayant connu.",
+          "explication": "La fiche y rattache notamment la severite particuliere envers le vendeur professionnel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que protege en propre la garantie d'eviction ?",
+          "reponse": "Elle protege la possession paisible et la securite du droit transmis a l'acquereur.",
+          "explication": "Le document la distingue ainsi des vices internes du bien lui-meme.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi dit-on que la garantie d'eviction porte sur le titre plus que sur la chose ?",
+          "reponse": "Parce qu'elle repond aux troubles venant d'un droit meilleur ou d'une atteinte a la jouissance, et non a une defectuosite materielle du bien.",
+          "explication": "La fiche en fait le pendant externe de la garantie des vices caches.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel avantage pratique apporte l'appel en garantie du vendeur lorsque le tiers agit ?",
+          "reponse": "Il permet a l'acheteur de mobiliser pleinement la garantie d'eviction et d'eviter de perdre utilement certains moyens de defense.",
+          "explication": "Le document insiste sur cette vigilance pratique dans la conduite du litige.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la restitution du prix en cas d'eviction totale est-elle si protectrice ?",
+          "reponse": "Parce qu'elle reste due meme si le bien a perdu de la valeur, tandis que certaines plus-values peuvent au contraire profiter a l'acheteur.",
+          "explication": "La fiche souligne l'ampleur de la protection accordee a l'acquereur evince.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur les garanties ?",
+          "reponse": "Le vendeur garantit a la fois l'utilite interne du bien par les vices caches et la paix du titre par l'eviction, avec des remedes adaptes a chacun de ces troubles.",
+          "explication": "La fiche relie ainsi deux garanties classiques qui restent fondamentales dans le droit de la vente.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Vices caches et eviction",
+        "questions": [
+          {
+            "question": "Quel est le noyau propre de la garantie des vices caches ?",
+            "choix": [
+              "A. Elle repond aux defauts graves et occultes qui atteignent l'usage normal du bien vendu.",
+              "B. Elle ne vise que les conflits entre deux proprietaires successifs.",
+              "C. Elle ne joue jamais pour les biens immobiliers.",
+              "D. Elle suppose toujours une fraude du vendeur."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document met l'accent sur la gravite du defaut et sur son caractere non apparent au moment de la vente.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la clause de non-garantie ne produit-elle pas les memes effets selon les parties en presence ?",
+            "choix": [
+              "A. Parce qu'entre profanes elle peut mieux circuler, alors qu'elle se heurte plus fortement a la position du vendeur professionnel.",
+              "B. Parce qu'elle est toujours nulle en droit francais.",
+              "C. Parce qu'elle n'est valable que pour les ventes judiciaires.",
+              "D. Parce qu'elle supprime toute action de l'acheteur contre un tiers."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document souligne que la qualite du vendeur influe fortement sur l'efficacite pratique d'une telle stipulation.",
+            "difficulte": 3
+          },
+          {
+            "question": "Quel contraste faut-il garder a l'esprit entre vice cache et eviction ?",
+            "choix": [
+              "A. Le premier touche l'utilite interne du bien, la seconde la paisible detention du droit transmis.",
+              "B. Les deux notions sont rigoureusement identiques.",
+              "C. L'eviction ne concerne jamais un tiers.",
+              "D. Le vice cache n'ouvre jamais de restitution du prix."
+            ],
+            "reponse_correcte": 0,
+            "explication": "La fiche insiste sur cette ligne de partage pour eviter les confusions entre garanties.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi l'appel en garantie du vendeur est-il si important lorsque l'acheteur est attaque par un tiers ?",
+            "choix": [
+              "A. Parce qu'il est purement facultatif et sans effet pratique.",
+              "B. Parce qu'il sert a activer utilement la garantie d'eviction et a eviter la perte de certains moyens de defense.",
+              "C. Parce qu'il remplace automatiquement l'action du tiers.",
+              "D. Parce qu'il transforme l'eviction en vice cache."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document montre que la garantie d'eviction doit etre maniee avec vigilance pour produire toute sa protection.",
+            "difficulte": 3
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1034,
+      "fiche": {
+        "titre": "Obligation de securite et produits defectueux : du droit francais anticipe au regime europeen de responsabilite de plein droit",
+        "resume": "Ce document retrace la construction de l'obligation de securite dans la vente et son passage vers le regime special des produits defectueux. Il montre comment la France a d'abord anticipe la directive de 1985 par voie pretorienne, avant d'etre contrainte de transposer un systeme europeen plus encadre. La fiche en retient une idee directrice : desormais, la securite du produit se lit dans un regime special de responsabilite de plein droit, autonome par rapport a la simple qualite du bien, avec ses propres victimes, ses propres delais, ses propres responsables et des causes d'exoneration limitees.",
+        "sections": [
+          {
+            "titre": "L'obligation de securite est nee en droit francais dans la vente avant d'etre absorbee par un cadre europeen plus structure",
+            "contenu": "Le document raconte une histoire de transition. Face au retard de la transposition, les juges francais avaient deja degage une obligation de securite, d'abord rattachee aux vices caches puis autonomisee. Ce mouvement a largement anticipe la directive europeenne. La fiche retient cependant que le regime actuel ne se contente plus d'une construction pretorienne. Il repose sur un ensemble special qui cherche a unifier les reponses apportees aux dommages causes par des produits ne presentant pas la securite attendue."
+          },
+          {
+            "titre": "Le regime special ne vise pas seulement l'acheteur contractuel, mais toute victime d'un dommage cause par un produit defectueux",
+            "contenu": "Le texte souligne que l'existence d'un contrat avec le producteur n'est pas decisive. La protection s'ouvre plus largement a toute personne atteinte dans sa personne ou dans certains de ses biens. En revanche, le dommage subi par le produit lui-meme releve d'autres terrains, comme la conformite ou les vices caches. La fiche met donc en lumiere une distinction essentielle : la securite du produit ne se confond pas avec sa simple qualite marchande."
+          },
+          {
+            "titre": "Le coeur du systeme tient dans la notion de produit defectueux, appreciee a partir de la securite legitimement attendue",
+            "contenu": "Le document montre que le defaut de securite ne suppose pas toujours une malfa con materielle du bien. Un produit peut etre techniquement sain et pourtant insuffisamment sur quant aux risques qu'il presente. La fiche retient ici un critere abstrait et contextualise : on mesure la securite attendue en tenant compte de la presentation du produit, de l'usage raisonnablement prevu et du moment de sa mise en circulation. Ce regard de securite est donc distinct de la simple defectuosite interne."
+          },
+          {
+            "titre": "La mise en circulation, les doubles delais et la designation du responsable structurent l'economie propre du regime",
+            "contenu": "Le document met en avant la date de mise en circulation comme point d'ancrage du systeme. Elle ouvre un premier delai de dix ans qui borne l'existence meme de l'action, tandis qu'un second delai de trois ans depend de la connaissance du dommage, du defaut et de l'identite du producteur. La fiche ajoute que le premier responsable reste le producteur, le fournisseur n'etant appele qu'a titre subsidiaire si le producteur n'est pas correctement designe. Le regime cherche ainsi a canaliser l'action vers l'acteur le plus directement lie a la mise sur le marche."
+          },
+          {
+            "titre": "La responsabilite est de plein droit, mais non sans limite : certaines defenses legales et quelques amenagements convent ionnels subsistent",
+            "contenu": "Le producteur ne peut pas simplement s'excuser en prouvant sa prudence. Le document rappelle pourtant que certaines defenses demeurent, par exemple lorsqu'il n'a pas mis le produit en circulation, lorsque le defaut n'existait pas encore a ce moment-la ou dans certaines situations de risque de developpement. Les clauses limitatives sont en principe ecartees, sauf dans des cas resserres entre professionnels pour des dommages a des biens d'usage non prive. La fiche retient ainsi un regime severe, mais pas aveugle, construit pour privilegier l'indemnisation tout en preservant quelques soupapes precises."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi l'obligation de securite a-t-elle d'abord pris corps dans la vente avant la loi de transposition ?",
+          "reponse": "Parce que les juges francais ont anticipe la logique de la directive en protegeant les victimes de dommages causes par les biens vendus.",
+          "explication": "Le document rappelle que cette creation pretorienne a precede l'inscription du regime special dans le Code civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Le regime des produits defectueux est-il reserve aux seules victimes liees par contrat au producteur ?",
+          "reponse": "Non, il s'ouvre plus largement a toute victime d'un dommage cause par un produit defectueux, meme sans lien contractuel direct.",
+          "explication": "La fiche y voit l'une des grandes marques d'autonomie du systeme special.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le dommage subi par le produit lui-meme ne releve-t-il pas de ce regime de securite ?",
+          "reponse": "Parce que ce regime vise les dommages causes par le produit defectueux et non la simple qualite defectueuse du bien vendu lui-meme.",
+          "explication": "Le document renvoie alors vers d'autres terrains comme les vices caches ou la conformite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel critere central permet de qualifier un produit de defectueux ?",
+          "reponse": "Le point de savoir s'il offre ou non la securite a laquelle on peut legitimement s'attendre.",
+          "explication": "La fiche insiste sur le caractere contextuel et abstrait de cette securite attendue.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi un bien peut-il etre techniquement sain tout en restant defectueux au sens de ce regime ?",
+          "reponse": "Parce qu'un defaut de securite peut venir d'une presentation ou d'une information insuffisante sans malfa con materielle du produit.",
+          "explication": "Le document l'illustre par l'idee d'un produit qui n'alerte pas assez sur les risques de son usage.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role joue la mise en circulation dans l'economie du regime ?",
+          "reponse": "Elle fixe le point d'ancrage de la responsabilite du producteur et ouvre notamment le delai de dix ans qui borne l'action.",
+          "explication": "La fiche en fait l'un des pivots techniques du systeme.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi parle-t-on d'un double encadrement temporel de l'action ?",
+          "reponse": "Parce qu'il faut combiner un delai de dix ans a compter de la mise en circulation et un delai de trois ans lie a la connaissance du dommage, du defaut et du producteur.",
+          "explication": "Le document montre que ces delais ne jouent pas de la meme facon mais se cumulent.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le fournisseur n'est-il pas, en principe, le premier responsable vise ?",
+          "reponse": "Parce que le regime privilegie l'action contre le producteur, le fournisseur n'etant sollicite que subsidiairement s'il ne designe pas la bonne source du produit.",
+          "explication": "La fiche souligne ici l'influence decisi ve du droit europeen sur la structure du regime.",
+          "difficulte": 3
+        },
+        {
+          "question": "En quoi la responsabilite du producteur est-elle de plein droit ?",
+          "reponse": "Il ne peut pas s'exonerer simplement en montrant qu'il n'a commis aucune faute personnelle dans la fabrication ou la distribution.",
+          "explication": "Le document preserve toutefois certaines defenses legales bien delimitees.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur la securite des produits ?",
+          "reponse": "Le droit contemporain traite la securite du produit par un regime special, autonome et severe, centre sur la protection des victimes plutot que sur la seule qualite marchande du bien.",
+          "explication": "La fiche articule ainsi histoire pretorienne, harmonisation europeenne et responsabilite de plein droit.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Produits defectueux et securite",
+        "questions": [
+          {
+            "question": "Quel changement majeur marque le passage de l'ancienne obligation de securite au regime des produits defectueux ?",
+            "choix": [
+              "A. La securite du produit est desormais traitee dans un cadre special autonome, et non plus seulement par des constructions de la vente.",
+              "B. Le droit francais a supprime toute protection des victimes.",
+              "C. Le systeme est devenu purement contractuel.",
+              "D. Le fournisseur est toujours responsable avant le producteur."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document insiste sur le basculement d'une creation pret orienne vers un regime special harmonise.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi le dommage subi par le produit lui-meme reste-t-il en dehors de ce regime ?",
+            "choix": [
+              "A. Parce que le regime vise la baisse de valeur economique de tout bien.",
+              "B. Parce qu'il traite les dommages causes par un produit defectueux a d'autres interets proteges, non la simple defectuosite marchande du produit lui-meme.",
+              "C. Parce que le produit ne peut jamais etre remplace.",
+              "D. Parce que seuls les immeubles sont concernes."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document renvoie alors vers d'autres voies comme la conformite ou les vices caches.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que veut dire la securite legitimement attendue dans ce regime ?",
+            "choix": [
+              "A. Une perfection technique absolue du produit.",
+              "B. Un niveau de securite apprecie en contexte selon la presentation, l'usage previs ible et le moment de mise en circulation.",
+              "C. Une simple impression subjective de la victime.",
+              "D. L'absence de tout danger imaginable."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche rappelle que le defaut de securite est contextualise et ne se confond pas avec une perfection ideale.",
+            "difficulte": 3
+          },
+          {
+            "question": "Pourquoi le temps joue-t-il un role si structurant dans l'action nee d'un produit defectueux ?",
+            "choix": [
+              "A. Parce qu'il existe seulement un bref delai unique de paiement.",
+              "B. Parce que l'action combine un bornage de dix ans a partir de la mise en circulation et un delai de trois ans lie a la connaissance de la victime.",
+              "C. Parce qu'aucun delai n'est prevu.",
+              "D. Parce que la mise en circulation est indifferente."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document fait de cette combinaison temporelle l'un des traits techniques majeurs du regime special.",
+            "difficulte": 3
+          }
+        ]
+      }
+    }
+  ]
+}
