@@ -1,0 +1,580 @@
+{
+  "documents": [
+    {
+      "document_id": 1062,
+      "fiche": {
+        "titre": "Secret de l'enquete et nullite de la perquisition : de la captation filmee au grief intrinseque",
+        "resume": "Cette bonne copie reconstruit avec precision le revirement opere autour de la presence d'un journaliste pendant une perquisition. La fiche en retient une idee directrice : la chambre criminelle a cesse de traiter la violation du secret comme un incident exterieur reparable apres coup pour en faire, lorsqu'elle accompagne l'acte lui-meme, une irregularite qui blesse deja la personne visee. Le coeur du raisonnement tient donc a un double mouvement : maintien de l'exigence de concomitance et allegement de la charge probatoire grace a l'idee d'une atteinte necessaire aux interets du mis en cause.",
+        "sections": [
+          {
+            "titre": "La Cour conserve d'abord un critere de proximite entre la rupture du secret et l'acte critique",
+            "contenu": "Le document rappelle qu'une diffusion trop tardive ou trop detachee de l'acte ne suffit pas a faire tomber ce qui a ete accompli. Ce qui importe, c'est l'intrusion dans le moment meme de la recherche. La fiche retient ainsi que la nullite ne nait pas de toute indiscretion, mais de celle qui s'imbrique directement dans l'accomplissement de l'acte."
+          },
+          {
+            "titre": "Le tournant tient a l'abandon d'une lecture exigeant une demonstration lourde du prejudice",
+            "contenu": "La bonne copie montre bien que la chambre criminelle refuse de demander a la personne visee de prouver en detail ce que la presence du tiers a abime dans sa defense ou dans son image. Elle estime que l'irregularite suffit deja a blesser ses interets. La fiche y voit le passage d'un controle concret du dommage a une logique de grief attache a la rupture elle-meme."
+          },
+          {
+            "titre": "Le secret protege moins un formalisme abstrait qu'un ensemble de garanties personnelles",
+            "contenu": "Le texte relie la solution a la presomption d'innocence, a la vie privee et a la limitation de l'intrusion publique dans la sphere du mis en cause. La fiche retient que la perquisition n'est pas seulement un outil de recherche. C'est aussi un espace clos dont l'ouverture illicite a un observateur exterieur modifie immediatement la qualite des garanties offertes."
+          },
+          {
+            "titre": "L'analyse de la copie souligne aussi les hesitations de la decision de 2017",
+            "contenu": "Le document note avec justesse que l'arret semblait encore tres marque par la captation filmee et par la consultation visuelle des pieces. Cette focalisation laissait planer un doute sur le sort d'une simple presence silencieuse. La fiche retient ici une decision forte, mais encore inachevee dans sa formulation initiale."
+          },
+          {
+            "titre": "La suite du mouvement confirme finalement un renforcement net de la protection",
+            "contenu": "La copie rappelle qu'ensuite la chambre criminelle a clarifie le cadre en detachant l'irregularite de la seule prise d'images. La fiche en conclut que le secret de l'enquete est devenu un rempart plus solide contre l'ouverture informelle de l'acte a un tiers etranger, meme lorsque ce tiers se reclame d'un but informatif ou d'une autorisation recueillie en amont."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel point de depart structure le raisonnement sur la nullite dans cette copie ?",
+          "reponse": "La nullite suppose que la rupture du secret accompagne l'acte lui-meme et ne se reduise pas a une indiscretion survenue plus tard.",
+          "explication": "La fiche fait de la concomitance la cle qui distingue l'atteinte interne a l'acte de la simple fuite exterieure.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la chambre criminelle ne demande-t-elle plus une preuve detaillee du prejudice ?",
+          "reponse": "Parce qu'elle juge que la presence illicite d'un tiers blesse deja par elle-meme les interets de la personne concernee.",
+          "explication": "Le document rattache cette evolution a la logique du grief intrinseque.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie ici l'idee de grief intrinseque ?",
+          "reponse": "Que l'irregularite porte en elle son propre dommage sans que le mis en cause ait a en faire une demonstration lourde et particuliere.",
+          "explication": "La fiche montre que la rupture du secret suffit deja a caracteriser l'atteinte utile pour la nullite.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le secret de l'enquete depasse-t-il un simple souci d'efficacite policiere ?",
+          "reponse": "Parce qu'il sert aussi a proteger la presomption d'innocence, la vie privee et la maitrise de l'exposition publique du mis en cause.",
+          "explication": "Le document donne au secret une fonction personnelle et protectrice, pas seulement instrumentale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle faiblesse la copie releve-t-elle dans la formulation de la decision de 2017 ?",
+          "reponse": "Elle note que l'arret paraissait encore trop attache au fait que le journaliste avait filme, laissant un doute sur la simple presence.",
+          "explication": "La fiche met ainsi en lumiere une protection forte, mais pas encore totalement decantee dans son premier etat.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la consultation visuelle de pieces par un tiers aggrave-t-elle l'atteinte ?",
+          "reponse": "Parce qu'elle ouvre a un observateur exterieur un moment reserve aux acteurs legitimes de la recherche et de la saisie.",
+          "explication": "Le document rappelle que certaines connaissances doivent rester strictement bornees pendant l'acte.",
+          "difficulte": 2
+        },
+        {
+          "question": "En quoi la decision ulterieure de 2019 prolonge-t-elle utilement celle de 2017 ?",
+          "reponse": "Elle confirme que la seule presence d'un tiers etranger peut suffire, meme sans captation filmee complete.",
+          "explication": "La fiche y voit l'achevement d'un mouvement de renforcement du secret autour de la perquisition.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi un objectif d'information du public ne suffit-il pas dans ce raisonnement ?",
+          "reponse": "Parce qu'il ne peut pas justifier l'ouverture illicite d'un acte qui touche directement l'intimite et la position du mis en cause.",
+          "explication": "Le document oppose ici la curiosite informative aux garanties qui entourent l'acte de recherche.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'apport methodique le plus fort de cette bonne copie ?",
+          "reponse": "Elle distingue clairement la proximite temporelle de la rupture du secret et la question du prejudice, au lieu de les confondre.",
+          "explication": "La fiche reprend cette articulation comme la charpente du commentaire.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce document ?",
+          "reponse": "Quand le secret est rompu au coeur meme de la perquisition, la nullite devient un outil de protection immediate des interets du mis en cause.",
+          "explication": "La fiche relie ainsi concomitance, grief intrinseque et renforcement des garanties autour de l'acte.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Secret de l'enquete",
+        "questions": [
+          {
+            "question": "Quel element la copie maintient-elle comme seuil principal de la nullite ?",
+            "choix": [
+              "A. Une diffusion mediatique survenue plusieurs semaines plus tard.",
+              "B. Une rupture du secret imbriquee dans l'accomplissement meme de l'acte.",
+              "C. La seule mauvaise humeur du mis en cause.",
+              "D. Une autorisation donnee par la police."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche retient la concomitance comme la condition structurante de l'irregularite utile.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que change la logique du grief intrinseque dans ce dossier ?",
+            "choix": [
+              "A. Elle supprime toute idee de prejudice.",
+              "B. Elle impose un rapport d'expertise psychologique.",
+              "C. Elle evite a la personne visee d'avoir a demontrer longuement un dommage particulier.",
+              "D. Elle transforme la perquisition en simple audition."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document montre que l'atteinte decoule deja de l'irregularite elle-meme.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la copie critique-t-elle partiellement la decision de 2017 ?",
+            "choix": [
+              "A. Parce qu'elle refusait toute nullite.",
+              "B. Parce qu'elle semblait encore trop centree sur la captation filmee, laissant un doute sur la simple presence d'un tiers.",
+              "C. Parce qu'elle supprimait le secret de l'enquete.",
+              "D. Parce qu'elle interdisait toute saisie au domicile."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche souligne cette hesitation pour mieux montrer le prolongement ulterieur du mouvement protecteur.",
+            "difficulte": 3
+          },
+          {
+            "question": "Que faut-il retenir de l'evolution ulterieure mentionnee dans la copie ?",
+            "choix": [
+              "A. Que la presence d'un tiers devient licite si elle est discrete.",
+              "B. Que seule la diffusion televisee pose probleme.",
+              "C. Que la protection du secret s'est consolidee au point de viser aussi la seule presence d'un tiers etranger.",
+              "D. Que la nullite a disparu."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document presente cette clarification comme l'aboutissement logique du revirement initial.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1063,
+      "fiche": {
+        "titre": "Garde a vue : dossier directeur sur le parquet, l'avocat, le telephone et la dignite",
+        "resume": "Cette fiche de TD rassemble les grands points de tension de la garde a vue contemporaine. La fiche en retient une idee directrice : le statut du parquet, l'intensite de l'assistance du conseil, le maniement du telephone et la protection de la dignite composent un meme ensemble ou la retenue policiere n'est plus pensee comme un angle mort. Le dossier montre au contraire une matiere en recomposition permanente, ou chaque extension de pouvoir appelle presque aussitot une mise a niveau des garanties personnelles.",
+        "sections": [
+          {
+            "titre": "Le dossier s'ouvre sur la limite conventionnelle du controle exerce par le parquet",
+            "contenu": "Le recueil rappelle que le ministere public ne peut pas etre lu, au regard du droit europeen, comme le double parfait d'un juge independant. Cette limite n'annule pas par magie toute retenue breve, mais elle empeche de presenter la surveillance parquetiere comme une garantie finale et suffisante. La fiche en fait la tension de depart du theme."
+          },
+          {
+            "titre": "L'assistance du conseil cesse progressivement d'etre un droit purement formel",
+            "contenu": "Les decisions rassemblees montrent qu'une demande de conseil ne peut pas etre neutralisee par un raisonnement de pure chronologie. Si la personne veut un avocat, l'effet utile du droit doit etre preserve. La fiche retient aussi que les nouveaux faits ou les extensions de soupcon rouvrent aussitot la necessite d'un echange confidentiel avant la reprise de la parole recueillie."
+          },
+          {
+            "titre": "Le telephone oblige a repenser la frontiere entre parole du suspect et acces a un support",
+            "contenu": "Le dossier montre qu'une demande de code n'est pas toujours traitee comme un questionnement sur les faits. Elle est souvent rapprochee d'un acces technique a un objet numerique. La fiche souligne cependant que cette lecture n'efface pas les enjeux de defense, car le refus peut devenir une faute distincte et l'usage des donnees extraites peut peser tres lourd dans le dossier."
+          },
+          {
+            "titre": "La dignite fait entrer les conditions materielles de retention au coeur du controle",
+            "contenu": "Le recueil insiste sur l'importance des locaux, du repos, de la sante et des mesures de surete prises contre la personne retenue. La fiche en retient que la legalite de la retenue ne s'epuise pas dans son point de depart. Elle depend aussi de la facon dont elle se vit heure apres heure et de la capacite du magistrat a reagir vite si la situation se degrade."
+          },
+          {
+            "titre": "L'ensemble du dossier dessine une garde a vue devenue terrain de reglage fin",
+            "contenu": "Pris ensemble, les textes et decisions montrent moins une rupture unique qu'une succession de reequilibrages. A chaque fois qu'un besoin d'enquete gagne du terrain, une question nouvelle surgit sur l'acces au conseil, la parole recueillie, l'usage du numerique ou les limites materielles de la retention. La fiche retient donc une matiere gouvernee par l'ajustement permanent."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi ce dossier de TD fait-il commencer l'analyse par le statut du parquet ?",
+          "reponse": "Parce que la solidite du controle exerce pendant la retenue depend d'abord de savoir si l'on parle d'un simple acteur poursuivant ou d'un veritable juge independant.",
+          "explication": "La fiche en fait la tension de depart de toute lecture de la garde a vue contemporaine.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que montre le dossier a propos de la demande d'avocat en cours de retention ?",
+          "reponse": "Qu'elle doit produire un effet reel et ne peut pas etre enfermee dans le seul instant initial de la notification des droits.",
+          "explication": "Le recueil illustre une montee en puissance de l'effectivite plutot que du simple affichage du droit au conseil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les nouveaux faits modifies pendant la garde a vue sont-ils sensibles ?",
+          "reponse": "Parce qu'ils changent l'objet de la retenue et exigent en retour un nouvel espace utile de defense avant l'audition correspondante.",
+          "explication": "La fiche relie ici extension du soupcon et reouverture immediate des garanties du conseil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le telephone occupe-t-il une place si importante dans ce dossier ?",
+          "reponse": "Parce qu'il brouille la frontiere entre ce qui releve d'un acces technique a un support et ce qui touche a la parole protegee du suspect.",
+          "explication": "Le document montre que l'enjeu n'est pas seulement materiel, mais aussi defensif et probatoire.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que change le fait de traiter la demande de code comme un acces a un support numerique ?",
+          "reponse": "Cela permet de limiter la qualification d'audition tout en laissant naitre des effets lourds sur la suite du dossier.",
+          "explication": "La fiche souligne que ce deplacement technique n'efface pas le poids defensif de l'operation.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la dignite occupe-t-elle une place equivalente a celle des droits de parole ?",
+          "reponse": "Parce que la retenue se juge aussi a travers ses conditions materielles concretes et pas seulement a travers la regularite de son declenchement.",
+          "explication": "Le dossier fait entrer locaux, repos, sante et surete dans le noyau du controle de legalite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role attend-on du magistrat face a une atteinte materielle grave pendant la retention ?",
+          "reponse": "Une reaction rapide capable soit de corriger la situation, soit d'y mettre fin si elle ne peut pas etre redressee.",
+          "explication": "La fiche relie ce point a la montee de la dignite comme limite operative de la retenue.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la garde a vue apparait-elle ici comme un terrain de reglage fin plutot que comme un bloc stable ?",
+          "reponse": "Parce que chaque extension des moyens d'enquete fait surgir presque aussitot une nouvelle question de garantie personnelle.",
+          "explication": "Le dossier donne l'image d'une matiere qui se recompose a chaque point de friction.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel lien ce dossier etablit-il entre numerique et droits de la defense ?",
+          "reponse": "Il montre que l'acces aux supports, aux codes et aux donnees ne peut pas etre pense sans mesurer ses effets sur le silence, le conseil et la preuve.",
+          "explication": "La fiche traite le telephone comme un point de concentration de plusieurs tensions classiques.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette fiche de TD ?",
+          "reponse": "La garde a vue moderne avance par ajustements successifs entre besoins d'enquete, droit au conseil, enjeu numerique et exigence de dignite.",
+          "explication": "La fiche relie ainsi parquet, avocat, telephone et conditions materielles dans une meme logique d'equilibre instable.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Dossier garde a vue",
+        "questions": [
+          {
+            "question": "Quel fil directeur unifie les documents de cette seance ?",
+            "choix": [
+              "A. La suppression de toute garde a vue.",
+              "B. La recherche d'un equilibre entre les besoins d'enquete et la montee des garanties personnelles du retenu.",
+              "C. Le seul droit de la presse.",
+              "D. La seule theorie des peines."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche presente le dossier comme une suite de reequilibrages autour de la retenue policiere.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi l'assistance du conseil y apparait-elle comme un droit devenu plus effectif ?",
+            "choix": [
+              "A. Parce qu'elle ne compte plus du tout.",
+              "B. Parce qu'elle doit produire un effet reel quand la personne la reclame ou quand l'objet de la retenue se transforme.",
+              "C. Parce qu'elle est reservee aux seules prolongations.",
+              "D. Parce qu'elle disparait devant le numerique."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document refuse une lecture trop fig ee du moment ou le conseil devient utile.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel point rend le telephone si delicat dans cette seance ?",
+            "choix": [
+              "A. Il n'a jamais de valeur dans une enquete.",
+              "B. Il brouille la frontiere entre acces technique a un support et mise en jeu de la parole ou de la defense du suspect.",
+              "C. Il remplace le magistrat.",
+              "D. Il supprime la dignite."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche fait du support numerique un foyer de tensions entre technique, preuve et garanties personnelles.",
+            "difficulte": 3
+          },
+          {
+            "question": "Pourquoi la dignite prend-elle autant de place dans ce dossier ?",
+            "choix": [
+              "A. Parce que la retenue se juge aussi par ses conditions materielles d'execution et pas seulement par son fondement initial.",
+              "B. Parce qu'elle remplace toute autre garantie.",
+              "C. Parce qu'elle ne concerne que les temoins.",
+              "D. Parce qu'elle interdit toute mesure de surete."
+            ],
+            "reponse_correcte": 0,
+            "explication": "Le document rattache directement le controle de legalite a la facon concrete dont la retenue se deroule.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1064,
+      "fiche": {
+        "titre": "Perquisition au cabinet ou au domicile de l'avocat : renforcement du controle judiciaire et defense du secret professionnel",
+        "resume": "Cette bonne copie met au centre le regime special des perquisitions visant l'avocat. La fiche en retient une idee directrice : plus l'acte s'approche du coeur de la relation entre l'avocat et son client, plus il change de nature et de gouvernance. Ce n'est plus l'OPJ qui maitrise seul la recherche, mais un dispositif a plusieurs niveaux ou interviennent le magistrat, le JLD, le batonnier et, depuis les reformes recentes, un controle plus dense de la proportion de l'atteinte. La copie insiste aussi sur les apports 2024 et 2025 qui dissocient nettement la mission generale du batonnier et la defense propre de l'avocat mis en cause.",
+        "sections": [
+          {
+            "titre": "Le regime de droit commun cede ici la place a un encadrement plus hautement judiciaire",
+            "contenu": "Le document montre que la recherche chez l'avocat n'est pas une simple variante de la visite ordinaire. Le pouvoir de decider et d'encadrer l'acte remonte vers des acteurs judiciaires plus exposes a l'exigence de motivation. La fiche retient que cette elevation du niveau de controle vise a proteger un lieu ou circulent des confidences essentielles a la defense."
+          },
+          {
+            "titre": "Le batonnier occupe une place de vigie sans absorber tous les autres interets en jeu",
+            "contenu": "La copie souligne avec justesse que le batonnier ou son delegue surveille la regularite de la saisie, peut s'opposer a l'emport de certaines pieces et provoque un examen ulterieur du JLD. La fiche en retient une fonction de garde-fou institutionnel. Ce role est fort, mais il ne suffit pas a lui seul a epuiser la defense concrete de l'avocat personnellement vise."
+          },
+          {
+            "titre": "La reforme de 2021 a densifie la motivation et la proportion du controle",
+            "contenu": "Le document met en avant plusieurs renforts : intervention plus structurante du JLD, prise en compte explicite de la proportion, cadrage plus ferme du contenu saisissable et ouverture d'un recours suspensif. La fiche y voit un changement de philosophie. L'acte ne repose plus seulement sur une autorisation initiale, mais sur une chaine de controle plus resserree autour de sa justification."
+          },
+          {
+            "titre": "Les decisions recentes distinguent nettement le secret professionnel et la defense propre de l'avocat mis en cause",
+            "contenu": "La bonne copie exploite bien la clarification apportee en 2024. Le fait que le batonnier veille au respect du secret ne signifie pas qu'il remplace l'avocat choisi pour defendre le confrere vise. La fiche retient ici une separation fonctionnelle nette : d'un cote la protection institutionnelle du cadre, de l'autre la defense personnelle de celui qui subit l'acte."
+          },
+          {
+            "titre": "Le dispositif special sert en realite deux objectifs complementaires",
+            "contenu": "Le texte rappelle que le secret n'est pas protege pour le prestige d'un corps, mais pour eviter que l'autorite publique n'entre sans frein dans une relation de confiance indispensable aux droits de la defense. La fiche en conclut que le regime special ne ralentit pas simplement l'enquete. Il preserve la credibilite meme d'un espace de conseil et de protection du justiciable."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi une perquisition chez l'avocat ne peut-elle pas etre lue comme une simple perquisition ordinaire ?",
+          "reponse": "Parce qu'elle touche un espace ou se concentrent des confidences et des garanties de defense qui exigent un encadrement judiciaire renforce.",
+          "explication": "La fiche montre que le niveau de controle eleve repond ici a la nature tres sensible du lieu vise.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel changement institutionnel majeur la copie met-elle en avant ?",
+          "reponse": "Le pouvoir d'encadrement quitte le seul terrain policier pour etre structure autour du magistrat, du JLD et d'un controle ulterieur plus dense.",
+          "explication": "Le document fait de cette montee en gamme judiciaire la marque du regime special.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le role essentiel du batonnier dans ce dispositif ?",
+          "reponse": "Il surveille la regularite de la saisie et peut contester l'emport de pieces qu'il estime incompatibles avec la protection du secret.",
+          "explication": "La fiche lui donne une fonction de vigie institutionnelle au coeur de l'acte.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi ce role du batonnier ne suffit-il pas a regler toute la question de la defense ?",
+          "reponse": "Parce qu'il protege le cadre general et le secret professionnel sans se confondre avec la defense personnelle de l'avocat vise.",
+          "explication": "La copie exploite ici le point clarifie par la decision recente sur l'assistance du confrere mis en cause.",
+          "difficulte": 3
+        },
+        {
+          "question": "Qu'apporte la reforme de 2021 selon cette copie ?",
+          "reponse": "Elle renforce la motivation, la prise en compte de la proportion, le controle du contenu saisissable et les voies de recours immediates.",
+          "explication": "La fiche lit la reforme comme un resserrement general du filtre judiciaire autour de l'acte.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la proportion prend-elle une place aussi importante dans ce regime ?",
+          "reponse": "Parce que l'atteinte n'est acceptable que si son intensite reste strictement calibree au regard de la gravite du dossier et de ce qui est recherche.",
+          "explication": "Le document montre que la recherche ne peut pas s'etendre librement dans un espace charge de confidences protegees.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel apport cle la copie retient-elle de la decision de 2024 ?",
+          "reponse": "La reconnaissance claire que l'avocat vise peut etre assiste par son propre conseil sans etre absorbe par la seule presence du batonnier.",
+          "explication": "La fiche fait de cette separation des roles un gain net de lisibilite dans le contentieux des saisies.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la copie insiste-t-elle sur le secret professionnel comme protection d'une relation ?",
+          "reponse": "Parce que l'enjeu reel est d'empecher une intrusion publique excessive dans la confiance necessaire entre l'avocat et le justiciable.",
+          "explication": "Le document rattache le regime special a la defense des droits du client autant qu'au statut de l'avocat.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel effet pratique produit le recours suspensif dans ce cadre ?",
+          "reponse": "Il empeche que la contestation soit videe de sa substance en laissant produire trop vite ses effets a une saisie deja discutee.",
+          "explication": "La fiche y voit un outil d'effectivite et non une simple formalite supplementaire.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette bonne copie ?",
+          "reponse": "Plus la perquisition approche le coeur de la defense de l'avocat, plus elle doit etre gouvernee par un controle motive, pluralise et contestable.",
+          "explication": "La fiche relie ainsi secret professionnel, role du batonnier, JLD et defense propre du confrere vise.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Perquisition chez l'avocat",
+        "questions": [
+          {
+            "question": "Pourquoi ce regime de perquisition est-il plus encadre que le droit commun ?",
+            "choix": [
+              "A. Parce qu'il protege un espace ou se trouvent des confidences liees aux droits de la defense.",
+              "B. Parce qu'il interdit toute recherche judiciaire.",
+              "C. Parce qu'il supprime le role du magistrat.",
+              "D. Parce qu'il reserve l'acte a la police seule."
+            ],
+            "reponse_correcte": 0,
+            "explication": "La fiche rattache le renforcement du controle a la sensibilite particuliere du lieu vise.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel role la copie attribue-t-elle au batonnier ?",
+            "choix": [
+              "A. Remplacer integralement le conseil de l'avocat mis en cause.",
+              "B. Veiller institutionnellement a la regularite et a la protection du secret pendant la saisie.",
+              "C. Se borner a observer sans pouvoir reagir.",
+              "D. Prononcer lui-meme les nullites."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document lui reconnait une fonction de vigie, distincte de la defense personnelle du confrere vise.",
+            "difficulte": 2
+          },
+          {
+            "question": "Que clarifie utilement la decision recente mise en avant dans la copie ?",
+            "choix": [
+              "A. Que la presence du batonnier efface tout droit a un autre avocat.",
+              "B. Que l'assistance du confrere mis en cause par son propre conseil garde une utilite propre.",
+              "C. Que toute contestation est interdite.",
+              "D. Que le secret professionnel a disparu."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche distingue nettement la mission institutionnelle du batonnier et la defense personnelle du professionnel vise.",
+            "difficulte": 2
+          },
+          {
+            "question": "Quel est l'effet general de la reforme de 2021 selon ce document ?",
+            "choix": [
+              "A. Une simplification purement cosmetique.",
+              "B. Un resserrement du filtre judiciaire autour de la motivation, de la proportion et des recours.",
+              "C. La suppression des controles ulterieurs.",
+              "D. La disparition du JLD."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche lit la reforme comme une densification nette des garanties autour de l'acte.",
+            "difficulte": 2
+          }
+        ]
+      }
+    },
+    {
+      "document_id": 1065,
+      "fiche": {
+        "titre": "Statut du parquet : independance proclamee, dependance organisee et reforme inachevee",
+        "resume": "Ce corrige de TD sur la decision du 8 decembre 2017 reconstruit la position du Conseil constitutionnel sur le parquet. La fiche en retient une idee directrice : la Constitution reconnait une forme d'independance du ministere public, mais cette independance demeure differenciee, conciliee avec les prerogatives du gouvernement et encadree par des garanties plus faibles que celles du siege. Toute la richesse du document tient dans cette tension entre proclamation et reserve. Il expose a la fois les appuis mobilises pour sauver le dispositif et les raisons pour lesquelles une partie de la doctrine juge la reforme encore largement inachevee.",
+        "sections": [
+          {
+            "titre": "Le Conseil affirme une independance du parquet qui n'est ni totale ni symetrique a celle du siege",
+            "contenu": "Le document montre que l'idee centrale n'est pas d'assimiler completement le ministere public aux magistrats du siege. Il s'agit plutot d'admettre une independance d'intensite variable. La fiche retient que cette difference n'est pas un detail technique. Elle structure tout le raisonnement sur les nominations, les mutations et la discipline."
+          },
+          {
+            "titre": "Les garanties statutaires plus faibles entretiennent un doute persistant sur la realite de cette independance",
+            "contenu": "La copie insiste sur le fait que le CSM ne tient pas ici le meme role determinant que pour le siege et que le poids du garde des Sceaux demeure sensible dans la carriere des parquetiers. La fiche en conclut qu'une independance seulement proclamee, si elle n'est pas accompagnee de verrous suffisants sur la carriere, reste exposee a la critique."
+          },
+          {
+            "titre": "La liberte fonctionnelle du parquet est sauvegardee tout en restant conciliee avec la politique conduite par le gouvernement",
+            "contenu": "Le document rappelle que le ministere public parle librement a l'audience, exerce l'action publique et se voit rappeler des devoirs d'impartialite et de recherche a charge et a decharge. Mais il souligne aussi que cette action doit cohabiter avec des orientations generales emanant du pouvoir executif. La fiche retient ici un equilibre revendique plutot qu'une autonomie pleine."
+          },
+          {
+            "titre": "Les instructions individuelles reculent, mais d'autres canaux d'influence demeurent tres presents",
+            "contenu": "La bonne copie met bien en avant le role des circulaires generales, des remontees d'informations et de l'organisation hierarchique interne. La fiche y voit un point decisif : l'effacement d'un levier direct n'emporte pas disparition de toute influence. Le systeme reste traverse par des modes de pilotage plus diffus, parfois plus difficiles a saisir pour le justiciable."
+          },
+          {
+            "titre": "La conclusion du document est clairement celle d'une reforme encore incomplete",
+            "contenu": "Le texte montre que plusieurs acteurs institutionnels appellent a un renforcement plus net des garanties, qu'il s'agisse du role du CSM, du statut disciplinaire ou des remontees d'informations. La fiche retient donc une image precise : le parquet est reconnu comme independant, mais dans un regime encore trop fragile pour faire taire durablement les objections venues de la doctrine et du droit europeen."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle idee directrice du statut du parquet ce document cherche-t-il a faire comprendre ?",
+          "reponse": "Que son independance est reconnue, mais selon des garanties moins fortes et moins completes que celles du siege.",
+          "explication": "La fiche fait de cette dissymetrie la cle de tout le raisonnement constitutionnel expose par le corrige.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la comparaison avec les magistrats du siege reste-t-elle decisive ?",
+          "reponse": "Parce qu'elle revele immediatement que le parquet ne beneficie ni du meme niveau de verrouillage statutaire ni de la meme protection de carriere.",
+          "explication": "Le document utilise cette comparaison pour montrer les limites de l'independance proclamee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel point statutaire nourrit le plus fortement la critique du systeme selon la copie ?",
+          "reponse": "Le fait que la carriere du parquet reste plus exposee a l'influence du garde des Sceaux et a des garanties institutionnelles moins fermes.",
+          "explication": "La fiche rattache ce point aux nominations, aux mutations et au pouvoir disciplinaire.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi parle-t-on ici d'une independance a geometrie variable ?",
+          "reponse": "Parce que le parquet est dit independant sans etre place a egalite de garanties avec le siege ni completement soustrait a la conduite generale du gouvernement.",
+          "explication": "Le document insiste sur ce dosage different plutot que sur une independance pleine et homogene.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles garanties fonctionnelles le Conseil mobilise-t-il pour soutenir sa solution ?",
+          "reponse": "La liberte de parole a l'audience, le devoir d'impartialite, la recherche a charge et a decharge et la maitrise de l'opportunite des poursuites.",
+          "explication": "La fiche montre que ces garanties servent a justifier la conciliation avec les prerogatives de l'executif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi ces garanties fonctionnelles ne suffisent-elles pas a convaincre totalement la copie ?",
+          "reponse": "Parce qu'elles coexistent avec un cadre hierarchique et politique qui continue a peser sur l'action et la carriere du parquet.",
+          "explication": "Le document souligne ici le decalage entre liberte annoncee et dependance encore organisee.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel probleme posent les remontees d'informations dans ce raisonnement ?",
+          "reponse": "Elles maintiennent un canal de regard et de pilotage sur les affaires sensibles, meme sans instruction individuelle explicite.",
+          "explication": "La fiche y voit l'un des lieux les plus delicats de l'influence diffuse du pouvoir executif.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'interdiction des instructions individuelles n'epuise-t-elle pas la critique ?",
+          "reponse": "Parce que d'autres moyens plus generaux ou plus indirects continuent a structurer l'action du parquet et ses anticipations.",
+          "explication": "Le document rappelle que la disparition d'un outil visible ne supprime pas tous les effets de dependance.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que signifie, dans l'economie de cette copie, l'idee de reforme inachevee ?",
+          "reponse": "Qu'un progres existe, mais qu'il ne ferme pas les debats sur le statut, la carriere, la discipline et l'information du ministere de la Justice.",
+          "explication": "La fiche conclut sur un mouvement entame, mais encore insuffisant pour stabiliser vraiment la position du parquet.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce corrige ?",
+          "reponse": "Le parquet est constitutionnellement reconnu comme independant, mais dans une architecture encore trop dependante du pouvoir executif pour ne plus susciter de contestation.",
+          "explication": "La fiche relie ainsi dissymetrie statutaire, liberte fonctionnelle et reforme toujours incomplete.",
+          "difficulte": 3
+        }
+      ],
+      "quiz": {
+        "titre": "Quiz - Statut du parquet",
+        "questions": [
+          {
+            "question": "Quel est le coeur de la position exposee dans ce corrige sur le parquet ?",
+            "choix": [
+              "A. Le parquet est identique au siege sous tous les angles.",
+              "B. Le parquet est reconnu comme independant, mais selon des garanties distinctes et moins fortes que celles du siege.",
+              "C. Le parquet n'appartient pas du tout a l'autorite judiciaire.",
+              "D. Le parquet est depourvu de toute liberte a l'audience."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche fait de cette dissymetrie la charpente de toute l'analyse.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi la carriere du parquet alimente-t-elle les critiques ?",
+            "choix": [
+              "A. Parce qu'elle est completement verrouillee par le CSM.",
+              "B. Parce qu'elle reste plus exposee a l'influence du garde des Sceaux que celle du siege.",
+              "C. Parce qu'elle est tiree au sort.",
+              "D. Parce qu'elle ne comporte aucune sanction disciplinaire."
+            ],
+            "reponse_correcte": 1,
+            "explication": "Le document relie cette fragilite aux nominations, aux mutations et a la discipline.",
+            "difficulte": 2
+          },
+          {
+            "question": "Pourquoi les remontees d'informations occupent-elles une place si sensible ?",
+            "choix": [
+              "A. Parce qu'elles suppriment les audiences.",
+              "B. Parce qu'elles entretiennent un regard et un pilotage diffus sur les affaires sensibles.",
+              "C. Parce qu'elles remplacent le juge du siege.",
+              "D. Parce qu'elles n'ont aucun lien avec l'executif."
+            ],
+            "reponse_correcte": 1,
+            "explication": "La fiche y voit un canal d'influence plus discret, mais encore tres structurant.",
+            "difficulte": 3
+          },
+          {
+            "question": "Que veut dire ici l'idee de reforme inachevee ?",
+            "choix": [
+              "A. Que plus aucun progres n'est possible.",
+              "B. Que l'independance a ete totalement achevee.",
+              "C. Que des avances existent, mais que le statut et les garanties du parquet restent encore trop fragiles.",
+              "D. Que le parquet doit disparaitre."
+            ],
+            "reponse_correcte": 2,
+            "explication": "Le document conclut sur la persistance de plusieurs faiblesses structurelles malgre les ajustements deja engages.",
+            "difficulte": 2
+          }
+        ]
+      }
+    }
+  ]
+}
