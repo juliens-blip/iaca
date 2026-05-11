@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1234,
+      "fiche": {
+        "titre": "Societes civiles : frequentation pratique, objet civil et gerance souple sous le Code civil",
+        "resume": "Cette seance introduit les societes civiles. La fiche en retient une idee directrice : tres utilisees en pratique, notamment pour l'immobilier et certaines activites professionnelles, les societes civiles reposent sur une logique distincte des societes commerciales. Leur regime se caracterise par l'exigence d'un objet civil, l'absence de capital minimum et une gerance dont la nomination et le statut demeurent largement regis par le Code civil.",
+        "sections": [
+          {
+            "titre": "Les societes civiles occupent une place centrale dans la pratique quotidienne du droit des societes",
+            "contenu": "Le document cite les SCI, les societes civiles de construction-vente ou encore certaines structures professionnelles. La fiche retient que la societe civile n'est pas une figure marginale, mais un instrument courant d'organisation patrimoniale ou professionnelle."
+          },
+          {
+            "titre": "Le droit commun des societes civiles provient d'abord des articles 1845 et suivants du Code civil",
+            "contenu": "Le cours rappelle que, sauf textes speciaux, le regime applicable se trouve dans le Code civil. La fiche retient que les societes civiles se comprennent moins par le prisme du Code de commerce que par une matrice civiliste generale."
+          },
+          {
+            "titre": "La constitution exige plusieurs associes, un objet civil et aucun capital minimum legal",
+            "contenu": "Le document precise qu'une societe civile ne peut pas etre unipersonnelle, que ses associes n'ont pas a etre commercants et que son activite doit rester civile. La fiche retient que l'absence de capital minimal se comprend en contrepartie de l'engagement indefini des associes envers les dettes sociales."
+          },
+          {
+            "titre": "Les statuts et leurs mises a jour font l'objet d'un formalisme de remise et d'information interne",
+            "contenu": "Le cours rappelle qu'en cas d'acte sous seing prive, une copie certifiee conforme des statuts doit etre remise a chaque associe, avec possibilite d'obtenir les versions mises a jour. La fiche retient que la societe civile preserve une forte dimension interpersonnelle fondee sur l'information statutaire partagee."
+          },
+          {
+            "titre": "La gerance peut etre confiee a des personnes variees selon une logique souple mais publicisee",
+            "contenu": "Le document indique que le gerant peut etre associe ou tiers, personne physique ou morale, et qu'il est en principe nomme a la majorite de plus de la moitie des parts sociales. La fiche retient que la souplesse de la gerance n'exclut pas des exigences de publicite et de responsabilite propres a la protection des tiers."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi les societes civiles sont-elles tres frequentes en pratique ?",
+          "reponse": "Parce qu'elles servent a organiser de nombreux patrimoines et activites civiles, en particulier dans l'immobilier et certaines professions.",
+          "explication": "Le document prend notamment l'exemple des SCI et d'autres societes civiles specialisees.",
+          "difficulte": 1
+        },
+        {
+          "question": "Ou se trouve le droit commun applicable aux societes civiles ?",
+          "reponse": "Principalement dans les articles 1845 et suivants du Code civil.",
+          "explication": "La fiche souligne ainsi l'ancrage civiliste de leur regime general.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi une societe civile ne peut-elle pas avoir un objet commercial ?",
+          "reponse": "Parce que sa qualification meme suppose un objet civil, qui conditionne son rattachement a ce regime juridique particulier.",
+          "explication": "Le cours insiste sur l'imperatif d'un objet social civil.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la loi n'impose-t-elle pas de capital social minimum aux societes civiles ?",
+          "reponse": "Parce que les creanciers sont deja partiellement proteges par l'engagement indefini des associes sur les dettes sociales.",
+          "explication": "La fiche relie l'absence de capital minimum a la logique de responsabilite des associes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Les associes d'une societe civile doivent-ils avoir la qualite de commercant ?",
+          "reponse": "Non, la capacite commerciale n'est pas requise pour devenir associe d'une societe civile.",
+          "explication": "Le document oppose ici nettement la societe civile a la SNC.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel interet presente la remise d'une copie certifiee conforme des statuts a chaque associe ?",
+          "reponse": "Elle garantit que chaque associe dispose d'une version fiable du cadre juridique commun et peut suivre les evolutions de la societe.",
+          "explication": "La fiche y voit un prolongement de la dimension relationnelle forte de ces societes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qui peut etre gerant d'une societe civile ?",
+          "reponse": "Une ou plusieurs personnes, physiques ou morales, associees ou non.",
+          "explication": "Le document souligne la souplesse du choix laisse aux associes.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle majorite s'applique en principe a la nomination du gerant de societe civile ?",
+          "reponse": "Sauf clause contraire, il faut une decision des associes representant plus de la moitie des parts sociales.",
+          "explication": "La fiche met en avant cette regle comme particularite importante du regime de gerance.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la nomination et la cessation des fonctions du gerant doivent-elles etre publiees ?",
+          "reponse": "Parce que les tiers doivent pouvoir identifier la personne habilitee a representer la societe et se fier a cette information.",
+          "explication": "Le document rattache cette publicite a l'opposabilite et a la securite des relations juridiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur les societes civiles ?",
+          "reponse": "Les societes civiles sont des structures largement utilisees, fondees sur un objet civil, une forte souplesse interne et un regime de gerance organise par le Code civil.",
+          "explication": "La fiche relie ainsi pratique courante, objet civil et organisation interpersonnelle.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1235,
+      "fiche": {
+        "titre": "SARL pluripersonnelle : societe a risque limite, capital souple et discipline de liberation des apports",
+        "resume": "Cette seance ouvre l'etude de la SARL parmi les societes a risque limite. La fiche en retient une idee directrice : la SARL demeure une forme centrale du droit des affaires, meme si elle est concurrencee par la SAS. Son regime de constitution combine une grande accessibilite, grace a l'absence de capital minimum, avec une discipline precise de souscription et de liberation des apports en numeraire, destinee a proteger la societe et a structurer serieusement son financement initial.",
+        "sections": [
+          {
+            "titre": "La SARL reste une forme classique et encore dominante dans le paysage entrepreneurial",
+            "contenu": "Le document rappelle l'anciennete de la SARL et sa large diffusion pratique, malgre la progression des SAS. La fiche retient que la SARL conserve un poids structurel majeur, notamment en nombre de societes existantes."
+          },
+          {
+            "titre": "La SARL se decl ine en version pluripersonnelle et en version unipersonnelle",
+            "contenu": "Le cours distingue la SARL ordinaire de l'EURL, qui n'en est qu'une variante a associe unique. La fiche retient que le regime de la SARL est pense pour accueillir aussi bien plusieurs associes qu'une organisation unipersonnelle."
+          },
+          {
+            "titre": "La constitution de la SARL se caracterise par un nombre maximal d'associes et l'absence de capital minimum",
+            "contenu": "Le document precise qu'une SARL ne peut pas depasser cent associes et qu'elle peut etre constituee avec un capital tres faible. La fiche retient que cette accessibilite du capital facilite la creation, tout en deplacant la protection vers d'autres mecanismes."
+          },
+          {
+            "titre": "Les apports en numeraire ob eissent a une distinction essentielle entre souscription et liberation",
+            "contenu": "Le cours rappelle qu'il faut distinguer la promesse d'apport et son versement effectif. La fiche retient que la SARL autorise une liberation partielle initiale, mais impose un calendrier et des conditions strictes pour le versement du surplus."
+          },
+          {
+            "titre": "La liberation incomplete du capital produit des consequences juridiques et fiscales importantes",
+            "contenu": "Le document mentionne l'impossibilite de proceder a certaines augmentations de capital tant que les apports anterieurs ne sont pas entierement liberes, ainsi que la perte du benefice du taux reduit d'IS. La fiche retient que le droit incite fortement a une liberation serieuse et rapide du capital promis."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la SARL reste-t-elle une forme importante malgre la concurrence de la SAS ?",
+          "reponse": "Parce qu'elle demeure massivement utilisee en pratique et conserve un poids numerique et historique considerable dans les societes commerciales.",
+          "explication": "Le document distingue clairement le flux des creations et le stock de societes existantes.",
+          "difficulte": 1
+        },
+        {
+          "question": "Qu'est-ce qu'une EURL au regard du droit des societes ?",
+          "reponse": "C'est une SARL unipersonnelle, c'est-a-dire une entreprise a responsabilite limitee ne comptant qu'un seul associe.",
+          "explication": "La fiche rappelle qu'il s'agit d'une declinaison de la SARL et non d'une categorie totalement autonome.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est le nombre maximal d'associes dans une SARL ?",
+          "reponse": "Une SARL ne peut pas compter plus de cent associes.",
+          "explication": "Le document en fait une caracteristique marquante de sa constitution.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'absence de capital minimum rend-elle la SARL accessible ?",
+          "reponse": "Parce qu'elle permet de constituer la societe avec une mise de depart tres faible, sans exigence legale d'un seuil important de fonds propres initiaux.",
+          "explication": "La fiche souligne que cette souplesse n'efface pas pour autant toute discipline financiere.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle difference faut-il faire entre souscription et liberation d'un apport en numeraire ?",
+          "reponse": "La souscription est l'engagement de verser une somme, alors que la liberation correspond au paiement effectif de cette somme a la societe.",
+          "explication": "Le document presente cette distinction comme fondamentale dans la constitution de la SARL.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la loi autorise-t-elle une liberation partielle des apports en numeraire lors de la constitution ?",
+          "reponse": "Parce qu'elle facilite la creation de la societe tout en laissant au gerant la possibilite d'appeler ulterieurement le solde dans un delai encadre.",
+          "explication": "La fiche relie cette souplesse a la recherche d'un equilibre entre accessibilite et serieux financier.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi une augmentation de capital en numeraire peut-elle etre nulle dans une SARL ?",
+          "reponse": "Parce qu'elle n'est pas permise si le capital social anterieurement souscrit n'a pas ete integralement libere.",
+          "explication": "Le document y voit une regle de coherence financiere et de protection de la societe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel lien existe entre liberation integrale du capital et fiscalite de la SARL ?",
+          "reponse": "Une liberation incomplete peut priver la societe du benefice du taux reduit d'impot sur les societes applicable a certaines petites structures.",
+          "explication": "La fiche montre que la contrainte n'est pas seulement societaire, mais aussi fiscale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qui reste tenu du solde non libere lorsqu'une part sociale insuffisamment liberee est c e dee ?",
+          "reponse": "Selon la solution mentionnee dans le cours, c'est le c edant, auteur de l'apport initial, qui demeure tenu de cette creance envers la societe.",
+          "explication": "Le document s'appuie sur une decision recente et sur l'idee que la creance demeure personnelle a l'associe apporteur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur la constitution de la SARL ?",
+          "reponse": "La SARL combine une grande souplesse de creation avec un encadrement precis des apports, afin d'assurer un financement initial serieux malgre l'absence de capital minimum.",
+          "explication": "La fiche relie ainsi accessibilite entrepreneuriale, parts sociales et discipline de liberation.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1236,
+      "fiche": {
+        "titre": "Associes de SARL : fiscalite des dividendes et cession des parts entre liberte familiale et agrement des tiers",
+        "resume": "Cette seance poursuit l'etude de la SARL a travers le statut de ses associes. La fiche en retient une idee directrice : la SARL organise une combinaison caracteristique entre une fiscalite ordinaire des dividendes, typique des societes soumises a l'IS, et un regime de circulation des parts sociales reposant sur une protection du cercle social. Les cessions sont largement libres a l'interieur du groupe des associes et de la famille proche, mais restent encadrees lorsqu'un tiers entend entrer dans la societe.",
+        "sections": [
+          {
+            "titre": "L'associe de SARL percoit les fruits d'une societe en principe soumise a l'impot sur les societes",
+            "contenu": "Le document rappelle que les benefices sont d'abord imposes au niveau de la societe, puis que les dividendes eventuellement distribues sont imposes chez les associes. La fiche retient que l'associe de SARL n'est pas fiscalement transparent par principe, contrairement a certaines autres structures."
+          },
+          {
+            "titre": "Les dividendes des associes personnes physiques relevent d'une fiscalite forfaitaire de reference",
+            "contenu": "Le cours evoque la flat tax, qui combine l'impot et les prelevements sociaux sur les revenus distribues. La fiche retient que la remuneration de l'associe simple passe d'abord par un revenu de capitaux, non par une imposition directe des benefices sociaux."
+          },
+          {
+            "titre": "La cession des parts sociales reste soumise a un formalisme d'opposabilite a la societe et aux tiers",
+            "contenu": "Le document renvoie au regime deja vu pour les SNC, avec notification a la societe et publicite appropriee. La fiche retient que la circulation des parts de SARL n'est pas purement informelle, meme lorsqu'elle est admise sur le fond."
+          },
+          {
+            "titre": "Les cessions entre associes et dans le cercle familial proche sont en principe libres",
+            "contenu": "Le cours cite les cessions entre associes, conjoints, ascendants et descendants, ainsi que certaines transmissions par succession. La fiche retient que la SARL demeure une societe relativement fermee, mais qu'elle admet une circulation souple tant que l'on reste dans un cercle juge familier ou deja integre."
+          },
+          {
+            "titre": "L'entree d'un tiers demeure soumise a un agrement protecteur du groupe existant",
+            "contenu": "Le document rappelle que la cession a un tiers etranger a la societe requiert l'accord de la majorite des associes representant au moins la moitie des parts sociales. La fiche retient que l'agrement est le mecanisme cle qui permet de controler la composition personnelle de la SARL."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi dit-on que la SARL est en principe soumise a l'impot sur les societes ?",
+          "reponse": "Parce que ses benefices sont normalement imposes d'abord au niveau de la personne morale avant toute distribution aux associes.",
+          "explication": "Le document oppose ce schema a celui des societes fiscalement transparentes.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quand les associes personnes physiques sont-ils imposes personnellement dans une SARL soumise a l'IS ?",
+          "reponse": "Ils le sont au moment de la distribution des dividendes qu'ils recoivent de la societe.",
+          "explication": "La fiche rappelle que l'imposition personnelle ne porte pas directement sur le benefice social non distribue.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que recouvre la flat tax mentionnee pour les dividendes des associes personnes physiques ?",
+          "reponse": "Elle regroupe dans un taux forfaitaire de reference l'impot sur le revenu et les contributions sociales dues sur les dividendes.",
+          "explication": "Le cours presente cette fiscalite comme le regime ordinaire de perception des revenus mobiliers.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la cession des parts sociales de SARL n'est-elle pas une simple affaire privee entre c edant et cessionnaire ?",
+          "reponse": "Parce qu'elle doit aussi etre rendue opposable a la societe et aux tiers selon un formalisme determine par la loi.",
+          "explication": "La fiche souligne que la circulation des parts a des effets collectifs qui justifient cette publicite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Les cessions de parts sont-elles libres entre associes dans une SARL ?",
+          "reponse": "Oui, en principe les parts sont librement cessibles entre associes.",
+          "explication": "Le document oppose cette liberte interne a la rigueur de l'entree des tiers.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les cessions entre conjoints, ascendants et descendants sont-elles en principe favorisees ?",
+          "reponse": "Parce que le droit considere que ces transmissions restent dans un cercle proche dont l'integration est moins destabil isante pour l'equilibre personnel de la societe.",
+          "explication": "La fiche presente cette solution comme le prolongement du caractere relativement ferme de la SARL.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le principe applicable a la cession de parts a un tiers etranger a la societe ?",
+          "reponse": "Elle exige un agrement de la majorite des associes representant au moins la moitie des parts sociales, sauf exigence statutaire plus forte.",
+          "explication": "Le document presente cette regle comme imperativement protectrice.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'agrement joue-t-il un role essentiel dans la SARL ?",
+          "reponse": "Parce qu'il permet aux associes en place de controler l'entree de nouveaux membres et de preserver la dimension personnelle de la societe.",
+          "explication": "La fiche relie ce mecanisme a la structure intermediaire de la SARL entre societe de personnes et societe de capitaux.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que se passe-t-il si la societe refuse d'agreer la cession a un tiers ?",
+          "reponse": "Le systeme impose en principe une solution de rachat ou de sortie organisee afin de ne pas laisser le c edant sans issue definitive.",
+          "explication": "Le document detaille ensuite les modalites de prise en charge de cette situation par les associes ou la societe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur l'associe de SARL ?",
+          "reponse": "L'associe de SARL releve d'une fiscalite classique de societe soumise a l'IS et detient des parts dont la circulation reste libre dans le cercle proche mais controlee a l'egard des tiers.",
+          "explication": "La fiche relie ainsi dividendes, formalisme et agrement.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1237,
+      "fiche": {
+        "titre": "Societe anonyme : anciennete, poids economique, concurrence de la SAS et precision statutaire a la constitution",
+        "resume": "Cette seance introduit la societe anonyme. La fiche en retient une idee directrice : la SA n'est plus la forme dominante en nombre, mais elle conserve une place cardinale pour les entreprises d'envergure et pour l'etude generale des societes par actions. Son regime de constitution revele une exigence de formalisme et d'information plus elevee, coherent e avec le role economique et la technicite de cette forme sociale.",
+        "sections": [
+          {
+            "titre": "La SA est une forme ancienne longtemps consideree comme le modele des grandes entreprises",
+            "contenu": "Le document rappelle l'anciennete historique de la societe anonyme et le role qu'on lui a longtemps attribue dans la reunion des capitaux et l'organisation de l'entreprise. La fiche retient que la SA a ete pensee comme un instrument privilegie de concentration financiere et de structuration du pouvoir economique."
+          },
+          {
+            "titre": "Le discours sur la democratie actionnariale doit etre relativise par la question du pouvoir des dirigeants",
+            "contenu": "Le cours evoque la critique classique de la confiscation du pouvoir par les dirigeants et le mouvement de corporate governance destine a redonner du poids aux actionnaires. La fiche retient que la SA est aussi un terrain de tension entre propriete du capital et maitrise effective de la decision."
+          },
+          {
+            "titre": "Malgre son declin relatif, la SA demeure centrale pour les societes importantes et les societes cotees",
+            "contenu": "Le document souligne que les SA sont moins nombreuses que d'autres formes mais conservent un poids economique fort, notamment pour les activites de grande taille et l'acces au marche reglemente. La fiche retient que sa rarefaction numerique ne signifie pas sa marginalisation economique."
+          },
+          {
+            "titre": "L'etude de la SA reste indispensable car beaucoup de regles irradient les autres societes par actions",
+            "contenu": "Le cours explique qu'une partie importante du regime de la SA sert aussi de reference pour d'autres structures, notamment la SAS ou la SCA. La fiche retient que la SA joue un role matriciel dans l'architecture generale des societes par actions."
+          },
+          {
+            "titre": "La constitution de la SA impose un formalisme statutaire plus detaille que dans d'autres societes",
+            "contenu": "Le document distingue la constitution avec ou sans offre au public et rappelle l'importance des mentions statutaires generales et speciales. La fiche retient que le droit exige de la SA une precision organique et financiere elevee des l'origine, afin d'encadrer une structure potentiellement plus complexe et plus ouverte."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la societe anonyme a-t-elle longtemps ete consideree comme une forme exemplaire ?",
+          "reponse": "Parce qu'elle etait percue comme un instrument efficace pour reunir des capitaux importants et organiser les grandes entreprises.",
+          "explication": "Le document replace cette vision dans une histoire longue du capitalisme societaire.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi faut-il relativiser l'idee d'une democratie actionnariale naturelle dans la SA ?",
+          "reponse": "Parce que les dirigeants peuvent concentrer le pouvoir effectif et agir selon leurs propres interets, malgre la presence theorique des actionnaires.",
+          "explication": "La fiche reprend ici la critique doctrinale mise en avant dans le cours.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'objectif general du mouvement de corporate governance dans la SA ?",
+          "reponse": "Renforcer les droits, l'information et le controle des actionnaires afin de limiter la captation du pouvoir par les dirigeants.",
+          "explication": "Le document presente ce mouvement comme une reponse aux desequilibres internes de la SA.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la SA reste-t-elle importante malgre la progression de la SAS ?",
+          "reponse": "Parce qu'elle continue d'etre choisie pour les entreprises les plus significatives et pour les societes dont les titres peuvent etre admis sur un marche reglemente.",
+          "explication": "La fiche oppose le declin numerique de la SA a sa persistance economique strategique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi etudier encore la SA en premier parmi les societes par actions ?",
+          "reponse": "Parce qu'une partie importante de son regime sert de reference ou de point d'appui a l'etude d'autres societes par actions.",
+          "explication": "Le document insiste sur cette fonction structurante du regime de la SA.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la SA joue-t-elle un role matriciel pour d'autres societes ?",
+          "reponse": "Parce que nombre de techniques juridiques elaborees pour elle sont reprises, adaptees ou transposees dans d'autres formes societaires par actions.",
+          "explication": "La fiche montre que la SA depasse sa seule sphere pratique immediate.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle distinction initiale le Code de commerce op ere-t-il pour la constitution d'une SA ?",
+          "reponse": "Il distingue la constitution sans offre au public de la constitution avec offre au public.",
+          "explication": "Le cours commence par le cas le plus simple et le plus frequent, celui sans offre au public.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les statuts d'une SA doivent-ils contenir des mentions plus detaillees ?",
+          "reponse": "Parce que la complexite potentielle de son capital, de ses organes et de ses droits actionnariaux impose une information initiale plus precise.",
+          "explication": "La fiche relie ce formalisme a la technicite de la structure anonyme.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles categories de mentions statutaires retrouve-t-on dans la SA ?",
+          "reponse": "Des mentions generales communes aux societes commerciales et des mentions speciales propres a la societe anonyme.",
+          "explication": "Le document cite ainsi a la fois le socle de l'article L. 210-2 et les exigences plus detaillees du regime special.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur la SA ?",
+          "reponse": "La SA est une forme societaire exigeante et moins dominante en nombre, mais elle reste decisive pour les grandes entreprises, les societes cotees et l'intelligence generale des societes par actions.",
+          "explication": "La fiche relie ainsi anciennete, gouvernance, poids economique et formalisme constitutif.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
