@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1175,
+      "fiche": {
+        "titre": "Interet collectif et droit d'agir : distinction entre syndicats habilites et associations plus etroitement encadrees",
+        "resume": "Cette seance poursuit l'etude des conditions subjectives de l'action en examinant les personnes morales qui agissent pour un interet collectif. La fiche en retient une idee directrice : tous les groupements ne disposent pas de la meme legitimite processuelle. Le syndicat beneficie d'une habilitation ancienne et forte pour defendre l'interet collectif de la profession, tandis que l'association s'est longtemps heurtee a une irrecevabilite de principe faute d'interet personnel propre.",
+        "sections": [
+          {
+            "titre": "Le syndicat dispose d'une habilitation speciale pour defendre l'interet collectif de la profession",
+            "contenu": "Le document rappelle la reconnaissance tres ancienne de l'action syndicale, d'abord par la jurisprudence puis par le legislateur. La fiche retient que le syndicat n'agit pas seulement pour un salarie determine, mais pour la profession qu'il represente lorsque les faits portent atteinte a son interet collectif."
+          },
+          {
+            "titre": "Le prejudice collectif peut etre caracterise meme si l'atteinte touche d'abord un individu",
+            "contenu": "Le cours montre que certains comportements, comme un licenciement discriminatoire ou un litige sur l'interpretation d'une convention collective, depassent le cas individuel. La fiche retient que le trouble collectif se mesure a la portee representative ou reproductible de l'atteinte dans le groupe professionnel."
+          },
+          {
+            "titre": "L'action de l'association a longtemps ete marquee par une irrecevabilite de principe",
+            "contenu": "Contrairement au syndicat, l'association ne disposait pas d'un texte general l'autorisant a agir pour l'interet collectif correspondant a son objet. La fiche retient que, dans la lecture classique de l'article 31 du code de procedure civile, elle ne defendait pas son interet personnel propre mais un interet distinct, ce qui faisait obstacle a la recevabilite."
+          },
+          {
+            "titre": "La difference de regime tient a la source de la qualite pour agir",
+            "contenu": "Le document oppose donc deux situations. La fiche retient que le syndicat agit sur la base d'une attribution legale clairement identifiee, tandis que l'association doit, en l'absence de texte, surmonter la difficulte tenant a l'exigence d'un interet personnel ou d'une habilitation expresse."
+          },
+          {
+            "titre": "La procedure civile traite ici la question politique de la representation des interets collectifs",
+            "contenu": "Au-dela de la technique, le cours pose une question de fond : qui peut parler en justice au nom d'un groupe ? La fiche retient que la recevabilite depend moins de la seule utilite sociale du combat que du titre juridique donne a celui qui le porte."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le syndicat peut-il agir en justice pour un interet collectif ?",
+          "reponse": "Parce qu'il beneficie d'une habilitation juridique speciale pour defendre l'interet collectif de la profession qu'il represente.",
+          "explication": "Le document rattache cette possibilite a une construction jurisprudentielle puis legislative ancienne.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel type d'interet collectif le syndicat est-il autorise a defendre ?",
+          "reponse": "L'interet collectif de la profession, et non un interet collectif quelconque sans lien avec sa mission representative.",
+          "explication": "La fiche insiste sur cette precision pour eviter une extension trop vague du droit d'agir.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi un litige individuel peut-il aussi justifier une action syndicale ?",
+          "reponse": "Parce que certains faits individuels revelent un trouble susceptible d'affecter plus largement la profession ou une collectivite de salaries.",
+          "explication": "Le document prend l'exemple d'un comportement discriminatoire ou d'une interpretation de convention collective.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle difference majeure existe entre syndicat et association dans ce chapitre ?",
+          "reponse": "Le syndicat dispose d'une habilitation generale plus nette, alors que l'association s'est longtemps heurtee a une irrecevabilite de principe en l'absence de texte comparable.",
+          "explication": "La fiche en fait le coeur de la comparaison des deux regimes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'association etait-elle traditionnellement consideree comme irrecevable a agir pour un interet collectif ?",
+          "reponse": "Parce qu'elle ne defendait pas son interet personnel propre au sens classique de l'article 31 du code de procedure civile.",
+          "explication": "Le document rattache ce raisonnement a une conception stricte de l'interet pour agir.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que montre l'exemple du syndicat dans l'analyse de la qualite pour agir ?",
+          "reponse": "Qu'une qualite specialement attribuee par la loi peut permettre de depasser l'exigence d'un simple interet individuel.",
+          "explication": "La fiche relie ainsi les conditions subjectives de l'action aux interets collectifs organises.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'action en justice des groupements n'est-elle pas seulement une question technique ?",
+          "reponse": "Parce qu'elle decide qui est autorise a representer un groupe et a transformer une cause collective en pretention juridictionnelle recevable.",
+          "explication": "Le document montre que la procedure civile touche ici a une question de representation sociale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter a propos du syndicat ?",
+          "reponse": "Croire qu'il agit seulement comme soutien accessoire d'une victime individuelle alors qu'il defend aussi un interet collectif autonome de la profession.",
+          "explication": "La fiche distingue clairement ces deux plans d'intervention.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter a propos de l'association ?",
+          "reponse": "Supposer que son objet statutaire suffit toujours a lui ouvrir l'action, alors que la recevabilite depend d'une base juridique plus exigeante.",
+          "explication": "Le document rappelle la rigueur historique du principe d'irrecevabilite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "En matiere d'interets collectifs, la recevabilite d'un groupement depend du titre juridique qui l'autorise a agir, ce qui favorise historiquement le syndicat bien davantage que l'association.",
+          "explication": "La fiche relie ainsi interet collectif, qualite pour agir et representation en justice.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1176,
+      "fiche": {
+        "titre": "Actions de groupe en droit francais : construction sectorielle, pluralite de regimes et logique legislative progressive",
+        "resume": "Cette seance presente la maniere dont le droit francais a organise les actions de groupe. La fiche en retient une idee directrice : la France n'a pas adopte une action de groupe unique et generale, mais une addition de dispositifs sectoriels apparus par vagues successives. La comprehension de cette technique suppose donc de suivre le choix legislatif d'une fragmentation par matieres plutot que d'une unification procedurale immediate.",
+        "sections": [
+          {
+            "titre": "Le droit francais a retenu une approche sectorielle de l'action de groupe",
+            "contenu": "Le document insiste sur le fait que le legislateur a cree plusieurs actions de groupe distinctes selon les domaines concernes. La fiche retient que ce choix rompt avec l'idee d'un mecanisme general applicable a toute atteinte collective de masse."
+          },
+          {
+            "titre": "La premiere action de groupe a ete celle de la consommation en 2014",
+            "contenu": "Le cours rappelle le role de la loi Hamon du 17 mars 2014. La fiche retient que cette premiere version etait etroitement circonscrite a la reparation de prejudices patrimoniaux issus de dommages materiels subis par les consommateurs."
+          },
+          {
+            "titre": "L'annee 2016 a marque une extension rapide vers d'autres secteurs sensibles",
+            "contenu": "Le document recense ensuite l'action de groupe en matiere de sante, de discriminations, de travail, d'environnement, de donnees personnelles et meme la variante administrative. La fiche retient que 2016 constitue le moment d'acceleration decisive de cette technique contentieuse."
+          },
+          {
+            "titre": "Chaque action de groupe reste inseree dans son corpus normatif propre",
+            "contenu": "Le cours montre que les textes se dispersent entre code de la consommation, code de la sante publique, code du travail, code de l'environnement, loi informatique et libertes ou code de justice administrative. La fiche retient que le regime applicable depend donc fortement de la matiere concernee."
+          },
+          {
+            "titre": "Le choix sectoriel traduit une prudence politique autant qu'une technique procedurale",
+            "contenu": "Le document suggere que le legislateur avance domaine par domaine. La fiche retient qu'il s'agit d'une strategie d'introduction progressive : on autorise des contentieux collectifs, mais dans des cadres delimites, testes et politiquement plus maitrisables."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel choix de structure le legislateur francais a-t-il fait pour l'action de groupe ?",
+          "reponse": "Il a retenu une approche sectorielle en multipliant des actions de groupe speciales selon les matieres.",
+          "explication": "La fiche oppose cette technique a l'idee d'une action de groupe generale et unique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle a ete la premiere action de groupe introduite en droit francais ?",
+          "reponse": "L'action de groupe en matiere de consommation issue de la loi Hamon du 17 mars 2014.",
+          "explication": "Le document en fait le point de depart chronologique du mouvement.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel type de prejudice la premiere action de groupe de consommation visait-elle principalement ?",
+          "reponse": "La reparation de prejudices patrimoniaux resultant de dommages materiels subis par les consommateurs.",
+          "explication": "La fiche souligne le caractere volontairement limite de ce premier dispositif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'annee 2016 est-elle importante dans cette matiere ?",
+          "reponse": "Parce qu'elle correspond a une forte extension des actions de groupe vers la sante, les discriminations, l'environnement, les donnees personnelles et d'autres secteurs.",
+          "explication": "Le document la presente comme une annee d'acceleration legislative.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi ne peut-on pas parler d'un regime unique de l'action de groupe en France ?",
+          "reponse": "Parce que chaque action de groupe est rattachee a un corpus normatif particulier et comporte ses propres conditions et finalites.",
+          "explication": "La fiche insiste sur la dispersion des textes entre plusieurs codes et lois.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans quels types de textes trouve-t-on ces differentes actions de groupe ?",
+          "reponse": "Dans des textes varies comme le code de la consommation, le code de la sante publique, le code du travail, le code de l'environnement, la loi informatique et libertes ou le code de justice administrative.",
+          "explication": "Le document montre ainsi le caractere eclate du dispositif francais.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le legislateur a-t-il sans doute avance secteur par secteur ?",
+          "reponse": "Parce qu'une introduction progressive permettait de mieux encadrer politiquement et techniquement ces nouveaux contentieux collectifs.",
+          "explication": "La fiche y voit une logique de prudence plutot qu'un simple hasard de codification.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur les actions de groupe francaises ?",
+          "reponse": "Croire qu'elles ob eissent toutes a un meme schema uniforme alors que leur architecture depend de la matiere et du texte qui les institue.",
+          "explication": "La fiche corrige cette vision trop unitaire du contentieux collectif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que montre l'implantation de certaines actions de groupe dans des parties reglementaires de codes ?",
+          "reponse": "Qu'au-dela de la loi d'habilitation, la mise en oeuvre pratique du dispositif requiert souvent des precisions procedurales complementaires.",
+          "explication": "Le document illustre cela notamment pour l'environnement ou la justice administrative.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Le droit francais des actions de groupe s'est construit par empilement sectoriel et progressif, selon une logique de specialisation normative plutot que d'unification immediate.",
+          "explication": "La fiche relie ainsi chronologie legislative, dispersion des textes et prudence du systeme.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1177,
+      "fiche": {
+        "titre": "Autorite de la chose jugee, force de chose jugee et irrevocabilite : trois degres d'efficacite du jugement",
+        "resume": "Cette seance ouvre l'etude de l'absence d'autorite de la chose jugee en commencant par definir la notion. La fiche en retient une idee directrice : l'autorite de la chose jugee ne doit jamais etre confondue avec la force de chose jugee ni avec l'irrevocabilite. Ces trois notions se succedent comme trois niveaux d'efficacite du jugement, chacun ayant une fonction propre dans la vie procedurale d'une decision.",
+        "sections": [
+          {
+            "titre": "L'autorite de la chose jugee interdit de recommencer devant un juge ce qui a deja ete tranche",
+            "contenu": "Le document s'appuie sur l'article 480 du code de procedure civile. La fiche retient que, des le prononce du jugement, les parties ne peuvent plus soumettre a nouveau la meme contestation a un juge de meme niveau comme si rien n'avait ete decide."
+          },
+          {
+            "titre": "Cette autorite nait des le prononce du jugement, meme avant l'epuisement des voies de recours",
+            "contenu": "Le cours insiste sur ce point souvent contre-intuitif. La fiche retient qu'un jugement de premiere instance deboute une partie avec autorite des son prononce, meme si cette partie conserve la possibilite d'exercer un appel dans les conditions legales."
+          },
+          {
+            "titre": "La force de chose jugee renvoie a l'absence de voie de recours suspensive d'execution",
+            "contenu": "Le document distingue soigneusement cette notion de l'autorite. La fiche retient que la force de chose jugee concerne l'executabilite de la decision lorsque l'appel ou l'opposition ne peuvent plus faire obstacle a son execution, sous reserve des complications liees a l'execution provisoire."
+          },
+          {
+            "titre": "L'irrevocabilite marque un stade encore plus avance dans la stabilisation du jugement",
+            "contenu": "Le cours annonce qu'un jugement irrevocable est celui contre lequel plus aucune voie de recours n'est ouverte. La fiche retient que l'irrevocabilite depasse donc la seule disparition des recours suspensifs et correspond a une cloture plus radicale du contentieux."
+          },
+          {
+            "titre": "Ces distinctions sont essentielles pour comprendre ce qu'une partie peut encore faire apres un jugement",
+            "contenu": "Le document montre qu'une partie deboutee ne peut pas ressaisir un premier juge, mais peut encore faire appel si les conditions sont reunies. La fiche retient que la strategie post-jugement depend entierement de la bonne distinction entre autorite, force et irrevocabilite."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Que signifie l'autorite de la chose jugee dans son idee la plus simple ?",
+          "reponse": "Elle interdit aux parties de soumettre a nouveau au juge la meme contestation deja tranchee par un jugement.",
+          "explication": "Le document en fait la fonction essentielle de stabilisation du litige decide.",
+          "difficulte": 1
+        },
+        {
+          "question": "A quel moment l'autorite de la chose jugee apparait-elle selon l'article 480 ?",
+          "reponse": "Elle apparait des le prononce du jugement, avant meme l'epuisement des voies de recours.",
+          "explication": "La fiche souligne ce point pour le distinguer du regime des voies de recours.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi une partie deboutee ne peut-elle pas saisir a nouveau un juge de premiere instance pour la meme demande ?",
+          "reponse": "Parce que le jugement deja rendu est revetu de l'autorite de la chose jugee relativement a la contestation tranchee.",
+          "explication": "Le document montre que la contestation doit alors etre deplacee sur le terrain des recours et non sur celui d'une nouvelle saisine identique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que designe la force de chose jugee ?",
+          "reponse": "Le moment ou la decision n'est plus susceptible d'un recours suspensif d'execution, ce qui permet en principe son execution forcee.",
+          "explication": "La fiche distingue ainsi stabilite de la decision et executabilite de la decision.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'autorite de la chose jugee et la force de chose jugee ne doivent-elles pas etre confondues ?",
+          "reponse": "Parce que l'autorite concerne l'interdiction de rejuger la meme contestation, alors que la force concerne l'absence de recours suspensif d'execution.",
+          "explication": "Le document traite cette distinction comme un point de methode fondamental.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role joue l'appel dans cette distinction ?",
+          "reponse": "L'appel peut rester ouvert alors meme que le jugement a deja autorite, ce qui montre que l'autorite ne suppose pas l'epuisement des recours.",
+          "explication": "La fiche en fait l'exemple le plus parlant de la difference entre les notions.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'ajoute l'irrevocabilite par rapport a la force de chose jugee ?",
+          "reponse": "Elle suppose qu'aucune voie de recours ne soit plus ouverte, et pas seulement qu'il n'existe plus de recours suspensif d'execution.",
+          "explication": "Le document presente l'irrevocabilite comme un degre superieur de stabilite du jugement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi ces distinctions importent-elles en pratique ?",
+          "reponse": "Parce qu'elles determinent si la partie doit se pourvoir par recours, peut subir l'execution forcee ou doit considerer le litige comme totalement clos.",
+          "explication": "La fiche relie ainsi theorie des notions et strategie contentieuse.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur l'autorite de la chose jugee ?",
+          "reponse": "Croire qu'elle suppose que le jugement soit deja definitif au sens de l'absence de tout recours, alors qu'elle nait des le prononce.",
+          "explication": "Le document insiste fortement sur ce decalage entre autorite et definit e.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Autorite, force et irrevocabilite sont trois notions distinctes qui organisent successivement l'effet d'interdiction, l'executabilite et la stabilite finale du jugement.",
+          "explication": "La fiche en fait la grille de lecture de toute l'efficacite procedurale des decisions de justice.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1178,
+      "fiche": {
+        "titre": "Mise en oeuvre de l'action : demandes, defenses et effets communs de la saisine du juge",
+        "resume": "Cette seance ouvre le titre consacre a la mise en oeuvre de l'action. La fiche en retient une idee directrice : avoir une action ne suffit pas, encore faut-il l'exercer par des actes processuels identifies. La procedure civile organise alors un passage du droit abstrait d'agir aux instruments concrets du proces, principalement les demandes et, dans la logique du code, les defenses.",
+        "sections": [
+          {
+            "titre": "La mise en oeuvre de l'action suppose un acte juridique procedura l",
+            "contenu": "Le document rappelle que l'action du demandeur se realise par la demande en justice. La fiche retient que le droit d'agir n'entre dans le proces qu'a travers un acte precis qui soumet au juge une pretention a trancher."
+          },
+          {
+            "titre": "Les redacteurs du code ont aussi presente les defenses comme l'exercice d'une action du defendeur",
+            "contenu": "Le cours mentionne une reserve doctrinale personnelle du professeur, mais expose la logique du code. La fiche retient que, dans cette conception, les moyens de defense constituent l'equivalent fonctionnel de la demande pour la partie defenderesse."
+          },
+          {
+            "titre": "La demande en justice produit plusieurs effets communs importants",
+            "contenu": "Le document enumere notamment la mise en demeure, l'interruption des delais de prescription et de preclusion, ainsi que, pour la demande initiale, la creation du lien juridique d'instance. La fiche retient que la saisine du juge transforme immediatement la situation juridique des parties."
+          },
+          {
+            "titre": "La distinction entre demande initiale et demandes incidentes repose d'abord sur le moment de formation",
+            "contenu": "Le cours adopte ici une distinction simple. La fiche retient qu'une demande est initiale lorsqu'elle introduit l'instance et incidente lorsqu'elle intervient une fois l'instance deja ouverte."
+          },
+          {
+            "titre": "La demande initiale est definie comme l'acte par lequel un plaideur prend l'initiative du proces",
+            "contenu": "Le document cite l'article 53 du code de procedure civile. La fiche retient que la demande initiale est l'acte introductif d'instance par excellence, celui qui fait entrer le litige dans le cadre juridictionnel."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la theorie de l'action doit-elle deboucher sur l'etude des demandes et des defenses ?",
+          "reponse": "Parce qu'un droit abstrait d'agir doit etre concretement exerce par des actes processuels pour produire ses effets dans le proces.",
+          "explication": "La fiche montre ainsi le passage du droit d'action a sa mise en oeuvre effective.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel acte permet principalement au demandeur d'exercer son action ?",
+          "reponse": "Le demandeur exerce principalement son action par la demande en justice adressee au juge.",
+          "explication": "Le document la presente comme l'instrument processuel central de mise en oeuvre de l'action.",
+          "difficulte": 1
+        },
+        {
+          "question": "Comment les redacteurs du code comprennent-ils les defenses du defendeur ?",
+          "reponse": "Comme des actes permettant, dans leur logique, la mise en oeuvre de l'action du defendeur.",
+          "explication": "La fiche rappelle que cette presentation n'emporte pas l'adhesion totale du professeur mais structure le code.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel premier effet important la demande en justice produit-elle sur l'obligation du debiteur ?",
+          "reponse": "Elle vaut mise en demeure, avec les consequences qui s'y rattachent.",
+          "explication": "Le document y associe notamment les interets moratoires et d'autres effets juridiques classiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel effet la demande en justice produit-elle sur les delais ?",
+          "reponse": "Elle interrompt le delai de prescription ainsi que le delai prefixe.",
+          "explication": "La fiche en fait un effet commun majeur de la saisine du juge.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel effet propre la demande initiale produit-elle sur le plan processuel ?",
+          "reponse": "Elle cree le lien juridique d'instance.",
+          "explication": "Le document annonce que cette notion sera ensuite etudiee dans la partie consacree a l'instance.",
+          "difficulte": 2
+        },
+        {
+          "question": "Sur quel critere repose d'abord la distinction entre demande initiale et demande incidente ?",
+          "reponse": "Sur le moment ou la demande est formee par rapport a l'ouverture de l'instance.",
+          "explication": "La fiche retient cette distinction comme volontairement simple et operatoire.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quand une demande est-elle qualifiee d'initiale ?",
+          "reponse": "Lorsqu'elle est formee au moment de l'introduction de l'instance et qu'elle prend l'initiative du proces.",
+          "explication": "Le document la rattache a l'article 53 du code de procedure civile.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur la demande en justice ?",
+          "reponse": "La voir comme une simple formalite d'ouverture alors qu'elle modifie immediatement la situation juridique des parties par plusieurs effets substantiels et processuels.",
+          "explication": "La fiche insiste sur la richesse de ses effets des sa formation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "La mise en oeuvre de l'action transforme le droit d'agir en actes processuels concrets, surtout la demande en justice, qui produit a la fois des effets sur le fond et sur l'instance.",
+          "explication": "La fiche relie ainsi theorie de l'action, effets de la demande et structure du proces.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
