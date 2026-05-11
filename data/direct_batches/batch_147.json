@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1244,
+      "fiche": {
+        "titre": "SNC : logique d'ensemble entre responsabilite des associes, statut du gerant et circulation fermee des parts",
+        "resume": "Cette seance de synthese sur la SNC met en avant les grands traits du regime. La fiche en retient une idee directrice : la societe en nom collectif est une societe commerciale de confiance personnelle, construite autour d'un engagement patrimonial fort des associes. Cette logique explique a la fois la rigueur du statut des associes, la place centrale du gerant et le controle severe de la circulation des parts sociales.",
+        "sections": [
+          {
+            "titre": "La SNC est une societe commerciale par la forme, fondee sur la qualite personnelle de ses associes",
+            "contenu": "Le document rappelle que tous les associes ont la qualite de commercant et doivent pouvoir assumer les consequences de ce statut. La fiche retient que la SNC est d'abord une societe de personnes ou la confiance et la capacite individuelle priment sur l'anonymat du capital."
+          },
+          {
+            "titre": "L'obligation aux dettes des associes structure tout le regime de la SNC",
+            "contenu": "Le cours souligne que les associes sont tenus solidairement et subsidiairement des dettes sociales. La fiche retient que cette exposition patrimoniale explique l'intensite du lien entre associes et la vigilance apportee a l'entree ou a la sortie du cercle social."
+          },
+          {
+            "titre": "Le gerant peut etre associe ou tiers, mais son statut varie selon sa position dans la societe",
+            "contenu": "Le document distingue le gerant associe, fiscalement et socialement traite comme un entrepreneur engage dans les benefices, du gerant non associe, davantage rapproche d'un salarie. La fiche retient que la fonction de gerance ne se comprend qu'en lien avec la structure personnaliste de la SNC."
+          },
+          {
+            "titre": "Les pouvoirs du gerant sont larges, mais demeurent encadres par l'objet social et les regles internes",
+            "contenu": "Le cours oppose les rapports internes, ou la gerance dispose en principe de tous pouvoirs de gestion, aux rapports externes, ou la societe n'est engagee que par les actes entrant dans l'objet social. La fiche retient que l'efficacite de la gerance ne fait pas disparaitre les limites attachees a l'interet et a la finalite de la societe."
+          },
+          {
+            "titre": "La cession des parts reste etroitement controlee en raison du caractere ferme de la SNC",
+            "contenu": "Le document rappelle l'exigence d'agrement unanime et les effets importants de l'entree ou de la sortie d'un associe sur le risque supporte. La fiche retient que la circulation des parts ne peut etre libre dans une societe ou chacun repond personnellement des dettes de tous."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la SNC est-elle decrite comme une societe de personnes ?",
+          "reponse": "Parce que l'identite, la qualite et la confiance entre associes y jouent un role central, bien au-dela de la simple mise en commun de capitaux.",
+          "explication": "Le document rattache cette logique au statut de commercant et a l'obligation aux dettes.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi tous les associes d'une SNC doivent-ils avoir la qualite de commercant ?",
+          "reponse": "Parce qu'ils participent a une societe commerciale par la forme et assument personnellement des engagements incompatibles avec un simple role passif.",
+          "explication": "La fiche relie cette qualite a la capacite commerciale et a l'exposition patrimoniale.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que signifie dire que les associes de SNC sont tenus subsidiairement des dettes sociales ?",
+          "reponse": "Cela signifie que le creancier doit d'abord solliciter la societe avant de se tourner contre les associes dans les conditions prevues par les textes.",
+          "explication": "Le document distingue cette subsidiarite de la solidarite entre associes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'obligation aux dettes explique-t-elle la fermeture du cercle social dans la SNC ?",
+          "reponse": "Parce que chaque associe supporte le risque cree par les autres, de sorte que l'entree d'un nouveau membre ne peut pas etre librement imposee.",
+          "explication": "La fiche relie directement responsabilite patrimoniale et controle des cessions de parts.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le gerant associe n'est-il pas traite comme un simple salarie ?",
+          "reponse": "Parce qu'il participe deja a la societe comme commercant et que sa remuneration s'analyse fiscalement et socialement dans la logique des benefices ou du travailleur independant.",
+          "explication": "Le document oppose clairement ce statut a celui du gerant non associe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans quel cas un gerant de SNC peut-il cumuler son mandat avec un contrat de travail ?",
+          "reponse": "En pratique surtout lorsqu'il n'est pas associe, a condition qu'existe un vrai emploi distinct, remunere separement et place sous subordination.",
+          "explication": "La fiche insiste sur la difficulte particuliere du cumul pour l'associe gerant.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les pouvoirs du gerant de SNC sont-ils larges en interne ?",
+          "reponse": "Parce qu'il doit pouvoir agir efficacement pour gerer la societe, sous reserve des competences reservees aux associes et du respect de l'objet social.",
+          "explication": "Le document presente cette ampleur de pouvoirs comme le regime de principe.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'objet social joue-t-il un role particulier dans les rapports externes de la SNC ?",
+          "reponse": "Parce que la societe n'est engagee a l'egard des tiers que par les actes entrant dans cet objet, ce qui fait de lui une limite d'engagement opposable.",
+          "explication": "La fiche oppose ici la SNC a d'autres societes ou les depassements sont plus difficilement opposables.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la cession de parts de SNC est-elle souvent decrite comme rigide ?",
+          "reponse": "Parce qu'elle exige l'accord unanime des associes et affecte directement l'equilibre personnel et patrimonial de la societe.",
+          "explication": "Le document rattache cette rigueur au fort intuitu personae de la structure.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur la SNC ?",
+          "reponse": "La SNC est une societe commerciale personnaliste, ou la gerance, la responsabilite des associes et le regime des parts sociales sont tous organises autour d'un engagement patrimonial et relationnel tres fort.",
+          "explication": "La fiche relie ainsi qualite de commercant, obligation aux dettes et agrement unanime.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1247,
+      "fiche": {
+        "titre": "Cas pratique DAF2 : cumul gerance-salariat en SNC et convention reglementee dans une SA",
+        "resume": "Ce document de correction traite deux problemes de droit classiques en droit des societes. La fiche en retient une idee directrice : le cas pratique met en evidence deux mecanismes de police interne tres differents. Dans la SNC, il s'agit de verifier la realite d'un contrat de travail a cote d'un mandat de gerant. Dans la SA, il faut identifier et sanctionner une convention reglementee conclue dans des conditions anormales avec un dirigeant.",
+        "sections": [
+          {
+            "titre": "Le cumul entre gerance d'une SNC et contrat de travail suppose un contrat de travail reel",
+            "contenu": "La correction rappelle les conditions classiques d'emploi effectif, de fonctions techniques distinctes, de remuneration propre et de lien de subordination. La fiche retient que l'existence d'un mandat social ne suffit jamais a exclure le cumul, mais qu'elle rend sa demonstration plus exigeante."
+          },
+          {
+            "titre": "L'associe de SNC ne peut en principe pas etre salarie en raison de sa qualite de commercant",
+            "contenu": "Le document s'appuie sur la jurisprudence du 14 octobre 2015 pour exclure le cumul entre qualite d'associe de SNC et salariat. La fiche retient que l'independance juridique attachee a l'associe commercant est regardee comme incompatible avec un veritable lien de subordination."
+          },
+          {
+            "titre": "La modification tres avantageuse d'un contrat au profit d'un administrateur de SA peut relever des conventions reglementees",
+            "contenu": "La correction explique qu'un avenant de remuneration conclu avec un dirigeant constitue une convention entrant potentiellement dans le champ de l'article L. 225-38. La fiche retient que l'analyse ne s'arrete pas a la qualification salariale initiale : il faut examiner la situation de la personne au moment de l'avenant et le caractere anormal des conditions consenties."
+          },
+          {
+            "titre": "L'exception des operations courantes conclues a des conditions normales joue un role decisif",
+            "contenu": "Le document montre qu'une augmentation de salaire peut paraitre courante dans son objet, mais perdre ce caractere protecteur lorsqu'elle intervient dans des conditions exceptionnellement avantageuses. La fiche retient que la normalite economique est aussi importante que la nature de l'operation."
+          },
+          {
+            "titre": "La sanction passe par la nullite eventuelle et par la mise a la charge des consequences prejudiciables",
+            "contenu": "La correction rappelle que l'absence de respect de la procedure peut conduire a remettre en cause la convention ou a faire supporter a l'interesse les consequences dommageables. La fiche retient que le droit des conventions reglementees sert moins a interdire qu'a surveiller et, si besoin, corriger les conflits d'interets internes."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le cumul entre gerance de SNC et contrat de travail doit-il etre examine de facon concrete ?",
+          "reponse": "Parce qu'il n'est valable que si le contrat de travail correspond a un emploi reel, distinct du mandat social et place sous un veritable lien de subordination.",
+          "explication": "Le document reprend ici la methode classique d'analyse du cumul.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le lien de subordination est-il souvent le point le plus delicat pour un gerant ?",
+          "reponse": "Parce qu'un dirigeant dispose deja d'un pouvoir propre dans la societe, ce qui rend difficile la demonstration d'une autorite hierarchique sur ses fonctions techniques.",
+          "explication": "La fiche souligne que ce point est au coeur de la solution en pratique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi un associe de SNC ne peut-il en principe pas etre salarie de la societe ?",
+          "reponse": "Parce que sa qualite de commercant implique une independance incompatible avec le lien de subordination caracteristique du contrat de travail.",
+          "explication": "Le document rattache cette solution a la jurisprudence sociale de 2015.",
+          "difficulte": 1
+        },
+        {
+          "question": "Qu'est-ce qui peut faire entrer un avenant de remuneration dans le regime des conventions reglementees d'une SA ?",
+          "reponse": "Le fait qu'il lie la societe a l'un de ses dirigeants et qu'il ne constitue pas une operation courante conclue a des conditions normales.",
+          "explication": "La fiche rappelle qu'il faut toujours verifier les conditions de l'article L. 225-38.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi ne suffit-il pas de dire qu'une augmentation de salaire est une operation courante ?",
+          "reponse": "Parce qu'il faut encore qu'elle soit conclue a des conditions normales, ce qui n'est pas le cas lorsqu'elle devient exceptionnellement avantageuse.",
+          "explication": "Le document montre que la normalite economique est le veritable filtre du regime.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'analyse se fait-elle au moment de l'avenant et non seulement au moment du contrat initial ?",
+          "reponse": "Parce que c'est a la date de la convention litigieuse qu'il faut verifier si la personne est deja dirigeante et si la procedure speciale devait s'appliquer.",
+          "explication": "La fiche insiste sur cette temporalite essentielle du raisonnement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'objet de la procedure des conventions reglementees ?",
+          "reponse": "Elle vise a controler les conventions susceptibles de faire naitre un conflit d'interets entre la societe et l'un de ses dirigeants ou proches.",
+          "explication": "Le document l'utilise comme grille de lecture du second probleme.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle sanction principale peut etre envisagee en cas de violation du regime des conventions reglementees ?",
+          "reponse": "La convention peut etre remise en cause si elle a eu des consequences prejudiciables, ou ces consequences peuvent etre mises a la charge de l'interesse.",
+          "explication": "La fiche distingue la remise en cause de l'acte et la responsabilite financiere de son beneficiaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi ce cas pratique est-il pedagogiquement utile ?",
+          "reponse": "Parce qu'il oblige a articuler qualification des fonctions, verite du salariat et police des conflits d'interets dans deux types de societes differents.",
+          "explication": "Le document sert ici de synthese methodologique autant que de rappel de cours.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette correction ?",
+          "reponse": "Le droit des societes controle d'un cote l'authenticite des cumuls de fonctions et, de l'autre, la regularite des avantages conclus avec les dirigeants au sein de la SA.",
+          "explication": "La fiche relie ainsi cumul mandat-salariat et conventions reglementees.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1248,
+      "fiche": {
+        "titre": "Societe civile et creancier social : poursuites prealables, dette exigible et effets de la cession ou du retrait d'un associe",
+        "resume": "Cette correction de cas pratique porte sur l'obligation aux dettes dans la societe civile. La fiche en retient une idee directrice : les associes de societe civile sont bien exposes aux dettes sociales, mais dans un cadre plus protecteur qu'en SNC. Le creancier doit demontrer des poursuites prealables vaines contre la personne morale, puis il ne peut agir contre chaque associe qu'a proportion de sa part. Les difficultes se concentrent ensuite sur la date d'exigibilite de la dette et sur l'opposabilite de la perte de la qualite d'associe.",
+        "sections": [
+          {
+            "titre": "L'obligation aux dettes dans la societe civile est indefinie mais non solidaire",
+            "contenu": "Le document rappelle que les associes repondent des dettes envers les tiers a proportion de leur part dans le capital. La fiche retient que le creancier ne peut pas exiger l'integralite de la dette d'un seul associe, contrairement a ce qui vaut en SNC."
+          },
+          {
+            "titre": "Le recours du creancier contre les associes reste subordonne a des poursuites prealables et vaines contre la societe",
+            "contenu": "La correction insiste sur l'article 1858 du Code civil et sur l'exigence d'une demonstration serieuse de l'insuffisance du patrimoine social. La fiche retient que la societe civile offre un ecran protecteur plus fort a ses associes que la simple mise en demeure de la SNC."
+          },
+          {
+            "titre": "La declaration de creance a la liquidation peut valoir preuve suffisante de vaine poursuite",
+            "contenu": "Le document rappelle l'evolution jurisprudentielle admettant que la declaration de creance dans la procedure collective satisfait cette exigence. La fiche retient que le droit assouplit ici la preuve du creancier sans supprimer la logique de subsidiarite du recours."
+          },
+          {
+            "titre": "Le cessionnaire et le c edant ne sont pas tenus selon la date de naissance de la dette, mais selon sa date d'exigibilite",
+            "contenu": "La correction souligne que l'article 1857 rattache la dette a la situation des associes au jour ou elle devient exigible. La fiche retient que la dette deja nee mais non exigible peut donc ne pas peser sur le c edant si la cession lui est devenue opposable avant cette exigibilite."
+          },
+          {
+            "titre": "Le retrait de l'associe ne produit pleinement effet qu'avec le remboursement de ses droits sociaux",
+            "contenu": "Le document s'appuie sur la jurisprudence pour montrer qu'un associe dont le retrait a ete approuve mais dont les parts n'ont pas encore ete remboursees conserve sa qualite d'associe. La fiche retient que la perte de cette qualite obeit a une logique patrimoniale concrete et non a la seule decision de principe de la societe."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi l'obligation aux dettes des associes de societe civile est-elle moins severe que celle des associes de SNC ?",
+          "reponse": "Parce qu'elle n'est pas solidaire et que le creancier doit diviser ses recours entre les associes a proportion de leur participation.",
+          "explication": "Le document oppose explicitement les deux regimes.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que signifient les poursuites prealables et vaines contre la societe civile ?",
+          "reponse": "Le creancier doit d'abord agir contre la personne morale et etablir que cette voie est insuffisante avant de se tourner contre les associes.",
+          "explication": "La fiche montre que cette exigence constitue un filtre protecteur important.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la simple liquidation judiciaire de la societe ne suffisait-elle pas toujours initialement ?",
+          "reponse": "Parce qu'il fallait encore etablir que le patrimoine social etait effectivement insuffisant pour desinteresser le creancier.",
+          "explication": "Le document rappelle ici la rigueur initiale de la jurisprudence.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que la jurisprudence a admis pour faciliter la preuve de la vaine poursuite ?",
+          "reponse": "Elle a admis que la declaration de creance dans la procedure de liquidation puisse valoir preuve suffisante des poursuites prealables vaines.",
+          "explication": "La fiche insiste sur cet assouplissement probatoire majeur pour les creanciers.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la date d'exigibilite de la dette est-elle decisive pour savoir quel associe peut etre poursuivi ?",
+          "reponse": "Parce que l'article 1857 rattache l'obligation aux dettes a la qualite d'associe au moment ou la dette devient exigible et non seulement au moment ou elle nait.",
+          "explication": "Le document fait de cette precision le coeur du premier moyen de defense etudie.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que doit encore etablir l'associe sortant apres la cession de ses parts pour echapper au creancier ?",
+          "reponse": "Il faut que la cession soit opposable, ce qui suppose les formalites adequates a l'egard de la societe et des tiers.",
+          "explication": "La fiche rappelle que la seule convention de cession ne suffit pas toujours dans les rapports externes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les statuts modifies publies au RCS peuvent-ils jouer un role favorable au c edant ?",
+          "reponse": "Parce que la jurisprudence admet qu'une telle publicite peut valoir equivalence pratique pour l'opposabilite de la cession aux tiers.",
+          "explication": "Le document retient ici une lecture souple des textes applicables.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'associe qui s'est retire mais n'a pas encore ete rembourse de ses parts peut-il encore etre poursuivi ?",
+          "reponse": "Parce qu'il conserve sa qualite d'associe tant que le remboursement de ses droits sociaux n'est pas intervenu.",
+          "explication": "La fiche relie la perte de qualite d'associe a un effet concret et non a une simple autorisation de retrait.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le principal enseignement methodologique de ce cas pratique ?",
+          "reponse": "Il faut raisonner en deux temps, d'abord sur les conditions generales d'action du creancier contre les associes, puis sur l'efficacite des moyens de defense tires de la cession ou du retrait.",
+          "explication": "Le document est construit exactement selon cette progression.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur les dettes de la societe civile ?",
+          "reponse": "Les associes de societe civile peuvent etre poursuivis pour les dettes sociales, mais seulement dans un cadre subsidiaire, divisible et attentif a la qualite effective d'associe au moment pertinent.",
+          "explication": "La fiche relie ici articles 1857 et 1858, opposabilite de la cession et effets du retrait.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1249,
+      "fiche": {
+        "titre": "Cas pratique SCI et dette sociale : methode de traitement entre action du creancier, cession de parts et retrait d'associe",
+        "resume": "Ce sujet de galop propose un cas pratique classique sur l'action du creancier contre les associes d'une SCI. La fiche en retient une idee directrice : l'interet principal du sujet n'est pas seulement de connaitre la regle, mais de structurer une reponse methodique. Il faut d'abord exposer les conditions generales du recours contre les associes d'une societe civile, puis tester separement les deux defenses invoquees, l'une fondee sur la cession de parts et l'autre sur le retrait approuve mais non encore liquide.",
+        "sections": [
+          {
+            "titre": "Le sujet impose d'abord de qualifier le regime particulier de la dette sociale en SCI",
+            "contenu": "Le document met en scene une procedure collective et un creancier desirant agir contre les associes. La fiche retient que le point de depart du raisonnement consiste a rappeler que la SCI releve du regime des societes civiles, avec des associes tenus indefiniment mais non solidairement."
+          },
+          {
+            "titre": "La premiere etape du cas pratique consiste a verifier les conditions du recours du creancier contre les associes",
+            "contenu": "Le sujet attire l'attention sur la declaration de creance a la liquidation et sur les doutes du creancier quant a son paiement par la societe. La fiche retient qu'il faut raisonner sur les poursuites prealables et vaines et sur la possibilite effective d'ouvrir le second niveau de recours."
+          },
+          {
+            "titre": "La seconde etape consiste a examiner la defense du c edant de parts a la date d'exigibilite de la dette",
+            "contenu": "Le document precise que la dette etait nee mais non exigible au moment de la cession, laquelle a ete ecrite, agreee et suivie d'une publicite statutaire. La fiche retient que l'analyse doit combiner la date juridiquement pertinente de la dette et la question de l'opposabilite de la cession."
+          },
+          {
+            "titre": "La troisieme etape vise la defense de l'associe retrayant non encore rembourse",
+            "contenu": "Le sujet indique que le retrait a ete approuve mais que la valeur des droits sociaux n'a pas encore ete payee. La fiche retient qu'il faut alors s'interroger non sur la seule regularite du retrait, mais sur la date veritable de perte de la qualite d'associe."
+          },
+          {
+            "titre": "Le cas pratique attend une articulation claire entre regles generales et application circonstanciee",
+            "contenu": "Le document rappelle implicitement la methode universitaire du rappel des faits, du probleme de droit, de la majeure, de la mineure et de la conclusion. La fiche retient que la qualite de la copie depend autant de la construction du raisonnement que de la memorisation des solutions."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel est le probleme central du sujet de galop sur la SCI ?",
+          "reponse": "Determiner dans quelles conditions un creancier social peut agir contre les associes d'une SCI et si deux defenses individuelles peuvent lui etre opposees.",
+          "explication": "Le sujet combine ainsi une question generale de regime et deux applications ciblees.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi faut-il commencer par le regime general avant d'etudier les defenses des associes ?",
+          "reponse": "Parce qu'il faut d'abord verifier que le creancier est recevable a agir contre les associes avant de savoir si l'un ou l'autre peut personnellement lui echapper.",
+          "explication": "La fiche insiste sur l'ordre logique du raisonnement attendu en cas pratique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel indice factuel du sujet oriente vers la question des poursuites prealables et vaines ?",
+          "reponse": "La declaration de creance dans la procedure de liquidation judiciaire et le doute du creancier sur ses chances d'etre paye par la societe.",
+          "explication": "Le document fournit volontairement ces elements pour ouvrir l'analyse de l'article 1858.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la date d'exigibilite de la dette est-elle mise en avant dans la premiere defense ?",
+          "reponse": "Parce que la dette etait deja nee mais n'etait pas encore exigible au moment de la cession, ce qui oblige a raisonner sur le moment exact auquel se rattache l'obligation de l'associe.",
+          "explication": "La fiche montre que le sujet guide vers l'article 1857 et non vers une intuition purement chronologique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les precisions sur l'ecrit, l'agrement et la publication des statuts modifies sont-elles importantes ?",
+          "reponse": "Parce qu'elles servent a apprecier l'opposabilite de la cession de parts a la societe et aux tiers, donc au creancier.",
+          "explication": "Le document construit explicitement cette partie du moyen de defense.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la seconde defense ne se reduit-elle pas a savoir si le retrait a ete approuve ?",
+          "reponse": "Parce qu'il faut surtout determiner si l'associe a effectivement perdu cette qualite alors que ses droits sociaux ne lui ont pas encore ete rembourses.",
+          "explication": "La fiche souligne que le sujet oblige a aller au-dela de la seule autorisation de retrait.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle competence methodologique ce sujet cherche-t-il particulierement a tester ?",
+          "reponse": "La capacite a transformer des faits disperses en questions juridiques ordonnees puis a traiter chaque point avec une majeure et une application precise.",
+          "explication": "Le document est typique d'un exercice de galop d'essai de droit des societes.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel serait le contresens principal a eviter sur ce sujet ?",
+          "reponse": "Traiter directement les defenses des associes sans avoir etabli au prealable les conditions generales du recours du creancier contre les associes d'une SCI.",
+          "explication": "La fiche insiste sur l'importance de la hierarchie du raisonnement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi ce sujet est-il pedagogiquement efficace ?",
+          "reponse": "Parce qu'il oblige a mobiliser a la fois le regime substantiel de la societe civile et la methode du cas pratique dans un contexte de procedure collective.",
+          "explication": "Le document articule dette sociale, cession, retrait et raisonnement universitaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce sujet de galop ?",
+          "reponse": "En SCI, l'action du creancier contre les associes suppose un raisonnement progressif sur les conditions generales du recours puis sur l'efficacite concrete des defenses tirees de la cession ou du retrait.",
+          "explication": "La fiche relie ainsi droit des societes civiles et methode du cas pratique.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
