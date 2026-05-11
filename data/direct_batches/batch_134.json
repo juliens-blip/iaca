@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1147,
+      "fiche": {
+        "titre": "Conditions de validite des actes constitutifs : recentrage sur le contrat d'apport, consentement, capacite et contenu",
+        "resume": "Ce cours de droit commun des societes presente une inflexion majeure du regime des nullites apres l'ordonnance du 12 mars 2025 entree en vigueur le 1er octobre 2025. La fiche en retient une idee directrice : les causes de nullite ne se concentrent plus principalement sur le contrat de societe, mais sur l'acte ou contrat d'apport. Comprendre la constitution de la societe suppose donc de raisonner sur l'engagement concret de l'apporteur, ses conditions de validite et la dissociation nouvelle entre contrat social et contrat d'apport.",
+        "sections": [
+          {
+            "titre": "L'ordonnance du 12 mars 2025 a deplace le centre de gravite des nullites vers le contrat d'apport",
+            "contenu": "Le document explique que les causes de nullite du contrat de societe sont devenues rares, tandis que l'attention du legislateur se porte sur l'apport. La fiche retient que la constitution sociale ne se lit plus comme avant a travers une seule nullite globale du pacte societaire. Le contentieux se deplace vers l'acte par lequel l'associe transfere un bien, des fonds ou une prestation contre des droits sociaux."
+          },
+          {
+            "titre": "L'apport est pense ici comme un acte juridique autonome, voire comme un veritable contrat",
+            "contenu": "Le cours assume une lecture contractualiste de l'apport. La fiche retient que l'apport n'est pas seulement un appendice du contrat de societe, mais un engagement propre par lequel l'associe se depouille ou promet une prestation en contrepartie de parts ou d'actions. Cette autonomie explique qu'on lui applique directement les conditions de validite du droit commun des contrats."
+          },
+          {
+            "titre": "Le consentement reste une condition elementaire mais son contentieux est surtout celui des vices",
+            "contenu": "Le document rappelle que le consentement doit exister et ne pas etre vicie. La fiche retient que les hypotheses veritablement interessantes portent moins sur l'absence totale de consentement que sur l'erreur, le dol ou la violence ayant conduit l'associe a realiser un apport qu'il n'aurait pas consenti dans des conditions normales."
+          },
+          {
+            "titre": "La capacite varie selon la qualite de l'associe et selon le niveau de risque de la forme sociale",
+            "contenu": "Le cours insiste sur le statut des mineurs ou majeurs proteges et sur la particularite des societes qui supposent une capacite commerciale. La fiche retient que l'aptitude a devenir associe n'est pas uniforme. Elle depend du type de societe, de l'etendue du risque patrimonial et, parfois, de l'autorisation speciale requise pour exercer le commerce."
+          },
+          {
+            "titre": "Le contenu du contrat d'apport doit enfin rester licite, certain et juridiquement admissible",
+            "contenu": "Le document rattache l'apport au droit commun du contenu du contrat. La fiche retient qu'il faut verifier l'objet de l'apport, sa possibilite, sa lic eite et la coherence de l'operation envisagee. L'acte d'apport n'est donc pas seulement une question economique ; c'est aussi un objet de controle juridique precis."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel changement majeur le cours retient-il de l'ordonnance du 12 mars 2025 ?",
+          "reponse": "Le deplacement des causes principales de nullite du contrat de societe vers le contrat ou l'acte d'apport.",
+          "explication": "La fiche en fait la cle de lecture de toute la seance sur la validite des actes constitutifs.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le cours parle-t-il des actes constitutifs au pluriel et non d'un seul acte constitutif ?",
+          "reponse": "Parce que la constitution de la societe implique des engagements distincts, en particulier le contrat social et les actes d'apport.",
+          "explication": "Le document insiste sur cette dissociation pour repenser le regime des nullites.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'apport est-il traite ici comme un contrat autonome ?",
+          "reponse": "Parce qu'il repose sur un engagement propre par lequel un associe fournit un bien, des fonds ou une prestation contre des droits sociaux.",
+          "explication": "La fiche souligne ainsi l'autonomie juridique de l'acte d'apport.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel article du code civil le cours mobilise-t-il pour appuyer cette lecture du contrat d'apport ?",
+          "reponse": "L'article 1844-10-1 du code civil, lu en articulation avec les conditions du droit commun des contrats.",
+          "explication": "Le document s'en sert pour fonder l'analyse nouvelle des causes de nullite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le consentement est-il un terrain plus delicat par ses vices que par son absence totale ?",
+          "reponse": "Parce que l'absence complete de consentement est rare, alors que l'erreur, le dol ou la violence peuvent plus concretement affecter la decision d'apporter.",
+          "explication": "La fiche retient ce deplacement vers l'integrite du consentement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la capacite d'etre associe n'est-elle pas la meme dans toutes les societes ?",
+          "reponse": "Parce qu'elle depend du type de forme sociale et notamment du fait que certaines exigent une capacite commerciale ou exposent davantage l'associe au risque.",
+          "explication": "Le document souligne la difference entre societes a risque limite et formes plus engageantes.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel probleme particulier pose l'acces d'un mineur emancipe a certaines societes ?",
+          "reponse": "La question de savoir s'il doit beneficier d'une autorisation speciale lorsqu'il s'agit d'exercer une activite commerciale ou d'entrer dans une forme qui la suppose.",
+          "explication": "La fiche relie la capacite societaire au regime general de la capacite commerciale.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le contenu de l'acte d'apport doit-il etre controle au-dela de son interet economique ?",
+          "reponse": "Parce qu'il doit rester licite, certain, possible et juridiquement admissible comme tout acte contractuel valable.",
+          "explication": "Le document rattache explicitement l'apport au droit commun de l'article 1128.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle erreur de methode ce cours cherche-t-il a eviter ?",
+          "reponse": "Continuer a raisonner sur la nullite du contrat de societe comme avant sans voir que le contentieux se concentre desormais sur l'apport.",
+          "explication": "La fiche met en avant le changement de focale opere par la reforme de 2025.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Depuis la reforme de 2025, la validite de la constitution sociale se lit d'abord a travers la qualite juridique de l'apport et des engagements individuels des associes.",
+          "explication": "La fiche relie ainsi ordonnance, contrat d'apport, consentement, capacite et contenu licite.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1148,
+      "fiche": {
+        "titre": "La societe personne morale : fiction ou realite, immatriculation, droits de la personnalite et autonomie patrimoniale",
+        "resume": "Ce cours sur la personne morale examine la societe non plus seulement comme contrat, mais comme sujet de droit. La fiche en retient une idee directrice : le debat entre fiction et realite demeure theorique, mais il eclaire deux points essentiels. D'un cote, la personnalite morale suppose aujourd'hui une reconnaissance par l'immatriculation. De l'autre, une fois acquise, elle produit des effets larges, tant patrimoniaux que personnels, qui rapprochent fortement la societe d'une personne juridique autonome.",
+        "sections": [
+          {
+            "titre": "Le debat entre fiction et realite aide a penser la creation et les effets de la personne morale",
+            "contenu": "Le document oppose deux grandes conceptions. La fiche retient que la theorie de la fiction insiste sur la necessite d'une reconnaissance legale, tandis que la theorie de la realite tend a accorder au groupement une existence plus substantielle. Dans le cas des societes, ce debat est moins pratique qu'il n'y parait, mais il structure encore la maniere de parler de la personnalite morale."
+          },
+          {
+            "titre": "En droit positif, l'immatriculation reste la cle d'acces a la personnalite morale",
+            "contenu": "Le cours rappelle que les societes commerciales comme civiles doivent passer par l'immatriculation pour devenir des personnes morales. La fiche retient qu'on retrouve ici une logique proche de la fiction : le groupement ne devient veritablement sujet de droit que lorsqu'il entre dans les formes exigees par le legislateur."
+          },
+          {
+            "titre": "Une fois reconnue, la personne morale recoit des effets tres larges et non de simples effets residuels",
+            "contenu": "Le document montre que la personnalite morale ne se limite pas a quelques facilites techniques. La fiche retient qu'elle ouvre un patrimoine distinct, des droits de creance, la capacite de contracter et meme certains droits de la personnalite. Cette extension rapproche davantage la pratique de la theorie de la realite que d'une fiction interpretee restrictivement."
+          },
+          {
+            "titre": "Les societes beneficient aussi de droits de la personnalite adaptes a leur condition",
+            "contenu": "Le cours cite la protection du domicile, de l'image ou de certains aspects de la reputation sociale. La fiche retient que la personne morale n'est pas qu'un centre de patrimoine. Elle peut aussi faire valoir des interets extrapatrimoniaux, ce qui confirme la densite juridique de sa personnalite."
+          },
+          {
+            "titre": "L'autonomie patrimoniale impose de traiter les biens sociaux comme distincts de ceux des associes",
+            "contenu": "Le document souligne enfin les risques lies a la confusion entre patrimoine social et patrimoine personnel, notamment en matiere penale. La fiche retient que la personnalite morale ne sert pas seulement a proteger les associes. Elle impose aussi une discipline stricte dans l'usage des biens sociaux, y compris dans les societes unipersonnelles."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel est l'interet du debat entre theorie de la fiction et theorie de la realite pour la personne morale ?",
+          "reponse": "Il permet de penser a la fois les conditions d'acces a la personnalite morale et l'etendue des effets qu'on lui rattache.",
+          "explication": "Le cours s'appuie sur ce debat pour structurer l'analyse sans en faire une pure querelle abstraite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que met en avant la theorie de la fiction a propos de la personne morale ?",
+          "reponse": "L'idee que seule la loi peut reconnaitre la personnalite a un groupement et que cette reconnaissance doit rester strictement encadree.",
+          "explication": "La fiche rattache cette theorie a une lecture restrictive des effets de la personnalite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le droit positif des societes semble-t-il rejoindre partiellement la theorie de la fiction ?",
+          "reponse": "Parce qu'il subordonne l'acquisition de la personnalite morale a l'immatriculation et donc au respect des formes prevues par le legislateur.",
+          "explication": "Le document fait de l'immatriculation la porte d'entree decisive dans la personnalite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les effets reconnus a la personne morale evoquent-ils plutot la theorie de la realite ?",
+          "reponse": "Parce qu'une fois immatriculee, la societe recoit des droits nombreux et substantiels, loin d'une simple fiction minimaliste.",
+          "explication": "La fiche insiste sur l'ampleur patrimoniale et extrapatrimoniale de ces effets.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels types de prerogatives la societe peut-elle exercer en tant que personne morale ?",
+          "reponse": "Des droits patrimoniaux comme contracter ou detenir un patrimoine, mais aussi certains droits de la personnalite.",
+          "explication": "Le cours montre ainsi que la societe est un veritable sujet de droit.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la protection du domicile ou de l'image est-elle importante dans ce chapitre ?",
+          "reponse": "Parce qu'elle montre que la personnalite morale n'est pas limitee a un simple patrimoine et peut proteger des interets extrapatrimoniaux.",
+          "explication": "La fiche y voit un signe fort de densite juridique de la personne morale.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role joue l'autonomie patrimoniale dans l'organisation des societes ?",
+          "reponse": "Elle separe les biens de la societe de ceux des associes et fonde la logique de responsabilite et de gage des creanciers.",
+          "explication": "Le document en fait une consequence centrale de la personnalite morale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'usage personnel des biens sociaux est-il juridiquement dangereux ?",
+          "reponse": "Parce qu'il nie la distinction entre patrimoine social et patrimoine personnel et peut conduire a des sanctions, notamment penales.",
+          "explication": "La fiche rappelle que cette vigilance vaut meme dans les societes unipersonnelles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens pratique ce chapitre cherche-t-il a corriger chez les associes ?",
+          "reponse": "L'idee qu'une fois seuls ou majoritaires, ils pourraient traiter les biens de la societe comme s'il s'agissait des leurs.",
+          "explication": "Le document relie cette confusion a la necessite de respecter l'autonomie de la personne morale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette lecon ?",
+          "reponse": "La personne morale nait par l'immatriculation, mais une fois nee elle produit une autonomie juridique et patrimoniale suffisamment forte pour faire de la societe un sujet de droit a part entiere.",
+          "explication": "La fiche relie ainsi fiction, realite, droits de la personnalite et autonomie patrimoniale.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1149,
+      "fiche": {
+        "titre": "Attributs de la personne morale : denomination sociale, siege, nationalite et patrimoine distinct",
+        "resume": "Ce chapitre sur les attributs de la personne morale montre que la societe ne se resume pas a un patrimoine abstrait. La fiche en retient une idee directrice : une fois immatriculee, la societe dispose d'un ensemble de signes et de rattachements juridiques qui permettent de l'identifier, de la localiser et d'organiser ses rapports avec les tiers. Denomination, siege, nationalite et patrimoine forment ainsi les attributs concrets de sa personnalite juridique.",
+        "sections": [
+          {
+            "titre": "La denomination sociale identifie la societe et releve a la fois du choix statutaire et de la protection des signes distinctifs",
+            "contenu": "Le document rappelle que la denomination doit figurer dans les statuts et qu'elle est librement choisie dans une large mesure. La fiche retient cependant que cette liberte n'est pas anarchique. Le choix du nom doit respecter les droits d'autrui et ne pas entretenir de confusion avec une marque, une autre denomination ou un signe protege."
+          },
+          {
+            "titre": "Le droit attache a la denomination sociale ressemble a un veritable droit de propriete incorporelle",
+            "contenu": "Le cours souligne que la societe peut agir pour proteger sa denomination, notamment par la concurrence deloyale ou d'autres fondements appropries. La fiche retient que la denomination sociale n'est pas un simple etiquette administrative : c'est un actif incorporel participant a l'identite economique de la societe."
+          },
+          {
+            "titre": "Le siege social joue le role de domicile juridique de la societe",
+            "contenu": "Le document distingue le siege statutaire et le siege reel, entendu comme centre de direction effective. La fiche retient que cette distinction sert a rattacher la societe a un ordre juridique et a regler des questions de competence, d'opposabilite ou de nationalite. Le siege n'est donc pas seulement une adresse ; c'est un point d'ancrage juridique."
+          },
+          {
+            "titre": "La nationalite de la societe depend en principe du siege, avec quelques hypotheses de prise en compte du controle",
+            "contenu": "Le cours evoque des situations exceptionnelles ou la nationalite des associes ou des controleurs peut ressurgir. La fiche retient qu'en principe, le siege social gouverne la nationalite societaire, mais que certaines situations historiques ou sensibles invitent le droit a regarder au-dela de la seule facade statutaire."
+          },
+          {
+            "titre": "Le patrimoine social distinct reste l'attribut qui explique le mieux la logique de responsabilite des societes",
+            "contenu": "Le document rappelle que les biens de la societe ne sont pas ceux des associes. La fiche retient que cette separation fonde la limitation de responsabilite dans certaines formes et impose une vigilance absolue dans l'utilisation des biens sociaux. Les ponts entre patrimoines existent, mais seulement a travers les suretes, certaines garanties ou des regimes legaux specifiques."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel est le premier attribut concret de la personne morale etudie dans ce chapitre ?",
+          "reponse": "La denomination sociale, c'est-a-dire le nom qui identifie juridiquement la societe.",
+          "explication": "Le document la traite comme une mention statutaire obligatoire et comme un signe distinctif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la liberte de choisir une denomination sociale n'est-elle pas absolue ?",
+          "reponse": "Parce qu'elle doit respecter les droits d'autrui et ne pas creer de confusion avec des signes deja proteges.",
+          "explication": "La fiche rattache cette limite a la protection de la propriete incorporelle et de la loy aute concurrentielle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que montre la possibilite d'utiliser certains symboles dans la denomination sociale ?",
+          "reponse": "Que la liberte de denomination existe, mais qu'elle reste soumise a des interdictions ponctuelles liees a la protection de certains signes reserves.",
+          "explication": "Le document prend l'exemple du symbole @ admis et du symbole euro interdit.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la denomination sociale peut-elle etre regardee comme un actif incorporel ?",
+          "reponse": "Parce qu'elle fait l'objet d'une protection juridique et participe a l'identite economique exploitable de la societe.",
+          "explication": "La fiche souligne que la societe peut agir pour la defendre contre les confusions ou appropriations illicites.",
+          "difficulte": 2
+        },
+        {
+          "question": "A quoi correspond le siege social dans la logique de la personne morale ?",
+          "reponse": "Au domicile juridique de la societe, distinct de ses simples lieux materiels d'activite.",
+          "explication": "Le document oppose le siege statutaire et le siege reel comme centre de direction effective.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la distinction entre siege statutaire et siege reel est-elle importante ?",
+          "reponse": "Parce qu'elle permet de traiter des questions de rattachement juridique, de nationalite et parfois d'opposabilite aux tiers.",
+          "explication": "La fiche montre que le siege a une fonction bien plus large qu'une adresse postale.",
+          "difficulte": 2
+        },
+        {
+          "question": "De quoi depend en principe la nationalite de la societe ?",
+          "reponse": "Du siege social, tout en admettant quelques hypotheses exceptionnelles de prise en compte du controle.",
+          "explication": "Le document rappelle la force du critere du siege tout en evoquant ses limites historiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'effet principal de l'existence d'un patrimoine social distinct ?",
+          "reponse": "La separation entre les biens de la societe et ceux des associes, qui structure le gage des creanciers et la responsabilite.",
+          "explication": "La fiche en fait l'attribut le plus explicatif de la logique societaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'associe doit-il etre prudent avec les biens sociaux meme dans une societe unipersonnelle ?",
+          "reponse": "Parce qu'ils appartiennent a la societe et non a lui, de sorte que leur usage personnel peut etre sanctionne.",
+          "explication": "Le document rattache cette vigilance a l'etancheite entre patrimoine social et patrimoine personnel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce chapitre ?",
+          "reponse": "Nom, siege, nationalite et patrimoine donnent a la societe une identite juridique complete qui permet de l'identifier, de la localiser et de separer ses interets de ceux de ses membres.",
+          "explication": "La fiche relie ainsi signes distinctifs, rattachement territorial et autonomie patrimoniale.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1150,
+      "fiche": {
+        "titre": "Introduction au droit des societes : articulation avec le droit des affaires, methode de travail et place des travaux diriges",
+        "resume": "Cette introduction au cours de droit des societes ne se contente pas de presenter un programme. La fiche en retient une idee directrice : le droit des societes prolonge le droit des affaires et exige une methode de travail propre, faite de pratique reguliere des textes, des arrets et des cas pratiques. Le cours annonce ainsi a la fois un objet materiel, la societe comme acteur du monde des affaires, et une discipline de travail fondee sur la lecture active des codes et des fiches de TD.",
+        "sections": [
+          {
+            "titre": "Le droit des societes s'inscrit dans le prolongement du droit des affaires deja etudie",
+            "contenu": "Le document relie la nouvelle matiere a des notions deja acquises comme l'entrepreneur individuel, le fonds de commerce, le bail commercial ou certains contrats de distribution. La fiche retient que le droit des societes ne repart pas de zero. Il specialise le regard en se concentrant sur les structures collectives ou soci etaires du monde des affaires."
+          },
+          {
+            "titre": "Le cours annonce une etude des societes comme acteurs particuliers de la vie economique",
+            "contenu": "Le document recentre clairement l'objet du semestre. La fiche retient qu'il s'agit moins d'etudier tous les operateurs economiques que de comprendre la societe comme forme d'organisation juridique de l'activite. Cette focalisation marque l'entree dans une matiere plus technique et plus structuree."
+          },
+          {
+            "titre": "Les travaux diriges occupent une place methodologique centrale dans l'apprentissage",
+            "contenu": "Le cours insiste sur les fiches de TD, les documents complements et les exercices. La fiche retient que les cas pratiques ne sont pas accessoires ; ils forment le lieu principal ou la technique juridique se travaille et ou les regles du cours prennent une consistance operatoire."
+          },
+          {
+            "titre": "La maitrise des codes et de la jurisprudence fait partie du coeur de la formation",
+            "contenu": "Le document recommande de travailler avec le code civil, le code de commerce et, le cas echeant, un code des societes. La fiche retient que la reussite passe par un usage regulier des textes, des annotations jurisprudentielles et des commentaires. Le droit des societes est une matiere de lecture active autant que de memorisation."
+          },
+          {
+            "titre": "La regularite du travail conditionne particulierement la reussite dans une matiere exigeante",
+            "contenu": "Le cours met en garde contre le retard accumule et insiste sur l'apprentissage progressif. La fiche retient qu'en droit des societes, la technicite augmente rapidement. L'etudiant doit donc construire ses reperes au fil des seances, faire ses propres fiches et pratiquer les exercices sans attendre l'examen."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le droit des societes est-il presente comme le prolongement du droit des affaires ?",
+          "reponse": "Parce qu'il reprend des notions deja etudiees en droit des affaires pour se concentrer ensuite sur les societes comme acteurs juridiques specifiques.",
+          "explication": "La fiche relie cette continuite aux entrepreneurs, au fonds de commerce et aux operations commerciales deja connues.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le recentrage principal opere par ce cours d'introduction ?",
+          "reponse": "Le passage d'une etude generale des operateurs economiques a une etude centree sur les societes.",
+          "explication": "Le document montre que la societe devient ici l'objet principal d'analyse.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les travaux diriges occupent-ils une place si importante dans cette matiere ?",
+          "reponse": "Parce qu'ils permettent de transformer les regles du cours en raisonnement pratique, notamment par les cas pratiques.",
+          "explication": "La fiche insiste sur le fait que la technique societaire s'acquiert dans l'exercice applique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel type d'exercice le document signale-t-il comme particulierement frequent et utile ?",
+          "reponse": "Le cas pratique, parce qu'il oblige a appliquer les regles du cours a des situations concretes.",
+          "explication": "Le cours le presente comme l'un des exercices centraux des fiches de TD.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'usage des codes est-il ici mis au premier plan ?",
+          "reponse": "Parce que la comprehension du droit des societes exige une familiarite constante avec les textes et leur environnement jurisprudentiel.",
+          "explication": "La fiche met en avant le code civil, le code de commerce et les annotations utiles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie, dans ce contexte, travailler la jurisprudence de facon active ?",
+          "reponse": "Lire les decisions et leurs commentaires pour mieux comprendre les regles du cours et leur application pratique.",
+          "explication": "Le document relie cette pratique a la preparation efficace des TD.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le cours insiste-t-il autant sur la regularite du travail ?",
+          "reponse": "Parce que la technicite du droit des societes s'accumule vite et rend difficile toute reprise tardive du programme.",
+          "explication": "La fiche retient ici un conseil de methode central pour la matiere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role joue l'exercice de projet de societe annonce dans les TD ?",
+          "reponse": "Il sert a faire travailler les etudiants sur une mise en situation structurante qui alimentera ensuite les exercices du semestre.",
+          "explication": "Le document en fait un dispositif pedagogique original et concret.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi cette introduction est-elle deja une lecon de methode et pas seulement un accueil de debut de semestre ?",
+          "reponse": "Parce qu'elle fixe deja les outils, les habitudes et le niveau d'exigence necessaires pour comprendre et pratiquer le droit des societes.",
+          "explication": "La fiche montre que la methode de travail est ici inseparable du contenu de la matiere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette introduction au cours ?",
+          "reponse": "Le droit des societes prolonge le droit des affaires, mais il exige une discipline propre faite de textes, de jurisprudence, de cas pratiques et d'un travail regulier.",
+          "explication": "La fiche relie ainsi objet du cours et methode de reussite dans la matiere.",
+          "difficulte": 2
+        }
+      ]
+    }
+  ]
+}
