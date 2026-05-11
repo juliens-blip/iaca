@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1197,
+      "fiche": {
+        "titre": "Droits de la defense en procedure penale : information sur l'accusation et acces gradue au dossier",
+        "resume": "Cette seance est consacree aux droits de la defense en procedure penale. La fiche en retient une idee directrice : une defense effective suppose d'abord de savoir de quoi l'on est accuse, puis de disposer de moyens reels pour preparer sa reponse. Le droit penal processe l'information de l'accusation et l'acces au dossier comme des garanties graduelles, dependantes du stade de la procedure et encore marquees par des limites tenant a l'efficacite de l'enquete.",
+        "sections": [
+          {
+            "titre": "Le droit d'etre informe de la nature et de la cause de l'accusation est une garantie fondamentale",
+            "contenu": "Le document s'appuie sur l'article 6 paragraphe 3 et sur l'article 5 paragraphe 2 de la Convention europeenne. La fiche retient qu'une personne ne peut se defendre utilement que si elle connait les faits qui lui sont reproches et leur qualification juridique."
+          },
+          {
+            "titre": "Toute modification de la qualification juridique impose une information nouvelle de la defense",
+            "contenu": "Le cours rappelle que le juge peut requalifier les faits, mais qu'il doit alors en avertir la personne poursuivie et lui permettre d'exercer ses droits sur cette nouvelle base. La fiche retient que la qualification ne peut jamais evoluer au detriment du contradictoire."
+          },
+          {
+            "titre": "Le droit de disposer du temps et des facilites necessaires passe surtout par l'acces au dossier",
+            "contenu": "Le document presente ce droit comme la question centrale de la preparation de la defense. La fiche retient que l'acces aux pieces conditionne l'egalite des armes bien plus qu'une proclamation abstraite du droit de se defendre."
+          },
+          {
+            "titre": "Au stade de l'enquete policiere, l'acces au dossier demeure reel mais partiel",
+            "contenu": "Le cours explique que la personne gardee a vue et son avocat peuvent consulter certaines pieces seulement. La fiche retient que le systeme ouvre un acces cible aux documents essentiels, sans consacrer un droit integral au dossier pendant l'enquete."
+          },
+          {
+            "titre": "Les limitations de cet acces sont justifiees par l'efficacite de l'enquete mais restent contestees",
+            "contenu": "Le document rappelle les decisions du Conseil constitutionnel et de la Cour de cassation admettant un acces partiel au nom de la protection de l'ordre public et de l'efficacite des investigations. La fiche retient que la defense en enquete reste un terrain de compromis et de debat plus qu'un espace de contradictoire pleinement accompli."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le droit d'etre informe de l'accusation est-il fondamental en procedure penale ?",
+          "reponse": "Parce qu'une personne ne peut organiser utilement sa defense que si elle connait les faits reproches et leur qualification juridique.",
+          "explication": "Le document en fait la premiere garantie specifique des droits de la defense.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que doit comprendre l'information donnee a la personne accusee ?",
+          "reponse": "Elle doit porter a la fois sur la nature des faits retenus et sur leur qualification juridique.",
+          "explication": "La fiche souligne que les faits seuls ne suffisent pas a permettre une defense pleinement utile.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la requalification des faits par le juge pose-t-elle une exigence particuliere ?",
+          "reponse": "Parce qu'elle oblige a informer a nouveau la defense et a lui laisser le temps de discuter la nouvelle qualification.",
+          "explication": "Le document rattache cette exigence a la jurisprudence europeenne sur l'effectivite des droits de la defense.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'enjeu principal du droit de disposer du temps et des facilites necessaires a la preparation de la defense ?",
+          "reponse": "L'acces a une connaissance suffisante du dossier pour pouvoir preparer utilement la reponse penal e.",
+          "explication": "La fiche en fait le point d'appui concret de l'egalite des armes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'acces au dossier en garde a vue est-il qualifie de partiel ?",
+          "reponse": "Parce que la personne gardee a vue et son avocat ne peuvent consulter qu'un nombre limite de pieces identifiees par la loi.",
+          "explication": "Le document montre ainsi que la defense n'obtient pas encore une vue integrale de l'enquete.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel argument est avance pour justifier la limitation de l'acces au dossier au stade de l'enquete ?",
+          "reponse": "La necessite de preserver l'efficacite de l'enquete et la protection de l'ordre public.",
+          "explication": "La fiche rappelle que les juridictions ont admis cette logique de compromis.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'egalite des armes reste-t-elle imparfaite durant l'enquete policiere ?",
+          "reponse": "Parce que la defense accede a certaines pieces seulement, alors que l'autorite d'enquete conserve la maitrise de l'ensemble du dossier et du rythme des investigations.",
+          "explication": "Le document montre que le contradictoire reste ici incomplet.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur l'information de l'accusation ?",
+          "reponse": "Croire qu'une information initiale minimale suffit toujours, alors qu'un changement de qualification impose une actualisation effective des droits de la defense.",
+          "explication": "La fiche insiste sur la dynamique procedurale de cette garantie.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur l'acces au dossier ?",
+          "reponse": "Le presenter comme integral des l'enquete, alors qu'il demeure partiel et etroitement encadre a ce stade.",
+          "explication": "Le document souligne le decalage entre ideal contradictoire et realite de la phase policiere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Les droits de la defense exigent une information loyale sur l'accusation et un acces au dossier suffisamment utile, mais encore limite par les contraintes de l'enquete.",
+          "explication": "La fiche relie ainsi accusation, requalification et acces gradue aux pieces.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1199,
+      "fiche": {
+        "titre": "Mise en oeuvre des poursuites : action publique, prescription et maitrise temporelle du droit de punir",
+        "resume": "Cette seance ouvre l'etude de la mise en oeuvre des poursuites a travers l'action publique et sa prescription. La fiche en retient une idee directrice : le droit de poursuivre n'est jamais illimite dans le temps. La prescription encadre l'exercice de l'action publique, mais son point de depart, ses interruptions et ses reports varient selon la nature de l'infraction et selon des choix jurisprudentiels ou legislatifs destin es a adapter la repression a la complexite des faits.",
+        "sections": [
+          {
+            "titre": "L'action publique est l'action exercee au nom de la societe pour faire sanctionner l'infraction",
+            "contenu": "Le document rappelle que le procureur de la Republique en assure l'exercice. La fiche retient que l'action publique n'est pas une simple initiative de partie, mais la traduction juridictionnelle de l'interet social a la repression."
+          },
+          {
+            "titre": "La prescription borne dans le temps l'exercice de l'action publique",
+            "contenu": "Le cours insiste sur le fait que l'action publique s'eteint avec le temps. La fiche retient que ce mecanisme limite le pouvoir de punir de l'Etat et oblige a agir dans des delais variables selon la gravite de l'infraction ou la categorie de contentieux."
+          },
+          {
+            "titre": "Les durees de prescription et leurs exceptions traduisent une hierarchie de gravite et de sensibilite sociale",
+            "contenu": "Le document distingue les crimes, delits, contraventions et plusieurs regimes derogatoires, notamment en matiere terroriste, de stup efiants, de mineurs ou de crimes contre l'humanite. La fiche retient que la prescription combine une logique de classification generale et une multiplication d'exceptions politiquement significatives."
+          },
+          {
+            "titre": "Le point de depart du delai varie selon la structure de l'infraction",
+            "contenu": "Le cours montre que l'infraction instantanee, l'infraction continue, l'infraction d'habitude ou les infractions sur internet ne recoivent pas le meme traitement. La fiche retient que la prescription ne se calcule pas de facon uniforme mais depend de la nature concrete de l'illicite."
+          },
+          {
+            "titre": "Suspension et interruption permettent d'eviter qu'un ecoulement du temps purement formel paralyse toute poursuite",
+            "contenu": "Le document annonce les mecanismes qui stoppent ou effacent le cours du delai. La fiche retient que le droit de la prescription cherche un equilibre entre securite juridique et possibilite effective de poursuivre des infractions parfois difficiles a reveler ou a instruire."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Qu'est-ce que l'action publique dans cette seance ?",
+          "reponse": "C'est l'action exercee au nom de la societe pour obtenir la poursuite et la sanction d'une infraction.",
+          "explication": "Le document la rattache au role du procureur de la Republique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la prescription joue-t-elle un role central dans la mise en oeuvre des poursuites ?",
+          "reponse": "Parce qu'elle limite dans le temps la possibilite pour l'Etat d'exercer l'action publique contre l'auteur d'une infraction.",
+          "explication": "La fiche souligne ici la dimension temporelle du droit de punir.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les delais de prescription varient-ils selon les infractions ?",
+          "reponse": "Parce qu'ils sont calibres en fonction de la gravite des faits et parfois de sensibilites particulieres reconnues par le legislateur.",
+          "explication": "Le document montre la logique generale par classification et les nombreux regimes speciaux.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi certains contentieux comme les crimes contre l'humanite ou certaines infractions sur mineurs recoivent-ils un traitement specifique ?",
+          "reponse": "Parce que le legislateur estime que leur gravite, leur difficulte de revelation ou leur portee sociale justifient un allongement, un report ou meme une absence de prescription.",
+          "explication": "La fiche fait ressortir le poids politique et moral de ces exceptions.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le point de depart du delai n'est-il pas identique pour toutes les infractions ?",
+          "reponse": "Parce que la consommation et la manifestation de l'infraction varient selon qu'elle est instantanee, continue, d'habitude ou encore diffusee en ligne.",
+          "explication": "Le document illustre cette plasticite par plusieurs categories d'infractions.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'interet de distinguer prescription, suspension et interruption ?",
+          "reponse": "Ces mecanismes permettent de savoir si le temps ecoule continue a courir, se trouve arrete temporairement ou est efface par un acte interruptif.",
+          "explication": "La fiche y voit l'outillage essentiel de la maitrise temporelle des poursuites.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la prescription ne doit-elle pas etre comprise comme une simple formalite chronologique ?",
+          "reponse": "Parce qu'elle exprime un arbitrage entre securite juridique, oubli social relatif et necessite de poursuivre effectivement certaines infractions.",
+          "explication": "Le document montre que ses regles sont fortement chargees de choix de politique criminelle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur le point de depart de la prescription ?",
+          "reponse": "Le croire toujours fixe au lendemain des faits, alors que la structure de l'infraction ou des reports legaux et jurisprudentiels peuvent deplacer ce point.",
+          "explication": "La fiche insiste sur l'importance de qualifier d'abord correctement l'infraction.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur les exceptions au droit commun de la prescription ?",
+          "reponse": "Les traiter comme marginales alors qu'elles traduisent des choix tres structurants du droit penal contemporain.",
+          "explication": "Le document multiplie les exemples de regimes derogatoires significatifs.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "La mise en oeuvre des poursuites suppose une maitrise fine du temps penal, organisee par la prescription, ses exceptions et ses mecanismes de suspension ou d'interruption.",
+          "explication": "La fiche relie ainsi action publique, classification des infractions et politique criminelle.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1200,
+      "fiche": {
+        "titre": "Pouvoirs des enqueteurs : controles d'identite, police administrative ou judiciaire et verification sous contrainte",
+        "resume": "Cette seance ouvre le chapitre sur les pouvoirs des enqueteurs en procedure penale. La fiche en retient une idee directrice : les controles et verifications d'identite sont des outils banals en apparence, mais juridiquement sensibles, car ils se situent au point de contact entre prevention administrative, repression judiciaire et atteintes a la liberte d'aller et venir. Leur regime tient donc a une distinction de finalite et a un encadrement croissant des retenues et investigations associees.",
+        "sections": [
+          {
+            "titre": "Le pouvoir de controler l'identite est attribue largement mais encadre par la finalite de l'intervention",
+            "contenu": "Le document rappelle que policiers et gendarmes peuvent proceder a des controles dans le cadre legal prevu par le code de procedure penale. La fiche retient que la cle n'est pas seulement l'identite de l'agent, mais surtout la finalite de l'operation entreprise."
+          },
+          {
+            "titre": "Il faut distinguer police administrative et police judiciaire",
+            "contenu": "Le cours oppose une logique preventive a une logique repressive. La fiche retient que cette distinction structure l'ensemble du regime des controles d'identite, meme si les textes enchevetrent parfois les deux hypotheses au sein d'un meme article."
+          },
+          {
+            "titre": "Les controles de police judiciaire servent a rechercher les auteurs ou a obtenir des renseignements utiles a l'enquete",
+            "contenu": "Le document enumere plusieurs cas d'ouverture du controle, notamment le soupcon de commission ou de preparation d'une infraction. La fiche retient que le controle judiciaire d'identite se rattache a une perspective d'incrimination ou de renseignement penal concret."
+          },
+          {
+            "titre": "La verification d'identite constitue une etape plus intrusive lorsque le controle ne suffit pas",
+            "contenu": "Le cours explique que le refus ou l'impossibilite d'etablir son identite permet le passage a une verification sous l'autorite d'un OPJ. La fiche retient que l'on passe alors d'un acte de simple contact a une retenue juridiquement plus grave, limitee dans le temps et accompagnee de droits d'information."
+          },
+          {
+            "titre": "Les investigations techniques et les re quisitions prolongent ces pouvoirs sous un autre angle",
+            "contenu": "Le document annonce aussi les re quisitions et examens techniques dans les enquetes de flagrance ou preliminaires. La fiche retient que les pouvoirs des enqueteurs ne se limitent pas a l'identification des personnes, mais s'etendent a la collecte d'elements techniques utiles a la manifestation de la verite."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi les controles d'identite sont-ils juridiquement sensibles ?",
+          "reponse": "Parce qu'ils touchent directement a la liberte d'aller et venir et peuvent basculer d'une logique preventive a une logique repressive.",
+          "explication": "Le document en fait un point d'entree classique mais delicat des pouvoirs d'enquete.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle distinction fondamentale structure le regime des controles d'identite ?",
+          "reponse": "La distinction entre police administrative, orientee vers la prevention, et police judiciaire, orientee vers la repression ou la recherche d'infractions.",
+          "explication": "La fiche montre que cette opposition de finalite commande le cadre juridique applicable.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la distinction entre police administrative et police judiciaire n'est-elle pas toujours simple en pratique ?",
+          "reponse": "Parce que certains textes, notamment l'article 78-2 du code de procedure penale, accueillent des hypotheses relevant des deux logiques.",
+          "explication": "Le document insiste sur ce melange normatif pour expliquer les difficultes de qualification.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quand parle-t-on de controle d'identite de police judiciaire ?",
+          "reponse": "Lorsqu'il existe un lien avec la recherche d'une infraction, de son auteur ou de renseignements utiles a une enquete penale.",
+          "explication": "La fiche rattache ce controle a une finalite de repression ou d'investigation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que se passe-t-il si la personne refuse ou ne parvient pas a justifier son identite ?",
+          "reponse": "Elle peut etre soumise a une verification d'identite sous l'autorite d'un officier de police judiciaire dans les conditions prevues par la loi.",
+          "explication": "Le document presente cette etape comme plus intrusive que le simple controle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la verification d'identite est-elle plus grave qu'un controle simple ?",
+          "reponse": "Parce qu'elle peut impliquer une retenue temporaire et des investigations supplementaires afin d'etablir l'identite de la personne.",
+          "explication": "La fiche souligne ici le changement de niveau dans l'atteinte a la liberte.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels droits doivent accompagner la verification d'identite ?",
+          "reponse": "La personne doit notamment etre informee de certains droits, comme l'information du procureur ou la possibilite de prevenir un proche selon le cadre legal applicable.",
+          "explication": "Le document rattache ces garanties a l'intervention de l'OPJ et au controle de la mesure.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les re quisitions et examens techniques apparaissent-ils dans le meme chapitre ?",
+          "reponse": "Parce qu'ils prolongent les pouvoirs des enqueteurs en leur permettant de collecter des informations ou analyses utiles a l'etablissement des faits.",
+          "explication": "La fiche elargit ainsi le regard des controles d'identite vers l'arsenal technique d'enquete.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur les controles d'identite ?",
+          "reponse": "Les voir comme de simples gestes policiers neutres alors qu'ils reposent sur des finalites juridiques distinctes et peuvent deboucher sur des mesures coercitives.",
+          "explication": "Le document met en avant cette profondeur procedurale derriere un acte apparemment banal.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Les pouvoirs des enqueteurs en matiere d'identite s'organisent autour d'une distinction de finalite et d'un encadrement progressif de l'intrusion, du simple controle a la verification et aux investigations techniques.",
+          "explication": "La fiche relie ainsi police administrative, police judiciaire et coercition mesuree.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1207,
+      "fiche": {
+        "titre": "Obligations alimentaires en droit de la famille : creanciers, debiteurs, besoin et proportionnalite",
+        "resume": "Cette seance de droit de la famille etudie les obligations alimentaires. La fiche en retient une idee directrice : l'aide familiale due en cas de besoin ne releve ni du simple devoir moral ni d'une solidarite indifferenciee. Elle ob eit a un regime juridique precis qui identifie les personnes tenues, l'etendue du besoin a couvrir et la proportion entre la demande du creancier et les ressources du debiteur.",
+        "sections": [
+          {
+            "titre": "Les obligations alimentaires naissent principalement de l'affiliation mais pas exclusivement",
+            "contenu": "Le document rappelle qu'elles procedent surtout des liens de parent e en ligne directe, tout en pouvant aussi trouver leur source dans certaines consequences du mariage. La fiche retient que la famille juridiquement tenue d'aider ne se reduit pas a la relation parent-enfant immedi ate."
+          },
+          {
+            "titre": "Les obligations alimentaires sont reciproques entre ascendants et descendants",
+            "contenu": "Le cours insiste sur la reciprocite issue du code civil. La fiche retient qu'un enfant peut devoir des aliments a ses ascendants dans le besoin, mais qu'un ascendant peut aussi etre tenu d'aider un descendant lorsque les conditions sont remplies."
+          },
+          {
+            "titre": "Le besoin est la condition centrale de l'exigibilite des aliments",
+            "contenu": "Le document explique que le creancier doit manquer du necessaire et ne pas pouvoir subvenir seul a sa subsistance. La fiche retient que les aliments ne servent pas a maintenir un train de vie, mais a garantir les moyens indispensables pour vivre dignement."
+          },
+          {
+            "titre": "L'objet des aliments couvre le necessaire a l'existence sans aller jusqu'au confort ordinaire",
+            "contenu": "Le cours mentionne la nourriture, le vetement, les soins et le logement dec ent. La fiche retient que les obligations alimentaires assurent la survie digne, non la preservation d'un niveau de vie ou le financement de loisirs."
+          },
+          {
+            "titre": "Le montant des aliments se fixe selon une double proportion entre besoin et ressources",
+            "contenu": "Le document rappelle que l'article 208 du code civil impose de tenir compte a la fois du besoin du creancier et de la fortune du debiteur. La fiche retient que la dette alimentaire est individualisee et ne peut pas ruiner celui qui la supporte."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Qu'est-ce qu'une obligation alimentaire dans cette seance ?",
+          "reponse": "C'est l'obligation juridique faite a certains proches de fournir a une personne dans le besoin les moyens necessaires a une existence digne.",
+          "explication": "Le document l'oppose a une simple aide morale facultative.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les obligations alimentaires ne derivent-elles pas uniquement de la parente ?",
+          "reponse": "Parce que certaines trouvent aussi leur source dans les liens crees par le mariage, en plus des rapports d'affiliation.",
+          "explication": "La fiche nuance ainsi l'idee d'un dispositif exclusivement fonde sur la ligne de parent e.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie la reciprocite des obligations alimentaires ?",
+          "reponse": "Elle signifie que l'obligation peut jouer aussi bien des descendants vers les ascendants que des ascendants vers les descendants selon les situations de besoin.",
+          "explication": "Le document montre ainsi qu'aucun sens unique ne gouverne l'aide familiale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le besoin est-il la condition centrale de l'obligation alimentaire ?",
+          "reponse": "Parce que seules les personnes qui manquent du necessaire et ne peuvent subvenir elles-memes a leur subsistance peuvent reclamer des aliments.",
+          "explication": "La fiche met en avant le caractere subsidiaire et vital de cette aide.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que couvrent les aliments au sens juridique de cette seance ?",
+          "reponse": "Ils couvrent ce qui est necessaire a la vie, comme se nourrir, se vetir, se loger et se soigner dignement.",
+          "explication": "Le document refuse d'y inclure une garantie generale de niveau de vie ou de loisirs.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'obligation alimentaire n'equivaut-elle pas au devoir d'entretien ou aux obligations conjugales de secours ?",
+          "reponse": "Parce qu'elle vise seulement le necessaire a l'existence et non la conservation d'un train de vie ou d'une pleine solidarite patrimoniale.",
+          "explication": "La fiche distingue ainsi plusieurs degres d'obligations familiales pecuniaires.",
+          "difficulte": 2
+        },
+        {
+          "question": "Comment se fixe le montant des aliments ?",
+          "reponse": "Il se determine en fonction du besoin du creancier et des ressources du debiteur, selon une logique de proportionnalite.",
+          "explication": "Le document rattache cette regle a l'article 208 du code civil.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi plusieurs debiteurs potentiels ne paient-ils pas necessairement la meme somme ?",
+          "reponse": "Parce que l'evaluation depend partiellement des moyens propres de chacun et non d'une dette uniforme repartie abstraitement.",
+          "explication": "La fiche souligne l'individualisation concrete de la dette alimentaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur les aliments ?",
+          "reponse": "Les assimiler a une obligation de maintien du niveau de vie alors qu'ils visent seulement a garantir le necessaire a l'existence.",
+          "explication": "Le document oppose explicitement cette logique a celle de certaines obligations familiales plus larges.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Les obligations alimentaires organisent une solidarite familiale juridiquement encadree par le besoin du creancier, la qualite des proches tenus et les ressources de chacun.",
+          "explication": "La fiche relie ainsi sources familiales, objet des aliments et proportionnalite.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
