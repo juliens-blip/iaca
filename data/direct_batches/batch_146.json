@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1238,
+      "fiche": {
+        "titre": "Administrateurs de SA : remuneration encadree, missions exceptionnelles et responsabilite de gestion",
+        "resume": "Cette seance etudie le statut des administrateurs de societe anonyme. La fiche en retient une idee directrice : l'administrateur n'est pas un dirigeant librement remunere selon les usages du marche, mais un organe dont les avantages sont strictement encadres par la loi. Le droit distingue une remuneration annuelle decidee par l'assemblee, des remboursements ou missions exceptionnelles tres qualifies, puis rattache l'ensemble a un regime de responsabilite classique des dirigeants de SA.",
+        "sections": [
+          {
+            "titre": "La disparition terminologique des jetons de presence n'a pas modifie la logique juridique de la remuneration",
+            "contenu": "Le document explique que la loi Pacte a remplace l'ancienne expression par le terme plus neutre de remuneration. La fiche retient que le changement est surtout symbolique : la somme globale demeure allouee chaque annee par l'assemblee generale puis repartie entre les administrateurs par le conseil."
+          },
+          {
+            "titre": "La remuneration ordinaire des administrateurs releve d'un cadre collectif decide par les organes sociaux",
+            "contenu": "Le cours rappelle que l'assemblee determine une enveloppe fixe annuelle et que le conseil d'administration en organise la repartition. La fiche retient que l'administrateur n'obtient pas sa remuneration par negociation individuelle libre, mais dans un cadre institutionnel collectif."
+          },
+          {
+            "titre": "Le droit admet des remboursements de frais et des remunerations exceptionnelles pour services specifiques",
+            "contenu": "Le document distingue le simple remboursement des depenses engagees dans l'interet social des remunerations attribuees pour des missions ou mandats particuliers. La fiche retient que ces supplements ne sont admis qu'a raison d'une justification precise et, pour les missions exceptionnelles, dans le cadre des conventions reglementees."
+          },
+          {
+            "titre": "En dehors des hypotheses legalement prevues, toute autre remuneration est prohibee",
+            "contenu": "Le cours cite l'article L. 225-44 du Code de commerce pour montrer le caractere ferme de la liste des avantages permis. La fiche retient que le statut de l'administrateur repose sur un principe d'encadrement strict, destine a prevenir les remunerations occultes ou arbitraires."
+          },
+          {
+            "titre": "La responsabilite des administrateurs s'inscrit dans le regime general des dirigeants de SA",
+            "contenu": "Le document rappelle qu'ils repondent des violations de la loi, des statuts ou des fautes de gestion. La fiche retient que l'administrateur ne beneficie pas d'une simple fonction honorifique : son implication dans la decision sociale peut engager sa responsabilite envers la societe ou les tiers."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la suppression de l'expression jetons de presence n'a-t-elle pas bouleverse le droit applicable ?",
+          "reponse": "Parce qu'elle a surtout modifie le vocabulaire, sans changer le mecanisme juridique de l'allocation et de la repartition de la remuneration des administrateurs.",
+          "explication": "Le document insiste sur le caractere essentiellement terminologique de la reforme.",
+          "difficulte": 1
+        },
+        {
+          "question": "Qui fixe en principe la somme annuelle destinee a remunerer les administrateurs ?",
+          "reponse": "L'assemblee generale fixe l'enveloppe annuelle globale destinee a la remuneration de leur activite.",
+          "explication": "La fiche rappelle ensuite que le conseil en organise la repartition entre ses membres.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la repartition de la remuneration entre administrateurs n'est-elle pas identique pour tous ?",
+          "reponse": "Parce que le conseil peut tenir compte de l'implication concrete des membres, notamment lorsqu'ils participent a des comites ou assument des fonctions plus lourdes.",
+          "explication": "Le document mentionne cette souplesse dans la distribution interne de l'enveloppe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle difference faut-il faire entre remboursement de frais et remuneration exceptionnelle ?",
+          "reponse": "Le remboursement compense des depenses exposees pour la societe, tandis que la remuneration exceptionnelle paie un service ou une mission particuliere rendue par l'administrateur.",
+          "explication": "La fiche souligne que seule la seconde constitue une vraie contrepartie remuneratrice supplementaire.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les remunerations exceptionnelles d'administrateurs sont-elles rattachees aux conventions reglementees ?",
+          "reponse": "Parce qu'elles correspondent a des prestations particulieres conclues entre la societe et l'un de ses administrateurs, ce qui justifie un controle renforc e des conflits d'interets.",
+          "explication": "Le document en fait un point important du regime de transparence interne.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel principe pose l'article L. 225-44 du Code de commerce ?",
+          "reponse": "L'administrateur ne peut recevoir de la societe aucune autre remuneration que celles que la loi autorise express ement.",
+          "explication": "La fiche y voit le pivot de l'encadrement des avantages financiers consentis aux administrateurs.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le statut financier de l'administrateur est-il aussi strictement borne ?",
+          "reponse": "Parce que le droit veut eviter les avantages occultes, proteger l'interet social et maintenir une gouvernance lisible pour les associes et les tiers.",
+          "explication": "Le document suggere cette logique derriere la fermeture de la liste legale des remunerations.",
+          "difficulte": 2
+        },
+        {
+          "question": "Sur quels fondements un administrateur peut-il voir sa responsabilite engagee ?",
+          "reponse": "Sur les infractions aux regles applicables aux SA, les violations des statuts ou les fautes commises dans sa gestion.",
+          "explication": "La fiche rattache ce triptyque au regime general de responsabilite des dirigeants de SA.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'administrateur ne doit-il pas etre vu comme une figure purement decor ative ?",
+          "reponse": "Parce qu'il participe a la gouvernance de la societe et peut engager sa responsabilite civile en raison des decisions ou carences qui lui sont imputables.",
+          "explication": "Le document ferme ainsi la porte a une lecture purement honorifique du mandat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur le statut des administrateurs de SA ?",
+          "reponse": "Leur remuneration est etroitement encadree par la loi et leurs interventions, ordinaires ou exceptionnelles, s'accompagnent d'une responsabilite reelle de dirigeant social.",
+          "explication": "La fiche relie ainsi enveloppe annuelle, missions specifiques et faute de gestion.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1239,
+      "fiche": {
+        "titre": "Gouvernance de SA : cumul mandat social-contrat de travail et controle particulier des administrateurs",
+        "resume": "Cette seance etudie une composante classique de la bonne gouvernance des societes anonymes : l'encadrement des cumuls d'activites. La fiche en retient une idee directrice : le cumul entre mandat social et contrat de travail n'est jamais neutre, car il peut brouiller la distinction entre controle, direction et protection salariale. Le droit commun impose donc des conditions strictes, et le droit special des SA ajoute pour les administrateurs des verrous supplementaires destines a limiter les cumuls opportunistes.",
+        "sections": [
+          {
+            "titre": "Le cumul mandat social-contrat de travail n'est admis qu'en presence d'un veritable contrat de travail",
+            "contenu": "Le document rappelle les exigences classiques d'emploi effectif, de taches distinctes, de remuneration propre et de lien de subordination. La fiche retient que le cumul n'est acceptable que si la fonction salariale existe reellement en dehors de la simple qualite de dirigeant."
+          },
+          {
+            "titre": "La soft law des societes cotees adopte des positions plus severes a l'egard des dirigeants executifs",
+            "contenu": "Le cours expose la recommandation du code Afep-Medef, qui invite les dirigeants executifs a cesser de beneficier d'un contrat de travail, et la position plus nuancee du code Middle Next. La fiche retient que les standards de gouvernance considerent souvent ce cumul comme peu souhaitable, meme lorsqu'il reste juridiquement possible."
+          },
+          {
+            "titre": "Les administrateurs sont soumis a un regime special de cumul beaucoup plus surveille",
+            "contenu": "Le document cite l'article L. 225-22 et rappelle que le contrat de travail doit correspondre a un emploi effectif. La fiche retient que l'administrateur salarie est une figure admise, mais sous condition d'authenticite professionnelle et de limitation numerique."
+          },
+          {
+            "titre": "Le contrat de travail doit en principe etre anterieur a la nomination comme administrateur",
+            "contenu": "Le cours explique que le systeme a longtemps privilegie l'hypothese du salarie promu administrateur, plutot que celle de l'administrateur cherchant a se salarier ensuite. La fiche retient que le droit entend eviter les contrats de travail de pure opportunite conclus pour proteger un mandataire deja en place."
+          },
+          {
+            "titre": "L'evolution legislative recente a seulement entrouvert la porte a certains cumuls ulterieurs",
+            "contenu": "Le document mentionne l'assouplissement apporte en 2012 pour certaines societes ne depassant pas certains seuils. La fiche retient que l'ouverture reste exceptionnelle et confirme, par contraste, que le principe demeure celui d'une surveillance etroite des cumuls de fonctions."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le cumul d'un mandat social et d'un contrat de travail est-il traite avec prudence ?",
+          "reponse": "Parce qu'il peut masquer une confusion entre les fonctions de direction et la protection salariee, au risque de vider de sens l'une ou l'autre qualification.",
+          "explication": "Le document fait du caractere reel du contrat de travail la condition premiere de legitimite du cumul.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelles sont les conditions classiques permettant d'admettre un vrai contrat de travail en plus du mandat social ?",
+          "reponse": "Il faut un emploi effectif, des taches distinctes de celles du mandat, une remuneration propre et un lien de subordination.",
+          "explication": "La fiche reprend le faisceau d'indices deja mobilise pour d'autres dirigeants sociaux.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le lien de subordination est-il si difficile a etablir pour un dirigeant social ?",
+          "reponse": "Parce que celui qui dirige la societe se trouve rarement place, pour ses fonctions principales, sous l'autorite effective d'un autre organe comme un salarie ordinaire.",
+          "explication": "Le document sous-entend cette tension structurelle entre pouvoir de direction et statut salarie.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle position adopte le code Afep-Medef pour les dirigeants executifs des societes cotees ?",
+          "reponse": "Il recommande qu'ils cessent de beneficier d'un contrat de travail en plus de leur mandat social.",
+          "explication": "La fiche y voit une expression de la soft law de gouvernance la plus exigeante.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le code Middle Next est-il plus nuanc e sur cette question ?",
+          "reponse": "Parce qu'il tient compte du profil de societes plus petites ou plus jeunes, pour lesquelles un cumul peut parfois etre juge encore opportun.",
+          "explication": "Le document souligne qu'il prefere recommander la prudence plutot que trancher abstraitement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel verrou particulier s'applique au cumul pour les administrateurs de SA ?",
+          "reponse": "Le contrat de travail doit correspondre a un emploi effectif et le nombre d'administrateurs lies a la societe par un tel contrat ne peut depasser un certain seuil.",
+          "explication": "La fiche retient l'idee d'un controle a la fois qualitatif et quantitatif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le droit prefere-t-il, en principe, le cas du salarie qui devient administrateur ?",
+          "reponse": "Parce qu'il parait correspondre a une promotion professionnelle authentique, moins suspecte qu'un contrat salarie accorde a un administrateur deja en place.",
+          "explication": "Le document oppose explicitement les deux hypotheses.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'hypothese de l'administrateur qui devient ensuite salarie a-t-elle longtemps ete regardee avec suspicion ?",
+          "reponse": "Parce qu'elle pouvait servir a offrir une protection supplementaire ou une remuneration detournee a un mandataire social deja installe.",
+          "explication": "La fiche relie cette mefiance au souci d'eviter les cumuls artificiels.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que change la reforme de 2012 pour certains administrateurs ?",
+          "reponse": "Elle admet, dans certaines societes sous seuils, une possibilite plus ouverte pour qu'un administrateur puisse aussi beneficier d'un contrat de travail.",
+          "explication": "Le document presente cette evolution comme un assouplissement circonscrit et non comme un renversement du systeme.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur les cumuls d'activites dans la SA ?",
+          "reponse": "Le cumul mandat social-contrat de travail reste une exception surveillee, specialement pour les administrateurs et plus encore sous l'angle de la bonne gouvernance.",
+          "explication": "La fiche relie ici droit positif, soft law et prevention des cumuls artificiels.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1240,
+      "fiche": {
+        "titre": "Actions de SA : dematerialisation, titres nominatifs, titres au porteur et nouveaux registres electroniques",
+        "resume": "Cette seance ouvre l'etude des actionnaires par celle de leur bien principal : l'action. La fiche en retient une idee directrice : l'action n'est pas seulement une fraction abstraite du capital, elle est aussi un support technique d'identification, de circulation et de preuve. Le droit contemporain oppose surtout titres nominatifs et titres au porteur, tout en organisant leur dematerialisation croissante et l'apparition encadree de nouveaux registres electroniques.",
+        "sections": [
+          {
+            "titre": "L'action est un droit social representatif d'une fraction du capital de la societe",
+            "contenu": "Le document rappelle que l'action se distingue des parts sociales tout en representant, comme elles, une quote-part du capital. La fiche retient que l'action combine une fonction patrimoniale, politique et technique au sein de la societe anonyme."
+          },
+          {
+            "titre": "Les titres nominatifs se caracterisent par l'identification de l'actionnaire par la societe",
+            "contenu": "Le cours explique que les actions nominatives sont aujourd'hui inscrites en compte et que la societe connait l'identite de leur titulaire. La fiche retient que le caractere nominatif repose moins sur un papier que sur un systeme d'inscription permettant la tracabilite de l'actionnariat."
+          },
+          {
+            "titre": "La dematerialisation a remplace les anciens certificats sans supprimer les distinctions juridiques",
+            "contenu": "Le document insiste sur la disparition des anciens supports papier, aussi bien pour les titres nominatifs que pour les titres au porteur. La fiche retient que la technique de preuve a change, mais non la logique de distinction entre les differentes formes de detention et de circulation."
+          },
+          {
+            "titre": "Le nominatif administre introduit un intermediaire entre l'actionnaire et la societe",
+            "contenu": "Le cours distingue le nominatif pur, gere directement par la societe, du nominatif administre, ou un intermediaire habilite tient aussi un compte pour le titulaire. La fiche retient que cette formule permet d'articuler identification de l'actionnaire et gestion professionnalisee de ses titres."
+          },
+          {
+            "titre": "Le droit ouvre prudemment les inscriptions sur DEEP ou registres distribues",
+            "contenu": "Le document evoque l'usage possible de la blockchain, des dispositifs d'enregistrement electronique partage et du regime pilote DLT pour certaines societes cotees. La fiche retient que l'innovation technologique est admise comme support d'inscription, mais dans un cadre encore experimental ou techniquement exigeant."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi l'action est-elle qualifiee de droit social ?",
+          "reponse": "Parce qu'elle exprime la participation de son titulaire au capital et a la vie juridique de la societe, avec des droits patrimoniaux et politiques.",
+          "explication": "Le document l'etudie comme le bien principal de l'actionnaire dans la SA.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle difference fondamentale oppose une action nominative a une action au porteur ?",
+          "reponse": "Dans le titre nominatif, la societe connait l'identite du titulaire, alors que dans le titre au porteur cette identification passe autrement et ne repose pas sur le meme mode de relation directe a l'emetteur.",
+          "explication": "La fiche met au centre la question de l'identification de l'actionnaire.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les actions nominatives ne sont-elles plus liees a un certificat papier ?",
+          "reponse": "Parce que le droit a generalise la dematerialisation et fait aujourd'hui reposer leur existence sur une inscription en compte ou un dispositif equivalent autorise.",
+          "explication": "Le document rappelle que le certificat ancien n'etait deja qu'un mode de preuve imparfait.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel interet pratique presente l'inscription en compte des actions nominatives ?",
+          "reponse": "Elle permet de suivre avec precision le nombre d'actions detenues par chaque titulaire et d'assurer la connaissance de l'actionnariat par la societe.",
+          "explication": "La fiche insiste sur la dimension de tracabilite organisee par le compte-titres nominatif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que faut-il entendre par nominatif pur ?",
+          "reponse": "C'est l'hypothese ou la tenue des inscriptions est assuree directement, ou pour le compte, de la societe emettrice sans gestion intermediaire par une banque pour l'actionnaire.",
+          "explication": "Le document l'oppose au nominatif administre.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que change le nominatif administre pour l'actionnaire ?",
+          "reponse": "Il permet a un intermediaire habilite, souvent une banque, de gerer les titres pour son compte tout en maintenant l'inscription nominative aupres de la societe.",
+          "explication": "La fiche montre que ce systeme combine gestion professionnelle et identification du porteur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les titres au porteur ont-ils longtemps ete associes a une circulation plus directe ?",
+          "reponse": "Parce qu'ils etaient autrefois materialises par un titre papier dont la remise permettait la transmission sans intervention comparable de la societe.",
+          "explication": "Le document rappelle toutefois que cette logique historique est aujourd'hui depassee par la dematerialisation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role historique a joue la Sicovam puis Euroclear France ?",
+          "reponse": "Ces organismes ont pris en charge la conservation centralisee et l'inscription en compte des titres au porteur dans un cadre organise de marche.",
+          "explication": "La fiche rattache cette evolution a la professionnalisation des infrastructures de titres.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le droit autorise-t-il prudemment les DEEP et autres registres distribues ?",
+          "reponse": "Parce qu'ils offrent de nouveaux supports d'inscription potentiellement utiles, mais soulevent encore des enjeux techniques et pratiques qui justifient un encadrement progressif.",
+          "explication": "Le document presente ces mecanismes comme innovants mais encore peu deployes a grande echelle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur les actions de SA ?",
+          "reponse": "L'action est a la fois un droit social et un objet technique de circulation, dont la detention s'organise aujourd'hui autour de formes dematerialisees, nominatives ou au porteur, de plus en plus sophistiquees.",
+          "explication": "La fiche relie ainsi capital social, identification et innovation electronique.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1241,
+      "fiche": {
+        "titre": "Assemblees d'actionnaires de SA : convocation, ordre du jour et information prealable des associes",
+        "resume": "Cette seance introduit l'organisation des assemblees d'actionnaires. La fiche en retient une idee directrice : l'assemblee generale n'est pas seulement un moment de vote, c'est une procedure de deliberation prepar ee avec rigueur. Le droit encadre donc la convocation, la fixation de l'ordre du jour, les droits d'initiative des actionnaires et les formalites d'information prealable afin de garantir la sincerite de la decision collective.",
+        "sections": [
+          {
+            "titre": "Le pouvoir normal de convoquer l'assemblee appartient aux organes centraux de direction",
+            "contenu": "Le document rappelle qu'en principe le conseil d'administration ou le directoire convoque l'assemblee generale. La fiche retient que la preparation de l'assemblee releve d'abord de la gouvernance reguliere de la societe."
+          },
+          {
+            "titre": "Le droit prevoit des voies subsidiaires de convocation pour prevenir les blocages",
+            "contenu": "Le cours mentionne le commissaire aux comptes, le mandataire de justice, les liquidateurs ou certaines situations de prise de controle. La fiche retient que l'assemblee ne doit pas dependre exclusivement de la bonne volonte des dirigeants lorsque l'interet social ou les droits des actionnaires imposent sa reunion."
+          },
+          {
+            "titre": "L'ordre du jour structure la deliberation mais n'echappe pas entierement a l'initiative des actionnaires",
+            "contenu": "Le document explique que l'auteur de la convocation fixe l'ordre du jour, tout en rappelant que certains actionnaires peuvent demander l'inscription de points ou de projets de resolution. La fiche retient que l'assemblee reste gouvernee mais non monopolisee par l'organe convocateur."
+          },
+          {
+            "titre": "La deliberation est en principe enfermee dans l'ordre du jour prealablement annonce",
+            "contenu": "Le cours rappelle qu'une assemblee ne peut en principe deliberer sur une question non inscrite, sauf certaines facultes speciales comme la revocation d'administrateurs. La fiche retient que l'ordre du jour protege la prevision et l'information des actionnaires avant la reunion."
+          },
+          {
+            "titre": "Les societes cotees et non cotees sont soumises a des formalites d'information prealable graduees",
+            "contenu": "Le document distingue avis de reunion, avis de convocation, publications legales et convocations individuelles, avec des delais precis. La fiche retient que la regularite de l'assemblee depend largement de la qualite et de l'anticipation de l'information fournie aux actionnaires."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la convocation de l'assemblee generale est-elle en principe confiee au conseil d'administration ou au directoire ?",
+          "reponse": "Parce que ces organes assurent normalement la conduite courante de la societe et sont donc les mieux places pour preparer la deliberation collective des actionnaires.",
+          "explication": "Le document en fait le mode ordinaire de reunion de l'assemblee.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la loi admet-elle d'autres auteurs possibles de la convocation ?",
+          "reponse": "Parce qu'il faut pouvoir reunir l'assemblee meme en cas d'inertie, de conflit ou de situation exceptionnelle affectant les dirigeants habituels.",
+          "explication": "La fiche relie ces hypotheses subsidiaires a la prevention des blocages de gouvernance.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role peut jouer le mandataire de justice dans ce domaine ?",
+          "reponse": "Il peut etre designe pour convoquer l'assemblee lorsque certains actionnaires ou un interesse y sont autorises par la loi et que la voie ordinaire fait defaut.",
+          "explication": "Le document presente cette figure comme une voie de secours institutionnelle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qui fixe en principe l'ordre du jour de l'assemblee ?",
+          "reponse": "C'est l'auteur de la convocation qui arrete normalement l'ordre du jour.",
+          "explication": "La fiche ajoute toutefois que ce pouvoir n'est pas totalement exclusif.",
+          "difficulte": 1
+        },
+        {
+          "question": "Comment certains actionnaires peuvent-ils influencer l'ordre du jour sans avoir convoque eux-memes l'assemblee ?",
+          "reponse": "Ils peuvent demander l'inscription de points ou de projets de resolution lorsque les seuils legaux ou conditions requises sont remplis.",
+          "explication": "Le document fait de ce droit un contrepoids a la maitrise de l'ordre du jour par les dirigeants.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'assemblee ne peut-elle pas deliberer librement sur n'importe quel sujet au dernier moment ?",
+          "reponse": "Parce que les actionnaires doivent etre informes a l'avance des questions traitees afin de preparer utilement leur vote et leur participation a la reunion.",
+          "explication": "La fiche relie cette exigence au principe meme de la deliberation eclairee.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle exception importante le texte maintient-il malgre le principe de fixation prealable de l'ordre du jour ?",
+          "reponse": "L'assemblee peut notamment, en toutes circonstances, revoquer un ou plusieurs administrateurs et pourvoir a leur remplacement.",
+          "explication": "Le document souligne ici une soupape importante du droit des societes anonymes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les societes cotees supportent-elles des formalites d'information plus lourdes ?",
+          "reponse": "Parce qu'elles s'adressent a un actionnariat potentiellement plus large et plus disperse, ce qui exige une information plus anticipee et plus formalisee.",
+          "explication": "La fiche mentionne notamment l'avis de reunion et les exigences liees aux droits des actionnaires.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'interet des convocations individuelles aux titulaires d'actions nominatives ?",
+          "reponse": "Elles assurent une information personnelle directe des actionnaires identifiables par la societe avant la tenue de l'assemblee.",
+          "explication": "Le document les distingue des seules publications legales generales.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur l'organisation des assemblees de SA ?",
+          "reponse": "L'assemblee generale est une procedure rigoureusement preparee, ou convocation, ordre du jour et information prealable visent a garantir une decision collective reguliere et eclairee.",
+          "explication": "La fiche relie ici droits des actionnaires, gouvernance et securite de la deliberation.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
