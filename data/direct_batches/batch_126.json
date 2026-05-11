@@ -1,0 +1,292 @@
+{
+  "documents": [
+    {
+      "document_id": 1113,
+      "flashcards": [
+        {
+          "question": "Pourquoi l'apport en compte courant ne se confond-il pas avec un veritable apport au capital ?",
+          "reponse": "Parce qu'il correspond a une avance remboursable a la societe et non a une contribution integrant le capital social.",
+          "explication": "Cette carte complete le bloc existant en distinguant plus nettement les logiques de financement de la societe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel risque particulier pese sur l'associe qui n'effectue qu'un apport en industrie ?",
+          "reponse": "Sa participation reste plus fragile car elle ne se traduit pas par un bien capitalise de la meme maniere qu'un apport en numeraire ou en nature.",
+          "explication": "Le document souligne la singularite de cette contribution fondee sur l'activite ou le savoir-faire.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'apport en nature est-il plus fortement encadre que l'apport en numeraire ?",
+          "reponse": "Parce qu'il faut verifier la realite et la valorisation du bien remis a la societe pour proteger l'equilibre du capital.",
+          "explication": "La seance rattache cet encadrement au recours possible a un commissaire aux apports.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la pluralite d'associes n'est-elle plus un element absolu du contrat de societe ?",
+          "reponse": "Parce que le droit admet des formes unipersonnelles qui conservent la logique societaire malgre l'absence de pluralite.",
+          "explication": "Cette carte prolonge les cartes existantes sur les societes unipersonnelles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel sens general donner a l'obligation d'apport dans la constitution d'une societe ?",
+          "reponse": "Elle marque l'engagement essentiel de l'associe et justifie sa participation aux droits et risques sociaux.",
+          "explication": "Le document fait de l'apport la contrepartie structurante de la qualite d'associe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les regles sur la liberation progressive de certains apports sont-elles importantes ?",
+          "reponse": "Parce qu'elles organisent dans le temps la mise a disposition effective des ressources promises a la societe.",
+          "explication": "La seance montre que tous les apports ne sont pas verses integralement et immediatement selon les memes modalites.",
+          "difficulte": 3
+        }
+      ]
+    },
+    {
+      "document_id": 1114,
+      "flashcards": [
+        {
+          "question": "Pourquoi le contrat de societe ne se laisse-t-il pas reduire au modele synallagmatique classique ?",
+          "reponse": "Parce que les associes ne s'engagent pas simplement les uns envers les autres, mais participent a une entreprise commune orientee vers la societe elle-meme.",
+          "explication": "Le document insiste sur la specificite structurelle du contrat de societe par rapport au droit commun des contrats.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le consentement reste-t-il une condition sensible dans le contrat de societe ?",
+          "reponse": "Parce qu'une erreur, un dol ou une simulation peuvent affecter l'entree meme dans la relation societaire.",
+          "explication": "La seance rattache les vices du consentement a la validite du lien entre associes et societe.",
+          "difficulte": 2
+        },
+        {
+          "question": "En quoi la capacite des associes appelle-t-elle des precautions particulieres ?",
+          "reponse": "Parce que certaines formes sociales exposent l'associe a des risques ou obligations incompatibles avec certains regimes de protection.",
+          "explication": "Le document prend notamment appui sur le sort des mineurs et majeurs proteges.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la participation d'un incapable a une SNC est-elle specialement problematique ?",
+          "reponse": "Parce que cette forme sociale implique une exposition personnelle aux dettes et une qualite commerciale difficilement conciliable avec certaines incapacites.",
+          "explication": "La seance oppose ici les formes sociales selon le niveau de risque supporte par l'associe.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel danger peut presenter un objet social formule de maniere trop etroite ?",
+          "reponse": "Il peut bloquer la gestion sociale en rendant plus facilement irreguliers ou contestables des actes utiles a l'activite.",
+          "explication": "Le document montre que l'objet social doit encadrer la societe sans la paralyser.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'apport d'un bien commun a une societe est-il encadre avec soin ?",
+          "reponse": "Parce qu'il affecte la sphere patrimoniale du couple et suppose de respecter les regles de pouvoir sur les biens communs.",
+          "explication": "La seance relie ici droit des societes et droit patrimonial de la famille.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que montre la place du contenu du contrat dans cette seance ?",
+          "reponse": "Que la validite de la societe depend aussi de la lic eite, de la coherence et de la precision de son organisation statutaire.",
+          "explication": "Le document articule conditions de validite generales et specificites du contrat de societe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la simulation est-elle un enjeu dans le contrat de societe ?",
+          "reponse": "Parce qu'elle peut masquer la realite des engagements ou la veritable structure des rapports entre parties.",
+          "explication": "La seance rappelle que l'acte apparent et l'acte occulte n'ont pas la meme portee selon les personnes concernees.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel lien faut-il faire entre validite du contrat et protection des tiers en matiere societaire ?",
+          "reponse": "Les conditions de validite n'interessent pas seulement les associes, car les irregularites peuvent rejaillir sur la securite des relations avec les tiers.",
+          "explication": "Le document montre que le contrat de societe n'est jamais enferme dans une pure logique interne.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce chapitre ?",
+          "reponse": "Le contrat de societe obeit aux conditions classiques de validite, mais celles-ci sont relues a travers les risques propres a l'entreprise collective et a la forme sociale choisie.",
+          "explication": "Les cartes mettent en relation consentement, capacite, objet social et logique societaire.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1119,
+      "fiche": {
+        "titre": "Droits sociaux et cession des parts ou actions : circulation des titres, prix et protection du controle societaire",
+        "resume": "Cette seance porte sur la situation des associes a travers leurs droits sociaux. La fiche en retient une idee directrice : parts sociales et actions ne sont pas de simples morceaux de patrimoine abstrait, mais les supports juridiques des droits et obligations de l'associe. Leur circulation est donc organisee avec soin, entre liberte de cession, exigences de forme, stabilite du controle de la societe et difficultes de valorisation des titres.",
+        "sections": [
+          {
+            "titre": "Les droits sociaux materialisent a la fois des prerogatives et des charges",
+            "contenu": "Le document rappelle que les titres detenus par l'associe ne sont pas de simples biens passifs. Ils expriment sa place dans la societe, ses droits financiers et politiques, mais aussi certaines obligations a son egard. La fiche retient que la qualite d'associe se lit concretement a travers ces droits sociaux."
+          },
+          {
+            "titre": "La circulation des titres n'obeit pas partout a la meme logique selon la forme du titre et de la societe",
+            "contenu": "La seance distingue les modalites de cession, les formalites d'opposabilite et le role de l'inscription ou de la publicite selon qu'il s'agit d'actions ou de parts sociales. La fiche souligne que le droit cherche ici a concilier deux exigences : permettre la transmission et securiser l'identification du titulaire opposable a la societe comme aux tiers."
+          },
+          {
+            "titre": "Le prix de cession est un terrain classique de tension entre liberte contractuelle et encadrement technique",
+            "contenu": "Le cours insiste sur la determination ou la determinabilite du prix, sur le recours possible a un expert et sur les difficultes liees a la valeur reelle des titres. La fiche retient que les droits sociaux ne sont pas des biens faciles a evaluer, car leur valeur depend a la fois de la societe, du pouvoir qu'ils donnent et du contexte de la cession."
+          },
+          {
+            "titre": "Les clauses statutaires et extrastatutaires servent souvent a stabiliser le controle de la societe",
+            "contenu": "Le document evoque les conventions destinees a maintenir certains equilibres de pouvoir au sein de la societe. La fiche y voit une dimension essentielle du droit des titres : ceder un titre, ce n'est pas seulement transferer une valeur, c'est parfois modifier un rapport de force dans la gouvernance de l'entreprise."
+          },
+          {
+            "titre": "L'erreur sur la valeur n'est pas facilement admise, car le risque economique reste au coeur de la cession",
+            "contenu": "La seance rappelle que le droit n'annule pas legerement une cession au motif que le prix parait ensuite mauvais. La fiche retient que la variabilite economique des titres fait partie du jeu, sauf lorsque le contrat a fait entrer explicitement certaines donnees dans le champ des qualites convenues ou determinant es."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Que materialisent d'abord les droits sociaux dans une societe ?",
+          "reponse": "La place de l'associe dans la societe, avec ses droits financiers, politiques et certaines obligations.",
+          "explication": "Le document presente parts et actions comme le support concret de la qualite d'associe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la cession de titres sociaux est-elle juridiquement encadree ?",
+          "reponse": "Parce qu'elle affecte a la fois la titularite patrimoniale des titres et l'equilibre interne de la societe.",
+          "explication": "La fiche relie la transmission des titres a des enjeux de gouvernance et d'opposabilite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'interet des formalites d'opposabilite lors d'une cession ?",
+          "reponse": "Elles permettent de savoir a qui la societe et les tiers doivent reconnaitre la qualite de titulaire des droits sociaux.",
+          "explication": "Le document souligne ici la difference entre accord de cession et pleine efficacite de la transmission.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la valeur des droits sociaux est-elle souvent delicate a fixer ?",
+          "reponse": "Parce qu'elle depend de la situation economique de la societe, des prerogatives attachees aux titres et du contexte de controle.",
+          "explication": "La seance montre que le prix d'un titre social n'est jamais purement abstrait ou standard.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le recours a un expert peut-il etre utile pour fixer le prix ?",
+          "reponse": "Parce qu'il offre un mode de determination plus objectif lorsque les parties ne s'accordent pas sur la valeur des titres.",
+          "explication": "Le document relie cette solution a l'article 1843-4 du code civil.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role peuvent jouer certaines conventions autour des titres sociaux ?",
+          "reponse": "Elles peuvent servir a maintenir un certain controle de la societe ou a organiser a l'avance les conditions de circulation des titres.",
+          "explication": "La fiche montre que la cession de titres est aussi un enjeu de pouvoir collectif.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'erreur sur la seule valeur des titres n'est-elle pas facilement retenue ?",
+          "reponse": "Parce que la cession comporte une part de risque economique que le droit n'efface pas spontanement.",
+          "explication": "Le document rappelle que l'evaluation d'un titre social suppose une alea normal du marche ou de la vie des affaires.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que change le fait de faire entrer une qualite determinee dans le champ contractuel de la cession ?",
+          "reponse": "Cela peut rendre juridiquement pertinente une erreur qui, autrement, resterait simple erreur de valeur.",
+          "explication": "La fiche montre que la redaction du contrat peut transformer l'analyse du consentement.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi parts sociales et actions ne se traitent-elles pas toujours exactement de la meme facon ?",
+          "reponse": "Parce que leur regime de circulation et de preuve varie selon la structure sociale et la nature du titre.",
+          "explication": "Le document oppose plusieurs logiques de transmission et de controle selon les cas.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Ceder un droit social, ce n'est pas seulement vendre une valeur, c'est transmettre une position dans l'organisation societaire sous le regard du droit des affaires.",
+          "explication": "La fiche articule ainsi patrimoine, pouvoir et securite juridique autour des titres sociaux.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1120,
+      "fiche": {
+        "titre": "Assemblees d'associes : lieu de decision collective, reserves, capital et grandes operations sociales",
+        "resume": "Cette seance est consacree aux assemblees d'associes. La fiche en retient une idee directrice : l'assemblee n'est pas un simple rituel de vote, mais le lieu ou la societe se gouverne collectivement sur ses decisions les plus structurantes. Repartition des benefices, reserves, modifications du capital, evolution statutaire ou operations de transformation s'y nouent. Le droit organise donc l'assemblee comme le point de rencontre entre droits individuels des associes et necessites de la strategie sociale.",
+        "sections": [
+          {
+            "titre": "L'assemblee d'associes concentre les decisions majeures de la vie sociale",
+            "contenu": "Le document rappelle que les associes interviennent collectivement sur les choix les plus importants de la societe. L'assemblee n'est pas seulement une chambre d'enregistrement, mais le lieu de validation des orientations essentielles. La fiche retient que la gouvernance sociale ne peut pas etre comprise sans cette scene de decision collective."
+          },
+          {
+            "titre": "Les regles de majorite traduisent un equilibre entre efficacite de la decision et protection des associes",
+            "contenu": "La seance montre que les decisions ne sont pas prises partout de la meme maniere. Les majorites varient selon la nature des societes et selon la gravite de la decision. La fiche souligne que ces regles ne sont pas seulement techniques : elles organisent la repartition du pouvoir au sein de la collectivite des associes."
+          },
+          {
+            "titre": "La question des benefices, des reserves et du report a nouveau revele la fonction financiere de l'assemblee",
+            "contenu": "Le document insiste sur le choix entre distribuer, conserver ou reorienter les resultats. Reserve legale, reserve statutaire, report a nouveau ou mise en reserve libre sont autant d'outils de politique financiere de la societe. La fiche retient que l'assemblee decide ici de l'equilibre entre remuneration immediate des associes et consolidation de l'entreprise."
+          },
+          {
+            "titre": "Les operations sur le capital social exigent une intervention assembleaire car elles touchent au coeur de la structure societaire",
+            "contenu": "Augmentation ou reduction de capital ne sont pas des decisions ordinaires. Elles modifient l'assise financiere de la societe, la repartition des droits et parfois l'entree ou la sortie de ressources nouvelles. La fiche retient que l'assemblee joue ici un role de gardienne de la structure meme du groupement."
+          },
+          {
+            "titre": "Les grandes transformations, fusions ou modifications statutaires montrent que l'assemblee est aussi l'organe du changement",
+            "contenu": "Le cours termine sur des operations qui depassent la gestion courante et reconfigurent la societe. La fiche insiste sur cette idee : l'assemblee n'est pas seulement l'organe de conservation de l'ordre social, elle est aussi le lieu ou la societe accepte juridiquement de se transformer."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi l'assemblee d'associes occupe-t-elle une place centrale dans la societe ?",
+          "reponse": "Parce qu'elle reunit les associes pour statuer sur les decisions les plus importantes de la vie sociale.",
+          "explication": "Le document presente l'assemblee comme le centre de la decision collective.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les regles de majorite varient-elles selon les decisions ?",
+          "reponse": "Parce que toutes les decisions n'ont pas le meme impact sur la structure sociale ni sur les droits des associes.",
+          "explication": "La fiche relie les majorites a la gravite et a la nature des choix soumis a l'assemblee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel enjeu se cache derriere la decision de distribuer ou non les benefices ?",
+          "reponse": "Le partage entre remuneration immediate des associes et conservation de ressources pour la societe.",
+          "explication": "La seance montre que l'assemblee arbitre entre retour aux associes et besoins de financement interne.",
+          "difficulte": 2
+        },
+        {
+          "question": "A quoi sert une reserve legale ou statutaire dans la vie sociale ?",
+          "reponse": "A retenir une partie des benefices pour consolider ou encadrer financierement la societe selon des regles predefinies.",
+          "explication": "Le document distingue plusieurs formes de mise en reserve autour du resultat social.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que permet le report a nouveau dans la gestion des resultats ?",
+          "reponse": "De differer le traitement d'une partie du resultat afin de l'affecter ulterieurement selon la situation de la societe.",
+          "explication": "La fiche en fait un outil de souplesse financiere dans la politique sociale.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi une augmentation de capital releve-t-elle d'une decision assembleaire importante ?",
+          "reponse": "Parce qu'elle modifie les ressources de la societe et peut changer la repartition des droits entre associes.",
+          "explication": "Le document montre qu'une operation sur le capital touche directement la structure de la societe.",
+          "difficulte": 2
+        },
+        {
+          "question": "En quoi une reduction de capital peut-elle etre aussi structurante qu'une augmentation ?",
+          "reponse": "Parce qu'elle touche elle aussi a l'assise financiere de la societe et peut reconfigurer l'equilibre entre associes et creanciers.",
+          "explication": "La fiche rappelle que les operations sur capital ne vont pas toujours dans le sens de l'expansion.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi les modifications statutaires supposent-elles l'intervention des associes ?",
+          "reponse": "Parce qu'elles changent les regles fondamentales d'organisation du groupement social.",
+          "explication": "Le document rattache ces decisions a la souverainete collective des associes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role l'assemblee joue-t-elle dans les grandes operations comme les fusions ?",
+          "reponse": "Elle donne la decision collective necessaire pour accepter une transformation profonde de la structure sociale.",
+          "explication": "La fiche en fait l'organe du changement autant que de la surveillance.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "L'assemblee d'associes est le lieu ou se decide l'equilibre entre pouvoir collectif, politique financiere et transformation de la societe.",
+          "explication": "La fiche articule vote, reserves, capital et grandes operations sociales dans une meme logique de gouvernement.",
+          "difficulte": 2
+        }
+      ]
+    }
+  ]
+}
