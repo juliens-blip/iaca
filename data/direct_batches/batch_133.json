@@ -1,0 +1,186 @@
+{
+  "documents": [
+    {
+      "document_id": 1144,
+      "fiche": {
+        "titre": "Theorie des competences de l'Union europeenne : attribution, subsidiarite, proportionnalite et controle politique",
+        "resume": "Cette lecon de droit de l'Union europeenne explique que la specificite constitutionnelle de l'Union se lit d'abord dans sa theorie des competences. La fiche en retient une idee directrice : l'Union ne possede pas la competence de la competence. Elle n'agit que dans les limites attribuees par les traites, mais l'exercice concret de ces competences est ensuite encadre par des principes comme la subsidiarite et la proportionnalite. Le droit de l'Union combine ainsi une habilitation textuelle stricte et un controle politique sur le niveau pertinent d'action.",
+        "sections": [
+          {
+            "titre": "L'Union n'est pas souveraine au sens classique parce qu'elle ne dispose pas de la competence de la competence",
+            "contenu": "Le document part d'une distinction fondamentale avec l'Etat. La fiche retient que l'Union ne peut pas se saisir librement de n'importe quel besoin social. Elle ne detient que les competences que les traites lui attribuent, ce qui rattache directement toute action de l'Union a une base juridique etatique et conventionnelle."
+          },
+          {
+            "titre": "Le principe d'attribution gouverne la delimitation des competences de l'Union",
+            "contenu": "La lecon se fonde sur l'article 5 du TUE pour rappeler que la competence europeenne est un titre juridique d'action. La fiche retient que ce principe ne doit pas etre confondu avec une simple specialite fonctionnelle des organisations internationales classiques. Il sert a justifier chaque acte des institutions par un fondement determine dans les traites."
+          },
+          {
+            "titre": "La competence doit etre comprise comme un pouvoir d'adopter des actes juridiques produisant des effets",
+            "contenu": "Le document insiste sur la dimension operative de la competence. La fiche retient qu'en droit de l'Union, la question n'est pas seulement abstraite ou theorique. Il s'agit de savoir quelle institution peut agir, dans quel domaine, avec quelle intensite et sur quel fondement juridique, tant en interne qu'en externe."
+          },
+          {
+            "titre": "La subsidiarite limite l'exercice des competences dans les domaines non exclusifs",
+            "contenu": "La lecon presente la subsidiarite comme une idee politique et juridique : agir au plus pres de ceux qui sont concernes, sauf si l'echelon europeen est plus pertinent. La fiche retient que ce principe ne supprime pas les competences de l'Union, mais impose de justifier pourquoi l'action de l'Union serait preferable a celle des Etats membres."
+          },
+          {
+            "titre": "La proportionnalite et le role des parlements nationaux montrent que le controle est aussi institutionnel et politique",
+            "contenu": "Le document evoque les protocoles, les cartons jaunes et rouges, et l'implication des parlements nationaux. La fiche retient que le controle des competences n'est pas seulement un contentieux de juge. Il passe aussi par une vigilance politique sur l'ampleur des actes proposes et sur le bon niveau de decision dans l'Union."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi l'Union europeenne ne peut-elle pas etre assimilee a un Etat souverain ?",
+          "reponse": "Parce qu'elle ne dispose pas de la competence de la competence et n'agit que dans les limites attribuees par les traites.",
+          "explication": "La lecon fait de cette absence de souverainete originaire le point de depart de toute la theorie des competences.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel principe regit la delimitation des competences de l'Union selon l'article 5 du TUE ?",
+          "reponse": "Le principe d'attribution, selon lequel l'Union ne dispose que des competences que les traites lui conferent.",
+          "explication": "Le document le presente comme la regle cardinale de la competence europeenne.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie concretement dire qu'une competence est attribuee a l'Union ?",
+          "reponse": "Qu'une institution europeenne ne peut agir que si un traite lui fournit un titre juridique pour adopter un acte.",
+          "explication": "La fiche traduit le principe d'attribution en exigence pratique de base legale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi faut-il distinguer la theorie des competences de l'Union d'une simple repartition federale classique ?",
+          "reponse": "Parce que l'Union ne repose pas sur la logique d'un Etat federal, mais sur une habilitation conventionnelle plus subtile et encadree.",
+          "explication": "La lecon met en garde contre un tropisme de theorie de l'Etat applique sans nuance a l'Union.",
+          "difficulte": 3
+        },
+        {
+          "question": "Comment la lecon definit-elle de facon simple la competence en droit de l'Union ?",
+          "reponse": "Comme le titre qui habilite les institutions a adopter des actes juridiques produisant des effets.",
+          "explication": "Le document insiste sur la fonction operative de la competence plutot que sur une definition abstraite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'objectif du principe de subsidiarite ?",
+          "reponse": "Verifier que l'action de l'Union est plus appropriee que celle des Etats membres dans les domaines concernes.",
+          "explication": "La fiche rattache ce principe a l'idee d'agir au plus pres de ceux qui sont touches par la regle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la subsidiarite est-elle presentee comme une limite plutot politique que purement juridique ?",
+          "reponse": "Parce qu'elle porte sur l'opportunite du bon niveau d'action autant que sur la stricte existence d'une base juridique.",
+          "explication": "Le document montre que cette notion fait dialoguer droit, institution et choix politiques.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role jouent les parlements nationaux dans ce controle des competences ?",
+          "reponse": "Ils participent a la surveillance du respect de la subsidiarite et de la proportionnalite par les projets d'actes europeens.",
+          "explication": "La lecon evoque ici les mecanismes de cartons jaunes et rouges.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la proportionnalite compte-t-elle dans cette theorie ?",
+          "reponse": "Parce qu'elle oblige a verifier que l'intensite de l'action europeenne ne depasse pas ce qui est necessaire pour atteindre l'objectif poursuivi.",
+          "explication": "La fiche la traite comme un complement indispensable de la subsidiarite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette lecon ?",
+          "reponse": "L'Union europeenne agit sur habilitation, et l'exercice de cette habilitation reste surveille par des principes qui cherchent le bon niveau et la bonne mesure de l'action publique.",
+          "explication": "La fiche relie ainsi attribution, subsidiarite et proportionnalite dans une meme architecture.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1145,
+      "fiche": {
+        "titre": "Droit commun des societes : acte juridique fondateur, article 1832, pluralite, apports, resultats et affectio societatis",
+        "resume": "Ce cours de droit commun des societes ouvre la matiere en revenant sur les regles generales applicables a la naissance de toute societe. La fiche en retient une idee directrice : la societe prend d'abord source dans un acte juridique, le plus souvent un contrat, dont les elements structurants se lisent dans l'article 1832 du code civil. Comprendre la societe suppose donc d'identifier les apports, la participation aux resultats, la pluralite des associes et l'affectio societatis, ainsi que les conditions de validite propres au contrat de societe et au contrat d'apport.",
+        "sections": [
+          {
+            "titre": "Le droit commun des societes fournit le socle applicable a toutes les formes sociales sauf derogations speciales",
+            "contenu": "Le document commence par situer la matiere dans son ensemble. La fiche retient que le droit commun traite de la naissance, de la vie et de la disparition de la societe, et qu'il irrigue ensuite les regimes speciaux. Il ne s'agit donc pas d'une introduction decorative, mais d'une grammaire generale des societes."
+          },
+          {
+            "titre": "A l'origine de la societe se trouve d'abord un acte juridique, le plus souvent un contrat de societe",
+            "contenu": "Le cours insiste sur la nature volontaire de la societe. La fiche retient que l'acte constitutif vise a produire des effets de droit et qu'il peut en outre donner naissance a une personne morale. Le raisonnement ne doit donc pas s'arreter a l'accord initial : il faut aussi penser la projection institutionnelle de cet acte."
+          },
+          {
+            "titre": "L'article 1832 du code civil concentre les elements caracteristiques de la societe",
+            "contenu": "Le document revient sur les marqueurs classiques de la definition legale. La fiche retient qu'il faut raisonner autour des apports, de la participation aux resultats, de la pluralite des associes et de l'affectio societatis, meme si ce dernier element n'apparait qu'en filigrane dans le texte."
+          },
+          {
+            "titre": "Les conditions de validite imposent de distinguer aujourd'hui contrat de societe et contrat d'apport",
+            "contenu": "Le cours signale une dissociation importante. La fiche retient que la validite de la societe ne se reduit pas a une analyse unique et monolithique. Les engagements d'apport ont leur propre logique, ce qui oblige a raffiner le raisonnement sur la formation de la societe et la portee des nullites ou irregularites."
+          },
+          {
+            "titre": "La pluralite des associes reste un repere historique fort, meme si elle n'est plus absolue",
+            "contenu": "Le document annonce une etude detaillee de la pluralite. La fiche retient qu'elle constitue longtemps un trait definitoire de la societe, tout en admettant qu'une partie du droit contemporain a introduit des amenagements. Cette tension entre modele contractuel a plusieurs et formes unipersonnelles structure encore la matiere."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "A quoi sert le droit commun des societes dans l'ensemble du droit des societes ?",
+          "reponse": "Il fournit les regles generales applicables en principe a toutes les societes sous reserve de derogations speciales.",
+          "explication": "Le cours le presente comme le socle de base avant les regimes particuliers.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles grandes phases de la vie sociale le droit commun entend-il couvrir ?",
+          "reponse": "La naissance, le fonctionnement et la disparition de la societe.",
+          "explication": "La fiche reprend la tripartition annoncee au debut du cours.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le point de depart juridique de la societe selon ce cours ?",
+          "reponse": "Un acte juridique, le plus souvent un contrat de societe.",
+          "explication": "Le document insiste sur la dimension volontaire et creatrice de cet acte.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le contrat de societe ne suffit-il pas a epuiser l'analyse de la constitution sociale ?",
+          "reponse": "Parce qu'il donne tres souvent naissance a une personne morale et s'articule aussi avec des contrats d'apport.",
+          "explication": "La fiche met en avant la projection institutionnelle de l'acte constitutif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel article du code civil sert ici de point d'appui central pour definir la societe ?",
+          "reponse": "L'article 1832 du code civil, qui expose les elements structurants de la definition legale de la societe.",
+          "explication": "Le cours en tire les principaux elements caracteristiques de la societe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels sont les grands elements caracteristiques de la societe rappeles par le cours ?",
+          "reponse": "Les apports, la participation aux resultats, la pluralite des associes et l'affectio societatis.",
+          "explication": "La fiche recompose autour de ces notions la definition legale et doctrinale de la societe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'affectio societatis conserve-t-il une place importante alors qu'il n'est pas formule express ement dans l'article 1832 ?",
+          "reponse": "Parce qu'il sert a capter la dimension relationnelle et cooperative de l'engagement societaire.",
+          "explication": "Le document le presente comme un element qui apparait en filigrane dans la definition legale.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel interet y a-t-il a distinguer contrat de societe et contrat d'apport dans l'etude des conditions de validite ?",
+          "reponse": "Cela permet de comprendre que la formation de la societe repose sur plusieurs engagements qui n'ob eissent pas toujours exactement a la meme logique.",
+          "explication": "La fiche en fait une cle de lecture importante pour les nullites et irregularites.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la pluralite des associes demeure-t-elle un sujet structurant du droit commun ?",
+          "reponse": "Parce qu'elle a longtemps defini le modele classique de la societe et continue de servir de point de comparaison face aux formes unipersonnelles.",
+          "explication": "Le cours l'annonce comme une premiere question de fond a traiter.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette ouverture du droit commun des societes ?",
+          "reponse": "La societe nait d'un acte juridique organise autour d'elements definis par l'article 1832, mais cet acte doit etre lu a la fois comme contrat, comme structure et comme source de personnalite morale.",
+          "explication": "La fiche relie ainsi definition legale, conditions de validite et architecture generale de la matiere.",
+          "difficulte": 2
+        }
+      ]
+    }
+  ]
+}
