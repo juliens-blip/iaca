@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1230,
+      "fiche": {
+        "titre": "SNC : societe commerciale a risque illimite entre confiance personnelle, souplesse statutaire et transparence fiscale",
+        "resume": "Cette seance ouvre le droit special des societes par l'etude de la societe en nom collectif. La fiche en retient une idee directrice : la SNC est une forme societaire exigeante, fondee sur la confiance reciproque des associes, car chacun supporte indefiniment et solidairement les dettes sociales. Si elle demeure rare, elle conserve un interet pratique en raison de sa discretion, de sa souplesse de fonctionnement et de certains avantages fiscaux dans les groupes de societes.",
+        "sections": [
+          {
+            "titre": "La SNC inaugure le droit special des societes par la categorie des societes a risque illimite",
+            "contenu": "Le document oppose les societes a risque illimite, les societes a risque limite et les societes mixtes. La fiche retient que la SNC sert de modele pour comprendre une logique ou la personnalite des associes et leur exposition patrimoniale priment sur la protection du capital."
+          },
+          {
+            "titre": "La qualite de commercant de tous les associes fait de la SNC une societe personnellement engageante",
+            "contenu": "Le cours rappelle que chaque associe a la qualite de commercant et doit donc disposer de la capacite commerciale. La fiche retient que l'entree dans une SNC n'est pas une simple prise de participation patrimoniale, mais l'acceptation d'un statut juridique plus lourd que dans d'autres societes."
+          },
+          {
+            "titre": "La solidarite et l'engagement indefini sur les dettes expliquent le fort intuitu personae",
+            "contenu": "Le document insiste sur l'obligation pour les associes de repondre des dettes sociales, y compris lorsque l'un d'eux fait defaut. La fiche retient que cette exposition commune rend la confiance interpersonnelle centrale et explique la difficulte de ceder librement ses parts."
+          },
+          {
+            "titre": "La SNC subsiste en pratique parce qu'elle combine discretion et grande liberte statutaire",
+            "contenu": "Le cours souligne que la SNC n'a pas l'obligation de deposer ses comptes au greffe et qu'un nombre reduit de textes imperatifs regissent son fonctionnement. La fiche retient que cette forme attire certains operateurs qui recherchent a la fois confidentialite et marge d'organisation contractuelle."
+          },
+          {
+            "titre": "La transparence fiscale peut faire de la SNC un outil utile malgre sa rarete",
+            "contenu": "Le document explique que les pertes de la societe peuvent remonter chez les associes, ce qui peut presenter un interet dans des groupes de societes. La fiche retient que la SNC n'est pas choisie pour sa commodite generale, mais pour des usages precis ou le risque eleve est compense par un avantage fiscal ou structurel."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la SNC est-elle rangee parmi les societes a risque illimite ?",
+          "reponse": "Parce que les associes ne sont pas proteges par une limitation generale de leur engagement et peuvent etre exposes personnellement aux dettes sociales.",
+          "explication": "Le document en fait la premiere grande cle de classement du droit special des societes.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la qualite de commercant de chaque associe est-elle si importante en SNC ?",
+          "reponse": "Parce qu'elle signifie que chaque associe entre dans une logique pleinement commerciale et doit reunir la capacite juridique necessaire pour assumer ce statut.",
+          "explication": "La fiche souligne que l'association en SNC est plus engageante qu'une simple detention de titres.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie l'engagement solidaire et indefini des associes dans une SNC ?",
+          "reponse": "Cela signifie que chacun peut etre appele a payer les dettes de la societe sans etre protege par une limite fixe, y compris si un autre associe ne paie pas.",
+          "explication": "Le cours rattache a cette idee la necessite d'une forte confiance entre associes.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi parle-t-on d'un fort intuitu personae dans la SNC ?",
+          "reponse": "Parce que l'identite des associes compte decisivement des lors que chacun supporte personnellement les consequences du comportement economique des autres.",
+          "explication": "La fiche relie directement cette personnalisation a la responsabilite sur les dettes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la cession des parts de SNC est-elle difficile ?",
+          "reponse": "Parce qu'un nouvel associe ne peut pas etre librement impose aux autres dans une structure fondee sur la confiance personnelle et l'engagement patrimonial commun.",
+          "explication": "Le document evoque meme le risque d'etre prisonnier de ses titres.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel interet de discretion la SNC peut-elle offrir ?",
+          "reponse": "Elle permet de conserver une plus grande confidentialite, notamment parce qu'elle n'est pas soumise a l'obligation de deposer ses comptes sociaux au greffe.",
+          "explication": "Le cours presente cette discretion comme un attrait distinctif de la forme.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi dit-on que la SNC laisse une large place a la liberte statutaire ?",
+          "reponse": "Parce que peu de dispositions imperatives encadrent son fonctionnement, ce qui laisse aux associes une marge importante pour organiser la societe.",
+          "explication": "La fiche met en avant le faible nombre de textes specifiquement consacres a la SNC.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel avantage fiscal peut justifier l'usage d'une SNC dans un groupe ?",
+          "reponse": "Sa transparence fiscale peut permettre de faire remonter les pertes sociales chez les associes et ainsi de moduler plus efficacement l'assiette imposable du groupe.",
+          "explication": "Le document presente ce point comme un usage technique mais reel de la SNC.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la SNC reste-t-elle rare en pratique malgre ces avantages ?",
+          "reponse": "Parce que la responsabilite solidaire et indefinie des associes en fait une structure trop exigeante pour un usage courant.",
+          "explication": "La fiche montre que ses attraits ne compensent pas ordinairement le risque patrimonial.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur la SNC ?",
+          "reponse": "La SNC est une societe commerciale de confiance et d'engagement personnel, choisie a titre cibl e pour sa discretion, sa souplesse et parfois sa fiscalite.",
+          "explication": "La fiche relie ainsi risque illimite, intuitu personae et interets pratiques residuels.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1231,
+      "fiche": {
+        "titre": "Valeurs mobilieres et obligations : articulation des categories financieres et logique de l'emprunt collectif",
+        "resume": "Cette seance etudie les obligataires et, plus largement, les porteurs de valeurs mobilieres donnant acces au capital. La fiche en retient une idee directrice : pour comprendre la place des obligations dans le droit des societes, il faut d'abord reconstruire la hierarchie des categories issues du code monetaire et financier. Les obligations ne sont pas des titres de capital, mais des titres de creance qui permettent a la societe de se financer par un emprunt collectif organise.",
+        "sections": [
+          {
+            "titre": "Les actions ne sont qu'une espece au sein de la categorie plus large des valeurs mobilieres",
+            "contenu": "Le document rappelle que les actions ne resum ent pas a elles seules les titres emis par les societes anonymes. La fiche retient que la notion de valeur mobiliere permet d'englober plusieurs instruments regroupes par categorie de droits attribues a leurs porteurs."
+          },
+          {
+            "titre": "Le droit positif distingue instruments financiers, titres financiers, titres de capital et titres de creance",
+            "contenu": "Le cours reconstruit la chaine de definitions entre le code de commerce et le code monetaire et financier. La fiche retient que les valeurs mobilieres s'inscrivent dans l'ensemble plus vaste des titres financiers, eux-memes inclus dans la categorie generale des instruments financiers."
+          },
+          {
+            "titre": "Les obligations sont des titres de creance et non des participations au capital",
+            "contenu": "Le document oppose les actions, qui donnent des droits dans le capital social, aux obligations, qui constatent une creance contre la societe. La fiche retient que l'obligataire est d'abord un preteur et non un associe."
+          },
+          {
+            "titre": "L'emission d'obligations organise un emprunt collectif de la societe sur le marche",
+            "contenu": "Le cours explique qu'une societe cherchant des fonds peut les obtenir aupres d'une pluralite de souscripteurs qui recoivent chacun un titre representatif de leur creance. La fiche retient que l'obligation est le support juridique d'un financement collectif, negotiable et standardise."
+          },
+          {
+            "titre": "La decision d'emission releve en principe des organes dirigeants, sous reserve des statuts ou de l'assemblee",
+            "contenu": "Le document indique que le conseil d'administration, le directoire ou les gerants sont en principe competents pour decider ou autoriser l'emission. La fiche retient que le financement obligataire appartient d'abord a la gestion societaire, meme si les statuts ou l'assemblee peuvent reprendre la main."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi les actions ne suffisent-elles pas a decrire tous les titres emis par une societe anonyme ?",
+          "reponse": "Parce qu'elles ne constituent qu'une categorie particuliere au sein d'un ensemble plus large de valeurs mobilieres et de titres financiers.",
+          "explication": "Le document commence precisement par elargir le regard au-dela des seuls actionnaires.",
+          "difficulte": 1
+        },
+        {
+          "question": "Comment s'articulent les categories d'instruments financiers et de titres financiers ?",
+          "reponse": "Les instruments financiers regroupent les titres financiers et les contrats financiers, tandis que les valeurs mobilieres se rangent parmi les titres financiers.",
+          "explication": "La fiche reconstitue la hierarchie utile pour ne pas confondre les differents niveaux de qualification.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle difference fondamentale oppose un titre de capital a un titre de creance ?",
+          "reponse": "Le titre de capital donne des droits dans le capital de la societe, tandis que le titre de creance confere au porteur un droit au remboursement et, le cas echeant, a remuneration.",
+          "explication": "Le cours oppose ici l'actionnaire et l'obligataire.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'obligataire n'est-il pas un associe de la societe ?",
+          "reponse": "Parce qu'il ne participe pas au capital social et se place dans une relation de pret, non dans une relation de participation societaire.",
+          "explication": "La fiche insiste sur la difference de statut entre apporteur en capital et creancier obligataire.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que signifie dire qu'une emission d'obligations constitue un emprunt collectif ?",
+          "reponse": "Cela signifie que la societe emprunte une somme aupres d'une pluralite de personnes, chacune recevant un titre representatif d'une fraction de la creance globale.",
+          "explication": "Le document presente cette technique comme un mode organise de financement externe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les obligations sont-elles qualifiees de titres negociables ?",
+          "reponse": "Parce qu'elles peuvent circuler selon des mecanismes de transmission adaptes aux marches, sans passer par les modalites classiques de cession des droits personnels.",
+          "explication": "La fiche met en avant la standardisation et la fluidite de circulation du titre.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'interet de maintenir la categorie francaise des valeurs mobilieres malgre les notions europeennes d'instruments financiers ?",
+          "reponse": "Elle permet de conserver une grille de lecture nationale utile, meme si elle s'insere desormais dans des categories europeennes plus larges.",
+          "explication": "Le document souligne que les categories nouvelles n'ont pas entierement remplace les anciennes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qui decide en principe l'emission d'obligations dans une societe anonyme ?",
+          "reponse": "En principe, l'organe dirigeant competent, comme le conseil d'administration ou le directoire, decide ou autorise l'emission.",
+          "explication": "Le cours ajoute que les statuts ou l'assemblee peuvent toutefois modifier cette repartition.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'emission d'obligations releve-t-elle d'abord de la gestion societaire ?",
+          "reponse": "Parce qu'elle repond a un besoin de financement de la societe et s'inscrit dans la conduite de sa politique financiere courante ou strategique.",
+          "explication": "La fiche relie ainsi competence des dirigeants et logique de gestion des ressources.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur les obligations ?",
+          "reponse": "Les obligations sont des titres de creance negociables par lesquels la societe organise un emprunt collectif, distinct de toute participation au capital social.",
+          "explication": "La fiche relie definition financiere, statut du porteur et fonction economique du titre.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1232,
+      "fiche": {
+        "titre": "Mobilite europeenne des societes : liberte d'etablissement, succursale et reconnaissance de la lex societatis choisie",
+        "resume": "Cette seance introduit la societe europeenne par un detour prealable sur la mobilite des societes au sein de l'Union. La fiche en retient une idee directrice : avant meme la creation de la SE, la Cour de justice avait deja donne une portee considerable a la liberte d'etablissement en admettant qu'une societe choisisse l'Etat dont elle souhaite relever, puis exerce son activite ailleurs via une succursale. Le droit de l'Union consacre ainsi une forme de concurrence entre droits nationaux des societes.",
+        "sections": [
+          {
+            "titre": "La societe europeenne s'inscrit dans une problematique plus large de mobilite intraeuropenne des societes",
+            "contenu": "Le document annonce que la SE permet le transfert du siege dans un autre Etat membre sans perte de personnalite morale. La fiche retient que cette innovation doit etre comprise dans un environnement deja transforme par la jurisprudence europeenne sur la circulation des societes."
+          },
+          {
+            "titre": "Le siege social determine la lex societatis applicable a la societe",
+            "contenu": "Le cours rappelle que le rattachement a un Etat membre fixe le droit qui regit la constitution, le fonctionnement et la dissolution de la societe. La fiche retient que la question du siege n'est pas seulement geographique, mais d'abord normative."
+          },
+          {
+            "titre": "La succursale permet d'exercer l'activite dans un autre Etat sans changer de personne morale",
+            "contenu": "Le document distingue nettement la succursale, simple prolongement de la societe, de la filiale, qui constitue une societe distincte soumise a sa propre lex societatis. La fiche retient que la succursale est l'outil juridique central de l'activite transfrontiere sans recreation societaire."
+          },
+          {
+            "titre": "L'arret Centros admet le choix strategique de l'Etat d'immatriculation",
+            "contenu": "Le cours explique qu'une societe peut etre immatriculee dans l'Etat dont le droit lui parait le plus avantageux, puis exercer l'essentiel de son activite dans un autre Etat membre. La fiche retient que la CJUE a valide ce law shopping au nom de la liberte d'etablissement garantie par l'article 49 du TFUE."
+          },
+          {
+            "titre": "Uberseering et Inspire Art renforcent la reconnaissance transfrontiere de la societe valablement constituee",
+            "contenu": "Le document montre que les autres Etats membres doivent reconnaitre la capacite juridique d'une societe valablement constituee ailleurs et ne peuvent pas lui imposer librement leurs propres exigences de droit des societes. La fiche retient que la mobilite europeenne repose autant sur la reconnaissance mutuelle que sur la liberte de choix initiale."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la mobilite europeenne des societes ne commence-t-elle pas avec la seule societe europeenne ?",
+          "reponse": "Parce que la jurisprudence de la Cour de justice avait deja largement facilite la circulation et l'installation transfrontiere des societes au sein de l'Union.",
+          "explication": "Le document utilise justement la mobilite des societes ordinaires comme chapitre preliminaire.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le siege social est-il si important en droit des societes europeen ?",
+          "reponse": "Parce qu'il sert a identifier la lex societatis, c'est-a-dire le droit national qui gouverne la vie juridique de la societe.",
+          "explication": "La fiche rappelle que le siege determine avant tout un rattachement normatif.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle difference essentielle oppose une succursale a une filiale ?",
+          "reponse": "La succursale n'a pas de personnalite morale propre et prolonge la societe d'origine, tandis que la filiale est une societe distincte soumise a son propre droit des societes.",
+          "explication": "Le cours insiste sur cette distinction pour comprendre l'enjeu de la mobilite.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la succursale joue-t-elle un role central dans la liberte d'etablissement ?",
+          "reponse": "Parce qu'elle permet a une societe d'exercer son activite dans un autre Etat membre sans cesser d'etre regie par la loi de son Etat d'immatriculation.",
+          "explication": "La fiche en fait le support pratique du deploiement transfrontalier sans changement de statut personnel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que valide l'arret Centros du 9 mars 1999 ?",
+          "reponse": "Il valide la possibilite d'immatriculer une societe dans l'Etat dont le droit est juge plus avantageux puis d'exercer l'activite principale dans un autre Etat membre.",
+          "explication": "Le document presente clairement cette solution comme une admission du law shopping en droit des societes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi faut-il eviter de confondre lex societatis et droit fiscal ou droit du travail ?",
+          "reponse": "Parce que la solution de Centros vise le droit des societes applicable, alors que d'autres branches du droit peuvent continuer a se rattacher principalement au lieu reel d'activite.",
+          "explication": "La fiche reprend ici une precision expresse du cours.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel apport principal de l'arret Uberseering faut-il retenir ?",
+          "reponse": "Les autres Etats membres doivent reconnaitre la capacite juridique d'une societe valablement constituee dans un autre Etat membre.",
+          "explication": "Le document y voit une etape indispensable de la reconnaissance mutuelle des personnes morales.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que prolonge l'arret Inspire Art dans cette construction ?",
+          "reponse": "Il limite la possibilite pour l'Etat d'accueil d'imposer a la societe etrangere ses propres exigences de droit des societes comme condition d'activite.",
+          "explication": "La fiche montre que la liberte d'etablissement serait videe de sa substance sans cette protection complementaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi peut-on parler d'une concurrence entre droits nationaux des societes dans l'Union ?",
+          "reponse": "Parce que les fondateurs peuvent comparer les legislations et choisir l'Etat d'immatriculation le plus favorable avant d'exercer ailleurs leur activite.",
+          "explication": "Le document rattache cette dynamique a la liberte d'etablissement et au law shopping.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur la mobilite europeenne des societes ?",
+          "reponse": "Le droit de l'Union permet a une societe valablement constituee dans un Etat membre de circuler et de s'etablir ailleurs en conservant, dans une large mesure, la loi societaire qu'elle a choisie.",
+          "explication": "La fiche relie ainsi article 49 TFUE, succursale et jurisprudence Centros, Uberseering et Inspire Art.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1233,
+      "fiche": {
+        "titre": "Cotation sur les marches financiers : liquidite des titres, marche reglemente et intensite de l'encadrement informationnel",
+        "resume": "Cette seance introduit les operations portant sur les societes par l'etude de la cotation boursiere. La fiche en retient une idee directrice : la presence sur un marche financier offre a une grande societe un gain de liquidite et d'acces au financement, mais cet avantage s'accompagne d'un encadrement croissant. Plus le marche est reglemente, plus la societe beneficie d'un cadre protecteur pour les investisseurs, au prix d'obligations d'information et de conformite plus lourdes.",
+        "sections": [
+          {
+            "titre": "La cotation permet d'accroitre la liquidite des titres de la societe",
+            "contenu": "Le document explique que la presence en bourse facilite les cessions et acquisitions de titres, grace a l'existence d'un cours de marche. La fiche retient que la cotation rend les actions plus facilement negociables et diminue l'incertitude sur leur valorisation immediate."
+          },
+          {
+            "titre": "Toutes les societes ne sont pas appelees a acceder aux memes marches",
+            "contenu": "Le cours rappelle que la societe anonyme est la forme la plus adaptee a la cotation, mais que d'autres societes peuvent egalement acceder a certains marches. La fiche retient que l'ouverture des titres au public depend a la fois de la forme sociale et du niveau de reglementation du marche vise."
+          },
+          {
+            "titre": "Le droit contemporain parle de plateformes de negociation et distingue surtout les marches reglementes",
+            "contenu": "Le document evoque l'ordonnance de 2016 et l'evolution terminologique vers les plateformes de negociation. La fiche retient que, parmi ces plateformes, les marches reglementes conservent une place centrale car ils declenchent l'application de nombreuses regles speciales."
+          },
+          {
+            "titre": "Le marche reglemente repose sur une entreprise de marche agreee et sous controle de l'AMF",
+            "contenu": "Le cours identifie Euronext Paris comme entreprise de marche du principal marche reglemente francais. La fiche retient que l'organisation du marche n'est pas spontanee : elle depend d'un operateur agree, surveille et tenu de faire fonctionner un cadre transparent et non discretionnaire."
+          },
+          {
+            "titre": "L'encadrement lourd des marches reglementes est la contrepartie de la protection des investisseurs",
+            "contenu": "Le document insiste sur les regles d'admission, les obligations d'information et la multiplicite des sources normatives applicables. La fiche retient que la reglementation du marche n'est pas une surcharge gratuite : elle vise a securiser les echanges et a renforcer la confiance des investisseurs."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi une grande societe peut-elle rechercher la cotation de ses titres ?",
+          "reponse": "Parce que la cotation facilite la circulation de ses titres et leur donne une valorisation de marche plus immediate et plus lisible.",
+          "explication": "Le document presente la liquidite comme le premier avantage concret de l'acces au marche.",
+          "difficulte": 1
+        },
+        {
+          "question": "En quoi l'existence d'un cours de bourse favorise-t-elle la liquidite ?",
+          "reponse": "Elle permet aux acheteurs et aux vendeurs de disposer d'un prix de reference sans avoir a renegocier integralement la valeur du titre a chaque operation.",
+          "explication": "La fiche relie ainsi cotation et simplification des transactions.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi toutes les societes ne cotent-elles pas leurs titres sur les memes marches ?",
+          "reponse": "Parce que l'acces depend du type de societe et du degre d'encadrement du marche ou de la plateforme de negociation envisagee.",
+          "explication": "Le cours distingue notamment les societes aptes au marche reglemente et celles qui se dirigent vers des marches moins stricts.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les marches reglementes occupent-ils une place si importante en droit des societes cotees ?",
+          "reponse": "Parce qu'ils declenchent l'application d'un ensemble particulierement dense de regles relatives a l'admission, a l'information et a la protection des investisseurs.",
+          "explication": "Le document en fait le point de reference principal de tout le regime des societes cotees.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'une entreprise de marche sur un marche reglemente ?",
+          "reponse": "C'est l'operateur agree qui organise et dirige le fonctionnement du marche selon des regles controlees par l'autorite competente.",
+          "explication": "La fiche prend l'exemple d'Euronext Paris pour concre tiser cette notion.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role joue l'Autorite des marches financiers dans ce dispositif ?",
+          "reponse": "Elle agre e et controle le cadre de fonctionnement du marche reglemente afin d'assurer la regularite, la transparence et la protection des investisseurs.",
+          "explication": "Le document rattache a ce controle l'intensite de la regulation boursiere francaise.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'encadrement d'un marche reglemente est-il plus lourd que celui d'autres plateformes ?",
+          "reponse": "Parce qu'il doit garantir un niveau eleve d'information, de transparence et de securite pour un public d'investisseurs plus large et plus expose.",
+          "explication": "La fiche montre que la lourdeur normative est la contrepartie d'une meilleure confiance du marche.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel interet presentent les systemes multilateraux de negociation comme Euronext Growth ?",
+          "reponse": "Ils offrent un cadre souvent moins pesant que le marche reglemente, ce qui peut convenir a des societes cherchant une ouverture au marche avec des contraintes moindres.",
+          "explication": "Le document les situe entre la logique de marche et un encadrement plus souple.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur la regulation boursiere ?",
+          "reponse": "La voir comme une simple charge administrative, alors qu'elle sert aussi a rendre le marche plus fiable et plus protecteur pour les investisseurs.",
+          "explication": "La fiche insiste sur le lien entre encadrement et securisation des echanges.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir sur la cotation des societes ?",
+          "reponse": "La cotation accro it la liquidite et l'attractivite financiere des titres, mais elle soumet la societe a un regime d'information et de surveillance plus exigeant, surtout sur le marche reglemente.",
+          "explication": "La fiche relie ainsi avantage economique, Euronext et protection des investisseurs.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
