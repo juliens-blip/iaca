@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1123,
+      "fiche": {
+        "titre": "Majeures de cas pratiques en droit des societes : definition, apports, resultats, affectio et contenu statutaire",
+        "resume": "Ce document de preparation concentre les points majeurs utiles pour raisonner en cas pratique de droit des societes. La fiche en retient une idee directrice : derriere la definition generale de l'article 1832 du code civil se cachent plusieurs noeuds contentieux recurrents, comme la pluralite d'associes, la nature des apports, la participation aux resultats, l'affectio societatis ou encore la portee du contenu statutaire. La matiere exige donc de savoir passer de la regle simple a ses applications fines.",
+        "sections": [
+          {
+            "titre": "La definition de la societe n'est pas un simple preambule, mais une grille de qualification complete",
+            "contenu": "Le document montre que l'article 1832 du code civil concentre plusieurs elements qu'il faut verifier dans tout cas pratique. Il ne suffit pas d'identifier un groupement ou une activite commune. La fiche retient qu'il faut toujours raisonner sur l'entreprise commune, les apports, le partage des resultats et la contribution aux pertes."
+          },
+          {
+            "titre": "La pluralite d'associes et les exceptions unipersonnelles imposent un raisonnement de forme sociale",
+            "contenu": "La preparation rappelle que la pluralite demeure le principe, mais qu'elle n'est plus absolue. Certaines formes autorisent une societe unipersonnelle, ce qui oblige a ne jamais raisonner abstraitement sur le seul texte general. La fiche retient que la qualification passe toujours par le croisement du droit commun et de la forme retenue."
+          },
+          {
+            "titre": "Les apports ne se resument pas a une mise de fonds et commandent les droits comme les risques de l'associe",
+            "contenu": "Le document distingue soigneusement les differentes formes d'apports et les regles qui les entourent. Apport en numeraire, en nature ou en industrie n'ont ni la meme fonction patrimoniale ni les memes effets sur la repartition des droits sociaux. La fiche insiste sur ce point : la structure du capital et la position de l'associe se lisent a travers l'apport."
+          },
+          {
+            "titre": "La participation aux resultats est au coeur de la prohibition des clauses leonines",
+            "contenu": "Le texte rappelle qu'on peut moduler la repartition des benefices et des pertes, mais non vider totalement un associe de sa part de risque ou de sa part d'avantage. La fiche retient que la clause leonine reste un outil de controle central pour maintenir un minimum d'equilibre dans la relation societaire."
+          },
+          {
+            "titre": "Affectio societatis, capacite et contenu des statuts montrent que la volonte sociale reste une volonte juridiquement encadree",
+            "contenu": "Le document termine par des questions qui depassent la pure economie des apports. Volonte de collaborer, capacite des parties, objet social, redaction des statuts et raison d'etre eventuelle entrent tous dans l'analyse. La fiche retient que la societe se construit autant par des intentions et des valeurs organisees que par des mises patrimoniales."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi l'article 1832 du code civil est-il si central en droit des societes ?",
+          "reponse": "Parce qu'il concentre les elements structurants de la qualification de la societe : entreprise commune, apports, resultats et pertes.",
+          "explication": "Le document de preparation en fait la base de depart de nombreux cas pratiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la pluralite d'associes n'est-elle plus une condition absolument intangible ?",
+          "reponse": "Parce que le droit admet certaines formes unipersonnelles qui temperent la formule generale du contrat de societe.",
+          "explication": "La fiche rappelle qu'il faut toujours articuler droit commun et regimes speciaux.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'interet juridique principal de l'apport dans la societe ?",
+          "reponse": "Il fonde la qualite d'associe et participe a la distribution des droits, des risques et de la structure patrimoniale sociale.",
+          "explication": "Le document traite l'apport comme l'obligation essentielle de l'associe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'apport en industrie appelle-t-il un raisonnement specifique ?",
+          "reponse": "Parce qu'il ne s'incorpore pas au capital de la meme maniere qu'un apport en numeraire ou en nature tout en ouvrant des droits sociaux particuliers.",
+          "explication": "La preparation montre que tous les apports ne produisent pas les memes effets.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role joue la participation aux resultats dans le contrat de societe ?",
+          "reponse": "Elle relie l'associe a la vocation aux benefices, aux economies et a la contribution aux pertes.",
+          "explication": "Le document fait de cette participation un marqueur essentiel du lien societaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les clauses leonines restent-elles surveillees de pres ?",
+          "reponse": "Parce qu'elles risquent de rompre l'equilibre minimal de risque et d'avantage entre associes.",
+          "explication": "La fiche les rattache au coeur meme de la logique cooperative du contrat de societe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que faut-il entendre par affectio societatis dans cette preparation ?",
+          "reponse": "La volonte de collaborer sur un pied de relation societaire a une entreprise commune.",
+          "explication": "Le document le traite comme un indice important de la realite du lien social.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la capacite des associes ne se traite-t-elle pas uniformement ?",
+          "reponse": "Parce que les risques juridiques attaches a certaines formes sociales imposent des precautions differentes selon les personnes concernees.",
+          "explication": "La preparation relie cette question a la nature de la societe et a l'intensite du risque supporte.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel danger peut presenter un objet social mal formule ?",
+          "reponse": "Il peut fragiliser la coherence de l'organisation sociale et nourrir des contestations sur la validite ou l'opportunite d'actes accomplis.",
+          "explication": "Le document place le contenu statutaire au coeur du raisonnement pratique.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette preparation ?",
+          "reponse": "En droit des societes, les notions de base paraissent simples, mais elles se deploient en contentieux techniques qui exigent des qualifications precises.",
+          "explication": "La fiche relie ainsi definition, apports, resultats et statuts dans une meme methode de cas pratique.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1126,
+      "fiche": {
+        "titre": "Introduction au droit commun des societes : definition, usages, distinctions, classifications et mouvements contemporains",
+        "resume": "Ce document de semaine 1 introduit la matiere en montrant que la societe est a la fois un outil technique et un objet de theorie. La fiche en retient une idee directrice : comprendre le droit des societes suppose d'abord de savoir ce qu'est une societe, a quoi elle sert, comment elle se distingue d'autres groupements et selon quelles lignes on peut la classer. Ce socle permet ensuite de lire les evolutions actuelles de la matiere, de la contractualisation a la RSE en passant par l'europeanisation et le numerique.",
+        "sections": [
+          {
+            "titre": "La societe sert d'abord a donner une forme juridique a une entreprise ou a un projet collectif",
+            "contenu": "Le document insiste sur l'utilite de la societe comme instrument d'organisation. Il ne s'agit pas seulement d'un contrat abstrait, mais d'un habillage juridique permettant de porter une activite, de reunir des personnes et d'organiser des pouvoirs. La fiche retient que l'entreprise n'est pas la societe, mais que la societe en devient souvent le vehicule technique privilegie."
+          },
+          {
+            "titre": "Le debat sur la nature juridique de la societe eclaire sans toujours bouleverser les solutions pratiques",
+            "contenu": "La seance evoque l'opposition entre theorie contractuelle et theorie institutionnelle. La fiche retient que ce debat reste important pour comprendre l'esprit de la matiere, meme si dans beaucoup de cas les solutions convergent. Il aide surtout a comprendre pourquoi la societe est parfois lue comme accord de volontes et parfois comme organisation depassant ses fondateurs."
+          },
+          {
+            "titre": "Les distinctions avec l'association, le GIE ou l'EIRL servent a ne pas tout ranger sous le mot societe",
+            "contenu": "Le document rappelle que plusieurs outils juridiques peuvent organiser une activite collective ou professionnelle. La fiche insiste donc sur la methode comparative : ce qui fait une societe se comprend aussi par ce qui la separe d'un groupement sans but lucratif, d'un dispositif de cooperation economique ou d'une organisation patrimoniale individuelle."
+          },
+          {
+            "titre": "Les classifications donnent une grammaire de lecture de toute la matiere",
+            "contenu": "Societes civiles ou commerciales, societes de personnes ou de capitaux, societes a risque limite ou illimite, distinctions selon la taille : le document dresse les grandes lignes de partage qui structurent ensuite le cours. La fiche retient que ces classifications ne sont pas scolaires par hasard ; elles annoncent les regimes de responsabilite, de pouvoir, de cession et de financement."
+          },
+          {
+            "titre": "Les mouvements contemporains montrent que le droit des societes ne reste pas fige dans ses categories classiques",
+            "contenu": "Contractualisation, corporate governance, RSE, europeanisation et developpement du numerique signalent une matiere en transformation. La fiche retient que le droit des societes ne se contente plus d'organiser des rapports internes entre associes : il dialogue de plus en plus avec la regulation, l'ethique, les marches et les technologies."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "A quoi sert d'abord une societe dans le droit des affaires ?",
+          "reponse": "A offrir un cadre juridique organise pour porter une entreprise ou un projet collectif.",
+          "explication": "Le document presente la societe comme un instrument d'organisation avant d'etre un simple concept abstrait.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi dit-on que l'entreprise et la societe ne se confondent pas ?",
+          "reponse": "Parce que l'entreprise est une realite economique alors que la societe est souvent la forme juridique qui l'organise.",
+          "explication": "La fiche met en avant la difference entre activite et vehicule juridique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel interet conserve le debat entre theorie contractuelle et theorie institutionnelle ?",
+          "reponse": "Il aide a comprendre si l'on regarde d'abord la societe comme accord de volontes ou comme organisation autonome.",
+          "explication": "Le document montre que ce debat eclaire l'esprit de la matiere meme si les solutions pratiques peuvent converger.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi faut-il distinguer societe et association ?",
+          "reponse": "Parce qu'elles n'ont pas le meme rapport au profit, a la finalite du groupement et a la logique patrimoniale.",
+          "explication": "La seance utilise cette distinction pour clarifier le perimetre meme du droit des societes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'interet de distinguer societe et GIE ?",
+          "reponse": "Parce que le GIE sert une cooperation economique entre membres sans se confondre avec la logique complete d'une societe.",
+          "explication": "La fiche montre que tous les groupements d'affaires ne relevent pas du meme modele.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi les classifications entre societes de personnes et societes de capitaux sont-elles importantes ?",
+          "reponse": "Parce qu'elles annoncent des differences majeures sur la place de la personne, la circulation des titres et la logique du pouvoir social.",
+          "explication": "Le document fait de ces categories une grammaire de base pour tout le semestre.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que change la distinction entre risque limite et risque illimite ?",
+          "reponse": "Elle touche directement a l'exposition patrimoniale des associes face aux dettes sociales.",
+          "explication": "La fiche relie cette classification a la logique de responsabilite dans les formes sociales.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la contractualisation est-elle citee comme un grand mouvement actuel ?",
+          "reponse": "Parce qu'elle tend a donner une place plus forte a l'amenagement volontaire des rapports sociaux.",
+          "explication": "Le document montre que le droit des societes est aussi travaille par des evolutions de methode normative.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel sens donner a la presence de la RSE dans cette introduction ?",
+          "reponse": "Que la societe est de plus en plus pensee en lien avec des enjeux sociaux et environnementaux, et non plus seulement lucratifs.",
+          "explication": "La fiche rattache ce theme aux transformations contemporaines du droit des societes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette premiere semaine ?",
+          "reponse": "Le droit des societes commence par une cartographie des formes, des usages et des distinctions avant d'entrer dans les regimes techniques.",
+          "explication": "La fiche fait de cette introduction une boussole conceptuelle pour la suite du cours.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1128,
+      "fiche": {
+        "titre": "Galop corrige de droit des societes : denomination sociale, promesse de rachat a prix plancher et droits sur titres indivis ou demembres",
+        "resume": "Ce galop corrige rassemble plusieurs questions classiques de droit des societes autour de la denomination sociale, des conventions de rachat de titres et de l'exercice des droits sociaux en cas d'indivision ou de demembrement. La fiche en retient une idee directrice : derriere des situations pratiques tres differentes, le droit cherche toujours a concilier stabilite de l'organisation sociale, circulation des titres et protection des personnes qui y sont attachees.",
+        "sections": [
+          {
+            "titre": "Le nom d'un associe integre a la denomination sociale peut continuer a vivre avec la societe",
+            "contenu": "Le document rappelle qu'une fois inscrit dans les statuts comme appellation sociale, le nom d'un associe ne peut pas toujours etre recupere par lui a son depart. La fiche retient que la denomination sociale suit d'abord la personne morale et non le destin personnel de celui dont le nom a ete repris."
+          },
+          {
+            "titre": "La protection change cependant lorsqu'il s'agit de transformer cette denomination en marque",
+            "contenu": "Le corrige montre que la societe peut parfois continuer a utiliser un nom sans pour autant pouvoir l'approprier comme marque, surtout lorsqu'il s'agit d'un nom deja notoirement associe a une personne. La fiche retient ici une distinction essentielle entre usage du nom comme signe social et depot de ce meme signe comme droit privatif de propriete intellectuelle."
+          },
+          {
+            "titre": "Les promesses de rachat a prix plancher ne se reduisent pas automatiquement a une clause leonine",
+            "contenu": "Le document explique que la jurisprudence admet ce type de mecanisme lorsqu'il organise une cession de droits sociaux plutot qu'une exon eration totale d'un associe de sa contribution aux pertes. La fiche insiste sur ce point : il faut distinguer l'objet de la convention de ses effets economiques apparents."
+          },
+          {
+            "titre": "L'indivision sur des titres oblige a separer la qualite d'associe de l'exercice concret du vote",
+            "contenu": "Le corrige rappelle que plusieurs indivisaires peuvent etre tous associes sans pour autant voter chacun librement comme si rien ne les liait. La fiche retient que le droit organise ici une representation unifiee pour le vote, tout en preservant certaines prerogatives individuelles d'information ou de participation."
+          },
+          {
+            "titre": "Le demembrement montre enfin que vote, qualite d'associe et information ne se superposent pas parfaitement",
+            "contenu": "Le document termine en montrant que nu-proprietaire et usufruitier n'occupent pas la meme place dans la vie sociale. La fiche retient que la repartition legale du vote, l'impossibilite de priver totalement l'usufruitier de certains droits et la difference de statut entre les deux titulaires imposent un raisonnement tres fin sur les droits sociaux."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi une societe peut-elle parfois continuer a utiliser le nom d'un associe parti ?",
+          "reponse": "Parce que ce nom, une fois integre a la denomination sociale statutaire, suit en principe la personne morale elle-meme.",
+          "explication": "Le corrige met en avant la logique de continuit e de la denomination sociale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'usage du nom comme denomination sociale ne donne-t-il pas toujours le droit de le deposer comme marque ?",
+          "reponse": "Parce que l'appropriation en marque obeit a des exigences distinctes, surtout lorsque le nom est deja notoirement attache a une personne.",
+          "explication": "Le document distingue nettement signe social et droit privatif de propriete intellectuelle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le risque si l'on confond promesse de rachat a prix plancher et clause leonine ?",
+          "reponse": "On oublie de verifier si la convention organise une cession de titres plutot qu'une veritable exon eration totale d'un associe de sa contribution aux pertes.",
+          "explication": "La fiche montre que l'analyse doit partir de l'objet juridique de la convention.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi une promesse de rachat a prix plancher peut-elle etre regardee comme valable ?",
+          "reponse": "Parce qu'elle peut etre analysee comme une convention sur la cession des droits sociaux et non comme une suppression pure et simple du risque de societe.",
+          "explication": "Le corrige s'appuie ici sur la jurisprudence relative aux promesses de rachat entre associes.",
+          "difficulte": 3
+        },
+        {
+          "question": "En cas d'indivision sur des titres sociaux, pourquoi le vote n'est-il pas librement eclate entre les indivisaires ?",
+          "reponse": "Parce que le droit impose un exercice collectif represente plutot qu'une dispersion individuelle du vote.",
+          "explication": "Le document distingue la cotitularite du titre et les modalites concretes d'exercice du droit de vote.",
+          "difficulte": 2
+        },
+        {
+          "question": "Les indivisaires ont-ils pour autant totalement disparu comme associes ?",
+          "reponse": "Non, car ils conservent individuellement certaines prerogatives comme l'information ou la convocation.",
+          "explication": "La fiche montre que le vote collectif n'efface pas toute dimension personnelle du statut d'associe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le demembrement des titres complique-t-il l'analyse des droits sociaux ?",
+          "reponse": "Parce que le vote, l'information et la qualite d'associe ne sont pas tous attribues de facon identique a l'usufruitier et au nu-proprietaire.",
+          "explication": "Le document insiste sur la dissociation des attributs du titre social demembre.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi une clause statutaire ne peut-elle pas priver totalement l'usufruitier de tout vote ?",
+          "reponse": "Parce que certains domaines, notamment l'affectation des benefices, lui sont preserves par le droit.",
+          "explication": "Le corrige rappelle la limite posee a la liberte statutaire dans le demembrement.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel est l'interet methodologique principal de ce galop corrige ?",
+          "reponse": "Il apprend a distinguer, dans chaque situation, l'apparence economique du probleme et sa veritable qualification juridique.",
+          "explication": "Nom social, marque, clause leonine, indivision et demembrement demandent tous une qualification fine.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce document ?",
+          "reponse": "Le droit des societes distribue finement les droits sur les signes, les titres et les risques afin de maintenir a la fois securite et coherence de l'organisation sociale.",
+          "explication": "La fiche relie les trois exercices du galop autour d'une meme logique de repartition des prerogatives.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1129,
+      "fiche": {
+        "titre": "TD corrige : clause leonine, raison d'etre et responsabilite eventuelle de la societe ou de ses dirigeants",
+        "resume": "Ce document de correction traite plusieurs cas pratiques autour de la clause leonine et de la raison d'etre. La fiche en retient une idee directrice : le droit des societes laisse une grande place a la liberte statutaire et a l'affirmation de valeurs sociales, mais il fixe aussi des bornes fortes. On ne peut ni evacuer totalement le risque societaire d'un associe, ni esperer transformer automatiquement la raison d'etre en arme d'annulation de tous les actes sociaux.",
+        "sections": [
+          {
+            "titre": "La clause leonine reste une limite structurante a l'amenagement conventionnel des pertes",
+            "contenu": "Le document montre qu'on peut moduler la repartition des pertes et des benefices, mais pas aller jusqu'a exon erer totalement un associe du risque social. La fiche retient que le droit protege ici le noyau de la logique societaire : un associe doit rester expose, au moins dans une certaine mesure, a l'alea commun."
+          },
+          {
+            "titre": "La raison d'etre ouvre un espace de redaction large, sans enfermer la societe dans des valeurs predefinies par avance",
+            "contenu": "Le corrige souligne que depuis la loi Pacte, la societe peut se doter de principes directeurs de maniere assez libre. La fiche retient que la raison d'etre n'exige pas un contenu moralement heroique ; elle suppose surtout une coherence avec l'activite et le projet de la societe."
+          },
+          {
+            "titre": "La violation de la raison d'etre n'entraine pas naturellement la nullite des actes sociaux",
+            "contenu": "Le document est net sur ce point : on ne passe pas facilement d'une deviation par rapport a la raison d'etre a l'annulation d'un acte ou d'une decision collective. La fiche retient que le droit reste prudent et refuse d'elever trop vite la raison d'etre au rang de cause automatique d'inefficacite des actes."
+          },
+          {
+            "titre": "Le terrain le plus plausible devient alors celui de la responsabilite des dirigeants",
+            "contenu": "Lorsque la raison d'etre est inscrite dans les statuts, sa violation peut etre analysee comme une faute de gestion ou comme une meconnaissance d'engagements statutaires. La fiche souligne cependant que le contentieux reste incertain, notamment sur la preuve du dommage et sur la portee exacte de cette innovation legislative."
+          },
+          {
+            "titre": "La societe elle-meme peut aussi etre interrogee, mais la portee contentieuse reste encore flottante",
+            "contenu": "Le document termine en indiquant qu'un tiers devrait demontrer un dommage lie a la violation de la raison d'etre pour esperer engager une responsabilite. La fiche retient que le droit est encore en construction sur ce point : la raison d'etre existe bien comme norme interne possible, mais ses sanctions externes demeurent fragiles et discut ees."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi une clause leonine est-elle prohibee en droit des societes ?",
+          "reponse": "Parce qu'elle vide la logique societaire de son partage minimal des risques et des avantages entre associes.",
+          "explication": "Le document la rattache directement a la contribution aux pertes et a la participation aux resultats.",
+          "difficulte": 2
+        },
+        {
+          "question": "Peut-on librement amenager la repartition des pertes et des benefices entre associes ?",
+          "reponse": "Oui jusqu'a un certain point, mais sans aller jusqu'a supprimer completement pour l'un d'eux le risque social ou la vocation aux resultats.",
+          "explication": "La fiche montre que la liberte statutaire existe mais demeure bornee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'apport principal de la loi Pacte sur la raison d'etre ?",
+          "reponse": "Elle permet a la societe de se doter statutairement de principes directeurs qu'elle entend suivre dans son activite.",
+          "explication": "Le document rattache cette innovation a l'article 1835 du code civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Faut-il que la raison d'etre poursuive des valeurs particulierement altruistes pour etre valable ?",
+          "reponse": "Non, elle doit surtout exprimer des principes coherents avec l'activite et le projet de la societe.",
+          "explication": "Le corrige rappelle que la loi n'impose pas seulement des finalites dites nobles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la violation de la raison d'etre ne conduit-elle pas facilement a la nullite d'un acte ?",
+          "reponse": "Parce que le droit ne traite pas la raison d'etre comme une cause automatique d'annulation des actes sociaux.",
+          "explication": "La fiche met l'accent sur la prudence du contentieux en la matiere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel terrain contentieux semble le plus naturel en cas de meconnaissance de la raison d'etre ?",
+          "reponse": "Celui de la responsabilite du dirigeant au titre d'une faute de gestion ou d'une violation statutaire.",
+          "explication": "Le document deplace le raisonnement de la nullite vers la responsabilite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi cette responsabilite du dirigeant reste-t-elle encore incertaine ?",
+          "reponse": "Parce que la jurisprudence est encore peu fixee sur la portee exacte de la raison d'etre et sur la preuve du dommage.",
+          "explication": "Le corrige souligne le caractere encore evolutif du regime.",
+          "difficulte": 3
+        },
+        {
+          "question": "Un tiers peut-il invoquer la violation de la raison d'etre pour agir ?",
+          "reponse": "Seulement s'il parvient a etablir un dommage et un lien juridique suffisant avec cette meconnaissance.",
+          "explication": "La fiche montre que l'ouverture a l'exterieur demeure beaucoup plus fragile qu'en interne.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel est le lien entre raison d'etre et interet social dans cette correction ?",
+          "reponse": "La raison d'etre peut orienter l'action sociale, mais elle ne se confond pas automatiquement avec une cause directe de nullite ou d'inefficacite.",
+          "explication": "Le document invite a ne pas surcharger trop vite la raison d'etre d'effets contentieux qu'elle n'a pas encore clairement.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette correction ?",
+          "reponse": "Le droit des societes accepte des valeurs et des amenagements statutaires, mais il refuse a la fois les desequilibres extremes entre associes et les sanctions trop automatiques attachees a la raison d'etre.",
+          "explication": "La fiche relie clause leonine et raison d'etre autour d'une meme logique de borne et de mesure.",
+          "difficulte": 2
+        }
+      ]
+    }
+  ]
+}
