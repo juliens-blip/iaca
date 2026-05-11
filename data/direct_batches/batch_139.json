@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1179,
+      "fiche": {
+        "titre": "Competence juridictionnelle interne : repartition du travail judiciaire, attribution et competence territoriale",
+        "resume": "Cette seance ouvre la partie du cours consacree a la competence juridictionnelle. La fiche en retient une idee directrice : la competence ne dit pas seulement quel juge peut statuer, elle organise une repartition du travail judiciaire entre les juridictions. En procedure civile interne, cette repartition passe d'abord par le choix du type de juridiction, puis par la designation territoriale du tribunal competent.",
+        "sections": [
+          {
+            "titre": "La competence juridictionnelle est une question de repartition et non de pouvoir abstrait de juger",
+            "contenu": "Le document reprend l'idee que la juridiction competente est celle a qui la loi confere aptitude a connaitre d'une demande de preference a toutes les autres. La fiche retient que la competence exprime un partage du contentieux entre organes judiciaires et non une simple capacite generique de juger."
+          },
+          {
+            "titre": "Le cours se limite ici a la competence interne de l'ordre judiciaire civil",
+            "contenu": "Le professeur ecarte la competence internationale, les conflits entre ordres de juridiction et les questions penal es ou constitutionnelles. La fiche retient que le cadre de raisonnement est volontairement restreint a la repartition des litiges entre juridictions civiles francaises."
+          },
+          {
+            "titre": "L'etude porte sur les criteres legaux de competence et non sur tout le regime des incidents",
+            "contenu": "Le document distingue les regles qui designent la juridiction competente de celles qui regissent l'exception d'incompetence. La fiche retient que, dans cette seance, l'accent est mis sur les criteres de designation plutot que sur le contentieux procedur al de la contestation de competence."
+          },
+          {
+            "titre": "La competence d'attribution determine d'abord la nature de la juridiction a saisir",
+            "contenu": "Le cours parle aussi de competence materielle ou ratione materiae. La fiche retient qu'il faut, en premier lieu, choisir la categorie de juridiction competente, par exemple tribunal judiciaire, tribunal de commerce ou conseil de prud'hommes."
+          },
+          {
+            "titre": "La competence territoriale choisit ensuite le tribunal concretement saisi dans cette categorie",
+            "contenu": "Une fois le type de juridiction identifie, il faut designer le ressort territorial competent. La fiche retient que la procedure civile procede ici en deux temps : quelle juridiction par sa nature, puis quel tribunal par son implantation geographique."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Que designe la competence juridictionnelle dans cette introduction ?",
+          "reponse": "L'aptitude attribuee par la loi a une juridiction pour connaitre d'une demande de preference aux autres juridictions.",
+          "explication": "Le document en fait une notion de repartition du travail judiciaire.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le cours insiste-t-il sur l'expression de preference a toutes les autres ?",
+          "reponse": "Parce qu'elle montre que la competence est d'abord un mecanisme de distribution des affaires entre juridictions concurrentes.",
+          "explication": "La fiche souligne ainsi la logique de repartition plutot que de pouvoir abstrait.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le perimetre de l'etude de la competence dans cette seance ?",
+          "reponse": "La competence juridictionnelle interne au sein de l'ordre judiciaire civil francais.",
+          "explication": "Le document ecarte les questions internationales, administratives, penales et constitutionnelles.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le professeur distingue-t-il criteres de competence et exception d'incompetence ?",
+          "reponse": "Parce que les premiers servent a designer la bonne juridiction, tandis que la seconde regit la facon de contester une saisine erronee.",
+          "explication": "La fiche retient que seule la premiere dimension est etudiee ici.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que la competence d'attribution ?",
+          "reponse": "C'est la competence qui determine la nature de la juridiction competente selon la matiere du litige.",
+          "explication": "Le document la nomme aussi competence materielle ou ratione materiae.",
+          "difficulte": 1
+        },
+        {
+          "question": "Qu'est-ce que la competence territoriale dans ce chapitre d'introduction ?",
+          "reponse": "C'est la competence qui permet de choisir, parmi les juridictions d'un meme type, celle dont le ressort geographique doit connaitre du litige.",
+          "explication": "La fiche la rattache a la logique dite ratione loci.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi dit-on que le raisonnement sur la competence se fait en deux temps ?",
+          "reponse": "Parce qu'il faut d'abord identifier le type de juridiction competent, puis choisir le tribunal territorialement competent dans cette categorie.",
+          "explication": "Le document presente cette structure comme une base de culture juridique generale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur la competence juridictionnelle ?",
+          "reponse": "La reduire a une question purement technique alors qu'elle organise concretement l'acces au bon juge dans la division du travail judiciaire.",
+          "explication": "La fiche insiste sur son importance pratique bien au-dela de l'examen.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la competence d'attribution est-elle parfois appelee competence materielle ?",
+          "reponse": "Parce qu'elle depend de la nature de l'affaire et de la matiere juridique du litige.",
+          "explication": "Le document l'oppose a la competence territoriale qui depend du ressort.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette introduction ?",
+          "reponse": "La competence juridictionnelle interne distribue les litiges civils en deux etapes, par la nature de la juridiction puis par sa localisation territoriale.",
+          "explication": "La fiche relie ainsi repartition judiciaire, attribution et territorialite.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1183,
+      "fiche": {
+        "titre": "Introduction au regime general des obligations : obligation comme lien de droit et comme element du patrimoine",
+        "resume": "Cette introduction au regime general des obligations pose les fondations de la matiere. La fiche en retient une idee directrice : l'obligation doit etre comprise sous une double face. Elle est a la fois un rapport juridique entre creancier et debiteur et une valeur patrimoniale apprehendable comme un bien. Le regime general des obligations vise alors a organiser les regles communes qui gouvernent cette realite juridique multiple.",
+        "sections": [
+          {
+            "titre": "Le regime general des obligations s'interesse aux regles communes de la vie des obligations",
+            "contenu": "Le document annonce une reflexion sur ce qu'est une obligation et sur ce que signifie l'idee de regime general. La fiche retient que la matiere ne s'attache pas a une source particuliere de l'obligation, mais aux mecanismes transversaux qui valent pour elles de facon generale."
+          },
+          {
+            "titre": "L'obligation est d'abord un lien de droit entre un creancier et un debiteur",
+            "contenu": "Le cours reprend la definition doctrinale classique d'un rapport juridique permettant au creancier d'exiger quelque chose du debiteur. La fiche retient que la relation obligatoire suppose deux sujets relies par une exigibilite juridiquement organisee."
+          },
+          {
+            "titre": "L'obligation est aussi envis agee comme un element du patrimoine",
+            "contenu": "Le document rappelle que la creance peut etre apprehendee comme une anticipation economique de l'execution et donc comme une valeur patrimoniale. La fiche retient que l'obligation n'est pas seulement une relation entre personnes ; elle est aussi un objet economique et juridique circulant dans le patrimoine."
+          },
+          {
+            "titre": "La double nature de l'obligation structure toute la matiere",
+            "contenu": "Le cours insiste sur la necessite de tenir ensemble ces deux dimensions, personnelle et patrimoniale. La fiche retient que de nombreuses regles du RGO se comprennent precisement parce qu'elles prennent en charge a la fois la relation entre parties et la valeur patrimoniale de la creance."
+          },
+          {
+            "titre": "Les sources du RGO expliquent son ancrage a la fois codifie et evolutif",
+            "contenu": "Le document annonce un rappel du code civil, de la jurisprudence, de la pratique et de la reforme de 2016. La fiche retient qu'un regime general n'est pas une construction abstraite hors du temps, mais une synthese de sources convergentes et reformees."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Que designe le regime general des obligations dans cette introduction ?",
+          "reponse": "L'ensemble des regles communes qui gouvernent les obligations au-dela de leurs sources particulieres.",
+          "explication": "La fiche insiste sur la vocation transversale de la matiere.",
+          "difficulte": 1
+        },
+        {
+          "question": "Comment l'obligation est-elle definie dans son sens le plus classique ?",
+          "reponse": "Comme un lien de droit unissant un creancier et un debiteur, permettant au premier d'exiger quelque chose du second.",
+          "explication": "Le document reprend ici la definition doctrinale traditionnelle.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi dit-on que l'obligation a une double nature ?",
+          "reponse": "Parce qu'elle est a la fois un rapport juridique entre personnes et une valeur patrimoniale susceptible d'etre apprehendee comme un bien.",
+          "explication": "La fiche en fait la cle conceptuelle de l'introduction au RGO.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie voir l'obligation comme un element du patrimoine ?",
+          "reponse": "Cela signifie que la creance peut etre regardee comme une valeur economique integr ee au patrimoine de son titulaire.",
+          "explication": "Le document relie cette approche a l'anticipation economique de l'execution.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le RGO ne se confond-il pas avec le seul droit des contrats ?",
+          "reponse": "Parce qu'il etudie des regles communes applicables a l'ensemble des obligations, quelles que soient leurs sources.",
+          "explication": "La fiche elargit ainsi le regard au-dela du seul contractuel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role joue la notion de creancier dans la definition classique de l'obligation ?",
+          "reponse": "Le creancier est la personne qui peut juridiquement exiger une prestation du debiteur.",
+          "explication": "Le document construit la relation obligatoire a partir de cette exigibilite organisee par le droit.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la dimension patrimoniale de l'obligation est-elle importante ?",
+          "reponse": "Parce qu'elle permet de comprendre que la creance n'est pas seulement une relation personnelle mais aussi une valeur economique mobilisable dans le patrimoine.",
+          "explication": "La fiche souligne ici l'ouverture vers les mecanismes de circulation ou de garantie.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur le regime general des obligations ?",
+          "reponse": "Le reduire a une theorie purement abstraite, alors qu'il organise des regles communes issues du code, de la jurisprudence, de la pratique et de la reforme.",
+          "explication": "Le document ancre la matiere dans des sources positives et evolutives.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur l'obligation elle-meme ?",
+          "reponse": "La penser seulement comme un lien personnel sans voir qu'elle peut aussi etre apprehendee comme un bien patrimonial.",
+          "explication": "La fiche fait de cette dualite la cle de comprehension du chapitre.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette introduction au RGO ?",
+          "reponse": "Le regime general des obligations organise les regles communes d'une realite double, a la fois rapport juridique entre sujets et valeur patrimoniale integree au patrimoine.",
+          "explication": "La fiche relie ainsi definition, generalite et double nature de l'obligation.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1184,
+      "fiche": {
+        "titre": "Modalites des obligations : purete de l'obligation, condition, terme et variations de structure",
+        "resume": "Cette seance ouvre la partie consacree aux modalites des obligations. La fiche en retient une idee directrice : l'obligation pure et simple est le modele de base, mais la liberte contractuelle permet d'en amenager certains traits. Les modalites peuvent affecter l'existence ou l'exigibilite de l'obligation, mais aussi sa structure meme en jouant sur les sujets ou sur l'objet de la prestation.",
+        "sections": [
+          {
+            "titre": "L'obligation pure et simple est immediatement exigible par principe",
+            "contenu": "Le document part de la figure standard de l'obligation sans modalite particuliere. La fiche retient que, par defaut, le creancier peut en exiger l'execution immediate, sauf amenagement contractuel ou legal."
+          },
+          {
+            "titre": "Les modalites sont des manieres d'etre particulieres de l'obligation",
+            "contenu": "Le cours explique que les parties peuvent adapter l'obligation lorsque l'execution immediate ou la structure ordinaire ne conviennent pas. La fiche retient que la modalite correspond a un amenagement d'un aspect de l'obligation rendu possible par la liberte contractuelle."
+          },
+          {
+            "titre": "La condition et le terme illustrent deux modalites classiques distinctes",
+            "contenu": "Le document montre que la condition suspend ou fait dependre l'existence de l'obligation d'un evenement incertain, tandis que le terme reporte son exigibilite dans le temps. La fiche retient que ces deux techniques ne jouent pas sur le meme plan de l'obligation."
+          },
+          {
+            "titre": "Les modalites peuvent aussi toucher la structure de l'obligation",
+            "contenu": "Le cours explique qu'une obligation classique comporte un sujet actif, un sujet passif et un objet, mais que chacun de ces elements peut varier. La fiche retient que les modalites ne concernent pas seulement le moment du paiement ou la naissance de l'obligation, mais aussi la configuration de ses composantes."
+          },
+          {
+            "titre": "La pluralite de creanciers, de debiteurs ou les variations de l'objet participent de cette logique structurelle",
+            "contenu": "Le document prend des exemples de pluralite de sujets et de flexibilite de l'objet, comme un transport pouvant s'effectuer de plusieurs manieres. La fiche retient que la modalite peut organiser les alternatives ou les multiplicit es internes du rapport obligatoire."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Qu'est-ce qu'une obligation pure et simple dans cette seance ?",
+          "reponse": "C'est une obligation qui, en l'absence de modalite particuliere, est immediatement exigible par le creancier.",
+          "explication": "Le document en fait le modele de reference avant tout amenagement.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les parties amenagent-elles parfois les obligations par des modalites ?",
+          "reponse": "Parce que l'execution immediate ou la structure ordinaire de l'obligation n'est pas toujours souhaitable dans leur relation.",
+          "explication": "La fiche rattache cet amenagement a l'exercice de la liberte contractuelle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Comment le cours definit-il les modalites de l'obligation ?",
+          "reponse": "Comme des manieres d'etre particulieres de l'obligation, c'est-a-dire des amenagements portant sur certains de ses aspects.",
+          "explication": "Le document en donne une approche a la fois fonctionnelle et illustrative.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle difference essentielle existe entre la condition et le terme ?",
+          "reponse": "La condition fait dependre l'obligation d'un evenement incertain, tandis que le terme reporte son exigibilite a un evenement futur certain.",
+          "explication": "La fiche distingue ainsi l'alea de la simple attente temporelle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi dit-on que la condition peut affecter l'existence meme de l'obligation ?",
+          "reponse": "Parce que la naissance ou le maintien de l'obligation peut dependre de la realisation d'un evenement dont l'issue n'est pas certaine.",
+          "explication": "Le document l'illustre notamment par la vente soumise a l'obtention d'un pret.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le terme n'affecte-t-il pas l'obligation de la meme facon que la condition ?",
+          "reponse": "Parce qu'il joue principalement sur son exigibilite dans le temps et non sur l'existence incertaine du lien obligatoire.",
+          "explication": "La fiche met en avant cette difference de plan entre les deux modalites.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie dire que les modalites peuvent toucher la structure de l'obligation ?",
+          "reponse": "Cela signifie qu'elles peuvent affecter les sujets actifs, les sujets passifs ou l'objet meme de la prestation.",
+          "explication": "Le document elargit ainsi la notion de modalite au-dela des seules questions de temps.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel exemple montre qu'une modalite peut affecter l'objet de l'obligation ?",
+          "reponse": "Le cas d'un transport pouvant etre execute soit par air soit par mer selon les termes du rapport obligatoire.",
+          "explication": "La fiche s'en sert pour montrer une flexibilite structurelle de l'objet.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur les modalites de l'obligation ?",
+          "reponse": "Les reduire aux seuls reports de paiement alors qu'elles peuvent aussi affecter l'existence, les sujets ou l'objet de l'obligation.",
+          "explication": "Le document propose une conception plus large et structurelle des modalites.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Les modalites sont les amenagements par lesquels les parties adaptent l'obligation, qu'il s'agisse de son exigibilite, de son existence ou de sa structure interne.",
+          "explication": "La fiche relie ainsi obligation pure et simple, condition, terme et variations structurelles.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1185,
+      "fiche": {
+        "titre": "Obligation a terme : evenement futur certain, distinction d'avec la condition et centralite du terme suspensif",
+        "resume": "Cette seance est consacree a l'obligation a terme. La fiche en retient une idee directrice : le terme se definit par la certitude de l'evenement futur qui gouverne l'exigibilite ou la duree de l'obligation. Mais, dans l'etude des modalites, seul le terme suspensif occupe une place centrale, car lui seul affecte veritablement l'exigibilite de l'obligation comme modalite au sens strict.",
+        "sections": [
+          {
+            "titre": "Le terme est un evenement futur de realisation certaine",
+            "contenu": "Le document pose la definition generale du terme comme evenement dont depend l'exigibilite ou la duree de l'obligation. La fiche retient que la certitude de l'evenement est l'element essentiel qui le distingue d'autres mecanismes voisins."
+          },
+          {
+            "titre": "Le cours distingue le terme suspensif du terme extinctif",
+            "contenu": "Le terme suspensif retarde l'exigibilite de l'obligation, tandis que le terme extinctif met fin a sa duree. La fiche retient que les deux notions partagent une meme structure temporelle, mais n'ont ni le meme objet ni le meme regime."
+          },
+          {
+            "titre": "Dans l'etude des modalites, c'est surtout le terme suspensif qui importe",
+            "contenu": "Le document explique que le terme extinctif n'affecte pas veritablement les modalites de l'obligation au sens retenu dans le cours. La fiche retient que l'analyse se concentre donc sur le terme qui differe l'exigibilite de la prestation."
+          },
+          {
+            "titre": "La distinction avec la condition repose sur la certitude de l'evenement",
+            "contenu": "Le cours annonce qu'il faudra revenir en detail sur ce point. La fiche retient deja que la condition depend d'un evenement incertain, alors que le terme repose sur un evenement certain, meme si la date de sa survenance peut demeurer inconnue."
+          },
+          {
+            "titre": "La certitude du terme doit etre comprise objectivement et non confondue avec la seule connaissance de sa date",
+            "contenu": "Le document precise que l'evenement doit etre certain dans sa survenance, alors meme que son moment exact peut rester incertain. La fiche retient que l'on peut etre certain qu'un evenement se produira sans savoir exactement quand il se produira."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Comment le terme est-il defini dans cette seance ?",
+          "reponse": "Comme un evenement futur de realisation certaine dont depend l'exigibilite ou la duree d'une obligation.",
+          "explication": "Le document fait de cette definition le point de depart de tout le chapitre.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle est la difference entre terme suspensif et terme extinctif ?",
+          "reponse": "Le terme suspensif retarde l'exigibilite de l'obligation, tandis que le terme extinctif en provoque l'extinction a l'arrivee de l'evenement.",
+          "explication": "La fiche distingue ainsi deux usages temporels du terme aux effets differents.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le cours se concentre-t-il sur le terme suspensif ?",
+          "reponse": "Parce que c'est lui qui affecte veritablement l'exigibilite de l'obligation comme modalite au sens etudie dans cette partie.",
+          "explication": "Le document explique que le terme extinctif releve d'une logique differente.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle distinction essentielle oppose le terme a la condition ?",
+          "reponse": "Le terme repose sur un evenement certain, alors que la condition depend d'un evenement incertain.",
+          "explication": "La fiche y voit la ligne de partage conceptuelle fondamentale entre les deux modalites.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi dit-on que la date du terme peut rester incertaine ?",
+          "reponse": "Parce qu'on peut etre certain que l'evenement se produira sans savoir exactement a quel moment il surviendra.",
+          "explication": "Le document insiste sur cette difference entre certitude de l'evenement et connaissance de sa date.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie l'idee de certitude objective du terme ?",
+          "reponse": "Elle signifie que la survenance de l'evenement doit etre certaine en elle-meme et ne pas dependre d'un simple sentiment subjectif des parties.",
+          "explication": "La fiche anticipe ici la question de la qualification juridique du terme.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le terme suspensif est-il une modalite de l'obligation ?",
+          "reponse": "Parce qu'il modifie le moment a partir duquel le creancier peut exiger l'execution sans remettre en cause l'existence meme de l'obligation.",
+          "explication": "Le document le distingue ainsi des mecanismes qui affectent directement la naissance du lien obligatoire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur le terme ?",
+          "reponse": "Confondre la certitude de l'evenement avec la certitude de sa date, alors que seule la premiere est necessaire a la qualification.",
+          "explication": "La fiche insiste sur cette nuance pour eviter une lecture trop simpliste de la notion.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur le terme extinctif dans cette partie ?",
+          "reponse": "Le traiter comme la figure centrale des modalites alors que le cours reserve l'analyse principale au terme suspensif.",
+          "explication": "Le document assume un recentrage methodique sur l'exigibilite differee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "L'obligation a terme se comprend par la certitude d'un evenement futur, et l'etude des modalites met surtout en valeur le terme suspensif comme technique de report de l'exigibilite.",
+          "explication": "La fiche relie ainsi definition, classifications et distinction d'avec la condition.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
