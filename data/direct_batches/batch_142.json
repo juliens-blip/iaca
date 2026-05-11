@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1208,
+      "fiche": {
+        "titre": "Gestation pour autrui en droit francais : prohibition, raisons d'ordre public et question de la filiation",
+        "resume": "Cette seance etudie la prohibition de la gestation pour autrui en droit francais. La fiche en retient une idee directrice : la GPA n'est pas seulement ecartee comme une technique de procreation parmi d'autres, elle est tenue pour juridiquement inacceptable en raison des atteintes qu'elle ferait peser sur la femme porteuse, sur l'enfant et sur l'ordre des personnes. Mais cette interdiction n'epuise pas la question decisive de la filiation des enfants nes d'une telle pratique.",
+        "sections": [
+          {
+            "titre": "Le droit francais distingue l'assistance a la conception, toleree et encadree, de la suppl eance pour la gestation, prohibee",
+            "contenu": "Le document oppose clairement la procreation medicalement assistee a la gestation pour autrui. La fiche retient que le droit francais n'accepte pas qu'une femme porte un enfant en vue de le remettre a des tiers, meme lorsque l'intention parentale des commanditaires est forte."
+          },
+          {
+            "titre": "La prohibition repose sur des raisons touchant a la femme, a l'enfant et a la logique du contrat",
+            "contenu": "Le cours insiste sur les risques physiques, psychologiques et economiques pesant sur la femme porteuse, mais aussi sur la transformation de l'enfant en objet contractuel. La fiche retient que la GPA est refusee parce qu'elle met en tension la dignite de la femme, la protection de l'enfant et l'indisponibilite du corps et de l'etat des personnes."
+          },
+          {
+            "titre": "Le droit positif condamne a la fois la gestation pour autrui et la procreation pour autrui",
+            "contenu": "Le document precise qu'une distinction technique existe selon que la femme porteuse est ou non la mere genetique de l'enfant. La fiche retient cependant que l'article 16-7 du code civil fait obstacle aux deux hypoth eses en declarant nulles les conventions portant sur la procreation ou la gestation pour le compte d'autrui."
+          },
+          {
+            "titre": "La repression ne supprime pas en pratique tous les recours a ces techniques a l'etranger",
+            "contenu": "Le cours releve que les textes repressifs francais atteignent mal les situations realisees dans des pays plus permissifs. La fiche retient que la veritable difficult e se deplace alors vers la reconnaissance ou non des liens juridiques invoques au retour en France."
+          },
+          {
+            "titre": "L'interdiction de principe ouvre finalement sur la question plus delicate de la filiation des enfants nes par GPA",
+            "contenu": "Le document annonce que l'on doit encore se demander si les adultes ayant organise une GPA peuvent etre juridiquement consideres comme les parents de l'enfant. La fiche retient que la prohibition des conventions n'evite pas le contentieux familial ulterieur, elle le deplace."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la gestation pour autrui est-elle traitee differemment de l'assistance a la conception en droit francais ?",
+          "reponse": "Parce qu'elle est consideree comme une pratique juridiquement inacceptable, alors que l'assistance a la conception peut etre toleree et encadree.",
+          "explication": "Le document construit tout le chapitre sur cette opposition de principe.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est le principe pose par l'article 16-7 du code civil ?",
+          "reponse": "Toute convention portant sur la procreation ou la gestation pour le compte d'autrui est nulle.",
+          "explication": "La fiche en fait le pivot normatif de la prohibition francaise.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la prohibition de la GPA ne repose-t-elle pas seulement sur une question de technique medicale ?",
+          "reponse": "Parce qu'elle est justifiee par des raisons touchant a la dignite de la femme, a la protection de l'enfant et au refus de contractualiser la venue au monde.",
+          "explication": "Le document articule ainsi des motifs corporels, psychologiques et institutionnels.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle difference technique existe entre gestation pour autrui et procreation pour autrui ?",
+          "reponse": "Dans un cas la femme porteuse n'est pas necessairement la mere genetique, tandis que dans l'autre elle participe aussi genetiquement a la conception de l'enfant.",
+          "explication": "La fiche souligne toutefois que le droit francais prohibe les deux situations.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'enfant est-il presente comme risquant de devenir l'objet d'un contrat ?",
+          "reponse": "Parce que la convention de GPA organise a l'avance sa remise a des tiers en faisant abstraction des liens noues pendant la grossesse.",
+          "explication": "Le document fait de ce point un argument central contre la pratique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les textes repressifs francais ne reglent-ils pas entierement le phenomene ?",
+          "reponse": "Parce que de nombreuses situations se deroulent dans des Etats etrangers ou la GPA est admise, ce qui deplace la difficulte au moment du retour en France.",
+          "explication": "La fiche montre que la repression interne rencontre vite la question de l'extraterritorialite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est alors le vrai contentieux qui subsiste apres l'interdiction des conventions ?",
+          "reponse": "La determination de la filiation de l'enfant ne par GPA et la reconnaissance des liens de parent e revendiques par les adultes demandeurs.",
+          "explication": "Le document annonce ce deplacement du debat de la convention vers l'etat des personnes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur la GPA en droit francais ?",
+          "reponse": "La reduire a un simple debat sur l'infertilite, alors que le droit y voit aussi un probleme de corps, de contrat et de statut de l'enfant.",
+          "explication": "La fiche insiste sur la pluralite des motifs de prohibition.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur l'effet de la nullite des conventions ?",
+          "reponse": "Croire qu'elle efface toute difficulte juridique, alors qu'elle laisse ouverte la question concrete de l'identite parentale de l'enfant.",
+          "explication": "Le document montre que l'enjeu de filiation subsiste apres la sanction de la convention.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Le droit francais prohibe radicalement la GPA pour des raisons d'ordre public personnel et corporel, mais cette interdiction n'empeche pas les contentieux complexes de filiation.",
+          "explication": "La fiche relie ainsi nullite, dignite et statut des enfants nes a l'etranger.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1212,
+      "fiche": {
+        "titre": "Changement de nom sans modification de filiation : interet legitime, procedure simplifiee et reforme de 2022",
+        "resume": "Cette seance etudie les modifications du nom independantes de toute evolution de la filiation. La fiche en retient une idee directrice : le nom reste marque par la fixite, mais cette stabilite n'est plus absolue. Le droit positif organise des voies de changement qui permettent soit de faire valoir un interet legitime devant le garde des Sceaux, soit, depuis 2022, d'exercer plus simplement un choix personnel lie aux noms parentaux potentiellement transmissibles.",
+        "sections": [
+          {
+            "titre": "Le principe demeure celui de la fixite du nom, meme si des exceptions se multiplient",
+            "contenu": "Le document rappelle que le changement de nom hors toute modification de filiation reste exceptionnel. La fiche retient que le droit de la personnalite reste structure par la stabilite nominale, mais accepte des assouplissements lorsque d'autres interets personnels ou familiaux le justifient."
+          },
+          {
+            "titre": "Certaines modifications de nom peuvent accompagner des decisions relatives a l'autorite parentale",
+            "contenu": "Le cours cite l'article 380-1 du code civil, qui permet au juge statuant sur le retrait total de l'autorite parentale de se prononcer sur un changement de nom de l'enfant. La fiche retient que le nom peut ici devenir un instrument de protection ou de prise de distance symbolique."
+          },
+          {
+            "titre": "La procedure classique repose sur la demonstration d'un interet legitime",
+            "contenu": "Le document presente la voie de l'article 61 du code civil devant le garde des Sceaux. La fiche retient que l'interet legitime peut tenir au ridicule du nom, a sa consonance, mais aussi a des considerations profondes de filiation, d'ascendance ou de rejet d'un parent gravement defaillant."
+          },
+          {
+            "titre": "La reforme de 2022 a donne une nouvelle ampleur a la procedure simplifiee",
+            "contenu": "Le cours explique qu'une personne majeure peut desormais demander a l'officier de l'etat civil de porter l'un ou l'autre des noms que ses parents auraient pu lui transmettre. La fiche retient que cette voie simplifiee traduit un basculement vers une plus grande disponibilite du nom dans le cercle parental."
+          },
+          {
+            "titre": "Le changement de nom devient ainsi un outil d'affirmation ou de reequilibrage identitaire",
+            "contenu": "Le document montre que les demandes de changement peuvent servir a revendiquer une ascendance, a eviter l'extinction d'un nom, ou a se detacher symboliquement d'un parent. La fiche retient que le droit du nom, meme formalise, reste travers e par des enjeux affectifs et identitaires puissants."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel principe general continue de gouverner le nom de famille malgre les exceptions ?",
+          "reponse": "Le principe de fixite du nom, qui fait du changement de nom une possibilite encadree et non une liberte ordinaire.",
+          "explication": "Le document rappelle que la stabilite du nom demeure la regle de depart.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi peut-on modifier un nom sans qu'aucune filiation ne change ?",
+          "reponse": "Parce que le droit admet des hypoth eses particulieres ou des procedures qui permettent de prendre en compte un interet personnel, familial ou identitaire distinct de l'etablissement de la filiation.",
+          "explication": "La fiche souligne ainsi l'autonomie relative du droit du nom par rapport au lien de parent e.",
+          "difficulte": 2
+        },
+        {
+          "question": "Sur quoi repose la procedure classique de changement de nom ?",
+          "reponse": "Sur une demande adressee au garde des Sceaux et sur la justification d'un interet legitime.",
+          "explication": "Le document rattache cette voie a l'article 61 du code civil.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quels motifs familiaux peuvent caracteriser l'interet legitime dans la procedure classique ?",
+          "reponse": "Le desir de revendiquer une ascendance, d'eviter l'extinction d'un nom familial ou de se detacher symboliquement d'un parent gravement defaillant.",
+          "explication": "La fiche montre que le droit du nom reste profondement lie a l'histoire familiale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la procedure simplifiee de 2022 constitue-t-elle un changement important ?",
+          "reponse": "Parce qu'elle permet a une personne majeure de choisir plus simplement l'un ou l'autre des noms parentaux transmissibles sans avoir a etablir un interet legitime devant le ministre.",
+          "explication": "Le document y voit un assouplissement majeur de la disponibilite du nom dans la famille.",
+          "difficulte": 2
+        },
+        {
+          "question": "Devant qui se deroule cette procedure simplifiee de changement de nom ?",
+          "reponse": "Devant un officier de l'etat civil competent, apres un delai de reflexion et une confirmation de la demande.",
+          "explication": "La fiche oppose cette voie administrative de proximite a la lourdeur de la procedure classique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la reforme de 2022 peut-elle etre lue comme une reconnaissance accrue de l'autonomie personnelle ?",
+          "reponse": "Parce qu'elle donne au majeur une plus grande maitrise sur l'agencement des noms parentaux qui pouvaient legalement lui etre attribues.",
+          "explication": "Le document montre ici un deplacement de l'equilibre entre fixite et choix identitaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur le changement de nom ?",
+          "reponse": "Le croire purement administratif, alors qu'il peut exprimer des conflits de filiation, des besoins de protection ou des revendications identitaires profondes.",
+          "explication": "La fiche insiste sur la charge symbolique tres forte du nom de famille.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur la procedure simplifiee ?",
+          "reponse": "La penser comme une libre variabilite generale du nom, alors qu'elle demeure strictement encadree autour des noms parentaux juridiquement transmissibles.",
+          "explication": "Le document rappelle que la simplification ne fait pas disparaitre tout cadre legal.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Le droit du nom combine encore la fixite de principe avec des mecanismes de changement de plus en plus sensibles aux enjeux identitaires et aux liens parentaux.",
+          "explication": "La fiche relie ainsi interet legitime, reforme de 2022 et autonomie personnelle.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1213,
+      "fiche": {
+        "titre": "Retentissement economique de la filiation : obligation d'entretien, devoir parental et prolongement au-dela de la majorite",
+        "resume": "Cette seance ouvre l'etude du retentissement economique de la filiation. La fiche en retient une idee directrice : la filiation n'est pas seulement une appartenance affective ou identitaire, elle fonde une veritable solidarite patrimoniale. Au premier rang figure l'obligation d'entretien des parents, qui ne depend ni du mariage ni de l'exercice de l'autorite parentale, et qui se prolonge souvent apres la majorite tant que l'enfant ne peut encore subvenir seul a ses besoins.",
+        "sections": [
+          {
+            "titre": "La filiation produit des effets patrimoniaux propres au-dela des seuls sentiments familiaux",
+            "contenu": "Le document rappelle que l'entraide economique familiale ne repose pas sur la seule spontaneite. La fiche retient que le droit fait de certaines aides un veritable imperative juridique, notamment entre parents en ligne directe."
+          },
+          {
+            "titre": "L'obligation d'entretien est un devoir parental et non un simple effet du mariage",
+            "contenu": "Le cours souligne le caractere trompeur d'une lecture purement matrimoniale de l'article 203 du code civil. La fiche retient que ce devoir nait du lien de filiation et s'impose quels que soient la situation conjugale des parents ou leurs rapports mutuels."
+          },
+          {
+            "titre": "La privation d'autorite parentale n'efface pas l'obligation d'entretien",
+            "contenu": "Le document explique que le parent prive de l'exercice ou de la jouissance de l'autorite parentale reste tenu de contribuer aux depenses engagees pour l'enfant. La fiche retient que l'obligation d'entretien est autonome par rapport aux pre rogatives de direction ou de garde."
+          },
+          {
+            "titre": "Le devoir d'entretien ne cesse pas automatiquement a la majorite",
+            "contenu": "Le cours rappelle l'article 371-2 du code civil et l'idee que l'aide parentale se prolonge tant que l'enfant poursuit serieusement ses etudes ou ne peut encore assurer sa subsistance. La fiche retient que la majorite met fin a l'autorite parentale, mais pas necessairement a la solidarite economique parentale."
+          },
+          {
+            "titre": "Le contenu de l'obligation d'entretien depasse le strict minimum vital",
+            "contenu": "Le document mentionne non seulement la nourriture, le logement ou les soins, mais aussi, selon les ressources parentales, les etudes et certaines activites contribuant au developpement de l'enfant. La fiche retient que le devoir d'entretien se mesure au besoin de l'enfant et aux moyens des parents dans une logique plus large que la simple survie."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi dit-on que la filiation a un retentissement economique ?",
+          "reponse": "Parce qu'elle fait naitre de veritables obligations pecuniaires entre proches, notamment a travers le devoir d'entretien des parents.",
+          "explication": "Le document montre que la famille est aussi un lieu d'obligations patrimoniales juridiquement imposees.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'obligation d'entretien ne doit-elle pas etre comprise comme un simple effet du mariage ?",
+          "reponse": "Parce qu'elle nait du lien de filiation et s'impose meme lorsque les parents ne sont pas ou plus maries.",
+          "explication": "La fiche corrige la lecture trompeuse que pourrait suggerer l'article 203 pris isol ement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le fondement reel de l'obligation d'entretien selon cette seance ?",
+          "reponse": "C'est un devoir parental qui decoule de la filiation elle-meme.",
+          "explication": "Le document oppose explicitement ce devoir au seul engagement conjugal.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'obligation d'entretien subsiste-t-elle meme lorsque l'autorite parentale n'est plus exercee ?",
+          "reponse": "Parce qu'elle est juridiquement autonome par rapport aux pouvoirs parentaux de direction et de garde.",
+          "explication": "La fiche souligne ainsi que la contribution economique ne disparait pas avec la perte des prerogatives d'autorite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la majorite ne met-elle pas fin de plein droit a l'obligation d'entretien ?",
+          "reponse": "Parce que le droit tient compte du fait qu'un jeune adulte peut encore poursuivre des etudes serieuses ou ne pas etre en mesure d'assurer seul sa subsistance.",
+          "explication": "Le document rattache cette solution a l'article 371-2 du code civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans quels cas l'enfant majeur ne peut-il plus utilement se prevaloir de l'obligation d'entretien ?",
+          "reponse": "Lorsqu'il dispose des ressources necessaires ou lorsqu'il demeure deliberement oisif sans raison valable.",
+          "explication": "La fiche montre que le prolongement du devoir n'est pas inconditionnel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que couvre l'obligation d'entretien au-dela du minimum vital ?",
+          "reponse": "Elle peut couvrir, selon les besoins de l'enfant et les moyens parentaux, la scolarite, les etudes superieures ou certaines activites utiles a son developpement.",
+          "explication": "Le document refuse d'enfermer cette obligation dans la seule survie materielle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur l'obligation d'entretien ?",
+          "reponse": "La reduire a une aide occasionnelle ou volontaire, alors qu'il s'agit d'un devoir juridique attache a la filiation.",
+          "explication": "La fiche insiste sur la contrainte normative derriere l'entraide familiale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur la majorite de l'enfant ?",
+          "reponse": "Croire qu'elle met automatiquement fin a toute obligation parentale, alors qu'elle n'eteint pas necessairement le devoir d'entretien.",
+          "explication": "Le document distingue nettement fin de l'autorite et persistance possible de l'aide economique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "La filiation impose aux parents une solidarite economique durable, fondee sur le devoir d'entretien, qui peut survivre a la majorite tant que l'enfant n'est pas autonome.",
+          "explication": "La fiche relie ainsi patrimonialite de la filiation, autonomie du devoir parental et proportion aux besoins.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1214,
+      "fiche": {
+        "titre": "Assistance a la conception en droit francais : entre accueil des techniques de PMA et encadrement bioethique",
+        "resume": "Cette seance ouvre l'etude de l'assistance a la conception en droit de la famille. La fiche en retient une idee directrice : le droit francais n'a jamais voulu interdire en bloc la procreation medicalement assistee, mais il refuse tout autant de la livrer a la seule logique du desir d'enfant. La PMA est donc admise comme technique de soin ou d'assistance a la conception, dans un cadre bioethique destine a proteger l'enfant a venir, les donneurs et les personnes qui y recourent.",
+        "sections": [
+          {
+            "titre": "Le desir d'enfant n'implique pas une acceptation juridique indifferenciee de toutes les techniques disponibles",
+            "contenu": "Le document rappelle que l'adoption ne satisfait pas tous les projets parentaux et que de nombreuses personnes cherchent a surmonter la sterilite ou l'impossibilite de concevoir naturellement. La fiche retient que le droit doit arbitrer entre l'accueil de ces aspirations et les risques que certaines pratiques font peser sur autrui."
+          },
+          {
+            "titre": "Le legislateur a choisi d'encadrer la PMA plutot que de la prohiber",
+            "contenu": "Le cours souligne que la procreation medicalement assistee permet de vaincre certaines sterilites et n'a donc jamais ete rejetee dans son principe. La fiche retient que le choix francais consiste a organiser les conditions de sa realisation au lieu de l'interdire purement et simplement."
+          },
+          {
+            "titre": "Les lois bioethiques ont construit puis remanie le regime applicable",
+            "contenu": "Le document evoque les grandes lois de 1994, leurs revisions de 2004 et 2011, puis la reforme du 2 aout 2021. La fiche retient que la PMA est une matiere evolutive, fortement dependante des choix bioethiques et des mutations sociales."
+          },
+          {
+            "titre": "Le champ de l'assistance a la procreation ne recouvre pas toutes les techniques de prise en charge de l'infertilite",
+            "contenu": "Le cours distingue notamment la stimulation ovarienne de l'insemination artificielle ou de la fecondation in vitro. La fiche retient que toutes les interventions relatives a la fecondite ne relevent pas automatiquement du regime de la PMA au sens juridique strict."
+          },
+          {
+            "titre": "L'encadrement bioethique vise simultanement la protection de l'enfant, des donneurs et des personnes recourantes",
+            "contenu": "Le document insiste sur la necessite de proteger le bambin a venir, les tiers fournissant des gametes et les femmes impliquees dans le processus. La fiche retient que le droit de la PMA est un droit d'equilibre, qui ne sert pas seulement a autoriser des techniques mais a ordonner des responsabilites."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le droit francais n'interdit-il pas en bloc l'assistance a la conception ?",
+          "reponse": "Parce qu'il reconnait l'utilite des techniques de PMA pour surmonter certaines infertilites ou impossibilites de concevoir naturellement.",
+          "explication": "Le document montre que le choix n'est pas l'interdiction pure mais l'encadrement.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'assistance a la conception ne peut-elle pas etre abandonnee a la seule logique du desir d'enfant ?",
+          "reponse": "Parce que ces techniques engagent aussi les interets de l'enfant a venir, des donneurs, des medecins et des personnes qui supportent physiquement les interventions.",
+          "explication": "La fiche souligne ainsi la densite ethique et relationnelle de la PMA.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel choix general le legislateur francais a-t-il fait a propos de la PMA ?",
+          "reponse": "Il a choisi de l'autoriser sous conditions et de l'encadrer au moyen de regles bioethiques detaillees.",
+          "explication": "Le document oppose ce choix a la prohibition de pratiques comme la gestation pour autrui.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les lois bioethiques sont-elles centrales dans cette matiere ?",
+          "reponse": "Parce qu'elles organisent periodiquement les conditions d'acces, les techniques autorisees et les protections imposees autour de la PMA.",
+          "explication": "La fiche rappelle les grandes etapes legislatives de 1994 a 2021.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi toutes les interventions relatives a la fertilite ne relevent-elles pas juridiquement de la PMA ?",
+          "reponse": "Parce que certaines techniques, comme la stimulation ovarienne utilisee de facon autonome, n'entrent pas dans le champ strict des operations de procreation medicalement assistee.",
+          "explication": "Le document insiste sur cette delimitation du domaine d'application des regles speciales.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles techniques illustrent pleinement le domaine de la PMA au sens juridique strict ?",
+          "reponse": "L'insemination artificielle et la fecondation in vitro, ainsi que les operations qui leur sont directement liees.",
+          "explication": "La fiche s'appuie sur la distinction etablie dans le document entre aide simple a la fertilite et procreation assistee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi dit-on que le droit de la PMA est un droit d'equilibre ?",
+          "reponse": "Parce qu'il cherche a permettre certains projets parentaux tout en protegeant les personnes impliquees et en prevenant des derives contraires a l'interet de l'enfant ou a l'ethique biom edicale.",
+          "explication": "Le document relie ainsi autorisation technique et responsabilite normative.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur la PMA en droit francais ?",
+          "reponse": "La presenter comme une simple prestation technique neutre, alors qu'elle fait l'objet d'un encadrement bioethique dense et evolutif.",
+          "explication": "La fiche insiste sur la centralite des choix legislatifs dans cette matiere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur les reformes bioethiques ?",
+          "reponse": "Les voir comme de simples ajustements medicaux, alors qu'elles traduisent des arbitrages sociaux et familiaux majeurs.",
+          "explication": "Le document montre que ces lois reconfigurent le statut meme de l'assistance a la conception.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "La PMA est admise en droit francais comme moyen assiste de conception, mais elle reste soumise a un encadrement bioethique destine a ordonner les desir s d'enfant et les interets en presence.",
+          "explication": "La fiche relie ainsi infertilite, techniques medicales et protection des personnes concernees.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
