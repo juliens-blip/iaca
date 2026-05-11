@@ -1,0 +1,232 @@
+{
+  "documents": [
+    {
+      "document_id": 1109,
+      "flashcards": [
+        {
+          "question": "Pourquoi l'intervention d'un commissaire aux comptes ne se confond-elle pas avec celle d'un expert-comptable ?",
+          "reponse": "Parce que le commissaire aux comptes exerce une mission legale de controle independant et de certification, distincte d'une mission de tenue ou d'assistance comptable.",
+          "explication": "Cette carte complete le bloc existant en distinguant plus nettement les fonctions du controleur legal et du praticien comptable ordinaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle obligation d'information importante pese sur le commissaire aux comptes apres ses verifications ?",
+          "reponse": "Il doit rendre compte a certaines instances competentes et peut, selon les situations, signaler les anomalies ou irregularites relevees.",
+          "explication": "Le document rattache la mission du CAC non seulement au controle technique, mais aussi a une circulation institutionnelle de l'information.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'exigence d'independance du commissaire aux comptes est-elle si stricte ?",
+          "reponse": "Parce que la credibilite de son controle repose sur l'absence de confusion d'interets avec les dirigeants ou les personnes controlees.",
+          "explication": "Cette carte prolonge les flashcards existantes en mettant l'accent sur la fonction de confiance du statut du CAC.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1110,
+      "flashcards": [
+        {
+          "question": "Pourquoi la presence d'un commissaire aux comptes peut-elle rester utile meme lorsqu'une comptabilite existe deja dans la societe ?",
+          "reponse": "Parce qu'il apporte un regard de controle legal exterieur et independant que la simple organisation comptable interne ne garantit pas.",
+          "explication": "Le document montre qu'on ne designe pas un CAC pour dupliquer la comptabilite, mais pour securiser sa fiabilite et son controle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel lien existe entre mission du commissaire aux comptes et protection des tiers ?",
+          "reponse": "Le controle du CAC vise aussi a rendre plus fiable l'information financiere sur laquelle s'appuient associes, creanciers et partenaires.",
+          "explication": "Cette carte elargit la logique du controle au-dela de la seule relation entre la societe et son auditeur legal.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le statut du commissaire aux comptes est-il fortement institutionnalise ?",
+          "reponse": "Parce que sa mission de confiance dans la vie des societes exige un encadrement deontologique, professionnel et disciplinaire renforce.",
+          "explication": "Le document rattache cet encadrement a la nature sensible de la certification et du controle des comptes.",
+          "difficulte": 3
+        }
+      ]
+    },
+    {
+      "document_id": 1121,
+      "fiche": {
+        "titre": "Bibliographie de droit des societes : choisir ses outils entre traites complets, syntheses rapides, codes et bases documentaires",
+        "resume": "Cette bibliographie de droit des societes ne se contente pas d'aligner des references. La fiche en retient une idee directrice : travailler efficacement la matiere suppose de savoir passer du grand traite doctrinal au memento de synthese, du code commente aux bases documentaires specialisees. Le document dessine ainsi une methode de travail autant qu'un corpus de lecture.",
+        "sections": [
+          {
+            "titre": "Les grands ouvrages de reference servent a installer une vue d'ensemble solide de la matiere",
+            "contenu": "Le document recommande plusieurs manuels et traites connus pour leur ampleur et leur fiabilite. La fiche retient que ces ouvrages ont une fonction structurante : ils permettent de saisir le droit des societes comme un systeme, avec ses notions communes, ses regimes particuliers et ses grandes controverses."
+          },
+          {
+            "titre": "Les ouvrages plus synthetiques sont utiles pour prendre rapidement une vue globale ou reviser un point",
+            "contenu": "La bibliographie distingue explicitement les references tres completes des outils plus compacts. La fiche y voit une indication de methode essentielle : tous les moments du travail universitaire n'appellent pas le meme type de lecture, et la rapidite de saisie d'un panorama peut parfois compter autant que l'exhaustivite."
+          },
+          {
+            "titre": "Le droit des societes se travaille avec les codes fondamentaux avant de se travailler avec un code specialise",
+            "contenu": "Le document rappelle que l'essentiel de la discipline se trouve dans le code civil et le code de commerce, tout en mentionnant l'interet pratique d'un code des societes regroupant d'autres textes epars. La fiche retient que la maitrise de la matiere passe d'abord par la localisation des sources normatives, ensuite par leur mise en reseau."
+          },
+          {
+            "titre": "Les revues et encyclopedies juridiques prolongent le cours en doctrine, jurisprudence et outils pratiques",
+            "contenu": "La bibliographie oriente l'etudiant vers plusieurs portails et revues specialises. La fiche souligne que ces ressources ne servent pas seulement a trouver des commentaires d'arret, mais aussi a acceder a des statuts types, a des analyses sectorielles et a des mises a jour doctrinales precieuses pour la preparation avancee."
+          },
+          {
+            "titre": "Le document apprend enfin a utiliser l'ENT comme une porte d'entree documentaire et non comme un simple intranet",
+            "contenu": "L'accent mis sur les bases accessibles via l'ENT montre que la competence documentaire fait partie du travail juridique. La fiche retient que savoir chercher dans les bonnes revues et les bons catalogues conditionne la qualite de la preparation, du TD jusqu'au partiel."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi une bibliographie de droit des societes distingue-t-elle les grands traites des ouvrages plus synthetiques ?",
+          "reponse": "Parce qu'ils ne servent pas au meme usage : les premiers pour approfondir, les seconds pour saisir ou reviser rapidement l'ensemble de la matiere.",
+          "explication": "Le document oppose clairement references completes et outils de synthese.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'interet d'un grand traite ou d'un manuel tres complet en droit des societes ?",
+          "reponse": "Il permet de comprendre la coherence generale de la matiere et d'approfondir les questions techniques ou controversees.",
+          "explication": "La bibliographie propose plusieurs ouvrages de reference pour installer ce socle doctrinal.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi un ouvrage plus court peut-il etre utile malgre l'existence de traites plus riches ?",
+          "reponse": "Parce qu'il offre un apercu rapide et maniable, particulierement efficace pour l'orientation initiale ou la revision.",
+          "explication": "Le document montre que la valeur d'un outil depend aussi du moment du travail universitaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels codes restent centraux pour travailler le droit des societes ?",
+          "reponse": "Le code civil et le code de commerce.",
+          "explication": "La bibliographie rappelle que le coeur normatif de la matiere demeure dans ces deux codes fondamentaux.",
+          "difficulte": 2
+        },
+        {
+          "question": "A quoi sert un code des societes par rapport aux codes fondamentaux ?",
+          "reponse": "A rassembler de facon plus commode l'essentiel des textes societaires disperses dans plusieurs sources.",
+          "explication": "Le document en fait un outil de recherche et de travail plus pratique, surtout hors examen.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les bases documentaires mentionnees dans la bibliographie sont-elles importantes ?",
+          "reponse": "Parce qu'elles donnent acces aux revues, aux encyclopedies et a des outils pratiques utiles pour le commentaire, la recherche et le TD.",
+          "explication": "La fiche souligne que la doctrine se travaille aussi par portails et non seulement par livres papier.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel type d'apport particulier peuvent fournir certaines bases comme les juris-classeurs ou portails editoriaux ?",
+          "reponse": "Des analyses specialisees, des statuts types et des mises a jour doctrinales ou jurisprudentielles.",
+          "explication": "Le document signale que ces ressources prolongent le cours sur des terrains plus pratiques ou plus pointus.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'ENT est-il traite comme un veritable outil de travail documentaire ?",
+          "reponse": "Parce qu'il ouvre l'acces a des revues, ouvrages et moteurs de recherche utiles pour preparer efficacement la matiere.",
+          "explication": "La bibliographie invite a exploiter l'ENT comme une porte d'entree documentaire strategique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel lien existe entre qualite documentaire et reussite en droit des societes ?",
+          "reponse": "Mieux on sait choisir ses sources, mieux on comprend la matiere et on argumente dans les exercices.",
+          "explication": "Le document transmet une methode de travail autant qu'une liste de lectures.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette bibliographie ?",
+          "reponse": "Le droit des societes se maitrise en combinant ouvrages de fond, outils de synthese, codes et ressources documentaires specialisees.",
+          "explication": "La fiche fait de la bibliographie une carte d'orientation pour toute l'annee.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1122,
+      "fiche": {
+        "titre": "Correction de galop sur la SAS : pouvoirs du president, interet social et responsabilites du dirigeant ou du dirigeant de fait",
+        "resume": "Cette correction de galop traite un cas pratique de droit des societes autour d'une SAS. La fiche en retient une idee directrice : il faut distinguer nettement les questions qui affectent l'engagement de la societe elle-meme de celles qui n'ouvrent qu'une responsabilite interne des dirigeants. La seance montre ainsi qu'un acte peut engager la societe vis-a-vis des tiers malgre une violation de l'objet social, des statuts ou de l'interet social, tout en laissant place a des actions en responsabilite contre le dirigeant, voire contre un dirigeant de fait.",
+        "sections": [
+          {
+            "titre": "Dans une SAS, la validite de l'engagement social se joue d'abord sur la representation externe du president",
+            "contenu": "Le document commence par rappeler que le president d'une SAS dispose d'un large pouvoir pour agir au nom de la societe. Meme lorsqu'un acte s'ecarte de l'objet social, la societe reste en principe engagee a l'egard du tiers de bonne foi. La fiche retient que la question du pouvoir externe ne se confond donc pas avec l'existence d'une faute interne."
+          },
+          {
+            "titre": "Les limitations statutaires de pouvoir prot egent la vie interne sans etre facilement opposables aux tiers",
+            "contenu": "La correction souligne qu'une consultation interne manquante ou une violation des statuts peut constituer un probleme serieux pour la gouvernance sociale. Mais cela ne suffit pas, en principe, a desengager la societe face au cocontractant tiers. La fiche insiste sur cette opposition classique entre efficacite externe de l'acte et sanction interne du dirigeant."
+          },
+          {
+            "titre": "La contrari ete a l'interet social ne devient pas automatiquement une cause de nullite",
+            "contenu": "Le document montre qu'un acte socialement mal inspire ou contraire a l'interet de la societe n'est pas pour autant aneanti de plein droit dans une societe a risque limite. La fiche retient que le droit passe plutot par la responsabilite du dirigeant que par une remise en cause systematique de l'engagement lui-meme."
+          },
+          {
+            "titre": "L'action en responsabilite civile permet de deplacer le contentieux vers la faute de gestion",
+            "contenu": "Une fois l'acte maintenu du point de vue de la societe, la correction bascule logiquement sur la question de la faute commise par le dirigeant et du prejudice subi. La fiche souligne que l'action sociale ut singuli permet a des associes d'agir lorsque le dirigeant n'engagera evidemment pas lui-meme l'action contre sa propre gestion."
+          },
+          {
+            "titre": "La notion de dirigeant de fait ouvre enfin la voie a la responsabilite de ceux qui gouvernent sans titre",
+            "contenu": "Le document traite aussi l'hypothese d'une banque ou d'un acteur exterieur qui s'immisce de facon habituelle et decisive dans la conduite de la societe. La fiche retient que le droit des societes regarde la realite du pouvoir exerce et peut donc atteindre personnellement un dirigeant de fait, meme si les modalites d'action diff erent de celles dirigees contre un dirigeant de droit."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi un acte accompli par le president d'une SAS peut-il engager la societe meme s'il depasse l'objet social ?",
+          "reponse": "Parce que la protection du tiers de bonne foi l'emporte en principe sur ce depassement dans l'ordre externe.",
+          "explication": "La correction distingue clairement le pouvoir de representation envers les tiers et les limites internes de gestion.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le non-respect de limitations statutaires de pouvoir n'empeche-t-il pas facilement l'engagement de la societe ?",
+          "reponse": "Parce que ces limites sont en principe inopposables aux tiers.",
+          "explication": "Le document montre que la sanction de telles violations se deplace vers le terrain interne.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la contrari ete a l'interet social ne conduit-elle pas automatiquement a la nullite de l'acte ?",
+          "reponse": "Parce que le droit prefere souvent traiter ce type de derapage par la responsabilite du dirigeant plutot que par l'annulation de l'engagement social.",
+          "explication": "La correction insiste sur cette distinction entre validite externe et faute de gestion.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'interet de l'action ut singuli dans un cas de faute de gestion ?",
+          "reponse": "Elle permet a un ou plusieurs associes d'agir pour la societe lorsque le dirigeant n'engagera pas lui-meme une action contre sa propre faute.",
+          "explication": "Le document mobilise cette action comme relais de la carence du dirigeant.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le cout du proces compte-t-il dans l'action ut singuli ?",
+          "reponse": "Parce que celui qui engage l'action supporte concretement la charge procedurale de cette initiative contentieuse.",
+          "explication": "La correction rappelle que l'action est ouverte, mais qu'elle n'est pas sans enjeu pratique pour l'associe demandeur.",
+          "difficulte": 3
+        },
+        {
+          "question": "Qu'est-ce qu'un dirigeant de fait dans la logique de cette correction ?",
+          "reponse": "Une personne qui s'immisce de facon positive, habituelle et independante dans la gestion de la societe sans en avoir le titre.",
+          "explication": "Le document utilise ce concept pour viser un acteur exterieur qui pese en realite sur la conduite de l'entreprise.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi une banque peut-elle, dans certains cas, etre recherchee comme dirigeant de fait ?",
+          "reponse": "Parce qu'elle peut depasser le simple conseil et intervenir de maniere si forte dans la gestion qu'elle prend une place directrice reelle.",
+          "explication": "La correction relie cette hypothese a l'immixtion concrete dans les choix de l'entreprise.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel est le grand interet methodologique de cette correction de galop ?",
+          "reponse": "Elle apprend a separer la question de l'engagement de la societe envers les tiers de celle de la responsabilite des dirigeants.",
+          "explication": "La fiche fait de cette distinction le fil conducteur du cas pratique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la notion de societe a risque limite est-elle importante ici ?",
+          "reponse": "Parce qu'elle explique en partie la preference du droit pour le maintien de l'engagement social et le report du litige sur la responsabilite interne.",
+          "explication": "Le document raisonne en tenant compte de la structure particuliere de la SAS.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette correction ?",
+          "reponse": "En droit des societes, un acte mal gere n'est pas toujours un acte inefficace ; il peut engager la societe tout en exposant fortement ceux qui l'ont impose ou inspire.",
+          "explication": "La fiche articule representation sociale, interet social et responsabilite des dirigeants de droit ou de fait.",
+          "difficulte": 2
+        }
+      ]
+    }
+  ]
+}
