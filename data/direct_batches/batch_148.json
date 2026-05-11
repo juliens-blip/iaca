@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1250,
+      "fiche": {
+        "titre": "Galop DAF2 2024-2025 : cumul en SNC et contestation d'une augmentation de salaire dans une SA",
+        "resume": "Ce sujet de galop articule deux cas pratiques distincts. La fiche en retient une idee directrice : l'un teste la frontiere entre mandat social et salariat dans la SNC, l'autre la police des conflits d'interets et des remunerations dans la SA. Dans les deux cas, le raisonnement attendu repose sur l'identification du bon mecanisme de controle interne de la societe et sur sa mise en oeuvre dans une situation factuelle tres concrete.",
+        "sections": [
+          {
+            "titre": "Le premier cas pratique porte sur la validite d'un cumul entre gerance non associee et contrat de travail dans une SNC",
+            "contenu": "Le sujet met en scene un gerant non associe remuner e a la fois pour son mandat et pour une activite de reflexion publicitaire. La fiche retient que la question centrale est celle de l'existence d'un veritable contrat de travail distinct du mandat social."
+          },
+          {
+            "titre": "Le meme cas oppose la situation du gerant non associe a celle d'un associe salarie de la SNC",
+            "contenu": "Le document souligne qu'un associe critique le cumul du gerant alors qu'il beneficie lui-meme d'un contrat similaire. La fiche retient que le sujet invite a distinguer radicalement la situation du non-associe de celle de l'associe en nom, du fait de la qualite de commercant de ce dernier."
+          },
+          {
+            "titre": "Le second cas pratique deplace l'analyse vers la SA et le regime des conventions ou avantages anormaux consentis a un administrateur",
+            "contenu": "Le sujet presente un administrateur dont le contrat de travail a ete modifie pour lui accorder une augmentation salariale importante sans intervention du conseil. La fiche retient que l'enjeu est d'identifier un mecanisme de controle special des conventions conclues avec un dirigeant."
+          },
+          {
+            "titre": "L'absence d'information des actionnaires et l'inaction du conseil rendent centrale la question des sanctions",
+            "contenu": "Le document indique que les actionnaires n'ont appris la situation que tardivement et soupconnent un usage opportuniste du statut d'administrateur. La fiche retient que le sujet attend une reponse sur les moyens de remise en cause du supplement de remuneration."
+          },
+          {
+            "titre": "Le sujet ajoute une dimension contentieuse en posant la question du delai pour agir",
+            "contenu": "Le cours n'ayant pas traite directement cette question, le sujet signale qu'il faut mobiliser des ressources juridiques au-dela du pur recitatif. La fiche retient que le cas pratique verifie aussi l'autonomie de recherche et la maitrise des regles de prescription ou de forclusion applicables."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel est le point commun structurel entre les deux cas pratiques du sujet ?",
+          "reponse": "Ils portent tous deux sur un controle de la regularite de l'avantage procure a une personne en position de pouvoir dans la societe.",
+          "explication": "La fiche relie ainsi cumul de fonctions dans la SNC et augmentation de salaire dans la SA.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le premier cas pratique oblige-t-il a distinguer le gerant non associe de l'associe salarie ?",
+          "reponse": "Parce que le premier peut, sous conditions, cumuler un mandat avec un contrat de travail, alors que le second se heurte a l'incompatibilite liee a la qualite de commercant de l'associe de SNC.",
+          "explication": "Le sujet met volontairement en miroir deux situations proches en apparence mais opposees en droit.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la nature exacte des fonctions salariees de Luce est-elle juridiquement importante ?",
+          "reponse": "Parce qu'il faut verifier si elles sont techniquement distinctes de son mandat de gerant pour admettre un veritable contrat de travail.",
+          "explication": "La fiche rappelle que la seule double remuneration ne suffit pas a valider le cumul.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel element manque souvent dans les faits pour valider avec certitude le contrat de travail du gerant non associe ?",
+          "reponse": "La preuve claire d'un lien de subordination dans l'exercice de ses fonctions techniques salariees.",
+          "explication": "Le sujet est construit pour obliger a relever cette difficulte.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le second cas pratique n'est-il pas seulement une question de droit du travail ?",
+          "reponse": "Parce qu'il faut surtout controler la regularite societaire d'un avantage consenti a un administrateur de SA.",
+          "explication": "La fiche montre que la qualification pertinente releve du droit des societes et des conflits d'interets.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel indice factuel oriente vers un probleme de police interne dans la SA ?",
+          "reponse": "Le fait que l'augmentation de salaire a ete tres importante et que le conseil d'administration ne se soit pas prononce.",
+          "explication": "Le document suggere ainsi une anomalie de procedure et de gouvernance.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le sujet insiste-t-il sur la decouverte tardive de l'augmentation par les actionnaires ?",
+          "reponse": "Parce que cette precision ouvre la question du delai pour agir et de l'articulation entre revelation des faits et regime contentieux applicable.",
+          "explication": "La fiche y voit un test de reflexe methodologique au-dela du seul cours appris.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel reflexe methodologique faut-il avoir face a un sujet qui precise qu'une question n'a pas ete traitee en cours ?",
+          "reponse": "Il faut mobiliser les textes et le raisonnement juridique general plutot que s'enfermer dans le seul souvenir du cours magistral.",
+          "explication": "Le document verifie explicitement cette autonomie.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi ce sujet est-il un bon test de niveau L3 ?",
+          "reponse": "Parce qu'il exige d'articuler qualification des faits, regles de gouvernance et contentieux dans deux formes sociales differentes.",
+          "explication": "La fiche le lit comme un exercice de transition entre cours et pratique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce galop ?",
+          "reponse": "Le droit des societes surveille et sanctionne les avantages douteux accordes a ceux qui dirigent ou participent a la direction, par des outils differents selon la forme sociale.",
+          "explication": "La fiche relie ainsi cumul en SNC et remuneration litigieuse dans la SA.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1251,
+      "fiche": {
+        "titre": "Remise de dette, associe de SNC et caution : pourquoi l'associe en nom n'est pas un cod ebiteur solidaire ordinaire",
+        "resume": "Ce corrig e analyse un arret de 2004 relatif a une remise de dette consentie a une SNC et a ses effets sur un associe qui etait aussi caution solidaire. La fiche en retient une idee directrice : l'associe de SNC, bien qu'il reponde ind efiniment et solidairement des dettes sociales, ne doit pas etre confondu avec un cod ebiteur solidaire de droit commun. Cette singularite explique qu'une remise accordee au debiteur principal produise ici des effets liberatoires plus larges qu'on pourrait l'imaginer au premier regard.",
+        "sections": [
+          {
+            "titre": "L'affaire nait d'un pret bancaire accorde a une SNC et d'un protocole ulterieur de remise de dette",
+            "contenu": "Le document retrace la sequence entre le pret, les difficultes de remboursement et le protocole par lequel la banque renonce a poursuivre la societe sous certaines conditions. La fiche retient que tout le debat porte ensuite sur l'effet de cette remise sur l'associe tenu a double titre."
+          },
+          {
+            "titre": "L'associe poursuivi etait oblige a la fois comme associe de SNC et comme caution solidaire",
+            "contenu": "Le cours montre que la banque voulait maintenir sa creance contre lui malgre la remise consentie a la societe. La fiche retient que cette dualite de titres d'engagement oblige a distinguer soigneusement les fondements de son obligation."
+          },
+          {
+            "titre": "La Cour refuse de traiter l'associe de SNC comme un simple cod ebiteur solidaire au sens du droit commun",
+            "contenu": "Le document insiste sur le refus de qualifier l'associe en nom de cod ebiteur solidaire ordinaire. La fiche retient que la solidarite de la SNC ne doit pas masquer l'originalite de la dette de l'associe, derivee de sa qualite sociale et non d'un engagement identique a celui du debiteur principal."
+          },
+          {
+            "titre": "La remise de dette consentie au debiteur principal libere ici aussi l'associe caution et l'associe en nom",
+            "contenu": "La correction explique que la Cour confirme l'effet liberatoire sur les deux terrains. La fiche retient que la remise accordee a la societe a un rayonnement particulier lorsqu'elle touche le debiteur principal auquel se rattache l'obligation de l'associe et de la caution."
+          },
+          {
+            "titre": "Le commentaire invite a relire la solution a la lumiere des anciens articles du Code civil et de leur evolution",
+            "contenu": "Le document ouvre une reflexion sur la reforme de 2016 et sur la continuit e des raisonnements malgre le changement de numerotation. La fiche retient que l'interet de l'exercice est autant conceptuel que purement textuel."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi l'affaire de 2004 est-elle interessante en droit des societes ?",
+          "reponse": "Parce qu'elle oblige a preciser la nature exacte de l'obligation de l'associe de SNC et a la distinguer de celle d'un cod ebiteur solidaire de droit commun.",
+          "explication": "Le document en fait le coeur du probleme juridique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Qu'est-ce qui compliquait particulierement la situation de l'associe poursuivi ?",
+          "reponse": "Il etait engage a la fois comme associe de SNC et comme caution solidaire du remboursement du pret.",
+          "explication": "La fiche souligne que la solution devait etre testee sur deux fondements d'obligation distincts.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la banque voulait-elle contester l'effet liberatoire de la remise de dette ?",
+          "reponse": "Parce qu'elle cherchait a maintenir sa creance contre l'associe malgre le protocole conclu avec la societe debitrice principale.",
+          "explication": "Le document montre que l'enjeu etait de sauver un recours financier residuel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel refus conceptuel la Cour de cassation affirme-t-elle ?",
+          "reponse": "Elle refuse de qualifier l'associe de SNC de simple cod ebiteur solidaire au sens du droit commun des obligations.",
+          "explication": "La fiche relie cette solution a la specificite du droit des societes de personnes.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'associe de SNC n'est-il pas un cod ebiteur solidaire ordinaire ?",
+          "reponse": "Parce que son obligation derive de sa qualite d'associe et du regime legal de la SNC, non d'un engagement identique et parallele a celui du debiteur principal.",
+          "explication": "Le document souligne l'ancrage societaire de cette obligation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel effet la remise de dette consentie a la societe produit-elle dans cette affaire ?",
+          "reponse": "Elle libere l'associe, tant au titre de son obligation d'associe en nom qu'au titre de son engagement de caution solidaire.",
+          "explication": "La fiche met en avant l'ampleur de l'effet liberatoire retenu.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la qualite de caution ne sauvait-elle pas necessairement le recours de la banque ?",
+          "reponse": "Parce que l'obligation de la caution reste elle aussi indexee sur celle du debiteur principal, affectee ici par la remise de dette accordee a la societe.",
+          "explication": "Le document permet de comprendre la convergence des effets sur les deux titres d'engagement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel apport methodologique de la reforme de 2016 le corrig e invite-t-il a avoir en tete ?",
+          "reponse": "Il faut savoir transposer un raisonnement bati sous d'anciens numeros d'articles aux textes nouveaux sans perdre la logique de fond des solutions.",
+          "explication": "La fiche y voit un exercice de technique juridique plus que de simple memoire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter sur la solidarite des associes de SNC ?",
+          "reponse": "Croire qu'elle fait automatiquement de l'associe un cod ebiteur de droit commun en tout point assimilable au debiteur principal.",
+          "explication": "Le document est justement construit pour corriger cette intuition trop rapide.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette correction ?",
+          "reponse": "L'associe de SNC peut etre fortement engage, mais son obligation garde une nature societaire propre qui modifie la portee de mecanismes classiques comme la remise de dette.",
+          "explication": "La fiche relie ainsi droit des obligations et singularite du droit des societes.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1252,
+      "fiche": {
+        "titre": "Correction de galop : gerant non associe salarie en SNC et impossibilite pour l'associe de cumuler avec un contrat de travail",
+        "resume": "Cette copie corrigee traite le premier cas pratique du galop de mars 2025. La fiche en retient une idee directrice : en SNC, tout se joue sur la distinction entre le gerant non associe, pour lequel le cumul avec un contrat de travail reste possible sous conditions strictes, et l'associe en nom, pour lequel la qualite de commercant exclut le salariat. Le cas pratique illustre ainsi une opposition nette entre compatibilite conditionnelle et incompatibilite de principe.",
+        "sections": [
+          {
+            "titre": "Le gerant non associe de SNC peut en principe cumuler son mandat avec un contrat de travail",
+            "contenu": "Le document rappelle qu'un gerant peut etre designe sans etre associe et qu'il n'est donc pas frappe par l'incompatibilite propre a l'associe en nom. La fiche retient que la question de principe n'est pas fermee pour lui."
+          },
+          {
+            "titre": "La validite du cumul depend de l'existence d'un veritable contrat de travail",
+            "contenu": "La correction reprend les conditions classiques : emploi effectif, fonction technique distincte, remuneration specifique et lien de subordination. La fiche retient que le droit ne protege pas un habillage contractuel fictif destine a doubler artificiellement la remuneration du dirigeant."
+          },
+          {
+            "titre": "La distinction entre fonctions techniques et fonctions de gestion est au coeur du raisonnement",
+            "contenu": "Le document montre que la reflexion sur des campagnes publicitaires peut, au moins en theorie, se distinguer des pouvoirs de gestion attaches a la gerance. La fiche retient que la separation materielle des missions est un pivot concret du cas pratique."
+          },
+          {
+            "titre": "Le lien de subordination reste toutefois l'obstacle probatoire majeur pour le gerant non associe",
+            "contenu": "La correction souligne qu'il faudrait encore etablir que les associes exercent une autorite suffisante sur l'activite salariee de Luce. La fiche retient que le cumul n'est pas valide par la seule difference fonctionnelle."
+          },
+          {
+            "titre": "L'associe de SNC ne peut pas, lui, etre salarie en raison de sa qualite de commercant",
+            "contenu": "Le document s'appuie sur la jurisprudence sociale du 14 octobre 2015 pour exclure le contrat de travail de l'associe en nom. La fiche retient que l'independance inherente au statut de commercant fait obstacle a toute relation salariale authentique avec la societe."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le gerant non associe n'est-il pas traite comme l'associe de SNC en matiere de contrat de travail ?",
+          "reponse": "Parce qu'il n'a pas la qualite d'associe commercant, ce qui laisse ouverte la possibilite d'un vrai contrat de travail sous certaines conditions.",
+          "explication": "Le document construit tout le raisonnement autour de cette difference de statut de depart.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle est la condition la plus generale pour admettre le cumul entre mandat de gerant non associe et contrat de travail ?",
+          "reponse": "Il faut demontrer l'existence d'un veritable contrat de travail distinct du mandat social.",
+          "explication": "La fiche rappelle que le cumul n'est jamais automatique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la fonction technique distincte est-elle importante dans cette affaire ?",
+          "reponse": "Parce qu'il faut montrer que le travail salarie accompli ne se confond pas avec les actes de gestion relevant deja de la gerance.",
+          "explication": "Le document mobilise ce critere a partir de l'activite publicitaire de Luce.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la reflexion sur des campagnes publicitaires peut-elle etre regardee comme distincte de la gerance ?",
+          "reponse": "Parce qu'elle peut relever d'une activite technique de conception ou de prestation, differente du pouvoir d'engager et d'administrer la societe.",
+          "explication": "La fiche montre toutefois que cette distinction n'epuise pas l'analyse.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel point reste le plus difficile a prouver pour valider le contrat de travail du gerant non associe ?",
+          "reponse": "Le lien de subordination dans l'exercice de ses fonctions salariees.",
+          "explication": "Le document y voit le veritable point d'incertitude de l'espece.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi une double remuneration ne suffit-elle pas a etablir un vrai contrat de travail ?",
+          "reponse": "Parce qu'une remuneration distincte est seulement une condition parmi d'autres et ne remplace ni l'emploi effectif ni la subordination.",
+          "explication": "La fiche combat ici un raisonnement purement formel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'associe de SNC ne peut-il pas utilement se comparer a Luce ?",
+          "reponse": "Parce qu'en tant qu'associe en nom il a la qualite de commercant, ce qui rend son propre contrat de travail incompatible avec son statut.",
+          "explication": "Le document fait de cette comparaison ironique un point pedagogique fort.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le fondement de l'incompatibilite entre qualite d'associe de SNC et contrat de travail ?",
+          "reponse": "La jurisprudence deduit du statut de commercant et de l'independance qui l'accompagne l'absence possible de veritable lien de subordination.",
+          "explication": "La fiche renvoie ici a l'arret social du 14 octobre 2015.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel contraste pedagogique principal offre cette correction ?",
+          "reponse": "Elle oppose un cumul seulement conditionnel pour le gerant non associe a une impossibilite de principe pour l'associe de SNC.",
+          "explication": "Le document est construit pour faire ressortir cette opposition nette.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette copie ?",
+          "reponse": "En SNC, le non-associe peut eventuellement etre salarie s'il prouve un vrai contrat de travail, tandis que l'associe en nom ne le peut pas en raison de son statut de commercant.",
+          "explication": "La fiche relie ainsi distinction de statut, subordination et incompatibilite legale.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1253,
+      "fiche": {
+        "titre": "QCM DAF S6 : rappels operatoires sur SNC, conventions reglementees de SARL et cession de parts en societe civile",
+        "resume": "Ce QCM rassemble plusieurs rappels de droit des societes. La fiche en retient une idee directrice : ces questions courtes testent moins la memorisation isolee d'articles que la capacite a activer rapidement les bons reflexes de regime. Les propositions abordent la solidarite des associes de SNC, les effets du non-respect des conventions reglementees en SARL et les conditions de cession des parts en societe civile.",
+        "sections": [
+          {
+            "titre": "La SNC illustre une solidarite forte des associes a l'egard des dettes sociales",
+            "contenu": "Le document propose le cas d'une creance impayee contre une SNC composee de plusieurs associes, dont certains sont insolvables. La fiche retient que le creancier peut poursuivre l'associe solvable pour le tout apres avoir vainement mis en demeure la societe."
+          },
+          {
+            "titre": "Le regime des conventions reglementees en SARL ne conduit pas automatiquement a la nullite",
+            "contenu": "Le QCM prend l'exemple d'un g erant non associe ayant conclu avec la SARL une convention locative prejudiciable. La fiche retient que l'absence de respect de la procedure ne fait pas disparaitre la convention, mais deplace la sanction vers la prise en charge de ses consequences dommageables."
+          },
+          {
+            "titre": "La cession des parts de societe civile demeure soumise a un regime d'agrement souple mais structure",
+            "contenu": "Le document rappelle que l'agrement est le principe, tout en admettant des assouplissements statutaires ou legaux selon la qualite du cessionnaire. La fiche retient que la societe civile reste une societe fermee, mais pas absolument immobilisee."
+          },
+          {
+            "titre": "Le QCM teste la precision des distinctions plus que l'intuition generale",
+            "contenu": "Chaque proposition plausible repose sur un glissement leger : confusion entre solidarite et division, entre nullite et responsabilite, ou entre principe et exception d'agrement. La fiche retient que ce type d'exercice exige une lecture technique tres fine des textes."
+          },
+          {
+            "titre": "Les corrections font appara itre des automatismes a conserver pour le contentieux ou le cas pratique",
+            "contenu": "Le document associe chaque bonne reponse a un rappel legal immediat. La fiche retient que le QCM, bien utilise, sert de condens e operatoire des regles mobilisables ensuite dans des raisonnements plus developpes."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi un creancier de SNC peut-il demander la totalite de sa creance a un seul associe solvable ?",
+          "reponse": "Parce que les associes en nom repondent solidairement et indefiniment des dettes sociales apres la mise en demeure vaine de la societe.",
+          "explication": "Le document utilise ce point comme premiere verification de regime reflexe.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'insolvabilite de certains associes de SNC n'empeche-t-elle pas le recouvrement integral aupres d'un autre ?",
+          "reponse": "Parce que la solidarite permet au creancier de se tourner vers l'associe qu'il juge le plus solvable pour obtenir le paiement total.",
+          "explication": "La fiche souligne ici la difference avec un recours simplement proportionnel.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est le prealable procedural avant d'agir contre un associe de SNC ?",
+          "reponse": "Le creancier doit avoir vainement mis en demeure la societe par acte extrajudiciaire de payer la dette sociale.",
+          "explication": "Le QCM rappelle que la solidarite n'efface pas toute etape prealable contre la personne morale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la convention conclue par un g erant non associe de SARL ne tombe-t-elle pas automatiquement sous le coup d'une nullite ?",
+          "reponse": "Parce que le regime des conventions reglementees privilegie ici la responsabilite et la prise en charge des consequences prejudiciables plutot que l'an eantissement automatique de l'acte.",
+          "explication": "Le document oppose nettement convention interdite et convention simplement irreguliere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'effet principal du non-respect de la procedure des conventions reglementees en SARL dans l'hypothese du QCM ?",
+          "reponse": "La convention produit ses effets, mais le g erant et, le cas echeant, le contractant supportent les consequences prejudiciables pour la societe.",
+          "explication": "La fiche souligne ce deplacement de la sanction vers la responsabilite financiere.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les parts sociales d'une societe civile ne sont-elles pas toujours librement cessibles ?",
+          "reponse": "Parce que le regime de principe repose sur un agrement, reflet du caractere relativement ferme de la structure civile.",
+          "explication": "Le QCM pousse a distinguer ce principe de ses exceptions.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle exception legale importante existe pour la cession a des ascendants ou descendants dans la societe civile ?",
+          "reponse": "Sauf clause statutaire contraire, ces cessions ne sont pas soumises a agrement.",
+          "explication": "Le document met en avant ce point comme distinction classique mais souvent oubliee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les statuts sont-ils importants en matiere de cession de parts dans la societe civile ?",
+          "reponse": "Parce qu'ils peuvent amenager le regime d'agrement, en assouplissant ou en precisant les conditions de certaines cessions.",
+          "explication": "La fiche montre que le texte legal laisse une marge d'organisation interne non negligeable.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'interet pedagogique principal d'un QCM de ce type ?",
+          "reponse": "Il force a identifier tres vite le bon regime juridique sans se laisser pieger par des formulations proches mais inexactes.",
+          "explication": "Le document sert de test de reflexes sur des distinctions fines du cours.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce QCM ?",
+          "reponse": "En droit des societes, les bons automatismes reposent sur des distinctions precises entre solidarite et division, nullite et responsabilite, principe d'agrement et exceptions statutaires ou legales.",
+          "explication": "La fiche condense ainsi les trois blocs principaux du questionnaire.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
