@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1162,
+      "fiche": {
+        "titre": "Introduction au droit international prive : champ, objets et sources d'une discipline des relations privees internationales",
+        "resume": "Cette introduction presente le droit international prive comme la branche du droit qui traite les relations privees comportant un element d'extranite. La fiche en retient une idee directrice : le DIP n'est ni un simple droit des etrangers ni un prolongement mecanique du droit international public. C'est une discipline autonome qui identifie les situations privees internationales, delimite les questions qu'elles soulevent et organise les sources aptes a les regler.",
+        "sections": [
+          {
+            "titre": "Le droit international prive vise les relations privees marquees par l'internationalite",
+            "contenu": "Le document pose comme point de depart que le DIP ne s'occupe pas de toute relation internationale, mais seulement de celles qui concernent des personnes privees et qui sont rattachees a plusieurs ordres juridiques. La fiche retient donc un double filtre : la relation doit rester de nature privee et comporter un element d'extranite suffisamment significatif."
+          },
+          {
+            "titre": "Les personnes privees constituent les sujets ordinaires de la discipline",
+            "contenu": "Le cours inclut dans ce cercle les individus, les societes, les associations et plus largement tous les acteurs prives susceptibles d'avoir une situation personnelle, familiale ou patrimoniale internationale. La fiche retient que le DIP suit autant les rapports de famille que les echanges economiques ou les questions de statut personnel."
+          },
+          {
+            "titre": "Les Etats peuvent intervenir, mais seulement dans des roles precis et limits",
+            "contenu": "Le document montre que l'Etat peut relever du DIP lorsqu'il agit comme un operateur economique ordinaire avec des personnes privees. La fiche retient en revanche qu'il sort de ce champ lorsqu'il exerce une prerogative de puissance publique, cas dans lequel les immunites et le droit international public reprennent la main."
+          },
+          {
+            "titre": "Le DIP sert d'abord a organiser la vie juridique des situations privees dispersees entre plusieurs Etats",
+            "contenu": "L'enjeu n'est pas seulement descriptif. La fiche retient que la discipline cherche a savoir quel juge peut statuer, quelle loi doit s'appliquer et dans quelles conditions une situation ou une decision sera reconnue ailleurs. Le DIP n'est donc pas un droit sectoriel, mais une methode de coordination entre ordres juridiques."
+          },
+          {
+            "titre": "Les sources du DIP sont multiples parce que chaque Etat construit sa propre combinaison normative",
+            "contenu": "Le cours annonce que le droit international prive repose sur des lois internes, de la jurisprudence et des instruments internationaux ou europeens. La fiche retient une idee simple : l'internationalite des faits n'efface pas la pluralite des sources, elle la rend au contraire centrale."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Comment definir le droit international prive en une formule utile ?",
+          "reponse": "C'est la branche du droit qui regit de maniere specifique les relations privees comportant un element international.",
+          "explication": "La definition combine la nature privee de la relation et la presence d'un rattachement a plusieurs Etats.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi toute relation internationale ne releve-t-elle pas automatiquement du DIP ?",
+          "reponse": "Parce que la discipline ne vise que les rapports de nature privee et non l'ensemble des rapports entre acteurs internationaux.",
+          "explication": "Les relations interetatiques pures relevent d'abord du droit international public.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels types de sujets sont au coeur du droit international prive ?",
+          "reponse": "Les personnes privees au sens large, comme les individus, les societes et les associations.",
+          "explication": "Le cours insiste sur l'ampleur de cette categorie et sur la diversite des situations concernees.",
+          "difficulte": 1
+        },
+        {
+          "question": "Dans quelle hypothese un Etat peut-il entrer dans le champ du DIP ?",
+          "reponse": "Lorsqu'il agit comme un operateur economique ordinaire en relation avec une personne privee.",
+          "explication": "La fiche retient ici la distinction entre l'Etat acteur du marche et l'Etat detenteur de puissance publique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi un achat d'armes par un Etat n'est-il pas traite comme une situation ordinaire de DIP ?",
+          "reponse": "Parce qu'un tel acte se rattache a l'exercice de prerogatives souveraines et non a une activite purement privee.",
+          "explication": "Le document s'en sert pour illustrer la sortie du champ du DIP au profit des immunites et du droit public international.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelles grandes questions le DIP cherche-t-il classiquement a resoudre ?",
+          "reponse": "Il cherche a identifier le juge competent, la loi applicable et les conditions de circulation des situations ou decisions entre Etats.",
+          "explication": "Cette triade donne la fonction pratique de la discipline.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi peut-on dire qu'il existe en theorie autant de DIP qu'il existe d'Etats ?",
+          "reponse": "Parce que chaque Etat edicte ses propres regles de droit international prive par ses sources internes et ses engagements externes.",
+          "explication": "Le cours nuance ensuite cette idee par le role des conventions et du droit europeen.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter en debut de cours ?",
+          "reponse": "Reduire le DIP a un simple droit des etrangers alors qu'il organise plus largement toutes les relations privees internationales.",
+          "explication": "La fiche elargit le regard au statut personnel, a la famille et aux operations economiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les sources du DIP sont-elles particulierement importantes ?",
+          "reponse": "Parce que l'internationalite met en concurrence plusieurs ordres juridiques et oblige a savoir quelle norme gouverne la situation.",
+          "explication": "La discipline vit de cette pluralite normative plus que d'un corps unique de regles substantielles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette introduction ?",
+          "reponse": "Le droit international prive est une methode de traitement des relations privees internationales, construite autour des sujets, des questions a resoudre et des sources aptes a les regler.",
+          "explication": "La fiche en fait la cle de lecture de la matiere avant d'entrer dans les regles de competence et de conflit.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1163,
+      "fiche": {
+        "titre": "Fondements de la competence internationale : pragmatisme, proximite et autonomie de la volonte",
+        "resume": "Ce chapitre explique sur quelles justifications reposent les regles de competence internationale en droit international prive. La fiche en retient une idee directrice : la competence ne se distribue pas au hasard. Elle repose sur des raisons recurrentes, dont certaines font largement consensus, comme le domicile du defendeur, la bonne administration de la justice ou la volonte des parties, tandis que d'autres sont plus discutees.",
+        "sections": [
+          {
+            "titre": "La competence internationale traduit toujours un choix de politique juridique",
+            "contenu": "Le document rappelle qu'un Etat peut fonder sa competence sur des considerations tres diverses : proximite du juge, protection d'une partie faible, defense d'une politique juridique ou simple recherche d'efficacite. La fiche retient donc qu'une regle de competence est toujours une prise de position sur la maniere de traiter le litige international."
+          },
+          {
+            "titre": "Le domicile du defendeur reste le chef de competence le plus consensuel",
+            "contenu": "Le cours presente l'actor sequitur forum rei comme un fondement classique et pragmatique. La fiche retient que ce choix se justifie a la fois par l'histoire, par la facilite d'atteindre le defendeur et par une certaine equite processuelle, puisque celui qui introduit l'instance assume le cout de l'internationalite."
+          },
+          {
+            "titre": "La bonne administration de la justice valorise la proximite entre juge et litige",
+            "contenu": "Le document insiste sur la logique de proximite geographique ou fonctionnelle. La fiche retient que la competence est souvent attribuee au juge le mieux place pour recueillir la preuve, prevoir les difficultes du dossier et rendre une execution plus efficace."
+          },
+          {
+            "titre": "La volonte des parties est un fondement fort dans l'ordre international",
+            "contenu": "Le cours rappelle que les parties peuvent souvent choisir le juge competent. La fiche retient que cette autonomie est particulierement importante en matiere internationale parce qu'elle permet d'organiser a l'avance la gestion du risque juridictionnel et de donner de la previsibilite a la relation."
+          },
+          {
+            "titre": "L'evolution historique montre que les fondements de competence ne sont jamais figes",
+            "contenu": "Le document cite notamment l'abandon en 1948 du principe d'incompetence des tribunaux francais dans les litiges entre etrangers. La fiche retient qu'une regle de competence peut disparaitre lorsqu'elle ne correspond plus aux exigences d'egalite, de rationalite processuelle ou d'ouverture internationale."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi dit-on qu'une regle de competence internationale repose sur un fondement ?",
+          "reponse": "Parce qu'elle exprime une raison de rattacher le litige a un juge plutot qu'a un autre.",
+          "explication": "Le cours montre que ces raisons peuvent etre pratiques, politiques ou protectrices.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel chef de competence est presente comme le plus consensuel entre les systemes juridiques ?",
+          "reponse": "Le for du domicile du defendeur.",
+          "explication": "Le document y voit le point d'ancrage le plus classique de la competence internationale.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le domicile du defendeur est-il rattache a une logique de pragmatisme ?",
+          "reponse": "Parce qu'il permet d'atteindre plus facilement le defendeur et facilite souvent l'execution du jugement sur ses biens.",
+          "explication": "La fiche retient a la fois la dimension pratique et la dimension historique de cette regle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie la formule actor sequitur forum rei dans ce chapitre ?",
+          "reponse": "Que le demandeur suit en principe le juge du defendeur.",
+          "explication": "Cette formule latine resume la logique de principe du for du domicile du defendeur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la proximite entre le juge et le litige est-elle valorisee ?",
+          "reponse": "Parce qu'elle ameliore l'acces au tribunal, l'administration de la preuve et l'efficacite de la decision rendue.",
+          "explication": "Le document rattache ces avantages a la bonne administration de la justice.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role joue la volonte des parties dans l'ordre international ?",
+          "reponse": "Elle peut servir de fondement a la competence en permettant aux parties de designer le juge de leur futur litige.",
+          "explication": "La fiche y voit un facteur majeur de previsibilite dans les relations internationales.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les fondements de competence varient-ils d'un Etat a l'autre ?",
+          "reponse": "Parce qu'ils refletent des cultures juridiques et des priorites de politique judiciaire qui ne sont pas uniformes.",
+          "explication": "Le cours souligne ainsi qu'il n'existe pas une seule maniere universelle de penser la competence.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel exemple historique montre que les fondements de competence evoluent ?",
+          "reponse": "L'abandon en 1948 du principe francais d'incompetence dans les litiges entre etrangers.",
+          "explication": "Le document s'en sert pour montrer qu'une regle apparemment acquise peut etre remise en cause.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la competence internationale n'est-elle pas une pure question technique ?",
+          "reponse": "Parce qu'elle traduit aussi des choix d'equite, de protection et d'organisation du systeme judiciaire.",
+          "explication": "La fiche insiste sur la dimension de politique juridique derriere les criteres de rattachement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce chapitre ?",
+          "reponse": "Les regles de competence internationale s'expliquent par des fondements identifies, surtout le pragmatisme, la proximite et la volonte des parties.",
+          "explication": "La fiche en fait la structure de lecture des regles francaises et europeennes de competence.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1164,
+      "fiche": {
+        "titre": "Pourquoi commencer par la competence internationale : priorite methodique, unilateralite et enjeu strategique du juge saisi",
+        "resume": "Cette seance ouvre la partie consacree a la competence juridictionnelle internationale. La fiche en retient une idee directrice : en pratique, la question du juge competent vient avant celle de la loi applicable, non parce qu'elle serait plus noble, mais parce qu'elle conditionne la suite du raisonnement. Identifier le juge saisi revient deja a orienter la methode de droit international prive qui sera utilisee.",
+        "sections": [
+          {
+            "titre": "La competence internationale est etudiee en premier car elle commande concretement la suite du litige",
+            "contenu": "Le document reconnait qu'en theorie la situation juridique preexiste au proces et que la loi applicable pourrait sembler premiere. La fiche retient pourtant qu'en pratique le juge competent doit etre fixe d'abord, puisque chaque ordre juridique possede ses propres regles de droit international prive."
+          },
+          {
+            "titre": "L'exemple Johnny Hallyday montre que la bataille principale se deplace vers le choix du juge",
+            "contenu": "Le cours utilise la succession de Johnny Hallyday pour faire voir que la meme situation peut recevoir une solution opposee selon que le juge americain ou le juge francais est competent. La fiche retient que la designation du juge n'est pas un prealable neutre, mais un choix qui influe directement sur la loi appliquee et parfois sur l'issue du litige."
+          },
+          {
+            "titre": "Chaque Etat raisonne d'abord de maniere unilaterale sur l'etendue de sa propre competence",
+            "contenu": "Le document insiste sur le caractere unilateral des regles de competence. La fiche retient qu'un Etat ne dit pas quel autre juge est competent ; il dit seulement si ses propres juridictions peuvent ou non connaitre du litige. Cette unilateralite cree un probleme de coordination avec les autres ordres juridiques."
+          },
+          {
+            "titre": "La competence internationale sert a identifier un lien suffisant entre le litige et la sphere d'interet de l'Etat",
+            "contenu": "Le cours presente ces regles comme des instruments de tri : elles selectionnent les litiges que les juridictions nationales peuvent legitimement trancher. La fiche retient que la competence n'est pas fondee sur une universalite abstraite, mais sur l'existence d'un rattachement juge assez fort."
+          },
+          {
+            "titre": "La methode du juriste francais consiste a raisonner depuis le point de vue du juge francais",
+            "contenu": "Le document rappelle qu'en droit international prive on ne raisonne pas depuis nulle part. La fiche retient qu'il faut toujours adopter le point de vue de l'ordre juridique dans lequel on se place, ici celui du juge francais, ce qui explique la structure meme du cours."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi ce cours commence-t-il par la competence internationale plutot que par la loi applicable ?",
+          "reponse": "Parce qu'en pratique la determination du juge competent conditionne ensuite la methode et parfois la solution sur la loi applicable.",
+          "explication": "La fiche retient cette priorite comme un choix methodique et strategique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel exemple successoral sert a montrer le role central du juge competent ?",
+          "reponse": "La succession de Johnny Hallyday.",
+          "explication": "Le document l'utilise pour opposer les consequences possibles d'une saisine francaise ou americaine.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'exemple Johnny Hallyday est-il si parlant en DIP ?",
+          "reponse": "Parce que la validite du testament depend largement du juge competent, lequel ne raisonnera pas sur les memes rattachements ni sur les memes limites au choix de loi.",
+          "explication": "La fiche montre ainsi que le juge saisi influence la loi effectivement retenue.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie l'unilateralite des regles de competence internationale ?",
+          "reponse": "Qu'un Etat determine seulement s'il est lui-meme competent, sans attribuer directement competence a un autre Etat.",
+          "explication": "Le document en deduit des difficultes de coordination entre ordres juridiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'unilateralite peut-elle creer des tensions pratiques ?",
+          "reponse": "Parce que plusieurs Etats peuvent se reconnaitre competents ou, au contraire, refuser de l'etre pour un meme litige.",
+          "explication": "La fiche met en avant le risque de chevauchement ou de vide juridictionnel.",
+          "difficulte": 2
+        },
+        {
+          "question": "A quoi servent en general les regles de competence internationale ?",
+          "reponse": "A identifier les litiges qui entretiennent avec un Etat un lien suffisant pour que ses juridictions puissent les trancher.",
+          "explication": "Le critere determinant est donc le rattachement du litige a la sphere d'interet de l'Etat.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi ne peut-on pas raisonner en DIP depuis un point de vue abstrait ou universel ?",
+          "reponse": "Parce que chaque ordre juridique dispose de ses propres regles de competence et de conflit, de sorte que le raisonnement depend toujours du juge envisage.",
+          "explication": "Le cours demande explicitement d'adopter ici le point de vue du juge francais.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'effet pratique du choix du juge sur la loi applicable ?",
+          "reponse": "Le juge competent applique les regles de DIP de son propre ordre juridique, ce qui peut modifier la loi finalement retenue.",
+          "explication": "La fiche en fait le noeud de la strategie contentieuse internationale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens de methode ce chapitre cherche-t-il a eviter ?",
+          "reponse": "Croire qu'on peut discuter utilement de la loi applicable sans avoir d'abord fixe la juridiction competente.",
+          "explication": "Le document montre que cette inversion de methode fausse l'analyse du litige international.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette introduction a la competence ?",
+          "reponse": "En droit international prive, choisir le juge competent revient deja a cadrer le raisonnement applicable au litige et a orienter fortement son issue.",
+          "explication": "La fiche relie ainsi priorite methodique, unilateralite et strategie contentieuse.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1165,
+      "fiche": {
+        "titre": "Competence internationale ordinaire : extension des regles internes, for du defendeur et options contractuelles ou delictuelles",
+        "resume": "Cette seance explique comment le droit francais a construit ses regles ordinaires de competence internationale en l'absence de texte general dans le code de procedure civile. La fiche en retient une idee directrice : la solution a consiste a projeter dans l'ordre international plusieurs regles internes de competence territoriale, sous reserve des adaptations necessaires. Ce mecanisme donne une place centrale au domicile du defendeur et aux chefs speciaux en matiere contractuelle ou delictuelle.",
+        "sections": [
+          {
+            "titre": "La jurisprudence a comble le silence initial du code sur la competence internationale ordinaire",
+            "contenu": "Le document rappelle qu'a l'origine le code de procedure civile ne contenait pas de systeme complet de competence internationale. La fiche retient que la Cour de cassation a pallie cette lacune en utilisant les regles de competence territoriale interne comme matrice de raisonnement pour les litiges internationaux."
+          },
+          {
+            "titre": "Les arrets Pelassa et Scheffel ont consacre l'extension internationale des regles internes",
+            "contenu": "Le cours fait de ces decisions les points d'appui historiques du mecanisme. La fiche retient qu'elles n'ont pas cree des chefs de competence entierement nouveaux ; elles ont plutot autorise la transposition internationale de criteres deja connus en droit interne."
+          },
+          {
+            "titre": "Le domicile du defendeur reste le for de principe dans la logique ordinaire",
+            "contenu": "Le document rattache cette solution a l'article 42 du code de procedure civile, complete par l'article 43 pour la notion de domicile. La fiche retient que la transposition internationale conduit a reconnaitre competence au juge francais lorsque le defendeur, personne physique ou morale, demeure ou est etabli en France."
+          },
+          {
+            "titre": "La matiere contractuelle ouvre des options fondees sur le lieu d'execution pertinent",
+            "contenu": "Le cours s'appuie sur l'article 46 du code de procedure civile. La fiche retient que le demandeur peut, outre le for du defendeur, saisir le juge du lieu de livraison effective de la chose ou du lieu d'execution de la prestation de service, a condition que ce lieu se situe en France."
+          },
+          {
+            "titre": "La matiere delictuelle ajoute un choix entre le lieu du fait dommageable et celui du dommage subi",
+            "contenu": "Le document etend encore l'article 46 au contentieux delictuel. La fiche retient que le systeme ordinaire de competence internationale cherche ici a rapprocher le litige du lieu ou les faits se sont produits ou de celui ou leurs effets ont ete ressentis."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la jurisprudence a-t-elle joue un role decisif dans la competence internationale ordinaire ?",
+          "reponse": "Parce que le code de procedure civile ne contenait pas initialement de regles generales completes pour les litiges internationaux.",
+          "explication": "Le document montre que les juges ont donc du construire une methode a partir du droit interne existant.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle solution de principe les arrets Pelassa et Scheffel ont-ils consacree ?",
+          "reponse": "L'extension a l'ordre international des regles internes de competence territoriale.",
+          "explication": "La fiche en fait la cle du droit commun francais de la competence internationale ordinaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi parle-t-on d'extension et non de creation pure de regles internationales ?",
+          "reponse": "Parce que le raisonnement consiste a transposer des criteres internes deja connus plutot qu'a inventer un systeme entierement autonome.",
+          "explication": "Le cours insiste toutefois sur la necessite d'adapter ces criteres au contexte international.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel article du code de procedure civile sert de base au for du defendeur ?",
+          "reponse": "L'article 42 du code de procedure civile.",
+          "explication": "Il est complete par l'article 43 pour preciser la notion de domicile selon la qualite du defendeur.",
+          "difficulte": 1
+        },
+        {
+          "question": "Comment se determine le domicile d'une personne morale dans cette logique ?",
+          "reponse": "Par le lieu ou elle est etablie, en pratique souvent son siege social.",
+          "explication": "La fiche retient cette transposition comme le critere de principe pour les societes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle option supplementaire est ouverte en matiere contractuelle ?",
+          "reponse": "Le demandeur peut saisir le juge du lieu de livraison effective de la chose ou du lieu d'execution de la prestation de service.",
+          "explication": "Le document rattache cette option a l'article 46 du code de procedure civile.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le lieu de paiement du prix ne suffit-il pas a fonder la competence contractuelle speciale ?",
+          "reponse": "Parce qu'il ne correspond ni au lieu de livraison effective de la chose ni au lieu d'execution de la prestation de service vise par l'article 46.",
+          "explication": "La fiche retient ce point comme une precision de methode importante.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle option existe en matiere delictuelle dans ce systeme ordinaire ?",
+          "reponse": "La competence peut etre fondee soit sur le lieu du fait dommageable, soit sur celui ou le dommage a ete subi.",
+          "explication": "Le document souligne ainsi une logique de proximite avec la survenance du dommage.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel avantage general cherche a produire l'extension internationale des regles internes ?",
+          "reponse": "Elle offre un droit commun relativement lisible en s'appuyant sur des categories que les praticiens connaissent deja en procedure interne.",
+          "explication": "La fiche y voit un mecanisme de continuit e methodique entre ordre interne et ordre international.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Le droit commun francais de la competence internationale ordinaire repose largement sur la transposition adaptee des regles internes, surtout autour du for du defendeur et des options de l'article 46.",
+          "explication": "La fiche relie ainsi jurisprudence, domicile du defendeur, matiere contractuelle et matiere delictuelle.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
