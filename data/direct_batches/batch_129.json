@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1125,
+      "fiche": {
+        "titre": "Galop sur la SAS : inopposabilite des limites statutaires, action sociale contre le dirigeant et immixtion fautive du banquier",
+        "resume": "Ce galop d'essai construit un cas pratique classique de droit des societes autour d'une cession d'immeuble decidee par le dirigeant d'une SAS sans autorisation statutairement requise. La fiche en retient une idee directrice : il faut separer le sort du contrat conclu avec le tiers, le contentieux interne contre le dirigeant et la responsabilite plus exceptionnelle du banquier qui s'est immisce dans la gestion. Tout l'enjeu est de distinguer l'irregularite organique interne de la faute indemnisable.",
+        "sections": [
+          {
+            "titre": "La premiere question porte sur l'opposabilite au tiers des limites statutaires imposees au dirigeant de la SAS",
+            "contenu": "Le cas montre un dirigeant qui a vendu un local alors que les statuts exigeaient une autorisation de l'assemblee. La fiche retient qu'en SAS, ce type de limitation organise surtout les rapports internes. Il faut donc raisonner d'abord sur la protection du tiers cocontractant et sur la force de l'engagement signe au nom de la societe."
+          },
+          {
+            "titre": "L'absence d'autorisation collective ne conduit pas automatiquement a l'annulation de la cession",
+            "contenu": "Le document appelle a distinguer faute interne et inefficacite externe. La fiche retient que le contrat a peu de chances d'etre remis en cause sur le seul terrain du non-respect des statuts, sauf circonstances particulieres tenant a la fraude ou a la connaissance exacte du depassement par le tiers. Le coeur du contentieux se deplace donc souvent de la nullite vers la responsabilite."
+          },
+          {
+            "titre": "Le vrai terrain interne est celui de la responsabilite civile du dirigeant envers la societe",
+            "contenu": "Le dommage decrit dans le cas est supporte par la societe elle-meme : perte d'un local utile, relogement plus couteux, degradation des conditions d'exploitation. La fiche retient qu'un actionnaire devra donc raisonner sur l'action sociale et sur la faute de gestion du dirigeant, plutot que sur un prejudice purement personnel. L'action ut singuli devient ici un outil central."
+          },
+          {
+            "titre": "La responsabilite du banquier suppose une immixtion caracterisee et non de simples conseils insistants",
+            "contenu": "Le cas pratique insiste sur une banque tres presente dans les choix du dirigeant. La fiche retient qu'un etablissement de credit n'engage pas sa responsabilite par le seul fait d'emettre des recommandations. Il faut montrer une intervention anormale dans la conduite des affaires, suffisamment active pour avoir contribue a la faute ou au dommage social."
+          },
+          {
+            "titre": "La methode de resolution consiste a distribuer precisement contrat, faute et prejudice",
+            "contenu": "Ce galop apprend a ne pas tout melanger. La fiche retient qu'il faut examiner separement la validite du contrat de cession, la responsabilite du dirigeant vis-a-vis de la societe et la responsabilite eventuelle du banquier comme tiers intervenant. Une bonne copie montre a chaque fois qui agit, pour quel prejudice et sur quel fondement."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel est le premier reflexe juridique face a une cession decidee par le dirigeant d'une SAS sans autorisation statutaire ?",
+          "reponse": "Distinguer l'effet externe de l'acte vis-a-vis du tiers et la faute interne du dirigeant vis-a-vis de la societe.",
+          "explication": "Le cas est construit pour opposer inopposabilite des limites statutaires et responsabilite interne.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'absence d'autorisation de l'assemblee ne suffit-elle pas, en elle-meme, a faire tomber la cession ?",
+          "reponse": "Parce que dans la SAS, les restrictions statutaires aux pouvoirs du dirigeant ont d'abord une portee interne.",
+          "explication": "Le document pousse a separer irregularite de gouvernance et inefficacite du contrat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Sur quel terrain Madame Meja Lucine a-t-elle le plus de chances d'obtenir utilement reparation ?",
+          "reponse": "Sur le terrain de l'action sociale dirigee contre le dirigeant pour faute de gestion ayant cause un prejudice a la societe.",
+          "explication": "Le dommage principal est decrit comme un prejudice social et non comme une perte personnelle distincte.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi parle-t-on ici surtout de prejudice subi par la societe ?",
+          "reponse": "Parce que la perte du local et le surcout des nouveaux bureaux affectent directement l'exploitation sociale.",
+          "explication": "La fiche rappelle que l'actionnaire doit identifier le bon titulaire du dommage.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel interet presente l'action ut singuli dans un cas comme celui-ci ?",
+          "reponse": "Elle permet a un associe d'agir au nom de la societe lorsque le dirigeant fautif ne va evidemment pas engager lui-meme l'action sociale.",
+          "explication": "Le cas met en scene une actionnaire majoritaire cherchant a faire reparer un prejudice social.",
+          "difficulte": 3
+        },
+        {
+          "question": "Le banquier engage-t-il sa responsabilite des qu'il conseille fortement un dirigeant ?",
+          "reponse": "Non, il faut une immixtion fautive suffisamment caracterisee dans la gestion de l'entreprise.",
+          "explication": "La fiche distingue conseil, influence et veritable intervention anormale dans la direction.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel element factuel peut renforcer l'argument d'une immixtion fautive de la banque ?",
+          "reponse": "La repetition d'interventions concretes qui orientent de facon decisive les choix de gestion du dirigeant.",
+          "explication": "Le document insiste sur une banque qui ne se borne pas a un role passif de financeur.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi est-il methodologiquement dangereux de demander d'abord l'annulation du contrat ?",
+          "reponse": "Parce qu'on risque d'oublier que le droit des societes protege souvent le tiers et renvoie le conflit sur le terrain indemnitaire interne.",
+          "explication": "Le cas est typique d'un sujet ou l'action principale n'est pas necessairement l'action en nullite.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que faut-il toujours identifier avant de choisir entre action personnelle et action sociale ?",
+          "reponse": "Le titulaire exact du prejudice subi.",
+          "explication": "La fiche en fait la cle de voite du raisonnement contentieux dans les societes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce galop ?",
+          "reponse": "Une meme operation peut rester valable vis-a-vis du tiers tout en ouvrant un contentieux serieux contre le dirigeant et, plus difficilement, contre le banquier qui s'est immisce dans la gestion.",
+          "explication": "Le document apprend a ventiler les questions entre validite de l'acte et responsabilites encourues.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1131,
+      "fiche": {
+        "titre": "Clause de non-concurrence et exclusion en SAS : validite, unanimite, abus de minorite et choix de l'organe",
+        "resume": "Cette correction de TD traite plusieurs tensions classiques de la SAS : comment encadrer la concurrence d'un associe, quand l'unanimite est requise et jusqu'ou va la liberte statutaire pour organiser l'exclusion. La fiche en retient une idee directrice : le droit admet une grande souplesse d'organisation, mais il reste exigeant lorsqu'une clause restreint directement la liberte economique d'un associe ou modifie la nature de ses engagements.",
+        "sections": [
+          {
+            "titre": "La clause statutaire de non-concurrence n'est valable que si elle est legale dans son contenu",
+            "contenu": "Le document rappelle qu'il n'existe pas d'obligation generale de non-concurrence pesant sur tout associe. La fiche retient qu'une clause valable doit proteger un interet legitime de la societe et rester proportionnee, notamment par des bornes temporelles et geographiques. Une formule trop vague ou trop large bascule vite dans l'illicite."
+          },
+          {
+            "titre": "L'introduction ulterieure d'une telle clause releve d'une augmentation des engagements des associes",
+            "contenu": "La correction met l'accent sur l'article 1836 du code civil. La fiche retient qu'imposer apres coup une non-concurrence a un associe revient a lui faire supporter un engagement nouveau. Cette operation appelle donc l'unanimite, meme dans une SAS pourtant largement gouvernee par la liberte statutaire."
+          },
+          {
+            "titre": "Le refus d'un associe interesse ne devient pas automatiquement un abus de minorite",
+            "contenu": "Le cas montre un associe qui refuse la clause parce qu'il veut lancer une activite concurrente. La fiche retient que l'interet egoiste ne suffit pas. Il faut encore que le refus empeche une operation essentielle a la survie ou au fonctionnement vital de la societe. Sans cette gravite, l'abus de minorite reste difficile a caracteriser."
+          },
+          {
+            "titre": "Les clauses d'exclusion ob eissent a une logique differente de la clause de non-concurrence",
+            "contenu": "Le document explique qu'une clause d'exclusion peut etre adoptee ou modifiee sans unanimite des lors qu'elle n'augmente pas les engagements au sens de l'article 1836. La fiche retient que le droit des SAS accepte ici une large ingenierie statutaire, a condition que les motifs, la procedure et l'organe competent soient assez precis pour eviter l'arbitraire."
+          },
+          {
+            "titre": "Le choix de l'organe competent pour exclure un associe reste tres ouvert mais doit etre clairement organise",
+            "contenu": "President, assemblee ou competence alternative selon les situations : le document montre que la jurisprudence laisse une marge de manoeuvre importante. La fiche retient cependant une exigence constante : la clause doit distribuer les pouvoirs de facon lisible et respecter les droits proceduraux de l'associe vise."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Existe-t-il, en principe, une obligation generale de non-concurrence qui peserait sur tout associe ?",
+          "reponse": "Non, une telle restriction doit resulter d'un texte, d'une fonction particuliere ou d'une clause valable.",
+          "explication": "La correction part de cette absence de principe pour examiner la clause statutaire litigieuse.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles limites une clause de non-concurrence doit-elle respecter pour etre valable ?",
+          "reponse": "Elle doit proteger un interet legitime de la societe et rester proportionnee, notamment dans le temps et dans l'espace.",
+          "explication": "Le document insiste sur le caractere concret et borne de la restriction.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi une clause qui vise simplement la concurrence sans autre precision est-elle fragile ?",
+          "reponse": "Parce qu'elle ne delimite pas assez precisement l'etendue de l'atteinte portee a la liberte economique de l'associe.",
+          "explication": "La fiche retient que l'imprecision joue ici contre la validite de la clause.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'introduction ulterieure d'une clause de non-concurrence exige-t-elle l'unanimite ?",
+          "reponse": "Parce qu'elle ajoute un engagement nouveau a la charge des associes au sens de l'article 1836 du code civil.",
+          "explication": "Le document oppose ce regime strict a la souplesse habituelle de la SAS.",
+          "difficulte": 2
+        },
+        {
+          "question": "Le refus d'un associe motive par son interet personnel suffit-il a caracteriser un abus de minorite ?",
+          "reponse": "Non, il faut aussi que ce refus bloque une operation essentielle au point de nuire gravement a l'interet social.",
+          "explication": "La correction rappelle la double condition classique de l'abus de minorite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'abus de minorite est-il difficile a retenir dans ce cas ?",
+          "reponse": "Parce que l'absence de clause de non-concurrence ne semble pas mettre immediatement en peril la survie de la societe.",
+          "explication": "Le document souligne que l'utilite d'une operation ne se confond pas avec son caractere vital.",
+          "difficulte": 3
+        },
+        {
+          "question": "Le regime d'une clause d'exclusion est-il identique a celui d'une clause de non-concurrence ?",
+          "reponse": "Non, la clause d'exclusion n'est pas analysee de la meme facon quant a l'augmentation des engagements et peut etre modifiee plus souplement.",
+          "explication": "La fiche oppose clairement les deux mecanismes statutaires.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que doit contenir une clause d'exclusion bien redigee ?",
+          "reponse": "Des motifs d'exclusion suffisamment precis, une procedure identifiable et la designation claire de l'organe competent.",
+          "explication": "Le document rattache la validite de la clause a sa precision operationnelle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Le president peut-il etre designe comme organe competent pour prononcer une exclusion ?",
+          "reponse": "Oui, si les statuts lui attribuent clairement cette competence dans des conditions compatibles avec la jurisprudence.",
+          "explication": "La correction insiste sur la largeur de la liberte statutaire en la matiere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette fiche de TD ?",
+          "reponse": "En SAS, la liberte statutaire est grande, mais elle se heurte a des bornes fortes lorsqu'une clause restreint directement la liberte d'un associe ou modifie la nature de ses engagements.",
+          "explication": "La correction articule ainsi non-concurrence, unanimite, abus de minorite et exclusion dans un meme raisonnement.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1132,
+      "fiche": {
+        "titre": "Societe en formation : actes repris, mandat precis, clause de substitution et absence de reprise tacite",
+        "resume": "Ce cas pratique sur la societe en formation examine les differents moyens permettant de faire supporter a la societe immatriculee un bail signe pendant la periode constitutive. La fiche en retient une idee directrice : les actes accomplis avant l'immatriculation ne rejoignent pas librement le patrimoine social. Leur reprise est strictement encadree, sauf a mobiliser la logique contractuelle autonome de la clause de substitution.",
+        "sections": [
+          {
+            "titre": "Un acte passe pendant la formation n'est reprenable que s'il a ete conclu pour la future societe dans des formes identifiables",
+            "contenu": "Le document rappelle qu'il ne suffit pas qu'un acte soit utile. La fiche retient qu'il doit s'agir d'un acte juridique, accompli dans l'interet de la future societe et signe en mentionnant clairement que l'on agit pour une societe en formation. Sans cette indication, l'acte risque de rester personnel a son signataire ou d'etre fragilise."
+          },
+          {
+            "titre": "Le droit des societes connait trois mecanismes classiques de reprise des actes",
+            "contenu": "Etat annexe aux statuts, mandat prealable suffisamment precis, ou decision expresse des associes apres immatriculation : le document recompose les trois voies traditionnelles. La fiche retient que ces mecanismes ne se confondent pas et qu'il faut les manier avec rigueur chronologique."
+          },
+          {
+            "titre": "Le mandat doit etre concret, cible et redige pour la societe en formation",
+            "contenu": "Le cas montre un mandat de bail dont la redaction demeure trop large. La fiche retient qu'un mandat general ou approximatif ne suffit pas. Plus la mission laissee au futur dirigeant est vaste, plus le risque grandit de voir la reprise contestee. La precision du perimetre de l'acte est ici une condition de securite."
+          },
+          {
+            "titre": "Le simple paiement des loyers par la societe ne vaut pas reprise tacite au sens du droit des societes",
+            "contenu": "Le document est net sur ce point : l'execution economique du contrat ne remplace pas les formalites de reprise. La fiche retient donc qu'on ne peut pas contourner le formalisme societaire par de simples comportements de fait, sauf a raisonner sur un autre terrain juridique."
+          },
+          {
+            "titre": "La clause de substitution ouvre une voie distincte, plus contractuelle que societaire",
+            "contenu": "Le cas souligne que la jurisprudence admet qu'un contrat prevoie la substitution de la societe immatriculee au signataire initial. La fiche retient que cette solution suppose l'accord des parties et une execution coherente du contrat par la societe apres immatriculation. Elle ne supprime pas toute exigence de preuve, mais elle offre une alternative utile au regime strict de reprise."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelles conditions de base un acte doit-il remplir pour pouvoir etre repris par une societe en formation ?",
+          "reponse": "Il doit etre un acte juridique conclu dans l'interet de la future societe et signe au nom ou pour le compte de cette societe en formation.",
+          "explication": "Le document commence par rappeler ce noyau commun avant d'examiner les differentes modalites de reprise.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la mention de la societe en formation au moment de la signature est-elle decisive ?",
+          "reponse": "Parce qu'elle permet d'identifier que le signataire n'agit pas seulement pour lui-meme mais pour une personne morale en devenir.",
+          "explication": "La fiche rattache cette precision a la securite du regime des reprises d'actes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles sont les trois voies classiques de reprise des actes anterieurs a l'immatriculation ?",
+          "reponse": "L'etat annexe aux statuts, le mandat prealable et la decision expresse des associes apres immatriculation.",
+          "explication": "Le document les traite comme les trois techniques de droit des societes a connaitre en priorite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi un mandat trop general est-il dangereux en matiere de societe en formation ?",
+          "reponse": "Parce qu'il ne delimite pas assez precisement les actes dont la reprise automatique sera admise.",
+          "explication": "La correction souligne l'exigence de precision pesant sur le mandat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que faut-il verifier dans un mandat de conclusion de bail donne au futur dirigeant ?",
+          "reponse": "La nature exacte de l'acte autorise, ses parametres essentiels et son rattachement explicite a la societe en formation.",
+          "explication": "Le cas montre qu'une simple indication large de recherche de local peut etre insuffisante.",
+          "difficulte": 3
+        },
+        {
+          "question": "Le paiement des loyers par la societe immatriculee suffit-il a etablir une reprise des actes au sens societaire ?",
+          "reponse": "Non, ce comportement ne remplace pas a lui seul les mecanismes formels de reprise prevus par les textes.",
+          "explication": "La fiche rejette ainsi la these d'une reprise tacite purement financiere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la clause de substitution est-elle juridiquement interessante ?",
+          "reponse": "Parce qu'elle permet de raisonner sur le terrain contractuel et d'organiser l'entree de la societe immatriculee dans le contrat.",
+          "explication": "Le document la presente comme une voie distincte des reprises formellement societaires.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelles conditions pratiques favorisent l'efficacite d'une clause de substitution ?",
+          "reponse": "L'accord initial des parties sur cette substitution et l'execution ulterieure du contrat par la societe immatriculee.",
+          "explication": "La correction insiste sur l'importance de la coherence entre la clause et les actes d'execution ulterieurs.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que risquent les personnes qui agissent au nom de la societe avant l'immatriculation si l'acte n'est pas repris ?",
+          "reponse": "Elles restent personnellement tenues des obligations n ees de l'acte, avec les consequences propres au type de societe concerne.",
+          "explication": "La fiche rappelle que le droit de la societe en formation protege aussi les tiers cocontractants.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce cas pratique ?",
+          "reponse": "Avant l'immatriculation, l'utilite economique d'un acte ne suffit jamais : seule une technique juridique bien identifiee permet de faire entrer cet acte dans la sphere sociale.",
+          "explication": "Le document oppose rigueur des reprises et souplesse relative de la substitution contractuelle.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1133,
+      "fiche": {
+        "titre": "Introduction corrigee au droit des societes : pourquoi societiser, comment limiter le risque et quand les associes repondent des dettes",
+        "resume": "Cette correction de seance 1 organise plusieurs questions de base que les etudiants confondent souvent : utilite pratique de la societe, rapprochement avec l'entrepreneur individuel, difference entre risque limite et risque illimite, et pouvoir des dirigeants face aux tiers. La fiche en retient une idee directrice : le droit des societes se comprend d'abord comme un systeme de repartition du risque, des pouvoirs et du gage des creanciers.",
+        "sections": [
+          {
+            "titre": "Recourir a une societe sert a organiser l'activite, le financement et la decision",
+            "contenu": "Le document rappelle qu'une societe n'est pas seulement une enveloppe technique. La fiche retient qu'elle permet d'ordonner les rapports entre plusieurs entrepreneurs, de concentrer les relations avec les financeurs et, souvent, de separer les patrimoines. La forme sociale est donc aussi un instrument de gouvernance."
+          },
+          {
+            "titre": "Le rapprochement avec l'entrepreneur individuel ne doit pas faire oublier l'absence de personne morale",
+            "contenu": "La correction evoque l'EIRL puis le nouveau statut d'entrepreneur individuel. La fiche retient qu'il existe aujourd'hui des mecanismes de protection patrimoniale hors societe, mais qu'ils ne creent pas pour autant un sujet de droit distinct. Cette difference reste fondamentale pour comprendre la logique de la personne morale."
+          },
+          {
+            "titre": "Le risque illimite signifie que certains associes peuvent etre poursuivis au-dela de leurs apports",
+            "contenu": "Le document cite la SNC, les societes civiles et les commandites comme modeles a risque etendu. La fiche retient que l'obligation aux dettes sociales permet aux creanciers de remonter vers le patrimoine des associes lorsque le patrimoine social ne suffit pas. Cette exposition explique une partie des equilibres de ces formes."
+          },
+          {
+            "titre": "Obligation aux dettes sociales et contribution aux pertes ne designent pas la meme chose",
+            "contenu": "La correction insiste sur une confusion classique. La fiche retient que l'obligation aux dettes concerne les rapports avec les creanciers de la societe, tandis que la contribution aux pertes regle les rapports internes entre associes, surtout au moment de la liquidation. Confondre les deux conduit a mal raisonner sur la responsabilite patrimoniale."
+          },
+          {
+            "titre": "Le pouvoir du dirigeant envers les tiers varie selon que la societe est a risque illimite ou a risque limite",
+            "contenu": "Dans les societes ou les associes repondent largement des dettes, le pouvoir d'engager la societe reste plus etroitement cale sur l'objet social. La fiche retient qu'il existe un lien fort entre exposition des associes et discipline imposee aux organes de gestion dans les rapports avec les tiers."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi un entrepreneur peut-il preferer la societe a l'exercice en nom propre ?",
+          "reponse": "Parce que la societe offre un cadre de decision, de financement et souvent de separation patrimoniale plus structure.",
+          "explication": "La correction presente la societe comme un outil d'organisation autant que de production.",
+          "difficulte": 2
+        },
+        {
+          "question": "En quoi la societe facilite-t-elle les rapports entre plusieurs porteurs de projet ?",
+          "reponse": "Elle encadre les pouvoirs, la prise de decision et la relation entre associes et dirigeants.",
+          "explication": "Le document insiste sur la fonction organisationnelle de la forme sociale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi ne faut-il pas assimiler l'entrepreneur individuel a une societe ?",
+          "reponse": "Parce qu'il n'y a pas creation d'une nouvelle personne morale, meme si un patrimoine professionnel peut etre isole.",
+          "explication": "La fiche garde ici la distinction entre protection patrimoniale et personnalite morale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'effet central des dispositifs comme l'EIRL hier ou l'EI aujourd'hui ?",
+          "reponse": "Ils permettent d'isoler un patrimoine professionnel sans creer une societe.",
+          "explication": "Le document les mobilise pour montrer le rapprochement partiel entre entreprise individuelle et forme sociale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie concretement le risque illimite supporte par certains associes ?",
+          "reponse": "Que les creanciers sociaux peuvent, apres defaillance de la societe, atteindre le patrimoine personnel des associes concernes.",
+          "explication": "La correction decrit cette obligation comme ind efinie et, selon les cas, solidaire ou conjointe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles formes sociales sont ici prises comme exemples de societes a risque illimite ?",
+          "reponse": "La SNC, les societes civiles et les societes en commandite pour leurs associes commandites.",
+          "explication": "Le document construit l'exercice autour de ces formes classiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi faut-il distinguer obligation aux dettes sociales et contribution aux pertes ?",
+          "reponse": "Parce que la premiere concerne les creanciers externes alors que la seconde regle la repartition interne des pertes entre associes.",
+          "explication": "La fiche presente cette distinction comme une base de methode incontournable.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans les societes a risque illimite, comment se comprend la limitation du pouvoir du dirigeant par l'objet social ?",
+          "reponse": "Comme une protection renforcee des associes dont le patrimoine personnel peut etre expose aux dettes sociales.",
+          "explication": "Le document relie ainsi gouvernance et niveau de risque supporte.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'absence frequente de capital minimum dans certaines societes a risque illimite n'est-elle pas incoherente ?",
+          "reponse": "Parce que le gage des creanciers ne se limite pas aux apports mais s'etend aussi, subsidiairement, au patrimoine des associes tenus aux dettes.",
+          "explication": "La correction rattache ici la logique du capital a celle du gage crediteur.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance corrigee ?",
+          "reponse": "Le droit des societes commence par une architecture du risque, du patrimoine et du pouvoir bien avant d'entrer dans les details des formes sociales.",
+          "explication": "La fiche rassemble ainsi utilite de la societe, personnalite morale, responsabilite et objet social.",
+          "difficulte": 2
+        }
+      ]
+    }
+  ]
+}

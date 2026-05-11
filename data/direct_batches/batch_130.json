@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1134,
+      "fiche": {
+        "titre": "Transferer une activite a la societe : vente, location-gerance, apport et sort particulier des activites civiles",
+        "resume": "Cette correction de seance 2 examine les differentes techniques permettant de faire passer une activite deja exercee vers une societe en cours de constitution ou nouvellement creee. La fiche en retient une idee directrice : les outils de transfert ne se manient pas de la meme facon selon que l'on parle d'un fonds de commerce, d'une clientele civile ou du patrimoine professionnel d'un entrepreneur individuel. Le choix du montage depend donc autant de la nature de l'activite que du niveau de securite juridique recherche.",
+        "sections": [
+          {
+            "titre": "Pour une activite commerciale, le droit propose trois grands outils de transfert",
+            "contenu": "Le document rappelle les solutions classiques : vente du fonds de commerce, location-gerance et apport en nature a la societe. La fiche retient que ces trois techniques ne poursuivent pas la meme logique. La vente op ere un transfert patrimonial direct, la location-gerance permet une exploitation sans cession immediate et l'apport fait entrer l'actif professionnel dans le capital social."
+          },
+          {
+            "titre": "Le passage a une societe civile impose de rester attentif au risque de requalification",
+            "contenu": "La correction insiste sur un point de methode : on ne peut pas transposer sans prudence les mecanismes du fonds de commerce a n'importe quelle structure. La fiche retient que l'apport d'un fonds commercial a une societe civile peut brouiller sa qualification et faire remonter la question de sa commercialite reelle."
+          },
+          {
+            "titre": "Pour les activites civiles, la clientele peut circuler mais le fonds liberal reste juridiquement plus incertain",
+            "contenu": "Le document mobilise la jurisprudence sur la cession de clientele civile pour montrer qu'un transfert est possible, sous reserve du respect des specificites de l'activite. La fiche retient cependant qu'il est plus prudent de raisonner sur la clientele elle-meme que sur un pretendu fonds liberal global, dont le statut autonome demeure discute."
+          },
+          {
+            "titre": "La location-gerance d'une activite civile n'offre pas le meme confort normatif que pour le commerce",
+            "contenu": "La correction releve que le regime legal de la location-gerance est pense pour le fonds de commerce. La fiche retient donc qu'en matiere civile, le mecanisme est plus fragile et qu'il vaut mieux eviter de le choisir sans cadre textuel clair, meme si une construction par analogie peut etre defendue."
+          },
+          {
+            "titre": "L'entrepreneur individuel dispose aujourd'hui d'une voie plus globale par le transfert du patrimoine professionnel",
+            "contenu": "Le document rappelle enfin que le code de commerce permet a l'entrepreneur individuel de ceder ou d'apporter l'integralite de son patrimoine professionnel. La fiche retient que cette solution depasse la logique de transfert actif par actif et offre une technique plus unifiee lorsqu'une activite deja structuree doit rejoindre une societe."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quels sont les trois grands moyens de transferer un fonds de commerce a une societe ?",
+          "reponse": "La vente, la location-gerance et l'apport en nature.",
+          "explication": "La correction presente ces trois outils comme le socle de depart du raisonnement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la vente du fonds de commerce et l'apport en societe ne produisent-ils pas le meme effet economique ?",
+          "reponse": "Parce que la vente remplace l'actif par un prix alors que l'apport integre l'actif dans la structure capitalistique de la societe.",
+          "explication": "La fiche oppose ici logique de cession et logique de participation sociale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel interet peut presenter la location-gerance dans un projet de societisation ?",
+          "reponse": "Elle permet de faire exploiter l'activite par la societe sans transfert definitif immediat de la propriete du fonds.",
+          "explication": "Le document la range parmi les techniques de transition vers la societe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi faut-il etre prudent si l'on apporte un fonds de commerce a une societe civile ?",
+          "reponse": "Parce que cet apport peut faire reapparaitre la question de la nature commerciale reelle de la structure.",
+          "explication": "La correction attire l'attention sur le risque de requalification.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que retient la jurisprudence sur la clientele civile ?",
+          "reponse": "Qu'elle peut faire l'objet d'operations de transfert, a condition de respecter les contraintes propres a l'activite civile concernee.",
+          "explication": "Le document s'appuie notamment sur la logique issue de la jurisprudence relative aux professions liberales.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le fonds liberal est-il plus delicat a manier que le fonds de commerce ?",
+          "reponse": "Parce qu'il ne beneficie pas d'un regime autonome aussi net et aussi stabilise que celui du fonds de commerce.",
+          "explication": "La fiche recommande donc la prudence sur les apports globaux de fonds civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "La location-gerance d'une activite civile offre-t-elle la meme securite que celle d'un fonds de commerce ?",
+          "reponse": "Non, car son encadrement textuel est beaucoup moins clair.",
+          "explication": "Le document la presente comme une solution envisageable mais peu confortable.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel apport du statut d'entrepreneur individuel est mis en avant dans cette correction ?",
+          "reponse": "La possibilite de transferer en bloc l'integralite du patrimoine professionnel a une societe.",
+          "explication": "La fiche y voit une voie plus globale que la cession element par element.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle question faut-il toujours se poser avant de choisir un mode de transfert d'activite ?",
+          "reponse": "La nature exacte de l'activite et de l'actif que l'on cherche a faire entrer dans la societe.",
+          "explication": "Le document oppose justement activite commerciale, clientele civile et patrimoine professionnel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette correction ?",
+          "reponse": "On ne transfere pas une activite a une societe par un mecanisme unique : tout depend du type d'actif, du statut de l'exploitant et du niveau de securite juridique voulu.",
+          "explication": "La fiche relie ainsi fonds de commerce, clientele civile et patrimoine professionnel dans une meme methode.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1135,
+      "fiche": {
+        "titre": "Participation aux pertes et clauses leonines : garanties entre associes, intervention de tiers et promesse de rachat a prix plancher",
+        "resume": "Cette correction de seance 3 explore les limites du droit des societes lorsqu'on cherche a rassurer des associes hesitants contre le risque de pertes. La fiche en retient une idee directrice : on peut amenager certains mecanismes de sortie ou de garantie, mais on ne peut pas faire disparaitre brutalement l'alea societaire. Toute la difficulte consiste a distinguer la clause leonine interdite des montages qui conservent encore une part de risque ou qui sortent du champ des rapports purement societaires.",
+        "sections": [
+          {
+            "titre": "Garantir par des coassocies la restitution integrale des apports revient en principe a neutraliser la contribution aux pertes",
+            "contenu": "Le document part d'un engagement pris par deux associes au profit d'autres associes. La fiche retient que lorsque la garantie retire completement a certains la charge des pertes, on touche directement au coeur de la prohibition des clauses leonines. Le montage est alors fragilise parce qu'il vide le statut d'associe d'une de ses composantes essentielles."
+          },
+          {
+            "titre": "L'intervention d'un tiers deplace l'analyse, sans faire disparaitre tout soupcon de fraude",
+            "contenu": "La correction montre qu'une garantie accordee par un non-associe n'entre pas automatiquement dans le champ de l'article 1844-1. La fiche retient donc qu'un tiers peut parfois garantir un associe sans que l'on soit en presence d'une clause leonine au sens strict. Mais si le tiers n'est qu'un ecran pour faire supporter economiquement la charge aux coassocies, la fraude redevient une vraie question."
+          },
+          {
+            "titre": "La promesse de rachat a prix plancher ne s'analyse pas uniquement a partir de son effet economique",
+            "contenu": "Le document mobilise la jurisprudence Bowater et ses suites. La fiche retient qu'il faut regarder l'objet juridique de la convention, la qualite du beneficiaire, l'existence eventuelle de promesses croisees et surtout le maintien ou non d'un alea reel. Le droit admet parfois ces promesses, mais il refuse qu'elles servent de simple instrument d'exoneration totale des pertes."
+          },
+          {
+            "titre": "La fenetre de tir peut maintenir une part d'alea chez l'associe beneficiaire",
+            "contenu": "La correction souligne qu'une option exercable dans un delai limite n'offre pas une protection absolue. La fiche retient que cet encadrement temporel peut laisser subsister un risque de perte si l'option n'est pas levee a temps. Cet element peut contribuer a sauver la validite du mecanisme."
+          },
+          {
+            "titre": "La bonne methode consiste a identifier qui supporte reellement le risque et a quel moment",
+            "contenu": "Ce document apprend a depasser les apparences. La fiche retient qu'une meme promesse peut paraitre tres protectrice sans pour autant supprimer tout alea, alors qu'une garantie plus directe peut etre illegale. Il faut donc raisonner sur la structure du risque, la qualite des parties et l'intention economique du montage."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la garantie de restitution des apports accordee par des coassocies est-elle suspecte ?",
+          "reponse": "Parce qu'elle peut exon erer totalement certains associes de la contribution aux pertes.",
+          "explication": "La correction la rattache directement a la logique des clauses leonines.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel texte sert de point d'appui principal pour controler ce type de garantie entre associes ?",
+          "reponse": "L'article 1844-1 du code civil sur la repartition des benefices, des pertes et la prohibition des clauses leonines.",
+          "explication": "Le document en fait le centre du raisonnement sur la validite des engagements proposes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi une garantie donnee par un tiers n'est-elle pas analysee automatiquement comme leonine ?",
+          "reponse": "Parce qu'elle n'organise pas, en principe, les rapports internes entre associes de la meme facon qu'une stipulation purement societaire.",
+          "explication": "La correction rappelle que le champ de l'article 1844-1 peut etre lu de facon plus restreinte.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel risque demeure meme lorsqu'un tiers accorde la garantie ?",
+          "reponse": "Le risque que le tiers ne soit qu'un montage de contournement destine a faire supporter indirectement la charge aux coassocies.",
+          "explication": "La fiche reserve express ement l'hypothese de la fraude.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi une promesse de rachat a prix plancher ne se confond-elle pas automatiquement avec une clause leonine ?",
+          "reponse": "Parce qu'il faut encore verifier son objet, la qualite des parties et l'existence d'un alea residuel.",
+          "explication": "La correction s'appuie sur une jurisprudence plus nu ancee que l'interdiction de principe.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel apport de l'arret Bowater est mis en avant dans cette fiche ?",
+          "reponse": "L'idee qu'il faut regarder l'objet reel de la convention et non seulement son apparence protectrice.",
+          "explication": "Le document s'en sert pour distinguer cession de titres et pure exon eration des pertes.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la qualite de simple bailleur de fonds du beneficiaire peut-elle compter ?",
+          "reponse": "Parce qu'une operation purement financiere se rapproche moins d'un veritable montage societaire visant a supprimer tout risque d'associe.",
+          "explication": "La correction montre que la jurisprudence affine son controle selon le profil economique du beneficiaire.",
+          "difficulte": 3
+        },
+        {
+          "question": "Qu'apporte l'existence d'une fenetre de tir dans une promesse de rachat ?",
+          "reponse": "Elle maintient un alea puisque le beneficiaire peut perdre la protection s'il n'exerce pas l'option dans le delai prevu.",
+          "explication": "La fiche en fait un indice utile de validite du montage.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle erreur de raisonnement faut-il eviter face a une promesse a prix plancher ?",
+          "reponse": "Croire que toute protection economique contre les pertes est ipso facto nulle sans examiner la structure juridique du mecanisme.",
+          "explication": "Le document invite justement a un controle beaucoup plus fin.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette correction ?",
+          "reponse": "Le droit des societes interdit l'exoneration totale et directe des pertes, mais il admet certains montages plus complexes lorsqu'ils laissent subsister un alea ou sortent du pur face-a-face entre associes.",
+          "explication": "La fiche relie ainsi clause leonine, tiers garants et promesse de rachat dans une meme logique de dosage du risque.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1136,
+      "fiche": {
+        "titre": "Societe en formation : du formalisme strict au recentrage sur l'intention commune, sans abandonner les exigences de precision",
+        "resume": "Cette correction de seance 4 reprend plusieurs arrets sur la societe en formation et montre l'evolution recente de la jurisprudence. La fiche en retient une idee directrice : le droit reste attache a la securite des tiers et a la lisibilite des actes, mais il s'eloigne du formalisme le plus brutal. La question n'est plus seulement de reperer une formule magique ; il faut aussi comprendre comment le droit articule intention commune, reprise des actes et precision des mandats.",
+        "sections": [
+          {
+            "titre": "La jurisprudence ancienne sanctionnait severement l'acte conclu comme si la societe existait deja",
+            "contenu": "Le document rappelle la rigueur de la solution qui frappait les actes conclus au nom d'une societe encore depourvue de personnalite morale. La fiche retient que cette logique visait a proteger la clarte des rapports contractuels, mais produisait parfois des effets excessifs en deliant a la fois la future societe et celui qui avait voulu agir pour elle."
+          },
+          {
+            "titre": "Les decisions recentes recherchent davantage l'intention veritable des parties",
+            "contenu": "La correction insiste sur le tournant opere a la fin de l'annee 2023 puis confirme en 2024. La fiche retient que le juge accepte davantage d'examiner si les parties avaient en realite voulu conclure pour une societe en formation, meme si la redaction n'etait pas parfaite. Le droit gagne ainsi en souplesse sans devenir purement informel."
+          },
+          {
+            "titre": "Cette souplesse n'efface pas l'exigence de precision sur les actes a reprendre",
+            "contenu": "Le document consacre plusieurs developpements aux mandats et annexes insuffisamment circonstancies. La fiche retient qu'une societe ne reprend pas automatiquement n'importe quel engagement parce qu'un texte statutaire evoque vaguement une future operation. Les actes et leurs modalites doivent etre identifies avec assez de nettete."
+          },
+          {
+            "titre": "Le paiement ou l'execution du contrat ne remplacent pas, a eux seuls, les mecanismes de reprise",
+            "contenu": "La correction rappelle que le comportement economique posterieur de la societe ne suffit pas toujours a combler un defaut de reprise au sens du droit des societes. La fiche retient qu'il faut distinguer la logique interne des reprises d'actes et, le cas echeant, la logique distincte de la substitution contractuelle admise par la jurisprudence."
+          },
+          {
+            "titre": "La clause de substitution illustre une voie contractuelle parallele au regime special des reprises",
+            "contenu": "Le document montre que la jurisprudence accepte qu'un contrat organise la substitution de la societe immatriculee au signataire initial. La fiche retient que cette solution assouplit la pratique, mais qu'elle ne doit pas faire oublier la difference entre un contournement admis par le droit des contrats et une reprise reguliere au sens strict du droit des societes."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi les actes conclus pendant la formation de la societe ont-ils longtemps ete apprecies avec un grand formalisme ?",
+          "reponse": "Parce que le droit voulait rendre visible pour tous l'absence de personnalite morale de la future societe et la qualite exacte du signataire.",
+          "explication": "La correction rattache cette rigueur a un objectif de securite juridique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel inconven ient majeur produisait l'ancienne jurisprudence la plus formaliste ?",
+          "reponse": "Elle pouvait conduire a la nullite de l'acte tout en privant le tiers et la future societe d'une solution utile.",
+          "explication": "La fiche souligne que ce formalisme avait des effets pratiques parfois contre-productifs.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel mouvement est mis en avant par les decisions de 2023 et 2024 ?",
+          "reponse": "Un recentrage sur la commune intention des parties plutot que sur la seule presence d'une formulation stereotypee.",
+          "explication": "Le document presente ce tournant comme une attenuation du formalisme ancien.",
+          "difficulte": 2
+        },
+        {
+          "question": "La jurisprudence recente supprime-t-elle toute exigence redactionnelle ?",
+          "reponse": "Non, elle assouplit l'analyse mais conserve le besoin d'identifier clairement pour qui l'acte est conclu et comment il pourra etre repris.",
+          "explication": "La correction ne remplace pas la rigueur par l'improvisation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi un mandat vague reste-t-il dangereux en societe en formation ?",
+          "reponse": "Parce qu'il ne permet pas de savoir avec precision quels engagements la societe est censee reprendre.",
+          "explication": "Le document insiste sur la precision des actes et de leurs modalites.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que faut-il verifier lorsqu'un renvoi a une annexe est invoque pour etablir une reprise ?",
+          "reponse": "Que l'annexe identifie effectivement les actes concernes et les conditions de leur conclusion.",
+          "explication": "La fiche rappelle qu'un simple renvoi abstrait ne suffit pas.",
+          "difficulte": 3
+        },
+        {
+          "question": "Le simple paiement des obligations contractuelles par la societe immatriculee suffit-il toujours a etablir une reprise ?",
+          "reponse": "Non, ce comportement ne remplace pas automatiquement les techniques de reprise prevues ou reconnues par le droit.",
+          "explication": "Le document garde une distinction nette entre execution economique et reprise juridique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la clause de substitution occupe-t-elle une place a part dans cette matiere ?",
+          "reponse": "Parce qu'elle fait jouer une logique contractuelle autonome plutot que le regime special de reprise des actes.",
+          "explication": "La correction la presente comme une souplesse admise par la jurisprudence.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle competence de methode ce document cherche-t-il a faire acquerir ?",
+          "reponse": "Savoir distinguer la validite initiale de l'acte, sa reprise societaire et les eventuelles solutions de droit commun qui peuvent relayer ou completer ce regime.",
+          "explication": "La fiche fait dialoguer formalite, intention et execution du contrat.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance corrigee ?",
+          "reponse": "Le droit de la societe en formation est moins formaliste qu'avant, mais il reste un droit de precision : l'intention compte davantage, sans que les actes puissent devenir flous.",
+          "explication": "La fiche synth etise ainsi le double mouvement de souplesse et de securite.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1137,
+      "fiche": {
+        "titre": "Les statuts de la societe : mentions obligatoires, action en regularisation, objet social et vigilance de redaction",
+        "resume": "Cette correction de seance 5 passe au crible la redaction des statuts d'une societe et montre qu'une erreur de plume peut produire des effets tres concrets. La fiche en retient une idee directrice : les statuts ne sont pas un formulaire decoratif. Ils structurent la vie sociale, orientent les pouvoirs des dirigeants, conditionnent parfois la validite de la societe et peuvent engager la responsabilite des fondateurs ou des premiers dirigeants lorsqu'ils sont mal rediges.",
+        "sections": [
+          {
+            "titre": "Le defaut d'une mention obligatoire peut ouvrir un double contentieux de responsabilite et de regularisation",
+            "contenu": "Le document rappelle que les fondateurs et certains premiers dirigeants peuvent repondre solidairement du prejudice cause par des statuts defectueux. La fiche retient aussi l'existence d'une action en regularisation, distincte de la reparation du dommage. Le droit ne se contente donc pas de sanctionner : il cherche aussi a remettre l'acte constitutif en ordre."
+          },
+          {
+            "titre": "L'objet social doit etre special, licite et distingue de l'objet du contrat de societe",
+            "contenu": "La correction insiste sur la specialite statutaire. La fiche retient que l'objet social n'est pas la simple creation de la societe, mais l'activite qu'elle a vocation a exercer. Il doit rester suffisamment determine et conforme a l'ordre public, faute de quoi la validite meme de la structure peut etre compromise."
+          },
+          {
+            "titre": "La distinction entre objet statutaire et objet reel peut produire des resultats tres differents selon le type de societe",
+            "contenu": "Le document rappelle le poids de la securite des tiers dans les societes a risque limite, notamment sous l'influence europeenne. La fiche retient qu'un objet reel illicite ne conduit pas toujours a l'annulation lorsque l'objet statutaire reste licite, ce qui montre a quel point le droit des societes arbitre entre verite economique et securite juridique."
+          },
+          {
+            "titre": "Les statuts doivent aussi parler le langage exact de la forme sociale choisie",
+            "contenu": "La correction releve des erreurs classiques de vocabulaire ou de regime, comme l'usage de parts sociales dans une SAS ou une duree indeterminee la ou le droit impose une borne. La fiche retient que ces maladresses ne sont pas de simples details stylistiques : elles trahissent souvent une incomprehension du regime applicable."
+          },
+          {
+            "titre": "L'objet social commande enfin une partie du regime des pouvoirs des dirigeants",
+            "contenu": "Le document explique que le depassement de l'objet social ne produit pas les memes effets selon les formes sociales. La fiche retient que les statuts ne dessinent pas seulement une activite economique ; ils participent aussi a la repartition du risque entre societe, associes, dirigeants et tiers."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi les statuts peuvent-ils engager la responsabilite de leurs redacteurs ou des premiers dirigeants ?",
+          "reponse": "Parce qu'une omission ou une erreur dans les mentions obligatoires peut causer un prejudice a la societe, aux associes ou aux tiers.",
+          "explication": "La correction ouvre sur cette idee de responsabilite statutaire solidaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle autre voie existe, a cote de l'action en responsabilite, lorsqu'un statut est mal redige ?",
+          "reponse": "L'action en regularisation visant a obtenir la mise en conformite des statuts.",
+          "explication": "La fiche distingue bien reparation du prejudice et correction de l'acte constitutif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que designe l'objet social en droit des societes ?",
+          "reponse": "L'activite ou les activites que les associes entendent faire exercer par la societe.",
+          "explication": "Le document l'oppose a l'objet du contrat de societe pris au sens du droit commun des contrats.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi dit-on qu'il ne peut pas y avoir d'objet social universel ?",
+          "reponse": "Parce que le droit impose une specialite statutaire et exige une activite suffisamment determinee.",
+          "explication": "La correction relie cette exigence a la lisibilite de la mission sociale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel interet pratique a la distinction entre objet statutaire et objet reel ?",
+          "reponse": "Elle permet de comprendre pourquoi l'illic eite effectivement poursuivie ne produit pas toujours les memes sanctions que l'illic eite ecrite dans les statuts.",
+          "explication": "Le document montre que la securite des tiers peut conduire a privilegier l'objet statutaire dans certaines societes.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi une erreur comme parler de parts sociales dans une SAS n'est-elle pas anodine ?",
+          "reponse": "Parce qu'elle revele une confusion sur la nature des droits emis et sur le regime de la forme sociale choisie.",
+          "explication": "La fiche traite ce point comme un symptome d'une redaction mal maitrisee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Une societe peut-elle etre stipulee pour une duree indeterminee dans le droit commun des societes ?",
+          "reponse": "Non, le droit commun des societes impose en principe une duree determinee dans les limites prevues par la loi.",
+          "explication": "La correction releve ce type d'erreur comme une faute de redaction classique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'objet social compte-t-il dans l'analyse des pouvoirs des dirigeants ?",
+          "reponse": "Parce qu'il sert de repere pour savoir jusqu'ou les dirigeants peuvent engager la societe et avec quels effets vis-a-vis des tiers.",
+          "explication": "Le document rattache les pouvoirs organiques a l'exposition des associes et a la forme sociale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle competence redactionnelle ce document cherche-t-il a installer ?",
+          "reponse": "La capacite de lire un statut comme un instrument de regime juridique, et non comme une simple formalite administrative.",
+          "explication": "La fiche insiste sur le fait que chaque mention porte des consequences concr etes.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette correction ?",
+          "reponse": "Des statuts bien rediges fixent l'identite, l'activite, la duree, les pouvoirs et une partie du risque juridique de la societe ; des statuts mal rediges peuvent couter cher.",
+          "explication": "La fiche relie ainsi responsabilite, regularisation et objet social dans une meme logique de vigilance.",
+          "difficulte": 2
+        }
+      ]
+    }
+  ]
+}
