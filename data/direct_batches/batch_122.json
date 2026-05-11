@@ -1,0 +1,433 @@
+{
+  "documents": [
+    {
+      "document_id": 1091,
+      "fiche": {
+        "titre": "Clauses du contrat de travail : rupture, execution et non-concurrence sous controle de proportion",
+        "resume": "Cette seance montre que le contrat de travail peut contenir de nombreuses clauses, mais jamais dans l'indifference aux libertes du salarie et a la logique protectrice du droit du travail. La fiche en retient une idee directrice : la liberte contractuelle existe, mais elle est constamment reprise par un controle de justification, de proportion et de coherence avec la relation de subordination. C'est visible aussi bien pour les clauses qui preparent la rupture que pour celles qui organisent l'execution ou prolongent leurs effets apres le depart du salarie.",
+        "sections": [
+          {
+            "titre": "Le contenu du contrat de travail reste marque par un cadre plus exigeant que le droit commun",
+            "contenu": "Le document part d'une idee simple : le contrat de travail est bien un contrat, mais un contrat qui s'insere dans une relation de subordination et dans un ordre public social. Les parties peuvent donc prevoir des clauses variees, sans pour autant disposer d'une liberte illimitee. La fiche retient que toute clause doit se laisser relire a la lumiere des libertes fondamentales et du principe de faveur."
+          },
+          {
+            "titre": "Les clauses relatives a la rupture n'ont de sens que si elles ne vident pas la protection du salarie",
+            "contenu": "La seance distingue les clauses qui facilitent la rupture de celles qui tendent au contraire a la freiner. La periode d'essai en est l'exemple classique, tandis que la clause resolutoire reste tres marginale en droit du travail. A l'inverse, le dedi-formation et la garantie d'emploi montrent qu'on peut encadrer la sortie du contrat, mais seulement sous reserve de conditions strictes. La fiche insiste sur ce point : on ne peut jamais transformer la rupture du contrat en mecanisme purement automatique."
+          },
+          {
+            "titre": "Les clauses d'execution sont admises quand elles servent l'entreprise sans ecraser la vie personnelle du salarie",
+            "contenu": "Clause d'exclusivite, clause de residence et clause d'objectif ont un point commun : elles organisent l'execution du travail en limitant, chacune a sa maniere, une marge de liberte du salarie. Le document rappelle que leur validite depend de leur utilite concrete et de leur mesure. La fiche en tire une grille de lecture stable : plus la clause restreint l'autonomie du salarie, plus sa justification doit etre precise et sa portee ajustee."
+          },
+          {
+            "titre": "La clause de non-concurrence concentre au plus haut point le controle de proportion",
+            "contenu": "Parce qu'elle produit ses effets apres la rupture, la clause de non-concurrence fait l'objet d'un controle renforce. Elle n'est valable que si elle protege un interet legitime de l'entreprise, reste limitee dans le temps et dans l'espace, tient compte de l'emploi occupe et ouvre droit a une contrepartie financiere. La fiche retient que cette clause n'est pas pensee comme une sanction anticipee du depart, mais comme une restriction exceptionnelle et compensee."
+          },
+          {
+            "titre": "Les effets de la non-concurrence montrent qu'une clause valable peut encore etre neutralisee ou sanctionnee",
+            "contenu": "Le document ne s'arrete pas aux conditions de validite. Il suit aussi la vie pratique de la clause apres la rupture du contrat. L'employeur peut y renoncer selon les formes prevues, tandis que sa violation par le salarie ouvre la voie a des sanctions ou a la restitution de la contrepartie. La fiche souligne ici une idee utile : en droit du travail, la question n'est jamais seulement de savoir si une clause existe, mais comment elle est mise en oeuvre."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le contrat de travail ne se traite-t-il pas comme un contrat ordinaire pour ses clauses ?",
+          "reponse": "Parce qu'il doit respecter les libertes fondamentales du salarie et l'ordre public social propre au droit du travail.",
+          "explication": "La seance relit la liberte contractuelle a travers la relation de subordination et le principe de faveur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la periode d'essai est-elle classee parmi les clauses qui facilitent la rupture ?",
+          "reponse": "Parce qu'elle permet a l'employeur comme au salarie de rompre plus librement le contrat au debut de la relation.",
+          "explication": "Le document la presente comme le principal mecanisme de rupture simplifiee inscrit dans le contrat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la clause resolutoire reste-t-elle marginale en droit du travail ?",
+          "reponse": "Parce que la rupture du contrat de travail ne peut pas etre abandonnee trop facilement a un automatisme contractuel.",
+          "explication": "La logique protectrice du droit du travail limite fortement l'importation pure du droit commun des contrats.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle est la premiere condition de validite d'une clause de dedi-formation ?",
+          "reponse": "Elle doit correspondre a une formation reelle financee par l'employeur au-dela de ses obligations normales.",
+          "explication": "La clause n'est pas admise si elle ne fait que dissuader le depart sans veritable investissement particulier.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le montant du dedi-formation doit-il etre proportionne ?",
+          "reponse": "Parce qu'il ne doit pas transformer la clause en obstacle excessif a la demission du salarie.",
+          "explication": "Le document rattache cette exigence a la protection de la liberte du travail.",
+          "difficulte": 2
+        },
+        {
+          "question": "A quoi sert une clause de garantie d'emploi ?",
+          "reponse": "A empecher ou limiter certaines ruptures pendant une periode determinee.",
+          "explication": "La seance la distingue des clauses qui facilitent la rupture en montrant qu'elle protege la stabilite du lien contractuel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi une clause d'exclusivite ne peut-elle pas etre generale sans justification ?",
+          "reponse": "Parce qu'elle porte atteinte a la liberte de travailler et doit donc etre necessaire a l'interet legitime de l'entreprise.",
+          "explication": "La fiche rapproche son controle de celui des clauses les plus restrictives pour le salarie.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quand une clause de residence a-t-elle une chance d'etre admise ?",
+          "reponse": "Lorsqu'une proximite geographique est objectivement necessaire a l'exercice des fonctions du salarie.",
+          "explication": "Le document vise surtout des emplois ou la presence rapide sur site est indispensable.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelles sont les conditions essentielles d'une clause de non-concurrence valable ?",
+          "reponse": "Elle doit proteger un interet legitime, etre limitee, tenir compte de l'emploi occupe et prevoir une contrepartie financiere.",
+          "explication": "La seance presente cette clause comme le point de rencontre entre protection de l'entreprise et liberte du travail.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la renonciation de l'employeur a la clause de non-concurrence est-elle importante ?",
+          "reponse": "Parce qu'elle peut liberer le salarie de la restriction tout en supprimant la contrepartie dans les conditions prevues.",
+          "explication": "Le document montre que la clause continue de produire des enjeux apres la rupture du contrat.",
+          "difficulte": 3
+        }
+      ]
+    },
+    {
+      "document_id": 1092,
+      "fiche": {
+        "titre": "Execution du contrat de travail : modification, pouvoir de direction et suspension du lien contractuel",
+        "resume": "Cette seance met en place l'une des grandes distinctions du droit du travail : ce qui releve du consentement contractuel et ce qui releve du pouvoir de direction de l'employeur. La fiche en retient une idee directrice : la vie du contrat n'est pas figee, mais toute evolution n'a pas la meme nature ni les memes consequences. Selon que l'on touche au contrat lui-meme, aux conditions de travail ou a une periode de suspension, le droit distribue differemment le pouvoir d'imposer, de refuser et de proteger.",
+        "sections": [
+          {
+            "titre": "La distinction entre modification du contrat et changement des conditions de travail structure tout le contentieux",
+            "contenu": "Le document rappelle d'abord que le contrat de travail reste soumis au principe de force obligatoire. Un element contractuel ne peut donc pas etre modifie unilateralement. Mais la relation de travail place aussi l'employeur a la tete d'un pouvoir de direction. La fiche retient que toute la difficulte consiste a tracer la ligne entre ce qui exige un accord et ce qui peut s'imposer comme simple changement des conditions de travail."
+          },
+          {
+            "titre": "La qualification depend moins des mots employes que de la nature concrete de l'element touche",
+            "contenu": "La seance passe en revue la remuneration, la duree du travail, le lieu de travail, la mobilite et les horaires. Tous ces themes montrent que la solution ne depend pas d'une etiquette abstraite. Elle depend du degre d'ancrage de l'element dans le contrat et du point de savoir s'il engage un veritable consentement initial du salarie. La fiche insiste ainsi sur une methode : il faut toujours repartir de la substance de l'avantage ou de la contrainte en cause."
+          },
+          {
+            "titre": "La remuneration et certains choix de vie du salarie demeurent des points de resistance forts au pouvoir unilateral",
+            "contenu": "Le cours souligne que la remuneration est par principe un element contractuel. Il montre aussi qu'un lieu de travail ou des horaires peuvent devenir contractuels lorsqu'ils ont ete voulus comme determinants. La clause de mobilite permet parfois a l'employeur de deplacer le centre de gravite du raisonnement, mais seulement si elle a ete valablement convenue et mise en oeuvre dans l'interet de l'entreprise. La fiche retient ici que le pouvoir de direction ne vaut jamais cheque en blanc."
+          },
+          {
+            "titre": "Le refus du salarie ne produit pas les memes effets selon que la mesure touche le contrat ou seulement son execution",
+            "contenu": "Si l'employeur modifie un element du contrat, le salarie peut refuser sans que le changement s'impose a lui. Si l'on est seulement face a un changement des conditions de travail, le refus expose davantage a une reponse disciplinaire ou a une rupture. La fiche insiste sur ce point, central en pratique : toute la portee du litige se joue souvent dans la qualification prealable de la mesure contestee."
+          },
+          {
+            "titre": "La suspension du contrat montre enfin qu'un lien de travail peut survivre a l'arret temporaire de ses obligations principales",
+            "contenu": "La fin de la seance bascule vers les causes et les effets de la suspension du contrat. Maladie, matern ite, evenements lies a l'employeur ou a la loi peuvent interrompre temporairement l'execution sans faire disparaitre le lien contractuel. La fiche retient que la suspension n'est pas une parenthese vide : elle redistribue les obligations, preserve certains droits et ouvre parfois des protections renforcees contre la rupture."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la distinction entre modification du contrat et changement des conditions de travail est-elle decisive ?",
+          "reponse": "Parce qu'elle determine si l'employeur doit obtenir l'accord du salarie ou peut agir unilateralement.",
+          "explication": "La seance en fait la cle de lecture de l'execution du contrat de travail.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel principe explique qu'un element du contrat ne puisse pas etre modifie unilateralement ?",
+          "reponse": "Le principe de force obligatoire du contrat.",
+          "explication": "Le document rappelle que le contrat de travail reste un contrat malgre la relation de subordination.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'employeur peut-il parfois imposer un changement sans obtenir l'accord du salarie ?",
+          "reponse": "Parce que certaines mesures relevent seulement de son pouvoir de direction et des conditions de travail.",
+          "explication": "La fiche oppose ici pouvoir de direction et modification du contrat stricto sensu.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la remuneration est-elle en principe un element contractuel sensible ?",
+          "reponse": "Parce qu'elle fait partie du coeur de l'accord initial et ne peut pas etre librement modifiee par l'employeur.",
+          "explication": "Le document en fait l'un des meilleurs exemples d'element relevant du consentement contractuel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quand le lieu de travail cesse-t-il d'etre un simple cadre d'execution pour devenir un element contractuel ?",
+          "reponse": "Lorsqu'il a ete voulu comme determinant ou lorsque le changement sort du secteur geographique pertinent.",
+          "explication": "La seance montre que la qualification depend ici des circonstances concretes et du contrat.",
+          "difficulte": 3
+        },
+        {
+          "question": "A quelles conditions une clause de mobilite peut-elle etre utilement invoquee ?",
+          "reponse": "Elle doit avoir ete valablement convenue et etre mise en oeuvre dans l'interet de l'entreprise.",
+          "explication": "La fiche rappelle que la clause ne legitime pas n'importe quel deplacement.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi les horaires de travail ne sont-ils pas toujours traites de la meme facon ?",
+          "reponse": "Parce qu'ils peuvent relever du pouvoir de direction ou devenir contractuels selon leur role dans l'accord initial.",
+          "explication": "Le document cite notamment des cas particuliers comme le temps partiel ou les horaires determinant la volonte du salarie.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que signifie le refus d'une veritable modification du contrat par le salarie ?",
+          "reponse": "Que le changement ne peut pas lui etre impose tel quel sans base juridique supplementaire.",
+          "explication": "La qualification protege ici le pouvoir de consentement du salarie.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que devient le contrat pendant une suspension ?",
+          "reponse": "Le lien contractuel subsiste alors meme que les obligations principales d'execution sont temporairement arretees.",
+          "explication": "La seance montre que la suspension se distingue a la fois de l'execution normale et de la rupture.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les periodes de maternite sont-elles importantes dans l'etude de la suspension ?",
+          "reponse": "Parce qu'elles illustrent une suspension accompagnee de protections renforcees contre la rupture.",
+          "explication": "Le document s'en sert pour montrer que la suspension peut produire des effets tres protecteurs.",
+          "difficulte": 3
+        }
+      ]
+    },
+    {
+      "document_id": 1093,
+      "fiche": {
+        "titre": "Transfert d'entreprise et suspension du contrat : la continuite du lien de travail malgre les ruptures apparentes",
+        "resume": "Cette seance prolonge l'etude de l'execution du contrat en examinant deux hypotheses ou la relation de travail semble vaciller sans necessairement disparaitre : le changement d'employeur et l'arret temporaire de l'activite. La fiche en retient une idee directrice : le droit du travail cherche a maintenir la continuite du lien contractuel chaque fois qu'une organisation economique ou un evenement personnel ne justifie pas sa disparition. Cette logique explique a la fois la force de l'article L. 1224-1 et le regime de la suspension.",
+        "sections": [
+          {
+            "titre": "Le transfert d'entreprise repose sur une logique de continuite plus que sur une logique de rupture",
+            "contenu": "Le document presente l'article L. 1224-1 comme un mecanisme de conservation des contrats de travail lorsque l'activite passe d'un employeur a un autre. L'idee n'est pas de remettre les compteurs a zero, mais d'assurer la poursuite de la relation avec le nouvel employeur. La fiche retient que cette technique protege les salaries contre le risque de perdre leur contrat du seul fait d'une reorganisation economique."
+          },
+          {
+            "titre": "Ce qui compte n'est pas la forme juridique du transfert mais l'existence d'une entite economique autonome conservant son identite",
+            "contenu": "La seance insiste sur le critere materialiste du transfert. Vente, fusion, externalisation ou autre montage importent moins que le point de savoir si un ensemble organise de moyens, poursuivant la meme activite, passe reellement d'une main a l'autre. La fiche souligne que le droit de l'Union europeenne a pousse le droit francais a raisonner au-dela du seul lien juridique entre employeurs successifs."
+          },
+          {
+            "titre": "Les effets du transfert pesent lourdement sur le nouvel employeur",
+            "contenu": "Une fois le transfert caracterise, le nouvel employeur reprend les contrats en cours et les obligations qui y sont attachees. Le document montre que le transfert lui-meme ne peut pas servir de pretexte a un licenciement. La fiche en tire une lecon pratique forte : l'employeur entrant herite d'une relation de travail deja chargee d'anciennete, de droits et de contraintes."
+          },
+          {
+            "titre": "La suspension du contrat traduit une autre forme de continuite, cette fois sans execution immediate des obligations principales",
+            "contenu": "La deuxieme partie du document traite des situations dans lesquelles le contrat n'est ni pleinement execute ni rompu. Maladie, maternite, evenements lies a l'entreprise ou causes prevues par la loi ou la convention collective peuvent suspendre le contrat. La fiche retient que la suspension ne nie pas le lien contractuel : elle en modifie provisoirement le regime."
+          },
+          {
+            "titre": "Les effets de la suspension varient selon sa cause mais preservent souvent des protections essentielles",
+            "contenu": "Le cours montre que la suspension n'emporte pas partout les memes consequences. La remuneration, l'anciennete, le retour dans l'emploi ou la protection contre le licenciement ne sont pas affectes de maniere uniforme. La fiche insiste sur l'exemple de la maternite, qui illustre une suspension accompagnee d'une protection forte et etagee contre la rupture du contrat."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel est l'objectif principal de l'article L. 1224-1 du Code du travail ?",
+          "reponse": "Assurer la poursuite des contrats de travail quand une activite est reprise par un nouvel employeur.",
+          "explication": "La seance presente ce texte comme un instrument de continuite de la relation de travail.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la forme juridique du transfert ne suffit-elle pas a resoudre l'application de L. 1224-1 ?",
+          "reponse": "Parce qu'il faut verifier en pratique si une entite economique autonome conserve son identite et son activite.",
+          "explication": "Le document adopte une approche concretement economique du transfert.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'une entite economique autonome dans cette matiere ?",
+          "reponse": "Un ensemble organise de moyens permettant l'exercice d'une activite determinee et susceptible d'etre poursuivie.",
+          "explication": "La fiche montre que le transfert porte moins sur un titre juridique que sur une organisation economique identifiable.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi le droit de l'Union a-t-il ete important dans l'evolution du transfert d'entreprise ?",
+          "reponse": "Parce qu'il a conduit a depasser une lecture trop stricte exigeant un simple lien de droit entre employeurs successifs.",
+          "explication": "Le document souligne l'influence structurante de la jurisprudence europeenne sur le droit francais.",
+          "difficulte": 3
+        },
+        {
+          "question": "Que reprend en principe le nouvel employeur lorsqu'un transfert est caracterise ?",
+          "reponse": "Les contrats de travail en cours avec les droits et obligations qui leur sont attaches.",
+          "explication": "La seance insiste sur la continuite de la relation et non sur sa reconstitution a neuf.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le transfert d'entreprise ne peut-il pas, a lui seul, justifier un licenciement ?",
+          "reponse": "Parce que le mecanisme legal a justement pour fonction d'eviter que le changement d'employeur efface les contrats en cours.",
+          "explication": "La fiche oppose la logique de reprise a celle d'une purge des effectifs.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie la suspension du contrat de travail ?",
+          "reponse": "Le contrat subsiste, mais ses obligations principales d'execution sont temporairement arretees ou alterees.",
+          "explication": "Le document distingue nettement suspension et rupture du contrat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Les causes de suspension viennent-elles toutes du salarie ?",
+          "reponse": "Non, elles peuvent venir du salarie, de l'employeur, de la loi, de la convention collective ou de la jurisprudence.",
+          "explication": "La seance dresse un tableau large des sources possibles de la suspension.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la maternite occupe-t-elle une place particuliere dans l'etude de la suspension ?",
+          "reponse": "Parce qu'elle combine suspension du contrat et protection renforcee contre la rupture.",
+          "explication": "Le document s'en sert comme exemple fort d'un regime protecteur gradue.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale relie transfert d'entreprise et suspension du contrat ?",
+          "reponse": "Dans les deux cas, le droit du travail cherche a maintenir la continuite du lien contractuel malgre un changement ou un arret.",
+          "explication": "La fiche relie ces regimes autour d'une meme logique de stabilisation de la relation de travail.",
+          "difficulte": 3
+        }
+      ]
+    },
+    {
+      "document_id": 1094,
+      "flashcards": [
+        {
+          "question": "Pourquoi le reglement interieur occupe-t-il une place centrale dans le cadre d'execution du contrat de travail ?",
+          "reponse": "Parce qu'il formalise l'exercice du pouvoir reglementaire de l'employeur a l'echelle collective de l'entreprise.",
+          "explication": "La seance en fait le support principal des regles generales de discipline et de securite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel type de contenu doit necessairement figurer dans un reglement interieur ?",
+          "reponse": "Les mesures relatives a l'hygiene et a la securite, les regles disciplinaires et les garanties des droits de la defense.",
+          "explication": "Le document distingue ainsi le contenu impose du contenu simplement envisage par l'employeur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi certaines clauses sont-elles exclues du reglement interieur ?",
+          "reponse": "Parce qu'elles sortent de son domaine ou parce qu'elles ne respectent pas les exigences de legalite et de proportion.",
+          "explication": "La seance rappelle qu'un reglement interieur ne peut pas devenir un instrument normatif sans bornes.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelles sont les grandes etapes d'elaboration du reglement interieur ?",
+          "reponse": "Sa redaction, la consultation des instances competentes et sa communication a l'inspecteur du travail.",
+          "explication": "Le document montre que l'acte unilateral reste entoure de controles prealables.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel pouvoir exerce l'inspecteur du travail sur le reglement interieur ?",
+          "reponse": "Il peut demander le retrait, la modification ou l'ajout de certaines dispositions.",
+          "explication": "La fiche souligne que le controle administratif ne se limite pas a un role d'enregistrement.",
+          "difficulte": 3
+        },
+        {
+          "question": "Qu'est-ce qu'une sanction disciplinaire au sens de cette seance ?",
+          "reponse": "Une mesure autre qu'une simple observation verbale prise par l'employeur a raison d'un comportement qu'il juge fautif.",
+          "explication": "Le document en donne une definition precise pour distinguer sanction et simple remontrance.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi une simple observation verbale n'est-elle pas une sanction disciplinaire ?",
+          "reponse": "Parce qu'elle n'affecte pas par elle-meme la presence, la fonction, la carriere ou la remuneration du salarie.",
+          "explication": "La seance reserve la qualification de sanction a des mesures ayant une portee juridique plus nette.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel principe interdit de sanctionner deux fois le salarie pour les memes faits ?",
+          "reponse": "Le principe selon lequel l'employeur ne peut pas punir a nouveau sans griefs nouveaux.",
+          "explication": "La fiche rappelle ici une borne classique du droit disciplinaire.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelles sont les trois grandes etapes de la procedure disciplinaire ?",
+          "reponse": "La convocation, l'entretien prealable et la phase posterieure a l'entretien avec la decision de l'employeur.",
+          "explication": "Le document souligne que le droit disciplinaire reprend un chemin procedural tres formalise.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que controle le juge lorsqu'une sanction disciplinaire est contestee ?",
+          "reponse": "La realite des faits, le respect de la procedure et la proportion entre la faute et la sanction.",
+          "explication": "La seance presente ce triple controle comme la cle du contentieux disciplinaire.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1095,
+      "fiche": {
+        "titre": "Licenciement pour motif personnel : procedure, cause reelle et serieuse et suites de la rupture",
+        "resume": "Cette seance ouvre l'etude de la resiliation du contrat de travail par l'employeur. La fiche en retient une idee directrice : le licenciement pour motif personnel n'est pas seulement une decision de gestion, mais un acte juridique fortement encadre par la procedure, par l'exigence d'une cause reelle et serieuse et par tout un ensemble de consequences indemnitaires ou transactionnelles. L'employeur peut rompre, mais il doit pouvoir expliquer, prouver et assumer juridiquement cette rupture.",
+        "sections": [
+          {
+            "titre": "Le licenciement pour motif personnel se comprend d'abord comme une rupture a l'initiative de l'employeur",
+            "contenu": "Le document commence par situer le licenciement dans l'ensemble des modes de rupture du contrat de travail. Sa specificite tient au fait qu'il procede de l'employeur et qu'il repose sur un motif lie a la personne du salarie, qu'il soit disciplinaire ou non. La fiche retient que cette qualification entraine tout un regime distinct du licenciement economique."
+          },
+          {
+            "titre": "La procedure de licenciement sert a organiser un temps de confrontation avant la rupture",
+            "contenu": "Convocation, entretien prealable et notification structurent la seance. Le formalisme n'a rien d'accessoire : il informe le salarie, lui permet de se faire assister et oblige l'employeur a clarifier son projet de rupture. La fiche insiste sur cette fonction de mise en ordre du conflit avant la decision finale."
+          },
+          {
+            "titre": "L'irregularite procedurale ne se confond pas avec l'absence de motif valable",
+            "contenu": "Le document distingue nettement la procedure mal conduite du licenciement depourvu de cause reelle et serieuse. Une erreur de forme peut etre sanctionnee sans faire disparaitre automatiquement tout motif de fond. La fiche retient ainsi que le contentieux du licenciement oblige a separer les plans : regularite de la demarche, puis justification de la rupture."
+          },
+          {
+            "titre": "La cause reelle et serieuse exige des faits etablis et suffisamment graves pour justifier la rupture",
+            "contenu": "Le cours revient sur les deux composantes classiques de la cause. Elle doit etre reelle, donc verifiable et objective, et serieuse, donc assez importante pour rendre la poursuite du contrat impossible ou inappropriee. La fiche ajoute un point devenu essentiel : la preuve employee par l'employeur doit elle aussi se laisser controler, notamment lorsqu'elle touche aux droits fondamentaux du salarie."
+          },
+          {
+            "titre": "La rupture ouvre enfin une serie de suites juridiques qui ne se reduisent pas a l'arret du travail",
+            "contenu": "Preavis, indemnites, eventuelle contestation et transaction apres la rupture forment le dernier temps du document. La fiche retient que le licenciement est un evenement juridique a prolongements multiples : il ne se mesure pas seulement au moment de la notification, mais aussi a la maniere dont on regle ses consequences financieres et contentieuses."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Qu'est-ce qui distingue d'abord le licenciement pour motif personnel du licenciement economique ?",
+          "reponse": "Le premier repose sur un motif lie a la personne du salarie, alors que le second est non inherent a sa personne.",
+          "explication": "La seance pose cette distinction des l'introduction du chapitre sur le licenciement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la convocation a l'entretien prealable est-elle une etape essentielle ?",
+          "reponse": "Parce qu'elle informe le salarie de la procedure envisagee et ouvre le temps du debat avant toute decision.",
+          "explication": "Le document insiste sur les mentions obligatoires et sur la fonction protectrice de la convocation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que doit notamment rappeler la lettre de convocation a l'entretien prealable ?",
+          "reponse": "La date, l'heure, le lieu et la possibilite pour le salarie de se faire assister.",
+          "explication": "La seance detaille ces exigences formelles comme garanties elementaires de la procedure.",
+          "difficulte": 2
+        },
+        {
+          "question": "A quoi sert l'entretien prealable dans un licenciement pour motif personnel ?",
+          "reponse": "A permettre a l'employeur d'exposer les raisons envisagees et au salarie de presenter ses explications.",
+          "explication": "Le document en fait un moment de confrontation contradictoire avant la rupture.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi faut-il distinguer licenciement irregulier et licenciement sans cause reelle et serieuse ?",
+          "reponse": "Parce qu'une faute de procedure ne signifie pas forcement que le motif de fond est inexistant.",
+          "explication": "La fiche separe clairement le plan de la forme et celui de la justification materielle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'une cause reelle de licenciement ?",
+          "reponse": "Un motif objectivement verifiable et appuye sur des faits precis.",
+          "explication": "Le document oppose la cause reelle aux impressions vagues ou aux allegations insuffisantes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'une cause serieuse de licenciement ?",
+          "reponse": "Un motif suffisamment important pour justifier la rupture du contrat de travail.",
+          "explication": "La seance rattache cette idee au degre de gravite du comportement ou de la situation reprochee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quand une preuve portant atteinte aux droits du salarie peut-elle encore etre prise en compte ?",
+          "reponse": "Lorsqu'elle est indispensable a l'exercice des droits du justiciable et qu'elle ne porte pas une atteinte disproportionnee aux droits fondamentaux de l'autre partie.",
+          "explication": "Le document integre ici la jurisprudence recente sur la preuve illicite ou deloyale en matiere sociale.",
+          "difficulte": 3
+        },
+        {
+          "question": "A quoi correspond le preavis apres notification du licenciement ?",
+          "reponse": "A la periode pendant laquelle le contrat continue en principe de produire ses effets avant sa fin definitive.",
+          "explication": "La fiche rappelle que la rupture n'efface pas immediatement toutes les obligations du contrat.",
+          "difficulte": 2
+        },
+        {
+          "question": "A quelles conditions une transaction conclue apres licenciement est-elle valable ?",
+          "reponse": "Elle doit intervenir dans un contexte de litige et comporter de veritables concessions reciproques.",
+          "explication": "Le document presente la transaction comme un mode de reglement conventionnel du contentieux de la rupture.",
+          "difficulte": 3
+        }
+      ]
+    }
+  ]
+}
