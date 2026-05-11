@@ -1,0 +1,299 @@
+{
+  "documents": [
+    {
+      "document_id": 1098,
+      "flashcards": [
+        {
+          "question": "Pourquoi l'ouverture historique du cours de DUE est-elle decisive pour comprendre la matiere ?",
+          "reponse": "Parce qu'elle montre que le droit de l'Union nait d'un projet politique progressif avant de devenir un ordre juridique integre.",
+          "explication": "Cette carte complete la fiche existante en ramenant l'introduction du cours a sa fonction de mise en perspective.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1099,
+      "flashcards": [
+        {
+          "question": "Que montre le passage de la CECA au traite de Maastricht dans l'introduction generale de DUE ?",
+          "reponse": "Qu'une integration d'abord sectorielle et economique a progressivement prepare une integration plus politique et monetaire.",
+          "explication": "Cette carte ajoute un point de continuit e historique absent des neuf cartes deja presentes.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1103,
+      "fiche": {
+        "titre": "Revision des traites et logique institutionnelle de l'Union : jusqu'ou renforcer le Parlement sans changer de regime",
+        "resume": "Ce document discute la proposition du Parlement europeen de reviser les traites pour renforcer son propre role. La fiche en retient une idee directrice : la question n'est pas seulement de savoir s'il faut plus de democratie represent ative, mais de mesurer ce que ce renforcement ferait a l'architecture particuliere de l'Union. Plus le Parlement revendique des attributs proches d'un veritable legislateur etatique, plus la singularite de l'equilibre institutionnel europeen est mise a l'epreuve.",
+        "sections": [
+          {
+            "titre": "La proposition de revision part d'un besoin d'adaptation de l'Union a des crises nouvelles",
+            "contenu": "Le document replace la resolution du Parlement dans une sequence de crises et de remises en question de l'Union. Conflits exterieurs, perspective d'elargissement et pression sur l'efficacite decisionnelle servent de toile de fond a la demande de revision. La fiche retient que la reforme est presentee comme une reponse fonctionnelle a un environnement plus instable."
+          },
+          {
+            "titre": "Le coeur de la proposition consiste a hisser le Parlement vers une place plus centrale dans la production normative",
+            "contenu": "Le texte insiste sur la revendication d'un droit d'initiative legislative et sur un role accru dans la designation du president de la Commission. Ces demandes visent a rapprocher l'Union d'un schema ou la legitimite electorale pese davantage sur la direction politique. La fiche retient que la democratisation invoquee passe surtout par une montee en puissance de la chambre representative."
+          },
+          {
+            "titre": "Ce deplacement heurte frontalement le partage des fonctions propre a l'Union",
+            "contenu": "Le document souligne que la Commission ne tient pas seulement un role technique, mais une place centrale dans l'initiative et dans la defense de l'interet general de l'Union. Accorder au Parlement des prerogatives analogues reviendrait a modifier l'equilibre entre representation des citoyens, representation des Etats et fonction d'impulsion de la Commission. La fiche y voit un debat sur la nature du systeme europeen, pas sur un simple ajustement de procedure."
+          },
+          {
+            "titre": "La reforme revele une tentation d'etatiser le fonctionnement de l'Union",
+            "contenu": "Le document montre qu'en voulant politiser davantage la Commission et renforcer le Parlement, la proposition glisse vers des categories proches de celles d'un regime parlementaire etatique. Or l'Union reste construite sur une repartition des fonctions plus que sur une separation classique des pouvoirs. La fiche retient que ce deplacement peut apparaitre coherent a certains, mais qu'il transforme en profondeur la logique originelle de l'integration."
+          },
+          {
+            "titre": "L'obstacle final demeure la lourdeur politique d'une revision des traites aussi ambitieuse",
+            "contenu": "Le texte rappelle que des propositions aussi structurantes supposent l'accord des Etats et des ratifications unanimes. Plus la revision touche aux competences, aux institutions et aux rapports de force, plus elle se heurte a la prudence des gouvernements. La fiche en tire une conclusion simple : l'ambition reformiste se mesure aussi a sa capacite a franchir le filtre interetatique."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la proposition de revision des traites est-elle rattachee a un contexte de crises ?",
+          "reponse": "Parce qu'elle est presentee comme un moyen de rendre l'Union plus apte a reagir a de nouveaux defis politiques et geopolitiques.",
+          "explication": "Le document relie la reforme institutionnelle a la recherche d'une meilleure capacite de reponse.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel renforcement majeur du Parlement est mis au centre du document ?",
+          "reponse": "La revendication d'un role plus fort dans l'initiative legislative et dans la designation du president de la Commission.",
+          "explication": "La fiche fait de ce double mouvement le coeur de la reforme envisagee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le droit d'initiative legislative est-il un enjeu si sensible dans l'Union ?",
+          "reponse": "Parce qu'il touche a la place institutionnelle de la Commission et au partage des fonctions entre les institutions.",
+          "explication": "Le document montre qu'il ne s'agit pas d'une simple question d'efficacite procedurale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que cherche a mettre en avant l'argument de democratisation du Parlement ?",
+          "reponse": "L'idee que l'institution elue directement devrait peser davantage sur l'orientation politique de l'Union.",
+          "explication": "Le texte rattache ce raisonnement a la legitimite representative des deputes europeens.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le renforcement du Parlement ne se reduit-il pas a un simple ajustement technique ?",
+          "reponse": "Parce qu'il modifie l'equilibre entre Commission, Conseil et Parlement et donc la structure meme du systeme europeen.",
+          "explication": "La fiche insiste sur la profondeur institutionnelle du debat.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role de la Commission serait particulierement fragilise par cette reforme ?",
+          "reponse": "Son role d'impulsion et de gardienne de l'interet general de l'Union.",
+          "explication": "Le document souligne que la Commission n'est pas seulement un secretariat du processus normatif.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi parle-t-on ici d'une tentation d'etatiser l'Union ?",
+          "reponse": "Parce que la reforme transpose a l'Union des categories proches du parlementarisme etatique classique.",
+          "explication": "La fiche oppose ce mouvement a la logique propre de repartition des fonctions de l'Union.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel lien existe entre reforme institutionnelle et extension des competences dans ce document ?",
+          "reponse": "Les deux mouvements se renforcent mutuellement en poussant l'Union vers une forme d'approfondissement plus politique.",
+          "explication": "Le texte ne se limite pas a la question du Parlement, mais l'insere dans une transformation plus large.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi une telle revision reste-t-elle politiquement difficile a realiser ?",
+          "reponse": "Parce qu'elle suppose un consentement etatique tres large et des ratifications unanimes.",
+          "explication": "Le document rappelle que la volonte reformiste se heurte au verrou intergouvernemental.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette copie ?",
+          "reponse": "Renforcer le Parlement peut sembler democratique, mais cela peut aussi faire basculer l'Union vers un modele institutionnel d'une autre nature.",
+          "explication": "La fiche resitue la reforme au croisement de l'efficacite, de la legitimite et de la nature du projet europeen.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1106,
+      "fiche": {
+        "titre": "Motion de censure contre la Commission : responsabilite politique forte en theorie, outil surtout dissuasif en pratique",
+        "resume": "Ce devoir substituable etudie l'article 119 du reglement interieur du Parlement europeen relatif a la motion de censure. La fiche en retient une idee directrice : la motion de censure consacre clairement la responsabilite politique de la Commission devant le Parlement, mais elle est encadree de telle sorte qu'elle fonctionne plus souvent comme un instrument de pression que comme un mecanisme de renversement effectivement mobilisable. Le regime combine donc forte charge democratique et faible probabilite de succes.",
+        "sections": [
+          {
+            "titre": "La motion de censure exprime la responsabilite politique collegiale de la Commission",
+            "contenu": "Le document repart du souvenir de la crise de 1999 pour montrer la fonction symbolique et constitutionnelle de la motion de censure. Il ne s'agit pas d'une sanction individuelle, mais d'un controle dirige contre la Commission comme organe. La fiche retient que cet outil place le Parlement dans une position de gardien de la legitimite democratique de l'Union."
+          },
+          {
+            "titre": "L'article 119 organise le role des deputes en fixant un acces reserve mais reel au declenchement de la procedure",
+            "contenu": "Le texte souligne qu'un seuil de signatures est exige pour le depot de la motion, ce qui reserve l'initiative aux deputes tout en evitant des saisines trop triviales. L'obligation de motivation et la transmission a la Commission structurent egalement la procedure. La fiche retient que le Parlement cherche ici a rationaliser un pouvoir de controle potentiellement explosif."
+          },
+          {
+            "titre": "Le deroulement de la motion met en scene une procedure exceptionnelle et publique",
+            "contenu": "Annonce, delais, debat et vote nominal composent une procedure plus lourde qu'un simple vote politique ordinaire. Le document insiste sur la publicite et sur la tra cabilite du choix de chaque depute. La fiche y voit moins un simple detail procedural qu'une maniere de marquer le caractere grave d'une mise en cause de la Commission dans son ensemble."
+          },
+          {
+            "titre": "La double majorite explique pourquoi la motion reussit rarement en pratique",
+            "contenu": "La condition de succes est redoutable, puisqu'il faut a la fois une forte majorite des suffrages exprimes et une majorite absolue des membres. Le texte montre que ce verrou, ajoute au fonctionnement souvent consensualiste du Parlement, rend la censure difficile a faire aboutir. La fiche retient que le droit organise un controle politique reel, mais non a bas cout."
+          },
+          {
+            "titre": "La motion garde pourtant une force strategique comme menace credible de responsabilisation",
+            "contenu": "Le document souligne que meme sans succes formel, la motion peut servir de levier, seule ou combinee a d'autres instruments comme les commissions d'enquete. La fiche insiste donc sur sa fonction pratique la plus forte : non pas faire tomber regulierement la Commission, mais la contraindre a tenir compte du regard parlementaire et du risque reput ationnel et politique."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle fonction politique generale remplit la motion de censure dans l'Union ?",
+          "reponse": "Elle permet au Parlement d'engager la responsabilite politique de la Commission dans son ensemble.",
+          "explication": "Le document rattache cet outil a la legitimite democratique de l'Union.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la crise de la Commission Santer reste-t-elle importante pour comprendre la motion de censure ?",
+          "reponse": "Parce qu'elle illustre la portee politique maximale de cet outil de controle, meme sans mecanisme banal de renversement.",
+          "explication": "La fiche s'appuie sur cet episode pour rappeler le poids symbolique du dispositif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la motion de censure vise-t-elle la Commission et non un commissaire isole ?",
+          "reponse": "Parce que la responsabilite politique mise en jeu est collegiale et porte sur l'organe dans son ensemble.",
+          "explication": "Le document insiste sur cette dimension collective du mecanisme.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'effet du seuil minimal de deputes requis pour deposer la motion ?",
+          "reponse": "Il reserve l'initiative a un noyau parlementaire significatif et filtre les demarches trop faciles.",
+          "explication": "La seance y voit un moyen de rationaliser l'ouverture de la procedure.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'obligation de motivation de la motion est-elle importante ?",
+          "reponse": "Parce qu'elle force les deputes a expliciter leurs griefs et rend la procedure plus transparente pour la Commission comme pour le Parlement.",
+          "explication": "Le document relie la motivation a une logique de clarification du debat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel sens donner au vote nominal prevu pour la motion de censure ?",
+          "reponse": "Il rend visible la position de chaque depute et souligne le caractere grave du vote.",
+          "explication": "La fiche montre que la forme du vote participe elle-meme a l'exceptionnalite de la procedure.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la motion de censure a-t-elle peu de chances d'aboutir ?",
+          "reponse": "Parce qu'elle exige une double majorite tres elevee qui s'accorde mal avec le fonctionnement souvent consensuel du Parlement europeen.",
+          "explication": "Le document presente ce verrou comme l'une des raisons majeures de la rarete des succes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi dit-on que la motion a surtout un role dissuasif ?",
+          "reponse": "Parce qu'elle peut faire pression sur la Commission meme lorsqu'elle n'a que peu de chances d'etre adoptee jusqu'au bout.",
+          "explication": "La fiche insiste sur sa valeur strategique plus que sur son rendement statistique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Avec quels autres outils parlementaires la motion peut-elle etre combinee ?",
+          "reponse": "Avec d'autres instruments de controle, comme des commissions d'enquete ou des formes de pression politique complementaire.",
+          "explication": "Le document montre que son efficacite pratique tient souvent a cette combinaison.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "La motion de censure affirme fortement la responsabilite politique de la Commission, mais son encadrement en fait surtout une menace institutionnelle plutot qu'une sanction frequente.",
+          "explication": "La fiche articule ainsi symbolique democratique et faible probabilite de renversement effectif.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1107,
+      "fiche": {
+        "titre": "Pouvoir d'amendement du Conseil et initiative de la Commission : l'arret Acte de Geneve protege l'equilibre institutionnel",
+        "resume": "Ce devoir obligatoire commente l'arret Commission c. Conseil sur l'adhesion a l'Acte de Geneve. La fiche en retient une idee directrice : le Conseil peut modifier une proposition de la Commission, mais non la transformer au point d'en contredire l'objet ou la finalite. Le controle juridictionnel de cette denaturation sert directement la protection du pouvoir d'initiative de la Commission, de l'equilibre institutionnel et, en matiere externe, de l'unite de representation de l'Union.",
+        "sections": [
+          {
+            "titre": "Le litige nait d'un conflit sur la portee d'une proposition de la Commission en matiere d'action externe",
+            "contenu": "Le document rappelle que la Commission souhaitait une adhesion de l'Union seule a l'Acte de Geneve, dans un domaine relevant de sa competence exclusive. Le Conseil a pourtant ajoute la possibilite pour les Etats membres d'adherer eux aussi. La fiche retient que le conflit portait moins sur un simple detail de redaction que sur l'identite meme du sujet appele a agir sur la scene internationale."
+          },
+          {
+            "titre": "L'article 293 TFUE doit etre lu a travers l'equilibre institutionnel et non comme un simple pouvoir d'amendement neutre",
+            "contenu": "La seance montre que la Cour ne traite pas le droit d'amendement du Conseil comme une habilitation autonome et sans borne. Elle le relie a l'article 13 TUE et au principe d'equilibre institutionnel. La fiche retient qu'amender oui, mais sans vider la proposition de sa substance ni empi eter sur la fonction d'initiative de la Commission."
+          },
+          {
+            "titre": "Le critere decisif devient la denaturation de l'objet ou de la finalite de la proposition",
+            "contenu": "La Cour raisonne de maniere concrete. Elle ne cherche pas seulement a savoir si la decision finale est differente de la proposition, mais si la modification emp e che la realisation de l'objectif poursuivi par la Commission. La fiche insiste sur ce point : le controle ne porte pas sur toute variation, mais sur le basculement substantiel qui prive la proposition de sa raison d'etre."
+          },
+          {
+            "titre": "En matiere externe, ce controle protege aussi l'unite de l'action internationale de l'Union",
+            "contenu": "Le document montre que le raisonnement prend une intensite particuliere lorsque l'Union agit dans un domaine de competence exclusive. Autoriser les Etats membres a intervenir parallelement brouillait l'expression unifiee de l'Union sur la scene internationale. La fiche retient que l'equilibre institutionnel et la cooperation loyale convergent ici vers une meme exigence de coherence externe."
+          },
+          {
+            "titre": "L'arret confirme enfin que la cooperation loyale fonctionne dans les deux sens sans neutraliser le controle de denaturation",
+            "contenu": "La seance rappelle que la Commission doit tenir compte des preoccupations du Conseil, mais que cette reciprocite n'autorise pas le Conseil a substituer sa propre politique a celle qui etait proposee. La fiche en tire une ligne claire : la cooperation loyale accompagne le jeu institutionnel, elle ne permet pas de renverser la logique du pouvoir d'initiative."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel etait le coeur du litige dans l'arret Commission c. Conseil sur l'Acte de Geneve ?",
+          "reponse": "La possibilite pour le Conseil d'ajouter l'adhesion des Etats membres a une proposition ou la Commission voulait que l'Union agisse seule.",
+          "explication": "Le document presente ce point comme le noeud de la contestation institutionnelle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'article 293 TFUE ne suffit-il pas a justifier n'importe quelle modification du Conseil ?",
+          "reponse": "Parce qu'il doit etre lu a la lumiere de l'equilibre institutionnel et du respect des prerogatives de la Commission.",
+          "explication": "La seance relie le pouvoir d'amendement a une structure institutionnelle plus large.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'une denaturation de la proposition de la Commission selon cette decision ?",
+          "reponse": "Une modification qui change l'objet ou la finalite de la proposition au point d'empecher la realisation de son objectif.",
+          "explication": "La fiche fait de ce critere concret le pivot du controle exerce par la Cour.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la Cour raisonne-t-elle sur l'objet et la finalite plutot que sur une simple difference formelle ?",
+          "reponse": "Parce qu'elle cherche l'effet reel de la modification et non sa seule distance textuelle avec la proposition initiale.",
+          "explication": "Le document souligne le caractere objectivement fonctionnel du controle de denaturation.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel role institutionnel de la Commission l'arret protege-t-il directement ?",
+          "reponse": "Son pouvoir d'initiative dans la definition de l'action de l'Union.",
+          "explication": "La seance montre que le controle de denaturation sert a preserver l'impulsion politique de la Commission.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la competence exclusive de l'Union renforce-t-elle ici la rigueur du controle ?",
+          "reponse": "Parce qu'elle exige une expression unifiee de l'Union et rend plus problematique l'intervention parallele des Etats membres.",
+          "explication": "Le document relie ce point a la coherence de l'action externe.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel lien l'arret etablit-il entre equilibre institutionnel et cooperation loyale ?",
+          "reponse": "Les deux principes imposent que chaque institution respecte les prerogatives de l'autre dans la procedure decisionnelle.",
+          "explication": "La fiche montre que la cooperation loyale n'est pas un principe decoratif, surtout en matiere internationale.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi l'ajout du Conseil etait-il problematique du point de vue de la representation internationale de l'Union ?",
+          "reponse": "Parce qu'il brouillait l'idee d'une seule voix de l'Union dans un domaine de competence exclusive.",
+          "explication": "Le document souligne l'enjeu d'unite de l'action externe europeenne.",
+          "difficulte": 2
+        },
+        {
+          "question": "La cooperation loyale empeche-t-elle tout desaccord entre Commission et Conseil ?",
+          "reponse": "Non, mais elle interdit qu'un des acteurs remplace la logique de l'autre au point de denaturer la proposition initiale.",
+          "explication": "La seance insiste sur le caractere bilateral mais borne de cette exigence.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cet arret ?",
+          "reponse": "Le Conseil peut ajuster une proposition, mais il ne peut pas en changer la logique profonde sans porter atteinte au role d'initiative de la Commission.",
+          "explication": "La fiche resume ainsi la protection jurisprudentielle de l'equilibre institutionnel.",
+          "difficulte": 2
+        }
+      ]
+    }
+  ]
+}
