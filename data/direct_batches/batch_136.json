@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1166,
+      "fiche": {
+        "titre": "Theorie generale des conflits de lois : situation internationale, lois concurrentes et impossibilite du cumul",
+        "resume": "Cette seance ouvre la partie consacree a la theorie generale des conflits de lois. La fiche en retient une idee directrice : un conflit de lois n'apparait pas simplement parce qu'un dossier touche plusieurs pays. Il suppose une situation internationalisee, plusieurs lois potentiellement pertinentes et l'impossibilite de les appliquer cumulativement. Le coeur du raisonnement est donc de transformer une pluralite de rattachements en une methode de choix juridique.",
+        "sections": [
+          {
+            "titre": "Le conflit de lois commence toujours par une situation dotee d'un element d'extranite",
+            "contenu": "Le document rappelle que la question ne nait qu'en presence d'une situation internationale. La fiche retient que l'internationalite peut etre objective, lorsqu'elle s'impose quel que soit le point de vue du juge, ou subjective, lorsqu'elle depend de l'ordre juridique depuis lequel on observe la situation."
+          },
+          {
+            "titre": "L'existence de plusieurs lois pertinentes cree la concurrence normative",
+            "contenu": "Le cours montre qu'une meme situation peut entretenir des liens avec plusieurs Etats et donc appeler plusieurs lois possibles. La fiche retient que le conflit de lois ne porte pas encore sur le contenu materiel des solutions, mais d'abord sur la designation de l'ordre juridique qui doit gouverner la question posee."
+          },
+          {
+            "titre": "Le probleme nait parce que ces lois ne peuvent en principe pas se cumuler librement",
+            "contenu": "Le document insiste sur ce troisieme terme du raisonnement. La fiche retient que si les lois pouvaient toujours se combiner sans tension, il n'y aurait pas de veritable conflit. La methode du DIP devient necessaire precisement parce qu'il faut choisir, departager ou hierarchiser."
+          },
+          {
+            "titre": "La theorie generale des conflits de lois est une construction tres methodique",
+            "contenu": "Le cours annonce une progression allant de l'analyse du probleme a la regle de conflit bilaterale, puis a ses remises en cause contemporaines. La fiche retient que cette partie n'est pas seulement technique : elle fournit la grammaire intellectuelle qui permettra de comprendre les solutions ulterieures."
+          },
+          {
+            "titre": "La bilateralite de la regle de conflit n'est intelligible qu'apres avoir bien pose le probleme",
+            "contenu": "Le document prepare deja l'etude de la methode classique. La fiche retient qu'on ne peut saisir l'interet d'une regle de conflit bilaterale qu'en comprenant d'abord pourquoi une situation internationale met plusieurs lois en concurrence sans permettre leur application cumulative immediate."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "A quelle condition minimale apparait un conflit de lois ?",
+          "reponse": "Il faut une situation internationale comportant un element d'extranite.",
+          "explication": "Sans internationalite, on reste dans le seul champ du droit interne.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi une situation internationale ne produit-elle pas automatiquement un conflit de lois complet ?",
+          "reponse": "Parce qu'il faut encore plusieurs lois potentiellement applicables et une impossibilite de les cumuler simplement.",
+          "explication": "La fiche insiste sur ces trois termes du probleme et non sur le seul element d'extranite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle difference le cours fait-il entre internationalite objective et internationalite subjective ?",
+          "reponse": "L'internationalite est objective lorsqu'elle apparait pour tout juge, et subjective lorsqu'elle depend du point de vue de l'ordre juridique saisi.",
+          "explication": "Cette distinction sert a montrer que l'internationalite n'est pas toujours percue de la meme maniere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la concurrence entre lois est-elle au coeur du probleme ?",
+          "reponse": "Parce qu'une meme situation peut etre rattachee a plusieurs Etats dont les lois pretendent chacune la regir.",
+          "explication": "Le conflit nait donc d'une pluralite de rattachements juridiques pertinents.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie dire que les lois en presence ne peuvent pas s'appliquer cumulativement ?",
+          "reponse": "Cela signifie qu'on ne peut pas simplement additionner leurs solutions sans creer d'incoherence ou de contradiction.",
+          "explication": "La fiche en fait le point qui rend necessaire une methode de choix.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la theorie generale du conflit de lois est-elle reputee technique ?",
+          "reponse": "Parce qu'elle oblige a raisonner de facon abstraite sur des methodes de designation avant meme d'examiner le fond materiel des regles.",
+          "explication": "Le document prevoit d'ailleurs une progression lente pour poser ce cadre conceptuel.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le role de la regle de conflit bilaterale dans le plan annonce ?",
+          "reponse": "Elle incarne la methode classique de resolution du conflit de lois apres l'analyse du probleme.",
+          "explication": "La fiche la presente comme la grande technique traditionnelle du DIP.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le cours annonce-t-il aussi un declin de la methode classique ?",
+          "reponse": "Parce que la regle bilaterale n'epuise plus seule toutes les facons modernes de traiter les conflits de lois.",
+          "explication": "Le document prepare ainsi l'etude de methodes concurrentes ou correctrices.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel contresens faut-il eviter en entrant dans cette partie du cours ?",
+          "reponse": "Croire que le conflit de lois consiste seulement a comparer des contenus de lois, alors qu'il faut d'abord construire une methode de designation.",
+          "explication": "La fiche recentre le raisonnement sur le cadre conceptuel du conflit.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette ouverture sur les conflits de lois ?",
+          "reponse": "Le conflit de lois est un probleme methodique ne de l'internationalite, de la concurrence des lois et de l'impossibilite de les cumuler librement.",
+          "explication": "Cette idee sert de base a toute la suite de la theorie generale.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1167,
+      "fiche": {
+        "titre": "Introduction a la procedure civile : definition, finalite loyale du proces et specificite des litiges prives",
+        "resume": "Cette introduction presente la procedure civile comme bien davantage qu'un catalogue de formalites. La fiche en retient une idee directrice : la matiere organise un proces loyal adapte a des interets prives, ce qui oblige a penser les principes fondamentaux, la place des parties et le role du juge. La procedure civile devient ainsi une theorie pratique de l'encadrement juste du proces civil.",
+        "sections": [
+          {
+            "titre": "La procedure civile ne se reduit pas a une liste de delais ou de mentions obligatoires",
+            "contenu": "Le document admet l'importance des formalites, mais refuse d'y enfermer la discipline. La fiche retient qu'un cours de procedure civile doit d'abord expliquer comment se construit un proces loyal, et non seulement enumerer des exigences techniques."
+          },
+          {
+            "titre": "La finalite premiere est d'assurer la loyaute du proces civil",
+            "contenu": "Le cours place au centre la question de savoir comment garantir que chaque justiciable puisse utilement et loyalement defendre sa cause. La fiche retient que les regles de procedure sont justifiees par cette exigence de loyaute plutot que par une passion formelle pour la technicite."
+          },
+          {
+            "titre": "Le role du juge depend de la nature privee des interets en cause",
+            "contenu": "Le document oppose implicitement le proces civil au proces penal. La fiche retient que, dans le contentieux civil, les interets sont principalement prives, ce qui rend plus delicate la question de l'intervention du juge et de ses pouvoirs d'initiative."
+          },
+          {
+            "titre": "La procedure civile est l'ensemble des regles qui gouvernent l'introduction, le deroulement et l'issue du proces",
+            "contenu": "Le cours part du mot procedure comme marche du proces. La fiche retient une definition simple mais operatoire : la procedure civile est l'architecture juridique qui accompagne le litige du premier acte jusqu'au jugement et a son terme."
+          },
+          {
+            "titre": "La matiere se distingue des institutions juridictionnelles par son objet",
+            "contenu": "Le document prend soin de separer l'etude de l'organisation de la justice de celle de la marche du proces. La fiche retient qu'un cours de procedure civile ne porte pas d'abord sur les juridictions elles-memes, mais sur les regles qui encadrent l'activite contentieuse devant elles."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi ce cours refuse-t-il de reduire la procedure civile a une accumulation de formalites ?",
+          "reponse": "Parce que sa veritable fonction est d'organiser un proces loyal et non seulement de repertorier des contraintes techniques.",
+          "explication": "La fiche met en avant le niveau des principes plutot qu'une vision purement mecanique du contentieux.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle question fondamentale guide l'elaboration d'un droit de la procedure civile ?",
+          "reponse": "La question de savoir comment faire pour que le proces soit loyal.",
+          "explication": "Le document place cette exigence avant l'etude des details techniques.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le role du juge est-il une question centrale en procedure civile ?",
+          "reponse": "Parce que les interets en presence sont prives, ce qui rend delicate la mesure dans laquelle le juge peut intervenir dans la conduite du litige.",
+          "explication": "La fiche rattache cette question a la structure meme du proces civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Comment la procedure civile est-elle definie dans cette introduction ?",
+          "reponse": "Comme l'ensemble des regles qui gouvernent l'introduction, le deroulement et l'issue du proces civil.",
+          "explication": "Cette definition saisit la procedure comme la marche juridique du proces.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le proces civil se distingue-t-il du proces penal dans la logique du cours ?",
+          "reponse": "Parce qu'il porte principalement sur des interets prives et non sur la reaction de la societe face a une atteinte a l'ordre public penal.",
+          "explication": "Le document s'en sert pour problematiser la place respective du juge et des parties.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel type de probleme concret sert a illustrer la question des pouvoirs du juge ?",
+          "reponse": "La possibilite pour le juge d'indiquer ou de mobiliser une regle de droit que le demandeur n'a pas invoquee.",
+          "explication": "La fiche retient cet exemple comme entree dans la reflexion sur le juge civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens de methode cette introduction cherche-t-elle a corriger ?",
+          "reponse": "L'idee que la procedure civile serait une matiere subalterne de pure paperasse sans enjeu theorique ni pratique.",
+          "explication": "Le document la rehausse au rang de discipline des principes du proces loyal.",
+          "difficulte": 2
+        },
+        {
+          "question": "En quoi un cours de procedure civile se distingue-t-il d'un cours d'institutions juridictionnelles ?",
+          "reponse": "Il traite avant tout des regles du proces, et non de l'organisation generale des juridictions et des acteurs de la justice.",
+          "explication": "La fiche se sert de cette distinction pour cerner l'objet propre de la matiere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la procedure civile est-elle qualifiee de matiere de principes ?",
+          "reponse": "Parce qu'elle impose de definir des equilibres fondamentaux entre loyaute, contradiction, initiative des parties et intervention du juge.",
+          "explication": "Le document refuse ainsi une vision purement formaliste du contentieux civil.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette introduction ?",
+          "reponse": "La procedure civile organise la conduite loyale du proces civil en articulant les formalites utiles avec des principes directeurs relatifs aux parties et au juge.",
+          "explication": "La fiche en fait la cle de lecture de tout le cours ulterieur.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1168,
+      "fiche": {
+        "titre": "L'instance en procedure civile : procedure pendante, succession d'actes et lien juridique legal",
+        "resume": "Cette ouverture sur l'instance clarifie une notion centrale mais plurivoque de la procedure civile. La fiche en retient une idee directrice : l'instance ne designe pas seulement le cadre temporel du proces. Elle renvoie a la fois a une procedure pendante, a une suite d'actes et a un lien juridique legal qui fait naitre des droits et obligations pour les parties et le juge.",
+        "sections": [
+          {
+            "titre": "L'instance peut d'abord designer la procedure pendante devant une juridiction",
+            "contenu": "Le document distingue une acception etroite, liee a une phase du proces comme la premiere instance ou l'appel, et une acception large, qui englobe toutes les phases du litige. La fiche retient que la notion sert d'abord a situer le proces dans sa temporalite contentieuse."
+          },
+          {
+            "titre": "L'instance peut aussi designer la succession des actes de procedure",
+            "contenu": "Le cours presente ensuite un sens plus formaliste du mot. La fiche retient que l'instance est egalement le contenu procedural du proces : une chaine d'actes, d'etapes et d'initiatives allant de l'acte introductif jusqu'au jugement."
+          },
+          {
+            "titre": "Le troisieme sens est celui du lien juridique d'instance",
+            "contenu": "Le document met l'accent sur le rapport juridique cree par l'engagement du proces. La fiche retient que parties et juge sont pris dans un ensemble de droits et devoirs processuels, ce qui explique l'autorite des principes directeurs comme la contradiction ou l'obligation de statuer."
+          },
+          {
+            "titre": "Ce lien d'instance n'a pas de nature contractuelle mais legale",
+            "contenu": "Le cours refuse l'analogie avec le contrat, notamment parce que le defendeur n'a pas consenti a entrer dans le proces. La fiche retient que la source du lien d'instance est la loi, qui attache des effets juridiques au fait qu'une action soit engagee contre quelqu'un."
+          },
+          {
+            "titre": "L'etude de l'instance suppose ensuite de combiner principes directeurs et deroulement procedural",
+            "contenu": "Le document annonce qu'il traitera d'abord les principes gouvernant ce lien juridique, puis les etapes concretes de la procedure. La fiche retient qu'on ne comprend correctement l'instance qu'en reunissant sa dimension normative et sa dimension chronologique."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la notion d'instance est-elle dite plurivoque ?",
+          "reponse": "Parce qu'elle designe a la fois une procedure pendante, une succession d'actes et un lien juridique d'instance.",
+          "explication": "Le document organise toute la seance autour de ces trois sens complementaires.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que signifie l'instance au sens etroit ?",
+          "reponse": "Elle designe une phase du proces devant une juridiction, comme la premiere instance ou l'appel.",
+          "explication": "La fiche oppose ce sens a l'acception large qui englobe tout le parcours contentieux.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que signifie l'instance au sens formaliste ?",
+          "reponse": "Elle designe la suite des actes de procedure qui jalonnent le proces depuis son introduction jusqu'au jugement.",
+          "explication": "Le document passe ici du contenant au contenu du proces.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce que le lien juridique d'instance ?",
+          "reponse": "C'est le rapport legal qui fait naitre des droits et des obligations processuels pour les parties et pour le juge.",
+          "explication": "La fiche y rattache notamment la contradiction, l'obligation de juger ou le concours aux mesures d'instruction.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le lien d'instance n'est-il pas contractuel ?",
+          "reponse": "Parce qu'il ne repose pas sur un accord de volontes, notamment du defendeur qui n'a pas choisi d'etre attrait au proces.",
+          "explication": "Le document insiste sur la source legale et non volontaire de ce lien.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est alors la source du lien d'instance ?",
+          "reponse": "La loi, qui attache des effets juridiques a l'engagement d'un proces.",
+          "explication": "La fiche en tire une conception strictement legale du rapport processuel.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les principes directeurs du proces sont-ils lies a la notion d'instance ?",
+          "reponse": "Parce qu'ils gouvernent les droits et devoirs qui naissent du lien juridique d'instance entre juge et parties.",
+          "explication": "Le document fait de cette relation le support normatif des grands principes proceduraux.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter en parlant des parties au proces ?",
+          "reponse": "Les assimiler a des parties contractantes alors que leur rapport processuel n'a pas une nature contractuelle.",
+          "explication": "La fiche rappelle que l'expression parties au proces ne renvoie pas a un contrat.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'instance ne peut-elle pas etre comprise seulement comme une chronologie d'actes ?",
+          "reponse": "Parce qu'elle comporte aussi une dimension normative qui impose des obligations au juge et aux parties.",
+          "explication": "Le document articule constamment deroulement procedural et lien juridique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette introduction a l'instance ?",
+          "reponse": "L'instance est a la fois le temps du proces, sa trame d'actes et le lien juridique legal qui structure les obligations processuelles de tous ses acteurs.",
+          "explication": "La fiche en fait le cadre unificateur de la partie sur l'instance.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1169,
+      "fiche": {
+        "titre": "Article 12 du code de procedure civile : requalification d'office, partialite et egalite des justiciables",
+        "resume": "Cette seance examine la portee de l'article 12 du code de procedure civile sur le pouvoir du juge de donner ou restituer leur exacte qualification juridique aux faits. La fiche en retient une idee directrice : relever d'office la bonne regle de droit n'est pas en soi une partialite, car le juge ne cherche pas a favoriser une partie, mais a rendre juridiquement exacte la solution. La vraie difficulte se deplace alors vers l'egalite des justiciables selon l'intensite variable de l'intervention judiciaire.",
+        "sections": [
+          {
+            "titre": "L'article 12 rompt avec une tradition plus accusatoire du proces civil",
+            "contenu": "Le document souligne que le nouveau code a reconnu au juge un pouvoir de qualification ou de requalification d'office des faits. La fiche retient que cette rupture change la place du juge civil, qui n'est plus strictement enferme dans les fondements juridiques proposes par les parties."
+          },
+          {
+            "titre": "Les juges du fond hesitent parfois a user de ce pouvoir",
+            "contenu": "Le cours explique que certains juges preferent rejeter une demande mal fondee plutot que de mobiliser eux-memes la bonne regle de droit. La fiche retient que cette retenue vient d'une crainte intuitive : celle de paraitre secourir une partie et de sortir du role d'arbitre."
+          },
+          {
+            "titre": "La partialite ne se confond pas avec le fait de donner raison a une partie",
+            "contenu": "Le document opere une distinction de principe. La fiche retient qu'etre partial, ce n'est pas simplement prendre parti a l'issue du raisonnement juridictionnel ; c'est favoriser une partie en raison d'un prejuge ou d'un motif etranger a l'application exacte du droit."
+          },
+          {
+            "titre": "Le releve d'office peut donc etre compatible avec l'impartialite du juge",
+            "contenu": "Le cours justifie l'article 12 en montrant que le but du juge n'est pas d'aider subjectivement une partie, mais d'appliquer la regle de droit pertinente aux faits du litige. La fiche retient que l'aide eventuelle a une partie n'est qu'une consequence indirecte d'un raisonnement juridique objectife."
+          },
+          {
+            "titre": "Le vrai risque pratique concerne l'egalite des justiciables devant des juges plus ou moins interventionnistes",
+            "contenu": "Le document deplace finalement le debat. La fiche retient que si certains juges relevent d'office la bonne regle et d'autres jamais, la difference de traitement entre justiciables peut devenir problematique. La question n'est alors plus celle de la partialite, mais de l'homogeneite du service de la justice."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel pouvoir l'article 12 du code de procedure civile confere-t-il au juge ?",
+          "reponse": "Le pouvoir de qualifier ou requalifier d'office les faits et d'appliquer la regle de droit pertinente meme si les parties ne l'ont pas invoquee.",
+          "explication": "Le document y voit une rupture importante avec une conception plus strictement accusatoire du proces.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi certains juges du fond hesitent-ils a exercer ce pouvoir ?",
+          "reponse": "Parce qu'ils craignent de sembler aider une partie et de perdre leur position d'arbitre impartial.",
+          "explication": "La fiche retient cette hesitation comme un reflexe professionnel comprehensible mais juridiquement discutable.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi rejeter une demande mal fondee sans chercher la bonne regle peut-il conduire a la cassation ?",
+          "reponse": "Parce que le juge dispose justement du pouvoir d'appliquer la qualification et la regle de droit exactes lorsque les faits le permettent.",
+          "explication": "Le document cite un exemple de cassation pour illustrer cette erreur de raisonnement.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi donner raison a une partie n'est-il pas, en soi, un signe de partialite ?",
+          "reponse": "Parce que la mission normale du juge est de trancher le litige en faveur de la partie qui est juridiquement fondee.",
+          "explication": "La fiche distingue l'issue du jugement du motif subjectif qui pourrait la contaminer.",
+          "difficulte": 2
+        },
+        {
+          "question": "Comment definir la partialite selon ce cours ?",
+          "reponse": "Comme le fait de prendre parti en vertu d'un prejuge ou d'une volonte de favoriser une partie pour une raison etrangere au droit applicable.",
+          "explication": "Le document refuse ainsi d'assimiler toute intervention du juge a une aide partisane.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le releve d'office de la bonne regle n'est-il pas necessairement partial ?",
+          "reponse": "Parce que le but du juge est d'appliquer correctement le droit aux faits, non d'avantager subjectivement un plaideur.",
+          "explication": "L'aide apportee a une partie n'est alors qu'un effet secondaire du raisonnement juste.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel probleme plus serieux que la partialite le document identifie-t-il ?",
+          "reponse": "L'inegalite potentielle entre justiciables selon qu'ils tombent sur un juge plus ou moins interventionniste.",
+          "explication": "La fiche deplace ainsi l'attention vers l'egalite de traitement devant la justice.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'egalite des justiciables peut-elle etre atteinte par l'usage variable de l'article 12 ?",
+          "reponse": "Parce que des dossiers comparables peuvent etre traites differemment selon que le juge releve ou non la bonne regle de droit d'office.",
+          "explication": "Le document y voit une difficulte structurelle d'homogeneite juridictionnelle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel contresens faut-il eviter a propos de l'article 12 ?",
+          "reponse": "Confondre l'exercice du pouvoir de qualification avec une descente illegitime du juge dans l'arene partisane.",
+          "explication": "La fiche montre que tout depend du but poursuivi par le juge et de son raisonnement objectif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "L'article 12 legitime une intervention juridique du juge pour dire le droit exact, mais cette latitude souleve surtout une question d'egalite et de coherence entre les pratiques juridictionnelles.",
+          "explication": "La fiche articule ainsi requalification d'office, impartialite et egalite des justiciables.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
