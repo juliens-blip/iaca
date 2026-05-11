@@ -1,0 +1,186 @@
+{
+  "documents": [
+    {
+      "document_id": 1138,
+      "fiche": {
+        "titre": "Personnalite morale et societes sans personnalite : separation des patrimoines, societe creee de fait et societe en participation",
+        "resume": "Cette correction de seance 6 revient sur un point fondateur du droit des societes : la personnalite morale recompose les rapports entre patrimoine social, associes et tiers. La fiche en retient une idee directrice : la separation patrimoniale est la regle, mais elle connait des intensites differentes selon la forme sociale et disparait partiellement lorsque la societe n'a pas la personnalite morale. Il faut donc raisonner de maniere fine sur le type de groupement et sur le comportement concret des associes.",
+        "sections": [
+          {
+            "titre": "La personnalite morale cree en principe un patrimoine social distinct de celui des associes",
+            "contenu": "Le document part de la theorie classique du patrimoine pour rappeler qu'une societe dotee de personnalite morale devient un sujet de droit distinct. La fiche retient que le gage des creanciers sociaux est d'abord le patrimoine de la societe, et non celui des associes. Cette distinction explique l'autonomie de la personne morale et la repression de l'abus de biens sociaux meme dans une structure unipersonnelle."
+          },
+          {
+            "titre": "Cette separation n'a pourtant pas la meme portee dans toutes les formes sociales",
+            "contenu": "La correction souligne que dans les societes a risque limite, les associes ne comblent pas en principe l'insuffisance d'actif, sauf circonstances particuli eres comme la confusion de patrimoines. La fiche retient qu'a l'inverse, dans les societes de personnes, les societes civiles ou certains groupements, les creanciers peuvent remonter vers les biens personnels des membres selon les regles propres a chaque structure."
+          },
+          {
+            "titre": "La societe creee de fait peut emerger lorsque les comportements depassent la simple phase preparatoire",
+            "contenu": "Le document prend l'hypothese d'une societe en formation jamais immatriculee. La fiche retient que la qualification de societe creee de fait suppose plus qu'un projet abstrait : il faut des actes traduisant une veritable collaboration societaire et la realisation de l'objet social. Le juge cherche alors moins l'etiquette choisie que la realite du comportement des parties."
+          },
+          {
+            "titre": "La societe en participation reste au contraire marquee par son absence de personnalite et par une forte discretion",
+            "contenu": "La correction rappelle que chaque associe contracte en principe en son nom personnel. La fiche retient que les autres associes n'engagent pas automatiquement leurs biens a l'egard des tiers, sauf si la societe est revelee, si un associe s'est immisce dans l'acte ou si l'acte a tourne a son profit. L'opacite de la structure explique ce regime protecteur."
+          },
+          {
+            "titre": "Le contentieux repose donc sur une question de seuil : quand un comportement d'associe devient-il juridiquement visible pour les tiers ?",
+            "contenu": "Ce document apprend a raisonner a partir des faits. La fiche retient qu'il faut toujours identifier si l'on est dans une societe pleinement personnalisee, dans une societe de fait nee de comportements convergents ou dans une societe en participation restant en retrait. Ce classement commande directement l'etendue du gage des creanciers."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel effet principal la personnalite morale produit-elle sur le patrimoine de la societe ?",
+          "reponse": "Elle fait naitre un patrimoine social distinct de celui des associes.",
+          "explication": "La correction en fait le point de depart de toute l'analyse des rapports avec les creanciers.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'abus de biens sociaux reste-t-il pensable meme dans une societe unipersonnelle ?",
+          "reponse": "Parce que les biens de la societe ne se confondent pas avec ceux de l'associe unique.",
+          "explication": "Le document rappelle ainsi la realite autonome du patrimoine social.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans une societe a risque limite, les associes doivent-ils en principe combler l'insuffisance d'actif ?",
+          "reponse": "Non, sauf circonstances exceptionnelles comme certaines situations de confusion de patrimoines.",
+          "explication": "La fiche oppose ici risque limite et responsabilite patrimoniale elargie.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les societes de personnes ou certains groupements offrent-ils une separation patrimoniale moins protectrice ?",
+          "reponse": "Parce que les creanciers sociaux peuvent, sous les conditions du regime applicable, poursuivre les associes sur leurs biens personnels.",
+          "explication": "Le document montre que la personnalite morale n'efface pas toujours toute exposition des membres.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qui distingue une simple societe en formation d'une societe creee de fait ?",
+          "reponse": "Le passage a des comportements concrets traduisant une collaboration societaire effective et la realisation de l'objet social.",
+          "explication": "La correction insiste sur la realite des actes plus que sur les declarations d'intention.",
+          "difficulte": 3
+        },
+        {
+          "question": "Pourquoi la societe creee de fait interesse-t-elle les tiers creanciers ?",
+          "reponse": "Parce qu'elle permet parfois de rattacher a une relation societaire effective des engagements pris sans immatriculation.",
+          "explication": "La fiche en fait une requalification fondee sur le comportement des parties.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quel est le principe de l'article 1872-1 pour la societe en participation ?",
+          "reponse": "Chaque associe contracte en son nom personnel et demeure seul engage a l'egard des tiers.",
+          "explication": "Le document rappelle que l'absence de personnalite morale laisse primer la logique individuelle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles circonstances peuvent tout de meme engager un autre associe d'une societe en participation envers les tiers ?",
+          "reponse": "La revelation de la societe, l'immixtion de cet associe dans l'acte ou le profit tire de l'acte.",
+          "explication": "La correction presente ces exceptions comme limitatives et exigeantes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'immixtion est-elle un critere important en societe en participation ?",
+          "reponse": "Parce qu'elle permet au tiers de croire legitimement que l'associe intervenu s'est lui aussi engage.",
+          "explication": "La fiche rattache ce critere a la protection de la croyance legitime du cocontractant.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance ?",
+          "reponse": "Le droit des societes module la responsabilite patrimoniale selon le degre de personnalisation du groupement et selon la visibilite concrete des associes pour les tiers.",
+          "explication": "La fiche relie ainsi personne morale, societe creee de fait et societe en participation.",
+          "difficulte": 2
+        }
+      ]
+    },
+    {
+      "document_id": 1139,
+      "fiche": {
+        "titre": "Responsabilite des dirigeants : faute detachable envers les tiers, action ut singuli et prejudice personnel des associes",
+        "resume": "Cette correction de seance 7 explore les differents visages de la responsabilite du dirigeant social. La fiche en retient une idee directrice : le dirigeant agit en principe au nom de la personne morale, de sorte que sa responsabilite personnelle n'est pas engagee dans les memes conditions selon que l'action vient d'un tiers, de la societe ou d'un associe. Tout l'enjeu est de ne pas confondre ecran de la personne morale, faute detach able et prejudice distinct.",
+        "sections": [
+          {
+            "titre": "La faute detachable complique l'action des tiers contre le dirigeant",
+            "contenu": "Le document rappelle que la jurisprudence exige du tiers une faute separee des fonctions pour atteindre personnellement le dirigeant. La fiche retient qu'il s'agit d'une construction pretendorienne tres protectrice du mandataire social, venue limiter les actions directes qui auraient pu contourner l'ecran de la personne morale."
+          },
+          {
+            "titre": "La jurisprudence a fini par definir cette faute comme intentionnelle, grave et incompatible avec la fonction sociale",
+            "contenu": "La correction expose la formule classique de la faute detachable. La fiche retient qu'il ne suffit pas de relever une mauvaise decision de gestion ou meme une simple negligence. Il faut une conduite d'une gravite particuliere, volontaire, et que l'on ne peut plus presenter comme un exercice normal de la mission de dirigeant."
+          },
+          {
+            "titre": "Lorsque c'est la societe qui souffre, la voie normale reste l'action sociale",
+            "contenu": "Le document distingue l'action exercee par les organes sociaux et celle ouverte subsidiairement aux associes. La fiche retient que l'action ut universi appartient d'abord a la societe elle-meme, tandis que l'action ut singuli permet aux associes de prendre le relais quand le dirigeant fautif n'agira pas contre lui-meme. Le prejudice re pare profite alors a la societe."
+          },
+          {
+            "titre": "L'associe qui agit personnellement doit etablir un prejudice distinct de celui de la societe",
+            "contenu": "La correction revient sur une erreur contentieuse frequente : prendre pour prejudice personnel la simple baisse de valeur des parts ou la perte de chance qui n'est que le reflet du dommage social. La fiche retient qu'une action individuelle d'associe n'est recevable que si le demandeur justifie un dommage qui lui est propre et ne se confond pas avec celui subi par la personne morale."
+          },
+          {
+            "titre": "La responsabilite du dirigeant doit donc toujours etre pensee a partir du demandeur et du dommage invoque",
+            "contenu": "Ce document est d'abord une lecon de methode. La fiche retient qu'il faut identifier qui agit, sur quel fondement et pour quel prejudice. Tiers, societe et associes n'ouvrent pas les memes portes, et le raisonnement s'effondre si l'on melange faute de gestion, faute detachable et prejudice personnel."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi les tiers ne peuvent-ils pas facilement agir directement contre le dirigeant ?",
+          "reponse": "Parce que le dirigeant agit normalement au nom de la personne morale, qui fait ecran entre lui et les cocontractants ou victimes.",
+          "explication": "La correction presente cette idee comme la justification de la faute detachable.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qu'une faute detachable des fonctions sociales ?",
+          "reponse": "Une faute intentionnelle d'une particuliere gravite incompatible avec l'exercice normal des fonctions du dirigeant.",
+          "explication": "Le document reprend la formule jurisprudentielle de reference.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi une simple erreur de gestion ne suffit-elle pas, en principe, pour engager la responsabilite personnelle du dirigeant envers un tiers ?",
+          "reponse": "Parce qu'elle demeure rattachee a l'exercice normal, meme maladroit, des fonctions sociales.",
+          "explication": "La fiche oppose erreur de gestion et faute detach able.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel interet pratique presente l'action ut singuli pour les associes ?",
+          "reponse": "Elle leur permet d'agir au nom de la societe lorsque les dirigeants en place n'engagent pas eux-memes l'action sociale.",
+          "explication": "La correction rappelle que le dommage repare reste alors un dommage social.",
+          "difficulte": 2
+        },
+        {
+          "question": "A qui profite l'indemnisation obtenue par l'action ut singuli ?",
+          "reponse": "A la societe, et non directement a l'associe demandeur.",
+          "explication": "Le document insiste sur la difference entre action sociale et action individuelle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi un associe ne peut-il pas invoquer comme prejudice personnel la simple perte de valeur de ses parts ?",
+          "reponse": "Parce que cette perte n'est souvent que le reflet du dommage subi d'abord par la societe.",
+          "explication": "La fiche en fait l'exemple type d'un prejudice non distinct.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle condition centrale gouverne l'action individuelle d'un associe contre le dirigeant ?",
+          "reponse": "L'existence d'un prejudice personnel distinct de celui cause a la personne morale.",
+          "explication": "La correction montre que cette exigence evite les doublons avec l'action sociale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle erreur methodologique le document cherche-t-il surtout a prevenir ?",
+          "reponse": "La confusion entre action du tiers, action sociale et action individuelle de l'associe.",
+          "explication": "La fiche fait de cette ventilation le coeur de la matiere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans quel type de situation la faute detachable a-t-elle le plus de chances d'etre retenue ?",
+          "reponse": "Lorsque le dirigeant adopte volontairement un comportement particulierement grave, comme une tromperie incompatible avec sa mission normale.",
+          "explication": "Le document rattache cette faute a des comportements intentionnels et anormaux.",
+          "difficulte": 3
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette seance sur les dirigeants ?",
+          "reponse": "La responsabilite du dirigeant depend moins d'une categorie unique de faute que de l'identification du demandeur, de l'ecran societaire et du type de prejudice invoque.",
+          "explication": "La fiche relie ainsi faute detachable, action sociale et prejudice distinct dans une meme methode.",
+          "difficulte": 2
+        }
+      ]
+    }
+  ]
+}
