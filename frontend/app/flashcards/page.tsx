@@ -344,7 +344,7 @@ export default function FlashcardsPage() {
       {/* Header */}
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-bold bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent">Flashcards</h1>
+          <h1 className="text-3xl font-bold font-heading bg-gradient-to-r from-blue-400 to-violet-400 bg-clip-text text-transparent">Flashcards</h1>
           <p className="mt-1 text-slate-400">Révisez avec la répétition espacée (algorithme SM-2)</p>
         </div>
         {totalCards > 0 && (
@@ -566,8 +566,8 @@ export default function FlashcardsPage() {
                         className="cursor-pointer select-none h-[180px]"
                       >
                         {!isFlipped ? (
-                          /* Face avant — question */
-                          <div className="h-full rounded-xl border border-slate-700/80 bg-slate-800/70 p-4 flex flex-col transition-all duration-200 hover:border-blue-500/40 hover:shadow-lg hover:shadow-blue-500/5">
+                          /* Face avant - gradient matiere (charte 5.2 - contraste de pertinence) */
+                          <div className={`h-full rounded-xl border ${colors.border} bg-gradient-to-br from-slate-800/70 to-slate-900/70 p-4 flex flex-col transition-all duration-200 hover:border-opacity-100 hover:shadow-lg`}>
                             <div className="flex items-start justify-between gap-2 mb-2">
                               <div className={`inline-block px-2 py-0.5 rounded-md text-xs font-semibold border ${colors.bg} ${colors.text} ${colors.border}`}>
                                 {matiereName}
@@ -580,24 +580,34 @@ export default function FlashcardsPage() {
                                 ))}
                               </div>
                             </div>
-                            <p className="text-sm font-medium text-slate-200 line-clamp-3 flex-1">{card.question}</p>
-                            <div className="flex items-center justify-between mt-2">
-                              <span className="text-[10px] text-slate-600 flex items-center gap-1">
-                                <svg width="10" height="10" viewBox="0 0 24 24" fill="none"><path d="M15 12a3 3 0 1 1-6 0 3 3 0 0 1 6 0Z" stroke="currentColor" strokeWidth="1.5"/><path d="M2.458 12C3.732 7.943 7.523 5 12 5s8.268 2.943 9.542 7c-1.274 4.057-5.064 7-9.542 7s-8.268-2.943-9.542-7Z" stroke="currentColor" strokeWidth="1.5"/></svg>
-                                Cliquer pour la réponse
+                            <p className="text-sm font-medium text-slate-200 line-clamp-3 flex-1 leading-relaxed">{card.question}</p>
+                            <div className="flex items-center justify-between mt-2 pt-2 border-t border-slate-700/30">
+                              <span className="text-[10px] text-slate-500 flex items-center gap-1">
+                                <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                                  <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3" />
+                                </svg>
+                                Retourner
                               </span>
                               <span className={`text-xs font-medium ${indicator.color}`}>{indicator.label}</span>
                             </div>
                           </div>
                         ) : (
-                          /* Face arrière — réponse */
-                          <div className="h-full rounded-xl border border-violet-500/30 bg-violet-900/20 p-4 flex flex-col transition-all duration-200">
-                            <div className="text-[10px] font-semibold uppercase tracking-widest text-violet-400 mb-2">Réponse</div>
-                            <p className="text-sm text-violet-100 flex-1 overflow-y-auto leading-relaxed">{card.reponse}</p>
+                          /* Face arriere - fond neutre, explication en encadre semantique (charte 5.2) */
+                          <div className="h-full rounded-xl border border-slate-600/40 bg-slate-800/80 p-4 flex flex-col transition-all duration-200">
+                            <div className="text-[10px] font-semibold uppercase tracking-widest text-slate-400 mb-2">Reponse</div>
+                            <p className="text-sm text-slate-200 flex-1 overflow-y-auto leading-relaxed">{card.reponse}</p>
                             {card.explication && (
-                              <p className="text-xs text-slate-400 mt-2 border-t border-violet-500/20 pt-2 line-clamp-2">{card.explication}</p>
+                              <div className="mt-2 pt-2 border-t border-blue-500/20">
+                                <p className="text-[10px] font-semibold text-blue-400 uppercase tracking-wider mb-0.5">Explication</p>
+                                <p className="text-xs text-slate-400 line-clamp-2">{card.explication}</p>
+                              </div>
                             )}
-                            <span className="text-[10px] text-violet-500 mt-2">↩ Cliquer pour revenir</span>
+                            <span className="text-[10px] text-slate-500 mt-2 flex items-center gap-1">
+                              <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 12c0-1.232-.046-2.453-.138-3.662a4.006 4.006 0 0 0-3.7-3.7 48.678 48.678 0 0 0-7.324 0 4.006 4.006 0 0 0-3.7 3.7c-.017.22-.032.441-.046.662M19.5 12l3-3m-3 3-3-3m-12 3c0 1.232.046 2.453.138 3.662a4.006 4.006 0 0 0 3.7 3.7 48.656 48.656 0 0 0 7.324 0 4.006 4.006 0 0 0 3.7-3.7c.017-.22.032-.441.046-.662M4.5 12l3 3m-3-3-3 3" />
+                              </svg>
+                              Retourner
+                            </span>
                           </div>
                         )}
                       </div>

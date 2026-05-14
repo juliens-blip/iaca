@@ -90,26 +90,99 @@ function getMatiereStyle(matiereName: string) {
   return matiereColors[matiereName] || defaultColor;
 }
 
-/** Render fiche section content with better formatting than plain whitespace-pre-line */
+/** Semantic block detection patterns (charte 5.1) */
+const semanticPatterns: { pattern: RegExp; type: "retenir" | "definition" | "exemple" | "attention" | "resume" }[] = [
+  { pattern: /^(?:\*\*)?(?:A retenir|À retenir|Essentiel|Points? (?:cl[eé]s?|essentiels?))(?:\*\*)?[\s:]/i, type: "retenir" },
+  { pattern: /^(?:\*\*)?(?:D[eé]finition|Vocabulaire|Notion)(?:\*\*)?[\s:]/i, type: "definition" },
+  { pattern: /^(?:\*\*)?(?:Exemple|Illustration|Cas (?:pratique|concret))(?:\*\*)?[\s:]/i, type: "exemple" },
+  { pattern: /^(?:\*\*)?(?:Attention|Pi[eè]ge|Erreur (?:courante|fr[eé]quente)|Ne pas confondre|Mise en garde)(?:\*\*)?[\s:]/i, type: "attention" },
+  { pattern: /^(?:\*\*)?(?:En r[eé]sum[eé]|Synth[eè]se|R[eé]capitulatif|Bilan)(?:\*\*)?[\s:]/i, type: "resume" },
+];
+
+const semanticConfig = {
+  retenir: {
+    bg: "bg-orange-500/10", border: "border-orange-500/30", text: "text-orange-400",
+    title: "A retenir",
+    icon: "M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z",
+  },
+  definition: {
+    bg: "bg-blue-500/10", border: "border-blue-500/30", text: "text-blue-400",
+    title: "Definition",
+    icon: "M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25",
+  },
+  exemple: {
+    bg: "bg-emerald-500/10", border: "border-emerald-500/30", text: "text-emerald-400",
+    title: "Exemple",
+    icon: "M3.75 13.5l10.5-11.25L12 10.5h8.25L9.75 21.75 12 13.5H3.75Z",
+  },
+  attention: {
+    bg: "bg-rose-500/10", border: "border-rose-500/30", text: "text-rose-400",
+    title: "Attention",
+    icon: "M12 9v3.75m-9.303 3.376c-.866 1.5.217 3.374 1.948 3.374h14.71c1.73 0 2.813-1.874 1.948-3.374L13.949 3.378c-.866-1.5-3.032-1.5-3.898 0L2.697 16.126ZM12 15.75h.007v.008H12v-.008Z",
+  },
+  resume: {
+    bg: "bg-violet-500/10", border: "border-violet-500/30", text: "text-violet-400",
+    title: "En resume",
+    icon: "M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25H12",
+  },
+};
+
+/** Render bold text fragments via **text** markers */
+function renderBoldFragments(text: string) {
+  const parts = text.split(/(\*\*[^*]+\*\*)/g);
+  return parts.map((part, i) => {
+    const boldMatch = part.match(/^\*\*(.+)\*\*$/);
+    if (boldMatch) {
+      return <strong key={i} className="font-semibold text-white">{boldMatch[1]}</strong>;
+    }
+    return <span key={i}>{part}</span>;
+  });
+}
+
+/** Render fiche section content with semantic blocks and cognitive load optimization (charte) */
 function FormattedContent({ text }: { text: string }) {
   const paragraphs = text.split(/\n{2,}/);
   return (
-    <div className="space-y-3">
+    <div className="space-y-4">
       {paragraphs.map((para, i) => {
         const trimmed = para.trim();
         if (!trimmed) return null;
+
+        // Detect semantic blocks (charte 5.1 - Signaling Principle)
+        for (const { pattern, type } of semanticPatterns) {
+          if (pattern.test(trimmed)) {
+            const c = semanticConfig[type];
+            const content = trimmed.replace(pattern, "").trim();
+            return (
+              <div key={i} className={`rounded-xl border ${c.border} ${c.bg} p-5`}>
+                <div className="flex items-start gap-3">
+                  <div className={`p-2 rounded-lg ${c.bg} ${c.text} shrink-0 mt-0.5`}>
+                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d={c.icon} />
+                    </svg>
+                  </div>
+                  <div className="flex-1 min-w-0">
+                    <p className={`text-xs font-semibold ${c.text} uppercase tracking-wider mb-2`}>{c.title}</p>
+                    <div className="text-slate-200 text-base leading-7">{renderBoldFragments(content)}</div>
+                  </div>
+                </div>
+              </div>
+            );
+          }
+        }
+
         // Detect bullet lists
         const lines = trimmed.split("\n");
         const isList = lines.every(l => /^[\s]*[-\u2022\u2013*]\s/.test(l) || !l.trim());
         if (isList) {
           return (
-            <ul key={i} className="space-y-1.5 ml-1">
+            <ul key={i} className="space-y-2 ml-2">
               {lines.filter(l => l.trim()).map((line, j) => (
-                <li key={j} className="flex gap-2 text-slate-300 text-sm leading-relaxed">
-                  <span className="text-blue-400/60 mt-1 shrink-0">
-                    <svg className="w-3 h-3" viewBox="0 0 12 12" fill="currentColor"><circle cx="6" cy="6" r="3" /></svg>
+                <li key={j} className="flex gap-3 text-slate-300 text-base leading-relaxed">
+                  <span className="text-blue-400/80 mt-1.5 shrink-0">
+                    <svg className="w-2 h-2" viewBox="0 0 12 12" fill="currentColor"><circle cx="6" cy="6" r="4" /></svg>
                   </span>
-                  <span>{line.replace(/^[\s]*[-\u2022\u2013*]\s*/, "")}</span>
+                  <span className="flex-1">{renderBoldFragments(line.replace(/^[\s]*[-\u2022\u2013*]\s*/, ""))}</span>
                 </li>
               ))}
             </ul>
@@ -119,23 +192,23 @@ function FormattedContent({ text }: { text: string }) {
         const isNumbered = lines.every(l => /^[\s]*\d+[.)]\s/.test(l) || !l.trim());
         if (isNumbered) {
           return (
-            <ol key={i} className="space-y-1.5 ml-1">
+            <ol key={i} className="space-y-2 ml-2">
               {lines.filter(l => l.trim()).map((line, j) => {
                 const match = line.match(/^[\s]*(\d+)[.)]\s*(.*)/);
                 return (
-                  <li key={j} className="flex gap-2.5 text-slate-300 text-sm leading-relaxed">
-                    <span className="text-blue-400/70 font-semibold tabular-nums shrink-0 w-5 text-right">{match ? match[1] : j + 1}.</span>
-                    <span>{match ? match[2] : line}</span>
+                  <li key={j} className="flex gap-3 text-slate-300 text-base leading-relaxed">
+                    <span className="text-blue-400/80 font-semibold tabular-nums shrink-0 w-6 text-right mt-0.5">{match ? match[1] : j + 1}.</span>
+                    <span className="flex-1">{renderBoldFragments(match ? match[2] : line)}</span>
                   </li>
                 );
               })}
             </ol>
           );
         }
-        // Default paragraph
+        // Default paragraph with bold fragment rendering (charte 3.2)
         return (
-          <p key={i} className="text-slate-300 text-sm leading-relaxed whitespace-pre-line">
-            {trimmed}
+          <p key={i} className="text-slate-300 text-base leading-7 whitespace-pre-line">
+            {renderBoldFragments(trimmed)}
           </p>
         );
       })}
@@ -325,26 +398,26 @@ export default function FichesPage() {
           Retour aux fiches
         </button>
 
-        {/* Header with gradient */}
-        <div className={`rounded-2xl border ${style.border} bg-gradient-to-br ${style.gradient} p-6 relative overflow-hidden`}>
-          <div className="absolute top-0 right-0 w-40 h-40 opacity-5">
+        {/* Header with enhanced visual hierarchy */}
+        <div className={`rounded-2xl border ${style.border} bg-gradient-to-br ${style.gradient} p-8 relative overflow-hidden`}>
+          <div className="absolute top-0 right-0 w-48 h-48 opacity-5">
             <svg className="w-full h-full" fill="none" viewBox="0 0 24 24" strokeWidth={0.5} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d={style.icon} />
             </svg>
           </div>
           <div className="relative">
             {matiereName && (
-              <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-medium ${style.bg} ${style.text} border ${style.border} mb-3`}>
-                <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+              <span className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-semibold ${style.bg} ${style.text} border ${style.border} mb-4`}>
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d={style.icon} />
                 </svg>
                 {matiereName}
               </span>
             )}
-            <h1 className="text-2xl font-bold text-white leading-tight">{selectedFiche.titre}</h1>
+            <h1 className="text-3xl font-bold text-white leading-tight mb-3 font-heading">{selectedFiche.titre}</h1>
             {selectedFiche.chapitre && (
-              <p className="text-sm text-slate-400 mt-2 flex items-center gap-1.5">
-                <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+              <p className="text-base text-slate-400 flex items-center gap-2">
+                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
                 </svg>
                 {selectedFiche.chapitre}
@@ -353,27 +426,27 @@ export default function FichesPage() {
           </div>
         </div>
 
-        {/* Resume */}
+        {/* Resume with enhanced readability */}
         {selectedFiche.resume && (
-          <div className="card border-slate-700/50 bg-slate-800/40">
-            <div className="flex items-start gap-3">
-              <div className="p-2 rounded-lg bg-blue-500/10 text-blue-400 shrink-0 mt-0.5">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+          <div className="card border-slate-700/50 bg-slate-800/40 p-5">
+            <div className="flex items-start gap-4">
+              <div className="p-2.5 rounded-lg bg-blue-500/10 text-blue-400 shrink-0 mt-0.5">
+                <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M11.25 11.25l.041-.02a.75.75 0 0 1 1.063.852l-.708 2.836a.75.75 0 0 0 1.063.853l.041-.021M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9-3.75h.008v.008H12V8.25Z" />
                 </svg>
               </div>
-              <div>
-                <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-1.5">Resume</p>
-                <p className="text-slate-300 text-sm leading-relaxed">{selectedFiche.resume}</p>
+              <div className="flex-1">
+                <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Résumé</p>
+                <p className="text-slate-300 text-base leading-7">{selectedFiche.resume}</p>
               </div>
             </div>
           </div>
         )}
 
-        {/* Sommaire cliquable + toggle all */}
+        {/* Sommaire cliquable + toggle all with enhanced visual hierarchy */}
         {sortedSections.length > 1 && (
-          <div className="card border-slate-700/50 bg-slate-800/30">
-            <div className="flex items-center justify-between mb-3">
+          <div className="card border-slate-700/50 bg-slate-800/30 p-5">
+            <div className="flex items-center justify-between mb-4">
               <h2 className="text-sm font-semibold text-slate-300 uppercase tracking-wider flex items-center gap-2">
                 <svg className="w-4 h-4 text-slate-500" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 12h.007v.008H3.75V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm-.375 5.25h.007v.008H3.75v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
@@ -382,28 +455,28 @@ export default function FichesPage() {
               </h2>
               <button
                 onClick={toggleAllSections}
-                className="text-xs text-slate-400 hover:text-white px-2.5 py-1.5 rounded-lg hover:bg-slate-700/50 transition-all duration-200 flex items-center gap-1.5"
+                className="text-xs text-slate-400 hover:text-white px-3 py-2 rounded-lg hover:bg-slate-700/50 transition-all duration-200 flex items-center gap-2"
               >
-                <svg className={`w-3.5 h-3.5 transition-transform duration-200 ${allOpen ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                <svg className={`w-4 h-4 transition-transform duration-200 ${allOpen ? "rotate-180" : ""}`} fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d="M3.75 3.75v4.5m0-4.5h4.5m-4.5 0L9 9M3.75 20.25v-4.5m0 4.5h4.5m-4.5 0L9 15M20.25 3.75h-4.5m4.5 0v4.5m0-4.5L15 9m5.25 11.25h-4.5m4.5 0v-4.5m0 4.5L15 15" />
                 </svg>
-                {allOpen ? "Tout replier" : "Tout deplier"}
+                {allOpen ? "Tout replier" : "Tout déplier"}
               </button>
             </div>
-            <nav className="grid grid-cols-1 gap-1">
+            <nav className="grid grid-cols-1 gap-1.5">
               {sortedSections.map((section, idx) => (
                 <button
                   key={section.id}
                   onClick={() => scrollToSection(section.id)}
-                  className="flex items-center gap-3 px-3 py-2 rounded-lg text-left hover:bg-slate-700/40 transition-all duration-150 group"
+                  className="flex items-center gap-3 px-4 py-3 rounded-lg text-left hover:bg-slate-700/40 transition-all duration-150 group"
                 >
-                  <span className={`w-6 h-6 rounded-full flex items-center justify-center text-xs font-bold shrink-0 ${style.bg} ${style.text} border ${style.border}`}>
+                  <span className={`w-7 h-7 rounded-full flex items-center justify-center text-sm font-bold shrink-0 ${style.bg} ${style.text} border ${style.border}`}>
                     {idx + 1}
                   </span>
                   <span className="text-sm text-slate-400 group-hover:text-white transition-colors truncate">
                     {section.titre}
                   </span>
-                  <svg className="w-3.5 h-3.5 text-slate-600 group-hover:text-slate-400 ml-auto shrink-0 transition-colors" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                  <svg className="w-4 h-4 text-slate-600 group-hover:text-slate-400 ml-auto shrink-0 transition-colors" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                     <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                   </svg>
                 </button>
@@ -412,8 +485,8 @@ export default function FichesPage() {
           </div>
         )}
 
-        {/* Sections en accordeon */}
-        <div className="space-y-3">
+        {/* Sections en accordeon with enhanced readability */}
+        <div className="space-y-4">
           {sortedSections.map((section, idx) => {
             const isOpen = openSections.has(section.id);
             return (
@@ -428,16 +501,16 @@ export default function FichesPage() {
               >
                 <button
                   onClick={() => toggleSection(section.id)}
-                  className="w-full flex items-center gap-3 text-left p-4"
+                  className="w-full flex items-center gap-4 text-left p-5"
                 >
-                  <span className={`w-7 h-7 rounded-full flex items-center justify-center text-xs font-bold shrink-0 transition-colors duration-200 ${
+                  <span className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold shrink-0 transition-colors duration-200 ${
                     isOpen
                       ? `${style.bg} ${style.text} border ${style.border}`
                       : "bg-slate-700/50 text-slate-400 border border-slate-600/30"
                   }`}>
                     {idx + 1}
                   </span>
-                  <h3 className={`font-medium flex-1 transition-colors duration-200 ${isOpen ? "text-white" : "text-slate-300"}`}>
+                  <h3 className={`font-semibold text-lg flex-1 transition-colors duration-200 ${isOpen ? "text-white" : "text-slate-300"}`}>
                     {section.titre}
                   </h3>
                   <svg
@@ -452,7 +525,7 @@ export default function FichesPage() {
                     isOpen ? "max-h-[5000px] opacity-100" : "max-h-0 opacity-0"
                   }`}
                 >
-                  <div className="px-4 pb-4 pt-1 ml-10 border-t border-slate-700/30">
+                  <div className="px-5 pb-5 pt-2 ml-12 border-t border-slate-700/30">
                     <FormattedContent text={section.contenu} />
                   </div>
                 </div>
@@ -461,45 +534,45 @@ export default function FichesPage() {
           })}
         </div>
 
-        {/* Liens vers flashcards / quiz */}
+        {/* Liens vers flashcards / quiz with enhanced visual hierarchy */}
         {nextContent && (nextContent.flashcards.length > 0 || nextContent.quizzes.length > 0) && (
-          <div className="card border-violet-500/20 bg-gradient-to-r from-violet-900/10 to-slate-800/40">
-            <h3 className="text-base font-semibold text-white mb-3 flex items-center gap-2">
-              <svg className="w-4 h-4 text-violet-400" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+          <div className="card border-violet-500/20 bg-gradient-to-r from-violet-900/10 to-slate-800/40 p-5">
+            <h3 className="text-lg font-semibold text-white mb-4 flex items-center gap-2">
+              <svg className="w-5 h-5 text-violet-400" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M13.5 4.5 21 12m0 0-7.5 7.5M21 12H3" />
               </svg>
-              Continuer a reviser
+              Continuer à réviser
             </h3>
-            <div className="grid grid-cols-1 sm:grid-cols-2 gap-3">
+            <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
               {nextContent.flashcards.length > 0 && (
                 <a
                   href="/flashcards"
-                  className="flex items-center gap-3 p-4 rounded-xl bg-violet-600/10 border border-violet-500/20 hover:bg-violet-600/20 hover:border-violet-500/40 transition-all duration-200"
+                  className="flex items-center gap-4 p-5 rounded-xl bg-violet-600/10 border border-violet-500/20 hover:bg-violet-600/20 hover:border-violet-500/40 transition-all duration-200"
                 >
-                  <div className="p-2 rounded-lg bg-violet-500/20 text-violet-400">
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                  <div className="p-3 rounded-lg bg-violet-500/20 text-violet-400 shrink-0">
+                    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M6.429 9.75 2.25 12l4.179 2.25m0-4.5 5.571 3 5.571-3m-11.142 0L2.25 7.5 12 2.25l9.75 5.25-4.179 2.25m0 0L21.75 12l-4.179 2.25m0 0 4.179 2.25L12 21.75 2.25 16.5l4.179-2.25m11.142 0-5.571 3-5.571-3" />
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm font-semibold text-violet-300">Flashcards sur ce sujet</p>
-                    <p className="text-xs text-slate-500">{nextContent.flashcards.length} disponibles</p>
+                    <p className="text-base font-semibold text-violet-300">Flashcards sur ce sujet</p>
+                    <p className="text-sm text-slate-500">{nextContent.flashcards.length} disponibles</p>
                   </div>
                 </a>
               )}
               {nextContent.quizzes.length > 0 && (
                 <a
                   href="/quiz"
-                  className="flex items-center gap-3 p-4 rounded-xl bg-amber-600/10 border border-amber-500/20 hover:bg-amber-600/20 hover:border-amber-500/40 transition-all duration-200"
+                  className="flex items-center gap-4 p-5 rounded-xl bg-amber-600/10 border border-amber-500/20 hover:bg-amber-600/20 hover:border-amber-500/40 transition-all duration-200"
                 >
-                  <div className="p-2 rounded-lg bg-amber-500/20 text-amber-400">
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                  <div className="p-3 rounded-lg bg-amber-500/20 text-amber-400 shrink-0">
+                    <svg className="w-6 h-6" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d="M9.879 7.519c1.171-1.025 3.071-1.025 4.242 0 1.172 1.025 1.172 2.687 0 3.712-.203.179-.43.326-.67.442-.745.361-1.45.999-1.45 1.827v.75M21 12a9 9 0 1 1-18 0 9 9 0 0 1 18 0Zm-9 5.25h.008v.008H12v-.008Z" />
                     </svg>
                   </div>
                   <div>
-                    <p className="text-sm font-semibold text-amber-300">Quiz sur ce sujet</p>
-                    <p className="text-xs text-slate-500">{nextContent.quizzes.length} disponibles</p>
+                    <p className="text-base font-semibold text-amber-300">Quiz sur ce sujet</p>
+                    <p className="text-sm text-slate-500">{nextContent.quizzes.length} disponibles</p>
                   </div>
                 </a>
               )}
@@ -536,37 +609,37 @@ export default function FichesPage() {
     });
   }
 
-  // List view
+  // List view with enhanced visual hierarchy
   return (
-    <div className="space-y-6">
+    <div className="space-y-8">
       {/* Header */}
-      <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
+      <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-5">
         <div>
-          <h1 className="text-3xl font-bold text-white flex items-center gap-3">
-            <div className="p-2 rounded-xl bg-blue-500/10 border border-blue-500/20">
-              <svg className="w-7 h-7 text-blue-400" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+          <h1 className="text-4xl font-bold text-white flex items-center gap-4 font-heading">
+            <div className="p-3 rounded-xl bg-blue-500/10 border border-blue-500/20">
+              <svg className="w-8 h-8 text-blue-400" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                 <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 14.25v-2.625a3.375 3.375 0 0 0-3.375-3.375h-1.5A1.125 1.125 0 0 1 13.5 7.125v-1.5a3.375 3.375 0 0 0-3.375-3.375H8.25m0 12.75h7.5m-7.5 3H12M10.5 2.25H5.625c-.621 0-1.125.504-1.125 1.125v17.25c0 .621.504 1.125 1.125 1.125h12.75c.621 0 1.125-.504 1.125-1.125V11.25a9 9 0 0 0-9-9Z" />
               </svg>
             </div>
-            Fiches de revision
+            Fiches de révision
           </h1>
-          <p className="mt-2 text-slate-400">
-            {fiches.length > 0 ? `${fiches.length} fiche${fiches.length > 1 ? "s" : ""} disponible${fiches.length > 1 ? "s" : ""}` : "Fiches structurees pour reviser efficacement"}
+          <p className="mt-3 text-base text-slate-400">
+            {fiches.length > 0 ? `${fiches.length} fiche${fiches.length > 1 ? "s" : ""} disponible${fiches.length > 1 ? "s" : ""}` : "Fiches structurées pour réviser efficacement"}
           </p>
         </div>
-        <button onClick={openGenModal} className="btn-primary flex items-center gap-2 shrink-0">
+        <button onClick={openGenModal} className="btn-primary flex items-center gap-2.5 shrink-0 px-5 py-3 text-base">
           <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
             <path strokeLinecap="round" strokeLinejoin="round" d="M9.813 15.904 9 18.75l-.813-2.846a4.5 4.5 0 0 0-3.09-3.09L2.25 12l2.846-.813a4.5 4.5 0 0 0 3.09-3.09L9 5.25l.813 2.846a4.5 4.5 0 0 0 3.09 3.09L15.75 12l-2.846.813a4.5 4.5 0 0 0-3.09 3.09ZM18.259 8.715 18 9.75l-.259-1.035a3.375 3.375 0 0 0-2.455-2.456L14.25 6l1.036-.259a3.375 3.375 0 0 0 2.455-2.456L18 2.25l.259 1.035a3.375 3.375 0 0 0 2.455 2.456L21.75 6l-1.036.259a3.375 3.375 0 0 0-2.455 2.456Z" />
           </svg>
-          Generer une fiche IA
+          Générer une fiche IA
         </button>
       </div>
 
-      {/* Filtres + recherche */}
+      {/* Filtres + recherche with enhanced visual hierarchy */}
       {fiches.length > 0 && (
-        <div className="flex flex-col sm:flex-row gap-3">
+        <div className="flex flex-col sm:flex-row gap-4">
           <div className="relative flex-1">
-            <svg className="absolute left-3 top-1/2 -translate-y-1/2 w-4 h-4 text-slate-400" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+            <svg className="absolute left-4 top-1/2 -translate-y-1/2 w-5 h-5 text-slate-400" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
             </svg>
             <input
@@ -574,14 +647,14 @@ export default function FichesPage() {
               placeholder="Rechercher une fiche..."
               value={search}
               onChange={e => setSearch(e.target.value)}
-              className="input-field w-full pl-9 py-2.5"
+              className="input-field w-full pl-11 py-3 text-base"
             />
           </div>
           {matieres.length > 0 && (
             <div className="flex flex-wrap gap-2">
               <button
                 onClick={() => setSelectedMatiere(null)}
-                className={`px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 ${
+                className={`px-4 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 ${
                   selectedMatiere === null
                     ? "bg-blue-600/20 text-blue-400 border border-blue-500/30 shadow-sm shadow-blue-500/10"
                     : "text-slate-400 hover:text-slate-200 bg-slate-800/40 border border-slate-700/30 hover:border-slate-600/40"
@@ -596,13 +669,13 @@ export default function FichesPage() {
                   <button
                     key={m.id}
                     onClick={() => setSelectedMatiere(m.id)}
-                    className={`px-3 py-2 rounded-lg text-sm font-medium transition-all duration-200 flex items-center gap-1.5 ${
+                    className={`px-4 py-2.5 rounded-lg text-sm font-semibold transition-all duration-200 flex items-center gap-2 ${
                       isActive
                         ? `${mStyle.bg} ${mStyle.text} border ${mStyle.border}`
                         : "text-slate-400 hover:text-slate-200 bg-slate-800/40 border border-slate-700/30 hover:border-slate-600/40"
                     }`}
                   >
-                    <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                    <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                       <path strokeLinecap="round" strokeLinejoin="round" d={mStyle.icon} />
                     </svg>
                     {m.nom}
@@ -653,36 +726,36 @@ export default function FichesPage() {
                   <div className={`flex-1 h-px ${style.border} border-t ml-2`} />
                 </div>
 
-                {/* Cards grid */}
-                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+                {/* Cards grid with enhanced visual hierarchy */}
+                <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {group.fiches.map((fiche) => (
                     <div
                       key={fiche.id}
                       onClick={() => openFiche(fiche.id)}
-                      className={`group cursor-pointer rounded-xl border border-slate-700/40 bg-slate-800/30 p-4
+                      className={`group cursor-pointer rounded-xl border border-slate-700/40 bg-slate-800/30 p-5
                         hover:border-opacity-100 hover:${style.border} hover:bg-slate-800/60
                         transition-all duration-200 flex flex-col`}
                     >
-                      <div className="flex items-start justify-between mb-2 gap-2">
-                        <h3 className={`font-semibold text-sm text-slate-200 group-hover:${style.text} transition-colors line-clamp-2 flex-1`}>
+                      <div className="flex items-start justify-between mb-3 gap-3">
+                        <h3 className={`font-semibold text-base text-slate-200 group-hover:${style.text} transition-colors line-clamp-2 flex-1 leading-snug`}>
                           {fiche.titre}
                         </h3>
-                        <svg className={`w-4 h-4 text-slate-600 group-hover:${style.text} flex-shrink-0 mt-0.5 transition-all duration-200 group-hover:translate-x-0.5`} fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                        <svg className={`w-5 h-5 text-slate-600 group-hover:${style.text} flex-shrink-0 mt-0.5 transition-all duration-200 group-hover:translate-x-0.5`} fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                           <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                         </svg>
                       </div>
                       {fiche.resume && (
-                        <p className="text-xs text-slate-500 mb-3 line-clamp-2 flex-1 leading-relaxed">{fiche.resume}</p>
+                        <p className="text-sm text-slate-500 mb-4 line-clamp-2 flex-1 leading-relaxed">{fiche.resume}</p>
                       )}
-                      <div className="flex items-center gap-2 pt-3 border-t border-slate-700/30 mt-auto">
-                        <span className={`inline-flex items-center gap-1 px-2 py-0.5 rounded-full text-[10px] font-medium ${style.bg} ${style.text} border ${style.border}`}>
-                          <svg className="w-2.5 h-2.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                      <div className="flex items-center gap-2 pt-4 border-t border-slate-700/30 mt-auto">
+                        <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold ${style.bg} ${style.text} border ${style.border}`}>
+                          <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" d={style.icon} />
                           </svg>
                           {group.matiereName}
                         </span>
-                        <span className="text-[10px] text-slate-500 ml-auto flex items-center gap-1">
-                          <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                        <span className="text-xs text-slate-500 ml-auto flex items-center gap-1.5">
+                          <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
                             <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 12h.007v.008H3.75V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm-.375 5.25h.007v.008H3.75v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
                           </svg>
                           {fiche.nb_sections} section{fiche.nb_sections !== 1 ? "s" : ""}

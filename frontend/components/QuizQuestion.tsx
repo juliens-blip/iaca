@@ -77,9 +77,9 @@ export default function QuizQuestion({
 
   return (
     <div className="w-full max-w-2xl mx-auto space-y-6">
-      {/* Question */}
+      {/* Question - hierarchie typographique (charte 3.1) */}
       <div className="card border-slate-600/50">
-        <h3 className="text-lg font-semibold text-slate-100 leading-relaxed">
+        <h3 className="text-lg font-semibold text-white leading-7">
           {question}
         </h3>
       </div>
@@ -185,11 +185,20 @@ export default function QuizQuestion({
             )}
           </div>
 
-          {/* Explication */}
+          {/* Explication - encadre semantique (charte 5.1) */}
           {explication && (
-            <div className="p-4 rounded-xl bg-slate-800/60 border border-slate-700/50">
-              <p className="text-sm font-semibold text-violet-400 mb-1">Explication</p>
-              <p className="text-sm text-slate-300 leading-relaxed">{explication}</p>
+            <div className="rounded-xl border border-blue-500/30 bg-blue-500/10 p-5">
+              <div className="flex items-start gap-3">
+                <div className="p-2 rounded-lg bg-blue-500/10 text-blue-400 shrink-0 mt-0.5">
+                  <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                  </svg>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className="text-xs font-semibold text-blue-400 uppercase tracking-wider mb-2">Explication</p>
+                  <p className="text-sm text-slate-200 leading-relaxed">{explication}</p>
+                </div>
+              </div>
             </div>
           )}
         </div>

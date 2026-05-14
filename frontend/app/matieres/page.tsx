@@ -176,7 +176,7 @@ export default function MatieresPage() {
       {/* Header */}
       <div className="flex items-center justify-between">
         <div>
-          <h1 className="text-3xl font-bold text-gradient">Matieres</h1>
+          <h1 className="text-3xl font-bold text-gradient font-heading">Matieres</h1>
           <p className="mt-1 text-slate-400">
             {matieres.length} matière{matieres.length !== 1 ? 's' : ''} • Explorez les ressources du concours
           </p>

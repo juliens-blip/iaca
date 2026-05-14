@@ -283,7 +283,7 @@ export default function QuizPage() {
       <div className="space-y-6 max-w-3xl mx-auto">
         <div className={`card border-2 ${matiereColor.border} ${matiereColor.bg}`}>
           <p className={`text-sm ${matiereColor.text} mb-2`}>{getMatiereName(activeQuiz.matiere_id)}</p>
-          <h1 className="text-2xl font-bold text-white mb-2">Quiz terminé</h1>
+          <h1 className="text-2xl font-bold text-white mb-2 font-heading">Quiz termine</h1>
           <p className="text-slate-300 text-sm mb-6">{activeQuiz.titre}</p>
 
           {/* Progress circle */}
@@ -400,7 +400,19 @@ export default function QuizPage() {
 
                   {isExpanded && item.explication && (
                     <div className="mt-3 pt-3 border-t border-slate-700/50">
-                      <p className="text-xs text-slate-300 leading-relaxed">{item.explication}</p>
+                      <div className="rounded-xl border border-blue-500/30 bg-blue-500/10 p-4">
+                        <div className="flex items-start gap-3">
+                          <div className="p-1.5 rounded-lg bg-blue-500/10 text-blue-400 shrink-0 mt-0.5">
+                            <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                              <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                            </svg>
+                          </div>
+                          <div className="flex-1 min-w-0">
+                            <p className="text-xs font-semibold text-blue-400 uppercase tracking-wider mb-1">Explication</p>
+                            <p className="text-sm text-slate-200 leading-relaxed">{item.explication}</p>
+                          </div>
+                        </div>
+                      </div>
                     </div>
                   )}
                 </div>
@@ -491,7 +503,7 @@ export default function QuizPage() {
     <div className="space-y-6">
       <div className="flex flex-col sm:flex-row sm:items-end justify-between gap-4">
         <div>
-          <h1 className="text-3xl font-bold text-white">Quiz</h1>
+          <h1 className="text-3xl font-bold text-white font-heading">Quiz</h1>
           <p className="mt-1 text-slate-400">
             Lancez des sessions ciblees par matiere et validez vos acquis.
           </p>
@@ -614,7 +626,7 @@ export default function QuizPage() {
                         </div>
                         <button
                           onClick={() => startQuiz(quiz)}
-                          className="btn-primary w-full opacity-0 group-hover:opacity-100 transition-opacity"
+                          className="btn-primary w-full"
                         >
                           Commencer
                         </button>
