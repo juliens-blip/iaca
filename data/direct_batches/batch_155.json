@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1292,
+      "fiche": {
+        "titre": "DAB 5 : utilisation collective du domaine public, libertes d'usage et encadrement administratif",
+        "resume": "Ce cours decrit la maniere dont les administr es utilisent collectivement le domaine public. La fiche en retient une idee directrice : parce que le domaine public est affecte a l'interet general, il est en principe destine au public et s'ouvre a un usage collectif, gouverne surtout par les principes de liberte et d'egalite, mais cette ouverture n'exclut pas des limitations justifiees par l'affectation du bien ou par les exigences de police administrative.",
+        "sections": [
+          {
+            "titre": "Le cours presente les administr es comme les destinataires naturels du domaine public",
+            "contenu": "Le document rappelle que le domaine public est affecte a des finalites d'interet general. La fiche retient que cette affectation justifie prioritairement un usage tourne vers le public et non un usage referme sur le seul proprietaire."
+          },
+          {
+            "titre": "Le domaine public peut etre utilise de maniere collective ou de maniere privative",
+            "contenu": "Le cours distingue l'usage libre et impersonnel de l'occupation reservee a certains seulement. La fiche retient que cette opposition structure tout le regime des usages des administr es."
+          },
+          {
+            "titre": "L'utilisation collective est gouvernee par les principes de liberte et d'egalite",
+            "contenu": "Le document montre que les administr es peuvent en principe acceder au domaine public sans autorisation individuelle, tant qu'ils restent dans les limites du droit d'usage commun. La fiche retient que l'usage collectif est la forme ordinaire d'utilisation du domaine public."
+          },
+          {
+            "titre": "La liberte d'utilisation reste toutefois encadree par l'affectation du domaine et par les polices competentes",
+            "contenu": "Le cours insiste sur la possibilite de limiter la circulation ou certains usages pour des motifs legitimes. La fiche retient que la liberte domaniale n'est ni absolue ni inconditionnelle."
+          },
+          {
+            "titre": "La liberte de circulation sert d'exemple majeur de cette ouverture encadree",
+            "contenu": "Le document evoque les permis, les mesures de police generale, la police de la circulation ou encore les restrictions sur les plages. La fiche retient que le domaine public est un espace de libertes reglees plus qu'un espace de libre abandon."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi les administr es sont-ils presentes comme les destinataires du domaine public ?",
+          "reponse": "Parce que le domaine public est affecte a des finalites d'interet general qui les concernent au premier chef.",
+          "explication": "La fiche fait de cette orientation vers le public le point de depart du regime des usages collectifs.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelles sont les deux grandes formes d'utilisation du domaine public par les administr es ?",
+          "reponse": "L'utilisation collective et l'utilisation privative.",
+          "explication": "Le document presente cette distinction comme la grille de lecture principale des usages des particuliers.",
+          "difficulte": 1
+        },
+        {
+          "question": "Qu'est-ce qui caracterise l'utilisation collective du domaine public ?",
+          "reponse": "Elle permet un usage impersonnel et en principe non exclusif, ouvert a l'ensemble des administr es.",
+          "explication": "La fiche souligne que cet usage se distingue de toute appropriation reservee a certains.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quels sont les deux grands principes qui gouvernent l'utilisation collective du domaine public ?",
+          "reponse": "Le principe de liberte et le principe d'egalite.",
+          "explication": "Le document les identifie comme les deux piliers du regime ordinaire des usages collectifs.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les administr es n'ont-ils pas en principe besoin d'autorisation pour user collectivement du domaine public ?",
+          "reponse": "Parce qu'ils n'occupent pas le domaine au-dela du droit d'usage qui appartient a tous.",
+          "explication": "La fiche relie ce point a l'idee d'un droit d'usage commun.",
+          "difficulte": 2
+        },
+        {
+          "question": "La liberte d'utilisation collective est-elle absolue ?",
+          "reponse": "Non, elle peut etre reglementee afin d'assurer le respect de l'affectation du domaine public et des exigences d'ordre public.",
+          "explication": "Le document montre que l'ouverture du domaine n'exclut pas l'encadrement administratif.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la liberte de circulation joue-t-elle un role central en matiere d'utilisation collective ?",
+          "reponse": "Parce qu'elle constitue l'une des manifestations les plus concretes et les plus frequentes de l'acces du public au domaine public.",
+          "explication": "La fiche la traite comme l'exemple type de l'usage collectif.",
+          "difficulte": 1
+        },
+        {
+          "question": "Comment la circulation sur le domaine public peut-elle etre legalement limitee ?",
+          "reponse": "Par des conditions d'aptitude comme les permis ou par des mesures de police justifiees et proportionnees.",
+          "explication": "Le document illustre ces limitations par la circulation routiere, maritime ou sur les plages.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la police de la circulation est-elle importante dans ce chapitre ?",
+          "reponse": "Parce qu'elle montre que la liberte d'utiliser le domaine public peut etre modulee selon les besoins de securite, d'ordre public ou d'organisation des usages.",
+          "explication": "La fiche relie cette police a l'encadrement concret des libertes domaniales.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DAB 5 ?",
+          "reponse": "Le domaine public est en principe ouvert a un usage collectif libre et egal, mais cette ouverture reste toujours disciplinee par l'affectation du bien et par les necessites de police.",
+          "explication": "La fiche relie ainsi destination collective du domaine et encadrement administratif.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1293,
+      "fiche": {
+        "titre": "DAB 6 : execution des titres domaniaux, droits de l'occupant et rapports avec le gestionnaire et les tiers",
+        "resume": "Ce cours examine l'execution de l'autorisation d'occupation du domaine public. La fiche en retient une idee directrice : une fois autorise, l'occupant dispose de droits reels de jouissance et d'exploitation sur la dependance, mais ces droits sont strictement cadres par le titre domanial, par les prerogatives du gestionnaire et par les exigences propres au domaine public, notamment en cas de travaux publics ou a l'expiration du titre.",
+        "sections": [
+          {
+            "titre": "Le titre domanial ouvre d'abord a l'occupant un droit d'acces et d'activite sur la dependance",
+            "contenu": "Le document explique que l'occupant peut acceder au domaine, y exercer l'activite autorisee et y deposer des choses dans les limites du titre. La fiche retient que l'autorisation n'est pas purement symbolique mais organise une veritable jouissance du bien."
+          },
+          {
+            "titre": "L'occupant peut aussi construire des ouvrages, mais dans un cadre strict",
+            "contenu": "Le cours subordonne cette possibilite au titre domanial et aux autorisations complementaires, notamment d'urbanisme. La fiche retient que la construction sur le domaine public demeure possible sans remettre en cause la propriete publique du sol."
+          },
+          {
+            "titre": "Les ouvrages construits par l'occupant lui appartiennent en principe pendant le titre",
+            "contenu": "Le document distingue cette propriete de celle du terrain, qui reste publique, et annonce l'exception des biens de retour. La fiche retient qu'une dissociation de proprietes peut exister sur la dependance domaniale."
+          },
+          {
+            "titre": "Les rapports avec le gestionnaire combinent obligations et droits opposables",
+            "contenu": "Le cours montre que l'occupant doit respecter les clauses du titre mais beneficie aussi d'un droit personnel de jouissance et d'un droit a une occupation paisible. La fiche retient que le titre domanial fonde une relation juridique equilibr ee, quoique asymetrique."
+          },
+          {
+            "titre": "Les rapports avec les tiers et avec les travaux publics illustrent les tensions propres a l'occupation privative",
+            "contenu": "Le document traite des actions contre les tiers occupants sans titre et de la question des indemnisations lorsque des travaux publics perturbent l'occupation. La fiche retient que l'occupation du domaine public reste toujours vulnerable aux besoins de l'interet general."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Que permet d'abord a l'occupant une autorisation reguliere d'occupation du domaine public ?",
+          "reponse": "Elle lui permet d'acceder a la dependance et d'y exercer l'activite pour laquelle il a ete autorise.",
+          "explication": "La fiche insiste sur le fait que l'occupation autorisee ouvre de vrais droits d'usage.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'occupant ne peut-il pas construire librement n'importe quel ouvrage sur le domaine public ?",
+          "reponse": "Parce que les constructions doivent etre prevues ou admises par le titre domanial et respecter les autres autorisations requises.",
+          "explication": "Le document rappelle notamment la necessite eventuelle d'un permis de construire.",
+          "difficulte": 1
+        },
+        {
+          "question": "A qui appartiennent en principe les ouvrages construits par l'occupant ?",
+          "reponse": "Ils appartiennent en principe a l'occupant, meme si le sol reste la propriete de la personne publique.",
+          "explication": "La fiche met en avant cette dissociation classique entre le terrain domanial et l'ouvrage prive.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle exception importante le cours annonce-t-il a propos des ouvrages de l'occupant ?",
+          "reponse": "L'exception des biens de retour, qui appartiennent a l'administration dans certains cas.",
+          "explication": "Le document rattache cette exception soit au titre, soit a la necessite du service public.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que devient en principe l'ouvrage de l'occupant a l'expiration du titre ?",
+          "reponse": "L'occupant doit en principe le retirer, sauf si l'administration accepte son maintien.",
+          "explication": "La fiche relie ce point a la fin normale de l'occupation privative.",
+          "difficulte": 1
+        },
+        {
+          "question": "Par quel mecanisme l'administration peut-elle devenir proprietaire des ouvrages laisses sur son domaine ?",
+          "reponse": "Par accession, en principe a titre gratuit sauf stipulation contraire.",
+          "explication": "Le document en fait l'une des consequences majeures de la fin du titre domanial.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel droit personnel essentiel l'occupant tient-il du titre domanial a l'egard du gestionnaire ?",
+          "reponse": "Un droit personnel de jouissance de la dependance dans les limites du titre.",
+          "explication": "La fiche montre que le gestionnaire doit mettre le bien a disposition conformement au titre.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que signifie le droit a une occupation paisible ?",
+          "reponse": "Le gestionnaire ne doit pas troubler l'occupation de l'occupant en dehors des hypotheses legitimes prevues par le droit ou le titre.",
+          "explication": "Le document ouvre ici la voie a une eventuelle responsabilite du gestionnaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les travaux publics peuvent-ils poser un probleme particulier a l'occupant ?",
+          "reponse": "Parce qu'ils peuvent perturber l'occupation paisible du domaine public malgre l'existence d'un titre regulier.",
+          "explication": "La fiche souligne que le besoin d'interet general peut l'emporter sur le confort d'occupation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DAB 6 ?",
+          "reponse": "L'occupation privative du domaine public confere de vrais droits a l'occupant, mais ces droits restent encadres par le titre, exposes aux besoins du domaine et toujours subordonnes a la logique generale de la propriete publique.",
+          "explication": "La fiche relie ainsi jouissance privative et fragilite structurelle de l'occupation domaniale.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1294,
+      "fiche": {
+        "titre": "DAB 7 : regime du domaine prive, gestion plus souple mais jamais purement privee",
+        "resume": "Ce cours ouvre l'etude du regime du domaine prive des personnes publiques. La fiche en retient une idee directrice : le domaine prive est principalement regi par le droit prive, ce qui lui donne plus de souplesse que le domaine public, mais il ne s'identifie jamais entierement a une propriete privee ordinaire car il demeure marque par la presence de la personne publique, par certaines regles de droit public et par sa participation indirecte a l'interet general.",
+        "sections": [
+          {
+            "titre": "Le cours rappelle d'abord que la propriete publique ne se reduit pas au domaine public",
+            "contenu": "Le document souligne que les personnes publiques peuvent aussi detenir des biens relevant de leur domaine prive. La fiche retient que le DAB ne se limite donc pas a la domanialite publique au sens strict."
+          },
+          {
+            "titre": "Le domaine prive est globalement regi par le droit prive",
+            "contenu": "Le cours presente ce trait comme sa marque principale. La fiche retient que cette orientation vers le droit prive explique la plus grande souplesse de gestion de ces biens."
+          },
+          {
+            "titre": "Cette souplesse n'efface pourtant pas toute presence du droit public",
+            "contenu": "Le document insiste sur l'application de certaines regles speciales en raison de la qualite publique du proprietaire. La fiche retient que le domaine prive des personnes publiques est un regime mixte plutot qu'un simple decalque du droit commun prive."
+          },
+          {
+            "titre": "Le domaine prive participe, au moins partiellement, a la poursuite de l'interet general",
+            "contenu": "Le cours refuse de le concevoir comme une propriete purement individualiste. La fiche retient que l'appartenance a une personne publique colore toujours la finalite et l'encadrement de ces biens."
+          },
+          {
+            "titre": "L'entree dans le domaine prive se fait principalement par acquisition ou par declassement",
+            "contenu": "Le document annonce les deux grandes portes d'entree de ce regime. La fiche retient que le domaine prive est le receptacle normal des biens acquis, mais aussi le point d'atterrissage de biens qui sortent du domaine public."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi l'etude du domaine prive est-elle necessaire en DAB ?",
+          "reponse": "Parce que la propriete des personnes publiques ne se limite pas au domaine public.",
+          "explication": "La fiche souligne que la propriete publique est duale jusque dans ses regimes.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel trait general caracterise d'abord le regime du domaine prive ?",
+          "reponse": "Il est globalement regi par le droit prive.",
+          "explication": "Le document en fait le point de depart de la comparaison avec le domaine public.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi ne faut-il pas confondre domaine prive des personnes publiques et propriete privee ordinaire ?",
+          "reponse": "Parce que le domaine prive demeure soumis a certaines regles speciales de droit public du fait de la qualite publique du proprietaire.",
+          "explication": "La fiche insiste sur la persistance d'un encadrement public.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel type de regime le cours attribue-t-il finalement au domaine prive ?",
+          "reponse": "Un regime mixte, principalement domine par le droit prive mais traverse par des regles de droit public.",
+          "explication": "Le document refuse une opposition trop simpliste entre domaine prive public et propriete privee pure.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi peut-on dire que le domaine prive participe tout de meme a l'interet general ?",
+          "reponse": "Parce qu'il appartient a des personnes publiques et s'inscrit, meme indirectement, dans leur action d'interet general.",
+          "explication": "La fiche souligne que ces biens ne poursuivent pas une finalite strictement individuelle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel texte le cours invoque-t-il pour illustrer la libre gestion du domaine prive ?",
+          "reponse": "Le cours invoque l'article L. 2221-1 du CG3P.",
+          "explication": "Le document l'utilise pour montrer a la fois la liberte de gestion et l'existence de regles applicables particulieres.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la liberte de gestion du domaine prive n'est-elle pas identique a celle d'un proprietaire prive ordinaire ?",
+          "reponse": "Parce qu'elle doit s'exercer dans le cadre des regles speciales applicables aux personnes publiques.",
+          "explication": "La fiche relie cette limite a la protection de l'argent public et des finalites publiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles deux grandes voies d'entree dans le domaine prive le cours annonce-t-il ?",
+          "reponse": "L'entree par acquisition et l'entree par declassement.",
+          "explication": "Le document en fait les deux hypotheses structurantes de l'entree dans le domaine prive.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le declassement est-il important dans le regime du domaine prive ?",
+          "reponse": "Parce qu'il permet de faire sortir un bien du domaine public pour lui rendre une gestion plus souple dans le domaine prive.",
+          "explication": "La fiche y voit l'un des grands instruments de flexibilisation patrimoniale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DAB 7 ?",
+          "reponse": "Le domaine prive des personnes publiques est plus souple que le domaine public, mais il reste un patrimoine public particulier, marque par des finalites et des contraintes qui l'eloignent d'une pure propriete privee ordinaire.",
+          "explication": "La fiche relie ainsi souplesse de gestion et persistance d'une coloration publique.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1295,
+      "fiche": {
+        "titre": "DAB 8 : formation de la propriete publique et distinction entre acquisitions consenties et acquisitions forcees",
+        "resume": "Ce cours ouvre la partie consacree a la formation de la propriete publique. La fiche en retient une idee directrice : la propriete publique se forme soit par acquisition, soit par construction, et parmi les acquisitions, il faut d'abord distinguer les acquisitions consenties des acquisitions forcees, tout en comprenant que les regles applicables varient fortement selon la nature du bien, l'operation en cause et la personne publique qui agit.",
+        "sections": [
+          {
+            "titre": "Le cours distingue deux grands modes de formation de la propriete publique",
+            "contenu": "Le document oppose la formation par acquisition et la formation par construction. La fiche retient que le patrimoine public peut se constituer tant par transfert que par production de biens."
+          },
+          {
+            "titre": "Au sein des acquisitions, le cours separe les acquisitions consenties et les acquisitions forcees",
+            "contenu": "Le document presente cette opposition comme la premiere grande ligne de partage. La fiche retient que cette distinction commande des regimes juridiques tres differents."
+          },
+          {
+            "titre": "L'achat d'immeubles par une personne publique releve en principe du droit civil",
+            "contenu": "Le cours s'appuie sur l'article L. 1111-1 du CG3P. La fiche retient que l'achat immobilier reste gouverne par le droit commun prive, meme si des regles specifiques peuvent s'y ajouter du fait de la qualite publique de l'acheteur."
+          },
+          {
+            "titre": "L'achat de meubles releve au contraire de la commande publique",
+            "contenu": "Le document explique que l'acquisition de fournitures par une personne publique obeit en principe aux marches publics et a la mise en concurrence. La fiche retient que le meuble achete par une personne publique bascule dans une logique administrative de commande."
+          },
+          {
+            "titre": "La difference entre immeuble et meuble eclaire ici la logique des regimes",
+            "contenu": "Le cours justifie l'absence de mise en concurrence pour les immeubles par leur caractere souvent unique, alors que les meubles se pretent a une comparaison d'offres. La fiche retient que la technique d'acquisition depend aussi de la fungibilite economique du bien."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quels sont les deux grands modes de formation de la propriete publique presents au debut de DAB 8 ?",
+          "reponse": "La formation par acquisition et la formation par construction.",
+          "explication": "La fiche souligne que le patrimoine public peut etre recu ou produit.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle distinction structurante le cours opere-t-il parmi les acquisitions ?",
+          "reponse": "La distinction entre acquisitions consenties et acquisitions forcees.",
+          "explication": "Le document en fait l'axe d'organisation de toute la sous-partie.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quels sont les trois exemples principaux d'acquisitions consenties annonces par le cours ?",
+          "reponse": "L'achat, l'echange et la donation.",
+          "explication": "La fiche les presente comme les figures classiques du consentement dans la formation du patrimoine public.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel principe gouverne en principe l'achat d'immeubles par une personne publique ?",
+          "reponse": "Cet achat s'opere suivant les regles du droit civil.",
+          "explication": "Le document rattache ce principe a l'article L. 1111-1 du CG3P.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'achat immobilier par une personne publique ne se confond-il pas totalement avec un achat prive ordinaire ?",
+          "reponse": "Parce que des regles complementaires peuvent s'ajouter pour encadrer la competence, la forme de l'acte ou certains avis prealables.",
+          "explication": "La fiche insiste sur la persistance d'un encadrement lie a l'argent public.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans quel cas un contrat d'achat d'immeuble peut-il devenir un contrat administratif ?",
+          "reponse": "Lorsqu'il remplit les criteres du contrat administratif, par exemple en presence d'une clause exorbitante ou d'un lien particulier avec le service public.",
+          "explication": "Le document rappelle que le droit civil ne ferme pas toute requalification administrative.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'achat de meubles par une personne publique releve-t-il en principe de la commande publique ?",
+          "reponse": "Parce qu'il s'agit d'une fourniture pouvant faire l'objet d'une mise en concurrence entre plusieurs offres.",
+          "explication": "La fiche relie cette solution a la logique de protection de l'argent public.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel type de contrat est en principe utilise pour l'achat de meubles par une personne publique ?",
+          "reponse": "Un marche public de fournitures.",
+          "explication": "Le document en fait l'outil normal d'acquisition des biens meubles.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les immeubles n'obeissent-ils pas au meme schema de mise en concurrence que les meubles ?",
+          "reponse": "Parce qu'un immeuble est souvent un bien unique, choisi pour sa situation ou sa configuration propre, ce qui se prete mal a une comparaison standardisee d'offres.",
+          "explication": "La fiche traduit ainsi la difference economique entre les categories de biens.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DAB 8 ?",
+          "reponse": "La formation de la propriete publique repose sur des techniques variees, et les acquisitions sont regies differemment selon qu'elles sont consenties ou forcees, immobilieres ou mobilieres.",
+          "explication": "La fiche relie ainsi classification des biens et diversification des regimes d'acquisition.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
