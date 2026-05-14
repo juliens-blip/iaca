@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1282,
+      "fiche": {
+        "titre": "Plan du cours DAB 2023-2024 : architecture generale de la propriete publique et de son utilisation",
+        "resume": "Ce document ne developpe pas encore le fond des notions, mais il structure l'ensemble du cours de droit administratif des biens. La fiche en retient une idee directrice : le DAB s'organise autour de trois grands ensembles, la propriete publique, les travaux et ouvrages publics, puis l'expropriation, avec une progression qui va de la definition des biens publics a leur protection, leur usage et leur transformation par l'action administrative.",
+        "sections": [
+          {
+            "titre": "Le plan ouvre par une introduction generale consacree a la place du droit administratif des biens",
+            "contenu": "Le document annonce d'abord les caracteristiques generales du DAB et sa logique d'ensemble. La fiche retient que le cours commence par situer cette matiere comme un droit administratif special des biens lies a l'action publique."
+          },
+          {
+            "titre": "La premiere grande partie est consacree a l'organisation de la propriete publique",
+            "contenu": "Le plan detaille la distinction entre propriete publique et propriete privee puis, au sein de la propriete publique, entre domaine public et domaine prive. La fiche retient que le coeur du debut du cours est domanial."
+          },
+          {
+            "titre": "Le domaine public est etudie dans ses conditions d'entree, ses protections et ses usages",
+            "contenu": "Le document annonce l'incorporation, l'inalienabilite, l'imprescriptibilite, les servitudes, la police et les mecanismes repressifs. La fiche retient que le regime domanial est pense a la fois comme un statut d'appartenance, de defense et de mise a disposition."
+          },
+          {
+            "titre": "L'utilisation du domaine public est envisagee sous l'angle administratif et sous l'angle des administres",
+            "contenu": "Le plan distingue la gestion par les personnes publiques, l'utilisation collective et l'occupation privative. La fiche retient que le cours relie constamment la logique proprietaire a la logique fonctionnelle d'affectation."
+          },
+          {
+            "titre": "La progression annonce enfin les travaux publics et l'expropriation comme prolongements naturels",
+            "contenu": "Meme si l'extrait est surtout centre sur la premiere partie, le plan montre que la matiere va ensuite vers la construction de la propriete publique et vers sa recomposition par contrainte. La fiche retient que le DAB articule protection du patrimoine public et instruments de transformation."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle est la fonction principale d'un plan de cours comme celui du DAB ?",
+          "reponse": "Il donne l'architecture intellectuelle de la matiere avant l'etude detaillee des notions.",
+          "explication": "La fiche le lit comme une carte generale du raisonnement a venir.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel grand theme structure la premiere partie du cours de DAB ?",
+          "reponse": "L'organisation de la propriete publique.",
+          "explication": "Le document montre que le cours commence par la domanialite avant les techniques de transformation.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle dualite fondamentale le plan annonce-t-il d'abord en droit des biens publics ?",
+          "reponse": "La dualite entre propriete privee et propriete publique.",
+          "explication": "La fiche y voit la premiere grille de lecture de la matiere.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle seconde dualite le plan annonce-t-il au sein meme de la propriete publique ?",
+          "reponse": "La dualite entre domaine public et domaine prive.",
+          "explication": "Le document montre que la propriete publique n'est pas un bloc uniforme.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quels trois moments majeurs du regime du domaine public sont annonces par le plan ?",
+          "reponse": "L'entree dans le domaine public, sa protection et son utilisation.",
+          "explication": "La fiche retient cette trilogie comme une structure classique du raisonnement domanial.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'inalienabilite et l'imprescriptibilite apparaissent-elles au centre du plan ?",
+          "reponse": "Parce qu'elles constituent les protections fondamentales du domaine public.",
+          "explication": "Le document les place au coeur de la sous-section consacree a la defense du domaine public.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel interet y a-t-il a distinguer utilisation collective et utilisation privative du domaine public ?",
+          "reponse": "Parce que les administr es n'y accedent pas selon les memes principes ni sous les memes conditions juridiques.",
+          "explication": "La fiche relie cette distinction a la difference entre libertes d'usage et autorisations individuelles.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le plan consacre-t-il une place a la gestion deleguee du domaine public ?",
+          "reponse": "Parce que l'utilisation du domaine public n'est pas toujours assuree directement par son proprietaire public.",
+          "explication": "Le document annonce diverses formes de delegation et de transfert organise.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que montre l'enchainement du plan entre propriete publique, travaux publics et expropriation ?",
+          "reponse": "Il montre que le DAB ne traite pas seulement de la conservation des biens publics, mais aussi de leur creation, leur usage et leur recomposition.",
+          "explication": "La fiche souligne ainsi la dynamique complete de la matiere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce plan de DAB ?",
+          "reponse": "Le droit administratif des biens est une matiere structuree autour de la qualification des biens publics, de leur protection et des techniques par lesquelles l'administration les gere, les construit ou les acquiert.",
+          "explication": "La fiche transforme le plan en schema directeur de cours.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1283,
+      "fiche": {
+        "titre": "DAB 1 : pourquoi le droit administratif des biens est un droit administratif special",
+        "resume": "Cette introduction generale expose la logique historique et conceptuelle du droit administratif des biens. La fiche en retient une idee directrice : le DAB repose sur l'idee ancienne que certains biens, parce qu'ils sont publics ou lies a l'action publique, doivent etre soumis a des regles speciales, ce qui en fait aujourd'hui un droit administratif special, etroitement lie a l'interet general et a la puissance publique.",
+        "sections": [
+          {
+            "titre": "Le cours part d'une intuition simple : certains biens ne peuvent pas etre regimes comme les biens prives ordinaires",
+            "contenu": "Le document rappelle que le droit administratif des biens traite de biens soumis a une reglementation particuliere. La fiche retient que la specialite du regime nait de la specialite de la fonction de ces biens."
+          },
+          {
+            "titre": "L'ancrage historique de la matiere remonte bien avant l'Etat administratif moderne",
+            "contenu": "Le cours evoque les res publicae du droit greco-romain, le domaine de la Couronne et l'edit de Moulins. La fiche retient que la protection particuliere des biens publics est une idee de longue duree dans l'histoire juridique francaise."
+          },
+          {
+            "titre": "La Revolution francaise ne supprime pas la logique de protection des biens publics",
+            "contenu": "Le document montre qu'elle consacre le droit de propriete tout en transferant le patrimoine du roi vers celui de l'Etat. La fiche retient que la sacralisation de la propriete privee n'a pas fait disparaitre la necessite d'un patrimoine public protege."
+          },
+          {
+            "titre": "Le XIXe et le XXe siecle approfondissent la specialisation de ce droit",
+            "contenu": "Le cours insiste sur le role de la justice administrative, de l'expropriation et finalement de la codification de 2006. La fiche retient que le CG3P marque une rationalisation tardive d'un ensemble de solutions plus anciennes."
+          },
+          {
+            "titre": "Le DAB est presente comme un droit administratif special lie a l'action publique",
+            "contenu": "Le document rattache la matiere aux missions d'interet general des personnes publiques et aux moyens qu'elles mobilisent. La fiche retient que les biens publics ne sont pas etudies pour eux-memes mais pour leur rapport a la puissance publique."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle idee simple ouvre l'introduction generale du DAB ?",
+          "reponse": "Certains biens doivent etre soumis a des regles speciales parce qu'ils sont lies a l'action publique.",
+          "explication": "La fiche en fait la racine commune de toute la matiere.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le droit administratif des biens est-il qualifie de droit administratif special ?",
+          "reponse": "Parce qu'il applique des regles administratives particulieres a une categorie determinee de biens.",
+          "explication": "Le document le rattache a la construction generale du droit administratif.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que montrent les references aux res publicae du droit greco-romain ?",
+          "reponse": "Elles montrent que l'idee de choses publiques soumises a un regime distinct est tres ancienne.",
+          "explication": "La fiche insiste ici sur la profondeur historique de la distinction public-prive.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'edit de Moulins de 1566 est-il important dans l'histoire du DAB ?",
+          "reponse": "Parce qu'il est souvent presente comme l'ancetre de la protection moderne du domaine public, notamment par l'inalienabilite.",
+          "explication": "Le document le mobilise comme jalon majeur de l'histoire domaniale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel double enseignement la Revolution francaise apporte-t-elle en droit des biens ?",
+          "reponse": "Elle place le droit de propriete au centre du systeme tout en maintenant la necessite de proteger des biens publics.",
+          "explication": "La fiche souligne cette continuit e partielle avec l'Ancien Regime.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la loi du 8 mars 1810 est-elle citee dans cette introduction ?",
+          "reponse": "Parce qu'elle organise l'expropriation pour cause d'utilite publique dans une forme proche de celle encore connue aujourd'hui.",
+          "explication": "Le document l'utilise comme point de depart d'un grand instrument du DAB.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est l'interet du Code general de la propriete des personnes publiques de 2006 ?",
+          "reponse": "Il rationalise et systematise les regles du droit administratif des biens.",
+          "explication": "La fiche le presente comme un moment de mise en ordre d'un droit ancien et foisonnant.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les biens etudies en DAB interessent-ils principalement le juriste publiciste ?",
+          "reponse": "Parce qu'ils sont globalement lies aux missions d'interet general des personnes publiques.",
+          "explication": "Le document relie constamment le bien a la fonction administrative qu'il sert.",
+          "difficulte": 2
+        },
+        {
+          "question": "Le DAB etudie-t-il seulement des biens appartenant de facon abstraite a l'administration ?",
+          "reponse": "Non, il etudie surtout des biens consideres comme moyens de l'action publique.",
+          "explication": "La fiche deplace l'attention du seul proprietaire vers la finalite du bien.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DAB 1 ?",
+          "reponse": "Le droit administratif des biens est un droit administratif special issu d'une longue histoire, construit pour soumettre certains biens utiles a l'action publique a des regles distinctes du droit commun.",
+          "explication": "La fiche relie ainsi histoire, specialite et interet general.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1284,
+      "fiche": {
+        "titre": "DAB 10 : phase judiciaire de l'expropriation, ordonnance de transfert et role du juge judiciaire",
+        "resume": "Ce cours est consacre a la phase judiciaire de la procedure d'expropriation pour cause d'utilite publique. La fiche en retient une idee directrice : apres la phase administrative, le juge judiciaire intervient comme gardien constitutionnel de la propriete pour prononcer le transfert force et fixer les indemnites, mais cette phase n'est pas toujours chronologiquement separee de la phase administrative, ce qui explique plusieurs tensions procedurales propres a l'expropriation.",
+        "sections": [
+          {
+            "titre": "La phase judiciaire a pour objet le transfert de propriete et la fixation des indemnites",
+            "contenu": "Le document distingue clairement cette etape de la phase administrative qui etablit l'utilite publique et la cessibilite. La fiche retient que le juge judiciaire n'apprecie pas l'opportunite du projet mais en tire les consequences sur la propriete privee."
+          },
+          {
+            "titre": "Les deux phases peuvent toutefois se chevaucher en pratique",
+            "contenu": "Le cours montre que le juge de l'expropriation peut etre saisi pour les indemnites avant meme que la phase administrative soit devenue definitive. La fiche retient que la recherche d'efficacite procedurale introduit ici une certaine simultaneite."
+          },
+          {
+            "titre": "Le recours au juge judiciaire repose sur sa qualite de gardien naturel de la propriete",
+            "contenu": "Le document rattache cette competence a une garantie constitutionnelle reconnue par le Conseil constitutionnel. La fiche retient que l'expropriation est un terrain privilegie de protection juridictionnelle de la propriete privee."
+          },
+          {
+            "titre": "L'ordonnance d'expropriation est l'acte central de la phase judiciaire",
+            "contenu": "Le cours explique que seul le prefet peut saisir le juge pour obtenir cette ordonnance de transfert de propriete. La fiche retient que l'intervention judiciaire reste encadree par une impulsion administrative et par des delais stricts."
+          },
+          {
+            "titre": "Le controle du juge est principalement formel lors de l'ordonnance de transfert",
+            "contenu": "Le document insiste sur la verification des pieces transmises et sur la regularite du dossier. La fiche retient que le juge judiciaire n'est pas ici un juge global du projet public, mais un juge specialise du transfert et de ses garanties immediates."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel est l'objet principal de la phase judiciaire de l'expropriation ?",
+          "reponse": "Prononcer l'expropriation et fixer les indemnites dues aux personnes expropriees.",
+          "explication": "La fiche oppose nettement cette fonction a celle de la phase administrative.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la phase judiciaire intervient-elle en principe apres la phase administrative ?",
+          "reponse": "Parce que la phase administrative doit d'abord etablir l'utilite publique et determiner les biens a exproprier.",
+          "explication": "Le document souligne la logique fonctionnelle de cette succession.",
+          "difficulte": 1
+        },
+        {
+          "question": "Comment la procedure d'expropriation peut-elle brouiller cette succession theorique ?",
+          "reponse": "Parce que le juge peut etre saisi pour les indemnites avant que la phase administrative soit devenue definitive.",
+          "explication": "La fiche y voit un effet de rationalisation temporelle de la procedure.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le juge judiciaire intervient-il en matiere d'expropriation ?",
+          "reponse": "Parce qu'il est concu comme le gardien naturel de la propriete.",
+          "explication": "Le document relie cette idee a un principe de valeur constitutionnelle.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que se passe-t-il si les biens sont finalement vendus a l'amiable ?",
+          "reponse": "Le juge de l'expropriation n'a plus a intervenir, car on sort de la logique contraignante de l'expropriation.",
+          "explication": "La fiche rappelle que l'intervention judiciaire suppose l'absence d'accord amiable.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel acte le juge adopte-t-il pour prononcer le transfert force de propriete ?",
+          "reponse": "Une ordonnance d'expropriation, aussi appelee ordonnance de transfert de propriete.",
+          "explication": "Le document en fait le centre de la phase judiciaire.",
+          "difficulte": 1
+        },
+        {
+          "question": "Qui peut saisir le juge de l'expropriation pour obtenir cette ordonnance ?",
+          "reponse": "Seul le prefet peut saisir le juge de l'expropriation.",
+          "explication": "La fiche souligne que l'impulsion de la phase judiciaire reste admin istrative.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le delai de saisine du juge par le prefet est-il important ?",
+          "reponse": "Parce qu'une saisine hors delai peut entacher d'irregularite l'ordonnance d'expropriation.",
+          "explication": "Le document fait du delai de six mois un point procedur al cle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel type de controle le juge exerce-t-il surtout au stade de l'ordonnance ?",
+          "reponse": "Un controle principalement formel, portant sur l'existence et la regularite des pieces du dossier.",
+          "explication": "La fiche distingue ce controle du controle administratif de l'utilite publique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DAB 10 ?",
+          "reponse": "La phase judiciaire de l'expropriation protege la propriete par l'intervention du juge judiciaire, mais elle fonctionne dans un schema procedural rapide, specialise et etroitement articule a la phase administrative.",
+          "explication": "La fiche relie ainsi garantie constitutionnelle et efficacite procedurale.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1285,
+      "fiche": {
+        "titre": "DAB 11 : travaux publics, ouvrages publics et construction de la propriete publique",
+        "resume": "Ce cours ouvre la sous-partie consacree a la construction de la propriete publique. La fiche en retient une idee directrice : les personnes publiques ne se contentent pas d'acquerir des biens, elles les font aussi naitre par des operations de construction, ce qui impose de distinguer avec precision les notions de travail public et d'ouvrage public, car de cette qualification dependent le regime applicable et la competence du juge administratif.",
+        "sections": [
+          {
+            "titre": "Le cours explique que la propriete publique peut se construire et pas seulement s'acquerir",
+            "contenu": "Le document montre que les personnes publiques peuvent devenir proprietaires de biens qu'elles font realiser. La fiche retient que le DAB s'interesse ici a la production materielle du patrimoine public."
+          },
+          {
+            "titre": "Travaux publics et ouvrages publics sont lies mais juridiquement distincts",
+            "contenu": "Le cours presente le travail public comme l'aspect dynamique de l'operation et l'ouvrage public comme son resultat acheve. La fiche retient que ces deux notions sont voisines sans etre confondues."
+          },
+          {
+            "titre": "La qualification est decisive pour le regime juridique et pour le juge competent",
+            "contenu": "Le document rappelle que les travaux et ouvrages publics relevent en principe du droit administratif et du juge administratif, alors que des travaux prives accomplis par une personne publique peuvent relever du droit prive. La fiche retient que la qualification commande toute la suite du raisonnement."
+          },
+          {
+            "titre": "Le travail public est d'abord un travail et un travail immobilier",
+            "contenu": "Le cours insiste sur l'operation materielle de creation, destruction ou modification portant sur un immeuble. La fiche retient que le travail public ne se reduit ni a une pure decision intellectuelle ni a un simple phenomene naturel."
+          },
+          {
+            "titre": "La definition combine ensuite personne publique, interet general et service public",
+            "contenu": "Le document montre que le travail immobilier peut etre public soit parce qu'il est realise pour le compte d'une personne publique dans un but d'interet general, soit parce qu'il est realise par une personne publique dans un but de service public. La fiche retient que la qualification repose sur une structure alternative precise."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Que signifie l'idee de construction de la propriete publique ?",
+          "reponse": "Elle signifie que les personnes publiques peuvent devenir proprietaires de biens qu'elles font realiser par des operations de travaux.",
+          "explication": "La fiche souligne ici une autre source du patrimoine public que la seule acquisition.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les notions de travail public et d'ouvrage public sont-elles liees ?",
+          "reponse": "Parce que le travail public est generalement l'operation qui aboutit a l'ouvrage public.",
+          "explication": "Le document les presente comme deux faces d'une meme operation.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle difference de point de vue separe le travail public de l'ouvrage public ?",
+          "reponse": "Le travail public correspond a l'activite en cours, alors que l'ouvrage public designe le resultat acheve.",
+          "explication": "La fiche traduit cela par l'opposition entre aspect dynamique et aspect statique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la qualification de travail public est-elle juridiquement decisive ?",
+          "reponse": "Parce qu'elle determine l'application des regles exorbitantes du droit administratif et la competence du juge administratif.",
+          "explication": "Le document oppose explicitement ce regime a celui des travaux prives.",
+          "difficulte": 1
+        },
+        {
+          "question": "Une operation realisee par l'administration est-elle toujours un travail public ?",
+          "reponse": "Non, elle peut etre un travail prive si les criteres du travail public ne sont pas reunis.",
+          "explication": "La fiche combat ici un reflexe trop rapide de qualification.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels sont les deux elements constants de tout travail public selon le cours ?",
+          "reponse": "C'est toujours un travail, et toujours un travail portant sur un immeuble.",
+          "explication": "Le document en fait les deux premiers piliers de la definition jurisprudentielle.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi un phenomene naturel ne peut-il pas etre qualifie de travail public ?",
+          "reponse": "Parce qu'un travail public suppose une operation humaine, materielle et transformatrice.",
+          "explication": "La fiche rappelle que le travail doit creer, modifier ou detruire quelque chose.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans quel premier cas un travail immobilier sera-t-il qualifie de travail public ?",
+          "reponse": "Lorsqu'il est realise pour le compte d'une personne publique dans un but d'interet general.",
+          "explication": "Le document fait de cette hypothese la voie la plus classique de qualification.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle est l'autre voie de qualification d'un travail public d'apres le cours ?",
+          "reponse": "Le cas ou le travail immobilier, meme realise pour le compte d'une personne privee, est accompli par une personne publique dans un but de service public.",
+          "explication": "La fiche retient cette structure alternative comme centrale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DAB 11 ?",
+          "reponse": "La construction de la propriete publique passe par des operations qu'il faut qualifier avec precision, car la distinction entre travaux publics, ouvrages publics et travaux prives conditionne tout leur regime juridique.",
+          "explication": "La fiche relie ainsi definition, fonction et competence juridictionnelle.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
