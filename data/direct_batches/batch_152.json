@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1266,
+      "fiche": {
+        "titre": "DFI semaine 8 : regulation fiscale et restriction souple des espaces de liberte du contribuable",
+        "resume": "Cette seance ouvre le titre consacre a la regulation fiscale. La fiche en retient une idee directrice : a cote de la fiscalite imperative, unilaterale et sanctionnee, le droit fiscal deploie des mecanismes plus souples qui ne commandent pas toujours directement mais cherchent a normaliser les comportements par l'incertitude, la dissuasion et le ciblage des cas extremes.",
+        "sections": [
+          {
+            "titre": "Le cours oppose d'abord la reglementation fiscale classique a la regulation fiscale",
+            "contenu": "Le document rappelle que la loi fiscale repose traditionnellement sur une base imperative, unilaterale et sanctionnee. La fiche retient que la regulation fiscale designe au contraire des techniques plus flexibles dans leur mode d'action."
+          },
+          {
+            "titre": "La regulation fiscale laisse subsister des marges de discussion, de choix ou d'assouplissement",
+            "contenu": "Le cours explique que certains mecanismes cassent la logique purement verticale de l'imposition. La fiche retient que l'administration n'agit pas toujours par interdiction directe mais parfois par orientation des conduites."
+          },
+          {
+            "titre": "Le chapitre commence par les mecanismes qui restreignent sans supprimer completement la liberte",
+            "contenu": "Le document annonce d'abord l'etude des restrictions d'espaces de liberte avant celle des ouvertures accordees au contribuable. La fiche retient que l'ordre choisi met l'accent sur les outils les plus structurants de la pratique fiscale."
+          },
+          {
+            "titre": "Ces mecanismes reposent sur une frontiere volontairement impr ecise entre le licite et l'illicite",
+            "contenu": "Le cours insiste sur le caractere volontairement flou de certaines normes. La fiche retient que cette imprecision est une technique de gouvernement des comportements autant qu'un simple defaut de redaction."
+          },
+          {
+            "titre": "La dissuasion et l'insecurite juridique sont presentes comme des leviers deliberes de normalisation",
+            "contenu": "Le document montre que le contribuable est pousse a ne pas approcher certaines limites faute de savoir exactement ou elles passent. La fiche retient que l'efficacite de la regulation tient ici a la peur du redressement plus qu'a la certitude de la regle."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle distinction generale la semaine 8 introduit-elle ?",
+          "reponse": "La distinction entre la reglementation fiscale classique et la regulation fiscale.",
+          "explication": "La fiche fait de cette opposition le cadre theorique de toute la seance.",
+          "difficulte": 1
+        },
+        {
+          "question": "Sur quelles trois caracteristiques repose la loi fiscale classique selon le cours ?",
+          "reponse": "Elle repose sur une base imperative, unilaterale et sanctionnee.",
+          "explication": "Le document les presente comme les traits structurants du mode traditionnel d'imposition.",
+          "difficulte": 1
+        },
+        {
+          "question": "Qu'apporte la notion de regulation fiscale par rapport a ce modele classique ?",
+          "reponse": "Elle permet de penser des mecanismes plus souples, laissant plus de place a la discussion, au choix ou a la modulation des reactions.",
+          "explication": "La fiche souligne que la regulation n'efface pas la norme mais change sa maniere d'agir.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le cours commence-t-il par la restriction des espaces de liberte ?",
+          "reponse": "Parce qu'il s'agit des mecanismes les plus importants pour comprendre comment le droit fiscal normalise concretement les comportements.",
+          "explication": "Le document assume cet ordre pour des raisons de centralite pratique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel point commun majeur le cours attribue-t-il a ces mecanismes de regulation ?",
+          "reponse": "Ils reposent sur des modeles de comportement volontairement imprecis.",
+          "explication": "La fiche y voit une technique normative specifique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'imprecision de la frontiere entre le legal et l'illegal peut-elle etre recherchee ?",
+          "reponse": "Parce qu'elle dissuade le contribuable de s'approcher de la limite par peur du redressement.",
+          "explication": "Le document attribue a cette imprecision une fonction deliberement preventive.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel lien le cours etablit-il entre insecurite juridique et efficacite administrative ?",
+          "reponse": "L'insecurite juridique peut rendre la regulation plus efficace en poussant les contribuables a adopter des comportements prudents.",
+          "explication": "La fiche montre que l'incertitude n'est pas ici seulement subie mais aussi instrumentalee.",
+          "difficulte": 2
+        },
+        {
+          "question": "La regulation fiscale cherche-t-elle a rendre tous les comportements identiques ?",
+          "reponse": "Non, elle cherche surtout a normaliser les conduites et a reserver la sanction aux cas juges extremes.",
+          "explication": "Le document insiste sur cette logique de ciblage plutot que d'uniformisation totale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels grands ensembles de mecanismes le cours annonce-t-il apres cette introduction ?",
+          "reponse": "L'acte anormal de gestion, l'abus de droit et les mecanismes de prevention de la fraude et de l'evasion fiscale.",
+          "explication": "La fiche y voit les trois grandes familles de restriction souple des libertes fiscales.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de la semaine 8 ?",
+          "reponse": "Le droit fiscal ne gouverne pas seulement par ordre et sanction directe ; il gouverne aussi par flou, dissuasion et normalisation des conduites.",
+          "explication": "La fiche relie ainsi regulation, incertitude et efficacite fiscale.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1267,
+      "fiche": {
+        "titre": "DFI semaine 9 : evasion fiscale, concurrence entre Etats et responsabilites partagees",
+        "resume": "Cette seance prolonge l'etude de la zone grise entre fraude illegale et optimisation licite. La fiche en retient une idee directrice : l'evasion fiscale ne peut pas etre comprise seulement comme un comportement opportuniste des contribuables, car elle est aussi produite par la concurrence fiscale entre Etats, par les avantages qu'ils organisent et par les interstices juridiques qu'ils laissent subsister entre leurs systemes.",
+        "sections": [
+          {
+            "titre": "Le cours aborde l'evasion fiscale comme une zone grise distincte de la fraude pure et de l'optimisation ordinaire",
+            "contenu": "Le document rappelle que toute la difficulte tient a la qualification de comportements legalement habiles mais politiquement ou moralement critiques. La fiche retient que l'evasion fiscale se situe dans cet entre-deux problematique."
+          },
+          {
+            "titre": "La responsabilite des Etats est placee au centre de l'analyse",
+            "contenu": "Le cours soutient que les Etats sont souvent les premiers responsables des comportements qu'ils denoncent ensuite. La fiche retient que l'evasion fiscale est aussi un produit institutionnel de la politique fiscale des Etats."
+          },
+          {
+            "titre": "La concurrence fiscale pousse certains Etats a offrir des regles et des taux extremement attractifs",
+            "contenu": "Le document prend l'exemple des petits territoires a fiscalite quasi nulle accueillant des structures sans activite reelle. La fiche retient que l'attractivite fiscale peut devenir un modele economique a part entiere."
+          },
+          {
+            "titre": "Le phenomene ne se limite pas aux paradis fiscaux classiques",
+            "contenu": "Le cours montre que des Etats developpes peuvent eux aussi mettre en place des dispositifs d'appel, comme certaines sous-impositions ciblees. La fiche retient que la logique concurrentielle traverse l'ensemble du paysage fiscal international."
+          },
+          {
+            "titre": "Les tax havens et les hybrides revelent aussi les failles de coordination entre legislations",
+            "contenu": "Le document explique que des avantages fiscaux peuvent naitre d'incoherences ou d'interpretations divergentes entre Etats. La fiche retient que l'evasion se nourrit autant des volontes politiques que des coutures mal fermees du droit international."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle zone le cours decrit-il entre fraude fiscale et optimisation legale ?",
+          "reponse": "Une zone grise ou se loge l'evasion fiscale.",
+          "explication": "La fiche presente cette zone comme le coeur problematique de la seance.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les Etats sont-ils presentes comme les premiers responsables de certains comportements d'evasion ?",
+          "reponse": "Parce qu'ils organisent eux-memes des regimes attractifs ou laissent subsister des failles favorables aux strategies d'evitement.",
+          "explication": "Le document deplace ainsi le regard du seul contribuable vers l'architecture des systemes fiscaux.",
+          "difficulte": 1
+        },
+        {
+          "question": "Qu'est-ce que la concurrence fiscale selon le cours ?",
+          "reponse": "C'est la competition entre Etats pour attirer capitaux, entreprises ou contribuables par des avantages fiscaux ou juridiques.",
+          "explication": "La fiche y voit l'une des causes structurelles de l'evasion fiscale.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les petits territoires comme certains Etats caribeens sont-ils souvent cites dans ce contexte ?",
+          "reponse": "Parce qu'ils ont parfois construit leur attractivite sur des taux tres faibles et sur l'accueil de structures a activite economique minimale.",
+          "explication": "Le document les utilise comme exemple net de strategie d'appel fiscal.",
+          "difficulte": 1
+        },
+        {
+          "question": "L'evasion fiscale est-elle uniquement liee a des paradis fiscaux marginaux ?",
+          "reponse": "Non, des Etats developpes peuvent eux aussi mettre en place des dispositifs visant a attirer des activites ou des revenus.",
+          "explication": "La fiche souligne que la logique concurrentielle n'est pas reservee aux petits territoires.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que montre l'exemple du dispositif censure dans la loi de finances pour 2024 concernant les federations sportives ?",
+          "reponse": "Qu'un Etat comme la France peut lui aussi tenter d'utiliser un avantage fiscal cible comme outil d'attractivite.",
+          "explication": "Le document s'en sert pour illustrer l'universalite de la tentation concurrentielle.",
+          "difficulte": 2
+        },
+        {
+          "question": "A quoi renvoie la notion de patent box dans le cours ?",
+          "reponse": "A un mecanisme de sous-imposition de certains revenus lies notamment aux brevets, justifie par l'encouragement de la recherche mais pouvant aussi servir l'attractivite fiscale.",
+          "explication": "La fiche montre l'ambivalence de ces outils.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que designe l'expression tax haven dans cette seance ?",
+          "reponse": "Un abri fiscal rendu possible soit par la politique d'un Etat, soit par les lacunes entre plusieurs legislations.",
+          "explication": "Le document insiste sur le fait que l'abri peut etre voulu ou simplement produit par des incoherences normatives.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les situations d'hybrides interessent-elles le droit fiscal international ?",
+          "reponse": "Parce qu'elles revelent l'incapacite de systemes nationaux mal coordonnes a qualifier de la meme facon certaines operations ou entites.",
+          "explication": "La fiche y voit un moteur technique de l'evasion au-dela des seules intentions politiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de la semaine 9 ?",
+          "reponse": "L'evasion fiscale ne provient pas seulement de l'habilete des contribuables ; elle est aussi fabriquee par la concurrence entre Etats et par les defauts d'articulation entre leurs droits.",
+          "explication": "La fiche relie ainsi strategie des acteurs et responsabilite structurelle des systemes.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1268,
+      "fiche": {
+        "titre": "Annales DFI 2022-2025 : cartographie des notions a maitriser pour le QCM",
+        "resume": "Ce document rassemble des questions d'annales couvrant une large partie du programme. La fiche en retient une idee directrice : le QCM de DFI ne teste pas seulement des definitions isolees, mais la capacite a distinguer les categories de prelevements, a identifier les principes constitutionnels et conventionnels pertinents, et a mobiliser rapidement les grands mecanismes du droit fiscal international et procedural.",
+        "sections": [
+          {
+            "titre": "Les annales montrent la centralite des fondements constitutionnels de l'impot",
+            "contenu": "Le document revient souvent sur le consentement a l'impot, la legalite, l'egalite devant les charges publiques et l'incompetence negative du legislateur. La fiche retient que la base constitutionnelle reste un noyau dur du QCM."
+          },
+          {
+            "titre": "La distinction entre impositions de toute nature et autres prelevements est un theme recurrent",
+            "contenu": "Les questions portent sur taxes, redevances, contributions ou tickets de service public. La fiche retient qu'il faut raisonner par qualification juridique plutot que par simple intuition lexicale."
+          },
+          {
+            "titre": "Le droit europeen et conventionnel est fortement present dans les questions",
+            "contenu": "Le document interroge l'article 6 CEDH, l'article 14, l'article 1 du premier protocole additionnel, mais aussi la TVA et les conventions fiscales. La fiche retient que le QCM attend une bonne maitrise des sources supranationales du droit fiscal."
+          },
+          {
+            "titre": "Les mecanismes internationaux sont testes sous un angle pratique",
+            "contenu": "Les annales abordent les conventions bilaterales, l'etablissement stable ou l'evasion fiscale. La fiche retient qu'il ne suffit pas de connaitre des slogans ; il faut savoir rattacher chaque notion a son effet juridique principal."
+          },
+          {
+            "titre": "La forme QCM impose une methode de lecture precise et comparative",
+            "contenu": "Le document multiplie les propositions proches, partiellement vraies ou volontairement piegeuses. La fiche retient qu'une reussite solide suppose de comparer chaque proposition a la lettre exacte du cours et des textes de reference."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Que montrent d'abord les annales DFI 2022-2025 sur la logique du QCM ?",
+          "reponse": "Qu'il repose sur l'identification rapide de categories juridiques et de formulations precises plutot que sur une simple memorisation vague.",
+          "explication": "La fiche lit l'ensemble des questions comme un exercice de qualification rapide.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quels grands principes constitutionnels reviennent constamment dans ces annales ?",
+          "reponse": "La legalite de l'impot, le consentement a l'impot, l'egalite devant les charges publiques et l'incompetence negative du legislateur.",
+          "explication": "Le document confirme leur place structurante dans le programme.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les questions sur les impositions de toute nature sont-elles typiquement piegeuses ?",
+          "reponse": "Parce qu'elles melent des termes voisins comme taxe, redevance, contribution ou paiement de service, qui ne relevent pas tous du meme regime juridique.",
+          "explication": "La fiche insiste sur la necessite de qualifier au-dela des mots utilises.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que verifie une question sur l'incompetence negative du legislateur en matiere fiscale ?",
+          "reponse": "Elle verifie si l'on sait qu'un impot est inconstitutionnel lorsque la loi n'en precise pas suffisamment les elements relevant de l'article 34 de la Constitution.",
+          "explication": "Le document transforme ici une notion technique en reflexe de QCM.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'article 6 de la CEDH apparait-il frequemment dans les annales ?",
+          "reponse": "Parce qu'il joue un role important pour les sanctions fiscales et les garanties de procedure, mais pas pour tout litige fiscal indistinctement.",
+          "explication": "La fiche rappelle qu'une lecture trop large de cet article conduit souvent a l'erreur.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que faut-il retenir de la presence de questions sur l'article 14 CEDH et l'article 1 du premier protocole additionnel ?",
+          "reponse": "Que la non-discrimination et la protection des biens sont devenues des outils importants pour raisonner sur certaines situations fiscales.",
+          "explication": "Le document montre que le QCM attend de relier garanties conventionnelles et fiscalite.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la TVA occupe-t-elle une place specifique dans ces annales ?",
+          "reponse": "Parce qu'elle est fortement europeanisee et permet de tester la maitrise des rapports entre droit de l'Union et droit fiscal interne.",
+          "explication": "La fiche y voit un marqueur classique de la dimension supranationale du programme.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que testent les questions sur les conventions fiscales bilaterales et l'etablissement stable ?",
+          "reponse": "Elles testent la capacite a comprendre comment les Etats se repartissent le pouvoir d'imposer dans les situations internationales.",
+          "explication": "Le document lie ces questions a la prevention de la double imposition et a la fiscalite des entreprises etrangeres.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le format QCM rend-il les formulations partiellement exactes dangereuses ?",
+          "reponse": "Parce qu'une proposition peut paraitre plausible tout en etant juridiquement trop large, trop etroite ou mal formulee.",
+          "explication": "La fiche recommande un controle fin de chaque mot important.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir des annales 2022-2025 ?",
+          "reponse": "Le QCM de DFI recompense surtout la precision des qualifications, la maitrise des sources et l'aptitude a distinguer des notions tres proches.",
+          "explication": "La fiche relie ainsi contenu du cours et methode de reponse.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1270,
+      "fiche": {
+        "titre": "QCM DFI 2022 corrige : comment lire un sujet qui croise legalite fiscale, CEDH et procedures",
+        "resume": "Ce document reprend un QCM corrige de mai 2022. La fiche en retient une idee directrice : ce type d'epreuve exige moins une restitution lineaire du cours qu'une lecture tres disciplinee de chaque proposition, a partir des grandes colonnes du programme que sont la legalite de l'impot, la qualification des prelevements, les garanties conventionnelles, la repression de la fraude et les outils proceduraux du contentieux fiscal.",
+        "sections": [
+          {
+            "titre": "Le sujet met d'abord en avant la legalite fiscale et la repartition des competences normatives",
+            "contenu": "Le document ouvre sur la Constitution, la creation de l'impot, les exemptions et les limites du renvoi au pouvoir reglementaire. La fiche retient que le QCM oblige a savoir exactement ce qui releve de la loi et ce qui ne peut pas lui etre delegue librement."
+          },
+          {
+            "titre": "La qualification des prelevements obligatoires forme un second bloc classique",
+            "contenu": "Le sujet interroge la TVA, la contribution a l'audiovisuel public, les droits d'accises ou les cotisations sociales. La fiche retient qu'il faut toujours separer imposition de toute nature, cotisation et redevance en fonction de leur regime reel."
+          },
+          {
+            "titre": "Le document croise ensuite fiscalite et garanties europeennes",
+            "contenu": "Les questions sur l'article 14 CEDH, le premier protocole additionnel ou la discrimination fiscale montrent que les garanties conventionnelles font partie du raisonnement ordinaire. La fiche retient qu'un QCM de fiscalite contemporaine est aussi un QCM de droit europeen des droits."
+          },
+          {
+            "titre": "La repression de la fraude et les procedures de poursuite sont egalement sollicitees",
+            "contenu": "Le sujet aborde le verrou de Bercy, la Commission des infractions fiscales et l'articulation avec le juge penal. La fiche retient que la procedure repressive fiscale doit etre connue au moins dans ses grands equilibres."
+          },
+          {
+            "titre": "La lecture utile d'un corrig e consiste a reconstruire les familles de questions",
+            "contenu": "Le document est issu d'un support OCR imparfait, mais ses themes restent tres lisibles. La fiche retient qu'un bon corrig e ne sert pas seulement a memoriser des lettres de reponse ; il aide a reconstruire les raisonnements qui distinguent les bonnes propositions des fausses."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi un QCM corrige comme celui de mai 2022 est-il utile au-dela des reponses brutes ?",
+          "reponse": "Parce qu'il permet de retrouver les raisonnements juridiques qui justifient chaque bonne ou mauvaise proposition.",
+          "explication": "La fiche insiste sur l'interet methodologique du corrig e.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel premier grand bloc thematic du sujet concerne directement la Constitution ?",
+          "reponse": "La legalite de l'impot et la determination de ce qui releve necessairement de la loi.",
+          "explication": "Le document ouvre sur ces questions de competence normative.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les propositions relatives au pouvoir reglementaire sont-elles souvent delic ates en QCM fiscal ?",
+          "reponse": "Parce qu'elles jouent sur la nuance entre execution de la loi et atteinte a des elements que l'article 34 reserve au legislateur.",
+          "explication": "La fiche y voit un piege classique du sujet.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que testent les questions sur la notion de prelevement obligatoire ?",
+          "reponse": "Elles testent la capacite a distinguer cette categorie large de notions plus techniques comme l'imposition de toute nature ou la cotisation sociale.",
+          "explication": "Le document montre que le vocabulaire fiscal ne doit jamais etre pris a la legere.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la taxe sur les services numeriques apparait-elle utile pedagogiquement dans un QCM ?",
+          "reponse": "Parce qu'elle oblige a distinguer assiette, redevable economique, repercussion pratique et finalite politique de l'impot.",
+          "explication": "La fiche la lit comme un bon exercice de qualification concrete.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel enseignement methodologique tirer des questions sur la CEDH dans ce sujet ?",
+          "reponse": "Qu'il faut savoir precisement dans quelles hypotheses les garanties conventionnelles peuvent etre invoquees en matiere fiscale.",
+          "explication": "Le document montre que les formulations trop generales sont souvent fausses.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les questions sur le verrou de Bercy et la Commission des infractions fiscales comptent-elles dans un QCM de DFI ?",
+          "reponse": "Parce qu'elles verifient la maitrise minimale de l'articulation entre administration fiscale, poursuites penales et garanties procedurales.",
+          "explication": "La fiche rattache ce theme au versant repressif de la fiscalite.",
+          "difficulte": 1
+        },
+        {
+          "question": "Qu'apporte une question sur la QPC et l'incompetence negative du legislateur ?",
+          "reponse": "Elle teste la capacite a articuler contentieux constitutionnel et exigences de precision du regime de l'impot.",
+          "explication": "Le document relie ainsi technique contentieuse et principe de legalite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi faut-il regrouper mentalement les questions par familles de notions ?",
+          "reponse": "Parce que cela permet de stabiliser les raisonnements et d'eviter de traiter chaque proposition comme un fait isole sans cadre.",
+          "explication": "La fiche presente cette demarche comme une bonne methode de revision.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir du QCM 2022 corrige ?",
+          "reponse": "Un bon resultat suppose une lecture tres fine des mots et une maitrise transversale des grands blocs du programme fiscal, pas seulement des souvenirs disperses.",
+          "explication": "La fiche relie ici precision lexicale, sources et procedure.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
