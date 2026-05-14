@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1254,
+      "fiche": {
+        "titre": "DFI S10 : choix de gestion, options fiscales et consolidation des positions du contribuable",
+        "resume": "Ce cours montre que la regulation fiscale ne se reduit pas a des ordres imperatifs. Le droit fiscal ouvre aussi des marges de choix au contribuable, surtout lorsqu'il propose plusieurs traitements fiscaux pour une meme situation economique. La fiche retient une idee directrice : ces espaces de liberte ne suppriment pas le controle fiscal, mais ils organisent une gestion orientee, surveillee et parfois consolidee par des prises de position ecrites.",
+        "sections": [
+          {
+            "titre": "Le chapitre deplace l'analyse vers des espaces de liberte amenages par le droit fiscal",
+            "contenu": "Le document explique que certaines regles fiscales ne commandent pas un comportement unique mais laissent au contribuable une marge de decision. La fiche retient que cette souplesse n'est pas une absence de norme mais une autre technique de regulation."
+          },
+          {
+            "titre": "Les choix de gestion correspondent a des arbitrages permis entre plusieurs traitements fiscaux licites",
+            "contenu": "Le cours presente ces choix comme des options offertes dans une situation economique identique. La fiche retient que le droit fiscal peut ainsi orienter les comportements sans imposer partout une solution uniforme."
+          },
+          {
+            "titre": "L'exemple des frais professionnels en impot sur le revenu illustre concretement cette logique",
+            "contenu": "Le document oppose l'abattement forfaitaire de 10 pour cent a la deduction des frais reels. La fiche retient que le contribuable peut choisir entre simplicite presumee et prise en compte individualisee de ses charges effectives."
+          },
+          {
+            "titre": "Le choix fiscal repose sur une comparaison entre avantage economique reel et cadre juridique applicable",
+            "contenu": "Le cours montre que l'option n'a d'interet que si les depenses effectivement supportees depassent le forfait. La fiche retient qu'un choix de gestion n'est pertinent qu'en articulation avec la situation concrete du contribuable."
+          },
+          {
+            "titre": "Le controle et la consolidation des choix rappellent que la liberte fiscale reste encadree",
+            "contenu": "Le document annonce un prolongement sur l'engagement et sur l'ecrit fiscal. La fiche retient que le droit fiscal laisse choisir, mais il verifie ensuite la coherence du choix et peut aussi stabiliser la position adoptee."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle idee generale structure le debut du cours DFI S10 ?",
+          "reponse": "Le droit fiscal peut amenager des espaces de liberte au profit du contribuable au lieu de se limiter a des obligations strictement unilaterales.",
+          "explication": "La fiche lit ce chapitre comme un complement assoupli de la regulation fiscale classique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que designe l'expression choix de gestion en droit fiscal ?",
+          "reponse": "Elle designe les arbitrages licites que le contribuable peut effectuer entre plusieurs traitements fiscaux possibles pour une meme situation.",
+          "explication": "Le cours montre que le droit fiscal peut organiser des options sans renoncer au controle.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les choix de gestion ne signifient-ils pas absence de norme ?",
+          "reponse": "Parce que le cadre legal fixe toujours les options admises et les conditions dans lesquelles elles peuvent etre utilisees.",
+          "explication": "La liberte porte sur le choix dans la norme, pas hors de la norme.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel exemple central est mobilise pour illustrer l'amenagement des choix en impot sur le revenu ?",
+          "reponse": "L'alternative entre l'abattement forfaitaire de 10 pour cent et la deduction des frais reels pour les salaries.",
+          "explication": "Le document s'appuie sur cet exemple pour montrer un arbitrage fiscal tres concret.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'abattement forfaitaire de 10 pour cent est-il pedagogiquement interessant ?",
+          "reponse": "Parce qu'il montre qu'un regime par defaut peut deja integrer une evaluation simplifiee des charges professionnelles.",
+          "explication": "La fiche souligne ici la logique de simplification administrative.",
+          "difficulte": 2
+        },
+        {
+          "question": "Dans quel cas la deduction des frais reels devient-elle plus pertinente que le forfait ?",
+          "reponse": "Lorsque les depenses professionnelles effectivement supportees depassent l'avantage procure par l'abattement forfaitaire.",
+          "explication": "Le cours prend l'exemple de deplacements couteux pour illustrer cet arbitrage.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le choix entre forfait et frais reels est-il un veritable choix de gestion ?",
+          "reponse": "Parce qu'il suppose une comparaison entre deux techniques fiscales licites a partir d'une meme situation economique.",
+          "explication": "La fiche y voit un modele simple de decision fiscale encadree.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie l'annonce d'un controle des choix de gestion par la notion d'engagement ?",
+          "reponse": "Elle signifie que certains choix produisent des effets juridiques durables et ne peuvent pas etre modifies librement apres coup.",
+          "explication": "Le cours annonce ainsi que la liberte initiale peut etre suivie d'un encadrement strict.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role joue l'ecrit dans la consolidation des choix fiscaux ?",
+          "reponse": "Il permet de securiser ou de stabiliser une position fiscale en donnant au contribuable un point d'appui formel.",
+          "explication": "La fiche relie ici l'espace de choix a la recherche de securite juridique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee d'ensemble faut-il retenir de DFI S10 ?",
+          "reponse": "Le droit fiscal peut guider les comportements en laissant choisir entre plusieurs regimes, tout en conservant un pouvoir de verification et de stabilisation.",
+          "explication": "La fiche relie ainsi option, controle et securisation.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1255,
+      "fiche": {
+        "titre": "DFI S11 : diversite des impositions et distinction structurante entre particuliers et entreprises",
+        "resume": "Cette introduction a la seconde partie du cours organise la masse tres heterogene des impositions francaises. La fiche en retient une idee directrice : pour etudier utilement le systeme fiscal, il faut classer les impositions selon le contribuable vise et selon l'assiette frappee, tout en gardant en tete que ces categories restent des outils de travail et non des frontieres absolues.",
+        "sections": [
+          {
+            "titre": "Le cours part d'un constat de dispersion et de surabondance des impositions",
+            "contenu": "Le document souligne qu'il existe environ deux cents impositions et qu'il est difficile d'en dresser une liste parfaitement stable. La fiche retient que cette pluralite impose une methode de classement avant meme toute etude detaillee."
+          },
+          {
+            "titre": "Certaines impositions dominent par leur rendement, leur diffusion ou leur portee politique",
+            "contenu": "Le cours cite l'impot sur le revenu, l'impot sur les societes, la TVA ou encore l'impot sur la fortune. La fiche retient que toutes les impositions n'ont pas le meme poids pratique ni la meme centralite doctrinale."
+          },
+          {
+            "titre": "Une premiere distinction ordonne les impots selon les contribuables concernes",
+            "contenu": "Le document oppose principalement les particuliers aux entreprises. La fiche retient que cette distinction repose surtout sur la place de la comptabilite dans la vie fiscale des entreprises."
+          },
+          {
+            "titre": "Une seconde distinction porte sur l'assiette de l'imposition",
+            "contenu": "Le cours distingue revenus ou benefices, patrimoine et consommation. La fiche retient que chaque type d'assiette appelle des logiques techniques et economiques partiellement differentes."
+          },
+          {
+            "titre": "Le cours insiste enfin sur la question du fardeau fiscal reel pour les entreprises",
+            "contenu": "Le document rappelle qu'une entreprise repercute souvent l'impot sur ses actionnaires, ses clients ou ses salaries. La fiche retient qu'il faut distinguer le contribuable juridique du support economique final de l'imposition."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi l'introduction de la seconde partie du cours commence-t-elle par un travail de classement ?",
+          "reponse": "Parce que la multiplicite des impositions rend impossible une etude lineaire sans categories organisatrices.",
+          "explication": "La fiche souligne que la methode precede ici l'analyse detaillee.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel ordre de grandeur le cours retient-il pour le nombre d'impositions en France ?",
+          "reponse": "Il retient l'idee d'environ deux cents impositions, sans pretendre a une quantification absolument certaine.",
+          "explication": "Le document insiste sur le caractere approximatif mais utile de cette estimation.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi toutes les impositions ne meritent-elles pas la meme attention dans le cours ?",
+          "reponse": "Parce qu'elles n'ont ni le meme rendement, ni le meme nombre de contribuables concernes, ni la meme importance politique.",
+          "explication": "La fiche met en avant une hierarchie pragmatique des impots.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle premiere grande distinction est proposee entre les impositions ?",
+          "reponse": "La distinction entre celles qui concernent surtout les particuliers et celles qui concernent surtout les entreprises.",
+          "explication": "Le document s'en sert comme grille d'entree principale.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la comptabilite explique-t-elle une partie de la specificite fiscale des entreprises ?",
+          "reponse": "Parce qu'elle fournit a l'administration une base technique de calcul et de controle que les particuliers n'ont pas en principe.",
+          "explication": "La fiche relie ici technique comptable et technique fiscale.",
+          "difficulte": 2
+        },
+        {
+          "question": "La distinction entre particuliers et entreprises est-elle absolument etanche ?",
+          "reponse": "Non, car certaines impositions comme l'impot sur le revenu ou la taxe fonciere peuvent concerner les deux.",
+          "explication": "Le cours presente cette distinction comme une commodite de travail, non comme une verite totale.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelles sont les trois grandes assiettes d'imposition mises en avant par le cours ?",
+          "reponse": "Les revenus ou benefices, le patrimoine et la consommation.",
+          "explication": "La fiche retient cette triade comme seconde cle de classement.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la consommation occupe-t-elle une place fiscale majeure ?",
+          "reponse": "Parce qu'elle supporte notamment la TVA, qui represente une part tres importante des recettes fiscales de l'Etat.",
+          "explication": "Le document y ajoute aussi le role des accises sur certains produits.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie l'idee selon laquelle l'entreprise ne paie pas toujours economiquement l'impot qu'elle acquitte juridiquement ?",
+          "reponse": "Cela signifie qu'elle peut en repercuter le cout sur les actionnaires, les clients ou les salaries.",
+          "explication": "La fiche distingue ici contribuable legal et porteur economique du fardeau fiscal.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DFI S11 ?",
+          "reponse": "L'etude des impots exige de croiser la nature du contribuable et celle de l'assiette, tout en restant attentif au cout economique reel de l'imposition.",
+          "explication": "La fiche unifie ainsi les deux grandes categorizations du cours.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1256,
+      "fiche": {
+        "titre": "DFI S12 : theorie du bilan et determination commune du benefice imposable des entreprises",
+        "resume": "Ce cours entre dans la technique de calcul du benefice imposable. La fiche en retient une idee directrice : malgre la diversite des regimes d'imposition des entreprises, la determination de l'assiette repose largement sur un socle commun, modele sur les BIC et articule autour de la theorie du bilan, qui cherche a saisir l'enrichissement global de l'entreprise sur un exercice donne.",
+        "sections": [
+          {
+            "titre": "Le cours affirme l'existence de regles communes de determination du benefice net",
+            "contenu": "Le document explique que les entreprises soumises a l'impot sur le revenu comme celles soumises a l'impot sur les societes convergent, pour l'essentiel, vers le modele des BIC. La fiche retient que la difference entre IR et IS intervient surtout apres la construction de l'assiette."
+          },
+          {
+            "titre": "La theorie du bilan sert de principe directeur pour mesurer l'enrichissement imposable",
+            "contenu": "Le cours presente cette theorie comme une maniere de frapper l'ensemble des formes d'enrichissement sur une periode comptable. La fiche retient qu'elle ne se limite pas aux seuls flux immediatement encaisses."
+          },
+          {
+            "titre": "L'exercice comptable constitue l'unite temporelle de reference du calcul fiscal",
+            "contenu": "Le document rappelle que l'assiette est etablie sur une periode annuelle, le plus souvent calquee sur l'annee civile mais parfois decalee pour correspondre a l'economie reelle de l'activite. La fiche retient que le temps fiscal se regle d'abord sur la logique de l'exploitation."
+          },
+          {
+            "titre": "La theorie du bilan s'est construite contre une conception trop etroite du revenu",
+            "contenu": "Le cours montre que la vision ancienne centree sur les seuls fruits de l'activite laissait echapper certaines plus-values realisees lors de la cession d'elements productifs. La fiche retient que la notion moderne d'enrichissement fiscal a ete elargie pour capter ces situations."
+          },
+          {
+            "titre": "Le calcul de l'impot se decompose en plusieurs temps distincts",
+            "contenu": "Le document annonce l'etablissement d'un resultat brut, puis net, avant l'application du taux propre a l'IR ou a l'IS. La fiche retient que l'assiette et le taux doivent etre conceptuellement separes."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle idee generale ouvre le cours sur la determination du benefice imposable ?",
+          "reponse": "Les regles de calcul de l'assiette sont largement communes aux entreprises, quel que soit ensuite l'impot qui frappe leur benefice.",
+          "explication": "La fiche souligne que la divergence entre IR et IS n'efface pas un socle technique commun.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel modele de reference le cours retient-il pour la determination du benefice net des entreprises ?",
+          "reponse": "Le modele des benefices industriels et commerciaux.",
+          "explication": "Le document montre que les autres categories y renvoient largement.",
+          "difficulte": 1
+        },
+        {
+          "question": "A quoi sert la theorie du bilan en matiere fiscale ?",
+          "reponse": "Elle sert a mesurer l'enrichissement global de l'entreprise sur un exercice afin d'en deduire le benefice imposable.",
+          "explication": "La fiche la presente comme le principe organisateur du calcul fiscal des profits.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la theorie du bilan depasse-t-elle une conception purement immediate du revenu ?",
+          "reponse": "Parce qu'elle permet aussi de prendre en compte des enrichissements lies a la cession d'elements de l'actif, et pas seulement les fruits courants de l'activite.",
+          "explication": "Le cours utilise cet elargissement pour expliquer l'evolution de la notion de benefice.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle est l'unite temporelle de base du calcul du benefice imposable ?",
+          "reponse": "L'exercice comptable, en principe annuel.",
+          "explication": "La fiche rappelle que cette periode peut etre adaptee aux rythmes economiques de l'entreprise.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi certaines entreprises ne cloturent-elles pas leur exercice au 31 decembre ?",
+          "reponse": "Parce qu'un decalage peut mieux correspondre a la realite economique de leur cycle d'activite.",
+          "explication": "Le document prend l'exemple d'activites saisonnieres pour illustrer ce point.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel defaut presentait la conception ancienne du revenu inspiree du droit civil classique ?",
+          "reponse": "Elle distinguait trop strictement les fruits et la source, ce qui laissait en dehors de l'impot certains enrichissements tires de la cession de la source elle-meme.",
+          "explication": "La fiche y voit la raison historique du basculement vers la theorie du bilan.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi faut-il distinguer l'assiette et le taux dans le raisonnement fiscal ?",
+          "reponse": "Parce que le benefice net doit d'abord etre etabli selon des regles communes avant d'etre ensuite frappe par le taux propre a l'impot applicable.",
+          "explication": "Le document annonce clairement cette decomposition du calcul.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que montre le renvoi du CGI entre les regles applicables a l'IS et a l'IR ?",
+          "reponse": "Il montre une forte volonte d'unification technique dans la construction du benefice imposable des entreprises.",
+          "explication": "La fiche traduit cela comme une passerelle entre regimes plutot que comme une etancheite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DFI S12 ?",
+          "reponse": "Le droit fiscal des entreprises commence par une grammaire commune du benefice, structuree par la theorie du bilan, avant que n'interviennent les differences de regime d'imposition.",
+          "explication": "La fiche relie ainsi unite de l'assiette et diversite des impots.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1257,
+      "fiche": {
+        "titre": "DFI S8 : regulation fiscale, acte anormal de gestion, abus de droit et prevention de l'evasion",
+        "resume": "Ce cours expose les grands instruments par lesquels le droit fiscal encadre les comportements sans toujours poser des interdictions parfaitement tracees. La fiche en retient une idee directrice : la regulation fiscale repose largement sur des notions souples, dissuasives et partiellement casuistiques, qui servent a limiter les strategies jugees contraires a l'interet de l'entreprise, a l'esprit de la loi ou aux objectifs de lutte contre l'evasion.",
+        "sections": [
+          {
+            "titre": "Le cours oppose la norme fiscale imperative a des techniques plus souples de regulation",
+            "contenu": "Le document rappelle que la loi fiscale classique est imperative, unilaterale et sanctionnee, mais qu'elle est completee par des mecanismes plus diffus. La fiche retient que la regulation fiscale agit souvent par inquietude, incitation et dissuasion."
+          },
+          {
+            "titre": "L'acte anormal de gestion limite la liberte des entreprises au nom de leur interet propre",
+            "contenu": "Le cours decrit une notion jurisprudentielle servant a requalifier des depenses ou abandons de recettes contraires a l'interet de l'entreprise. La fiche retient que l'administration peut ainsi reintegrer fiscalement des appauvrissements juges injustifies."
+          },
+          {
+            "titre": "La notion d'acte anormal de gestion reste volontairement souple et partiellement subjective",
+            "contenu": "Le document insiste sur la difficulte de definir a l'avance tous les comportements problematiques. La fiche retient que cette souplesse donne de l'efficacite a la notion, mais alimente aussi une tension avec l'ideal liberal de previsibilite."
+          },
+          {
+            "titre": "L'abus de droit vise quant a lui les montages fictifs ou reellement conclus mais contraires a l'esprit du texte",
+            "contenu": "Le cours distingue l'acte fictif de la fraude a la loi et insiste sur le double critere de l'article L64 du LPF. La fiche retient que l'administration dispose ici d'une arme severe, a la fois sur le plan du redressement et sur celui des penalites."
+          },
+          {
+            "titre": "La derniere partie elargit la perspective a l'evasion fiscale internationale et aux mini abus de droit",
+            "contenu": "Le document evoque la lutte contre les montages artificiels, la declaration de certains schemas d'optimisation aggressive et l'assouplissement du critere du but exclusivement fiscal. La fiche retient que la regulation fiscale contemporaine cherche moins a tout interdire qu'a rendre certains montages plus risques et plus visibles."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle tension generale le cours DFI S8 met-il en lumiere ?",
+          "reponse": "La tension entre une fiscalite imperative et l'usage de mecanismes plus souples qui regulent les comportements par dissuasion.",
+          "explication": "La fiche presente cette tension comme le fil directeur du chapitre.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les mecanismes de regulation fiscale creent-ils parfois une insecurite juridique ?",
+          "reponse": "Parce qu'ils laissent volontairement floue la frontiere entre comportement admissible et comportement contestable.",
+          "explication": "Le document y voit un instrument de normalisation des conduites fiscales.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est le coeur de la notion d'acte anormal de gestion ?",
+          "reponse": "C'est l'idee qu'une entreprise ne peut pas s'appauvrir fiscalement a des fins contraires a son propre interet.",
+          "explication": "La fiche reprend ici la formule de principe mise en avant par le cours.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'administration est-elle attentive aux charges declarees par l'entreprise ?",
+          "reponse": "Parce que des charges trop larges diminuent le benefice net imposable et peuvent creer des inegalites de traitement entre contribuables comparables.",
+          "explication": "Le document rattache cette vigilance a la logique meme de l'article 38 du CGI.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel exemple classique illustre l'acte anormal de gestion au profit personnel du dirigeant ?",
+          "reponse": "Le paiement par l'entreprise de depenses privees du dirigeant, ensuite presentes comme des charges professionnelles.",
+          "explication": "La fiche relie cette hypothese a la proximite avec l'abus de biens sociaux.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel apport principal faut-il retenir de l'arret Monte Paschi Bank de 2016 selon le cours ?",
+          "reponse": "Le Conseil d'Etat y abandonne l'idee selon laquelle l'administration pourrait reprocher en tant que telle une prise de risque excessive au chef d'entreprise.",
+          "explication": "La fiche y voit un mouvement de protection de la liberte de gestion.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelles sont les deux formes classiques d'abus de droit fiscal ?",
+          "reponse": "L'abus de droit par acte fictif et l'abus de droit par fraude a la loi.",
+          "explication": "Le document rattache cette distinction a l'article L64 du LPF.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'abus de droit par fraude a la loi est-il souvent plus difficile a prouver ?",
+          "reponse": "Parce qu'il faut etablir a la fois une contrari ete a l'esprit du texte et un but exclusivement fiscal du contribuable.",
+          "explication": "La fiche souligne ici la difficulte du critere subjectif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que change la logique des mini abus de droit ?",
+          "reponse": "Elle permet d'agir contre des montages a finalite principalement fiscale, sans exiger le caractere exclusivement fiscal de l'operation.",
+          "explication": "Le cours y voit un assouplissement des armes offertes a l'administration.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DFI S8 ?",
+          "reponse": "Le droit fiscal contemporain gouverne largement par des notions souples qui cherchent a decourager les montages artificiels ou excessifs plus qu'a enumerer exhaustivement tous les comportements interdits.",
+          "explication": "La fiche relie ainsi acte anormal de gestion, abus de droit et prevention de l'evasion.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
