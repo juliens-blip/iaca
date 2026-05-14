@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1296,
+      "fiche": {
+        "titre": "DAB 9 : procedure d'expropriation, phase administrative et articulation avec la protection de la propriete",
+        "resume": "Ce cours presente la procedure ordinaire d'expropriation pour cause d'utilite publique. La fiche en retient une idee directrice : l'expropriation est une atteinte tellement grave au droit de propriete que sa mise en oeuvre est partagee entre une phase administrative destinee a justifier le projet et a identifier les biens, et une phase judiciaire chargee d'ordonner le transfert et de fixer l'indemnisation.",
+        "sections": [
+          {
+            "titre": "Le cours justifie la complexite procedurale par la gravite de l'expropriation",
+            "contenu": "Le document rappelle que l'expropriation prive une personne de sa propriete. La fiche retient que cette violence juridique explique la densite des garanties et la multiplication des etapes."
+          },
+          {
+            "titre": "La procedure ordinaire d'expropriation se divise en deux grandes phases",
+            "contenu": "Le cours distingue une phase administrative et une phase judiciaire. La fiche retient que cette division est ancienne et qu'elle sert a repartir les fonctions entre administration et juge."
+          },
+          {
+            "titre": "La phase administrative a pour objet de demontrer l'utilite publique et de designer les biens",
+            "contenu": "Le document met au centre la declaration d'utilite publique et l'arrete de cessibilite. La fiche retient que la logique de cette premiere phase est justificative puis identificatoire."
+          },
+          {
+            "titre": "La phase judiciaire a pour objet le transfert de propriete et la fixation de l'indemnite",
+            "contenu": "Le cours montre que le juge judiciaire prononce l'expropriation elle-meme et l'indemnisation. La fiche retient que la privation de propriete n'est pas laissee a la seule administration."
+          },
+          {
+            "titre": "La repartition en deux phases vise a concilier efficacite administrative et garanties proprietaires",
+            "contenu": "Le document explique que l'administration conserve la maitrise du projet d'utilite publique, tandis que le juge judiciaire intervient comme gardien du droit de propriete. La fiche retient que toute la procedure repose sur cette conciliation."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la procedure d'expropriation est-elle presentee comme particulierement complexe ?",
+          "reponse": "Parce qu'elle accompagne une atteinte tres grave au droit de propriete et doit donc etre fortement justifiee et encadree.",
+          "explication": "La fiche relie la lourdeur procedurale a la gravite de l'operation.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle distinction fondamentale structure la procedure ordinaire d'expropriation ?",
+          "reponse": "La distinction entre phase administrative et phase judiciaire.",
+          "explication": "Le document en fait la charpente complete de la procedure.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est le premier objet de la phase administrative ?",
+          "reponse": "Etablir l'utilite publique du projet d'expropriation.",
+          "explication": "La fiche souligne que cette phase commence par la justification de l'operation.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est le second objet de la phase administrative ?",
+          "reponse": "Identifier les biens qui devront etre expropries pour la realisation du projet.",
+          "explication": "Le document relie cette fonction a l'arrete de cessibilite.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quels sont les deux actes centraux de la phase administrative ?",
+          "reponse": "La declaration d'utilite publique et l'arrete de cessibilite.",
+          "explication": "La fiche en fait les aboutissements normatifs principaux de cette phase.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est le premier objet de la phase judiciaire ?",
+          "reponse": "Prononcer l'expropriation, c'est-a-dire le transfert du bien dans le patrimoine du beneficiaire.",
+          "explication": "Le document rappelle que la privation de propriete releve ici du juge.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est le second objet de la phase judiciaire ?",
+          "reponse": "Fixer l'indemnite due a la personne expropriee.",
+          "explication": "La fiche relie cette etape a la compensation de l'atteinte au droit de propriete.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la procedure d'expropriation fait-elle intervenir des autorites differentes ?",
+          "reponse": "Pour concilier la conduite administrative du projet d'utilite publique avec la protection juridictionnelle de la propriete privee.",
+          "explication": "Le document fait de cette repartition une garantie institutionnelle centrale.",
+          "difficulte": 2
+        },
+        {
+          "question": "A quoi sert l'etape de consultation du public dans la phase administrative ?",
+          "reponse": "Elle permet aux personnes concernees d'exprimer leur avis sur le projet sans disposer d'un droit de veto sur l'operation.",
+          "explication": "La fiche y voit une participation organisee mais non decisionnelle.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DAB 9 ?",
+          "reponse": "La procedure d'expropriation organise une conciliation serr ee entre l'action publique et la protection de la propriete en repartissant les controles entre administration et juge.",
+          "explication": "La fiche relie ainsi utilite publique, transfert force et indemnisation.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1303,
+      "fiche": {
+        "titre": "Commentaire d'arret DAB : logements de fonction, domanialite publique et cession a prix reduit",
+        "resume": "Ce document commente l'arret du Conseil d'Etat du 21 juin 2021 relatif a la cession de biens immobiliers d'un SDIS. La fiche en retient une idee directrice : l'affectation d'un bien au logement d'agents ne suffit pas a l'incorporer au domaine public s'il n'est pas affecte au service public lui-meme, et, hors domaine public, une cession a un prix inferieur a la valeur reste possible si elle est justifiee par un motif d'interet general et assortie de contreparties suffisantes.",
+        "sections": [
+          {
+            "titre": "L'affaire oppose d'abord qualification domaniale et regime de protection des biens publics",
+            "contenu": "Le document met en cause des logements cedes par un SDIS et discute leur appartenance ou non au domaine public. La fiche retient que le litige commence par une question de qualification du bien avant de devenir une question de validite de la cession."
+          },
+          {
+            "titre": "Le Conseil d'Etat refuse de voir dans ces logements des dependances du domaine public",
+            "contenu": "Le cours explique que des biens affectes exclusivement au logement des agents sont distincts des locaux du service d'incendie et de secours. La fiche retient que l'hebergement des agents ne vaut pas en soi affectation du bien au service public."
+          },
+          {
+            "titre": "L'absence d'affectation suffit ici a exclure la domanialite publique",
+            "contenu": "Le document souligne le caractere surabondant du motif tire de l'absence d'amenagement special ou indispensable. La fiche retient que, sans affectation au service public, la question de l'amenagement devient inutile."
+          },
+          {
+            "titre": "La cession a prix inferieur a la valeur n'est pas automatiquement une liberalite interdite",
+            "contenu": "Le cours rappelle que l'interet general et les contreparties suffisantes peuvent justifier une telle operation. La fiche retient que la protection du patrimoine public n'interdit pas tout ecart de prix, mais exige une justification rigoureuse."
+          },
+          {
+            "titre": "L'arret illustre une methode de controle a deux etages",
+            "contenu": "Le document articule d'abord la qualification domaniale, puis le controle de la cession au regard de l'incessibilite a vil prix. La fiche retient que le contentieux des biens publics oblige souvent a raisonner successivement sur la nature du bien puis sur la validite de l'acte de disposition."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel double theme protecteur structure le commentaire de l'arret du 21 juin 2021 ?",
+          "reponse": "La determination du domaine public et l'incessibilite a vil prix des biens publics.",
+          "explication": "La fiche y voit les deux niveaux de protection mobilises dans le litige.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la qualification des logements du SDIS etait-elle decisive ?",
+          "reponse": "Parce qu'elle conditionnait l'application ou non des regles propres au domaine public.",
+          "explication": "Le document montre que toute l'analyse part de cette qualification initiale.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le Conseil d'Etat juge-t-il que les logements des agents n'appartiennent pas au domaine public ?",
+          "reponse": "Parce qu'ils sont affectes exclusivement au logement des agents et non au service public d'incendie lui-meme.",
+          "explication": "La fiche insiste sur la distinction entre utilite fonctionnelle pour les agents et affectation du bien au service public.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel motif la decision qualifie-t-elle de surabondant dans le raisonnement de la cour d'appel ?",
+          "reponse": "Le motif relatif a l'absence d'amenagement special ou indispensable.",
+          "explication": "Le document explique que ce point devient secondaire une fois l'absence d'affectation constatee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'absence d'affectation au service public suffit-elle a exclure la domanialite publique ?",
+          "reponse": "Parce que l'affectation est une condition necessaire d'incorporation au domaine public administratif.",
+          "explication": "La fiche rappelle ici la hierarchie logique des conditions d'entree dans le domaine public.",
+          "difficulte": 2
+        },
+        {
+          "question": "Une cession a prix inferieur a la valeur est-elle toujours illicite pour une personne publique ?",
+          "reponse": "Non, elle peut etre admise si elle est justifiee par un motif d'interet general et accompagnee de contreparties suffisantes.",
+          "explication": "Le document applique ici la logique de l'incessibilite a vil prix.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle contrepartie la cour d'appel avait-elle retenue dans cette affaire ?",
+          "reponse": "L'engagement des organismes de logement social a maintenir, s'ils le souhaitaient, les sapeurs-pompiers dans les lieux.",
+          "explication": "La fiche y voit l'un des elements justifiant la validite de l'operation.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi le moyen tire de la liberalite etait-il difficile a faire prosperer ici ?",
+          "reponse": "Parce que la cession etait regardee comme suffisamment justifiee et contrebalancee pour ne pas constituer un abandon pur et simple.",
+          "explication": "Le document montre que la question de la liberalite ne se tranche pas abstraitement mais a partir du montage concret.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle methode contentieuse le commentaire aide-t-il a retenir ?",
+          "reponse": "Il faut verifier d'abord la qualification domaniale du bien, puis controler la regularite de la cession au regard des protections patrimoniales applicables.",
+          "explication": "La fiche transforme le commentaire en schema de raisonnement reutilisable.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de ce commentaire d'arret ?",
+          "reponse": "Tous les biens utiles a un service public ne rel event pas pour autant du domaine public, et la cession avantageuse d'un bien public n'est licite qu'a condition d'etre justifiee et suffisamment contrepartie.",
+          "explication": "La fiche relie ainsi qualification du bien et controle de l'acte de disposition.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1299,
+      "fiche": {
+        "titre": "Methode DAB : consolider l'introduction et la precision des qualifications",
+        "resume": "Ce document bref peut etre converti en fiche de methode. La fiche en retient une idee directrice : un travail de DAB peut etre solide sur le fond tout en restant perfectible sur la formulation, la nettete des titres, la precision des qualifications et l'application concrete des normes au litige.",
+        "sections": [
+          {
+            "titre": "Le niveau general peut etre solide sans epuiser les marges de progression",
+            "contenu": "Le document laisse apparaitre une base de connaissances deja correcte. La fiche retient que le travail sur la methode devient alors le principal levier d'amelioration."
+          },
+          {
+            "titre": "Les titres et formulations apparaissent comme un premier point de vigilance",
+            "contenu": "Le document invite a travailler davantage la formulation des titres. La fiche retient que la qualite methodologique d'un commentaire passe aussi par la nettete de son architecture apparente."
+          },
+          {
+            "titre": "Certaines qualifications doivent etre plus rigoureuses",
+            "contenu": "Le document attire l'attention sur une hesitation entre compatibilite et conformite. La fiche retient qu'en DAB, une nuance terminologique insuffisamment maitrisee peut fragiliser tout un raisonnement."
+          },
+          {
+            "titre": "Le controle des normes doit etre identifie avec exactitude",
+            "contenu": "Le document rectifie une formulation sur le controle de constitutionnalite des actes administratifs. La fiche retient qu'il faut toujours distinguer le controle de la loi et le controle des actes dans les bonnes categories contentieuses."
+          },
+          {
+            "titre": "L'application au cas d'espece reste le point decisif d'un bon raisonnement",
+            "contenu": "Le document fait apparaitre le besoin de justifier concretement la validite de l'acte au regard des normes invoquees. La fiche retient qu'un commentaire ne peut pas s'arreter a l'exposition abstraite des principes."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel enseignement general un document methodologique comme celui-ci permet-il de tirer ?",
+          "reponse": "Un travail peut etre solide sur le fond tout en restant perfectible sur la methode et la precision des formulations.",
+          "explication": "La fiche lit ce document comme un outil de progression et de recalibrage du raisonnement.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les titres comptent-ils dans un commentaire de DAB ?",
+          "reponse": "Parce qu'ils structurent le commentaire et donnent une lisibilite immediate au raisonnement.",
+          "explication": "Le document signale explicitement un besoin de travail sur ce point.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel type de risque revele l'observation Compatibilite ou conformite ?",
+          "reponse": "Le risque de confondre deux notions proches mais juridiquement distinctes.",
+          "explication": "La fiche rappelle que la justesse terminologique est centrale en droit des biens publics.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la distinction entre controle de constitutionnalite de la loi et controle des actes administratifs est-elle importante ?",
+          "reponse": "Parce qu'elle conditionne l'identification du bon type de norme controlee et du bon cadre contentieux.",
+          "explication": "Le document corrige ici une confusion de categories juridiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel defaut methodologique apparait lorsqu'un raisonnement n'est pas applique a l'espece ?",
+          "reponse": "Le defaut qui consiste a exposer des principes sans montrer pourquoi ils valident ou invalident concretement l'acte conteste.",
+          "explication": "La fiche y voit l'un des ecueils classiques du commentaire d'arret.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi un bon travail peut-il encore rester en dessous de son potentiel malgre de bonnes connaissances ?",
+          "reponse": "Parce que sa qualite se juge aussi a la precision des categories et a l'efficacite de la demonstration.",
+          "explication": "Le document montre que le niveau doctrinal ne suffit pas sans bonne execution methodologique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que faut-il faire lorsqu'il manque des elements dans une demonstration ?",
+          "reponse": "Il faut identifier quel moment du raisonnement est reste insuffisamment explicite ou incomplet.",
+          "explication": "La fiche transforme cette remarque vague en reflexe d'autodiagnostic.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi les remarques breves d'annotation sont-elles utiles a retravailler ?",
+          "reponse": "Parce qu'elles pointent souvent des faiblesses structurelles du raisonnement ou de la methode plus que des oublis ponctuels.",
+          "explication": "Le document concentre plusieurs alertes methodologiques en quelques lignes.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'interet d'un bon niveau de fond dans un travail comme celui-ci ?",
+          "reponse": "Il permet de consacrer le travail suivant non a reapprendre tout le cours, mais a renforcer precision, structure et application.",
+          "explication": "La fiche traduit positivement l'evaluation globale du devoir.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette fiche de methode DAB ?",
+          "reponse": "En commentaire d'arret, la difference entre un bon travail et un tres bon travail se joue souvent sur la qualite des titres, la rigueur des qualifications et l'application explicite des normes aux faits.",
+          "explication": "La fiche en fait une synthese methodologique directement reutilisable.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1302,
+      "fiche": {
+        "titre": "Methode DAB : une tres bonne analyse d'arret repose sur probleme de droit, introduction et commentaire reel",
+        "resume": "Ce document peut etre transforme en fiche de methode de haut niveau. La fiche en retient une idee directrice : un tres bon commentaire d'arret ne se limite pas a restituer des connaissances, il formule clairement le probleme de droit, maitrise l'introduction, commente effectivement la decision et maintient une progression argumentative nette jusqu'a la fin.",
+        "sections": [
+          {
+            "titre": "Un tres bon travail se distingue autant par son ordre que par son contenu",
+            "contenu": "Le document souligne la clarte du plan et la qualite de l'analyse. La fiche retient que la performance ne tient pas seulement aux connaissances, mais a leur ordonnancement."
+          },
+          {
+            "titre": "La reformulation du probleme de droit reste un exercice a soigner",
+            "contenu": "Le document invite a mieux reformuler le probleme de droit. La fiche retient que meme un excellent travail peut progresser en rendant la question juridique centrale plus precise et plus operatoire."
+          },
+          {
+            "titre": "L'introduction est identifiee comme methodologiquement acquise",
+            "contenu": "Le document valide explicitement la methode introductive. La fiche retient que l'introduction d'un commentaire d'arret constitue un point d'appui important pour installer le raisonnement."
+          },
+          {
+            "titre": "L'enjeu central reste de commenter reellement l'arret",
+            "contenu": "Le document note tres positivement que la decision est veritablement commentee. La fiche retient qu'un bon travail ne paraphrase pas la solution mais en degage la portee et les difficultes."
+          },
+          {
+            "titre": "La regularite des points forts montre l'importance de la coherence d'ensemble",
+            "contenu": "Les differentes observations positives portent sur plusieurs etapes du devoir. La fiche retient qu'un tres bon travail est souvent celui qui tient son niveau de precision et de logique du debut a la fin."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel enseignement general donne un document methodologique tres positif comme celui-ci ?",
+          "reponse": "Il montre qu'un excellent travail combine connaissances solides, structure claire et vrai commentaire de la decision.",
+          "explication": "La fiche en tire une definition pratique d'un excellent travail en DAB.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la clarte du plan est-elle valorisee dans un commentaire d'arret ?",
+          "reponse": "Parce qu'elle rend visible la logique du raisonnement et facilite la progression de l'analyse.",
+          "explication": "Le document associe explicitement clarte du plan et qualite globale du devoir.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que revele la remarque Probleme de droit a reformuler ?",
+          "reponse": "Qu'une bonne intuition juridique doit encore etre reformulee avec davantage de precision pour devenir un vrai axe directeur.",
+          "explication": "La fiche souligne ici l'importance de la formulation du litige.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'introduction est-elle un moment strategique du commentaire d'arret ?",
+          "reponse": "Parce qu'elle installe la decision, le contexte, la question juridique et la logique du plan.",
+          "explication": "Le document confirme que la methode introductive peut constituer un vrai point fort du travail.",
+          "difficulte": 1
+        },
+        {
+          "question": "Qu'est-ce que signifie vraiment commenter l'arret ?",
+          "reponse": "Cela signifie ne pas se contenter de resumer la solution, mais en analyser la logique, les enjeux et la portee.",
+          "explication": "La fiche oppose ici commentaire reel et simple paraphrase.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la repetition de points forts sur plusieurs moments du travail est-elle significative ?",
+          "reponse": "Parce qu'elle montre une maitrise continue du raisonnement et non une reussite ponctuelle sur un seul passage.",
+          "explication": "La fiche souligne ici l'importance d'une coherence d'ensemble plus que d'un succes isole.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que faut-il faire lorsqu'un travail est deja tres bon mais que le probleme de droit reste perfectible ?",
+          "reponse": "Il faut travailler la capacite a condenser la difficulte juridique centrale dans une formulation plus exacte et plus productive.",
+          "explication": "La fiche transforme cette observation en objectif precis de progression.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la structure du commentaire compte-t-elle autant que le fond en DAB ?",
+          "reponse": "Parce que la qualite du travail depend autant de la construction du raisonnement que de l'exactitude des connaissances mobilisees.",
+          "explication": "Le document confirme cette articulation entre savoir et demonstration.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est l'interet pedagogique d'une evaluation tres elogieuse ?",
+          "reponse": "Il permet d'identifier les bonnes pratiques a conserver et les derniers points de raffinement a travailler.",
+          "explication": "La fiche y voit un outil de consolidation, pas seulement de satisfaction.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de cette fiche de methode DAB ?",
+          "reponse": "Un tres bon commentaire d'arret repose sur un plan lisible, une introduction maitrisee, un probleme de droit bien pose et un commentaire veritable de la decision jusqu'au bout.",
+          "explication": "La fiche en tire une matrice de reussite directement reutilisable.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
