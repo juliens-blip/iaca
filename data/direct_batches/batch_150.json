@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1258,
+      "fiche": {
+        "titre": "DFI semaine 3 : principe de necessite, retroactivite fiscale et exigences constitutionnelles de proportion",
+        "resume": "Cette seance prolonge l'etude des sources constitutionnelles du droit fiscal en regroupant sous l'idee de necessite plusieurs exigences imposees au legislateur. La fiche en retient une idee directrice : le Conseil constitutionnel n'interdit pas par principe la retroactivite fiscale, mais il encadre fortement les interventions du legislateur lorsque celles-ci portent atteinte a la securite juridique, a la proportion des sanctions ou a la lisibilite de la loi.",
+        "sections": [
+          {
+            "titre": "Le cours rassemble sous l'idee de necessite plusieurs exigences constitutionnelles dispers ees",
+            "contenu": "Le document explique que la necessite n'est pas un label textuel unique mais une maniere de regrouper des controles de justification, de proportion et de protection des droits. La fiche retient que cette categorie sert a lire de facon coherente plusieurs limites imposees a la loi fiscale."
+          },
+          {
+            "titre": "L'article 16 de la DDHC sert de point d'appui central a cette construction",
+            "contenu": "Le cours rattache a la garantie des droits et a la separation des pouvoirs plusieurs consequences pratiques en matiere fiscale. La fiche retient que l'article 16 devient une ressource constitutionnelle majeure pour encadrer le legislateur."
+          },
+          {
+            "titre": "La retroactivite fiscale constitue le terrain le plus sensible de ce controle",
+            "contenu": "Le document rappelle que l'article 2 du Code civil n'a qu'une valeur legislative et ne suffit donc pas, a lui seul, a interdire la retroactivite. La fiche retient que le vrai debat se situe au niveau constitutionnel et non dans la simple lettre du Code civil."
+          },
+          {
+            "titre": "Le cours distingue la retroactivite de fait et la retroactivite de droit",
+            "contenu": "La premiere vise les lois adoptees avant le fait generateur mais apres que le contribuable a organise son comportement, la seconde touche plus frontalement des situations deja juridiquement constituees. La fiche retient que cette distinction affine l'analyse des atteintes a la prevision legitime du contribuable."
+          },
+          {
+            "titre": "La question de fond reste celle de la justification et de la proportion de l'atteinte",
+            "contenu": "Le document annonce aussi des prolongements vers les sanctions, les procedures de controle et la complexite excessive de la loi fiscale. La fiche retient que la necessite sert a verifier que la puissance fiscale ne va pas au-dela de ce qui est legitimement requis."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel role joue l'idee de necessite dans cette seance ?",
+          "reponse": "Elle sert a rassembler plusieurs exigences constitutionnelles de justification et de proportion applicables a la matiere fiscale.",
+          "explication": "La fiche presente la necessite comme une categorie de lecture plus que comme un texte autonome.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel fondement constitutionnel le cours mobilise-t-il principalement pour ces controles ?",
+          "reponse": "L'article 16 de la Declaration des droits de l'homme et du citoyen.",
+          "explication": "Le document y rattache la garantie des droits et plusieurs exigences de securite juridique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'article 2 du Code civil ne suffit-il pas a interdire la retroactivite fiscale ?",
+          "reponse": "Parce qu'il a une valeur legislative et peut donc etre ecarte ou contredit par une loi posterieure.",
+          "explication": "La fiche souligne ici la hierarchie des normes.",
+          "difficulte": 1
+        },
+        {
+          "question": "Le Conseil constitutionnel prohibe-t-il par principe toute retroactivite fiscale ?",
+          "reponse": "Non, il l'admet en principe mais sous conditions constitutionnelles strictes.",
+          "explication": "Le cours insiste sur le fait que la retroactivite n'est pas en soi anticonstitutionnelle.",
+          "difficulte": 1
+        },
+        {
+          "question": "Qu'appelle-t-on retroactivite de fait en matiere fiscale ?",
+          "reponse": "Une situation ou la loi agit formellement pour l'avenir du fait generateur, mais remet concretement en cause des choix deja faits par le contribuable.",
+          "explication": "La fiche illustre cette idee avec les avantages fiscaux supprimes en fin d'annee.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la retroactivite de fait est-elle troublante pour le contribuable ?",
+          "reponse": "Parce qu'elle deplace apres coup les consequences fiscales d'actes accomplis en confiance sous l'empire d'une regle precedente.",
+          "explication": "Le document la relie a une forme de rupture de prevision legitime.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle distinction generale le cours propose-t-il entre retroactivite de fait et retroactivite de droit ?",
+          "reponse": "La premiere agit indirectement sur des comportements passes, la seconde attache explicitement une regle nouvelle a des situations deja juridiquement achevees.",
+          "explication": "La fiche y voit une nuance utile pour mesurer l'intensite de l'atteinte.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi la notion de necessite rejoint-elle une logique de proportion ?",
+          "reponse": "Parce qu'une mesure fiscale n'est legitime que si elle ne depasse pas ce qui est indispensable ou juste au regard de l'objectif poursuivi.",
+          "explication": "Le document associe necessite et juste proportion.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels autres terrains que la retroactivite le cours rattache-t-il a cette logique ?",
+          "reponse": "Les sanctions fiscales, les procedures de controle et la complexite excessive de la loi fiscale.",
+          "explication": "La fiche montre que la necessite irrigue plusieurs pans du droit fiscal constitutionnel.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de la semaine 3 ?",
+          "reponse": "La Constitution n'interdit pas toute souplesse du legislateur fiscal, mais elle exige que ses atteintes aux droits et a la previsibilite restent justifiees et proportionnees.",
+          "explication": "La fiche relie ainsi necessite, retroactivite et securite juridique.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1259,
+      "fiche": {
+        "titre": "DFI semaine 1 : entrer en droit fiscal par une methode de juriste critique",
+        "resume": "Cette introduction de cours fixe une posture de travail plus qu'un simple programme. La fiche en retient une idee directrice : le droit fiscal doit etre aborde comme une discipline juridique autonome, technique et interpretee, sans se dissoudre ni dans l'economie ni dans la comptabilite, mais en gardant un regard critique sur la coherence et la pertinence des solutions retenues.",
+        "sections": [
+          {
+            "titre": "Le cours definit d'abord largement le droit fiscal comme l'ensemble des regles relatives aux impots",
+            "contenu": "Le document ouvre sur une definition simple mais suffisante pour cadrer la matiere. La fiche retient que cette simplicite apparente cache en realite une discipline tres technique."
+          },
+          {
+            "titre": "L'enseignement revendique un point de vue de juriste plutot que d'economiste ou de moraliste",
+            "contenu": "Le cours rappelle que les debats sur la justice de l'impot ou sur son efficacite economique sont essentiels, mais qu'ils ne sont pas le coeur de la demarche ici privilegiee. La fiche retient que l'objet principal est l'interpretation des textes et des qualifications juridiques."
+          },
+          {
+            "titre": "Le droit fiscal est presente comme une technique de lecture et d'articulation des normes",
+            "contenu": "Le document insiste sur la conciliation entre textes, sur les difficultes de qualification et sur l'exigence d'un raisonnement precis. La fiche retient que le cours veut former a une pratique juridique structuree du fiscal."
+          },
+          {
+            "titre": "L'approche comptable est explicitement tenue a distance sans etre niee",
+            "contenu": "Le cours reconnait que l'impot se traduit toujours a la fin en chiffres, mais il choisit de ne pas faire du calcul l'objet central de l'enseignement. La fiche retient que la priorite est donnee a la logique normative en amont de la quantification."
+          },
+          {
+            "titre": "Le professeur revendique enfin une posture de juriste critique",
+            "contenu": "Le document explique qu'il faut interroger les regles, leurs justifications et leurs eventuelles incoherences au lieu de les consommer passivement. La fiche retient que la competence attendue est autant analytique qu'informative."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quelle definition generale du droit fiscal ouvre le cours ?",
+          "reponse": "Le droit fiscal est presente comme l'ensemble des regles de droit relatives aux impots.",
+          "explication": "La fiche souligne que cette definition simple sert surtout de point de depart.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le cours insiste-t-il sur une approche de juriste ?",
+          "reponse": "Parce qu'il veut centrer l'etude sur les textes, les qualifications et les raisonnements juridiques plutot que sur les seuls debats economiques ou philosophiques.",
+          "explication": "Le document distingue nettement ces niveaux d'analyse.",
+          "difficulte": 1
+        },
+        {
+          "question": "Les questions de justice ou d'efficacite de l'impot sont-elles exclues du cours ?",
+          "reponse": "Non, mais elles ne constituent pas le coeur de la methode retenue, qui reste d'abord juridique.",
+          "explication": "La fiche montre que ces elements de contexte eclairent la regle sans la remplacer.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel type de difficultes juridiques le cours annonce-t-il ?",
+          "reponse": "Des difficultes d'interpretation, de qualification et d'articulation entre des normes pouvant porter des sens differents.",
+          "explication": "Le document annonce ainsi une discipline plus technique qu'elle n'en a l'air.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'approche comptable est-elle relativisee dans cet enseignement ?",
+          "reponse": "Parce que le calcul de l'impot existe bien, mais qu'il ne constitue pas ici le coeur du metier de juriste que le cours veut former.",
+          "explication": "La fiche distingue nettement raisonnement normatif et mise en chiffres.",
+          "difficulte": 1
+        },
+        {
+          "question": "Le cours nie-t-il l'importance des chiffres en fiscalite ?",
+          "reponse": "Non, il reconnait qu'ils sont inevitables, mais il choisit de se concentrer sur l'etape juridique qui les precede.",
+          "explication": "Le document deplace l'attention de la calculatrice vers la qualification.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie l'expression juriste critique dans cette introduction ?",
+          "reponse": "Elle designe un juriste qui interroge la coherence, la pertinence et les alternatives possibles de la regle de droit.",
+          "explication": "La fiche y voit une methode active de formation.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le regard critique est-il presente comme un atout professionnel ?",
+          "reponse": "Parce qu'il permet d'avoir une lecture moins automatique et souvent plus efficace des textes et des decisions.",
+          "explication": "Le document rattache cette qualite au bon travail du juriste en pratique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel risque pedagogique le cours veut-il eviter ?",
+          "reponse": "Celui d'une approche purement descriptive et passive de la regle fiscale.",
+          "explication": "La fiche montre que le cours veut former a comprendre et discuter, pas seulement a reciter.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de la semaine 1 ?",
+          "reponse": "Entrer en droit fiscal, c'est apprendre a lire techniquement la regle tout en gardant la distance critique necessaire pour en mesurer la coherence et les effets.",
+          "explication": "La fiche relie ainsi methode juridique et exigence critique.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1260,
+      "fiche": {
+        "titre": "DFI semaine 11 : classer les impositions par contribuable et par assiette",
+        "resume": "Cette retranscription reprend l'entree dans la seconde partie du cours consacree a la diversite des regimes d'imposition. La fiche en retient une idee directrice : face a la multitude des impots, la demarche la plus utile consiste a les ordonner selon la nature du contribuable et selon l'assiette frappee, tout en gardant a l'esprit que le fardeau economique d'un impot ne coincide pas toujours avec son redevable juridique.",
+        "sections": [
+          {
+            "titre": "Le point de depart est la pluralite tres elevee des impositions existantes",
+            "contenu": "Le document rappelle qu'il existe des centaines d'impositions et que leur recensement exhaustif est difficile. La fiche retient que cette dispersion rend indispensable une methode de selection et de classement."
+          },
+          {
+            "titre": "Le cours assume de ne traiter en detail que les impositions les plus significatives",
+            "contenu": "L'impot sur les societes, l'impot sur le revenu, la TVA ou l'impot sur la fortune sont cites comme des impots centraux. La fiche retient que l'importance pratique et le rendement servent ici de criteres de priorisation."
+          },
+          {
+            "titre": "Une premiere categorie oppose particuliers et entreprises",
+            "contenu": "Le document souligne que cette distinction repose surtout sur la presence d'une comptabilite du cote des entreprises. La fiche retient que l'administration fiscale ne travaille pas techniquement de la meme facon avec un foyer fiscal et avec une entreprise."
+          },
+          {
+            "titre": "Une seconde categorie distingue les assiettes fiscales majeures",
+            "contenu": "Le cours oppose notamment revenus ou benefices, patrimoine ou capital et consommation. La fiche retient que ces assiettes appellent des logiques juridiques et economiques differentes."
+          },
+          {
+            "titre": "Le cours attire enfin l'attention sur la repercussion economique de l'impot des entreprises",
+            "contenu": "Le document montre qu'une entreprise peut transferer le cout fiscal vers les actionnaires, les clients ou les salaries. La fiche retient que la fiscalite des entreprises doit toujours etre lue aussi en termes de fardeau economique reel."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi la seconde partie du cours commence-t-elle par une introduction methodologique ?",
+          "reponse": "Parce que la diversite des impositions impose d'abord un travail de selection et de classement avant toute etude de detail.",
+          "explication": "La fiche souligne la fonction organisatrice de cette introduction.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel ordre de grandeur le cours retient-il pour le nombre d'impositions en France ?",
+          "reponse": "Il retient l'idee de plusieurs centaines d'impositions, autour de deux cents ou davantage.",
+          "explication": "Le document insiste sur la difficulte d'une quantification parfaite.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi certains impots sont-ils privilegies dans le cours ?",
+          "reponse": "Parce qu'ils concernent plus de contribuables ou produisent un rendement plus important que d'autres.",
+          "explication": "La fiche retient une logique de centralite pratique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle distinction entre contribuables structure la presentation du systeme fiscal ?",
+          "reponse": "La distinction entre particuliers et entreprises.",
+          "explication": "Le document la presente comme une commodite de travail majeure.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la comptabilite est-elle decisive dans la specificite fiscale des entreprises ?",
+          "reponse": "Parce qu'elle fournit a l'administration un ensemble de donnees et de categories techniques qui conditionnent le traitement fiscal.",
+          "explication": "La fiche met en relation obligation comptable et technique d'imposition.",
+          "difficulte": 2
+        },
+        {
+          "question": "Cette distinction entre particuliers et entreprises est-elle absolue ?",
+          "reponse": "Non, car certaines impositions peuvent concerner les deux, comme l'impot sur le revenu ou la taxe fonciere.",
+          "explication": "Le cours presente cette separation comme utile mais non etanche.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelles grandes assiettes le cours isole-t-il ?",
+          "reponse": "Les revenus ou benefices, le patrimoine ou le capital, et la consommation.",
+          "explication": "La fiche y voit la seconde grande grille d'organisation du systeme fiscal.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la consommation occupe-t-elle une place singuliere ?",
+          "reponse": "Parce qu'elle supporte notamment la TVA, qui constitue une ressource fiscale majeure.",
+          "explication": "Le document l'associe aussi a d'autres taxes de consommation comme les accises.",
+          "difficulte": 2
+        },
+        {
+          "question": "Que signifie l'idee de repercussion du fardeau fiscal des entreprises ?",
+          "reponse": "Cela signifie que l'entreprise peut transferer le cout de l'impot a d'autres acteurs, comme les clients, les salaries ou les actionnaires.",
+          "explication": "La fiche distingue ici charge juridique et charge economique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de la semaine 11 ?",
+          "reponse": "Comprendre la diversite des impots suppose de croiser la qualite du contribuable, la nature de l'assiette et la question du support economique effectif de la charge fiscale.",
+          "explication": "La fiche unifie ainsi les trois fils du cours.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1261,
+      "fiche": {
+        "titre": "DFI semaine 2 : Constitution, legalite de l'impot et notion d'impositions de toute nature",
+        "resume": "Cette seance ouvre l'etude des sources du droit fiscal par la Constitution et la loi. La fiche en retient une idee directrice : en matiere fiscale, le principe de legalite signifie d'abord que l'impot doit etre defini par la loi, ce qui oblige a identifier ce qui releve vraiment des impositions de toute nature et a distinguer cette categorie d'autres prelevements obligatoires aux vocabulaires parfois trompeurs.",
+        "sections": [
+          {
+            "titre": "Le cours place la Constitution et la loi au sommet de l'analyse des sources fiscales",
+            "contenu": "Le document explique que les normes constitutionnelles sont peu nombreuses mais structurantes pour tout le systeme. La fiche retient que le droit fiscal est ici d'abord pense a partir de ses bornes constitutionnelles."
+          },
+          {
+            "titre": "La QPC a moins bouleverse la fiscalite qu'on ne l'avait parfois espere",
+            "contenu": "Le cours rappelle qu'apres 2010, beaucoup attendaient une remise a plat de pans entiers du droit fiscal. La fiche retient qu'en pratique, le Conseil constitutionnel a surtout prolonge ses lignes deja existantes."
+          },
+          {
+            "titre": "Le principe de legalite signifie que l'impot doit etre dans la loi",
+            "contenu": "Le document insiste sur le fait que la legalite de l'impot n'est pas ici la simple conformite au droit, mais la competence de la loi pour fixer l'assiette, le taux et les modalites de recouvrement. La fiche retient que l'article 34 de la Constitution donne au Parlement le role central."
+          },
+          {
+            "titre": "La notion d'impositions de toute nature sert a delimiter le champ de cette competence",
+            "contenu": "Le cours montre qu'il faut distinguer l'impot d'autres prelevements comme certaines redevances ou cotisations, meme si le vocabulaire legal n'est pas toujours rigoureux. La fiche retient que la qualification depend de la substance juridique plus que du seul nom donne par le legislateur."
+          },
+          {
+            "titre": "Le document souligne enfin le desordre apparent du vocabulaire fiscal",
+            "contenu": "Impot, taxe, contribution ou redevance ne renvoient pas toujours a des categories techniquement stables dans les textes. La fiche retient que le juge doit souvent depasser les etiquettes politiques ou rhetoriques pour identifier la vraie nature du prelevement."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le cours commence-t-il l'etude des sources fiscales par la Constitution et la loi ?",
+          "reponse": "Parce qu'elles fixent les cadres fondamentaux dans lesquels toutes les autres normes fiscales doivent s'inscrire.",
+          "explication": "La fiche presente ces sources comme le point d'entree hierarchiquement prioritaire.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel bilan general le cours tire-t-il de la QPC en matiere fiscale ?",
+          "reponse": "Un bilan relativement modeste, marque davantage par la continuite que par la revolution.",
+          "explication": "Le document rappelle que les attentes initiales etaient plus ambitieuses.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que signifie le principe de legalite de l'impot dans cette seance ?",
+          "reponse": "Il signifie que l'impot doit etre defini par la loi elle-meme.",
+          "explication": "La fiche distingue ce sens du terme legalite de celui rencontre en contentieux administratif.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel texte constitutionnel est ici central pour definir la competence du legislateur fiscal ?",
+          "reponse": "L'article 34 de la Constitution, qui confie a la loi l'assiette, le taux et les modalites de recouvrement des impositions de toute nature.",
+          "explication": "Le document fait de cet article le pivot du principe de legalite fiscale.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la notion d'impositions de toute nature est-elle pratiquement importante ?",
+          "reponse": "Parce qu'elle permet de savoir quels prelevements relevent de la competence reservee du legislateur.",
+          "explication": "La fiche relie directement cette notion a l'enjeu de repartition des competences normatives.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi ne peut-on pas se fier aveuglement au vocabulaire retenu par le legislateur ?",
+          "reponse": "Parce qu'un prelevement qualifie de taxe, de contribution ou meme de redevance peut juridiquement relever d'une autre categorie.",
+          "explication": "Le document decrit un vocabulaire fiscal souvent brouille par des choix politiques ou pratiques.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel role le juge joue-t-il face a ce vocabulaire instable ?",
+          "reponse": "Il doit regarder les caracteristiques reelles du prelevement pour en degager la qualification juridique veritable.",
+          "explication": "La fiche insiste sur la primaut e de la substance sur l'etiquette.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi le principe de legalite est-il presente comme fondamental en droit fiscal ?",
+          "reponse": "Parce qu'il protege le contribuable en reservant a la loi la definition des elements essentiels de l'impot.",
+          "explication": "Le document le rattache a la tradition issue de la DDHC.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle confusion conceptuelle le cours cherche-t-il a eviter des le debut ?",
+          "reponse": "La confusion entre les differents types de prelevements obligatoires et l'idee selon laquelle leurs noms suffiraient a les classer.",
+          "explication": "La fiche montre que l'apprentissage fiscal commence par une clarification terminologique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de la semaine 2 ?",
+          "reponse": "La legalite de l'impot impose de raisonner a partir de la competence de la loi et de qualifier rigoureusement les prelevements au-dela de leurs etiquettes textuelles.",
+          "explication": "La fiche relie ainsi Constitution, Parlement et notion d'impositions de toute nature.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
