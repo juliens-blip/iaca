@@ -1,0 +1,368 @@
+{
+  "documents": [
+    {
+      "document_id": 1287,
+      "fiche": {
+        "titre": "DAB 12 : regie, marche public et concession comme grands modes de realisation des travaux publics",
+        "resume": "Ce cours presente les principaux modes de realisation des travaux et ouvrages publics. La fiche en retient une idee directrice : l'administration peut faire realiser des travaux publics soit par elle-meme, soit par un tiers, mais les techniques mobilisees ne reposent pas sur la meme logique economique ni sur la meme repartition des risques, ce qui oppose notamment la regie, le marche public de travaux et la concession.",
+        "sections": [
+          {
+            "titre": "Le cours ouvre le regime des travaux publics par l'etude de leurs modes de realisation",
+            "contenu": "Le document annonce qu'il ne traite ici que les techniques principales, les details relevant davantage du droit des contrats publics. La fiche retient que le DAB mobilise ici des outils contractuels sans se confondre avec leur regime complet."
+          },
+          {
+            "titre": "La regie correspond a une realisation directe par la personne publique",
+            "contenu": "Le cours explique qu'en regie, l'administration mobilise ses propres moyens humains, materiels et financiers. La fiche retient que cette solution reste plutot reservee aux travaux modestes ou urgents, lorsque la personne publique peut les assumer elle-meme."
+          },
+          {
+            "titre": "Le marche public de travaux repose sur une logique d'achat",
+            "contenu": "Le document presente le marche public comme un contrat de la commande publique, soumis en principe a des obligations de publicite et de mise en concurrence. La fiche retient que la personne publique paie un prix pour obtenir la realisation des travaux."
+          },
+          {
+            "titre": "La concession de travaux ne fonctionne pas sur le versement d'un prix",
+            "contenu": "Le cours souligne que le concessionnaire se remunere principalement par l'exploitation de l'operation ou de l'ouvrage realise. La fiche retient que la concession releve d'une logique concessive et non d'une logique d'achat."
+          },
+          {
+            "titre": "Le point decisif de distinction entre marche et concession tient a la remuneration et au risque",
+            "contenu": "Le document montre qu'avec la concession, le cocontractant depend de l'exploitation et donc supporte une part du risque economique. La fiche retient que cette difference economique structure le choix de l'instrument juridique."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Quel est l'objet principal du chapitre consacre a la realisation des travaux publics ?",
+          "reponse": "Il presente les principales techniques juridiques permettant de faire realiser des travaux et ouvrages publics.",
+          "explication": "La fiche le lit comme une introduction fonctionnelle aux modes de production de l'ouvrage public.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que signifie la realisation des travaux publics en regie ?",
+          "reponse": "Cela signifie que la personne publique realise elle-meme les travaux avec ses propres moyens.",
+          "explication": "Le document oppose cette hypothese a l'externalisation contractuelle.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi l'administration recourt-elle rarement a la regie ?",
+          "reponse": "Parce qu'elle ne dispose pas toujours des moyens financiers, materiels ou humains suffisants pour realiser elle-meme les travaux.",
+          "explication": "La fiche rappelle que la regie reste surtout utile pour des besoins modestes ou urgents.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est le premier trait distinctif du marche public de travaux ?",
+          "reponse": "C'est un contrat de la commande publique soumis en principe a la publicite et a la mise en concurrence.",
+          "explication": "Le document rattache ce trait a la recherche de la meilleure offre.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi dit-on que le marche public s'inscrit dans une logique d'achat ?",
+          "reponse": "Parce que la personne publique paie un prix pour obtenir la realisation des travaux.",
+          "explication": "La fiche fait de ce prix l'element economique central du marche.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est l'interet pratique du marche public de travaux pour la personne publique ?",
+          "reponse": "Il lui permet de disposer de l'ouvrage des sa construction en ayant finance directement sa realisation.",
+          "explication": "Le document insiste sur cette disponibilite immediate de l'ouvrage achete.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qui distingue d'abord la concession du marche public ?",
+          "reponse": "La concession ne repose pas sur le paiement d'un prix par la personne publique au cocontractant.",
+          "explication": "La fiche fait de cette difference le critere immediat le plus visible.",
+          "difficulte": 1
+        },
+        {
+          "question": "Comment le concessionnaire de travaux se remunere-t-il en principe ?",
+          "reponse": "Il se remunere principalement par l'exploitation de l'ouvrage ou de l'operation qu'il realise.",
+          "explication": "Le document relie cette remuneration a l'usage payant par les usagers.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la concession implique-t-elle une logique de risque economique differente du marche ?",
+          "reponse": "Parce que la remuneration du concessionnaire depend de l'exploitation, et donc du succes economique de l'operation.",
+          "explication": "La fiche y voit la cle de lecture economique du contrat concessif.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DAB 12 ?",
+          "reponse": "Les travaux publics peuvent etre realises directement ou contractuellement, mais le choix entre regie, marche et concession depend surtout du mode de financement, de remuneration et de portage du risque.",
+          "explication": "La fiche unifie ainsi les trois grandes techniques presentes par le cours.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1289,
+      "fiche": {
+        "titre": "DAB 2 : domaine public et domaine prive comme deux types de proprietes publiques",
+        "resume": "Ce cours ouvre la presentation particuliere des proprietes publiques. La fiche en retient une idee directrice : la propriete publique ne forme pas un ensemble uniforme, car elle se partage entre domaine public et domaine prive, soumis a un meme socle de propriete publique mais a des regimes particuliers differents, ce qui rend leur distinction indispensable.",
+        "sections": [
+          {
+            "titre": "Le cours part de la division fondamentale de la propriete publique en deux grands types",
+            "contenu": "Le document oppose le domaine public et le domaine prive. La fiche retient que cette distinction est necessaire parce que les biens publics ne recoivent pas tous le meme traitement juridique."
+          },
+          {
+            "titre": "Domaine public et domaine prive partagent un meme regime general de propriete publique",
+            "contenu": "Le cours rappelle qu'ils relevent tous deux de la propriete des personnes publiques. La fiche retient que la difference ne porte pas sur la qualite publique du proprietaire, mais sur le regime particulier applicable au bien."
+          },
+          {
+            "titre": "Le domaine public est globalement soumis a des regles exorbitantes de droit administratif",
+            "contenu": "Le document l'oppose au domaine prive, plus proche du droit prive. La fiche retient que la distinction entre les deux domaines est d'abord une distinction de regime."
+          },
+          {
+            "titre": "La definition du domaine public immobilier se construit autour de l'article L. 2111-1 du CG3P",
+            "contenu": "Le cours insiste sur les affectations a l'usage direct du public ou au service public avec amenagement indispensable. La fiche retient que la domanialite publique administrative repose largement sur l'affectation du bien."
+          },
+          {
+            "titre": "Le domaine public peut aussi resulter d'une attribution directe par la loi",
+            "contenu": "Le document distingue ainsi le domaine public administratif du domaine public legal. La fiche retient que la domanialite peut proceder soit d'une qualification generale appliquee par l'administration, soit d'une decision legislative speciale."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le cours consacre-t-il un titre particulier aux types de proprietes publiques ?",
+          "reponse": "Parce que la propriete publique se divise en plusieurs ensembles soumis a des regimes differents.",
+          "explication": "La fiche fait de cette pluralite la raison d'une etude distincte.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quels sont les deux grands types de proprietes publiques presentes dans ce cours ?",
+          "reponse": "Le domaine public et le domaine prive.",
+          "explication": "Le document les pose comme la dualite centrale de la domanialite publique.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel point commun le domaine public et le domaine prive conservent-ils ?",
+          "reponse": "Ils relevent tous deux de la propriete publique et partagent donc un regime general commun.",
+          "explication": "La fiche rappelle que leur opposition n'efface pas leur appartenance commune a la propriete des personnes publiques.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi faut-il pourtant distinguer soigneusement domaine public et domaine prive ?",
+          "reponse": "Parce qu'ils sont ensuite soumis a des regimes particuliers differents.",
+          "explication": "Le document insiste sur l'importance pratique de cette qualification.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel type de droit gouverne plutot le domaine prive selon le cours ?",
+          "reponse": "Le domaine prive est globalement regi par le droit prive.",
+          "explication": "La fiche le place en contraste avec la logique exorbitante du domaine public.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est le texte central pour la definition generale du domaine public immobilier ?",
+          "reponse": "L'article L. 2111-1 du Code general de la propriete des personnes publiques.",
+          "explication": "Le document le presente comme la disposition phare en la matiere.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelles sont les deux grandes affectations alternatives mentionnees par l'article L. 2111-1 du CG3P ?",
+          "reponse": "L'affectation a l'usage direct du public et l'affectation a un service public avec amenagement indispensable.",
+          "explication": "La fiche en fait la charpente de la domanialite publique administrative.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi parle-t-on de domaine public administratif ?",
+          "reponse": "Parce que l'administration applique la definition generale du domaine public a ses biens en les affectant de maniere appropriee.",
+          "explication": "Le document oppose cette logique a celle du domaine public legal, cree directement par la loi.",
+          "difficulte": 2
+        },
+        {
+          "question": "Qu'est-ce qui distingue le domaine public legal du domaine public administratif ?",
+          "reponse": "Le domaine public legal resulte d'une attribution speciale par la loi, meme si le bien ne repond pas necessairement a la definition generale.",
+          "explication": "La fiche y voit une voie autonome d'entree dans la domanialite publique.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DAB 2 ?",
+          "reponse": "La propriete publique se partage entre domaine public et domaine prive, et cette dualite sert surtout a distribuer des regimes juridiques differents selon la fonction et la qualification du bien.",
+          "explication": "La fiche relie ainsi unite de la propriete publique et diversite de ses regimes.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1290,
+      "fiche": {
+        "titre": "DAB 3 : incorporation au domaine public, affectation et distinctions entre incorporations subjectives et objectives",
+        "resume": "Ce cours presente la maniere dont les biens entrent dans le domaine public. La fiche en retient une idee directrice : parce que la domanialite publique soumet un bien a un regime exorbitant, son entree dans le domaine public ne se presume pas, mais repose sur des mecanismes d'incorporation qui varient selon que le type de domaine public est defini par l'affectation ou par des caracteristiques plus objectives.",
+        "sections": [
+          {
+            "titre": "Le cours justifie l'existence d'une operation d'incorporation par le caractere exorbitant du domaine public",
+            "contenu": "Le document explique qu'un bien appartenant a une personne publique releve d'abord en principe du domaine prive. La fiche retient que l'entree dans le domaine public suppose une operation supplementaire qui legitime l'application d'un droit special."
+          },
+          {
+            "titre": "L'incorporation varie selon les types de domaines publics identifies dans le cours",
+            "contenu": "Le document rappelle la diversite des domaines publics et ses consequences pratiques. La fiche retient qu'il n'existe pas une seule technique d'entree dans le domaine public, mais plusieurs logiques d'incorporation."
+          },
+          {
+            "titre": "Une premiere logique d'incorporation correspond aux domaines definis par affectation",
+            "contenu": "Le cours vise en particulier le domaine public administratif immobilier et une partie du domaine public legal artificiel. La fiche retient que, dans ces cas, la finalite d'interet general ou de service public commande l'entree du bien dans la domanialite publique."
+          },
+          {
+            "titre": "Une seconde logique correspond aux domaines definis par enumeration ou caracteristiques objectives",
+            "contenu": "Le document cite surtout le domaine public naturel et certaines hypotheses de domaine public mobilier. La fiche retient que certains biens relevent du domaine public non parce qu'ils sont affectes, mais parce qu'ils correspondent a une categorie objective prevue par la loi."
+          },
+          {
+            "titre": "De cette dualite nait la distinction entre incorporations subjectives et incorporations objectives",
+            "contenu": "Le cours annonce ainsi deux voies d'entree principales dans la domanialite publique. La fiche retient que la premiere passe par une decision et une affectation, alors que la seconde depend davantage de la nature ou des caracteres du bien lui-meme."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le domaine public exige-t-il une incorporation particuliere du bien ?",
+          "reponse": "Parce qu'il soumet le bien a un regime exorbitant du droit commun, ce qui justifie une entree juridiquement structuree.",
+          "explication": "La fiche relie l'incorporation a l'exceptionnalite du regime domanial public.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel est le statut de principe d'un bien appartenant a une personne publique avant incorporation ?",
+          "reponse": "Il releve en principe du domaine prive de cette personne publique.",
+          "explication": "Le document fait de cette idee le point de depart du raisonnement.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi n'existe-t-il pas une seule modalite d'incorporation au domaine public ?",
+          "reponse": "Parce que les differents types de domaines publics ne sont pas tous definis selon les memes criteres.",
+          "explication": "La fiche montre que la diversite de la domanialite publique produit une diversite des entrees possibles.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel type de definition domine pour le domaine public administratif immobilier ?",
+          "reponse": "Une definition par affectation.",
+          "explication": "Le document rappelle ici le role de l'usage direct du public ou du service public avec amenagement indispensable.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que signifie une definition du domaine public par affectation ?",
+          "reponse": "Cela signifie que la domanialite du bien depend d'abord de la finalite d'interet general ou de service public qui lui est assignee.",
+          "explication": "La fiche relie cette logique a l'idee d'incorporation subjective.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quels grands ensembles relevent plutot d'une definition par enumeration selon le cours ?",
+          "reponse": "Le domaine public naturel et une partie importante du domaine public mobilier.",
+          "explication": "Le document y voit des hypotheses fondees sur des caracteres objectifs plutot que sur une affectation.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi parle-t-on d'incorporation objective dans certaines hypotheses ?",
+          "reponse": "Parce que l'entree dans le domaine public depend surtout de la nature du bien ou de son appartenance a une categorie legale objective.",
+          "explication": "La fiche oppose cette logique a celle, plus volontaire, de l'affectation administrative.",
+          "difficulte": 2
+        },
+        {
+          "question": "Pourquoi l'affectation joue-t-elle un role aussi central dans certaines formes de domanialite publique ?",
+          "reponse": "Parce qu'elle donne au bien la finalite d'interet general qui justifie son assujettissement au droit special du domaine public.",
+          "explication": "Le document insiste sur cette justification teleologique du regime exorbitant.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quel est l'interet de distinguer incorporation subjective et incorporation objective ?",
+          "reponse": "Cette distinction permet de comprendre que tous les biens publics n'entrent pas dans le domaine public selon les memes raisons ni les memes mecanismes.",
+          "explication": "La fiche en fait une cle de lecture generale de la domanialite.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DAB 3 ?",
+          "reponse": "L'incorporation au domaine public est l'operation qui fait basculer un bien vers un regime exorbitant, et cette operation prend des formes differentes selon que la domanialite repose sur l'affectation ou sur des donnees plus objectives.",
+          "explication": "La fiche relie ainsi entree dans le domaine public et pluralite de ses definitions.",
+          "difficulte": 1
+        }
+      ]
+    },
+    {
+      "document_id": 1291,
+      "fiche": {
+        "titre": "DAB 4 : utilisation du domaine public par l'administration, gestion, affectation et droits des tiers",
+        "resume": "Ce cours traite de l'utilisation du domaine public. La fiche en retient une idee directrice : parler d'utilisation du domaine public, c'est viser a la fois la gestion par l'administration et l'usage par les administr es, mais lorsque l'administration utilise ses propres biens, sa liberte reste toujours encadree par l'affectation du bien et, dans certains cas, par les droits propres reconnus a des tiers ou a des affectataires.",
+        "sections": [
+          {
+            "titre": "Le cours emploie une notion large d'utilisation qui recouvre deux realites differentes",
+            "contenu": "Le document distingue la gestion du domaine public et son usage par de simples utilisateurs. La fiche retient que la notion d'utilisation permet de penser a la fois la maitrise du bien et son emploi concret."
+          },
+          {
+            "titre": "L'administration ou le gestionnaire du domaine public disposent en principe d'une marge de manoeuvre importante",
+            "contenu": "Le cours met en avant une liberte generale de gerer et d'exploiter le domaine public. La fiche retient que cette liberte constitue le point de depart de l'analyse, meme si elle n'est jamais absolue."
+          },
+          {
+            "titre": "La premiere grande limite a cette liberte tient a l'affectation du bien",
+            "contenu": "Le document rappelle que les biens du domaine public doivent etre utilises conformement a leur affectation a l'utilite publique. La fiche retient que le proprietaire public n'est pas libre d'ignorer la finalite domaniale de son propre bien."
+          },
+          {
+            "titre": "Le cours distingue utilisation conforme et utilisation simplement compatible",
+            "contenu": "L'utilisation conforme realise directement l'affectation du bien, tandis que l'utilisation compatible ne la realise pas mais ne la contredit pas. La fiche retient que cette distinction laisse a l'administration une souplesse appreciable dans l'usage de ses dependances."
+          },
+          {
+            "titre": "Les droits de certains tiers peuvent encore resserrer la marge du proprietaire public",
+            "contenu": "Le document prend l'exemple des edifices affectes au culte, pour lesquels le proprietaire doit tenir compte des prerogatives de l'affectataire. La fiche retient que le domaine public peut etre juridiquement charge de protections opposables meme a son proprietaire."
+          }
+        ]
+      },
+      "flashcards": [
+        {
+          "question": "Pourquoi le cours parle-t-il d'utilisation du domaine public dans un sens volontairement large ?",
+          "reponse": "Parce que cette notion permet de viser a la fois la gestion du domaine par l'administration et l'usage par de simples utilisateurs.",
+          "explication": "La fiche montre que le mot utilisation sert a couvrir deux niveaux d'analyse.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle difference generale existe-t-il entre un gestionnaire du domaine public et un simple usager ?",
+          "reponse": "Le gestionnaire est responsable du domaine et peut l'exploiter dans le cadre de ses missions, alors que le simple usager ne fait qu'en user.",
+          "explication": "Le document fait de cette distinction un point de depart essentiel.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quel principe general le cours reconnait-il a l'administration dans l'utilisation de son domaine public ?",
+          "reponse": "Une liberte de gestion et d'exploitation du domaine public.",
+          "explication": "La fiche rappelle que cette liberte est consacree mais non absolue.",
+          "difficulte": 1
+        },
+        {
+          "question": "Quelle est la premiere grande limite a la liberte d'utiliser le domaine public ?",
+          "reponse": "L'affectation du bien a l'utilite publique.",
+          "explication": "Le document insiste sur le fait que cette affectation s'impose d'abord au proprietaire lui-meme.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que signifie une utilisation conforme du domaine public ?",
+          "reponse": "C'est une utilisation qui repond directement a l'affectation du bien.",
+          "explication": "La fiche en donne l'exemple d'un etablissement scolaire utilise pour le service public de l'education.",
+          "difficulte": 1
+        },
+        {
+          "question": "Que signifie une utilisation compatible du domaine public ?",
+          "reponse": "C'est une utilisation qui ne correspond pas exactement a l'affectation du bien mais qui ne la gene pas.",
+          "explication": "Le document illustre cela par l'utilisation d'une ecole comme bureau de vote le week-end.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi la distinction entre utilisation conforme et compatible est-elle importante ?",
+          "reponse": "Parce qu'elle permet a l'administration de conserver une marge de manoeuvre sans meconnaitre la destination du bien.",
+          "explication": "La fiche y voit un instrument de souplesse dans la gestion domaniale.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle autre limite peut s'imposer au proprietaire public dans l'utilisation de son bien ?",
+          "reponse": "Les droits reconnus a certains tiers ou affectataires.",
+          "explication": "Le document montre que la liberte du proprietaire peut etre encadree par des situations juridiques particulieres.",
+          "difficulte": 1
+        },
+        {
+          "question": "Pourquoi les edifices affectes au culte constituent-ils un exemple marquant ?",
+          "reponse": "Parce que leur proprietaire public doit respecter l'affectation cultuelle et peut avoir besoin de l'accord de l'affectataire pour certaines utilisations.",
+          "explication": "La fiche y voit une hypothese forte de limitation de la volonte du proprietaire.",
+          "difficulte": 2
+        },
+        {
+          "question": "Quelle idee generale faut-il retenir de DAB 4 ?",
+          "reponse": "L'administration gere librement son domaine public en principe, mais cette liberte reste constamment disciplinee par l'affectation du bien et, parfois, par des droits opposes par des tiers ou affectataires.",
+          "explication": "La fiche relie ainsi gestion domaniale, finalite publique et protections specifiques.",
+          "difficulte": 1
+        }
+      ]
+    }
+  ]
+}
