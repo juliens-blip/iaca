@@ -371,6 +371,8 @@ export default function QuizPage() {
                   <button
                     onClick={toggleExpanded}
                     className="w-full text-left flex items-start gap-2 group"
+                    aria-expanded={isExpanded}
+                    aria-label={`Détails de la question ${idx + 1}`}
                   >
                     <div className="mt-0.5">
                       {isCorrect ? (
@@ -453,7 +455,7 @@ export default function QuizPage() {
 
         {/* Header with quit, title, and matière */}
         <div className="flex items-center justify-between gap-2 px-1">
-          <button onClick={resetToList} className="btn-ghost flex items-center gap-1.5 text-sm px-2 -ml-2">
+          <button onClick={resetToList} className="btn-ghost flex items-center gap-1.5 text-sm px-2 -ml-2" aria-label="Quitter le quiz">
             <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d="M10.5 19.5 3 12m0 0 7.5-7.5M3 12h18" />
             </svg>

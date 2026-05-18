@@ -25,13 +25,13 @@ interface Matiere {
   nom: string;
 }
 
-// Mapping couleurs des matières
-const matiereColors: Record<string, { bg: string; text: string; border: string }> = {
-  "Droit public": { bg: "bg-blue-500/20", text: "text-blue-400", border: "border-blue-500/30" },
-  "Économie et finances publiques": { bg: "bg-emerald-500/20", text: "text-emerald-400", border: "border-emerald-500/30" },
-  "Questions contemporaines": { bg: "bg-amber-500/20", text: "text-amber-400", border: "border-amber-500/30" },
-  "Questions sociales": { bg: "bg-rose-500/20", text: "text-rose-400", border: "border-rose-500/30" },
-  "Relations internationales": { bg: "bg-violet-500/20", text: "text-violet-400", border: "border-violet-500/30" },
+// Mapping couleurs des matières (charte 2.1 + contraste de pertinence)
+const matiereColors: Record<string, { bg: string; text: string; border: string; gradient: string }> = {
+  "Droit public": { bg: "bg-blue-500/20", text: "text-blue-400", border: "border-blue-500/30", gradient: "from-blue-600/15 to-blue-900/5" },
+  "Économie et finances publiques": { bg: "bg-emerald-500/20", text: "text-emerald-400", border: "border-emerald-500/30", gradient: "from-emerald-600/15 to-emerald-900/5" },
+  "Questions contemporaines": { bg: "bg-amber-500/20", text: "text-amber-400", border: "border-amber-500/30", gradient: "from-amber-600/15 to-amber-900/5" },
+  "Questions sociales": { bg: "bg-rose-500/20", text: "text-rose-400", border: "border-rose-500/30", gradient: "from-rose-600/15 to-rose-900/5" },
+  "Relations internationales": { bg: "bg-violet-500/20", text: "text-violet-400", border: "border-violet-500/30", gradient: "from-violet-600/15 to-violet-900/5" },
 };
 
 export default function FlashcardsPage() {
@@ -169,9 +169,9 @@ export default function FlashcardsPage() {
   }, [flashcards, matieres]);
 
   // Utilitaires pour les stats et filtres
-  const getColorForMatiere = (matiereName?: string): { bg: string; text: string; border: string } => {
-    if (!matiereName) return { bg: "bg-slate-500/20", text: "text-slate-400", border: "border-slate-500/30" };
-    return matiereColors[matiereName] || { bg: "bg-slate-500/20", text: "text-slate-400", border: "border-slate-500/30" };
+  const getColorForMatiere = (matiereName?: string): { bg: string; text: string; border: string; gradient: string } => {
+    if (!matiereName) return { bg: "bg-slate-500/20", text: "text-slate-400", border: "border-slate-500/30", gradient: "from-slate-600/15 to-slate-900/5" };
+    return matiereColors[matiereName] || { bg: "bg-slate-500/20", text: "text-slate-400", border: "border-slate-500/30", gradient: "from-slate-600/15 to-slate-900/5" };
   };
 
   const getDifficultyStars = (easeFactor?: number) => {
@@ -566,15 +566,15 @@ export default function FlashcardsPage() {
                         className="cursor-pointer select-none h-[180px]"
                       >
                         {!isFlipped ? (
-                          /* Face avant - gradient matiere (charte 5.2 - contraste de pertinence) */
-                          <div className={`h-full rounded-xl border ${colors.border} bg-gradient-to-br from-slate-800/70 to-slate-900/70 p-4 flex flex-col transition-all duration-200 hover:border-opacity-100 hover:shadow-lg`}>
+                          /* Face avant - gradient matiere leger 15-20% opacite (charte 5.2 - contraste de pertinence) */
+                          <div className={`h-full rounded-xl border ${colors.border} bg-gradient-to-br ${colors.gradient} p-4 flex flex-col transition-all duration-200 hover:border-opacity-100 hover:shadow-lg`}>
                             <div className="flex items-start justify-between gap-2 mb-2">
                               <div className={`inline-block px-2 py-0.5 rounded-md text-xs font-semibold border ${colors.bg} ${colors.text} ${colors.border}`}>
                                 {matiereName}
                               </div>
                               <div className="flex items-center gap-0.5 shrink-0">
                                 {Array.from({ length: 5 }).map((_, i) => (
-                                  <svg key={i} className={`w-3 h-3 ${i < stars ? "text-amber-400 fill-current" : "text-slate-700"}`} viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
+                                  <svg key={i} className={`w-3 h-3 ${i < stars ? "text-slate-400/60 fill-current" : "text-slate-700"}`} viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                                     <path strokeLinecap="round" strokeLinejoin="round" d="M11.48 3.499a.562.562 0 0 1 1.04 0l2.125 5.111a.563.563 0 0 0 .475.345l5.518.442c.499.04.701.663.321.988l-4.204 3.602a.563.563 0 0 0-.182.557l1.285 5.385a.562.562 0 0 1-.84.61l-4.725-2.885a.562.562 0 0 0-.586 0L6.982 20.54a.562.562 0 0 1-.84-.61l1.285-5.386a.562.562 0 0 0-.182-.557l-4.204-3.602a.562.562 0 0 1 .321-.988l5.518-.442a.563.563 0 0 0 .475-.345L11.48 3.5Z" />
                                   </svg>
                                 ))}
@@ -597,9 +597,18 @@ export default function FlashcardsPage() {
                             <div className="text-[10px] font-semibold uppercase tracking-widest text-slate-400 mb-2">Reponse</div>
                             <p className="text-sm text-slate-200 flex-1 overflow-y-auto leading-relaxed">{card.reponse}</p>
                             {card.explication && (
-                              <div className="mt-2 pt-2 border-t border-blue-500/20">
-                                <p className="text-[10px] font-semibold text-blue-400 uppercase tracking-wider mb-0.5">Explication</p>
-                                <p className="text-xs text-slate-400 line-clamp-2">{card.explication}</p>
+                              <div className="mt-2 pt-2 border-t border-blue-500/30 bg-blue-500/5 rounded-lg p-2">
+                                <div className="flex items-start gap-2">
+                                  <div className="p-1 rounded bg-blue-500/10 text-blue-400 shrink-0">
+                                    <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                                      <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+                                    </svg>
+                                  </div>
+                                  <div className="flex-1 min-w-0">
+                                    <p className="text-[10px] font-semibold text-blue-400 uppercase tracking-wider mb-0.5">Explication</p>
+                                    <p className="text-xs text-slate-300 line-clamp-2 leading-relaxed">{card.explication}</p>
+                                  </div>
+                                </div>
                               </div>
                             )}
                             <span className="text-[10px] text-slate-500 mt-2 flex items-center gap-1">

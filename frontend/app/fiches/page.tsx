@@ -401,7 +401,7 @@ export default function FichesPage() {
         {/* Header with enhanced visual hierarchy */}
         <div className={`rounded-2xl border ${style.border} bg-gradient-to-br ${style.gradient} p-8 relative overflow-hidden`}>
           <div className="absolute top-0 right-0 w-48 h-48 opacity-5">
-            <svg className="w-full h-full" fill="none" viewBox="0 0 24 24" strokeWidth={0.5} stroke="currentColor">
+            <svg className="w-full h-full text-slate-700" fill="none" viewBox="0 0 24 24" strokeWidth={0.5} stroke="currentColor">
               <path strokeLinecap="round" strokeLinejoin="round" d={style.icon} />
             </svg>
           </div>
@@ -436,7 +436,7 @@ export default function FichesPage() {
                 </svg>
               </div>
               <div className="flex-1">
-                <p className="text-xs font-semibold text-slate-500 uppercase tracking-wider mb-2">Résumé</p>
+                <p className="text-xs font-semibold text-blue-400 uppercase tracking-wider mb-2">Résumé</p>
                 <p className="text-slate-300 text-base leading-7">{selectedFiche.resume}</p>
               </div>
             </div>

@@ -34,7 +34,7 @@ export default function QuizQuestion({
 
   const getChoiceStyle = (index: number) => {
     const base =
-      "flex items-center gap-4 w-full p-4 rounded-xl border-2 transition-all duration-200 text-left";
+      "flex items-center gap-4 w-full p-4 rounded-xl border-2 transition-all duration-200 text-left focus-visible:ring-2 focus-visible:ring-offset-2 focus-visible:ring-blue-500 focus-visible:ring-offset-slate-900";
 
     if (!hasAnswered) {
       if (selectedIndex === index) {
@@ -55,7 +55,7 @@ export default function QuizQuestion({
 
   const getRadioStyle = (index: number) => {
     const base =
-      "w-6 h-6 rounded-full border-2 flex items-center justify-center flex-shrink-0 transition-all duration-200";
+      "w-11 h-11 rounded-full border-2 flex items-center justify-center flex-shrink-0 transition-all duration-200";
 
     if (!hasAnswered) {
       if (selectedIndex === index) {
@@ -70,7 +70,7 @@ export default function QuizQuestion({
     if (index === selectedIndex && index !== reponse_correcte) {
       return `${base} border-red-500 bg-red-500`;
     }
-    return `${base} border-slate-700`;
+    return `${base} border-slate-700/50`;
   };
 
   const letters = ["A", "B", "C", "D", "E", "F"];
@@ -97,7 +97,7 @@ export default function QuizQuestion({
               {((!hasAnswered && selectedIndex === index) ||
                 (hasAnswered && index === reponse_correcte)) && (
                 <svg
-                  className="w-3.5 h-3.5 text-white"
+                  className="w-5 h-5 text-white"
                   fill="none"
                   viewBox="0 0 24 24"
                   strokeWidth={3}
@@ -114,7 +114,7 @@ export default function QuizQuestion({
                 index === selectedIndex &&
                 index !== reponse_correcte && (
                   <svg
-                    className="w-3.5 h-3.5 text-white"
+                    className="w-5 h-5 text-white"
                     fill="none"
                     viewBox="0 0 24 24"
                     strokeWidth={3}
