@@ -23,12 +23,12 @@ class FicheSectionResponse(FicheSectionBase):
 
 class FicheBase(BaseModel):
     titre: str
-    resume: str = ""
+    resume: Optional[str] = ""
     matiere_id: Optional[int] = None
     document_id: Optional[int] = None
-    chapitre: str = ""
-    tags: str = ""
-    ordre: int = 0
+    chapitre: Optional[str] = ""
+    tags: Optional[str] = ""
+    ordre: Optional[int] = 0
 
 
 class FicheCreate(FicheBase):
@@ -37,7 +37,7 @@ class FicheCreate(FicheBase):
 
 class FicheResponse(FicheBase):
     id: int
-    created_at: datetime
+    created_at: Optional[datetime] = None
     sections: list[FicheSectionResponse] = []
 
     class Config:
@@ -46,7 +46,7 @@ class FicheResponse(FicheBase):
 
 class FicheListItem(FicheBase):
     id: int
-    created_at: datetime
+    created_at: Optional[datetime] = None
     nb_sections: int = 0
 
     class Config:

@@ -126,12 +126,12 @@ async def list_fiches(
         items.append(FicheListItem(
             id=f.id,
             titre=f.titre,
-            resume=f.resume,
+            resume=f.resume or "",
             matiere_id=f.matiere_id,
             document_id=f.document_id,
-            chapitre=f.chapitre,
-            tags=f.tags,
-            ordre=f.ordre,
+            chapitre=f.chapitre or "",
+            tags=f.tags or "",
+            ordre=f.ordre or 0,
             created_at=f.created_at,
             nb_sections=nb_sections,
         ))
