@@ -700,19 +700,22 @@ COMMENT REDIGER CHAQUE SECTION:
    - MAUVAIS: "Section 1", "Introduction", "Suite", "Le droit", "Article 55"
 
 2. CONTENU (200-350 mots par section): Redige comme si tu ecrivais un cours structure.
-   Chaque section DOIT contenir ces 4 elements:
+   Chaque section DOIT contenir ces 4 elements avec leurs MARQUEURS SEMANTIQUES explicites:
 
-   a) DEFINITION ou PRINCIPE: Commence par expliquer clairement la notion centrale.
+   a) Commence par "**Définition:** " ou "**Principe:** " pour expliquer clairement la notion centrale.
       Ecris comme si l'etudiant n'avait jamais entendu parler du sujet.
+      Exemple: "**Définition:** Le contrôle de conventionnalité est le mécanisme par lequel..."
 
-   b) MECANISME ou CONDITIONS: Explique comment ca fonctionne en pratique.
-      Quelles sont les conditions? Les etapes? Les criteres?
+   b) Continue avec le mécanisme ou les conditions (sans marqueur nécessaire).
+      Explique comment ça fonctionne en pratique. Quelles sont les conditions? Les étapes? Les critères?
 
-   c) ILLUSTRATION: Donne un exemple concret, une jurisprudence cle, ou un cas pratique.
-      "Par exemple, dans l'arret Blanco (1873), le TC a..."
+   c) Ajoute "**Exemple:** " pour donner un exemple concret, une jurisprudence clé, ou un cas pratique.
+      Exemple: "**Exemple:** Dans l'arrêt Blanco (1873), le TC a établi..."
 
-   d) ENJEU POUR LE CONCOURS: Termine par ce que l'etudiant doit retenir pour l'examen.
-      "En dissertation, ce point permet d'articuler..." ou "Attention, ne pas confondre avec..."
+   d) Termine par "**À retenir:** " pour ce que l'étudiant doit retenir pour l'examen.
+      Exemple: "**À retenir:** Ce mécanisme permet d'écarter une loi contraire au traité."
+      OU utilise "**Attention:** " pour un piège courant.
+      Exemple: "**Attention:** Ne pas confondre contrôle de conventionnalité et de constitutionnalité."
 
 3. RESUME PARTIEL: Synthetise cette partie du document en 60-100 mots.
    Ce resume doit donner envie de lire les sections et situer le contenu dans le programme.
@@ -737,7 +740,7 @@ Reponds UNIQUEMENT en JSON valide (pas de markdown, pas de texte autour):
   ]
 }}
 
-Genere 2 a 4 sections pour cette partie."""
+Genere exactement 4 sections pour cette partie. Si le document est court, chaque section doit couvrir un angle distinct sans inventer: notion, mecanisme, exemple, enjeu concours."""
 
         result = await run_llm_with_fallback(prompt)
         payload = _extract_json_object(result)
