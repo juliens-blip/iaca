@@ -90,13 +90,13 @@ function getMatiereStyle(matiereName: string) {
   return matiereColors[matiereName] || defaultColor;
 }
 
-/** Semantic block detection patterns (charte 5.1) */
+/** Semantic block detection patterns (charte 5.1) — début de paragraphe OU ligne courte de titre */
 const semanticPatterns: { pattern: RegExp; type: "retenir" | "definition" | "exemple" | "attention" | "resume" }[] = [
-  { pattern: /^(?:\*\*)?(?:A retenir|À retenir|Essentiel|Points? (?:cl[eé]s?|essentiels?))(?:\*\*)?[\s:]/i, type: "retenir" },
-  { pattern: /^(?:\*\*)?(?:D[eé]finition|Vocabulaire|Notion)(?:\*\*)?[\s:]/i, type: "definition" },
-  { pattern: /^(?:\*\*)?(?:Exemple|Illustration|Cas (?:pratique|concret))(?:\*\*)?[\s:]/i, type: "exemple" },
-  { pattern: /^(?:\*\*)?(?:Attention|Pi[eè]ge|Erreur (?:courante|fr[eé]quente)|Ne pas confondre|Mise en garde)(?:\*\*)?[\s:]/i, type: "attention" },
-  { pattern: /^(?:\*\*)?(?:En r[eé]sum[eé]|Synth[eè]se|R[eé]capitulatif|Bilan)(?:\*\*)?[\s:]/i, type: "resume" },
+  { pattern: /^(?:\*\*)?(?:A retenir|À retenir|Essentiel|Points? (?:cl[eé]s?|essentiels?)|Enjeu (?:pour le )?concours|Ce qu.il faut retenir)(?:\*\*)?[\s:]/i, type: "retenir" },
+  { pattern: /^(?:\*\*)?(?:D[eé]finition|Vocabulaire|Notion|Principe fondamental)(?:\*\*)?[\s:]/i, type: "definition" },
+  { pattern: /^(?:\*\*)?(?:Exemple|Illustration|Cas (?:pratique|concret)|Jurisprudence|Application)(?:\*\*)?[\s:]/i, type: "exemple" },
+  { pattern: /^(?:\*\*)?(?:Attention|Pi[eè]ge|Erreur (?:courante|fr[eé]quente)|Ne pas confondre|Mise en garde|Risque)(?:\*\*)?[\s:]/i, type: "attention" },
+  { pattern: /^(?:\*\*)?(?:En r[eé]sum[eé]|Synth[eè]se|R[eé]capitulatif|Bilan|Conclusion)(?:\*\*)?[\s:]/i, type: "resume" },
 ];
 
 const semanticConfig = {
@@ -139,7 +139,15 @@ function renderBoldFragments(text: string) {
   });
 }
 
-/** Render fiche section content with semantic blocks and cognitive load optimization (charte) */
+/** D\u00e9tecte si un paragraphe entier est un bloc s\u00e9mantique (commence par mot-cl\u00e9) */
+function detectSemanticBlock(text: string): "retenir" | "definition" | "exemple" | "attention" | "resume" | null {
+  for (const { pattern, type } of semanticPatterns) {
+    if (pattern.test(text)) return type;
+  }
+  return null;
+}
+
+/** Render fiche section content */
 function FormattedContent({ text }: { text: string }) {
   const paragraphs = text.split(/\n{2,}/);
   return (
@@ -148,56 +156,55 @@ function FormattedContent({ text }: { text: string }) {
         const trimmed = para.trim();
         if (!trimmed) return null;
 
-        // Detect semantic blocks (charte 5.1 - Signaling Principle)
-        for (const { pattern, type } of semanticPatterns) {
-          if (pattern.test(trimmed)) {
-            const c = semanticConfig[type];
-            const content = trimmed.replace(pattern, "").trim();
-            return (
-              <div key={i} className={`rounded-xl border ${c.border} ${c.bg} p-5`}>
-                <div className="flex items-start gap-3">
-                  <div className={`p-2 rounded-lg ${c.bg} ${c.text} shrink-0 mt-0.5`}>
-                    <svg className="w-5 h-5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                      <path strokeLinecap="round" strokeLinejoin="round" d={c.icon} />
-                    </svg>
-                  </div>
-                  <div className="flex-1 min-w-0">
-                    <p className={`text-xs font-semibold ${c.text} uppercase tracking-wider mb-2`}>{c.title}</p>
-                    <div className="text-slate-200 text-base leading-7">{renderBoldFragments(content)}</div>
-                  </div>
+        // Bloc s\u00e9mantique (commence par mot-cl\u00e9)
+        const semType = detectSemanticBlock(trimmed);
+        if (semType) {
+          const c = semanticConfig[semType];
+          const content = trimmed.replace(semanticPatterns.find(p => p.type === semType)!.pattern, "").trim();
+          return (
+            <div key={i} className={`rounded-xl border ${c.border} ${c.bg} p-4`}>
+              <div className="flex items-start gap-3">
+                <div className={`p-1.5 rounded-lg ${c.bg} ${c.text} shrink-0 mt-0.5`}>
+                  <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                    <path strokeLinecap="round" strokeLinejoin="round" d={c.icon} />
+                  </svg>
+                </div>
+                <div className="flex-1 min-w-0">
+                  <p className={`text-xs font-semibold ${c.text} uppercase tracking-wider mb-1.5`}>{c.title}</p>
+                  <div className="text-slate-200 text-sm leading-7">{renderBoldFragments(content)}</div>
                 </div>
               </div>
-            );
-          }
+            </div>
+          );
         }
 
-        // Detect bullet lists
         const lines = trimmed.split("\n");
-        const isList = lines.every(l => /^[\s]*[-\u2022\u2013*]\s/.test(l) || !l.trim());
+
+        // Liste \u00e0 puces
+        const isList = lines.length > 1 && lines.every(l => /^[\s]*[-\u2022\u2013*]\s/.test(l) || !l.trim());
         if (isList) {
           return (
-            <ul key={i} className="space-y-2 ml-2">
+            <ul key={i} className="space-y-2 pl-1">
               {lines.filter(l => l.trim()).map((line, j) => (
-                <li key={j} className="flex gap-3 text-slate-300 text-base leading-relaxed">
-                  <span className="text-blue-400/80 mt-1.5 shrink-0">
-                    <svg className="w-2 h-2" viewBox="0 0 12 12" fill="currentColor"><circle cx="6" cy="6" r="4" /></svg>
-                  </span>
+                <li key={j} className="flex gap-3 text-slate-300 text-sm leading-relaxed">
+                  <span className="text-blue-400/60 mt-2 shrink-0 w-1.5 h-1.5 rounded-full bg-current block" />
                   <span className="flex-1">{renderBoldFragments(line.replace(/^[\s]*[-\u2022\u2013*]\s*/, ""))}</span>
                 </li>
               ))}
             </ul>
           );
         }
-        // Detect numbered items
-        const isNumbered = lines.every(l => /^[\s]*\d+[.)]\s/.test(l) || !l.trim());
+
+        // Liste num\u00e9rot\u00e9e
+        const isNumbered = lines.length > 1 && lines.every(l => /^[\s]*\d+[.)]\s/.test(l) || !l.trim());
         if (isNumbered) {
           return (
-            <ol key={i} className="space-y-2 ml-2">
+            <ol key={i} className="space-y-2 pl-1">
               {lines.filter(l => l.trim()).map((line, j) => {
                 const match = line.match(/^[\s]*(\d+)[.)]\s*(.*)/);
                 return (
-                  <li key={j} className="flex gap-3 text-slate-300 text-base leading-relaxed">
-                    <span className="text-blue-400/80 font-semibold tabular-nums shrink-0 w-6 text-right mt-0.5">{match ? match[1] : j + 1}.</span>
+                  <li key={j} className="flex gap-3 text-slate-300 text-sm leading-relaxed">
+                    <span className="text-blue-400/70 font-semibold tabular-nums shrink-0 w-5 text-right mt-0.5 text-xs">{match ? match[1] : j + 1}.</span>
                     <span className="flex-1">{renderBoldFragments(match ? match[2] : line)}</span>
                   </li>
                 );
@@ -205,9 +212,10 @@ function FormattedContent({ text }: { text: string }) {
             </ol>
           );
         }
-        // Default paragraph with bold fragment rendering (charte 3.2)
+
+        // Paragraphe standard
         return (
-          <p key={i} className="text-slate-300 text-base leading-7 whitespace-pre-line">
+          <p key={i} className="text-slate-300 text-sm leading-7">
             {renderBoldFragments(trimmed)}
           </p>
         );
@@ -398,31 +406,47 @@ export default function FichesPage() {
           Retour aux fiches
         </button>
 
-        {/* Header with enhanced visual hierarchy */}
-        <div className={`rounded-2xl border ${style.border} bg-gradient-to-br ${style.gradient} p-8 relative overflow-hidden`}>
-          <div className="absolute top-0 right-0 w-48 h-48 opacity-5">
-            <svg className="w-full h-full text-slate-700" fill="none" viewBox="0 0 24 24" strokeWidth={0.5} stroke="currentColor">
-              <path strokeLinecap="round" strokeLinejoin="round" d={style.icon} />
-            </svg>
-          </div>
-          <div className="relative">
-            {matiereName && (
-              <span className={`inline-flex items-center gap-2 px-3 py-1.5 rounded-full text-sm font-semibold ${style.bg} ${style.text} border ${style.border} mb-4`}>
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+        {/* Header */}
+        <div className={`rounded-2xl border ${style.border} overflow-hidden`}>
+          {/* Bande couleur pleine largeur */}
+          <div className={`h-1.5 bg-gradient-to-r ${style.gradient}`} />
+          <div className={`bg-gradient-to-br ${style.gradient} p-7`}>
+            <div className="flex items-start justify-between gap-4">
+              <div className="flex-1">
+                {matiereName && (
+                  <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-lg text-xs font-semibold ${style.bg} ${style.text} border ${style.border} mb-3`}>
+                    <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                      <path strokeLinecap="round" strokeLinejoin="round" d={style.icon} />
+                    </svg>
+                    {matiereName}
+                  </span>
+                )}
+                <h1 className="text-2xl font-bold text-white leading-tight mb-2 font-heading">{selectedFiche.titre}</h1>
+                {selectedFiche.chapitre && (
+                  <p className="text-sm text-slate-400">{selectedFiche.chapitre}</p>
+                )}
+              </div>
+              <div className={`p-3 rounded-xl ${style.bg} border ${style.border} shrink-0`}>
+                <svg className={`w-6 h-6 ${style.text}`} fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor">
                   <path strokeLinecap="round" strokeLinejoin="round" d={style.icon} />
                 </svg>
-                {matiereName}
-              </span>
-            )}
-            <h1 className="text-3xl font-bold text-white leading-tight mb-3 font-heading">{selectedFiche.titre}</h1>
-            {selectedFiche.chapitre && (
-              <p className="text-base text-slate-400 flex items-center gap-2">
-                <svg className="w-4 h-4" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6.042A8.967 8.967 0 0 0 6 3.75c-1.052 0-2.062.18-3 .512v14.25A8.987 8.987 0 0 1 6 18c2.305 0 4.408.867 6 2.292m0-14.25a8.966 8.966 0 0 1 6-2.292c1.052 0 2.062.18 3 .512v14.25A8.987 8.987 0 0 0 18 18a8.967 8.967 0 0 0-6 2.292m0-14.25v14.25" />
+              </div>
+            </div>
+            {/* Stats rapides */}
+            <div className="flex items-center gap-4 mt-4 pt-4 border-t border-white/10">
+              <span className="text-xs text-slate-400 flex items-center gap-1.5">
+                <svg className="w-3.5 h-3.5 text-slate-500" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 12h.007v.008H3.75V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm-.375 5.25h.007v.008H3.75v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
                 </svg>
-                {selectedFiche.chapitre}
-              </p>
-            )}
+                <strong className={`font-semibold ${style.text}`}>{sortedSections.length}</strong> sections
+              </span>
+              <span className="text-xs text-slate-400 flex items-center gap-1.5">
+                <svg className="w-3.5 h-3.5 text-slate-500" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                  <path strokeLinecap="round" strokeLinejoin="round" d="M12 6v6h4.5m4.5 0a9 9 0 1 1-18 0 9 9 0 0 1 18 0Z" />
+                </svg>
+                ~{Math.max(1, Math.ceil(sortedSections.length * 3))} min de lecture
+              </span>
+            </div>
           </div>
         </div>
 
@@ -485,50 +509,49 @@ export default function FichesPage() {
           </div>
         )}
 
-        {/* Sections en accordeon with enhanced readability */}
-        <div className="space-y-4">
+        {/* Sections en accordeon */}
+        <div className="space-y-3">
           {sortedSections.map((section, idx) => {
             const isOpen = openSections.has(section.id);
             return (
               <div
                 key={section.id}
                 ref={(el) => { sectionRefs.current[section.id] = el; }}
-                className={`rounded-xl border transition-all duration-200 ${
+                className={`rounded-xl border transition-all duration-200 overflow-hidden ${
                   isOpen
                     ? `${style.border} bg-slate-800/60`
-                    : "border-slate-700/40 bg-slate-800/30 hover:border-slate-600/50"
+                    : "border-slate-700/40 bg-slate-800/30 hover:border-slate-600/60 hover:bg-slate-800/50"
                 }`}
               >
+                {/* Bande couleur en haut quand ouvert */}
+                {isOpen && <div className={`h-0.5 w-full bg-gradient-to-r ${style.gradient}`} />}
                 <button
                   onClick={() => toggleSection(section.id)}
-                  className="w-full flex items-center gap-4 text-left p-5"
+                  className="w-full flex items-center gap-3 text-left px-5 py-4"
+                  aria-expanded={isOpen}
                 >
-                  <span className={`w-8 h-8 rounded-full flex items-center justify-center text-sm font-bold shrink-0 transition-colors duration-200 ${
+                  <span className={`w-7 h-7 rounded-lg flex items-center justify-center text-xs font-bold shrink-0 transition-all duration-200 ${
                     isOpen
                       ? `${style.bg} ${style.text} border ${style.border}`
-                      : "bg-slate-700/50 text-slate-400 border border-slate-600/30"
+                      : "bg-slate-700/60 text-slate-500 border border-slate-600/30"
                   }`}>
                     {idx + 1}
                   </span>
-                  <h3 className={`font-semibold text-lg flex-1 transition-colors duration-200 ${isOpen ? "text-white" : "text-slate-300"}`}>
+                  <h3 className={`font-semibold text-base flex-1 transition-colors duration-200 leading-snug ${isOpen ? "text-white" : "text-slate-300"}`}>
                     {section.titre}
                   </h3>
                   <svg
-                    className={`w-5 h-5 text-slate-400 transition-transform duration-300 shrink-0 ${isOpen ? "rotate-180" : ""}`}
-                    fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor"
+                    className={`w-4 h-4 transition-transform duration-300 shrink-0 ${isOpen ? `rotate-180 ${style.text}` : "text-slate-600"}`}
+                    fill="none" viewBox="0 0 24 24" strokeWidth={2.5} stroke="currentColor"
                   >
                     <path strokeLinecap="round" strokeLinejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                   </svg>
                 </button>
-                <div
-                  className={`overflow-hidden transition-all duration-300 ${
-                    isOpen ? "max-h-[5000px] opacity-100" : "max-h-0 opacity-0"
-                  }`}
-                >
-                  <div className="px-5 pb-5 pt-2 ml-12 border-t border-slate-700/30">
+                {isOpen && (
+                  <div className="px-5 pb-6 pt-1 border-t border-slate-700/30">
                     <FormattedContent text={section.contenu} />
                   </div>
-                </div>
+                )}
               </div>
             );
           })}
@@ -726,40 +749,36 @@ export default function FichesPage() {
                   <div className={`flex-1 h-px ${style.border} border-t ml-2`} />
                 </div>
 
-                {/* Cards grid with enhanced visual hierarchy */}
+                {/* Cards grid */}
                 <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4">
                   {group.fiches.map((fiche) => (
                     <div
                       key={fiche.id}
                       onClick={() => openFiche(fiche.id)}
-                      className={`group cursor-pointer rounded-xl border border-slate-700/40 bg-slate-800/30 p-5
-                        hover:border-opacity-100 hover:${style.border} hover:bg-slate-800/60
-                        transition-all duration-200 flex flex-col`}
+                      className="group cursor-pointer rounded-xl overflow-hidden border border-slate-700/50 bg-slate-800/40 hover:bg-slate-800/70 hover:border-slate-600/60 hover:-translate-y-0.5 hover:shadow-lg hover:shadow-black/30 transition-all duration-200 flex flex-col"
                     >
-                      <div className="flex items-start justify-between mb-3 gap-3">
-                        <h3 className={`font-semibold text-base text-slate-200 group-hover:${style.text} transition-colors line-clamp-2 flex-1 leading-snug`}>
-                          {fiche.titre}
-                        </h3>
-                        <svg className={`w-5 h-5 text-slate-600 group-hover:${style.text} flex-shrink-0 mt-0.5 transition-all duration-200 group-hover:translate-x-0.5`} fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                          <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
-                        </svg>
-                      </div>
-                      {fiche.resume && (
-                        <p className="text-sm text-slate-500 mb-4 line-clamp-2 flex-1 leading-relaxed">{fiche.resume}</p>
-                      )}
-                      <div className="flex items-center gap-2 pt-4 border-t border-slate-700/30 mt-auto">
-                        <span className={`inline-flex items-center gap-1.5 px-2.5 py-1 rounded-full text-xs font-semibold ${style.bg} ${style.text} border ${style.border}`}>
-                          <svg className="w-3 h-3" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" d={style.icon} />
+                      {/* Bande couleur matière en haut */}
+                      <div className={`h-1 w-full bg-gradient-to-r ${style.gradient}`} />
+                      <div className="p-5 flex flex-col flex-1">
+                        <div className="flex items-start justify-between gap-3 mb-3">
+                          <h3 className="font-semibold text-base text-white line-clamp-2 flex-1 leading-snug">
+                            {fiche.titre}
+                          </h3>
+                          <svg className={`w-4 h-4 ${style.text} opacity-0 group-hover:opacity-100 flex-shrink-0 mt-0.5 transition-all duration-200 group-hover:translate-x-0.5`} fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
+                            <path strokeLinecap="round" strokeLinejoin="round" d="m8.25 4.5 7.5 7.5-7.5 7.5" />
                           </svg>
-                          {group.matiereName}
-                        </span>
-                        <span className="text-xs text-slate-500 ml-auto flex items-center gap-1.5">
-                          <svg className="w-3.5 h-3.5" fill="none" viewBox="0 0 24 24" strokeWidth={2} stroke="currentColor">
-                            <path strokeLinecap="round" strokeLinejoin="round" d="M8.25 6.75h12M8.25 12h12m-12 5.25h12M3.75 6.75h.007v.008H3.75V6.75Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0ZM3.75 12h.007v.008H3.75V12Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Zm-.375 5.25h.007v.008H3.75v-.008Zm.375 0a.375.375 0 1 1-.75 0 .375.375 0 0 1 .75 0Z" />
-                          </svg>
-                          {fiche.nb_sections} section{fiche.nb_sections !== 1 ? "s" : ""}
-                        </span>
+                        </div>
+                        {fiche.resume && (
+                          <p className="text-sm text-slate-400 mb-4 line-clamp-2 flex-1 leading-relaxed">{fiche.resume}</p>
+                        )}
+                        <div className="flex items-center gap-2 pt-3 border-t border-slate-700/40 mt-auto">
+                          <span className={`inline-flex items-center gap-1.5 px-2 py-0.5 rounded-md text-xs font-semibold ${style.bg} ${style.text}`}>
+                            {fiche.nb_sections} section{fiche.nb_sections !== 1 ? "s" : ""}
+                          </span>
+                          {fiche.chapitre && (
+                            <span className="text-xs text-slate-500 truncate ml-auto">{fiche.chapitre}</span>
+                          )}
+                        </div>
                       </div>
                     </div>
                   ))}
